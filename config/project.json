@@ -1,6 +1,9 @@
 {
-  "publication_name": "",
-  "topic": "",
-  "audience": "",
-  "central_question": ""
+  "publication_name": "Scholar in the Loop",
+  "topic": "Responsible uses of AI in research topic selection and academic writing",
+  "audience": "PhD students in artificial intelligence and operations research who already use LLM tools",
+  "central_question": "Which uses of AI in research topic selection and academic writing improve efficiency without weakening originality, evidentiary rigor, author responsibility, or scholarly value?",
+  "scope": "Topic discovery, research-gap evaluation, outlining, drafting, revision, citation verification, and disclosure.",
+  "exclusions": "Undergraduate cheating, generic workplace productivity, automated paper generation, fabricated citations, and unsupervised acceptance of AI conclusions.",
+  "voice": "Analytical, evidence-led, practical, and skeptical of both AI hype and blanket prohibition."
 }

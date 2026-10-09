@@ -1,0 +1,9 @@
+{
+  "editorial_model": "gpt-6.1-sol",
+  "writing_model": "gpt-6.1-sol",
+  "transcription_model": "whisper-1",
+  "pricing_note": "Costs are reported from configured estimates when present; otherwise cost is null and explicitly unknown.",
+  "usd_per_million_input_tokens": null,
+  "usd_per_million_output_tokens": null,
+  "usd_per_audio_minute": null
+}
