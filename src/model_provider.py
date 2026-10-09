@@ -8,7 +8,7 @@ from typing import Any, TypeVar
 
 from pydantic import BaseModel, ValidationError
 
-from .common import InputError, PipelineError, load_json
+from .common import InputError, PipelineError, load_json, progress
 
 T = TypeVar("T", bound=BaseModel)
 
@@ -38,6 +38,7 @@ def structured_response(
         if not path.is_file():
             raise PipelineError(f"mock response missing: {path}")
         try:
+            progress(stage, f"Loading labeled mock response from {path}", status="wait")
             parsed = schema.model_validate(load_json(path))
         except ValidationError as exc:
             raise InputError(f"invalid mock response for {stage}: {exc}") from exc
@@ -67,6 +68,7 @@ def structured_response(
     last_error: Exception | None = None
     for attempt in range(retries + 1):
         try:
+            progress(stage, f"OpenAI request attempt {attempt + 1}/{retries + 1} using {model_name}; waiting for structured output", status="wait")
             response = client.responses.create(**request)
             if not response.output_text:
                 raise PipelineError("model returned no structured output (possible refusal)")
@@ -78,6 +80,7 @@ def structured_response(
                 "total_tokens": getattr(usage_obj, "total_tokens", 0),
             }
             cost, estimated = _estimate_cost(model_config, usage)
+            progress(stage, f"Structured response received: {usage['input_tokens']} input + {usage['output_tokens']} output tokens", status="ok")
             return parsed, {
                 "provider": "openai-responses",
                 "model": getattr(response, "model", model_name),
@@ -89,6 +92,7 @@ def structured_response(
         except (ValidationError, json.JSONDecodeError, PipelineError, Exception) as exc:
             last_error = exc
             if attempt < retries:
+                progress(stage, f"Attempt {attempt + 1} failed ({exc}); retrying", status="warn")
                 time.sleep(1.5 * (attempt + 1))
                 continue
     raise PipelineError(f"structured model call failed after {retries + 1} attempts: {last_error}")

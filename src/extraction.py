@@ -13,7 +13,7 @@ from typing import Any
 import requests
 import trafilatura
 
-from .common import InputError, PipelineError, compute_version_id, die_from_exception, emit_jsonl, iter_jsonl, normalized_text, relative, repo_path, sha256_text, utc_now, validate_run_dir, write_json, write_receipt
+from .common import InputError, PipelineError, compute_version_id, die_from_exception, iter_jsonl, normalized_text, progress, relative, repo_path, sha256_text, utc_now, validate_run_dir, write_json, write_receipt
 from .schemas import Candidate, Item, Segment
 
 USER_AGENT = "ScholarInTheLoop/1.0 (+https://github.com/Zhekai-Li/ps04)"
@@ -91,6 +91,7 @@ def _youtube_segments(video_id: str) -> list[dict[str, Any]]:
 
 
 def _download(url: str, target: Path) -> None:
+    progress("media", f"Downloading audio to {relative(target)}", status="wait")
     target.parent.mkdir(parents=True, exist_ok=True)
     with requests.get(url, headers={"User-Agent": USER_AGENT}, stream=True, timeout=(20, 120)) as response:
         response.raise_for_status()
@@ -158,6 +159,7 @@ def _transcribe(candidate: Candidate) -> tuple[list[dict[str, Any]], str]:
             raise PipelineError(f"no media URL for {candidate.item_id}")
     upload_path = media_path
     if media_path.stat().st_size > 24_000_000:
+        progress("transcription", f"Compressing {candidate.item_id} below the API file limit", status="wait")
         compressed = media_dir / f"{safe}-compressed.m4a"
         completed = subprocess.run(
             ["ffmpeg", "-y", "-i", str(media_path), "-vn", "-ac", "1", "-b:a", "48k", str(compressed)],
@@ -167,6 +169,8 @@ def _transcribe(candidate: Candidate) -> tuple[list[dict[str, Any]], str]:
             raise PipelineError("media exceeds transcription limit after compression; split it manually")
         upload_path = compressed
     from openai import OpenAI
+    size_mb = upload_path.stat().st_size / 1_000_000
+    progress("transcription", f"Sending {candidate.title[:70]} ({size_mb:.1f} MB) to whisper-1; this may take several minutes", status="wait")
     with upload_path.open("rb") as audio:
         transcript = OpenAI().audio.transcriptions.create(
             file=audio,
@@ -178,6 +182,7 @@ def _transcribe(candidate: Candidate) -> tuple[list[dict[str, Any]], str]:
     segments = _group_words(transcript.words or [])
     if not segments:
         raise PipelineError(f"transcription returned no timestamped words for {candidate.item_id}")
+    progress("transcription", f"Created {len(segments)} timestamped segments for {candidate.item_id}", status="ok")
     return segments, relative(media_path)
 
 
@@ -234,23 +239,29 @@ def _media_segments(candidate: Candidate) -> tuple[list[dict[str, Any]], str | N
     cache_path = cache_dir / f"{key}.json"
     if cache_path.is_file():
         value = json.loads(cache_path.read_text(encoding="utf-8"))
+        progress("transcript", f"Cache hit for {candidate.item_id}", status="ok")
         return value["segments"], value.get("media_path"), "transcript-cache"
     media_path = None
     if candidate.kind == "youtube" and candidate.native_id:
         try:
+            progress("transcript", f"Requesting YouTube captions for {candidate.native_id}", status="wait")
             segments = _youtube_segments(candidate.native_id)
             method = "youtube-captions"
         except Exception:
+            progress("transcript", f"Captions unavailable for {candidate.native_id}; falling back to audio transcription", status="warn")
             segments, media_path = _transcribe(candidate)
             method = "whisper-1"
     elif candidate.transcript_url:
         try:
+            progress("transcript", f"Requesting publisher transcript for {candidate.item_id}", status="wait")
             segments = _transcript_url_segments(candidate.transcript_url)
             method = "publisher-transcript"
         except Exception:
+            progress("transcript", f"Publisher transcript unusable for {candidate.item_id}; falling back to audio transcription", status="warn")
             segments, media_path = _transcribe(candidate)
             method = "whisper-1"
     else:
+        progress("transcript", f"No timestamped transcript for {candidate.item_id}; audio transcription required", status="warn")
         segments, media_path = _transcribe(candidate)
         method = "whisper-1"
     write_json(cache_path, {"segments": segments, "media_path": media_path, "method": method})
@@ -261,17 +272,20 @@ def extract(run_dir_arg: str) -> int:
     stage = "extract_content"
     started = utc_now()
     run_dir = None
-    records: list[dict[str, Any]] = []
+    output_count = 0
     errors: list[str] = []
     input_count = 0
     tools = {"trafilatura", "requests"}
     models: set[str] = set()
     try:
         run_dir = validate_run_dir(run_dir_arg)
-        for raw in iter_jsonl(sys.stdin):
-            input_count += 1
+        raw_records = list(iter_jsonl(sys.stdin))
+        input_count = len(raw_records)
+        progress(stage, f"Starting {input_count} candidates; every completed item is flushed immediately", status="info")
+        for input_index, raw in enumerate(raw_records, 1):
             try:
                 candidate = Candidate.model_validate(raw)
+                progress(stage, f"{candidate.kind}: {candidate.title[:90]}", current=input_index, total=input_count, status="wait")
                 segments = None
                 cache_status = None
                 if candidate.kind == "feed":
@@ -302,11 +316,14 @@ def extract(run_dir_arg: str) -> int:
                     "content_hash": sha256_text(normalized_text(text)),
                     "cache_status": cache_status,
                 }
-                records.append(Item.model_validate(item).model_dump())
+                validated_item = Item.model_validate(item).model_dump()
+                print(json.dumps(validated_item, ensure_ascii=False), flush=True)
+                output_count += 1
+                progress(stage, f"Saved {candidate.item_id} via {cache_status}", current=input_index, total=input_count, status="ok")
             except Exception as exc:
                 errors.append(f"{raw.get('item_id', '<unknown>')}: {exc}")
-        emit_jsonl(records)
-        write_receipt(run_dir, stage, "incomplete" if errors else "completed", started, input_count, len(records), tools=sorted(tools), models=sorted(models), errors=errors)
+                progress(stage, f"Skipped {raw.get('item_id', '<unknown>')}: {exc}", current=input_index, total=input_count, status="error")
+        write_receipt(run_dir, stage, "incomplete" if errors else "completed", started, input_count, output_count, tools=sorted(tools), models=sorted(models), errors=errors)
         for error in errors:
             print(f"{stage}: {error}", file=sys.stderr)
         return 1 if errors else 0

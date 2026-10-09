@@ -79,9 +79,29 @@ def read_jsonl(path: str | Path) -> list[dict[str, Any]]:
 def emit_jsonl(records: Iterable[dict[str, Any]]) -> int:
     count = 0
     for record in records:
-        print(json.dumps(record, ensure_ascii=False))
+        print(json.dumps(record, ensure_ascii=False), flush=True)
         count += 1
     return count
+
+
+def progress(
+    stage: str,
+    message: str,
+    *,
+    current: int | None = None,
+    total: int | None = None,
+    status: str = "info",
+) -> None:
+    """Write a human progress event to stderr without contaminating record stdout."""
+    if os.environ.get("PS04_PROGRESS", "1") == "0":
+        return
+    symbols = {"info": "→", "ok": "✓", "warn": "!", "error": "✗", "wait": "…"}
+    colors = {"info": "\033[34m", "ok": "\033[32m", "warn": "\033[33m", "error": "\033[31m", "wait": "\033[36m"}
+    color = colors.get(status, "") if sys.stderr.isatty() and not os.environ.get("NO_COLOR") else ""
+    reset = "\033[0m" if color else ""
+    position = f" {current}/{total}" if current is not None and total is not None else ""
+    timestamp = datetime.now().strftime("%H:%M:%S")
+    print(f"      {color}{symbols.get(status, '→')}{reset} {timestamp} [{stage}{position}] {message}", file=sys.stderr, flush=True)
 
 
 def canonical_url(url: str) -> str:

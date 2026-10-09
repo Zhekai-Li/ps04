@@ -9,7 +9,7 @@ from typing import Any
 
 import feedparser
 
-from .common import InputError, canonical_url, die_from_exception, emit_jsonl, load_json, stable_item_id, utc_now, validate_run_dir, write_receipt
+from .common import InputError, canonical_url, die_from_exception, emit_jsonl, load_json, progress, stable_item_id, utc_now, validate_run_dir, write_receipt
 from .schemas import Candidate
 
 
@@ -101,7 +101,8 @@ def _youtube_records(source: dict[str, Any], retrieved_at: str) -> tuple[list[di
     records: list[dict[str, Any]] = []
     detail_options = {"quiet": True, "no_warnings": True, "skip_download": True, "noplaylist": True}
     with yt_dlp.YoutubeDL(detail_options) as detail_ydl:
-        for entry in entries:
+        entry_total = len(entries)
+        for entry_index, entry in enumerate(entries, 1):
             if not entry:
                 continue
             video_id = entry.get("id")
@@ -115,6 +116,7 @@ def _youtube_records(source: dict[str, Any], retrieved_at: str) -> tuple[list[di
             # metadata so an upload cannot enter the corpus with collection time as a fake date.
             if not entry.get("upload_date") and not entry.get("timestamp"):
                 try:
+                    progress("youtube metadata", f"Resolving upload date: {entry.get('title') or video_id}", current=entry_index, total=entry_total, status="wait")
                     detail = detail_ydl.extract_info(url, download=False)
                     entry = {**entry, **detail}
                 except Exception as exc:
@@ -162,21 +164,24 @@ def collect(kind: str, run_dir_arg: str) -> int:
             raise InputError("sources.json must contain an array")
         config_kind = {"feeds": "feed", "youtube": "youtube", "podcasts": "podcast"}[kind]
         selected = [source for source in sources if source.get("kind") == config_kind]
+        progress(stage, f"{len(selected)} configured {config_kind} sources", status="info")
         retrieved_at = utc_now()
         all_records: list[dict[str, Any]] = []
         errors: list[str] = []
-        for source in selected:
+        for source_index, source in enumerate(selected, 1):
             required = {"source_id", "publisher_id", "kind", "url"}
             if not required.issubset(source):
                 errors.append(f"invalid source definition: missing {sorted(required - set(source))}")
                 continue
+            progress(stage, f"Fetching {source['source_id']}", current=source_index, total=len(selected), status="wait")
             if config_kind == "youtube":
                 records, source_errors = _youtube_records(source, retrieved_at)
             else:
                 records, source_errors = _feed_records(source, retrieved_at, config_kind == "podcast")
             all_records.extend(records)
+            emit_jsonl(records)
+            progress(stage, f"{source['source_id']}: {len(records)} records", current=source_index, total=len(selected), status="ok" if not source_errors else "warn")
             errors.extend(source_errors)
-        emit_jsonl(all_records)
         status = "incomplete" if errors else "completed"
         write_receipt(run_dir, stage, status, started, len(selected), len(all_records), tools=["feedparser" if config_kind != "youtube" else "yt-dlp"], errors=errors)
         for error in errors:

@@ -137,7 +137,11 @@ Run:
 bash run.sh
 ```
 
-The JSON summary is printed to stdout and saved in the new run. A valid complete run stops at `awaiting_review`. To replay a saved candidate set without counting it as live:
+The terminal shows a numbered progress view: the current collector or candidate, completed counts, cache hits, model-call waits, and the purpose of each stage. Human-readable progress goes to stderr, while the final JSON summary stays clean on stdout and is also saved in the new run. Set `PS04_PROGRESS=0` only when a machine-readable, quiet invocation is needed.
+
+A cached run commonly takes 5–15 minutes. A fresh run can take 20–60 minutes or longer when long podcast or YouTube audio must be downloaded and transcribed. Public captions and publisher transcripts are much faster. Extraction writes each completed item immediately, so `Ctrl-C` preserves finished records and downloaded/transcribed assets; a later run reuses those caches. The incomplete run itself does not count as one of the two required live runs.
+
+A valid complete run stops at `awaiting_review`. To replay a saved candidate set without counting it as live:
 
 ```bash
 bash scripts/replay_run.sh runs/LIVE_RUN_ID

@@ -8,7 +8,7 @@ from typing import Any
 
 from pydantic import ValidationError
 
-from .common import InputError, PipelineError, die_from_exception, emit_jsonl, iter_jsonl, load_json, read_jsonl, repo_path, utc_now, validate_run_dir, write_receipt
+from .common import InputError, PipelineError, die_from_exception, emit_jsonl, iter_jsonl, load_json, progress, read_jsonl, repo_path, utc_now, validate_run_dir, write_receipt
 from .model_provider import structured_response
 from .schemas import BriefBatch, Decision, DecisionBatch, Item
 
@@ -37,6 +37,7 @@ def select(run_dir_arg: str) -> int:
             raise InputError(f"invalid eligible item: {exc}") from exc
         if not items:
             raise PipelineError("no eligible evidence; editorial selection cannot run")
+        progress(stage, f"Preparing {len(items)} eligible evidence items for policy-constrained selection", status="info")
         prompt = (run_dir / "prompts" / "select_items.md").read_text(encoding="utf-8")
         policy = (run_dir / "config" / "editorial_policy.md").read_text(encoding="utf-8")
         project = load_json(run_dir / "config" / "project.json")
@@ -56,6 +57,8 @@ def select(run_dir_arg: str) -> int:
             raise PipelineError("model decisions must cover every eligible item exactly once using the supplied versions")
         ordered = {key: value for key, value in zip(actual, decisions)}
         decisions = [ordered[key] for key in expected]
+        decision_counts = {name: sum(value["decision"] == name for value in decisions) for name in ("accept", "reject", "defer")}
+        progress(stage, f"accept={decision_counts['accept']} · reject={decision_counts['reject']} · defer={decision_counts['defer']}", status="ok")
         emit_jsonl(decisions)
         write_receipt(
             run_dir, stage, "completed", started, len(items), len(decisions), tools=[meta["provider"]],
@@ -113,6 +116,7 @@ def create_briefs(run_dir_arg: str) -> int:
             publishers = {entry["publisher_id"] for entry in accepted.values() if piece_id in entry["piece_ids"]}
             if len(publishers) < 3:
                 raise PipelineError(f"piece {piece_id} has fewer than three assigned independent publishers")
+        progress(stage, f"Building briefs from {len(accepted)} accepted evidence versions", status="info")
         prompt = (run_dir / "prompts" / "create_briefs.md").read_text(encoding="utf-8")
         policy = (run_dir / "config" / "editorial_policy.md").read_text(encoding="utf-8")
         models = load_json(run_dir / "config" / "models.json")
@@ -132,6 +136,7 @@ def create_briefs(run_dir_arg: str) -> int:
         )
         briefs = [brief.model_dump() for brief in result.briefs]
         _validate_brief_support(briefs, accepted)
+        progress(stage, "Validated three briefs and their publisher coverage", status="ok")
         emit_jsonl(briefs)
         write_receipt(
             run_dir, stage, "completed", started, len(decisions), len(briefs), tools=[meta["provider"]],

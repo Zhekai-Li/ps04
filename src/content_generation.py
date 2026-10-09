@@ -6,7 +6,7 @@ from typing import Any
 
 from pydantic import ValidationError
 
-from .common import InputError, PipelineError, die_from_exception, emit_jsonl, iter_jsonl, load_json, read_jsonl, repo_path, utc_now, validate_run_dir, write_receipt
+from .common import InputError, PipelineError, die_from_exception, emit_jsonl, iter_jsonl, load_json, progress, read_jsonl, repo_path, utc_now, validate_run_dir, write_receipt
 from .model_provider import structured_response
 from .schemas import Brief, Item, WrittenBatch
 
@@ -44,6 +44,7 @@ def generate(kind: str, run_dir_arg: str) -> int:
         prompt_name = "write_articles.md" if kind == "articles" else "write_video_scripts.md"
         prompt = (run_dir / "prompts" / prompt_name).read_text(encoding="utf-8")
         models = load_json(run_dir / "config" / "models.json")
+        progress(stage, f"Generating 3 {kind.replace('_', ' ')} from {len(evidence_keys)} exact evidence versions", status="info")
         result, meta = structured_response(
             run_dir=run_dir,
             stage=stage,
@@ -74,6 +75,7 @@ def generate(kind: str, run_dir_arg: str) -> int:
             path = output_dir / f"{piece_id}.md"
             path.write_text(piece["markdown"].rstrip() + "\n", encoding="utf-8")
             manifests.append({"piece_id": piece_id, "path": path.relative_to(repo_path(".")).as_posix(), "claim_ids": claims})
+            progress(stage, f"Saved piece {piece_id} with {len(claims)} claim markers", current=int(piece_id), total=3, status="ok")
         emit_jsonl(manifests)
         write_receipt(
             run_dir, stage, "completed", started, len(briefs), len(manifests), tools=[meta["provider"]],
