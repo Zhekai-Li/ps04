@@ -1,0 +1,1172 @@
+[
+  {
+    "segment_id": "tr-00001",
+    "start_seconds": 5.26,
+    "end_seconds": 14.02,
+    "text": "So, great to be here. What an exciting morning. So many cool announcements. I think the future of bioscience is being announced right here."
+  },
+  {
+    "segment_id": "tr-00002",
+    "start_seconds": 15.06,
+    "end_seconds": 21.66,
+    "text": "So, this is the modeling session. We are all modelers, so of course it's natural for us to talk about data."
+  },
+  {
+    "segment_id": "tr-00003",
+    "start_seconds": 22.62,
+    "end_seconds": 34.2,
+    "text": "So, to start out with, I think one of the things that I like to think about when it comes to data is like, is there a scaling, like how do you scale data properly?"
+  },
+  {
+    "segment_id": "tr-00004",
+    "start_seconds": 34.6,
+    "end_seconds": 46.8,
+    "text": "And this has brought me to this question about the bitter lesson, but recasting the frame of data. So, the bitter lesson for those of you who are not AI people is the statement that"
+  },
+  {
+    "segment_id": "tr-00005",
+    "start_seconds": 46.8,
+    "end_seconds": 57.44,
+    "text": "methods that scale win eventually. If you can just scale enough, it wins. And so, my question, I'll start with Sal here, is there a bitter lesson for data?"
+  },
+  {
+    "segment_id": "tr-00006",
+    "start_seconds": 59.82,
+    "end_seconds": 66.24,
+    "text": "Yeah, I mean, for sure. I think that you obviously need the right data, right, like in order for it to work."
+  },
+  {
+    "segment_id": "tr-00007",
+    "start_seconds": 66.4,
+    "end_seconds": 73.74,
+    "text": "So, I think like one misconception of scaling laws is that, you know, scaling laws are everywhere and they always exist."
+  },
+  {
+    "segment_id": "tr-00008",
+    "start_seconds": 74.04,
+    "end_seconds": 86.04,
+    "text": "I think a lot of the work is actually finding that scaling law, right? Like, you know, I'm just trying to figure out what's the situation where if you put more compute into it, if"
+  },
+  {
+    "segment_id": "tr-00009",
+    "start_seconds": 86.04,
+    "end_seconds": 95.64,
+    "text": "you put more data into it, you actually get, you know, a better result out. And the reason to, that's a great situation is then, you know, once that happens, you can kind of just turn the crank, right?"
+  },
+  {
+    "segment_id": "tr-00010",
+    "start_seconds": 95.74,
+    "end_seconds": 105.82,
+    "text": "Like, becomes an engineering problem, which is something I like. But, you know, that has to do with architecture, but it also very much has to do with data."
+  },
+  {
+    "segment_id": "tr-00011",
+    "start_seconds": 105.96,
+    "end_seconds": 113.62,
+    "text": "So, if you don't have the data with the right data, you can't really get the right information statistics to solve the problem that you want, which is, you know, I think probably pretty obvious."
+  },
+  {
+    "segment_id": "tr-00012",
+    "start_seconds": 113.82,
+    "end_seconds": 120.3,
+    "text": "Like, if you think about it for a second, like you're not going to get a model that has the capabilities and the understanding of you want."
+  },
+  {
+    "segment_id": "tr-00013",
+    "start_seconds": 120.44,
+    "end_seconds": 128.62,
+    "text": "So, you can only really pull the information information from the data that you have and then use that to generate, like, to generalize beyond, right?"
+  },
+  {
+    "segment_id": "tr-00014",
+    "start_seconds": 129.46,
+    "end_seconds": 135.92,
+    "text": "Yeah. So, when it comes to data collection, how do you think about what types of data modalities are best?"
+  },
+  {
+    "segment_id": "tr-00015",
+    "start_seconds": 136.1,
+    "end_seconds": 148.2,
+    "text": "And maybe a kind of related question is, do you think that modelers have a tendency to work on problems which are, the data is available, rather than maybe the data that, or the problem that solves your goal most?"
+  },
+  {
+    "segment_id": "tr-00016",
+    "start_seconds": 148.36,
+    "end_seconds": 158.32,
+    "text": "Like, maybe it has the most impact for translational medicine? Oh, for sure. So, I think that, like, I wouldn't speak for all modelers, but, like, I'm lazy, so I'm going to work with what's available."
+  },
+  {
+    "segment_id": "tr-00017",
+    "start_seconds": 159.12,
+    "end_seconds": 165.16,
+    "text": "And, you know, I think there is actually, like, a good side and a bad side to this."
+  },
+  {
+    "segment_id": "tr-00018",
+    "start_seconds": 165.28,
+    "end_seconds": 177.56,
+    "text": "And, like, the good side is that, you know, I think, like, when you're doing, like, machine learning or, like, conventional machine learning, you're really looking for, like, the most pristine, high -quality, like,"
+  },
+  {
+    "segment_id": "tr-00019",
+    "start_seconds": 177.62,
+    "end_seconds": 189.1,
+    "text": "data examples that you can find. But when you actually, if you're like me, you're actually someone who goes and you're kind of, like, rooting around in the back room looking through people's, like, junk, like, what's there?"
+  },
+  {
+    "segment_id": "tr-00020",
+    "start_seconds": 189.18,
+    "end_seconds": 199.46,
+    "text": "So, like, a concrete example of this is when we train, like, when we train a protein language model, we train on metagenomic sequences, which are not the highest quality data."
+  },
+  {
+    "segment_id": "tr-00021",
+    "start_seconds": 199.46,
+    "end_seconds": 211.5,
+    "text": "In fact, much of that data, I can guarantee you, isn't even, like, a real whole protein. And yet that makes the performance of the model go up for designing real proteins that work,"
+  },
+  {
+    "segment_id": "tr-00022",
+    "start_seconds": 211.66,
+    "end_seconds": 220.82,
+    "text": "that make for understanding proteins that, like, we know are things. And so, you know, that can, you said that's, like, the positive side of it."
+  },
+  {
+    "segment_id": "tr-00023",
+    "start_seconds": 220.92,
+    "end_seconds": 228.62,
+    "text": "But that can lead you to, like, a negative place where you say, like, well, let's just scale up the data that we can generate easily."
+  },
+  {
+    "segment_id": "tr-00024",
+    "start_seconds": 230.52,
+    "end_seconds": 239.48,
+    "text": "And I think that's not the necessarily way to do it. And I think that's one of the things that's really exciting to me about, like, what we're talking about here today with the VBI."
+  },
+  {
+    "segment_id": "tr-00025",
+    "start_seconds": 240.9,
+    "end_seconds": 247.16,
+    "text": "You know, it's really going out and saying, like, what is the data that we need to solve the problem?"
+  },
+  {
+    "segment_id": "tr-00026",
+    "start_seconds": 247.32,
+    "end_seconds": 259.48,
+    "text": "It's the right resources, but also the right community. Like, I think that, you know, one thing that we do at, or we try and do at Biohub anyway, is to work in the open, work with the community and"
+  },
+  {
+    "segment_id": "tr-00027",
+    "start_seconds": 259.48,
+    "end_seconds": 271.68,
+    "text": "move the whole community forward. And I think that's a really critical piece for this, because if you just have, like, people who are building models, you know, we're going to lean towards the data that"
+  },
+  {
+    "segment_id": "tr-00028",
+    "start_seconds": 271.68,
+    "end_seconds": 278.66,
+    "text": "exists. If you just have people who generate the data, they're going to lean towards the things that can be generated."
+  },
+  {
+    "segment_id": "tr-00029",
+    "start_seconds": 278.84,
+    "end_seconds": 287.5,
+    "text": "But, like, if you can work together as a community every step of the way in an open fashion, then you can actually figure out, like, what is the data that we need?"
+  },
+  {
+    "segment_id": "tr-00030",
+    "start_seconds": 287.86,
+    "end_seconds": 293.98,
+    "text": "And then you can find that scaling law. Cool. What do you think, Sal? A better lesson for data."
+  },
+  {
+    "segment_id": "tr-00031",
+    "start_seconds": 294.62,
+    "end_seconds": 306.44,
+    "text": "Yeah. So, I think the, so, I was at DeepMind when Rich was with us and working and thinking about this idea of the bitter lesson."
+  },
+  {
+    "segment_id": "tr-00032",
+    "start_seconds": 306.44,
+    "end_seconds": 318.84,
+    "text": "And when Rich, I took my, the thing that I took from Rich's original sort of lecture that he actually gave at DeepMind was not about the"
+  },
+  {
+    "segment_id": "tr-00033",
+    "start_seconds": 318.84,
+    "end_seconds": 330.0,
+    "text": "actual notion of whether data is useful or how should we think about machine learning. I think my sort of take was that he was talking about something more conceptual."
+  },
+  {
+    "segment_id": "tr-00034",
+    "start_seconds": 330.78,
+    "end_seconds": 341.4,
+    "text": "And the conceptual thing that he was talking about is sometimes when we are looking at problems, we think about solutions in a very religious way."
+  },
+  {
+    "segment_id": "tr-00035",
+    "start_seconds": 344.68,
+    "end_seconds": 353.64,
+    "text": "And I think that's the better lesson that if you approach the problem with that mindset, you might not succeed."
+  },
+  {
+    "segment_id": "tr-00036",
+    "start_seconds": 353.64,
+    "end_seconds": 359.96,
+    "text": "The problem comes first. And you should be flexible in terms of your solution space."
+  },
+  {
+    "segment_id": "tr-00037",
+    "start_seconds": 360.16,
+    "end_seconds": 367.22,
+    "text": "You should try both things. You should see what, you should try to understand what is the problem that you're trying to solve."
+  },
+  {
+    "segment_id": "tr-00038",
+    "start_seconds": 367.22,
+    "end_seconds": 374.16,
+    "text": "And if it requires modeling effort, do the modeling effort. And if it requires the data, collecting more data, then collect data."
+  },
+  {
+    "segment_id": "tr-00039",
+    "start_seconds": 374.52,
+    "end_seconds": 385.32,
+    "text": "But sort of the thing that was, that happened in machine learning in those times is people said, we are machine learning researchers."
+  },
+  {
+    "segment_id": "tr-00040",
+    "start_seconds": 385.6,
+    "end_seconds": 392.86,
+    "text": "The data set is there. Here is some training data. Here is some test data. And we will just optimize the model."
+  },
+  {
+    "segment_id": "tr-00041",
+    "start_seconds": 393.16,
+    "end_seconds": 405.34,
+    "text": "And that is broken. Right? In the sense that if your eventual sort of goal is to solve the problem, then you have to be able to look at both aspects of what goes"
+  },
+  {
+    "segment_id": "tr-00042",
+    "start_seconds": 405.34,
+    "end_seconds": 411.9,
+    "text": "into the process. And what goes into the process is not just data or modeling."
+  },
+  {
+    "segment_id": "tr-00043",
+    "start_seconds": 412.02,
+    "end_seconds": 420.54,
+    "text": "It's also about sort of expertise. So, the example that I have is like with AlphaFold."
+  },
+  {
+    "segment_id": "tr-00044",
+    "start_seconds": 423.1,
+    "end_seconds": 435.72,
+    "text": "We looked at what was possible with current existing data sets because we did not have the core expertise of now sort of going to, or"
+  },
+  {
+    "segment_id": "tr-00045",
+    "start_seconds": 435.72,
+    "end_seconds": 443.46,
+    "text": "even the resources, by the way, to sort of say, let's augment the PDB by a significant sort of order of magnitude."
+  },
+  {
+    "segment_id": "tr-00046",
+    "start_seconds": 443.46,
+    "end_seconds": 453.46,
+    "text": "It was just not, I mean, the amount of sort of investment that organizations and scientists across the world had put in to construct that data was invaluable."
+  },
+  {
+    "segment_id": "tr-00047",
+    "start_seconds": 453.68,
+    "end_seconds": 461.46,
+    "text": "So, there you have to sort of focus on, well, getting the biggest bang out of your buck by investing it in modeling."
+  },
+  {
+    "segment_id": "tr-00048",
+    "start_seconds": 462.28,
+    "end_seconds": 474.48,
+    "text": "But in other areas, if you're sort of approaching, say, cell genomics, then we took the same approach and said, well, what can you do with cell by gene if you're looking at sort of cell genomics?"
+  },
+  {
+    "segment_id": "tr-00049",
+    "start_seconds": 474.48,
+    "end_seconds": 486.6,
+    "text": "And there it was very clear that we, after a bunch of work, that the data was not there yet to be able to build, to go after that grand ambition of building the virtual cell."
+  },
+  {
+    "segment_id": "tr-00050",
+    "start_seconds": 486.86,
+    "end_seconds": 498.9,
+    "text": "And so, it just brings people together to focus on what are the actual challenges if you want to advance science rather than being religiously following like advances"
+  },
+  {
+    "segment_id": "tr-00051",
+    "start_seconds": 498.9,
+    "end_seconds": 505.56,
+    "text": "on data generation or in modeling. Cool. Cool. That's, I really like that answer."
+  },
+  {
+    "segment_id": "tr-00052",
+    "start_seconds": 505.76,
+    "end_seconds": 516.94,
+    "text": "So, what do you think, like, the actionable takeaway is from this? Like, I mean, always define the problem first and then, you know, figure out what solution space to search over."
+  },
+  {
+    "segment_id": "tr-00053",
+    "start_seconds": 517.5,
+    "end_seconds": 527.34,
+    "text": "But more broadly, like, how should the community be thinking about this as we go forward for the next, you know, generation of basically trying to solve translational medicine?"
+  },
+  {
+    "segment_id": "tr-00054",
+    "start_seconds": 527.34,
+    "end_seconds": 536.88,
+    "text": "Yeah, I think the advice that I give to anyone who is working, who is starting in the area is that think of yourself as a multidisciplinary person."
+  },
+  {
+    "segment_id": "tr-00055",
+    "start_seconds": 537.26,
+    "end_seconds": 549.26,
+    "text": "Understand the problem first. Why are you working on this problem? What are we trying to achieve? And then think about what is it that will be needed, whether it's modeling, whether it will be compute scaling, whether it"
+  },
+  {
+    "segment_id": "tr-00056",
+    "start_seconds": 549.26,
+    "end_seconds": 556.04,
+    "text": "will be sort of data generation. So, understanding of that problem sort of is extremely important."
+  },
+  {
+    "segment_id": "tr-00057",
+    "start_seconds": 556.38,
+    "end_seconds": 564.12,
+    "text": "And, of course, then you have to build sort of your expertise in the hows. But, and there are also, it's not as if, like, you don't have constraints."
+  },
+  {
+    "segment_id": "tr-00058",
+    "start_seconds": 564.56,
+    "end_seconds": 576.02,
+    "text": "Maybe there are constraints. Like, there is only a specific amount of data that you can sort of generate. Or there is a specific model size that you can afford to sort of train."
+  },
+  {
+    "segment_id": "tr-00059",
+    "start_seconds": 576.56,
+    "end_seconds": 589.62,
+    "text": "Understand those constraints and stop and try to fail fast. And sort of look at what are the approaches that are going to be feasible in the long term in getting you to that intercept, the intercept"
+  },
+  {
+    "segment_id": "tr-00060",
+    "start_seconds": 589.62,
+    "end_seconds": 601.9,
+    "text": "level, the impact level that you're going after. Yeah. Okay, cool. So, this actually leads me right into my next question, which is, when I look at sort of the evolution of modeling, let's"
+  },
+  {
+    "segment_id": "tr-00061",
+    "start_seconds": 601.9,
+    "end_seconds": 608.26,
+    "text": "say AlphaFold 2 was essentially a work of art. Like, a bunch of very carefully handcrafted features."
+  },
+  {
+    "segment_id": "tr-00062",
+    "start_seconds": 608.78,
+    "end_seconds": 620.92,
+    "text": "There was a lot of thought, very intentional thought done to every part of the solution. And then, I think, you know, some of Google or Alphabet's work has been,"
+  },
+  {
+    "segment_id": "tr-00063",
+    "start_seconds": 621.06,
+    "end_seconds": 627.82,
+    "text": "you know, kind of still stays in that space. But it seems like the general consensus is to move to more scalable, more general strategies."
+  },
+  {
+    "segment_id": "tr-00064",
+    "start_seconds": 628.64,
+    "end_seconds": 640.88,
+    "text": "Do you think that there is still a lot of, like, artisanal craft solutions or problems that need that? Or is our resources better spent on, generally speaking, you know, fixed resources, fixed money"
+  },
+  {
+    "segment_id": "tr-00065",
+    "start_seconds": 640.88,
+    "end_seconds": 653.2,
+    "text": "can go to compute, it can go to talent, it can go to data. You know, should we be focusing on scale first? So, my, again, sort of, let's approach it from first principles."
+  },
+  {
+    "segment_id": "tr-00066",
+    "start_seconds": 654.36,
+    "end_seconds": 666.8,
+    "text": "And think about, even so, like, when you think about, like, the arts and crafts of how do you construct a model to be better, I think it was not an accidental"
+  },
+  {
+    "segment_id": "tr-00067",
+    "start_seconds": 666.8,
+    "end_seconds": 679.18,
+    "text": "thing, right? We did a lot of experimentation, but there was a vision behind it that all this scientific intuition that came from biophysics and biochemistry, that those interactions, that sort"
+  },
+  {
+    "segment_id": "tr-00068",
+    "start_seconds": 679.18,
+    "end_seconds": 685.42,
+    "text": "of amino acid sort of residues are not just doing their own thing. They are being influenced by other residues."
+  },
+  {
+    "segment_id": "tr-00069",
+    "start_seconds": 685.54,
+    "end_seconds": 692.24,
+    "text": "So, let's bake that in. Like, if you can, if you have learned something from the scientific community, use it."
+  },
+  {
+    "segment_id": "tr-00070",
+    "start_seconds": 692.48,
+    "end_seconds": 700.26,
+    "text": "Use that information and try to sort of encourage the model and sort of give it that unfair advantage that it has."
+  },
+  {
+    "segment_id": "tr-00071",
+    "start_seconds": 702.34,
+    "end_seconds": 708.66,
+    "text": "And it does basically make the model much more data efficient because it doesn't have to replicate everything."
+  },
+  {
+    "segment_id": "tr-00072",
+    "start_seconds": 708.66,
+    "end_seconds": 717.86,
+    "text": "I also have to sort of mention that curating good data is an art in itself, right?"
+  },
+  {
+    "segment_id": "tr-00073",
+    "start_seconds": 717.92,
+    "end_seconds": 725.88,
+    "text": "It's not as if, like, you will say, well, put more data. If you replicate the same amount of data, you're not going anywhere. So, it's not just about big data."
+  },
+  {
+    "segment_id": "tr-00074",
+    "start_seconds": 726.04,
+    "end_seconds": 738.08,
+    "text": "It's about good data. And actually understanding sort of the coverage of what data is necessary for making progress in the problem is, in fact, I would say, a much interesting and much more challenging"
+  },
+  {
+    "segment_id": "tr-00075",
+    "start_seconds": 738.08,
+    "end_seconds": 744.12,
+    "text": "problem in itself. Yeah. Well, do you, it looks like you have a thought. So, what do you think?"
+  },
+  {
+    "segment_id": "tr-00076",
+    "start_seconds": 744.6,
+    "end_seconds": 754.14,
+    "text": "Yeah, I think, I mean, I very much agree. I think as you, it really depends on, you know, as you're saying, the problem to be solved."
+  },
+  {
+    "segment_id": "tr-00077",
+    "start_seconds": 754.34,
+    "end_seconds": 764.36,
+    "text": "So, if you have kind of a smaller amount of data, then certainly, you know, having more inductive bias in the model is going to help you, right?"
+  },
+  {
+    "segment_id": "tr-00078",
+    "start_seconds": 764.46,
+    "end_seconds": 776.56,
+    "text": "Like, and you actually need that to get the results on smaller scales of data. As you, you know, as you get more and more data, you know, you see that, like, sometimes the model can"
+  },
+  {
+    "segment_id": "tr-00079",
+    "start_seconds": 776.56,
+    "end_seconds": 786.3,
+    "text": "find things that, like, you didn't necessarily know about. And sometimes that inductive bias, if it wasn't exactly correct, can hold you back, right?"
+  },
+  {
+    "segment_id": "tr-00080",
+    "start_seconds": 786.44,
+    "end_seconds": 798.86,
+    "text": "Like, so there is definitely that, like, tipping point as things get better. But, you know, I guess, like, also, I kind of object to your question, too, because I think there actually is a lot of, I think there's a lot of craft, actually, to the scaling part of"
+  },
+  {
+    "segment_id": "tr-00081",
+    "start_seconds": 798.86,
+    "end_seconds": 811.26,
+    "text": "things as well. So, you know, you need very, there's a lot of algorithmic work that actually goes into taking these models and training them on more data, putting more compute in them, making them bigger,"
+  },
+  {
+    "segment_id": "tr-00082",
+    "start_seconds": 811.48,
+    "end_seconds": 820.36,
+    "text": "right? Like, and we see that, like, not only is that from, like, an infrastructure perspective and, you know, making the models, like, run inference faster."
+  },
+  {
+    "segment_id": "tr-00083",
+    "start_seconds": 820.88,
+    "end_seconds": 832.12,
+    "text": "But, you know, we're actually seeing that, like, things are going beyond transformers to more bespoke architectures that can, well, I mean, I don't think we're in a post -transformer world in any way, shape, or form."
+  },
+  {
+    "segment_id": "tr-00084",
+    "start_seconds": 832.12,
+    "end_seconds": 840.92,
+    "text": "But, you know, we're modifying those architectures, right? Like, in order to make them more fit for purpose and actually work better, even at, like, internet -scale data."
+  },
+  {
+    "segment_id": "tr-00085",
+    "start_seconds": 841.18,
+    "end_seconds": 853.22,
+    "text": "So, you know, I think it's, that's kind of the project, right? Like, as more and more data comes in, it's not only, you know, helping to curate that data"
+  },
+  {
+    "segment_id": "tr-00086",
+    "start_seconds": 853.22,
+    "end_seconds": 860.26,
+    "text": "and select what is the next, like, batch of information that we actually need. You know, it's more information than data."
+  },
+  {
+    "segment_id": "tr-00087",
+    "start_seconds": 860.26,
+    "end_seconds": 873.32,
+    "text": "How do you get that next batch of information that the models need? But then also, like, at every step of the way, at every scale, what is the right architectures to get"
+  },
+  {
+    "segment_id": "tr-00088",
+    "start_seconds": 873.32,
+    "end_seconds": 885.44,
+    "text": "the most out of that data? Cool. So, if you think about the state of protein structure prediction right now, you know, the news will say protein structure prediction"
+  },
+  {
+    "segment_id": "tr-00089",
+    "start_seconds": 885.44,
+    "end_seconds": 893.78,
+    "text": "has been solved. But then, like, if you talk to my friends, they will all say, we have so much, like, left to do here."
+  },
+  {
+    "segment_id": "tr-00090",
+    "start_seconds": 894.32,
+    "end_seconds": 900.62,
+    "text": "So many things, like, function, dynamics, and then design are still, like, just wide -open problems."
+  },
+  {
+    "segment_id": "tr-00091",
+    "start_seconds": 901.08,
+    "end_seconds": 913.26,
+    "text": "It's been five -ish years since AlphaFold 2 was announced. Progress has been made. But I'm curious, Pushmi, what do you think the, like, is there another big leap being"
+  },
+  {
+    "segment_id": "tr-00092",
+    "start_seconds": 913.26,
+    "end_seconds": 921.22,
+    "text": "made here? Are there blockers in solving these problems? Do we not have the right data yet? Do we not have the right algorithms or ideas?"
+  },
+  {
+    "segment_id": "tr-00093",
+    "start_seconds": 921.46,
+    "end_seconds": 927.8,
+    "text": "Or is this, like, something that we can see evolving in the future and it's just kind of a matter of time?"
+  },
+  {
+    "segment_id": "tr-00094",
+    "start_seconds": 928.44,
+    "end_seconds": 937.58,
+    "text": "Yeah, I think science, how it sort of operates is basically by isolating something and then making progress step by step."
+  },
+  {
+    "segment_id": "tr-00095",
+    "start_seconds": 937.84,
+    "end_seconds": 948.62,
+    "text": "So, when people sort of say the protein folding problem has been solved, like, at a conceptual level, yes, there might be sort of, yes, there has been, there have been some advances."
+  },
+  {
+    "segment_id": "tr-00096",
+    "start_seconds": 948.62,
+    "end_seconds": 960.92,
+    "text": "But I think it's also, like, when you think about that narrative of proteins being the building blocks, proteins are not"
+  },
+  {
+    "segment_id": "tr-00097",
+    "start_seconds": 960.92,
+    "end_seconds": 967.82,
+    "text": "blocks. And they're not, sort of, they don't act as blocks, right? I say proteins are the building blocks all the time."
+  },
+  {
+    "segment_id": "tr-00098",
+    "start_seconds": 968.0,
+    "end_seconds": 975.64,
+    "text": "But actually, like, I don't believe in it, right? Proteins are extremely complex. They are disordered."
+  },
+  {
+    "segment_id": "tr-00099",
+    "start_seconds": 976.44,
+    "end_seconds": 988.56,
+    "text": "They, their shape might change depending on the context. And, like, what AlphaFold did, and in fact, like, John, John and I, John Jumper and I basically used to sort of discuss this, like, what are"
+  },
+  {
+    "segment_id": "tr-00100",
+    "start_seconds": 988.56,
+    "end_seconds": 1001.32,
+    "text": "we trying to solve? We, we are, we don't know what is the actual true ground state that proteins take and what is the actual distribution of structure that proteins"
+  },
+  {
+    "segment_id": "tr-00101",
+    "start_seconds": 1001.32,
+    "end_seconds": 1011.76,
+    "text": "take. What we are trying to do is basically someone got a structure, deposited it in the PDB, and we are trying to replicate and get the same structure."
+  },
+  {
+    "segment_id": "tr-00102",
+    "start_seconds": 1012.36,
+    "end_seconds": 1023.18,
+    "text": "That's what we did, right? And it just so happens that it's useful. But that does not mean that we have understood all of protein dynamics."
+  },
+  {
+    "segment_id": "tr-00103",
+    "start_seconds": 1023.58,
+    "end_seconds": 1032.26,
+    "text": "So I think the, like, at the, at the, at the, at the top level, it's easier to communicate that we have made progress."
+  },
+  {
+    "segment_id": "tr-00104",
+    "start_seconds": 1032.52,
+    "end_seconds": 1038.98,
+    "text": "But the scientists among us and in this crowd, the, we know. Right?"
+  },
+  {
+    "segment_id": "tr-00105",
+    "start_seconds": 1039.32,
+    "end_seconds": 1046.38,
+    "text": "And I think that's, that's the really important thing for us to understand and have that common ground that a lot of work needs to be done."
+  },
+  {
+    "segment_id": "tr-00106",
+    "start_seconds": 1046.76,
+    "end_seconds": 1058.48,
+    "text": "And we have made progress and there's a lot to celebrate. But let's not stop the funding of protein structure prediction and protein dynamics because we are just getting started."
+  },
+  {
+    "segment_id": "tr-00107",
+    "start_seconds": 1058.48,
+    "end_seconds": 1070.44,
+    "text": "So what do you think the, the biggest blocker, if there's one thing you could wave a magic wand and say, like, we have more of blank, that would accelerate one of those things, function dynamics or design."
+  },
+  {
+    "segment_id": "tr-00108",
+    "start_seconds": 1070.64,
+    "end_seconds": 1080.48,
+    "text": "What would the magic wand be? What would you wave into existence? Oh, I, I, I've basically went, so I, I'm a machine learning, I, my background is like quite eclectic."
+  },
+  {
+    "segment_id": "tr-00109",
+    "start_seconds": 1080.96,
+    "end_seconds": 1091.02,
+    "text": "I started as a security researcher, then went into computer vision, Bayesian theory, and finally got into discriminative machine learning and deep learning and so on."
+  },
+  {
+    "segment_id": "tr-00110",
+    "start_seconds": 1091.12,
+    "end_seconds": 1103.12,
+    "text": "And, and then AF or coding, and then finally science. So when you ask me that question, like my computer vision, the computer vision researcher in me was super excited about cryo EM micrographs."
+  },
+  {
+    "segment_id": "tr-00111",
+    "start_seconds": 1103.22,
+    "end_seconds": 1110.36,
+    "text": "I was like, what is this sort of PDB data? I should be working at the source, right? I should be looking at the cryo EM micrographs."
+  },
+  {
+    "segment_id": "tr-00112",
+    "start_seconds": 1110.36,
+    "end_seconds": 1118.58,
+    "text": "I don't want those structures. They must be sort of missing out all the data. I should, I should just directly operate at cryo EM micrographs."
+  },
+  {
+    "segment_id": "tr-00113",
+    "start_seconds": 1118.58,
+    "end_seconds": 1130.82,
+    "text": "Now, getting models that can scale at that level with the right amount of data and can extract all the dynamics and distributional information that is captured there would be an amazing"
+  },
+  {
+    "segment_id": "tr-00114",
+    "start_seconds": 1130.82,
+    "end_seconds": 1139.88,
+    "text": "thing. I tried it, but it requires more work, right? Still work on it, but you, you believe that this is a route."
+  },
+  {
+    "segment_id": "tr-00115",
+    "start_seconds": 1139.88,
+    "end_seconds": 1147.04,
+    "text": "Yeah. This can give you, yeah. Yeah, I think at some point of time, maybe like people better than me would take a stab at it and, and we'll get somewhere."
+  },
+  {
+    "segment_id": "tr-00116",
+    "start_seconds": 1147.58,
+    "end_seconds": 1160.14,
+    "text": "What do you think, Sal? Yeah. Yeah, I think that it's really interesting because I think these models are, I mean, they're, they're quite useful, but they're not exactly"
+  },
+  {
+    "segment_id": "tr-00117",
+    "start_seconds": 1160.14,
+    "end_seconds": 1169.38,
+    "text": "the problem that most people want to solve. They solve a very specific purpose. And then you can also use them to do other, you can use them to design new proteins, right?"
+  },
+  {
+    "segment_id": "tr-00118",
+    "start_seconds": 1169.52,
+    "end_seconds": 1176.06,
+    "text": "Like for example, which is not the thing that you would kind of start with there, but like, so they're very useful."
+  },
+  {
+    "segment_id": "tr-00119",
+    "start_seconds": 1176.06,
+    "end_seconds": 1188.2,
+    "text": "But I kind of think of like the models that we build right now as, you know, you've got someone who's trying to like understand how like a bicycle works and you're like modeling like"
+  },
+  {
+    "segment_id": "tr-00120",
+    "start_seconds": 1188.2,
+    "end_seconds": 1200.2,
+    "text": "a spoke on it, right? Like, and you kind of have to like, you know, those models can get better and better over time, but like a lot of what you really need to do is you need to move from models of like spokes to wheels to"
+  },
+  {
+    "segment_id": "tr-00121",
+    "start_seconds": 1200.2,
+    "end_seconds": 1212.28,
+    "text": "maybe whole bicycles, because like that's actually what people want to understand. Actually, you know, I think to continue the analogy, it seems like people want to use the model of the bicycle to design this part for a pickup truck or something like that."
+  },
+  {
+    "segment_id": "tr-00122",
+    "start_seconds": 1212.28,
+    "end_seconds": 1224.56,
+    "text": "Right. But it's, I think that like, as we like put these models more into like the particular context, which they're in, right?"
+  },
+  {
+    "segment_id": "tr-00123",
+    "start_seconds": 1224.76,
+    "end_seconds": 1231.42,
+    "text": "Like then we'll actually be able to learn more about these interactions on a broader sense."
+  },
+  {
+    "segment_id": "tr-00124",
+    "start_seconds": 1231.62,
+    "end_seconds": 1241.66,
+    "text": "Right. And that's really, I think, where, where things are going to be going. But I agree with you. I think we should keep trying to work on folding models because I think they're going to keep getting better and better."
+  },
+  {
+    "segment_id": "tr-00125",
+    "start_seconds": 1243.4,
+    "end_seconds": 1250.88,
+    "text": "So with regards to design, there's a famous Feynman quote, that which I cannot create, I do not understand."
+  },
+  {
+    "segment_id": "tr-00126",
+    "start_seconds": 1251.66,
+    "end_seconds": 1264.26,
+    "text": "Now we're in a world where it's really easy to create things without understanding them at all. So I'm curious what your feelings, your thoughts are about what, like"
+  },
+  {
+    "segment_id": "tr-00127",
+    "start_seconds": 1264.26,
+    "end_seconds": 1276.28,
+    "text": "how important it is to actually have models which can help humans understand things versus magical black boxes, which can effectively, you know, one shot, you know, a PicoMole"
+  },
+  {
+    "segment_id": "tr-00128",
+    "start_seconds": 1276.28,
+    "end_seconds": 1286.34,
+    "text": "or binder or something like that. I mean, I think that like, I mean, we were designing things with magical black boxes long before like AI came around, right?"
+  },
+  {
+    "segment_id": "tr-00129",
+    "start_seconds": 1286.54,
+    "end_seconds": 1294.32,
+    "text": "Like, so in some sense, I think, you know, that's still useful. But like, I think that the understanding is like really important."
+  },
+  {
+    "segment_id": "tr-00130",
+    "start_seconds": 1294.8,
+    "end_seconds": 1303.26,
+    "text": "And I think that's actually one of the big things I think about a lot with AI because like, you know, there's so much for these models to learn."
+  },
+  {
+    "segment_id": "tr-00131",
+    "start_seconds": 1303.46,
+    "end_seconds": 1312.82,
+    "text": "And, you know, as like intelligence is getting like cheaper and cheaper and more available, you can deploy it to like learn more and more things about like what's going on in the world."
+  },
+  {
+    "segment_id": "tr-00132",
+    "start_seconds": 1312.82,
+    "end_seconds": 1320.72,
+    "text": "But then how do you actually, you know, pull that knowledge out of the machine, so to speak, right? Like, and so it's something that like I can understand."
+  },
+  {
+    "segment_id": "tr-00133",
+    "start_seconds": 1320.84,
+    "end_seconds": 1330.86,
+    "text": "Maybe that's just like my esoteric curiosity. Like, I think there's so many things to learn. I think lots of scientists really want to understand things and the endpoints are maybe not as important."
+  },
+  {
+    "segment_id": "tr-00134",
+    "start_seconds": 1331.02,
+    "end_seconds": 1337.2,
+    "text": "But then, you know, we are here to solve translational medicine as a problem, right? Yeah."
+  },
+  {
+    "segment_id": "tr-00135",
+    "start_seconds": 1337.78,
+    "end_seconds": 1348.18,
+    "text": "I mean, I think it's like, I think you do have to like, the more you dig into things, the more that you can like find the right way to keep pushing them forward."
+  },
+  {
+    "segment_id": "tr-00136",
+    "start_seconds": 1348.4,
+    "end_seconds": 1356.82,
+    "text": "So I think like one thing that's like really salient to me about this is I think the models actually have a lot more information in them than we know."
+  },
+  {
+    "segment_id": "tr-00137",
+    "start_seconds": 1356.82,
+    "end_seconds": 1363.1,
+    "text": "Like, you know, so we've worked a lot on like interpretability, for example, for our models."
+  },
+  {
+    "segment_id": "tr-00138",
+    "start_seconds": 1363.86,
+    "end_seconds": 1375.0,
+    "text": "And, you know, you find a lot of information in there, which is, you know, I think people know that like protein language models like, you know, learn some notion of structure within their representations."
+  },
+  {
+    "segment_id": "tr-00139",
+    "start_seconds": 1375.48,
+    "end_seconds": 1382.3,
+    "text": "But we find information about, you know, some functions. We find information about motions, right?"
+  },
+  {
+    "segment_id": "tr-00140",
+    "start_seconds": 1382.3,
+    "end_seconds": 1390.46,
+    "text": "Like, and so I think there's a lot in there still to be unlocked, even from the models that we have now, right?"
+  },
+  {
+    "segment_id": "tr-00141",
+    "start_seconds": 1390.54,
+    "end_seconds": 1398.76,
+    "text": "Like, and I think that's important for us to understand. How do these models work as we move up the, you know, as we raise the capability?"
+  },
+  {
+    "segment_id": "tr-00142",
+    "start_seconds": 1399.2,
+    "end_seconds": 1408.14,
+    "text": "Like, at the end of the day, like, you expect like a world model to come out of like trying to compress all this information into the model, right?"
+  },
+  {
+    "segment_id": "tr-00143",
+    "start_seconds": 1408.22,
+    "end_seconds": 1418.06,
+    "text": "Like, how does the model do its job? How does it design a protein? Well, you know, it's compressed all the information from evolution into this like model, right?"
+  },
+  {
+    "segment_id": "tr-00144",
+    "start_seconds": 1418.24,
+    "end_seconds": 1428.02,
+    "text": "Like, so in addition to it, you know, being able to spit out something which is useful to us, there's certainly something to learn just by looking at what's inside."
+  },
+  {
+    "segment_id": "tr-00145",
+    "start_seconds": 1428.46,
+    "end_seconds": 1442.08,
+    "text": "Yeah. What do you think, Prushmeet? Design versus understand. So, I have a sort of different take on this in the sense that I"
+  },
+  {
+    "segment_id": "tr-00146",
+    "start_seconds": 1442.08,
+    "end_seconds": 1448.86,
+    "text": "think when we think about models, I think some level of understanding is necessary."
+  },
+  {
+    "segment_id": "tr-00147",
+    "start_seconds": 1448.86,
+    "end_seconds": 1456.42,
+    "text": "So, I'll say what level of understanding is necessary. So, AlphaFold actually is not perfect, right?"
+  },
+  {
+    "segment_id": "tr-00148",
+    "start_seconds": 1456.52,
+    "end_seconds": 1464.98,
+    "text": "It's not perfect. It's 90 GDT. AlphaFold was 90 GDT at that time on that sort of, on that set."
+  },
+  {
+    "segment_id": "tr-00149",
+    "start_seconds": 1466.1,
+    "end_seconds": 1475.78,
+    "text": "But even if it was 95 GDT, but the PLDDT score was completely uncalibrated, who would trust it?"
+  },
+  {
+    "segment_id": "tr-00150",
+    "start_seconds": 1476.02,
+    "end_seconds": 1487.26,
+    "text": "It would just magically sort of give good answers, but suddenly tell you, here's the answer, very, very confident, and you will be working on it for the next one year and finding out it was completely wrong."
+  },
+  {
+    "segment_id": "tr-00151",
+    "start_seconds": 1487.26,
+    "end_seconds": 1499.48,
+    "text": "The calibration of the uncertainty measure was extremely important. So, in that sense, we do understand, and we actually made a lot of progress"
+  },
+  {
+    "segment_id": "tr-00152",
+    "start_seconds": 1499.48,
+    "end_seconds": 1508.84,
+    "text": "in understanding how does AlphaFold 2 behave? Now, that's different from how did it work and find the solution."
+  },
+  {
+    "segment_id": "tr-00153",
+    "start_seconds": 1509.87,
+    "end_seconds": 1517.28,
+    "text": "And there I agree with Sal that there's a notion of interpretability. Why did it work?"
+  },
+  {
+    "segment_id": "tr-00154",
+    "start_seconds": 1517.52,
+    "end_seconds": 1529.7,
+    "text": "Why did it give this answer? And I think if you think about it, AlphaFold 2 was at the highest level interpretable because if you look at how,"
+  },
+  {
+    "segment_id": "tr-00155",
+    "start_seconds": 1529.98,
+    "end_seconds": 1536.5,
+    "text": "and this is its ability to generalize, and we did not sort of discover it before launching."
+  },
+  {
+    "segment_id": "tr-00156",
+    "start_seconds": 1536.5,
+    "end_seconds": 1547.18,
+    "text": "When we launched AlphaFold 2 and made the weights available, people found out that it was a great disordered protein predictor."
+  },
+  {
+    "segment_id": "tr-00157",
+    "start_seconds": 1547.32,
+    "end_seconds": 1553.78,
+    "text": "It could figure out, like, which elements of the protein are disordered. So, it just shows that it generalizes."
+  },
+  {
+    "segment_id": "tr-00158",
+    "start_seconds": 1554.4,
+    "end_seconds": 1566.56,
+    "text": "Now, interpretability asks the question, interpretable by whom? If you're saying interpretable by a human rational system with the cognitive and"
+  },
+  {
+    "segment_id": "tr-00159",
+    "start_seconds": 1566.56,
+    "end_seconds": 1573.14,
+    "text": "computational limitations of the human brain, then no, AlphaFold 2 is not interpretable."
+  },
+  {
+    "segment_id": "tr-00160",
+    "start_seconds": 1573.72,
+    "end_seconds": 1583.94,
+    "text": "But if you are asking, is AlphaFold 2 sort of interpretable to a much larger and more sophisticated model as to how it works, maybe it is."
+  },
+  {
+    "segment_id": "tr-00161",
+    "start_seconds": 1584.06,
+    "end_seconds": 1594.86,
+    "text": "We just don't get it. Right? But I think as users of AlphaFold 2, we do need to understand what is it able to do and what it is not able to do."
+  },
+  {
+    "segment_id": "tr-00162",
+    "start_seconds": 1594.86,
+    "end_seconds": 1601.28,
+    "text": "So, understanding the behavioral characterization and the strengths and limitations of the model. And I think that is extremely important."
+  },
+  {
+    "segment_id": "tr-00163",
+    "start_seconds": 1601.52,
+    "end_seconds": 1611.76,
+    "text": "And we can't sort of just be using these models without having that behavioral characterization because otherwise it will sort of, rather than being helpful, harm us."
+  },
+  {
+    "segment_id": "tr-00164",
+    "start_seconds": 1612.04,
+    "end_seconds": 1624.24,
+    "text": "Right? So, your take is that interpretability, strictly speaking, isn't necessary, but a way of ensuring the model is trustworthy so humans can make actionable decisions is the thing that people should be focusing"
+  },
+  {
+    "segment_id": "tr-00165",
+    "start_seconds": 1624.24,
+    "end_seconds": 1630.44,
+    "text": "on. Exactly. And I also think that interpretability is also in the eyes of the beholder. Like, who is interpreting it?"
+  },
+  {
+    "segment_id": "tr-00166",
+    "start_seconds": 1630.56,
+    "end_seconds": 1642.92,
+    "text": "If it is a human scientist who is trying to interpret how the model is sort of going about and sort of how will it make this prediction, that's a different question from another much larger"
+  },
+  {
+    "segment_id": "tr-00167",
+    "start_seconds": 1642.92,
+    "end_seconds": 1654.7,
+    "text": "sort of LLM. If you give some of these large frontier models of the future access to the activation layers and say, okay, tell me, can you predict what AlphaFold will do?"
+  },
+  {
+    "segment_id": "tr-00168",
+    "start_seconds": 1654.8,
+    "end_seconds": 1662.74,
+    "text": "Maybe they will be able to predict. And they will come up with a theory of how actually AlphaFold 2 was interpreting and producing these results."
+  },
+  {
+    "segment_id": "tr-00169",
+    "start_seconds": 1663.46,
+    "end_seconds": 1669.54,
+    "text": "Cool. Okay. That's the two -minute warning. So, one last question for both of you, a quick one."
+  },
+  {
+    "segment_id": "tr-00170",
+    "start_seconds": 1670.12,
+    "end_seconds": 1676.92,
+    "text": "So, there's a real chance that AI will make dramatic improvements in human health in the next, you know, immediate future."
+  },
+  {
+    "segment_id": "tr-00171",
+    "start_seconds": 1677.7,
+    "end_seconds": 1684.86,
+    "text": "I like quantitative predictions. Best guess, how long until we start seeing AI results in the clinic?"
+  },
+  {
+    "segment_id": "tr-00172",
+    "start_seconds": 1686.06,
+    "end_seconds": 1693.66,
+    "text": "Vishmi, you want to start? I mean, the point is, AI results in the clinic."
+  },
+  {
+    "segment_id": "tr-00173",
+    "start_seconds": 1694.0,
+    "end_seconds": 1706.0,
+    "text": "It's ill -posed. It's not a... AI is being used today already in every part of the drug discovery process."
+  },
+  {
+    "segment_id": "tr-00174",
+    "start_seconds": 1706.22,
+    "end_seconds": 1718.44,
+    "text": "So, from that perspective, it's already there, right? But if you are sort of asking me the question, when will we see that 10x acceleration or 100x acceleration in the timelines,"
+  },
+  {
+    "segment_id": "tr-00175",
+    "start_seconds": 1718.82,
+    "end_seconds": 1725.52,
+    "text": "then the other sort of question is, what are we accelerating? Is it sort of doing lead optimization?"
+  },
+  {
+    "segment_id": "tr-00176",
+    "start_seconds": 1725.86,
+    "end_seconds": 1731.98,
+    "text": "Is it the target discovery? Is it sort of the preclinical or the tox sort of work?"
+  },
+  {
+    "segment_id": "tr-00177",
+    "start_seconds": 1731.98,
+    "end_seconds": 1744.24,
+    "text": "So, I think over the next sort of few years, and which is why this effort that we announced today is extremely important, we"
+  },
+  {
+    "segment_id": "tr-00178",
+    "start_seconds": 1744.24,
+    "end_seconds": 1756.32,
+    "text": "need to tackle some of these hard challenges of biology. And only then will we be able to get these true unlocks of acceleration that dramatically"
+  },
+  {
+    "segment_id": "tr-00179",
+    "start_seconds": 1756.32,
+    "end_seconds": 1768.48,
+    "text": "transforms how drug discovery will happen. So, AI will be there, like, in the clinic, and will be impacting sort of things that go into the clinic"
+  },
+  {
+    "segment_id": "tr-00180",
+    "start_seconds": 1768.48,
+    "end_seconds": 1780.56,
+    "text": "all the time. But, like, the actual sort of larger acceleration, that will be unlocked only with a better understanding of the biological models that this effort"
+  },
+  {
+    "segment_id": "tr-00181",
+    "start_seconds": 1780.56,
+    "end_seconds": 1792.36,
+    "text": "is trying to sort of create. All right. Thanks. So, real quick question, if we... We're almost out of time, but you... Yeah, I mean, I'm tempted to, like, literally put on my bio hat to answer this question."
+  },
+  {
+    "segment_id": "tr-00182",
+    "start_seconds": 1792.62,
+    "end_seconds": 1800.02,
+    "text": "But, you know, I think it's, like, it's really important to think about this, you know, as you were saying."
+  },
+  {
+    "segment_id": "tr-00183",
+    "start_seconds": 1800.28,
+    "end_seconds": 1807.06,
+    "text": "Like, what does it mean to, like, push the field forward? Like, the thing that we really want to see is those, like, outcomes affected."
+  },
+  {
+    "segment_id": "tr-00184",
+    "start_seconds": 1807.06,
+    "end_seconds": 1814.24,
+    "text": "And, like, so when will it be that, like, a drug that was made entirely by AI, by an AI or something?"
+  },
+  {
+    "segment_id": "tr-00185",
+    "start_seconds": 1814.28,
+    "end_seconds": 1821.9,
+    "text": "I don't know. It's hard to know that. But, like, I do think we're going to see rapid progress here, like, very, very quickly."
+  },
+  {
+    "segment_id": "tr-00186",
+    "start_seconds": 1822.28,
+    "end_seconds": 1830.92,
+    "text": "Because, like, all these tools are being used and stuff like that. And, you know, going back to your point about, like, the basic, you know, we need basic research."
+  },
+  {
+    "segment_id": "tr-00187",
+    "start_seconds": 1830.92,
+    "end_seconds": 1842.98,
+    "text": "We need basic understanding. You know, one thing I learned a long time ago in my career, actually back at Google, is, like, sometimes it, you know, sometimes it's easier to approach a problem"
+  },
+  {
+    "segment_id": "tr-00188",
+    "start_seconds": 1842.98,
+    "end_seconds": 1849.72,
+    "text": "by looking at, like, what is it going to take to make a 10x improvement rather than a 10 % improvement, right?"
+  },
+  {
+    "segment_id": "tr-00189",
+    "start_seconds": 1850.66,
+    "end_seconds": 1861.42,
+    "text": "And that's not because, like, that's necessarily an easier path. It's because it allows you to, like, take a broader view and see, like, some solutions that, you know, you haven't been approaching, right?"
+  },
+  {
+    "segment_id": "tr-00190",
+    "start_seconds": 1861.54,
+    "end_seconds": 1868.64,
+    "text": "Like, and, like, what is actually the path to do it? And you would go back and, like, look from first principles. Like, how are we going to do this?"
+  },
+  {
+    "segment_id": "tr-00191",
+    "start_seconds": 1868.68,
+    "end_seconds": 1880.74,
+    "text": "How are we going to really push this? So I think, like, you know, both, like, the, both the approaches that, like, you know, both approaches, the 10 % and the"
+  },
+  {
+    "segment_id": "tr-00192",
+    "start_seconds": 1880.74,
+    "end_seconds": 1892.84,
+    "text": "10x are valuable, and we should do both. I'm just very happy that, like, at Biohub, like, we have a very, I think, a very beautiful and, like, lofty mission statement to cure all disease,"
+  },
+  {
+    "segment_id": "tr-00193",
+    "start_seconds": 1892.98,
+    "end_seconds": 1899.28,
+    "text": "right? Like, and if you want to do that, you really need to go and figure out, like, what is the 10x approach?"
+  },
+  {
+    "segment_id": "tr-00194",
+    "start_seconds": 1899.5,
+    "end_seconds": 1906.1,
+    "text": "And so I think it's a really great opportunity to be able to do that."
+  },
+  {
+    "segment_id": "tr-00195",
+    "start_seconds": 1906.32,
+    "end_seconds": 1912.14,
+    "text": "Awesome. Thank you both. Thank you for being in the literal hot seat. Very nice."
+  }
+]

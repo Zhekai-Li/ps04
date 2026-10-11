@@ -1,0 +1,3188 @@
+[
+  {
+    "segment_id": "yt-00001",
+    "start_seconds": 0.0,
+    "end_seconds": 3.0,
+    "text": "Our"
+  },
+  {
+    "segment_id": "yt-00002",
+    "start_seconds": 8.16,
+    "end_seconds": 13.679,
+    "text": "speaker is Tanvi Wamorar and she will be"
+  },
+  {
+    "segment_id": "yt-00003",
+    "start_seconds": 11.679,
+    "end_seconds": 15.28,
+    "text": "talking about generative criticality in"
+  },
+  {
+    "segment_id": "yt-00004",
+    "start_seconds": 13.679,
+    "end_seconds": 16.56,
+    "text": "large language model temperature"
+  },
+  {
+    "segment_id": "yt-00005",
+    "start_seconds": 15.28,
+    "end_seconds": 21.0,
+    "text": "scaling."
+  },
+  {
+    "segment_id": "yt-00006",
+    "start_seconds": 16.56,
+    "end_seconds": 21.0,
+    "text": ">> Oh, this is actually incorrect."
+  },
+  {
+    "segment_id": "yt-00007",
+    "start_seconds": 24.48,
+    "end_seconds": 28.439,
+    "text": "Yeah, I'm trying to"
+  },
+  {
+    "segment_id": "yt-00008",
+    "start_seconds": 29.599,
+    "end_seconds": 34.519,
+    "text": ">> Okay,"
+  },
+  {
+    "segment_id": "yt-00009",
+    "start_seconds": 31.519,
+    "end_seconds": 34.519,
+    "text": "sorry."
+  },
+  {
+    "segment_id": "yt-00010",
+    "start_seconds": 35.92,
+    "end_seconds": 42.399,
+    "text": ">> Okay, can I start? Okay. Uh, hi"
+  },
+  {
+    "segment_id": "yt-00011",
+    "start_seconds": 40.0,
+    "end_seconds": 46.239,
+    "text": "everyone. I am very happy to be here."
+  },
+  {
+    "segment_id": "yt-00012",
+    "start_seconds": 42.399,
+    "end_seconds": 48.32,
+    "text": "I'm Tanvi. I'm a postto at Stanford. Um"
+  },
+  {
+    "segment_id": "yt-00013",
+    "start_seconds": 46.239,
+    "end_seconds": 50.48,
+    "text": "and I am going to talk about something"
+  },
+  {
+    "segment_id": "yt-00014",
+    "start_seconds": 48.32,
+    "end_seconds": 53.36,
+    "text": "which I think is very relevant to"
+  },
+  {
+    "segment_id": "yt-00015",
+    "start_seconds": 50.48,
+    "end_seconds": 54.96,
+    "text": "everybody in this room here. Um I'm"
+  },
+  {
+    "segment_id": "yt-00016",
+    "start_seconds": 53.36,
+    "end_seconds": 58.719,
+    "text": "going to talk about how do we"
+  },
+  {
+    "segment_id": "yt-00017",
+    "start_seconds": 54.96,
+    "end_seconds": 61.6,
+    "text": "incorporate uh uh physics information in"
+  },
+  {
+    "segment_id": "yt-00018",
+    "start_seconds": 58.719,
+    "end_seconds": 65.439,
+    "text": "a machine learning models."
+  },
+  {
+    "segment_id": "yt-00019",
+    "start_seconds": 61.6,
+    "end_seconds": 67.439,
+    "text": "So I really like this image that Winnie"
+  },
+  {
+    "segment_id": "yt-00020",
+    "start_seconds": 65.439,
+    "end_seconds": 70.4,
+    "text": "showed in his talk yesterday which shows"
+  },
+  {
+    "segment_id": "yt-00021",
+    "start_seconds": 67.439,
+    "end_seconds": 72.72,
+    "text": "the full pipeline of how we do uh"
+  },
+  {
+    "segment_id": "yt-00022",
+    "start_seconds": 70.4,
+    "end_seconds": 75.36,
+    "text": "analyses in particle physics. So you can"
+  },
+  {
+    "segment_id": "yt-00023",
+    "start_seconds": 72.72,
+    "end_seconds": 77.36,
+    "text": "see that there are many steps going from"
+  },
+  {
+    "segment_id": "yt-00024",
+    "start_seconds": 75.36,
+    "end_seconds": 80.479,
+    "text": "collisions in nature to making"
+  },
+  {
+    "segment_id": "yt-00025",
+    "start_seconds": 77.36,
+    "end_seconds": 83.439,
+    "text": "measurements. The orange blocks here"
+  },
+  {
+    "segment_id": "yt-00026",
+    "start_seconds": 80.479,
+    "end_seconds": 85.759,
+    "text": "show um where we apply traditional"
+  },
+  {
+    "segment_id": "yt-00027",
+    "start_seconds": 83.439,
+    "end_seconds": 87.759,
+    "text": "classical methods and the blue boxes"
+  },
+  {
+    "segment_id": "yt-00028",
+    "start_seconds": 85.759,
+    "end_seconds": 90.96,
+    "text": "here show where we are already"
+  },
+  {
+    "segment_id": "yt-00029",
+    "start_seconds": 87.759,
+    "end_seconds": 93.119,
+    "text": "incorporating machine learning or AI. So"
+  },
+  {
+    "segment_id": "yt-00030",
+    "start_seconds": 90.96,
+    "end_seconds": 95.52,
+    "text": "this makes it very obvious that machine"
+  },
+  {
+    "segment_id": "yt-00031",
+    "start_seconds": 93.119,
+    "end_seconds": 100.0,
+    "text": "learning is pervasive in all the steps"
+  },
+  {
+    "segment_id": "yt-00032",
+    "start_seconds": 95.52,
+    "end_seconds": 102.799,
+    "text": "of an analysis. So as a field now we are"
+  },
+  {
+    "segment_id": "yt-00033",
+    "start_seconds": 100.0,
+    "end_seconds": 104.799,
+    "text": "thinking more deeply about how uh what"
+  },
+  {
+    "segment_id": "yt-00034",
+    "start_seconds": 102.799,
+    "end_seconds": 108.159,
+    "text": "is the best way to actually build these"
+  },
+  {
+    "segment_id": "yt-00035",
+    "start_seconds": 104.799,
+    "end_seconds": 110.96,
+    "text": "uh machine learning models."
+  },
+  {
+    "segment_id": "yt-00036",
+    "start_seconds": 108.159,
+    "end_seconds": 113.92,
+    "text": "So one question we have is how do we"
+  },
+  {
+    "segment_id": "yt-00037",
+    "start_seconds": 110.96,
+    "end_seconds": 115.52,
+    "text": "teach physics to a neural network and"
+  },
+  {
+    "segment_id": "yt-00038",
+    "start_seconds": 113.92,
+    "end_seconds": 119.36,
+    "text": "broadly speaking there are two ways to"
+  },
+  {
+    "segment_id": "yt-00039",
+    "start_seconds": 115.52,
+    "end_seconds": 122.079,
+    "text": "do this. Uh one is the explicit category"
+  },
+  {
+    "segment_id": "yt-00040",
+    "start_seconds": 119.36,
+    "end_seconds": 125.6,
+    "text": "where we build the physics into the"
+  },
+  {
+    "segment_id": "yt-00041",
+    "start_seconds": 122.079,
+    "end_seconds": 128.56,
+    "text": "model. We bake it in by hard coding"
+  },
+  {
+    "segment_id": "yt-00042",
+    "start_seconds": 125.6,
+    "end_seconds": 130.239,
+    "text": "known symmetries. um and structure"
+  },
+  {
+    "segment_id": "yt-00043",
+    "start_seconds": 128.56,
+    "end_seconds": 132.0,
+    "text": "directly into the architecture of the"
+  },
+  {
+    "segment_id": "yt-00044",
+    "start_seconds": 130.239,
+    "end_seconds": 134.4,
+    "text": "model. Uh which means that you've"
+  },
+  {
+    "segment_id": "yt-00045",
+    "start_seconds": 132.0,
+    "end_seconds": 137.599,
+    "text": "already constructed guard rails. You set"
+  },
+  {
+    "segment_id": "yt-00046",
+    "start_seconds": 134.4,
+    "end_seconds": 139.68,
+    "text": "rules and the network cannot violate"
+  },
+  {
+    "segment_id": "yt-00047",
+    "start_seconds": 137.599,
+    "end_seconds": 141.2,
+    "text": "these rules. Uh it's guaranteed by"
+  },
+  {
+    "segment_id": "yt-00048",
+    "start_seconds": 139.68,
+    "end_seconds": 143.84,
+    "text": "construction."
+  },
+  {
+    "segment_id": "yt-00049",
+    "start_seconds": 141.2,
+    "end_seconds": 147.28,
+    "text": "Um the other way is known as implicit"
+  },
+  {
+    "segment_id": "yt-00050",
+    "start_seconds": 143.84,
+    "end_seconds": 150.0,
+    "text": "prior. Uh so the idea is that you just"
+  },
+  {
+    "segment_id": "yt-00051",
+    "start_seconds": 147.28,
+    "end_seconds": 152.239,
+    "text": "let the network learn. You pre-train the"
+  },
+  {
+    "segment_id": "yt-00052",
+    "start_seconds": 150.0,
+    "end_seconds": 155.36,
+    "text": "model uh which can be a generic"
+  },
+  {
+    "segment_id": "yt-00053",
+    "start_seconds": 152.239,
+    "end_seconds": 157.76,
+    "text": "architecture on large amounts of data."
+  },
+  {
+    "segment_id": "yt-00054",
+    "start_seconds": 155.36,
+    "end_seconds": 159.76,
+    "text": "Um and the expectation is that the"
+  },
+  {
+    "segment_id": "yt-00055",
+    "start_seconds": 157.76,
+    "end_seconds": 162.879,
+    "text": "physics knowledge will be absorbed into"
+  },
+  {
+    "segment_id": "yt-00056",
+    "start_seconds": 159.76,
+    "end_seconds": 166.48,
+    "text": "the model through uh just training on a"
+  },
+  {
+    "segment_id": "yt-00057",
+    "start_seconds": 162.879,
+    "end_seconds": 168.16,
+    "text": "huge corpus of data. Uh so this I think"
+  },
+  {
+    "segment_id": "yt-00058",
+    "start_seconds": 166.48,
+    "end_seconds": 170.08,
+    "text": "is the physics version of a central"
+  },
+  {
+    "segment_id": "yt-00059",
+    "start_seconds": 168.16,
+    "end_seconds": 173.36,
+    "text": "question in AI which we've discussed a"
+  },
+  {
+    "segment_id": "yt-00060",
+    "start_seconds": 170.08,
+    "end_seconds": 176.56,
+    "text": "lot at this conference uh which is how"
+  },
+  {
+    "segment_id": "yt-00061",
+    "start_seconds": 173.36,
+    "end_seconds": 179.36,
+    "text": "much should we engineer um and how much"
+  },
+  {
+    "segment_id": "yt-00062",
+    "start_seconds": 176.56,
+    "end_seconds": 182.36,
+    "text": "should we let data and scale do the"
+  },
+  {
+    "segment_id": "yt-00063",
+    "start_seconds": 179.36,
+    "end_seconds": 182.36,
+    "text": "work."
+  },
+  {
+    "segment_id": "yt-00064",
+    "start_seconds": 183.28,
+    "end_seconds": 189.28,
+    "text": "Okay. So in order to look at explicit"
+  },
+  {
+    "segment_id": "yt-00065",
+    "start_seconds": 186.56,
+    "end_seconds": 191.84,
+    "text": "versus implicit we tried two"
+  },
+  {
+    "segment_id": "yt-00066",
+    "start_seconds": 189.28,
+    "end_seconds": 194.64,
+    "text": "state-of-the-art models for explicit the"
+  },
+  {
+    "segment_id": "yt-00067",
+    "start_seconds": 191.84,
+    "end_seconds": 197.36,
+    "text": "model we looked at is called alligator"
+  },
+  {
+    "segment_id": "yt-00068",
+    "start_seconds": 194.64,
+    "end_seconds": 201.04,
+    "text": "which you may have heard of in inb talk"
+  },
+  {
+    "segment_id": "yt-00069",
+    "start_seconds": 197.36,
+    "end_seconds": 204.159,
+    "text": "uh on the first day. Um so basically the"
+  },
+  {
+    "segment_id": "yt-00070",
+    "start_seconds": 201.04,
+    "end_seconds": 206.879,
+    "text": "idea is of equivariance is that you"
+  },
+  {
+    "segment_id": "yt-00071",
+    "start_seconds": 204.159,
+    "end_seconds": 209.76,
+    "text": "transform the input and the output"
+  },
+  {
+    "segment_id": "yt-00072",
+    "start_seconds": 206.879,
+    "end_seconds": 211.84,
+    "text": "transforms according to the symmetry. Um"
+  },
+  {
+    "segment_id": "yt-00073",
+    "start_seconds": 209.76,
+    "end_seconds": 214.319,
+    "text": "so for example if we look at this there"
+  },
+  {
+    "segment_id": "yt-00074",
+    "start_seconds": 211.84,
+    "end_seconds": 216.879,
+    "text": "are two ways the input X can flow"
+  },
+  {
+    "segment_id": "yt-00075",
+    "start_seconds": 214.319,
+    "end_seconds": 220.64,
+    "text": "through the network here um it can"
+  },
+  {
+    "segment_id": "yt-00076",
+    "start_seconds": 216.879,
+    "end_seconds": 222.239,
+    "text": "either right um you have the input X and"
+  },
+  {
+    "segment_id": "yt-00077",
+    "start_seconds": 220.64,
+    "end_seconds": 224.0,
+    "text": "then you apply some network network"
+  },
+  {
+    "segment_id": "yt-00078",
+    "start_seconds": 222.239,
+    "end_seconds": 227.2,
+    "text": "network function to it and then you get"
+  },
+  {
+    "segment_id": "yt-00079",
+    "start_seconds": 224.0,
+    "end_seconds": 229.44,
+    "text": "output NX or you can first boost the"
+  },
+  {
+    "segment_id": "yt-00080",
+    "start_seconds": 227.2,
+    "end_seconds": 231.519,
+    "text": "input apply your uh favorite"
+  },
+  {
+    "segment_id": "yt-00081",
+    "start_seconds": 229.44,
+    "end_seconds": 233.2,
+    "text": "transformation to it and then you apply"
+  },
+  {
+    "segment_id": "yt-00082",
+    "start_seconds": 231.519,
+    "end_seconds": 236.0,
+    "text": "the network to it and you get a boosted"
+  },
+  {
+    "segment_id": "yt-00083",
+    "start_seconds": 233.2,
+    "end_seconds": 238.799,
+    "text": "output. So the idea here is that the"
+  },
+  {
+    "segment_id": "yt-00084",
+    "start_seconds": 236.0,
+    "end_seconds": 242.36,
+    "text": "boost and the network function commute"
+  },
+  {
+    "segment_id": "yt-00085",
+    "start_seconds": 238.799,
+    "end_seconds": 242.36,
+    "text": "uh with each other."
+  },
+  {
+    "segment_id": "yt-00086",
+    "start_seconds": 242.4,
+    "end_seconds": 249.439,
+    "text": "So the way alligator ensures that um"
+  },
+  {
+    "segment_id": "yt-00087",
+    "start_seconds": 245.92,
+    "end_seconds": 251.68,
+    "text": "this symmetry is respected is by constru"
+  },
+  {
+    "segment_id": "yt-00088",
+    "start_seconds": 249.439,
+    "end_seconds": 254.319,
+    "text": "by the way it constructs each layers of"
+  },
+  {
+    "segment_id": "yt-00089",
+    "start_seconds": 251.68,
+    "end_seconds": 258.479,
+    "text": "the network such that they respect"
+  },
+  {
+    "segment_id": "yt-00090",
+    "start_seconds": 254.319,
+    "end_seconds": 260.72,
+    "text": "Laurens symmetry. Um so because of this"
+  },
+  {
+    "segment_id": "yt-00091",
+    "start_seconds": 258.479,
+    "end_seconds": 262.639,
+    "text": "fact the alligator doesn't need to be"
+  },
+  {
+    "segment_id": "yt-00092",
+    "start_seconds": 260.72,
+    "end_seconds": 264.639,
+    "text": "pre-trained on a large amount of data"
+  },
+  {
+    "segment_id": "yt-00093",
+    "start_seconds": 262.639,
+    "end_seconds": 266.96,
+    "text": "which means that it's highly data"
+  },
+  {
+    "segment_id": "yt-00094",
+    "start_seconds": 264.639,
+    "end_seconds": 269.199,
+    "text": "efficient and it has been shown to have"
+  },
+  {
+    "segment_id": "yt-00095",
+    "start_seconds": 266.96,
+    "end_seconds": 270.96,
+    "text": "excellent performance across a wide"
+  },
+  {
+    "segment_id": "yt-00096",
+    "start_seconds": 269.199,
+    "end_seconds": 273.12,
+    "text": "variety of tasks that particle"
+  },
+  {
+    "segment_id": "yt-00097",
+    "start_seconds": 270.96,
+    "end_seconds": 275.28,
+    "text": "physicists are interested in like"
+  },
+  {
+    "segment_id": "yt-00098",
+    "start_seconds": 273.12,
+    "end_seconds": 279.04,
+    "text": "tagging of particles regression and"
+  },
+  {
+    "segment_id": "yt-00099",
+    "start_seconds": 275.28,
+    "end_seconds": 281.44,
+    "text": "generative tasks as well."
+  },
+  {
+    "segment_id": "yt-00100",
+    "start_seconds": 279.04,
+    "end_seconds": 284.479,
+    "text": "So moving on to the model that we look"
+  },
+  {
+    "segment_id": "yt-00101",
+    "start_seconds": 281.44,
+    "end_seconds": 286.88,
+    "text": "at as the example for an implicit prior"
+  },
+  {
+    "segment_id": "yt-00102",
+    "start_seconds": 284.479,
+    "end_seconds": 289.12,
+    "text": "is omnilearn which we've of course also"
+  },
+  {
+    "segment_id": "yt-00103",
+    "start_seconds": 286.88,
+    "end_seconds": 291.36,
+    "text": "heard about. Uh so I won't go into too"
+  },
+  {
+    "segment_id": "yt-00104",
+    "start_seconds": 289.12,
+    "end_seconds": 293.6,
+    "text": "many details but omnilarn is a model"
+  },
+  {
+    "segment_id": "yt-00105",
+    "start_seconds": 291.36,
+    "end_seconds": 297.199,
+    "text": "which is built on a particle transformer"
+  },
+  {
+    "segment_id": "yt-00106",
+    "start_seconds": 293.6,
+    "end_seconds": 298.8,
+    "text": "backbone called pet. Um so contrasting"
+  },
+  {
+    "segment_id": "yt-00107",
+    "start_seconds": 297.199,
+    "end_seconds": 300.8,
+    "text": "this with alligator there are no"
+  },
+  {
+    "segment_id": "yt-00108",
+    "start_seconds": 298.8,
+    "end_seconds": 304.0,
+    "text": "hardcode symmetries built into the"
+  },
+  {
+    "segment_id": "yt-00109",
+    "start_seconds": 300.8,
+    "end_seconds": 307.68,
+    "text": "model. Um it has a shared body which is"
+  },
+  {
+    "segment_id": "yt-00110",
+    "start_seconds": 304.0,
+    "end_seconds": 311.28,
+    "text": "pre-trained on a large uh uh data set in"
+  },
+  {
+    "segment_id": "yt-00111",
+    "start_seconds": 307.68,
+    "end_seconds": 314.0,
+    "text": "this case 100 million simulated uh jets"
+  },
+  {
+    "segment_id": "yt-00112",
+    "start_seconds": 311.28,
+    "end_seconds": 316.88,
+    "text": "and then following the body we have task"
+  },
+  {
+    "segment_id": "yt-00113",
+    "start_seconds": 314.0,
+    "end_seconds": 318.96,
+    "text": "specific heads um we have the classifi"
+  },
+  {
+    "segment_id": "yt-00114",
+    "start_seconds": 316.88,
+    "end_seconds": 321.6,
+    "text": "classifier head and the generator head."
+  },
+  {
+    "segment_id": "yt-00115",
+    "start_seconds": 318.96,
+    "end_seconds": 323.6,
+    "text": "So the idea is that you pre-train once"
+  },
+  {
+    "segment_id": "yt-00116",
+    "start_seconds": 321.6,
+    "end_seconds": 326.0,
+    "text": "on a large amount of data and then you"
+  },
+  {
+    "segment_id": "yt-00117",
+    "start_seconds": 323.6,
+    "end_seconds": 329.0,
+    "text": "fine-tune according to the task of"
+  },
+  {
+    "segment_id": "yt-00118",
+    "start_seconds": 326.0,
+    "end_seconds": 329.0,
+    "text": "interest."
+  },
+  {
+    "segment_id": "yt-00119",
+    "start_seconds": 329.759,
+    "end_seconds": 336.24,
+    "text": "Okay. Um so I also want to uh disc uh"
+  },
+  {
+    "segment_id": "yt-00120",
+    "start_seconds": 333.919,
+    "end_seconds": 338.8,
+    "text": "discuss what is the answer for explicit"
+  },
+  {
+    "segment_id": "yt-00121",
+    "start_seconds": 336.24,
+    "end_seconds": 341.44,
+    "text": "versus implicit on standard benchmarks"
+  },
+  {
+    "segment_id": "yt-00122",
+    "start_seconds": 338.8,
+    "end_seconds": 344.479,
+    "text": "in high energy physics. So the example"
+  },
+  {
+    "segment_id": "yt-00123",
+    "start_seconds": 341.44,
+    "end_seconds": 346.72,
+    "text": "I'm taking here is of top tagging. Uh"
+  },
+  {
+    "segment_id": "yt-00124",
+    "start_seconds": 344.479,
+    "end_seconds": 348.16,
+    "text": "it's a very traditional benchmark in the"
+  },
+  {
+    "segment_id": "yt-00125",
+    "start_seconds": 346.72,
+    "end_seconds": 350.639,
+    "text": "field of high energy physics where you"
+  },
+  {
+    "segment_id": "yt-00126",
+    "start_seconds": 348.16,
+    "end_seconds": 352.72,
+    "text": "want to distinguish uh jets coming from"
+  },
+  {
+    "segment_id": "yt-00127",
+    "start_seconds": 350.639,
+    "end_seconds": 356.479,
+    "text": "a top quark which you can see on the"
+  },
+  {
+    "segment_id": "yt-00128",
+    "start_seconds": 352.72,
+    "end_seconds": 358.88,
+    "text": "left here has this threeprong structure"
+  },
+  {
+    "segment_id": "yt-00129",
+    "start_seconds": 356.479,
+    "end_seconds": 361.44,
+    "text": "uh versus jets coming from a quark or"
+  },
+  {
+    "segment_id": "yt-00130",
+    "start_seconds": 358.88,
+    "end_seconds": 363.68,
+    "text": "gluon. Um so you can see that the two"
+  },
+  {
+    "segment_id": "yt-00131",
+    "start_seconds": 361.44,
+    "end_seconds": 365.6,
+    "text": "classes are visibly different and if we"
+  },
+  {
+    "segment_id": "yt-00132",
+    "start_seconds": 363.68,
+    "end_seconds": 367.12,
+    "text": "exploit information about jet"
+  },
+  {
+    "segment_id": "yt-00133",
+    "start_seconds": 365.6,
+    "end_seconds": 369.28,
+    "text": "substructure"
+  },
+  {
+    "segment_id": "yt-00134",
+    "start_seconds": 367.12,
+    "end_seconds": 372.319,
+    "text": "um"
+  },
+  {
+    "segment_id": "yt-00135",
+    "start_seconds": 369.28,
+    "end_seconds": 375.199,
+    "text": "both implicit and explicit approaches"
+  },
+  {
+    "segment_id": "yt-00136",
+    "start_seconds": 372.319,
+    "end_seconds": 379.6,
+    "text": "are very competitive as we can see from"
+  },
+  {
+    "segment_id": "yt-00137",
+    "start_seconds": 375.199,
+    "end_seconds": 381.28,
+    "text": "the AU of omni and alligator. Uh so the"
+  },
+  {
+    "segment_id": "yt-00138",
+    "start_seconds": 379.6,
+    "end_seconds": 383.039,
+    "text": "takeaway here is that for standard"
+  },
+  {
+    "segment_id": "yt-00139",
+    "start_seconds": 381.28,
+    "end_seconds": 385.199,
+    "text": "benchmarks where the classes are"
+  },
+  {
+    "segment_id": "yt-00140",
+    "start_seconds": 383.039,
+    "end_seconds": 388.16,
+    "text": "different both of uh these approaches"
+  },
+  {
+    "segment_id": "yt-00141",
+    "start_seconds": 385.199,
+    "end_seconds": 390.72,
+    "text": "are very competitive"
+  },
+  {
+    "segment_id": "yt-00142",
+    "start_seconds": 388.16,
+    "end_seconds": 393.199,
+    "text": "but the problems that we are interested"
+  },
+  {
+    "segment_id": "yt-00143",
+    "start_seconds": 390.72,
+    "end_seconds": 394.8,
+    "text": "in are where the classes are nearly"
+  },
+  {
+    "segment_id": "yt-00144",
+    "start_seconds": 393.199,
+    "end_seconds": 397.28,
+    "text": "identical. This is what I call the"
+  },
+  {
+    "segment_id": "yt-00145",
+    "start_seconds": 394.8,
+    "end_seconds": 400.16,
+    "text": "precision frontier. Uh so the two"
+  },
+  {
+    "segment_id": "yt-00146",
+    "start_seconds": 397.28,
+    "end_seconds": 402.08,
+    "text": "classes here or however many classes"
+  },
+  {
+    "segment_id": "yt-00147",
+    "start_seconds": 400.16,
+    "end_seconds": 404.4,
+    "text": "differ only uh with very subtle"
+  },
+  {
+    "segment_id": "yt-00148",
+    "start_seconds": 402.08,
+    "end_seconds": 407.44,
+    "text": "differences and that's exactly where the"
+  },
+  {
+    "segment_id": "yt-00149",
+    "start_seconds": 404.4,
+    "end_seconds": 409.68,
+    "text": "interesting physics lies. So we study"
+  },
+  {
+    "segment_id": "yt-00150",
+    "start_seconds": 407.44,
+    "end_seconds": 412.639,
+    "text": "three prototypical tasks which I'll now"
+  },
+  {
+    "segment_id": "yt-00151",
+    "start_seconds": 409.68,
+    "end_seconds": 414.88,
+    "text": "go through. Um the first is reweing"
+  },
+  {
+    "segment_id": "yt-00152",
+    "start_seconds": 412.639,
+    "end_seconds": 416.88,
+    "text": "based unfolding. The second is"
+  },
+  {
+    "segment_id": "yt-00153",
+    "start_seconds": 414.88,
+    "end_seconds": 419.039,
+    "text": "likelihood ratio estimation and the"
+  },
+  {
+    "segment_id": "yt-00154",
+    "start_seconds": 416.88,
+    "end_seconds": 422.039,
+    "text": "third is weekly supervised anomaly"
+  },
+  {
+    "segment_id": "yt-00155",
+    "start_seconds": 419.039,
+    "end_seconds": 422.039,
+    "text": "detection."
+  },
+  {
+    "segment_id": "yt-00156",
+    "start_seconds": 422.479,
+    "end_seconds": 428.479,
+    "text": "Right? So the first task is uh unfolding"
+  },
+  {
+    "segment_id": "yt-00157",
+    "start_seconds": 426.479,
+    "end_seconds": 431.759,
+    "text": "which is based on reweing for proton"
+  },
+  {
+    "segment_id": "yt-00158",
+    "start_seconds": 428.479,
+    "end_seconds": 435.44,
+    "text": "proton collisions. So because uh there"
+  },
+  {
+    "segment_id": "yt-00159",
+    "start_seconds": 431.759,
+    "end_seconds": 437.599,
+    "text": "are uh uh people from uh not just from"
+  },
+  {
+    "segment_id": "yt-00160",
+    "start_seconds": 435.44,
+    "end_seconds": 440.88,
+    "text": "particle physics here I really like this"
+  },
+  {
+    "segment_id": "yt-00161",
+    "start_seconds": 437.599,
+    "end_seconds": 442.4,
+    "text": "image from Mariel's slides where um I"
+  },
+  {
+    "segment_id": "yt-00162",
+    "start_seconds": 440.88,
+    "end_seconds": 445.919,
+    "text": "think we get an intuition of what"
+  },
+  {
+    "segment_id": "yt-00163",
+    "start_seconds": 442.4,
+    "end_seconds": 448.319,
+    "text": "unfolding means. So"
+  },
+  {
+    "segment_id": "yt-00164",
+    "start_seconds": 445.919,
+    "end_seconds": 450.56,
+    "text": "um the point here is that on the left"
+  },
+  {
+    "segment_id": "yt-00165",
+    "start_seconds": 448.319,
+    "end_seconds": 454.08,
+    "text": "here is a smeared image of a lunar"
+  },
+  {
+    "segment_id": "yt-00166",
+    "start_seconds": 450.56,
+    "end_seconds": 457.36,
+    "text": "crater. Um and what we're interested in"
+  },
+  {
+    "segment_id": "yt-00167",
+    "start_seconds": 454.08,
+    "end_seconds": 460.4,
+    "text": "is the right image. So given that we"
+  },
+  {
+    "segment_id": "yt-00168",
+    "start_seconds": 457.36,
+    "end_seconds": 462.72,
+    "text": "know uh all the information about the"
+  },
+  {
+    "segment_id": "yt-00169",
+    "start_seconds": 460.4,
+    "end_seconds": 465.199,
+    "text": "lunar crater and about the instrument"
+  },
+  {
+    "segment_id": "yt-00170",
+    "start_seconds": 462.72,
+    "end_seconds": 467.599,
+    "text": "that we are using to take the image, we"
+  },
+  {
+    "segment_id": "yt-00171",
+    "start_seconds": 465.199,
+    "end_seconds": 470.08,
+    "text": "can unblur or dn noiseise this image to"
+  },
+  {
+    "segment_id": "yt-00172",
+    "start_seconds": 467.599,
+    "end_seconds": 472.96,
+    "text": "go from left to right. Uh so this is"
+  },
+  {
+    "segment_id": "yt-00173",
+    "start_seconds": 470.08,
+    "end_seconds": 474.72,
+    "text": "known as unfolding or removing unwanted"
+  },
+  {
+    "segment_id": "yt-00174",
+    "start_seconds": 472.96,
+    "end_seconds": 477.599,
+    "text": "detector effects from our experimental"
+  },
+  {
+    "segment_id": "yt-00175",
+    "start_seconds": 474.72,
+    "end_seconds": 479.919,
+    "text": "data."
+  },
+  {
+    "segment_id": "yt-00176",
+    "start_seconds": 477.599,
+    "end_seconds": 482.24,
+    "text": "Right? So for particle physics this is"
+  },
+  {
+    "segment_id": "yt-00177",
+    "start_seconds": 479.919,
+    "end_seconds": 484.08,
+    "text": "what the picture looks like. So on the"
+  },
+  {
+    "segment_id": "yt-00178",
+    "start_seconds": 482.24,
+    "end_seconds": 487.68,
+    "text": "left is what we measure. we have"
+  },
+  {
+    "segment_id": "yt-00179",
+    "start_seconds": 484.08,
+    "end_seconds": 490.56,
+    "text": "reconstruction level um hits from the"
+  },
+  {
+    "segment_id": "yt-00180",
+    "start_seconds": 487.68,
+    "end_seconds": 492.879,
+    "text": "detector but the physics we are"
+  },
+  {
+    "segment_id": "yt-00181",
+    "start_seconds": 490.56,
+    "end_seconds": 496.08,
+    "text": "interested in is uh what's on the right"
+  },
+  {
+    "segment_id": "yt-00182",
+    "start_seconds": 492.879,
+    "end_seconds": 499.759,
+    "text": "we want the truth level information"
+  },
+  {
+    "segment_id": "yt-00183",
+    "start_seconds": 496.08,
+    "end_seconds": 502.0,
+    "text": "um so what we do is that we use neural"
+  },
+  {
+    "segment_id": "yt-00184",
+    "start_seconds": 499.759,
+    "end_seconds": 506.8,
+    "text": "network classifiers to calculate a set"
+  },
+  {
+    "segment_id": "yt-00185",
+    "start_seconds": 502.0,
+    "end_seconds": 509.199,
+    "text": "of weights that allow us to go from the"
+  },
+  {
+    "segment_id": "yt-00186",
+    "start_seconds": 506.8,
+    "end_seconds": 512.08,
+    "text": "uh left to the right uh by applying"
+  },
+  {
+    "segment_id": "yt-00187",
+    "start_seconds": 509.199,
+    "end_seconds": 513.519,
+    "text": "these weights to particle level"
+  },
+  {
+    "segment_id": "yt-00188",
+    "start_seconds": 512.08,
+    "end_seconds": 515.68,
+    "text": "simulation events"
+  },
+  {
+    "segment_id": "yt-00189",
+    "start_seconds": 513.519,
+    "end_seconds": 518.88,
+    "text": "so that we can reweigh them and adjust"
+  },
+  {
+    "segment_id": "yt-00190",
+    "start_seconds": 515.68,
+    "end_seconds": 521.519,
+    "text": "them to get to truth level data"
+  },
+  {
+    "segment_id": "yt-00191",
+    "start_seconds": 518.88,
+    "end_seconds": 524.519,
+    "text": "and that effectively removes detector"
+  },
+  {
+    "segment_id": "yt-00192",
+    "start_seconds": 521.519,
+    "end_seconds": 524.519,
+    "text": "distortions."
+  },
+  {
+    "segment_id": "yt-00193",
+    "start_seconds": 524.56,
+    "end_seconds": 529.76,
+    "text": "Right? So what are the results that we"
+  },
+  {
+    "segment_id": "yt-00194",
+    "start_seconds": 526.64,
+    "end_seconds": 532.8,
+    "text": "have for this task? Um let me describe"
+  },
+  {
+    "segment_id": "yt-00195",
+    "start_seconds": 529.76,
+    "end_seconds": 536.72,
+    "text": "the plot on the left here. This plot uh"
+  },
+  {
+    "segment_id": "yt-00196",
+    "start_seconds": 532.8,
+    "end_seconds": 540.0,
+    "text": "is a histogram of um a jet substructure"
+  },
+  {
+    "segment_id": "yt-00197",
+    "start_seconds": 536.72,
+    "end_seconds": 543.519,
+    "text": "variable. So our task essentially is to"
+  },
+  {
+    "segment_id": "yt-00198",
+    "start_seconds": 540.0,
+    "end_seconds": 546.16,
+    "text": "match the ree the simulation in yellow"
+  },
+  {
+    "segment_id": "yt-00199",
+    "start_seconds": 543.519,
+    "end_seconds": 550.08,
+    "text": "to match this gray distribution which is"
+  },
+  {
+    "segment_id": "yt-00200",
+    "start_seconds": 546.16,
+    "end_seconds": 553.279,
+    "text": "data. Um and you can see the results of"
+  },
+  {
+    "segment_id": "yt-00201",
+    "start_seconds": 550.08,
+    "end_seconds": 555.6,
+    "text": "alligator and omnilarn uh doing this"
+  },
+  {
+    "segment_id": "yt-00202",
+    "start_seconds": 553.279,
+    "end_seconds": 558.24,
+    "text": "unfolding or reweing of simulation to"
+  },
+  {
+    "segment_id": "yt-00203",
+    "start_seconds": 555.6,
+    "end_seconds": 560.88,
+    "text": "data. So to begin with simulation of"
+  },
+  {
+    "segment_id": "yt-00204",
+    "start_seconds": 558.24,
+    "end_seconds": 563.04,
+    "text": "course doesn't match data very well. Um"
+  },
+  {
+    "segment_id": "yt-00205",
+    "start_seconds": 560.88,
+    "end_seconds": 565.12,
+    "text": "and the metric that we use to quantify"
+  },
+  {
+    "segment_id": "yt-00206",
+    "start_seconds": 563.04,
+    "end_seconds": 567.68,
+    "text": "how well unfolding works is the"
+  },
+  {
+    "segment_id": "yt-00207",
+    "start_seconds": 565.12,
+    "end_seconds": 569.76,
+    "text": "triangular discriminator which is in"
+  },
+  {
+    "segment_id": "yt-00208",
+    "start_seconds": 567.68,
+    "end_seconds": 572.64,
+    "text": "this red box here. But what you need to"
+  },
+  {
+    "segment_id": "yt-00209",
+    "start_seconds": 569.76,
+    "end_seconds": 575.519,
+    "text": "know is that smaller is better. Uh so a"
+  },
+  {
+    "segment_id": "yt-00210",
+    "start_seconds": 572.64,
+    "end_seconds": 578.08,
+    "text": "few things that I'll point out here is"
+  },
+  {
+    "segment_id": "yt-00211",
+    "start_seconds": 575.519,
+    "end_seconds": 581.519,
+    "text": "both omnilearn and alligator perform"
+  },
+  {
+    "segment_id": "yt-00212",
+    "start_seconds": 578.08,
+    "end_seconds": 585.36,
+    "text": "better than the pet model which is"
+  },
+  {
+    "segment_id": "yt-00213",
+    "start_seconds": 581.519,
+    "end_seconds": 588.16,
+    "text": "omnilearn minus the pre-training. Um and"
+  },
+  {
+    "segment_id": "yt-00214",
+    "start_seconds": 585.36,
+    "end_seconds": 591.2,
+    "text": "then second even if you increase the"
+  },
+  {
+    "segment_id": "yt-00215",
+    "start_seconds": 588.16,
+    "end_seconds": 595.04,
+    "text": "size of the alligator model we see that"
+  },
+  {
+    "segment_id": "yt-00216",
+    "start_seconds": 591.2,
+    "end_seconds": 599.08,
+    "text": "upscaling the network doesn't uh match"
+  },
+  {
+    "segment_id": "yt-00217",
+    "start_seconds": 595.04,
+    "end_seconds": 599.08,
+    "text": "the performance of omnilarn."
+  },
+  {
+    "segment_id": "yt-00218",
+    "start_seconds": 599.36,
+    "end_seconds": 604.48,
+    "text": "So the main takeaway here is that"
+  },
+  {
+    "segment_id": "yt-00219",
+    "start_seconds": 602.24,
+    "end_seconds": 607.519,
+    "text": "implicit and explicit prior are very"
+  },
+  {
+    "segment_id": "yt-00220",
+    "start_seconds": 604.48,
+    "end_seconds": 609.68,
+    "text": "comparable uh across multiple unfolded"
+  },
+  {
+    "segment_id": "yt-00221",
+    "start_seconds": 607.519,
+    "end_seconds": 611.279,
+    "text": "observables. What I showed on the"
+  },
+  {
+    "segment_id": "yt-00222",
+    "start_seconds": 609.68,
+    "end_seconds": 614.24,
+    "text": "previous slide was just one observable"
+  },
+  {
+    "segment_id": "yt-00223",
+    "start_seconds": 611.279,
+    "end_seconds": 617.72,
+    "text": "but we uh did the same exercise for"
+  },
+  {
+    "segment_id": "yt-00224",
+    "start_seconds": 614.24,
+    "end_seconds": 617.72,
+    "text": "multiple variables."
+  },
+  {
+    "segment_id": "yt-00225",
+    "start_seconds": 619.44,
+    "end_seconds": 624.079,
+    "text": "Uh the second task is likelihood ratio"
+  },
+  {
+    "segment_id": "yt-00226",
+    "start_seconds": 622.32,
+    "end_seconds": 626.56,
+    "text": "estimation for electron proton"
+  },
+  {
+    "segment_id": "yt-00227",
+    "start_seconds": 624.079,
+    "end_seconds": 628.64,
+    "text": "collisions. So unlike proton proton"
+  },
+  {
+    "segment_id": "yt-00228",
+    "start_seconds": 626.56,
+    "end_seconds": 631.04,
+    "text": "collisions in the previous task here we"
+  },
+  {
+    "segment_id": "yt-00229",
+    "start_seconds": 628.64,
+    "end_seconds": 633.279,
+    "text": "want to reate high Q square deep in"
+  },
+  {
+    "segment_id": "yt-00230",
+    "start_seconds": 631.04,
+    "end_seconds": 636.0,
+    "text": "elastic scattering events at the H1"
+  },
+  {
+    "segment_id": "yt-00231",
+    "start_seconds": 633.279,
+    "end_seconds": 638.48,
+    "text": "detector uh where you have an incoming"
+  },
+  {
+    "segment_id": "yt-00232",
+    "start_seconds": 636.0,
+    "end_seconds": 641.279,
+    "text": "electron a pro colliding into a proton"
+  },
+  {
+    "segment_id": "yt-00233",
+    "start_seconds": 638.48,
+    "end_seconds": 645.76,
+    "text": "and then you have a scattered electron"
+  },
+  {
+    "segment_id": "yt-00234",
+    "start_seconds": 641.279,
+    "end_seconds": 648.48,
+    "text": "um and you also have a an outgoing jet"
+  },
+  {
+    "segment_id": "yt-00235",
+    "start_seconds": 645.76,
+    "end_seconds": 651.519,
+    "text": "um and it's these jets that we want to"
+  },
+  {
+    "segment_id": "yt-00236",
+    "start_seconds": 648.48,
+    "end_seconds": 653.2,
+    "text": "classify between two simulations. uh one"
+  },
+  {
+    "segment_id": "yt-00237",
+    "start_seconds": 651.519,
+    "end_seconds": 655.36,
+    "text": "thing I'll note is that compared to the"
+  },
+  {
+    "segment_id": "yt-00238",
+    "start_seconds": 653.2,
+    "end_seconds": 657.6,
+    "text": "previous task the differences between"
+  },
+  {
+    "segment_id": "yt-00239",
+    "start_seconds": 655.36,
+    "end_seconds": 660.079,
+    "text": "the constituent level and jet level"
+  },
+  {
+    "segment_id": "yt-00240",
+    "start_seconds": 657.6,
+    "end_seconds": 662.72,
+    "text": "features are even more subtle. So this"
+  },
+  {
+    "segment_id": "yt-00241",
+    "start_seconds": 660.079,
+    "end_seconds": 665.12,
+    "text": "is in some sense an even harder task."
+  },
+  {
+    "segment_id": "yt-00242",
+    "start_seconds": 662.72,
+    "end_seconds": 667.76,
+    "text": "And another thing is that omnilearn was"
+  },
+  {
+    "segment_id": "yt-00243",
+    "start_seconds": 665.12,
+    "end_seconds": 670.32,
+    "text": "not pre-trained on these kind of jets."
+  },
+  {
+    "segment_id": "yt-00244",
+    "start_seconds": 667.76,
+    "end_seconds": 674.44,
+    "text": "So this problem is out of domain for pre"
+  },
+  {
+    "segment_id": "yt-00245",
+    "start_seconds": 670.32,
+    "end_seconds": 674.44,
+    "text": "of omnilarn pre-training."
+  },
+  {
+    "segment_id": "yt-00246",
+    "start_seconds": 675.68,
+    "end_seconds": 680.88,
+    "text": "So let's look at the results here. So"
+  },
+  {
+    "segment_id": "yt-00247",
+    "start_seconds": 678.88,
+    "end_seconds": 683.04,
+    "text": "this is a histogram of the invariant"
+  },
+  {
+    "segment_id": "yt-00248",
+    "start_seconds": 680.88,
+    "end_seconds": 687.44,
+    "text": "mass of the jet which I showed in the"
+  },
+  {
+    "segment_id": "yt-00249",
+    "start_seconds": 683.04,
+    "end_seconds": 689.12,
+    "text": "previous uh slide. Um here uh simulation"
+  },
+  {
+    "segment_id": "yt-00250",
+    "start_seconds": 687.44,
+    "end_seconds": 692.64,
+    "text": "is again in yellow and we are trying to"
+  },
+  {
+    "segment_id": "yt-00251",
+    "start_seconds": 689.12,
+    "end_seconds": 695.2,
+    "text": "rewe it to match to data. Uh now as you"
+  },
+  {
+    "segment_id": "yt-00252",
+    "start_seconds": 692.64,
+    "end_seconds": 696.8,
+    "text": "can see uh the differences are already"
+  },
+  {
+    "segment_id": "yt-00253",
+    "start_seconds": 695.2,
+    "end_seconds": 699.36,
+    "text": "very subtle in the bulk of the"
+  },
+  {
+    "segment_id": "yt-00254",
+    "start_seconds": 696.8,
+    "end_seconds": 702.72,
+    "text": "distribution but it's in the tails where"
+  },
+  {
+    "segment_id": "yt-00255",
+    "start_seconds": 699.36,
+    "end_seconds": 705.279,
+    "text": "we see the effect of unfolding. Um you"
+  },
+  {
+    "segment_id": "yt-00256",
+    "start_seconds": 702.72,
+    "end_seconds": 708.0,
+    "text": "can really see how much uh improvement"
+  },
+  {
+    "segment_id": "yt-00257",
+    "start_seconds": 705.279,
+    "end_seconds": 709.839,
+    "text": "between simulation and data uh sorry"
+  },
+  {
+    "segment_id": "yt-00258",
+    "start_seconds": 708.0,
+    "end_seconds": 713.519,
+    "text": "agreement between simulation and data"
+  },
+  {
+    "segment_id": "yt-00259",
+    "start_seconds": 709.839,
+    "end_seconds": 716.399,
+    "text": "improves on doing unfolding. Uh and one"
+  },
+  {
+    "segment_id": "yt-00260",
+    "start_seconds": 713.519,
+    "end_seconds": 719.519,
+    "text": "thing that's notable is that all three"
+  },
+  {
+    "segment_id": "yt-00261",
+    "start_seconds": 716.399,
+    "end_seconds": 722.24,
+    "text": "alligator omni and pet uh do very well"
+  },
+  {
+    "segment_id": "yt-00262",
+    "start_seconds": 719.519,
+    "end_seconds": 724.32,
+    "text": "in closing this gap"
+  },
+  {
+    "segment_id": "yt-00263",
+    "start_seconds": 722.24,
+    "end_seconds": 726.72,
+    "text": "and omni and alligator performance is"
+  },
+  {
+    "segment_id": "yt-00264",
+    "start_seconds": 724.32,
+    "end_seconds": 728.72,
+    "text": "neck and neck. But one thing to note"
+  },
+  {
+    "segment_id": "yt-00265",
+    "start_seconds": 726.72,
+    "end_seconds": 731.2,
+    "text": "here is that Omniarn converges to the"
+  },
+  {
+    "segment_id": "yt-00266",
+    "start_seconds": 728.72,
+    "end_seconds": 734.2,
+    "text": "right answer much faster than alligator"
+  },
+  {
+    "segment_id": "yt-00267",
+    "start_seconds": 731.2,
+    "end_seconds": 734.2,
+    "text": "does."
+  },
+  {
+    "segment_id": "yt-00268",
+    "start_seconds": 734.72,
+    "end_seconds": 740.24,
+    "text": "So the main takeaway for this task that"
+  },
+  {
+    "segment_id": "yt-00269",
+    "start_seconds": 737.519,
+    "end_seconds": 743.04,
+    "text": "we have is that once again both implicit"
+  },
+  {
+    "segment_id": "yt-00270",
+    "start_seconds": 740.24,
+    "end_seconds": 746.0,
+    "text": "and explicit prize are very comparable"
+  },
+  {
+    "segment_id": "yt-00271",
+    "start_seconds": 743.04,
+    "end_seconds": 750.2,
+    "text": "even when the task is uh out of the"
+  },
+  {
+    "segment_id": "yt-00272",
+    "start_seconds": 746.0,
+    "end_seconds": 750.2,
+    "text": "pre-training domain for Omniarn."
+  },
+  {
+    "segment_id": "yt-00273",
+    "start_seconds": 752.24,
+    "end_seconds": 757.36,
+    "text": "Okay, this brings me to my last task. Uh"
+  },
+  {
+    "segment_id": "yt-00274",
+    "start_seconds": 755.519,
+    "end_seconds": 759.839,
+    "text": "the third task that we looked at is"
+  },
+  {
+    "segment_id": "yt-00275",
+    "start_seconds": 757.36,
+    "end_seconds": 762.959,
+    "text": "weekly supervised anomaly detection"
+  },
+  {
+    "segment_id": "yt-00276",
+    "start_seconds": 759.839,
+    "end_seconds": 765.04,
+    "text": "because we are of course very interested"
+  },
+  {
+    "segment_id": "yt-00277",
+    "start_seconds": 762.959,
+    "end_seconds": 769.36,
+    "text": "in finding out where the new physics is"
+  },
+  {
+    "segment_id": "yt-00278",
+    "start_seconds": 765.04,
+    "end_seconds": 771.36,
+    "text": "hiding. Um so we uh employ a technique"
+  },
+  {
+    "segment_id": "yt-00279",
+    "start_seconds": 769.36,
+    "end_seconds": 775.36,
+    "text": "where we compare a signal enriched"
+  },
+  {
+    "segment_id": "yt-00280",
+    "start_seconds": 771.36,
+    "end_seconds": 777.68,
+    "text": "region um uh where uh uh with the"
+  },
+  {
+    "segment_id": "yt-00281",
+    "start_seconds": 775.36,
+    "end_seconds": 779.76,
+    "text": "observed data uh where the signal is"
+  },
+  {
+    "segment_id": "yt-00282",
+    "start_seconds": 777.68,
+    "end_seconds": 783.36,
+    "text": "very small and if we see a difference"
+  },
+  {
+    "segment_id": "yt-00283",
+    "start_seconds": 779.76,
+    "end_seconds": 784.8,
+    "text": "between this uh um this estimation in"
+  },
+  {
+    "segment_id": "yt-00284",
+    "start_seconds": 783.36,
+    "end_seconds": 787.519,
+    "text": "the signal enrich region with the"
+  },
+  {
+    "segment_id": "yt-00285",
+    "start_seconds": 784.8,
+    "end_seconds": 790.8,
+    "text": "observed data we can say that we we see"
+  },
+  {
+    "segment_id": "yt-00286",
+    "start_seconds": 787.519,
+    "end_seconds": 793.04,
+    "text": "something anomalous. Um"
+  },
+  {
+    "segment_id": "yt-00287",
+    "start_seconds": 790.8,
+    "end_seconds": 796.88,
+    "text": "so the specific problem in this anomaly"
+  },
+  {
+    "segment_id": "yt-00288",
+    "start_seconds": 793.04,
+    "end_seconds": 799.2,
+    "text": "detection uh corresponds to uh the"
+  },
+  {
+    "segment_id": "yt-00289",
+    "start_seconds": 796.88,
+    "end_seconds": 802.16,
+    "text": "landscape where the signal is a uh"
+  },
+  {
+    "segment_id": "yt-00290",
+    "start_seconds": 799.2,
+    "end_seconds": 805.44,
+    "text": "resonant boson production. Uh so you"
+  },
+  {
+    "segment_id": "yt-00291",
+    "start_seconds": 802.16,
+    "end_seconds": 807.839,
+    "text": "have two resonances B and C and the"
+  },
+  {
+    "segment_id": "yt-00292",
+    "start_seconds": 805.44,
+    "end_seconds": 812.04,
+    "text": "background is uh a diget final state"
+  },
+  {
+    "segment_id": "yt-00293",
+    "start_seconds": 807.839,
+    "end_seconds": 812.04,
+    "text": "from QCD production."
+  },
+  {
+    "segment_id": "yt-00294",
+    "start_seconds": 812.079,
+    "end_seconds": 820.16,
+    "text": "So the result here um uh is in terms of"
+  },
+  {
+    "segment_id": "yt-00295",
+    "start_seconds": 817.2,
+    "end_seconds": 821.839,
+    "text": "a metric which is very common to anomaly"
+  },
+  {
+    "segment_id": "yt-00296",
+    "start_seconds": 820.16,
+    "end_seconds": 823.519,
+    "text": "detection and particle physics. It's"
+  },
+  {
+    "segment_id": "yt-00297",
+    "start_seconds": 821.839,
+    "end_seconds": 825.04,
+    "text": "called the significance improvement"
+  },
+  {
+    "segment_id": "yt-00298",
+    "start_seconds": 823.519,
+    "end_seconds": 827.12,
+    "text": "characteristic."
+  },
+  {
+    "segment_id": "yt-00299",
+    "start_seconds": 825.04,
+    "end_seconds": 829.44,
+    "text": "Basically it means how much can you"
+  },
+  {
+    "segment_id": "yt-00300",
+    "start_seconds": 827.12,
+    "end_seconds": 833.12,
+    "text": "improve your significance from an"
+  },
+  {
+    "segment_id": "yt-00301",
+    "start_seconds": 829.44,
+    "end_seconds": 835.519,
+    "text": "initial value. Um so on this curve here"
+  },
+  {
+    "segment_id": "yt-00302",
+    "start_seconds": 833.12,
+    "end_seconds": 837.76,
+    "text": "on the x-axis are the signal events."
+  },
+  {
+    "segment_id": "yt-00303",
+    "start_seconds": 835.519,
+    "end_seconds": 840.32,
+    "text": "That basically means how many signal"
+  },
+  {
+    "segment_id": "yt-00304",
+    "start_seconds": 837.76,
+    "end_seconds": 842.16,
+    "text": "events are you injecting. So going from"
+  },
+  {
+    "segment_id": "yt-00305",
+    "start_seconds": 840.32,
+    "end_seconds": 844.88,
+    "text": "left to right means you are injecting"
+  },
+  {
+    "segment_id": "yt-00306",
+    "start_seconds": 842.16,
+    "end_seconds": 849.199,
+    "text": "more signal and on the y-axis you have"
+  },
+  {
+    "segment_id": "yt-00307",
+    "start_seconds": 844.88,
+    "end_seconds": 852.24,
+    "text": "the sic. So basically higher is better."
+  },
+  {
+    "segment_id": "yt-00308",
+    "start_seconds": 849.199,
+    "end_seconds": 856.32,
+    "text": "So if we look at the full range of the"
+  },
+  {
+    "segment_id": "yt-00309",
+    "start_seconds": 852.24,
+    "end_seconds": 859.12,
+    "text": "signal events, we can see that um a uh"
+  },
+  {
+    "segment_id": "yt-00310",
+    "start_seconds": 856.32,
+    "end_seconds": 861.76,
+    "text": "alligator and omnilarn significantly"
+  },
+  {
+    "segment_id": "yt-00311",
+    "start_seconds": 859.12,
+    "end_seconds": 864.56,
+    "text": "outperform uh the PET model which is"
+  },
+  {
+    "segment_id": "yt-00312",
+    "start_seconds": 861.76,
+    "end_seconds": 868.72,
+    "text": "where we don't have any pre-training or"
+  },
+  {
+    "segment_id": "yt-00313",
+    "start_seconds": 864.56,
+    "end_seconds": 870.56,
+    "text": "uh explicit prior and also that within"
+  },
+  {
+    "segment_id": "yt-00314",
+    "start_seconds": 868.72,
+    "end_seconds": 873.76,
+    "text": "the whole range within the uncertainty"
+  },
+  {
+    "segment_id": "yt-00315",
+    "start_seconds": 870.56,
+    "end_seconds": 876.959,
+    "text": "bands both Omnarn and alligator perform"
+  },
+  {
+    "segment_id": "yt-00316",
+    "start_seconds": 873.76,
+    "end_seconds": 878.88,
+    "text": "similarly well with the Omniarn having a"
+  },
+  {
+    "segment_id": "yt-00317",
+    "start_seconds": 876.959,
+    "end_seconds": 883.959,
+    "text": "slight edge in this region where you"
+  },
+  {
+    "segment_id": "yt-00318",
+    "start_seconds": 878.88,
+    "end_seconds": 883.959,
+    "text": "have uh less number of signal events."
+  },
+  {
+    "segment_id": "yt-00319",
+    "start_seconds": 885.279,
+    "end_seconds": 889.839,
+    "text": "So the main takeaway here is that"
+  },
+  {
+    "segment_id": "yt-00320",
+    "start_seconds": 888.16,
+    "end_seconds": 893.12,
+    "text": "implicit and explicit prior are"
+  },
+  {
+    "segment_id": "yt-00321",
+    "start_seconds": 889.839,
+    "end_seconds": 895.199,
+    "text": "comparable. Um however the implicit"
+  },
+  {
+    "segment_id": "yt-00322",
+    "start_seconds": 893.12,
+    "end_seconds": 899.56,
+    "text": "prior have a small edge in a regime"
+  },
+  {
+    "segment_id": "yt-00323",
+    "start_seconds": 895.199,
+    "end_seconds": 899.56,
+    "text": "where you don't have as much signal."
+  },
+  {
+    "segment_id": "yt-00324",
+    "start_seconds": 900.399,
+    "end_seconds": 906.639,
+    "text": "So this is the final score scorecard for"
+  },
+  {
+    "segment_id": "yt-00325",
+    "start_seconds": 903.44,
+    "end_seconds": 909.12,
+    "text": "the three tasks. Um the first task is"
+  },
+  {
+    "segment_id": "yt-00326",
+    "start_seconds": 906.639,
+    "end_seconds": 911.12,
+    "text": "where we had reweing based unfolding."
+  },
+  {
+    "segment_id": "yt-00327",
+    "start_seconds": 909.12,
+    "end_seconds": 914.32,
+    "text": "The outcome was that implicit and"
+  },
+  {
+    "segment_id": "yt-00328",
+    "start_seconds": 911.12,
+    "end_seconds": 916.88,
+    "text": "explicit prize are comparable across all"
+  },
+  {
+    "segment_id": "yt-00329",
+    "start_seconds": 914.32,
+    "end_seconds": 919.279,
+    "text": "the unfolded observables. The second"
+  },
+  {
+    "segment_id": "yt-00330",
+    "start_seconds": 916.88,
+    "end_seconds": 921.68,
+    "text": "task where we have likelihood ratio"
+  },
+  {
+    "segment_id": "yt-00331",
+    "start_seconds": 919.279,
+    "end_seconds": 924.0,
+    "text": "estimation for EP collisions is that"
+  },
+  {
+    "segment_id": "yt-00332",
+    "start_seconds": 921.68,
+    "end_seconds": 926.8,
+    "text": "even if the task is out of domain for"
+  },
+  {
+    "segment_id": "yt-00333",
+    "start_seconds": 924.0,
+    "end_seconds": 929.76,
+    "text": "the pre-training data uh both implicit"
+  },
+  {
+    "segment_id": "yt-00334",
+    "start_seconds": 926.8,
+    "end_seconds": 932.639,
+    "text": "and explicit um options do equally"
+  },
+  {
+    "segment_id": "yt-00335",
+    "start_seconds": 929.76,
+    "end_seconds": 935.12,
+    "text": "comparably well. And uh lastly for"
+  },
+  {
+    "segment_id": "yt-00336",
+    "start_seconds": 932.639,
+    "end_seconds": 937.04,
+    "text": "anomaly detection once again it's a"
+  },
+  {
+    "segment_id": "yt-00337",
+    "start_seconds": 935.12,
+    "end_seconds": 938.959,
+    "text": "similar story they are comparable with"
+  },
+  {
+    "segment_id": "yt-00338",
+    "start_seconds": 937.04,
+    "end_seconds": 942.399,
+    "text": "the implicit having a small edge in the"
+  },
+  {
+    "segment_id": "yt-00339",
+    "start_seconds": 938.959,
+    "end_seconds": 944.959,
+    "text": "low signal regime. Um"
+  },
+  {
+    "segment_id": "yt-00340",
+    "start_seconds": 942.399,
+    "end_seconds": 947.68,
+    "text": "right so the main message is that within"
+  },
+  {
+    "segment_id": "yt-00341",
+    "start_seconds": 944.959,
+    "end_seconds": 950.24,
+    "text": "the statistical precision of our data"
+  },
+  {
+    "segment_id": "yt-00342",
+    "start_seconds": 947.68,
+    "end_seconds": 952.88,
+    "text": "both uh explicit and implicit prior"
+  },
+  {
+    "segment_id": "yt-00343",
+    "start_seconds": 950.24,
+    "end_seconds": 954.8,
+    "text": "perform comparably. So I guess if you"
+  },
+  {
+    "segment_id": "yt-00344",
+    "start_seconds": 952.88,
+    "end_seconds": 956.56,
+    "text": "were to ask me for one prescription I"
+  },
+  {
+    "segment_id": "yt-00345",
+    "start_seconds": 954.8,
+    "end_seconds": 958.32,
+    "text": "would say that if you have access to the"
+  },
+  {
+    "segment_id": "yt-00346",
+    "start_seconds": 956.56,
+    "end_seconds": 961.6,
+    "text": "training checkpoints and you have access"
+  },
+  {
+    "segment_id": "yt-00347",
+    "start_seconds": 958.32,
+    "end_seconds": 964.079,
+    "text": "to compute implicit is the way to go. If"
+  },
+  {
+    "segment_id": "yt-00348",
+    "start_seconds": 961.6,
+    "end_seconds": 967.079,
+    "text": "not explicit prior give us equally good"
+  },
+  {
+    "segment_id": "yt-00349",
+    "start_seconds": 964.079,
+    "end_seconds": 967.079,
+    "text": "performance."
+  },
+  {
+    "segment_id": "yt-00350",
+    "start_seconds": 967.6,
+    "end_seconds": 972.32,
+    "text": "So I I just want to flash these thoughts"
+  },
+  {
+    "segment_id": "yt-00351",
+    "start_seconds": 970.56,
+    "end_seconds": 975.92,
+    "text": "that I have which I think are relevant"
+  },
+  {
+    "segment_id": "yt-00352",
+    "start_seconds": 972.32,
+    "end_seconds": 979.36,
+    "text": "for um physicist beyond particle"
+  },
+  {
+    "segment_id": "yt-00353",
+    "start_seconds": 975.92,
+    "end_seconds": 981.519,
+    "text": "physics. uh which I think is first that"
+  },
+  {
+    "segment_id": "yt-00354",
+    "start_seconds": 979.36,
+    "end_seconds": 983.68,
+    "text": "networks are learning symmetries or"
+  },
+  {
+    "segment_id": "yt-00355",
+    "start_seconds": 981.519,
+    "end_seconds": 986.24,
+    "text": "something like symmetries from data"
+  },
+  {
+    "segment_id": "yt-00356",
+    "start_seconds": 983.68,
+    "end_seconds": 988.0,
+    "text": "because we've seen that even though omni"
+  },
+  {
+    "segment_id": "yt-00357",
+    "start_seconds": 986.24,
+    "end_seconds": 991.12,
+    "text": "did not have any explicit knowledge of"
+  },
+  {
+    "segment_id": "yt-00358",
+    "start_seconds": 988.0,
+    "end_seconds": 993.199,
+    "text": "the Lauren symmetry it matched or even"
+  },
+  {
+    "segment_id": "yt-00359",
+    "start_seconds": 991.12,
+    "end_seconds": 996.24,
+    "text": "beat uh a network with hardcoded"
+  },
+  {
+    "segment_id": "yt-00360",
+    "start_seconds": 993.199,
+    "end_seconds": 999.12,
+    "text": "symmetry. Um the second I think is a"
+  },
+  {
+    "segment_id": "yt-00361",
+    "start_seconds": 996.24,
+    "end_seconds": 1001.279,
+    "text": "nuanced bitter lesson which means that"
+  },
+  {
+    "segment_id": "yt-00362",
+    "start_seconds": 999.12,
+    "end_seconds": 1004.8,
+    "text": "maybe the answer is that at scale the"
+  },
+  {
+    "segment_id": "yt-00363",
+    "start_seconds": 1001.279,
+    "end_seconds": 1007.68,
+    "text": "best prior may just be more data. Um"
+  },
+  {
+    "segment_id": "yt-00364",
+    "start_seconds": 1004.8,
+    "end_seconds": 1010.0,
+    "text": "however in areas where we do not have"
+  },
+  {
+    "segment_id": "yt-00365",
+    "start_seconds": 1007.68,
+    "end_seconds": 1013.36,
+    "text": "access to a lot of simulation or data"
+  },
+  {
+    "segment_id": "yt-00366",
+    "start_seconds": 1010.0,
+    "end_seconds": 1016.639,
+    "text": "for pre-training explicit prior are very"
+  },
+  {
+    "segment_id": "yt-00367",
+    "start_seconds": 1013.36,
+    "end_seconds": 1018.0,
+    "text": "efficient and effective um when the data"
+  },
+  {
+    "segment_id": "yt-00368",
+    "start_seconds": 1016.639,
+    "end_seconds": 1020.639,
+    "text": "is not available or you don't have"
+  },
+  {
+    "segment_id": "yt-00369",
+    "start_seconds": 1018.0,
+    "end_seconds": 1023.12,
+    "text": "access to a lot of compute and I think"
+  },
+  {
+    "segment_id": "yt-00370",
+    "start_seconds": 1020.639,
+    "end_seconds": 1026.48,
+    "text": "third is an open question is what"
+  },
+  {
+    "segment_id": "yt-00371",
+    "start_seconds": 1023.12,
+    "end_seconds": 1028.959,
+    "text": "happens if we combine both of them um if"
+  },
+  {
+    "segment_id": "yt-00372",
+    "start_seconds": 1026.48,
+    "end_seconds": 1030.799,
+    "text": "we try to compress uh these large"
+  },
+  {
+    "segment_id": "yt-00373",
+    "start_seconds": 1028.959,
+    "end_seconds": 1033.679,
+    "text": "foundation models does the symmetry"
+  },
+  {
+    "segment_id": "yt-00374",
+    "start_seconds": 1030.799,
+    "end_seconds": 1036.72,
+    "text": "still survive and what happens if the"
+  },
+  {
+    "segment_id": "yt-00375",
+    "start_seconds": 1033.679,
+    "end_seconds": 1040.559,
+    "text": "backbone is equivariant. Uh does it lead"
+  },
+  {
+    "segment_id": "yt-00376",
+    "start_seconds": 1036.72,
+    "end_seconds": 1044.319,
+    "text": "to better foundation models?"
+  },
+  {
+    "segment_id": "yt-00377",
+    "start_seconds": 1040.559,
+    "end_seconds": 1049.039,
+    "text": "Um and then I'll just"
+  },
+  {
+    "segment_id": "yt-00378",
+    "start_seconds": 1044.319,
+    "end_seconds": 1053.16,
+    "text": "end with this summary slide. Um and I'll"
+  },
+  {
+    "segment_id": "yt-00379",
+    "start_seconds": 1049.039,
+    "end_seconds": 1053.16,
+    "text": "open for questions. Thank you."
+  },
+  {
+    "segment_id": "yt-00380",
+    "start_seconds": 1056.24,
+    "end_seconds": 1061.64,
+    "text": "Thank you. Uh we have time for"
+  },
+  {
+    "segment_id": "yt-00381",
+    "start_seconds": 1058.64,
+    "end_seconds": 1061.64,
+    "text": "questions."
+  },
+  {
+    "segment_id": "yt-00382",
+    "start_seconds": 1072.16,
+    "end_seconds": 1075.76,
+    "text": "Hello. Yes, thanks for the very nice"
+  },
+  {
+    "segment_id": "yt-00383",
+    "start_seconds": 1073.84,
+    "end_seconds": 1077.919,
+    "text": "talk. So my question is here the model"
+  },
+  {
+    "segment_id": "yt-00384",
+    "start_seconds": 1075.76,
+    "end_seconds": 1080.08,
+    "text": "we use is OmniLearn, right? And if I"
+  },
+  {
+    "segment_id": "yt-00385",
+    "start_seconds": 1077.919,
+    "end_seconds": 1082.72,
+    "text": "remember from Vinnie's talk, I think"
+  },
+  {
+    "segment_id": "yt-00386",
+    "start_seconds": 1080.08,
+    "end_seconds": 1084.799,
+    "text": "yesterday, omni actually have like three"
+  },
+  {
+    "segment_id": "yt-00387",
+    "start_seconds": 1082.72,
+    "end_seconds": 1086.32,
+    "text": "scales like small, medium, large. Which"
+  },
+  {
+    "segment_id": "yt-00388",
+    "start_seconds": 1084.799,
+    "end_seconds": 1088.799,
+    "text": "one do you think this one is more like"
+  },
+  {
+    "segment_id": "yt-00389",
+    "start_seconds": 1086.32,
+    "end_seconds": 1090.48,
+    "text": "comparable to? And if we just keep"
+  },
+  {
+    "segment_id": "yt-00390",
+    "start_seconds": 1088.799,
+    "end_seconds": 1092.799,
+    "text": "making the model bigger and bigger, is"
+  },
+  {
+    "segment_id": "yt-00391",
+    "start_seconds": 1090.48,
+    "end_seconds": 1095.039,
+    "text": "this a more clear path towards a better"
+  },
+  {
+    "segment_id": "yt-00392",
+    "start_seconds": 1092.799,
+    "end_seconds": 1097.28,
+    "text": "performance compared to the physics"
+  },
+  {
+    "segment_id": "yt-00393",
+    "start_seconds": 1095.039,
+    "end_seconds": 1098.64,
+    "text": "informed one where no matter like we"
+  },
+  {
+    "segment_id": "yt-00394",
+    "start_seconds": 1097.28,
+    "end_seconds": 1099.919,
+    "text": "don't know if tomorrow somebody will"
+  },
+  {
+    "segment_id": "yt-00395",
+    "start_seconds": 1098.64,
+    "end_seconds": 1101.919,
+    "text": "just scratch their head and think about"
+  },
+  {
+    "segment_id": "yt-00396",
+    "start_seconds": 1099.919,
+    "end_seconds": 1104.24,
+    "text": "a better model, right? That is not so"
+  },
+  {
+    "segment_id": "yt-00397",
+    "start_seconds": 1101.919,
+    "end_seconds": 1106.96,
+    "text": "sure. But seems like Omniarn give us a"
+  },
+  {
+    "segment_id": "yt-00398",
+    "start_seconds": 1104.24,
+    "end_seconds": 1111.2,
+    "text": "better path forward."
+  },
+  {
+    "segment_id": "yt-00399",
+    "start_seconds": 1106.96,
+    "end_seconds": 1114.88,
+    "text": ">> Yeah. So Omniarn I think is uh I should"
+  },
+  {
+    "segment_id": "yt-00400",
+    "start_seconds": 1111.2,
+    "end_seconds": 1117.6,
+    "text": "have the parameters somewhere in this"
+  },
+  {
+    "segment_id": "yt-00401",
+    "start_seconds": 1114.88,
+    "end_seconds": 1120.0,
+    "text": "table. Anyway, I think the alligator"
+  },
+  {
+    "segment_id": "yt-00402",
+    "start_seconds": 1117.6,
+    "end_seconds": 1123.12,
+    "text": "with 2 million parameters is comparable"
+  },
+  {
+    "segment_id": "yt-00403",
+    "start_seconds": 1120.0,
+    "end_seconds": 1125.039,
+    "text": "to the number of parameters in Omniarn,"
+  },
+  {
+    "segment_id": "yt-00404",
+    "start_seconds": 1123.12,
+    "end_seconds": 1127.12,
+    "text": "which is why this is a more fair"
+  },
+  {
+    "segment_id": "yt-00405",
+    "start_seconds": 1125.039,
+    "end_seconds": 1128.799,
+    "text": "comparison because yes, even though Omni"
+  },
+  {
+    "segment_id": "yt-00406",
+    "start_seconds": 1127.12,
+    "end_seconds": 1133.6,
+    "text": "learned is bigger, we haven't made"
+  },
+  {
+    "segment_id": "yt-00407",
+    "start_seconds": 1128.799,
+    "end_seconds": 1135.6,
+    "text": "alligator bigger. Um,"
+  },
+  {
+    "segment_id": "yt-00408",
+    "start_seconds": 1133.6,
+    "end_seconds": 1137.84,
+    "text": "and"
+  },
+  {
+    "segment_id": "yt-00409",
+    "start_seconds": 1135.6,
+    "end_seconds": 1139.6,
+    "text": "yeah, so I guess that's my answer. uh"
+  },
+  {
+    "segment_id": "yt-00410",
+    "start_seconds": 1137.84,
+    "end_seconds": 1142.24,
+    "text": "with when we have the same number of"
+  },
+  {
+    "segment_id": "yt-00411",
+    "start_seconds": 1139.6,
+    "end_seconds": 1145.44,
+    "text": "parameters the conclusive answer we have"
+  },
+  {
+    "segment_id": "yt-00412",
+    "start_seconds": 1142.24,
+    "end_seconds": 1149.52,
+    "text": "is that both implicit and explicit are"
+  },
+  {
+    "segment_id": "yt-00413",
+    "start_seconds": 1145.44,
+    "end_seconds": 1153.2,
+    "text": "comparable but um I think if I remember"
+  },
+  {
+    "segment_id": "yt-00414",
+    "start_seconds": 1149.52,
+    "end_seconds": 1155.28,
+    "text": "the uh the the results in uh omniarn"
+  },
+  {
+    "segment_id": "yt-00415",
+    "start_seconds": 1153.2,
+    "end_seconds": 1156.72,
+    "text": "paper by increasing the number of"
+  },
+  {
+    "segment_id": "yt-00416",
+    "start_seconds": 1155.28,
+    "end_seconds": 1158.4,
+    "text": "parameters and also because they"
+  },
+  {
+    "segment_id": "yt-00417",
+    "start_seconds": 1156.72,
+    "end_seconds": 1162.16,
+    "text": "increase the number of pre-training size"
+  },
+  {
+    "segment_id": "yt-00418",
+    "start_seconds": 1158.4,
+    "end_seconds": 1163.44,
+    "text": "it outperforms alligator by a a bigger"
+  },
+  {
+    "segment_id": "yt-00419",
+    "start_seconds": 1162.16,
+    "end_seconds": 1165.679,
+    "text": "margin."
+  },
+  {
+    "segment_id": "yt-00420",
+    "start_seconds": 1163.44,
+    "end_seconds": 1168.799,
+    "text": ">> I see thank you. Oh sorry maybe one more"
+  },
+  {
+    "segment_id": "yt-00421",
+    "start_seconds": 1165.679,
+    "end_seconds": 1171.039,
+    "text": "question. Uh so if you take alligator"
+  },
+  {
+    "segment_id": "yt-00422",
+    "start_seconds": 1168.799,
+    "end_seconds": 1174.08,
+    "text": "and then just give it like 10 billion"
+  },
+  {
+    "segment_id": "yt-00423",
+    "start_seconds": 1171.039,
+    "end_seconds": 1176.64,
+    "text": "sample to train as we train Omniarn uh"
+  },
+  {
+    "segment_id": "yt-00424",
+    "start_seconds": 1174.08,
+    "end_seconds": 1179.84,
+    "text": "will that be a foundation model or like"
+  },
+  {
+    "segment_id": "yt-00425",
+    "start_seconds": 1176.64,
+    "end_seconds": 1182.08,
+    "text": "what makes Omnarn like unique I I guess"
+  },
+  {
+    "segment_id": "yt-00426",
+    "start_seconds": 1179.84,
+    "end_seconds": 1185.44,
+    "text": "yeah is it possible to make alligator a"
+  },
+  {
+    "segment_id": "yt-00427",
+    "start_seconds": 1182.08,
+    "end_seconds": 1188.4,
+    "text": "foundation model? Yeah, I think that's"
+  },
+  {
+    "segment_id": "yt-00428",
+    "start_seconds": 1185.44,
+    "end_seconds": 1191.44,
+    "text": "alluding to the third open question I"
+  },
+  {
+    "segment_id": "yt-00429",
+    "start_seconds": 1188.4,
+    "end_seconds": 1192.96,
+    "text": "have. If we can make somehow the"
+  },
+  {
+    "segment_id": "yt-00430",
+    "start_seconds": 1191.44,
+    "end_seconds": 1196.0,
+    "text": "backbone of this foundation model"
+  },
+  {
+    "segment_id": "yt-00431",
+    "start_seconds": 1192.96,
+    "end_seconds": 1198.16,
+    "text": "equivarian, does it help us improve the"
+  },
+  {
+    "segment_id": "yt-00432",
+    "start_seconds": 1196.0,
+    "end_seconds": 1200.559,
+    "text": "performance even more? Uh, I think"
+  },
+  {
+    "segment_id": "yt-00433",
+    "start_seconds": 1198.16,
+    "end_seconds": 1201.76,
+    "text": "that's an open question that I'm also"
+  },
+  {
+    "segment_id": "yt-00434",
+    "start_seconds": 1200.559,
+    "end_seconds": 1204.96,
+    "text": "curious about."
+  },
+  {
+    "segment_id": "yt-00435",
+    "start_seconds": 1201.76,
+    "end_seconds": 1207.84,
+    "text": ">> I think thank you."
+  },
+  {
+    "segment_id": "yt-00436",
+    "start_seconds": 1204.96,
+    "end_seconds": 1209.919,
+    "text": ">> Other questions? Go ahead. Um I'm I'm"
+  },
+  {
+    "segment_id": "yt-00437",
+    "start_seconds": 1207.84,
+    "end_seconds": 1211.6,
+    "text": "curious about whether you have some"
+  },
+  {
+    "segment_id": "yt-00438",
+    "start_seconds": 1209.919,
+    "end_seconds": 1213.12,
+    "text": "instinct for where the sort of like"
+  },
+  {
+    "segment_id": "yt-00439",
+    "start_seconds": 1211.6,
+    "end_seconds": 1214.88,
+    "text": "crossing point is here because clearly"
+  },
+  {
+    "segment_id": "yt-00440",
+    "start_seconds": 1213.12,
+    "end_seconds": 1218.08,
+    "text": "you've hit the like the point where"
+  },
+  {
+    "segment_id": "yt-00441",
+    "start_seconds": 1214.88,
+    "end_seconds": 1221.2,
+    "text": "these two kind of effects of the lack of"
+  },
+  {
+    "segment_id": "yt-00442",
+    "start_seconds": 1218.08,
+    "end_seconds": 1223.44,
+    "text": "real equavar or a lack of real lorren"
+  },
+  {
+    "segment_id": "yt-00443",
+    "start_seconds": 1221.2,
+    "end_seconds": 1224.799,
+    "text": "equarians in the data is true but you"
+  },
+  {
+    "segment_id": "yt-00444",
+    "start_seconds": 1223.44,
+    "end_seconds": 1226.08,
+    "text": "have enough training data to sort of"
+  },
+  {
+    "segment_id": "yt-00445",
+    "start_seconds": 1224.799,
+    "end_seconds": 1228.48,
+    "text": "balance this. Do you have some instinct"
+  },
+  {
+    "segment_id": "yt-00446",
+    "start_seconds": 1226.08,
+    "end_seconds": 1231.6,
+    "text": "for like how much worse this gets if"
+  },
+  {
+    "segment_id": "yt-00447",
+    "start_seconds": 1228.48,
+    "end_seconds": 1233.12,
+    "text": "omni is pre-trained on half the data you"
+  },
+  {
+    "segment_id": "yt-00448",
+    "start_seconds": 1231.6,
+    "end_seconds": 1234.88,
+    "text": "know a tenth of the data? I'm sort of"
+  },
+  {
+    "segment_id": "yt-00449",
+    "start_seconds": 1233.12,
+    "end_seconds": 1238.08,
+    "text": "thinking about how this would would you"
+  },
+  {
+    "segment_id": "yt-00450",
+    "start_seconds": 1234.88,
+    "end_seconds": 1239.84,
+    "text": "know manifest in other problems where I"
+  },
+  {
+    "segment_id": "yt-00451",
+    "start_seconds": 1238.08,
+    "end_seconds": 1242.159,
+    "text": "have some amount of data I want to know"
+  },
+  {
+    "segment_id": "yt-00452",
+    "start_seconds": 1239.84,
+    "end_seconds": 1243.6,
+    "text": "whether I should do equariance or not if"
+  },
+  {
+    "segment_id": "yt-00453",
+    "start_seconds": 1242.159,
+    "end_seconds": 1245.6,
+    "text": "there's some like general rule you could"
+  },
+  {
+    "segment_id": "yt-00454",
+    "start_seconds": 1243.6,
+    "end_seconds": 1246.64,
+    "text": "come up with I don't know how easy that"
+  },
+  {
+    "segment_id": "yt-00455",
+    "start_seconds": 1245.6,
+    "end_seconds": 1250.08,
+    "text": "is to"
+  },
+  {
+    "segment_id": "yt-00456",
+    "start_seconds": 1246.64,
+    "end_seconds": 1251.84,
+    "text": ">> so basically you are saying how small"
+  },
+  {
+    "segment_id": "yt-00457",
+    "start_seconds": 1250.08,
+    "end_seconds": 1254.24,
+    "text": "can the training the can the"
+  },
+  {
+    "segment_id": "yt-00458",
+    "start_seconds": 1251.84,
+    "end_seconds": 1256.72,
+    "text": "pre-training data be and"
+  },
+  {
+    "segment_id": "yt-00459",
+    "start_seconds": 1254.24,
+    "end_seconds": 1259.6,
+    "text": ">> yeah basically right right"
+  },
+  {
+    "segment_id": "yt-00460",
+    "start_seconds": 1256.72,
+    "end_seconds": 1264.799,
+    "text": ">> yeah that that's a good question that we"
+  },
+  {
+    "segment_id": "yt-00461",
+    "start_seconds": 1259.6,
+    "end_seconds": 1266.559,
+    "text": "I don't have an answer to Um"
+  },
+  {
+    "segment_id": "yt-00462",
+    "start_seconds": 1264.799,
+    "end_seconds": 1269.44,
+    "text": "but I will say that this these"
+  },
+  {
+    "segment_id": "yt-00463",
+    "start_seconds": 1266.559,
+    "end_seconds": 1271.84,
+    "text": "benchmarks are I think already quite"
+  },
+  {
+    "segment_id": "yt-00464",
+    "start_seconds": 1269.44,
+    "end_seconds": 1277.52,
+    "text": "saturated anyway. So we are like teasing"
+  },
+  {
+    "segment_id": "yt-00465",
+    "start_seconds": 1271.84,
+    "end_seconds": 1279.84,
+    "text": "at differences that are very small. Um"
+  },
+  {
+    "segment_id": "yt-00466",
+    "start_seconds": 1277.52,
+    "end_seconds": 1280.559,
+    "text": "so yeah I I I don't think I have an"
+  },
+  {
+    "segment_id": "yt-00467",
+    "start_seconds": 1279.84,
+    "end_seconds": 1281.2,
+    "text": "answer to that."
+  },
+  {
+    "segment_id": "yt-00468",
+    "start_seconds": 1280.559,
+    "end_seconds": 1283.28,
+    "text": ">> Okay. Thank you."
+  },
+  {
+    "segment_id": "yt-00469",
+    "start_seconds": 1281.2,
+    "end_seconds": 1284.32,
+    "text": ">> Yeah."
+  },
+  {
+    "segment_id": "yt-00470",
+    "start_seconds": 1283.28,
+    "end_seconds": 1286.799,
+    "text": ">> Go ahead."
+  },
+  {
+    "segment_id": "yt-00471",
+    "start_seconds": 1284.32,
+    "end_seconds": 1290.0,
+    "text": ">> Hey. Uh I think we talked about this uh"
+  },
+  {
+    "segment_id": "yt-00472",
+    "start_seconds": 1286.799,
+    "end_seconds": 1292.64,
+    "text": "briefly in the past, but um"
+  },
+  {
+    "segment_id": "yt-00473",
+    "start_seconds": 1290.0,
+    "end_seconds": 1294.4,
+    "text": "could you sketch a way how to find out"
+  },
+  {
+    "segment_id": "yt-00474",
+    "start_seconds": 1292.64,
+    "end_seconds": 1297.039,
+    "text": "what are the exact symmetries that"
+  },
+  {
+    "segment_id": "yt-00475",
+    "start_seconds": 1294.4,
+    "end_seconds": 1299.52,
+    "text": "implicit approach is learning and how I"
+  },
+  {
+    "segment_id": "yt-00476",
+    "start_seconds": 1297.039,
+    "end_seconds": 1302.08,
+    "text": "can then try to leverage them for my own"
+  },
+  {
+    "segment_id": "yt-00477",
+    "start_seconds": 1299.52,
+    "end_seconds": 1306.0,
+    "text": "understanding?"
+  },
+  {
+    "segment_id": "yt-00478",
+    "start_seconds": 1302.08,
+    "end_seconds": 1308.159,
+    "text": "Yeah, I I I think that goes"
+  },
+  {
+    "segment_id": "yt-00479",
+    "start_seconds": 1306.0,
+    "end_seconds": 1311.84,
+    "text": "to my knowledge more in the like the"
+  },
+  {
+    "segment_id": "yt-00480",
+    "start_seconds": 1308.159,
+    "end_seconds": 1314.559,
+    "text": "mech uh mechanistic interpretability"
+  },
+  {
+    "segment_id": "yt-00481",
+    "start_seconds": 1311.84,
+    "end_seconds": 1318.08,
+    "text": "uh domain and I I'm sure there are ways"
+  },
+  {
+    "segment_id": "yt-00482",
+    "start_seconds": 1314.559,
+    "end_seconds": 1322.159,
+    "text": "where you can explicitly check like what"
+  },
+  {
+    "segment_id": "yt-00483",
+    "start_seconds": 1318.08,
+    "end_seconds": 1324.0,
+    "text": "is the input and if you uh rotate it"
+  },
+  {
+    "segment_id": "yt-00484",
+    "start_seconds": 1322.159,
+    "end_seconds": 1326.48,
+    "text": "what is the output that this layer of"
+  },
+  {
+    "segment_id": "yt-00485",
+    "start_seconds": 1324.0,
+    "end_seconds": 1328.72,
+    "text": "the network gives you. I I think there"
+  },
+  {
+    "segment_id": "yt-00486",
+    "start_seconds": 1326.48,
+    "end_seconds": 1332.24,
+    "text": "are definitely ways to systematically"
+  },
+  {
+    "segment_id": "yt-00487",
+    "start_seconds": 1328.72,
+    "end_seconds": 1332.88,
+    "text": "check that but in this study we didn't"
+  },
+  {
+    "segment_id": "yt-00488",
+    "start_seconds": 1332.24,
+    "end_seconds": 1333.2,
+    "text": "check those."
+  },
+  {
+    "segment_id": "yt-00489",
+    "start_seconds": 1332.88,
+    "end_seconds": 1335.919,
+    "text": ">> Thanks."
+  },
+  {
+    "segment_id": "yt-00490",
+    "start_seconds": 1333.2,
+    "end_seconds": 1337.44,
+    "text": ">> Yeah."
+  },
+  {
+    "segment_id": "yt-00491",
+    "start_seconds": 1335.919,
+    "end_seconds": 1339.039,
+    "text": ">> Other questions?"
+  },
+  {
+    "segment_id": "yt-00492",
+    "start_seconds": 1337.44,
+    "end_seconds": 1341.12,
+    "text": ">> Yep. Please go ahead."
+  },
+  {
+    "segment_id": "yt-00493",
+    "start_seconds": 1339.039,
+    "end_seconds": 1342.559,
+    "text": ">> A great talk by the way but um sorry if"
+  },
+  {
+    "segment_id": "yt-00494",
+    "start_seconds": 1341.12,
+    "end_seconds": 1346.24,
+    "text": "I'm misunderstanding something but why"
+  },
+  {
+    "segment_id": "yt-00495",
+    "start_seconds": 1342.559,
+    "end_seconds": 1347.679,
+    "text": "did the um implicit prior have better"
+  },
+  {
+    "segment_id": "yt-00496",
+    "start_seconds": 1346.24,
+    "end_seconds": 1350.159,
+    "text": "perform like slightly better performance"
+  },
+  {
+    "segment_id": "yt-00497",
+    "start_seconds": 1347.679,
+    "end_seconds": 1352.88,
+    "text": "in the lower event regime but then loses"
+  },
+  {
+    "segment_id": "yt-00498",
+    "start_seconds": 1350.159,
+    "end_seconds": 1356.0,
+    "text": "um like gap later on when you reach a"
+  },
+  {
+    "segment_id": "yt-00499",
+    "start_seconds": 1352.88,
+    "end_seconds": 1360.159,
+    "text": "higher level of signal event."
+  },
+  {
+    "segment_id": "yt-00500",
+    "start_seconds": 1356.0,
+    "end_seconds": 1362.96,
+    "text": "Right. So, so in this low region um omni"
+  },
+  {
+    "segment_id": "yt-00501",
+    "start_seconds": 1360.159,
+    "end_seconds": 1365.12,
+    "text": "is actually outperforming the ex the"
+  },
+  {
+    "segment_id": "yt-00502",
+    "start_seconds": 1362.96,
+    "end_seconds": 1370.52,
+    "text": "explicit sorry the implicit is actually"
+  },
+  {
+    "segment_id": "yt-00503",
+    "start_seconds": 1365.12,
+    "end_seconds": 1370.52,
+    "text": "outperforming right um"
+  },
+  {
+    "segment_id": "yt-00504",
+    "start_seconds": 1371.039,
+    "end_seconds": 1376.24,
+    "text": "I think it's because the low signal"
+  },
+  {
+    "segment_id": "yt-00505",
+    "start_seconds": 1373.039,
+    "end_seconds": 1379.28,
+    "text": "region event is also the harder"
+  },
+  {
+    "segment_id": "yt-00506",
+    "start_seconds": 1376.24,
+    "end_seconds": 1381.76,
+    "text": "region to tease more signal signal out"
+  },
+  {
+    "segment_id": "yt-00507",
+    "start_seconds": 1379.28,
+    "end_seconds": 1383.84,
+    "text": "of because you have less number of"
+  },
+  {
+    "segment_id": "yt-00508",
+    "start_seconds": 1381.76,
+    "end_seconds": 1385.28,
+    "text": "signals to start with. So, I think"
+  },
+  {
+    "segment_id": "yt-00509",
+    "start_seconds": 1383.84,
+    "end_seconds": 1388.32,
+    "text": "that's where the large amount of"
+  },
+  {
+    "segment_id": "yt-00510",
+    "start_seconds": 1385.28,
+    "end_seconds": 1389.84,
+    "text": "pre-training really helps. And when you"
+  },
+  {
+    "segment_id": "yt-00511",
+    "start_seconds": 1388.32,
+    "end_seconds": 1392.08,
+    "text": "have"
+  },
+  {
+    "segment_id": "yt-00512",
+    "start_seconds": 1389.84,
+    "end_seconds": 1395.12,
+    "text": "a lot of signals like going from 6,000"
+  },
+  {
+    "segment_id": "yt-00513",
+    "start_seconds": 1392.08,
+    "end_seconds": 1398.96,
+    "text": "to 10,000 events, that gap sort of"
+  },
+  {
+    "segment_id": "yt-00514",
+    "start_seconds": 1395.12,
+    "end_seconds": 1401.76,
+    "text": "closes more. That that's my intuition."
+  },
+  {
+    "segment_id": "yt-00515",
+    "start_seconds": 1398.96,
+    "end_seconds": 1404.4,
+    "text": ">> Okay. Thank you."
+  },
+  {
+    "segment_id": "yt-00516",
+    "start_seconds": 1401.76,
+    "end_seconds": 1408.0,
+    "text": ">> Other questions?"
+  },
+  {
+    "segment_id": "yt-00517",
+    "start_seconds": 1404.4,
+    "end_seconds": 1411.12,
+    "text": "I had one. Um, so when you say the task"
+  },
+  {
+    "segment_id": "yt-00518",
+    "start_seconds": 1408.0,
+    "end_seconds": 1413.039,
+    "text": "is out of domain in the pre-training,"
+  },
+  {
+    "segment_id": "yt-00519",
+    "start_seconds": 1411.12,
+    "end_seconds": 1414.88,
+    "text": "does that mean the events were not in"
+  },
+  {
+    "segment_id": "yt-00520",
+    "start_seconds": 1413.039,
+    "end_seconds": 1415.2,
+    "text": "the training set? Is that what that"
+  },
+  {
+    "segment_id": "yt-00521",
+    "start_seconds": 1414.88,
+    "end_seconds": 1415.679,
+    "text": "means?"
+  },
+  {
+    "segment_id": "yt-00522",
+    "start_seconds": 1415.2,
+    "end_seconds": 1416.48,
+    "text": ">> Yes."
+  },
+  {
+    "segment_id": "yt-00523",
+    "start_seconds": 1415.679,
+    "end_seconds": 1418.32,
+    "text": ">> I see."
+  },
+  {
+    "segment_id": "yt-00524",
+    "start_seconds": 1416.48,
+    "end_seconds": 1421.6,
+    "text": ">> I I know that that's not the case for"
+  },
+  {
+    "segment_id": "yt-00525",
+    "start_seconds": 1418.32,
+    "end_seconds": 1425.919,
+    "text": "Omniarn. I think Omniarn also uh trained"
+  },
+  {
+    "segment_id": "yt-00526",
+    "start_seconds": 1421.6,
+    "end_seconds": 1426.4,
+    "text": "on the H1 jets, but Omniarn did not."
+  },
+  {
+    "segment_id": "yt-00527",
+    "start_seconds": 1425.919,
+    "end_seconds": 1427.039,
+    "text": "Yeah,"
+  },
+  {
+    "segment_id": "yt-00528",
+    "start_seconds": 1426.4,
+    "end_seconds": 1427.52,
+    "text": ">> I see."
+  },
+  {
+    "segment_id": "yt-00529",
+    "start_seconds": 1427.039,
+    "end_seconds": 1429.679,
+    "text": ">> Yeah."
+  },
+  {
+    "segment_id": "yt-00530",
+    "start_seconds": 1427.52,
+    "end_seconds": 1433.64,
+    "text": ">> Okay. Um, there are no other questions."
+  },
+  {
+    "segment_id": "yt-00531",
+    "start_seconds": 1429.679,
+    "end_seconds": 1433.64,
+    "text": "Let's thank Tonv again."
+  }
+]

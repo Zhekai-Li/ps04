@@ -1,0 +1,35 @@
+{
+  "review_id": "1361c8b77a6b8cfd5bf5ecb2b071e46f25b467acb55f2a0273039a612da4194a",
+  "passed": true,
+  "issues": [
+    {
+      "artifact": "human_review",
+      "severity": "warning",
+      "message": "A machine check cannot establish sound interpretation; Zhekai Li must review the evidence, corrections, and final prose before approval."
+    }
+  ],
+  "metrics": {
+    "distinct_eligible_items": 46,
+    "independent_publishers": 10,
+    "eligible_by_kind": {
+      "feed": 24,
+      "podcast": 7,
+      "youtube": 15
+    },
+    "cited_kinds": [
+      "feed",
+      "podcast",
+      "youtube"
+    ],
+    "article_word_counts": {
+      "01": 776,
+      "02": 831,
+      "03": 840
+    },
+    "video_script_word_counts": {
+      "01": 735,
+      "02": 670,
+      "03": 711
+    }
+  }
+}

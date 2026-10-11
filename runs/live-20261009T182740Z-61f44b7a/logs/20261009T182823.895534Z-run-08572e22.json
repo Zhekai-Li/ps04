@@ -1,0 +1,19 @@
+{
+  "stage": "run",
+  "status": "incomplete",
+  "input_count": null,
+  "output_count": null,
+  "started_at": "2026-10-09T18:28:23Z",
+  "finished_at": "2026-10-09T18:28:23Z",
+  "elapsed_seconds": 0.0,
+  "tools": [
+    "bash"
+  ],
+  "models": [],
+  "usage": null,
+  "cost_usd": null,
+  "cost_estimated": false,
+  "errors": [
+    "orchestrator exit code 130"
+  ]
+}

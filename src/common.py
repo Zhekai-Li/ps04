@@ -101,7 +101,15 @@ def progress(
     reset = "\033[0m" if color else ""
     position = f" {current}/{total}" if current is not None and total is not None else ""
     timestamp = datetime.now().strftime("%H:%M:%S")
+    plain = f"      {symbols.get(status, '→')} {timestamp} [{stage}{position}] {message}"
     print(f"      {color}{symbols.get(status, '→')}{reset} {timestamp} [{stage}{position}] {message}", file=sys.stderr, flush=True)
+    log_path = os.environ.get("PS04_PROGRESS_LOG")
+    if log_path:
+        try:
+            with Path(log_path).open("a", encoding="utf-8") as handle:
+                handle.write(plain + "\n")
+        except OSError:
+            pass
 
 
 def canonical_url(url: str) -> str:
@@ -199,7 +207,13 @@ def die_from_exception(stage: str, run_dir: Path | None, started_at: str, exc: E
     code = 2 if isinstance(exc, InputError) else 1
     print(f"{stage}: {exc}", file=sys.stderr)
     if run_dir is not None:
-        write_receipt(run_dir, stage, "invalid" if code == 2 else "failed", started_at, None, None, errors=[str(exc)])
+        metadata = getattr(exc, "receipt_metadata", {})
+        write_receipt(
+            run_dir, stage, "invalid" if code == 2 else "failed", started_at, None, None,
+            models=metadata.get("models"), usage=metadata.get("usage"),
+            cost_usd=metadata.get("cost_usd"), cost_estimated=metadata.get("cost_estimated", False),
+            errors=[str(exc)], details=metadata.get("details"),
+        )
     return code
 
 

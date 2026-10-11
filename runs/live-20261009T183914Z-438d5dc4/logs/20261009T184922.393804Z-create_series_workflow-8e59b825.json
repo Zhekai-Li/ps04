@@ -1,0 +1,17 @@
+{
+  "stage": "create_series_workflow",
+  "status": "completed",
+  "input_count": null,
+  "output_count": null,
+  "started_at": "2026-10-09T18:49:22Z",
+  "finished_at": "2026-10-09T18:49:22Z",
+  "elapsed_seconds": 0.0,
+  "tools": [
+    "bash"
+  ],
+  "models": [],
+  "usage": null,
+  "cost_usd": null,
+  "cost_estimated": false,
+  "errors": []
+}

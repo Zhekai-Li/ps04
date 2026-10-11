@@ -1,0 +1,2594 @@
+[
+  {
+    "segment_id": "tr-00001",
+    "start_seconds": 0.0,
+    "end_seconds": 10.44,
+    "text": "Welcome to Stanford HAI. My name is Caroline Meinhart. I'm leader of policy research here at Stanford High and I'm delighted to be moderating today's session."
+  },
+  {
+    "segment_id": "tr-00002",
+    "start_seconds": 11.48,
+    "end_seconds": 23.72,
+    "text": "Today's topic revolves all around how we govern AI beyond language models. So more specifically we'll be talking about AI systems that"
+  },
+  {
+    "segment_id": "tr-00003",
+    "start_seconds": 23.72,
+    "end_seconds": 30.22,
+    "text": "can perceive, understand, predict and act in the real physical world."
+  },
+  {
+    "segment_id": "tr-00004",
+    "start_seconds": 30.42,
+    "end_seconds": 42.42,
+    "text": "These are systems that are increasingly known as world models. The emergence of world models is really pointing to a broader shift in AI that we're seeing right now where we are increasingly moving from AI"
+  },
+  {
+    "segment_id": "tr-00005",
+    "start_seconds": 42.42,
+    "end_seconds": 54.88,
+    "text": "that operates primarily through language or through a combination of images, audio and video, to a new class of AI that can maintain a coherent representation"
+  },
+  {
+    "segment_id": "tr-00006",
+    "start_seconds": 54.88,
+    "end_seconds": 67.2,
+    "text": "of a physical environment over time and predict how it might change in response to action. In July of this year we published a HAI issue brief that highlights"
+  },
+  {
+    "segment_id": "tr-00007",
+    "start_seconds": 67.2,
+    "end_seconds": 76.12,
+    "text": "the emergence of world models and also outlines what we think was the first of its kind governance and policy agenda for this emerging technology."
+  },
+  {
+    "segment_id": "tr-00008",
+    "start_seconds": 76.84,
+    "end_seconds": 85.08,
+    "text": "We actually do have a limited number of hard copies of this issue brief available in the entrance desk if you want to grab some but of course you can also find it online on our web page."
+  },
+  {
+    "segment_id": "tr-00009",
+    "start_seconds": 85.98,
+    "end_seconds": 98.12,
+    "text": "And so today is all about hearing from some of the authors of this issue brief and having a bit of a discussion about why world models are so significant from both a technical and"
+  },
+  {
+    "segment_id": "tr-00010",
+    "start_seconds": 98.12,
+    "end_seconds": 107.24,
+    "text": "a policy perspective. I'm going to introduce our first speaker Daniel Zhang. Daniel is the chief of staff here at Stanford HAI."
+  },
+  {
+    "segment_id": "tr-00011",
+    "start_seconds": 107.4,
+    "end_seconds": 119.48,
+    "text": "He previously led HAI's policy research outreach and education initiatives and his policy research has focused on the intersection of technology policy, governance and societal impact and he"
+  },
+  {
+    "segment_id": "tr-00012",
+    "start_seconds": 119.48,
+    "end_seconds": 125.5,
+    "text": "has engaged extensively with US and global policymakers on these issues. So I'm delighted to welcome Daniel. Daniel Zhang."
+  },
+  {
+    "segment_id": "tr-00013",
+    "start_seconds": 129.32,
+    "end_seconds": 136.9,
+    "text": "Thank you, everyone. Thanks for being here. Before I start, I want to give everybody a scenario before we talk about world models."
+  },
+  {
+    "segment_id": "tr-00014",
+    "start_seconds": 137.16,
+    "end_seconds": 143.34,
+    "text": "I think a lot of us in California has experienced wildfire quite a lot over the past few years."
+  },
+  {
+    "segment_id": "tr-00015",
+    "start_seconds": 143.62,
+    "end_seconds": 150.46,
+    "text": "So imagine it's 2 a .m. and there's a wildfire creeping its way towards a densely popular suburbs."
+  },
+  {
+    "segment_id": "tr-00016",
+    "start_seconds": 151.24,
+    "end_seconds": 163.44,
+    "text": "The incident commander is needed to make several decisions at once, right? Including whether people should evacuate, where to evacuate, where to shut off"
+  },
+  {
+    "segment_id": "tr-00017",
+    "start_seconds": 163.44,
+    "end_seconds": 171.02,
+    "text": "the power, which hospital remain reachable. And those decisions need to be made collectively, right?"
+  },
+  {
+    "segment_id": "tr-00018",
+    "start_seconds": 171.08,
+    "end_seconds": 183.3,
+    "text": "You should not look at just one because one decision affects each other. Closing a road might change the evaluation. Traffic traffic and hospital access and a power shutoff while it may reduce the risk of fire, but"
+  },
+  {
+    "segment_id": "tr-00019",
+    "start_seconds": 183.3,
+    "end_seconds": 192.9,
+    "text": "also could affect critical facilities. So the critical challenge here is to maintain one shared picture as both the conditions and response keep changing."
+  },
+  {
+    "segment_id": "tr-00020",
+    "start_seconds": 195.08,
+    "end_seconds": 202.48,
+    "text": "And currently we have a fair amount of AI tools and models that can help with this situation."
+  },
+  {
+    "segment_id": "tr-00021",
+    "start_seconds": 202.7,
+    "end_seconds": 213.96,
+    "text": "We have, for example, language models that can turn weather reports, road conditions, and hospital data into useful briefing for the incident commander that will help them understand what is happening on the ground."
+  },
+  {
+    "segment_id": "tr-00022",
+    "start_seconds": 214.14,
+    "end_seconds": 224.02,
+    "text": "But this is still one snapshot of one particular time, right? It will not show how closing a road might change evacuation traffic, hospital access, and the routes available to emergency crews."
+  },
+  {
+    "segment_id": "tr-00023",
+    "start_seconds": 225.1,
+    "end_seconds": 237.58,
+    "text": "We also have multimodal AI, which adds another layer. It can examine through its ability to predict images, audio, and videos to arm satellite images, locate the"
+  },
+  {
+    "segment_id": "tr-00024",
+    "start_seconds": 237.58,
+    "end_seconds": 243.82,
+    "text": "threat and power lines, for example, detect congestions, which will give the incident commander a better perception of the overall picture."
+  },
+  {
+    "segment_id": "tr-00025",
+    "start_seconds": 243.82,
+    "end_seconds": 250.74,
+    "text": "But still, seeing the current situation is different from predicting how the entire system will respond to a decision."
+  },
+  {
+    "segment_id": "tr-00026",
+    "start_seconds": 252.62,
+    "end_seconds": 264.78,
+    "text": "And this is the critical missing capability here that we want to discuss today. Suppose the commander proposed, let's close the highway 12, and we need a model that can test the action before it is taken"
+  },
+  {
+    "segment_id": "tr-00027",
+    "start_seconds": 264.78,
+    "end_seconds": 274.3,
+    "text": "and estimate the consequences across the whole picture, where traffic moves, which also become harder to reach, and whether emergency crews lose a critical route."
+  },
+  {
+    "segment_id": "tr-00028",
+    "start_seconds": 274.3,
+    "end_seconds": 285.08,
+    "text": "So, all those intertwined elements in one model that can create environment across different scenarios and test those environments before proposing actions."
+  },
+  {
+    "segment_id": "tr-00029",
+    "start_seconds": 285.68,
+    "end_seconds": 297.96,
+    "text": "And that's what we're here to talk about today, the world models, and this is what we hope the world model can achieve over time. A world model creates an internal representation of environment and can both generate and maintain"
+  },
+  {
+    "segment_id": "tr-00030",
+    "start_seconds": 297.96,
+    "end_seconds": 307.26,
+    "text": "that environment over time. It asks critical questions. If something acts within this environment, what is likely to happen next?"
+  },
+  {
+    "segment_id": "tr-00031",
+    "start_seconds": 307.72,
+    "end_seconds": 320.08,
+    "text": "In the wildfire example, for example, the model can not only track and maintain the image and environment of the fire, the roads, and the weather as one changing system, but can also construct"
+  },
+  {
+    "segment_id": "tr-00032",
+    "start_seconds": 320.08,
+    "end_seconds": 331.2,
+    "text": "or update the scene itself as new information arrives. It tests a possible road closure, predicts effects, and continuously revives its picture as conditions evolve."
+  },
+  {
+    "segment_id": "tr-00033",
+    "start_seconds": 331.5,
+    "end_seconds": 341.58,
+    "text": "That's what we hope the world model can ultimately achieve in this day and age. This marks quite an important shift in AI for the past few years."
+  },
+  {
+    "segment_id": "tr-00034",
+    "start_seconds": 341.72,
+    "end_seconds": 348.42,
+    "text": "We've heard a lot about large language models and we've heard about multi -models that can work across text, image, audio, and video."
+  },
+  {
+    "segment_id": "tr-00035",
+    "start_seconds": 348.42,
+    "end_seconds": 357.78,
+    "text": "World models use those capabilities and take them to the next level to represent environment that persist and change over time."
+  },
+  {
+    "segment_id": "tr-00036",
+    "start_seconds": 358.2,
+    "end_seconds": 370.92,
+    "text": "This opens a pathway towards a lot of the hype terms we've heard about in the press about physical AI, spatial intelligence, embodied AI, where models are here beyond"
+  },
+  {
+    "segment_id": "tr-00037",
+    "start_seconds": 370.92,
+    "end_seconds": 377.26,
+    "text": "just observers, but actually an agent in the world we live in that can perceive and act."
+  },
+  {
+    "segment_id": "tr-00038",
+    "start_seconds": 378.42,
+    "end_seconds": 386.16,
+    "text": "Understanding the environment well enough to reason about movement, the interactions and actions within that environment."
+  },
+  {
+    "segment_id": "tr-00039",
+    "start_seconds": 388.32,
+    "end_seconds": 400.34,
+    "text": "This is why we developed this policy issue briefs with this highly interdisciplinary set of authors spanning deep technical computer science backgrounds alongside law,"
+  },
+  {
+    "segment_id": "tr-00040",
+    "start_seconds": 400.62,
+    "end_seconds": 412.1,
+    "text": "national security policy, robotics, computer vision, and AI governance. We think when we start writing this paper, we think this range of authors really matters."
+  },
+  {
+    "segment_id": "tr-00041",
+    "start_seconds": 412.26,
+    "end_seconds": 421.2,
+    "text": "We're actively trying to pull HIA faculty from different disciplines because we believe world models cut across different boundaries."
+  },
+  {
+    "segment_id": "tr-00042",
+    "start_seconds": 421.5,
+    "end_seconds": 433.8,
+    "text": "That our current world treat them rather separately. Because world models can ultimately become a research frontier, a new form of infrastructure, and a potential layer of physical decision"
+  },
+  {
+    "segment_id": "tr-00043",
+    "start_seconds": 433.8,
+    "end_seconds": 440.34,
+    "text": "making. So let's break down different types of world models that we have seen nowadays."
+  },
+  {
+    "segment_id": "tr-00044",
+    "start_seconds": 440.7,
+    "end_seconds": 449.08,
+    "text": "And I want to make this note up front that we're not talking about technical approaches here. I'm sure there are PhDs or faculty here that knows more about the technical approach to world models more than I do."
+  },
+  {
+    "segment_id": "tr-00045",
+    "start_seconds": 449.28,
+    "end_seconds": 456.78,
+    "text": "But for this audience, we want to provide a rather simple conceptual way to understand what those models and systems can do."
+  },
+  {
+    "segment_id": "tr-00046",
+    "start_seconds": 457.6,
+    "end_seconds": 464.96,
+    "text": "The first type is renderer. Essentially, a renderer creates a view of a world that a person can explore."
+  },
+  {
+    "segment_id": "tr-00047",
+    "start_seconds": 464.96,
+    "end_seconds": 472.24,
+    "text": "As you can see by the demo from Google DeepMind here, it can generate a beautiful video or audio based on a prompt."
+  },
+  {
+    "segment_id": "tr-00048",
+    "start_seconds": 472.66,
+    "end_seconds": 480.94,
+    "text": "Right? This kind of models can be rather helpful in, let's say, design industry, architecture industry, and entertainment industry."
+  },
+  {
+    "segment_id": "tr-00049",
+    "start_seconds": 481.6,
+    "end_seconds": 488.36,
+    "text": "But if you look closely to this demo, for example, let's say the jet ski that cruised through the river."
+  },
+  {
+    "segment_id": "tr-00050",
+    "start_seconds": 488.36,
+    "end_seconds": 500.48,
+    "text": "If we all want to create an autonomous jet ski in this case, and we train it based on data, a 2D representation of how the water flows in reaction to the jet ski cruising through"
+  },
+  {
+    "segment_id": "tr-00051",
+    "start_seconds": 500.48,
+    "end_seconds": 510.7,
+    "text": "the river is not going to cut it. You need 3D environment that actually predict how the water will interact with the jet ski and a lot of law physics elements in here."
+  },
+  {
+    "segment_id": "tr-00052",
+    "start_seconds": 510.7,
+    "end_seconds": 519.56,
+    "text": "And that's what brings us to the second category, which is the simulator. Simulator represents how objects and environments behave as conditions change."
+  },
+  {
+    "segment_id": "tr-00053",
+    "start_seconds": 519.92,
+    "end_seconds": 529.88,
+    "text": "So this is an example from the Stanford Vision and Learning Labs just upstairs that show how you train a robot in a virtual environment that can understand how gravity works."
+  },
+  {
+    "segment_id": "tr-00054",
+    "start_seconds": 530.36,
+    "end_seconds": 537.44,
+    "text": "This is quite intuitive for us humans to understand when a robot drops an item that will follow the law of gravity."
+  },
+  {
+    "segment_id": "tr-00055",
+    "start_seconds": 537.44,
+    "end_seconds": 543.9,
+    "text": "But it's really hard for robots to understand that. And it's impossible to learn that just by looking at a 2D representation."
+  },
+  {
+    "segment_id": "tr-00056",
+    "start_seconds": 544.82,
+    "end_seconds": 556.54,
+    "text": "So today, building those simulations is actually quite slow and labor and resource intensive, requiring a lot of engineers to manually design the environments and program how they behave."
+  },
+  {
+    "segment_id": "tr-00057",
+    "start_seconds": 557.32,
+    "end_seconds": 567.86,
+    "text": "Learned moral models can automate much of this process by generating training environments. Learned moral models can understand how they behave in a virtual environment that can help them understand how they behave in a virtual environment."
+  },
+  {
+    "segment_id": "tr-00058",
+    "start_seconds": 568.12,
+    "end_seconds": 578.88,
+    "text": "That's what happens in simulation match what actually happens in the real world. And that's what brings up the third type of world model, which is called planner."
+  },
+  {
+    "segment_id": "tr-00059",
+    "start_seconds": 580.96,
+    "end_seconds": 593.02,
+    "text": "Planner uses prediction to choose an action. So in this example demo by Meta, a robot uses a model of what its action likely to produce to move toward a goal."
+  },
+  {
+    "segment_id": "tr-00060",
+    "start_seconds": 593.32,
+    "end_seconds": 602.12,
+    "text": "You can see how it thinks through different courses of actions, how to pick up this cup, and then choose the best actions in a control setting."
+  },
+  {
+    "segment_id": "tr-00061",
+    "start_seconds": 602.48,
+    "end_seconds": 614.68,
+    "text": "Think of a way as how we hire a candidate through the hiring process. We adjust the course every time after a hiring manager interview, after a team interview,"
+  },
+  {
+    "segment_id": "tr-00062",
+    "start_seconds": 614.84,
+    "end_seconds": 622.66,
+    "text": "and ultimately after a director interview. And we change the course and reconsider as new conditions come about."
+  },
+  {
+    "segment_id": "tr-00063",
+    "start_seconds": 623.06,
+    "end_seconds": 632.6,
+    "text": "So a planner does not have to produce a realistic video for us to watch. It can predict an internal representation that is useful for choosing actions."
+  },
+  {
+    "segment_id": "tr-00064",
+    "start_seconds": 632.6,
+    "end_seconds": 644.72,
+    "text": "This is where the consequences actually become more direct. Because if a prediction is wrong by a planner, this mistake can become fairly physical in a physical environment and could potentially"
+  },
+  {
+    "segment_id": "tr-00065",
+    "start_seconds": 644.72,
+    "end_seconds": 653.14,
+    "text": "produce a greater degree of harm. So I'm going to turn to a panel later to actually talk a little bit more in depth about this."
+  },
+  {
+    "segment_id": "tr-00066",
+    "start_seconds": 653.22,
+    "end_seconds": 663.3,
+    "text": "But I do want to quickly show where does the technology stand today. Just in the past few months, you've probably seen in the press a lot of new world models were announced, including Astro by OpenAI."
+  },
+  {
+    "segment_id": "tr-00067",
+    "start_seconds": 663.52,
+    "end_seconds": 676.06,
+    "text": "That could have a fair degree of 3D environment generations capabilities. So, for example, for starter, researchers can generate the detailed scenes that we've seen that renderer example"
+  },
+  {
+    "segment_id": "tr-00068",
+    "start_seconds": 676.06,
+    "end_seconds": 683.18,
+    "text": "earlier. But keeping them consistent is keeping the environment, particularly 3D environment, consistent is a greater challenge."
+  },
+  {
+    "segment_id": "tr-00069",
+    "start_seconds": 683.18,
+    "end_seconds": 695.26,
+    "text": "In an earlier version of GENIE 3, they have improved since then. But in an earlier version of GENIE 3, the technical report paper did say that the model are only able to maintain a 3D environment by a"
+  },
+  {
+    "segment_id": "tr-00070",
+    "start_seconds": 695.26,
+    "end_seconds": 703.28,
+    "text": "matter of less than 20 seconds. And then the environment will fall apart. So how do you keep the environment consistent throughout is one of the current research challenge."
+  },
+  {
+    "segment_id": "tr-00071",
+    "start_seconds": 704.42,
+    "end_seconds": 716.66,
+    "text": "As we know, world models can also help robots learn specific tasks. But they need the data connecting actions to consequences, including in very rare situations and failures to learn"
+  },
+  {
+    "segment_id": "tr-00072",
+    "start_seconds": 716.66,
+    "end_seconds": 726.98,
+    "text": "from the data. So the physical experience, the data is quite difficult to collect. I will elaborate a little bit later. And also, some systems can transfer skills to new task robots."
+  },
+  {
+    "segment_id": "tr-00073",
+    "start_seconds": 727.34,
+    "end_seconds": 735.96,
+    "text": "But success in an experiment does not establish reliable performance in unfamiliar conditions. So in all, the progress is real."
+  },
+  {
+    "segment_id": "tr-00074",
+    "start_seconds": 736.12,
+    "end_seconds": 742.78,
+    "text": "But the research challenge is to make those capabilities dependable as interactions accumulate and conditions change."
+  },
+  {
+    "segment_id": "tr-00075",
+    "start_seconds": 744.64,
+    "end_seconds": 755.9,
+    "text": "In the paper, we specifically talked about why world model matters. And this is for policy audience as much as the general audience to learn a little bit more about the current capabilities and what are some of the applications for models."
+  },
+  {
+    "segment_id": "tr-00076",
+    "start_seconds": 756.62,
+    "end_seconds": 768.86,
+    "text": "Very briefly, return to the wildfire example. Roads, hospital, and the power grid that I've seen in the earlier slides are already modeled across different government institutions and who might use separate"
+  },
+  {
+    "segment_id": "tr-00077",
+    "start_seconds": 768.86,
+    "end_seconds": 777.28,
+    "text": "tools. The larger opportunity here with the world model is coordination across those systems that cannot be managed effectively in isolation."
+  },
+  {
+    "segment_id": "tr-00078",
+    "start_seconds": 778.4,
+    "end_seconds": 786.82,
+    "text": "And one of the critical benefits of role models is actually lowering the cost of learning through physical experimentation that we see in the simulator slide."
+  },
+  {
+    "segment_id": "tr-00079",
+    "start_seconds": 787.26,
+    "end_seconds": 795.76,
+    "text": "For example, an aerospace team can examine more designs before building a prototype. A hospital could rehearse changes before disrupting patient care."
+  },
+  {
+    "segment_id": "tr-00080",
+    "start_seconds": 795.92,
+    "end_seconds": 805.94,
+    "text": "And a robot can encounter rare situations in simulation before facing them around people. I think one conclusion we draw from the paper is physical setting remains essential."
+  },
+  {
+    "segment_id": "tr-00081",
+    "start_seconds": 806.16,
+    "end_seconds": 816.56,
+    "text": "Evaluations, government interventions are still a very important part of it. But simulations in the meantime allow different teams to reach it with better designs and fewer avoidable failures."
+  },
+  {
+    "segment_id": "tr-00082",
+    "start_seconds": 818.74,
+    "end_seconds": 826.62,
+    "text": "We also think about how this could mean for national security with some of the national security experts on the author list, including Amy Ziegert."
+  },
+  {
+    "segment_id": "tr-00083",
+    "start_seconds": 826.62,
+    "end_seconds": 837.76,
+    "text": "This capability, I think, like a lot of general purpose technology is inherently due use. Right. The same model that routes humanitarian aid through a disaster zone could also support military logistics."
+  },
+  {
+    "segment_id": "tr-00084",
+    "start_seconds": 838.32,
+    "end_seconds": 850.6,
+    "text": "In a lot of the cases, if the model gets the real world wrong, you can end up practicing the wrong response and repeat and repeating it may build confidence without improving"
+  },
+  {
+    "segment_id": "tr-00085",
+    "start_seconds": 850.6,
+    "end_seconds": 858.9,
+    "text": "readiness. But that's a key point to look out for when you deploy a role model in national security settings as an adversary could really exploit those mistakes."
+  },
+  {
+    "segment_id": "tr-00086",
+    "start_seconds": 859.62,
+    "end_seconds": 866.82,
+    "text": "And one thing that Amy really brought up that I think is critical in the national security setting is this could also change who has the advantage in the battlefield."
+  },
+  {
+    "segment_id": "tr-00087",
+    "start_seconds": 867.32,
+    "end_seconds": 873.32,
+    "text": "Right. Forces usually with less field experience could rehearse situations they have never encountered before."
+  },
+  {
+    "segment_id": "tr-00088",
+    "start_seconds": 873.32,
+    "end_seconds": 881.78,
+    "text": "And if those simulations are reliable, they could reduce some of the advantages that more experienced forces have built up over the years."
+  },
+  {
+    "segment_id": "tr-00089",
+    "start_seconds": 884.78,
+    "end_seconds": 896.78,
+    "text": "Then we want to talk, let's talk a little bit about the set of policy question we want to explore and what kind of risks that world models produce. We based on our observation so far, AI pulse discussions have largely examined"
+  },
+  {
+    "segment_id": "tr-00090",
+    "start_seconds": 896.78,
+    "end_seconds": 904.92,
+    "text": "two things for language models. One thing we evaluate the content they generate, right, the toxicity, disinformation, accuracy, etc."
+  },
+  {
+    "segment_id": "tr-00091",
+    "start_seconds": 905.62,
+    "end_seconds": 912.66,
+    "text": "And second categories, AI agents, we examine what actions they're authorized to take and under whose authority."
+  },
+  {
+    "segment_id": "tr-00092",
+    "start_seconds": 912.66,
+    "end_seconds": 920.1,
+    "text": "In this case, role models add a third object of governance, the environment the system has learned."
+  },
+  {
+    "segment_id": "tr-00093",
+    "start_seconds": 920.52,
+    "end_seconds": 928.3,
+    "text": "So, for example, is the environment being used to train, to test, or to guide that system valid for the intended tasks?"
+  },
+  {
+    "segment_id": "tr-00094",
+    "start_seconds": 928.5,
+    "end_seconds": 934.68,
+    "text": "This is really important because the error can spread beyond just the learned environment itself, right?"
+  },
+  {
+    "segment_id": "tr-00095",
+    "start_seconds": 934.68,
+    "end_seconds": 942.68,
+    "text": "Because the same flawed environment may shape the training, may shape the evaluation and decisions throughout the process of when the system is being deployed."
+  },
+  {
+    "segment_id": "tr-00096",
+    "start_seconds": 943.28,
+    "end_seconds": 952.76,
+    "text": "And not every problem matters equally. We need to identify which assumptions affect action and test those actions against the actual setting."
+  },
+  {
+    "segment_id": "tr-00097",
+    "start_seconds": 953.04,
+    "end_seconds": 962.0,
+    "text": "Let me give you one example. Imagine a company training a self -driving car inside a similar city. I think a lot of us in the Bay Area probably already experienced Waymos."
+  },
+  {
+    "segment_id": "tr-00098",
+    "start_seconds": 962.58,
+    "end_seconds": 972.92,
+    "text": "And in the earlier simulations, the autonomous cars are often trained in situations where the roads are always dry, let's say."
+  },
+  {
+    "segment_id": "tr-00099",
+    "start_seconds": 973.14,
+    "end_seconds": 981.64,
+    "text": "The lane markings are always clear, and the pedestrians always behave predictably. The carms will perform extremely well in those virtual environments."
+  },
+  {
+    "segment_id": "tr-00100",
+    "start_seconds": 981.64,
+    "end_seconds": 989.16,
+    "text": "But when deployed in the real world, it may struggle with heavy rain, faded lane markings, or unexpected pedestrian behavior."
+  },
+  {
+    "segment_id": "tr-00101",
+    "start_seconds": 990.1,
+    "end_seconds": 998.56,
+    "text": "The problem is not just the car made a mistake, but that I learned from what was never an accurate enough version of the world it needed to operate in."
+  },
+  {
+    "segment_id": "tr-00102",
+    "start_seconds": 998.92,
+    "end_seconds": 1008.18,
+    "text": "So, if the training and test environment did not represent those conditions well enough, the result might not transfer. And this is what we call in the paper the simulation to reality gap."
+  },
+  {
+    "segment_id": "tr-00103",
+    "start_seconds": 1009.58,
+    "end_seconds": 1021.68,
+    "text": "Another example is this illustrative sequence of the renderer model. You can see throughout the pouring water looks quite convincing from frame to frame, but as you pour the"
+  },
+  {
+    "segment_id": "tr-00104",
+    "start_seconds": 1021.68,
+    "end_seconds": 1032.38,
+    "text": "water, the level in the glass barely changes. This is what we call the visual possibility trap. Each frame can look convincing while the relationship across frames is wrong."
+  },
+  {
+    "segment_id": "tr-00105",
+    "start_seconds": 1032.38,
+    "end_seconds": 1041.32,
+    "text": "Now, a model can pass a causal visual inspection by evaluation or benchmark, but still be unsuitable for a task involving physical quantities."
+  },
+  {
+    "segment_id": "tr-00106",
+    "start_seconds": 1041.6,
+    "end_seconds": 1053.6,
+    "text": "And that's related to, for example, the law of physics, the gravity example we've seen before. So, a polished demonstration, in a lot of cases, tells you very little about whether a model is ready for consequential use, especially in critical"
+  },
+  {
+    "segment_id": "tr-00107",
+    "start_seconds": 1053.6,
+    "end_seconds": 1059.78,
+    "text": "conditions. And evaluation, therefore, must test the geometry and physical behavior across times."
+  },
+  {
+    "segment_id": "tr-00108",
+    "start_seconds": 1059.94,
+    "end_seconds": 1072.12,
+    "text": "And there are a lot of benchmarks that our panel can elaborate a little bit on later. And finally, for the risk and policy questions, we also examined a variety of the risks that when AI guides"
+  },
+  {
+    "segment_id": "tr-00109",
+    "start_seconds": 1072.12,
+    "end_seconds": 1080.18,
+    "text": "the physical actions, what can the risk extend beyond? For example, for liability, if a robot actually injures someone, what's the problem?"
+  },
+  {
+    "segment_id": "tr-00110",
+    "start_seconds": 1080.32,
+    "end_seconds": 1088.18,
+    "text": "A faulty sensor, bad prediction, or just how it was deployed in the application? We need to trace the failure to understand who should be how responsible."
+  },
+  {
+    "segment_id": "tr-00111",
+    "start_seconds": 1088.18,
+    "end_seconds": 1096.28,
+    "text": "This is similar to a lot of discussions happening in the language models. Then, of course, there is spatial privacy that extends way beyond the privacy issues of language models."
+  },
+  {
+    "segment_id": "tr-00112",
+    "start_seconds": 1097.0,
+    "end_seconds": 1107.74,
+    "text": "A system mapping workplace may also reveal people's routines and relationships. They can infer very sensitive information that no one really explicitly give their consent to be recorded."
+  },
+  {
+    "segment_id": "tr-00113",
+    "start_seconds": 1108.9,
+    "end_seconds": 1120.94,
+    "text": "And finally, there is dependence. I think this is quite important, not only for policy, but also just for general public, that if a vendor controls both the model and the simulator used to test it, how can"
+  },
+  {
+    "segment_id": "tr-00114",
+    "start_seconds": 1120.94,
+    "end_seconds": 1133.18,
+    "text": "customers check its performance independently? Workers may also lose practical expertise at those systems take over decisions, leaving them less capable to question a recommendation"
+  },
+  {
+    "segment_id": "tr-00115",
+    "start_seconds": 1133.18,
+    "end_seconds": 1145.88,
+    "text": "or step when something fails. So to conclude, we presented a preliminary governance framework to help the policymakers think"
+  },
+  {
+    "segment_id": "tr-00116",
+    "start_seconds": 1145.88,
+    "end_seconds": 1156.84,
+    "text": "about those issues. As I mentioned, this is not really a topic that policymakers think about a lot lately, that they are more focused on language models, and this is why we want to bring it to their attention."
+  },
+  {
+    "segment_id": "tr-00117",
+    "start_seconds": 1157.24,
+    "end_seconds": 1168.52,
+    "text": "We essentially come up with three pillars for just a preliminary policy agenda that includes shared access incentives, proportional safeguards, and public sector capacity."
+  },
+  {
+    "segment_id": "tr-00118",
+    "start_seconds": 1169.46,
+    "end_seconds": 1175.48,
+    "text": "So for shared access, we think a number of resources are crucial. Of course, there's always the compute."
+  },
+  {
+    "segment_id": "tr-00119",
+    "start_seconds": 1176.12,
+    "end_seconds": 1187.98,
+    "text": "We think world models use a substantial amount of computational resources, a lot more than the current language models do, including 3D environments, the sequences, the video sequences, etc."
+  },
+  {
+    "segment_id": "tr-00120",
+    "start_seconds": 1187.98,
+    "end_seconds": 1195.86,
+    "text": "But the other quite often overlooked factor is even scarcer input, the data element here."
+  },
+  {
+    "segment_id": "tr-00121",
+    "start_seconds": 1196.36,
+    "end_seconds": 1204.24,
+    "text": "Data that connects an action to what happens next is quite scarce, and that's not data you can just scrape from the internet as you do for language models."
+  },
+  {
+    "segment_id": "tr-00122",
+    "start_seconds": 1204.76,
+    "end_seconds": 1214.68,
+    "text": "So as I mentioned, firms operating physical systems accumulate them rather fast, and that advantage compounds with every deployment."
+  },
+  {
+    "segment_id": "tr-00123",
+    "start_seconds": 1215.98,
+    "end_seconds": 1228.02,
+    "text": "AI has been a big proponent of national AI research resource initiatives over the years from the very idea back in 2019 when the then co -directors John Schmendie"
+  },
+  {
+    "segment_id": "tr-00124",
+    "start_seconds": 1228.02,
+    "end_seconds": 1240.06,
+    "text": "and Dr. Faye Faye Lee came up with national AI research resource idea, which is a public funded, federally funded government initiatives that help academic researchers and startups to get access"
+  },
+  {
+    "segment_id": "tr-00125",
+    "start_seconds": 1240.06,
+    "end_seconds": 1247.88,
+    "text": "to the computational resources and data that's critical for AI development. So we think in this case for world models, the NAR could be really helpful."
+  },
+  {
+    "segment_id": "tr-00126",
+    "start_seconds": 1248.14,
+    "end_seconds": 1255.76,
+    "text": "They can widen the participation through shared compute, the action data set, and the sector specific test beds and open evaluation tools."
+  },
+  {
+    "segment_id": "tr-00127",
+    "start_seconds": 1256.42,
+    "end_seconds": 1264.98,
+    "text": "We see a lot of the great work that currently NAR and SF is doing that we're thinking can be really helpful for the development of world models."
+  },
+  {
+    "segment_id": "tr-00128",
+    "start_seconds": 1265.92,
+    "end_seconds": 1275.76,
+    "text": "And also for proportional safeguards, the critical takeaway here is the scrutiny should rise as systems approach consequential physical action."
+  },
+  {
+    "segment_id": "tr-00129",
+    "start_seconds": 1275.96,
+    "end_seconds": 1288.38,
+    "text": "For example, a renderer used for concept art may require just a basic disclosure as the physical harm is little, but a simulator informing infrastructure decisions should"
+  },
+  {
+    "segment_id": "tr-00130",
+    "start_seconds": 1288.38,
+    "end_seconds": 1300.1,
+    "text": "be independently evaluated and validated against real world conditions. And a planner controlling a robot or in national security setting a weapon requires continued oversight after deployment."
+  },
+  {
+    "segment_id": "tr-00131",
+    "start_seconds": 1300.5,
+    "end_seconds": 1310.32,
+    "text": "The key variable here is proximity to irreversible physical actions and harms, especially when no human is positioned to catch an error."
+  },
+  {
+    "segment_id": "tr-00132",
+    "start_seconds": 1310.32,
+    "end_seconds": 1322.58,
+    "text": "As that proximity increases, requirements should expand to include field validation and some of the other policy measures we've talked about extensively here at HAI, like incident reporting and transparency"
+  },
+  {
+    "segment_id": "tr-00133",
+    "start_seconds": 1322.58,
+    "end_seconds": 1332.14,
+    "text": "into the records of what the system perceived and did. And finally, the third is policy agenda items is the public sector capacity."
+  },
+  {
+    "segment_id": "tr-00134",
+    "start_seconds": 1332.46,
+    "end_seconds": 1341.38,
+    "text": "That goes back to the earlier point that government needs to be able to evaluate what it buys and regulate without depending entirely on the developer."
+  },
+  {
+    "segment_id": "tr-00135",
+    "start_seconds": 1341.38,
+    "end_seconds": 1351.44,
+    "text": "The best simulator for evaluating a vendor's products is often the vendor's own because it contains proprietary information about the system and its known weaknesses."
+  },
+  {
+    "segment_id": "tr-00136",
+    "start_seconds": 1352.0,
+    "end_seconds": 1364.12,
+    "text": "Without outside access, that becomes a seller grading its own exam. So this will be just a couple months ago talking to people on the Hill and especially policymakers from"
+  },
+  {
+    "segment_id": "tr-00137",
+    "start_seconds": 1364.12,
+    "end_seconds": 1375.5,
+    "text": "some standard setting organizations like NIST about how to set the standard for shared measurement methods while some of the sector agencies, for example, can define the conditions the system must withstand."
+  },
+  {
+    "segment_id": "tr-00138",
+    "start_seconds": 1377.2,
+    "end_seconds": 1383.8,
+    "text": "Let me conclude and turn over to the panel by going back to the early example of wildfire."
+  },
+  {
+    "segment_id": "tr-00139",
+    "start_seconds": 1384.7,
+    "end_seconds": 1395.64,
+    "text": "I think this incident commander in that example needs a shared picture that stays current and allows them to test choices before lives depend on this very critical situations."
+  },
+  {
+    "segment_id": "tr-00140",
+    "start_seconds": 1396.42,
+    "end_seconds": 1402.9,
+    "text": "And ultimately, role model can achieve that. But whether they can earn their trust depends on the choices we're making now."
+  },
+  {
+    "segment_id": "tr-00141",
+    "start_seconds": 1414.26,
+    "end_seconds": 1422.88,
+    "text": "The goal is to capture the value of simulation without asking the public to trust a learned world on faith."
+  },
+  {
+    "segment_id": "tr-00142",
+    "start_seconds": 1423.14,
+    "end_seconds": 1431.06,
+    "text": "And with that, I'm happy to turn it over to back to Caroline. Thank you so much, Daniel."
+  },
+  {
+    "segment_id": "tr-00143",
+    "start_seconds": 1431.06,
+    "end_seconds": 1437.48,
+    "text": "That was a really useful foundation for us to now dive into a slightly more wide -ranging discussion."
+  },
+  {
+    "segment_id": "tr-00144",
+    "start_seconds": 1437.8,
+    "end_seconds": 1449.88,
+    "text": "And for that, we'll have two additional experts joining us to share some additional perspectives. First, we have Jha -Jun Wu, who is an assistant professor of computer science and by courtesy of psychology here at Stanford."
+  },
+  {
+    "segment_id": "tr-00145",
+    "start_seconds": 1450.22,
+    "end_seconds": 1458.02,
+    "text": "Jha -Jun is a faculty affiliate at HAI, and his research focuses on computer vision, machine learning robotics, and computational cognitive science."
+  },
+  {
+    "segment_id": "tr-00146",
+    "start_seconds": 1462.36,
+    "end_seconds": 1471.16,
+    "text": "And then we have Russell Wald, who is the executive director here at HAI. In that role, Russell oversees, hires research, education, and outreach missions."
+  },
+  {
+    "segment_id": "tr-00147",
+    "start_seconds": 1471.68,
+    "end_seconds": 1482.0,
+    "text": "He's a recognized leader in AI governance and policy, and also one of the lead authors of the issue brief. Thank you. All right."
+  },
+  {
+    "segment_id": "tr-00148",
+    "start_seconds": 1482.26,
+    "end_seconds": 1490.78,
+    "text": "First off, I think it's worth spending a little bit more time on the term world models itself, which may or may not be new to some folks in this room."
+  },
+  {
+    "segment_id": "tr-00149",
+    "start_seconds": 1491.8,
+    "end_seconds": 1503.92,
+    "text": "Daniel has already provided us with some helpful categorizations and examples. But the reality is that in this current moment, a lot of people are using the term quite loosely, and often to refer to quite a wide range of technical approaches."
+  },
+  {
+    "segment_id": "tr-00150",
+    "start_seconds": 1504.6,
+    "end_seconds": 1516.86,
+    "text": "So maybe I could start with Jha -Jun. I'm curious, as a computer scientist and someone who actually builds machines that interact with the physical world, what do you think is the most useful and accurate way to define what"
+  },
+  {
+    "segment_id": "tr-00151",
+    "start_seconds": 1516.86,
+    "end_seconds": 1528.96,
+    "text": "world models are and maybe what they are not? Right. I say, you know, the term has been there for a long time, but I guess the first modern revival of the term is maybe this 2018 paper"
+  },
+  {
+    "segment_id": "tr-00152",
+    "start_seconds": 1528.96,
+    "end_seconds": 1538.18,
+    "text": "by David Hart and Jha -Jun Schmihoover, and they say, okay, we have to build world models. And back then, they and later, the many people who use them mostly in robotics, they're like, it's like a predictive model, right?"
+  },
+  {
+    "segment_id": "tr-00153",
+    "start_seconds": 1538.24,
+    "end_seconds": 1550.3,
+    "text": "So we're going to predict what's going to happen. But then later, just like, you know, as the field gets a lot popular and a lot of people are coming into it, and people have to use it to mean many different things because to predict something well, you have"
+  },
+  {
+    "segment_id": "tr-00154",
+    "start_seconds": 1550.3,
+    "end_seconds": 1559.1,
+    "text": "to understand it, you have to model it really well. Then if a model that can reconstruct modeled appearance and physics of objects and scenes, is there a world model or not?"
+  },
+  {
+    "segment_id": "tr-00155",
+    "start_seconds": 1559.6,
+    "end_seconds": 1567.56,
+    "text": "That leads to a lot of, like, I think ambiguous discussions and definitions. And so just like the term AGI, what is AGI?"
+  },
+  {
+    "segment_id": "tr-00156",
+    "start_seconds": 1567.72,
+    "end_seconds": 1579.72,
+    "text": "I often feel like it's very hard to define what is AGI just like what is world models. Yeah, so I think in a framework that, you know, Daniel presented, which is I think this, based on this white paper that Fei"
+  },
+  {
+    "segment_id": "tr-00157",
+    "start_seconds": 1579.72,
+    "end_seconds": 1588.66,
+    "text": "-Fei wrote a while back, I think they try to categorize world models based on the functionality or the purpose it serves, right? So which is like, you know, what are the functionalities?"
+  },
+  {
+    "segment_id": "tr-00158",
+    "start_seconds": 1589.38,
+    "end_seconds": 1596.84,
+    "text": "What are the problems that you can solve? Whether it's rendering, you know, modeling the scenes, whether it's prediction, you know, simulation, what's going to happen, or whether it's due planning, right?"
+  },
+  {
+    "segment_id": "tr-00159",
+    "start_seconds": 1596.88,
+    "end_seconds": 1604.1,
+    "text": "So you can do much longer horizon reasoning and stuff like that. So I thought that's kind of a, and then, you know, with each problems like simulation, right?"
+  },
+  {
+    "segment_id": "tr-00160",
+    "start_seconds": 1604.18,
+    "end_seconds": 1616.7,
+    "text": "You can do, you can take different approaches. You can use a simulator. You can use a neural network. You can use JEPA, latency representation models, right? So you can, there are different ways of realizing them, but you can always try to categorize and fit"
+  },
+  {
+    "segment_id": "tr-00161",
+    "start_seconds": 1616.7,
+    "end_seconds": 1626.7,
+    "text": "these different types of world models into these beings based on their functionalities, which I actually thought is a pretty neat, I remember Justin and I were talking about this a couple of months ago before this was released."
+  },
+  {
+    "segment_id": "tr-00162",
+    "start_seconds": 1626.7,
+    "end_seconds": 1637.62,
+    "text": "I thought this is a very nice categorizations of the possible definition of world models. I'm going to stay on this kind of definitional space for a sec."
+  },
+  {
+    "segment_id": "tr-00163",
+    "start_seconds": 1638.34,
+    "end_seconds": 1646.42,
+    "text": "A lot of the kind of tasks or applications that you and Daniel have mentioned are, some of them are not entirely new, right?"
+  },
+  {
+    "segment_id": "tr-00164",
+    "start_seconds": 1646.42,
+    "end_seconds": 1652.82,
+    "text": "Like the idea, we've had models and systems that can run simulations, that can run predictions or produce renderings for years already."
+  },
+  {
+    "segment_id": "tr-00165",
+    "start_seconds": 1653.14,
+    "end_seconds": 1661.1,
+    "text": "So what is it exactly about world models that is novel and groundbreaking? There are, you know, there are some leaders saying that this is the new frontier of AI."
+  },
+  {
+    "segment_id": "tr-00166",
+    "start_seconds": 1661.1,
+    "end_seconds": 1668.5,
+    "text": "So what is it that is novel here? And then relatedly, can you clarify a little bit more? Daniel already touched on this a little bit."
+  },
+  {
+    "segment_id": "tr-00167",
+    "start_seconds": 1669.7,
+    "end_seconds": 1677.16,
+    "text": "What can world models already do now? And then what is still an ambition that we are kind of still working towards?"
+  },
+  {
+    "segment_id": "tr-00168",
+    "start_seconds": 1678.36,
+    "end_seconds": 1688.08,
+    "text": "Right. I think there's a non -standing problems in AI and people call it like symbol grounding. You know, it's like, okay, if I have a symbol like A or B or any kind of word, what does that mean?"
+  },
+  {
+    "segment_id": "tr-00169",
+    "start_seconds": 1688.62,
+    "end_seconds": 1697.98,
+    "text": "And that has been a long -standing problems going back to like many years ago and people were doing like symbolic AI stuff. And the term is not very popular enough, only very few people look into it."
+  },
+  {
+    "segment_id": "tr-00170",
+    "start_seconds": 1698.04,
+    "end_seconds": 1705.38,
+    "text": "But I think in some sense, now we have this context of, you know, language model getting so much better, especially since a couple years ago."
+  },
+  {
+    "segment_id": "tr-00171",
+    "start_seconds": 1706.34,
+    "end_seconds": 1717.82,
+    "text": "And you can think about it as now we're trying to do symbol grounding at a much larger scale. So in some sense, the word model is trying to take every symbol, every word, but try to understand what it means in the physical world."
+  },
+  {
+    "segment_id": "tr-00172",
+    "start_seconds": 1718.26,
+    "end_seconds": 1727.66,
+    "text": "Right. So I thought, and that becomes a lot more relevant because now we have much better language models. Right. If we cannot even manipulate symbols that well, then people don't care about symbol grounding."
+  },
+  {
+    "segment_id": "tr-00173",
+    "start_seconds": 1727.76,
+    "end_seconds": 1735.64,
+    "text": "But now we can manipulate symbols so well, they can produce language that is, you know, in some sense, at least in certain cases, you can't really tell if it's AI read it."
+  },
+  {
+    "segment_id": "tr-00174",
+    "start_seconds": 1735.64,
+    "end_seconds": 1743.66,
+    "text": "Right. So in essence, now naturally it would be like, oh, then if we can do much larger scale symbol grounding, has a lot more practical impact in the world, that seems great."
+  },
+  {
+    "segment_id": "tr-00175",
+    "start_seconds": 1743.82,
+    "end_seconds": 1750.78,
+    "text": "So I think naturally like, okay, we can go from digital space to the physical space. And that's why it gets so popular. The second question is."
+  },
+  {
+    "segment_id": "tr-00176",
+    "start_seconds": 1752.24,
+    "end_seconds": 1758.7,
+    "text": "What can world models already do now versus what is still in the future? What are we still working towards? Yeah. So, okay."
+  },
+  {
+    "segment_id": "tr-00177",
+    "start_seconds": 1759.02,
+    "end_seconds": 1772.16,
+    "text": "I think because of that, you know, so, you know, I think what it can do right now, I think, to do very well is the domain that naturally connects better to language or connects better to those"
+  },
+  {
+    "segment_id": "tr-00178",
+    "start_seconds": 1772.16,
+    "end_seconds": 1784.18,
+    "text": "data modalities that you have a lot of, you know, data rich modalities, right? For example, language, you have a lot of language. Therefore, if you use, if a robot use word models to help you plan and think about, oh, I can have these, you"
+  },
+  {
+    "segment_id": "tr-00179",
+    "start_seconds": 1784.18,
+    "end_seconds": 1796.24,
+    "text": "know, to organize a room. Like what are the 100 steps I need to take? It can probably take pretty well. But whether the plan is actually grounded to a particular room, can you connect them to your perceptual data,"
+  },
+  {
+    "segment_id": "tr-00180",
+    "start_seconds": 1796.34,
+    "end_seconds": 1804.14,
+    "text": "to a visual input, to a tactile input that is not yet soft. Right. You can come up with a plan, which is kind of abstract language based, but it is not as grounded."
+  },
+  {
+    "segment_id": "tr-00181",
+    "start_seconds": 1804.84,
+    "end_seconds": 1813.92,
+    "text": "And similarly, because you have a lot of videos, you know, world models, if you think about a simulator as video generation, then they can generate very beautiful videos because you have a lot of videos."
+  },
+  {
+    "segment_id": "tr-00182",
+    "start_seconds": 1813.92,
+    "end_seconds": 1820.26,
+    "text": "But whether they can be grounded to the physical world, so they are totally physically possible, that is a bit unsolved."
+  },
+  {
+    "segment_id": "tr-00183",
+    "start_seconds": 1820.64,
+    "end_seconds": 1828.24,
+    "text": "So maybe that's how I put it. I want to switch gears now and talk about the policy implications of world model development."
+  },
+  {
+    "segment_id": "tr-00184",
+    "start_seconds": 1828.96,
+    "end_seconds": 1841.76,
+    "text": "Russell, a few months back, you took this research to DC and you talked to policymakers. I'm curious, what, if anything, are policymakers in DC or, you know, in the world so"
+  },
+  {
+    "segment_id": "tr-00185",
+    "start_seconds": 1841.76,
+    "end_seconds": 1853.78,
+    "text": "far thinking about world models? Are they aware of world model development? What are some initial reactions that you've seen? Yeah, let me start and kind of elevate on your question and make one key part here in understanding."
+  },
+  {
+    "segment_id": "tr-00186",
+    "start_seconds": 1854.76,
+    "end_seconds": 1860.94,
+    "text": "This is a niche field that's starting to get a lot more attention and starting to go to another level."
+  },
+  {
+    "segment_id": "tr-00187",
+    "start_seconds": 1861.1,
+    "end_seconds": 1868.0,
+    "text": "And I think one part of it for us is our founding director, Fei -Fei Li, is looking at this and taking a serious approach to that."
+  },
+  {
+    "segment_id": "tr-00188",
+    "start_seconds": 1868.08,
+    "end_seconds": 1874.22,
+    "text": "And if it was just Fei -Fei, I would listen fairly and take a listen very carefully to this."
+  },
+  {
+    "segment_id": "tr-00189",
+    "start_seconds": 1874.22,
+    "end_seconds": 1882.4,
+    "text": "But it's not just her. It's people, Demis was looking at this with Jeannie and it was Jan LeCun looking into this."
+  },
+  {
+    "segment_id": "tr-00190",
+    "start_seconds": 1882.5,
+    "end_seconds": 1891.14,
+    "text": "And there's a lot of giants in the field that were saying, we've over -indexed on the areas of LLMs and there's this entire other separate area that we need to look at."
+  },
+  {
+    "segment_id": "tr-00191",
+    "start_seconds": 1891.4,
+    "end_seconds": 1898.96,
+    "text": "And what's fundamental about that for me was that was kind of an aha moment of we need to get more serious about that and look at that within HAI as well."
+  },
+  {
+    "segment_id": "tr-00192",
+    "start_seconds": 1898.96,
+    "end_seconds": 1907.18,
+    "text": "But one beauty about HAI was we never wanted to look at this just purely as a technical field, but understand what were the spillover implications within society?"
+  },
+  {
+    "segment_id": "tr-00193",
+    "start_seconds": 1907.18,
+    "end_seconds": 1917.1,
+    "text": "How would this affect other people and who will help us govern that technology ultimately are the decision makers in certain policy roles?"
+  },
+  {
+    "segment_id": "tr-00194",
+    "start_seconds": 1917.1,
+    "end_seconds": 1929.2,
+    "text": "So we wanted to gear this whole conversation to how is it that we're doing the research in the first place that it is focused on understanding and educating the public at large and"
+  },
+  {
+    "segment_id": "tr-00195",
+    "start_seconds": 1929.2,
+    "end_seconds": 1938.19,
+    "text": "primarily policy makers. And you're right, we did take this to Washington DC in order to give an early signal or forecast."
+  },
+  {
+    "segment_id": "tr-00196",
+    "start_seconds": 1938.86,
+    "end_seconds": 1950.9,
+    "text": "Let them know this is coming. And what it reminded me of was a moment in late 2022 when I was with one of our other senior fellows when I used to be HAI's policy director previously."
+  },
+  {
+    "segment_id": "tr-00197",
+    "start_seconds": 1950.9,
+    "end_seconds": 1958.32,
+    "text": "And I was with one of our other senior fellows in Washington and saying generative AI is coming. We can see it in the labs."
+  },
+  {
+    "segment_id": "tr-00198",
+    "start_seconds": 1958.56,
+    "end_seconds": 1965.02,
+    "text": "We're starting to see that it's starting to be with the quality that's supposed to be is looking really good."
+  },
+  {
+    "segment_id": "tr-00199",
+    "start_seconds": 1965.38,
+    "end_seconds": 1971.98,
+    "text": "And they would look at me and say, yes, AI is very important. And I said, no, no, no, this is generative AI. It's something very specific."
+  },
+  {
+    "segment_id": "tr-00200",
+    "start_seconds": 1972.86,
+    "end_seconds": 1985.02,
+    "text": "And there was just a glazed look on their face. And it wasn't until that chat GPT moment happens of where it puts it into their fingertips that it fundamentally changes the conversation in such a way that it was they"
+  },
+  {
+    "segment_id": "tr-00201",
+    "start_seconds": 1985.02,
+    "end_seconds": 1997.04,
+    "text": "were overwhelmed by it. And we want to be early to be able to make a difference so that people are understanding that they shouldn't be shocked or overwhelmed by this, that it's coming and that they can be as prepared as"
+  },
+  {
+    "segment_id": "tr-00202",
+    "start_seconds": 1997.04,
+    "end_seconds": 2007.86,
+    "text": "possible for this. And we can talk a lot about the public sector part, which I think is a fundamental part of where we need to go different with world models or where we have not done as well in the past."
+  },
+  {
+    "segment_id": "tr-00203",
+    "start_seconds": 2010.16,
+    "end_seconds": 2016.46,
+    "text": "But I would say right now, a lot of policymakers have never heard of a world model. It's still new to them. We're still trying to educate them."
+  },
+  {
+    "segment_id": "tr-00204",
+    "start_seconds": 2016.56,
+    "end_seconds": 2025.7,
+    "text": "And there are some places of where in some departments, I won't say which ones or be specific, but there are some people who know a lot and were informed and understood things."
+  },
+  {
+    "segment_id": "tr-00205",
+    "start_seconds": 2025.7,
+    "end_seconds": 2032.58,
+    "text": "And then there are others who just had a blank look on their face and they were in a position of power. And it was a little bit concerning because we needed to."
+  },
+  {
+    "segment_id": "tr-00206",
+    "start_seconds": 2032.74,
+    "end_seconds": 2042.32,
+    "text": "It said that we're doing the right thing to be able to inform people early about this and how it has different treatments that are needed versus an LLM and how they're thinking."
+  },
+  {
+    "segment_id": "tr-00207",
+    "start_seconds": 2044.02,
+    "end_seconds": 2053.94,
+    "text": "So you mentioned you used to be the policy director at HAI. You've been working on policy and with policymakers for many years on AI, pre -ChatGPT moment, post -ChatGPT moment."
+  },
+  {
+    "segment_id": "tr-00208",
+    "start_seconds": 2053.94,
+    "end_seconds": 2066.28,
+    "text": "When you think about now the policy challenges and or implications that world models bring, what do you stands out as being the most unique as compared to the policy"
+  },
+  {
+    "segment_id": "tr-00209",
+    "start_seconds": 2066.28,
+    "end_seconds": 2076.02,
+    "text": "issues that you have been, you know, talking to policymakers about already for several years with the AI systems that we do already have and that are already widely being used?"
+  },
+  {
+    "segment_id": "tr-00210",
+    "start_seconds": 2076.02,
+    "end_seconds": 2087.18,
+    "text": "Yeah. So one thing that I see in particular here that stands out to me that's a little bit different is particularly with LLMs and these foundation models, we have scraped the Internet and that's our data resource."
+  },
+  {
+    "segment_id": "tr-00211",
+    "start_seconds": 2087.36,
+    "end_seconds": 2097.88,
+    "text": "And we've been able to effectively do that. World models, I think, are a little bit different because they're a little bit you need more isolated or domain specific areas to be able to help understand certain parts."
+  },
+  {
+    "segment_id": "tr-00212",
+    "start_seconds": 2097.88,
+    "end_seconds": 2109.38,
+    "text": "So what if it's about best shipping lanes and simulating shipping lanes or something like that? You need shipping logs or things that are data that's a little bit more locked up with proprietary companies."
+  },
+  {
+    "segment_id": "tr-00213",
+    "start_seconds": 2110.26,
+    "end_seconds": 2121.58,
+    "text": "And that has a fundamental difference than just scraping the Internet. So data sets are going to be very unique here and have a completely different approach than what we needed to before."
+  },
+  {
+    "segment_id": "tr-00214",
+    "start_seconds": 2121.58,
+    "end_seconds": 2128.18,
+    "text": "So to be able to get the best world modeling possible is we need to be able to unlock more different type of data sets."
+  },
+  {
+    "segment_id": "tr-00215",
+    "start_seconds": 2128.46,
+    "end_seconds": 2134.5,
+    "text": "We do run into a situation of a power concentration. We are already seeing a power concentration in industry."
+  },
+  {
+    "segment_id": "tr-00216",
+    "start_seconds": 2134.8,
+    "end_seconds": 2146.9,
+    "text": "And I think in this particular if this technology starts to take off more like we're starting to see, there will be means as to where large companies will be able to just purchase data and be able to buy these data sets and be"
+  },
+  {
+    "segment_id": "tr-00217",
+    "start_seconds": 2146.9,
+    "end_seconds": 2155.2,
+    "text": "able to do that in a more proprietary fashion of keeping and owning the data sets. And then therefore entrenching and locking them in even further."
+  },
+  {
+    "segment_id": "tr-00218",
+    "start_seconds": 2155.46,
+    "end_seconds": 2162.22,
+    "text": "So I think right now what's one of the most fundamental things that we'll need to be able to do is understand the data components here."
+  },
+  {
+    "segment_id": "tr-00219",
+    "start_seconds": 2162.46,
+    "end_seconds": 2174.64,
+    "text": "And one key aspect to that data component is public sector data. So a lot of government data is out there that is agencies are sitting on"
+  },
+  {
+    "segment_id": "tr-00220",
+    "start_seconds": 2174.64,
+    "end_seconds": 2182.5,
+    "text": "and can be really rich and useful for this type of research and make a fundamental difference. Let's use NOAA weather data for example."
+  },
+  {
+    "segment_id": "tr-00221",
+    "start_seconds": 2183.56,
+    "end_seconds": 2195.42,
+    "text": "The prediction or understanding weather patterns. If that was much more available and ubiquitous for public sector research, we would be able to have I think more quality, higher, better world models."
+  },
+  {
+    "segment_id": "tr-00222",
+    "start_seconds": 2196.04,
+    "end_seconds": 2208.06,
+    "text": "And so I think it's critical that we really understand the data components here related to this. How are we able to unlock data resources that are not that same scraping that we see right now?"
+  },
+  {
+    "segment_id": "tr-00223",
+    "start_seconds": 2210.16,
+    "end_seconds": 2216.8,
+    "text": "I want to bring the technical perspective back into the policy discussion and zoom in on benchmarks for a sec."
+  },
+  {
+    "segment_id": "tr-00224",
+    "start_seconds": 2219.04,
+    "end_seconds": 2230.6,
+    "text": "Many of us are very familiar with benchmarks and AI evaluation more broadly. It has been something on our minds when it comes to evaluating how current AI models perform for a while."
+  },
+  {
+    "segment_id": "tr-00225",
+    "start_seconds": 2231.2,
+    "end_seconds": 2243.2,
+    "text": "When it comes to world models and finding standardised reliable benchmarks to measure the performance of world models, one of the things the brief says is that we do not have that right now."
+  },
+  {
+    "segment_id": "tr-00226",
+    "start_seconds": 2244.72,
+    "end_seconds": 2257.28,
+    "text": "And the authors identify this as an urgent area for policy action. So I'd be curious to hear from both of you, perhaps from Russell, from the policy perspective, why do you think focusing"
+  },
+  {
+    "segment_id": "tr-00227",
+    "start_seconds": 2257.28,
+    "end_seconds": 2264.0,
+    "text": "on benchmarks should be a near -term policy focus, specifically when it comes to world models?"
+  },
+  {
+    "segment_id": "tr-00228",
+    "start_seconds": 2264.0,
+    "end_seconds": 2273.14,
+    "text": "And then maybe Jajun, could you explain why is evaluating or measuring performance and safety of world models so difficult as opposed to other types of AI?"
+  },
+  {
+    "segment_id": "tr-00229",
+    "start_seconds": 2275.1,
+    "end_seconds": 2283.84,
+    "text": "Sure, I can go first. So I think the nice thing about language, these models or video models is like, OK, I have to share modality, right?"
+  },
+  {
+    "segment_id": "tr-00230",
+    "start_seconds": 2283.84,
+    "end_seconds": 2290.14,
+    "text": "So output, same format, what is that? It's natural language, same as it's videos. And it happened to be also have a lot of data."
+  },
+  {
+    "segment_id": "tr-00231",
+    "start_seconds": 2290.52,
+    "end_seconds": 2301.4,
+    "text": "And these data are human understandable. So it's like, OK, I can just set up all the benchmarks. And just as Russell was saying, you know, I think for world models, you have to tackle many different sectors and domains."
+  },
+  {
+    "segment_id": "tr-00232",
+    "start_seconds": 2301.54,
+    "end_seconds": 2310.46,
+    "text": "And they're dealing with heterogeneous data. You know, you may have a lot of data, but they're in very different formats. And you have to deal with many different tasks, right?"
+  },
+  {
+    "segment_id": "tr-00233",
+    "start_seconds": 2310.6,
+    "end_seconds": 2322.78,
+    "text": "Let's say, you know, in curve, let's say if you want to use it for robotics, and robots has to solve many different tasks. What about not robotics? Now you're seeing all these demos about, I know Astra, it's not only solving robotics, but you can design objects, do CAD modeling,"
+  },
+  {
+    "segment_id": "tr-00234",
+    "start_seconds": 2322.8,
+    "end_seconds": 2334.84,
+    "text": "all these things. But then what about data there? And what is this a different format that's a different task? And how can we collect high quality data that are, and also a lot of these that are maybe only privacy available, or some are publicly available,"
+  },
+  {
+    "segment_id": "tr-00235",
+    "start_seconds": 2335.0,
+    "end_seconds": 2347.04,
+    "text": "but also a lot more are privacy available, and it's not a proprietary to companies or to government. So how can we have, I would say, practical benchmarks that is fair, unbiased, but also cover so"
+  },
+  {
+    "segment_id": "tr-00236",
+    "start_seconds": 2347.04,
+    "end_seconds": 2354.4,
+    "text": "many different sectors, dealing with so many different types of data, right, often a proprietary, you know, so how can we have a particular benchmark that can do all these?"
+  },
+  {
+    "segment_id": "tr-00237",
+    "start_seconds": 2354.54,
+    "end_seconds": 2365.22,
+    "text": "I think that's very challenging. That's my feeling. So what I would say first on benchmarking is benchmarking as a whole is a field where I think it's flimsy, weak, and brittle."
+  },
+  {
+    "segment_id": "tr-00238",
+    "start_seconds": 2365.22,
+    "end_seconds": 2377.34,
+    "text": "We see a lot of problems with benchmarks as a whole and AI. So much so that we want to start with an HAI looking more specifically at the science of benchmarking itself, and we put a lot more rigor"
+  },
+  {
+    "segment_id": "tr-00239",
+    "start_seconds": 2377.34,
+    "end_seconds": 2386.04,
+    "text": "behind them because right now what we're building is just a simple test that people are trying to design their model to pass the test, say it's great and it's good to go."
+  },
+  {
+    "segment_id": "tr-00240",
+    "start_seconds": 2386.04,
+    "end_seconds": 2395.82,
+    "text": "So that's not enough, I think, for these systems. And what is fundamentally different is one is that of words and the effect of words, and the other one is the physical application."
+  },
+  {
+    "segment_id": "tr-00241",
+    "start_seconds": 2396.38,
+    "end_seconds": 2403.92,
+    "text": "The difference of getting one wrong is fundamentally different and will have a greater effect on a lot of this."
+  },
+  {
+    "segment_id": "tr-00242",
+    "start_seconds": 2403.92,
+    "end_seconds": 2416.44,
+    "text": "The other key part here is, and Joijun has mentioned this, is the downstream areas of this world modeling actually has so many unique downstream applications in different ways that"
+  },
+  {
+    "segment_id": "tr-00243",
+    "start_seconds": 2416.44,
+    "end_seconds": 2428.86,
+    "text": "the benchmarks on there, you have to have probably a much more robust set of multi -set of benchmarks to be able to, one benchmark is not going to be sufficient for understanding."
+  },
+  {
+    "segment_id": "tr-00244",
+    "start_seconds": 2428.86,
+    "end_seconds": 2440.98,
+    "text": "I mean, you've simulated the design of a bridge, you were able to truncate the time of how long it took to design a bridge. Fabrication, a lot of these key things are a big part of consume, consume a"
+  },
+  {
+    "segment_id": "tr-00245",
+    "start_seconds": 2440.98,
+    "end_seconds": 2452.8,
+    "text": "lot of time. I learned through this paper how much engineering goes into this, you would be able to significantly truncate that time to be able to be more effective to build certain systems and physical systems."
+  },
+  {
+    "segment_id": "tr-00246",
+    "start_seconds": 2452.8,
+    "end_seconds": 2459.14,
+    "text": "But now we're talking about the significant difference of what it means for policymakers to be able to judge."
+  },
+  {
+    "segment_id": "tr-00247",
+    "start_seconds": 2459.44,
+    "end_seconds": 2466.14,
+    "text": "Is this going to be safe or not? Could we actually authorize this? Would regulators sign off on certain things?"
+  },
+  {
+    "segment_id": "tr-00248",
+    "start_seconds": 2466.52,
+    "end_seconds": 2476.08,
+    "text": "If there is not a good testing and measurement system, we run into a serious risk of having faulty systems that could go wrong at really key times."
+  },
+  {
+    "segment_id": "tr-00249",
+    "start_seconds": 2476.08,
+    "end_seconds": 2483.02,
+    "text": "So I think that the benchmarking side of this is well beyond the importance of where we are with LLMs."
+  },
+  {
+    "segment_id": "tr-00250",
+    "start_seconds": 2483.1,
+    "end_seconds": 2492.1,
+    "text": "And if we're looking at LLMs, I think they're weak. So we have to really rethink our benchmarking system as a whole when we start, as we're working into this physical space."
+  },
+  {
+    "segment_id": "tr-00251",
+    "start_seconds": 2494.64,
+    "end_seconds": 2501.64,
+    "text": "I want to briefly bring up the open versus closed debate that many of us are quite familiar with in AI."
+  },
+  {
+    "segment_id": "tr-00252",
+    "start_seconds": 2501.64,
+    "end_seconds": 2512.82,
+    "text": "So Chinese company Tencent, which is developing world models in China, has released the weights for its world model HY World 2 .0, albeit under a restrictive license."
+  },
+  {
+    "segment_id": "tr-00253",
+    "start_seconds": 2513.32,
+    "end_seconds": 2525.7,
+    "text": "And then in the meantime, leading US world model systems are closed so far proprietary. I'm curious to know from both of you how you think the decision"
+  },
+  {
+    "segment_id": "tr-00254",
+    "start_seconds": 2525.7,
+    "end_seconds": 2532.6,
+    "text": "to release models openly with open weights versus closed, how you think that might play out with world models?"
+  },
+  {
+    "segment_id": "tr-00255",
+    "start_seconds": 2533.26,
+    "end_seconds": 2543.24,
+    "text": "And how, if at all, the open versus closed debate differs for world models versus language models or foundation models, more broadly?"
+  },
+  {
+    "segment_id": "tr-00256",
+    "start_seconds": 2546.54,
+    "end_seconds": 2553.64,
+    "text": "I would say at this moment, honestly, I feel like we're still in the very early stage of developing different types of world models."
+  },
+  {
+    "segment_id": "tr-00257",
+    "start_seconds": 2553.78,
+    "end_seconds": 2564.74,
+    "text": "This is like, and it depends on what you mean. Again, you know, you can say GPT is a world model, right? But if you're thinking about models that can be applied to a physical world, you know, we actually, we see a lot of those in GPT as well."
+  },
+  {
+    "segment_id": "tr-00258",
+    "start_seconds": 2564.74,
+    "end_seconds": 2571.78,
+    "text": "But still, to have them actually work in practice, my feeling is still in a relatively early stage."
+  },
+  {
+    "segment_id": "tr-00259",
+    "start_seconds": 2572.14,
+    "end_seconds": 2584.5,
+    "text": "In that sense, especially those like video or, you know, other types of like, if you want to use world models to have different types of modalities, like for example, the Tencent ones and maybe the World Apps ones, they're more on the pixel level."
+  },
+  {
+    "segment_id": "tr-00260",
+    "start_seconds": 2584.5,
+    "end_seconds": 2596.62,
+    "text": "So, for those type of models, because they're still so early, in some sense, you can see we're in this pre -GPT moment that it doesn't really matter if it's open or closed debate, because, you know, we're just like"
+  },
+  {
+    "segment_id": "tr-00261",
+    "start_seconds": 2596.62,
+    "end_seconds": 2608.48,
+    "text": "helping the community develop these models to get better. But once they get to the moment where they actually can have a lot of practical use, then I think it comes back to this discussion on like LLMs."
+  },
+  {
+    "segment_id": "tr-00262",
+    "start_seconds": 2608.48,
+    "end_seconds": 2620.52,
+    "text": "And LLMs are like, you know, you have these open -weight models and closed -weight models. And what is the dynamics between the two? And I think so far we've been seeing is, you know, the most leading companies, they often want to have a closed -weight models because they want to, you"
+  },
+  {
+    "segment_id": "tr-00263",
+    "start_seconds": 2620.52,
+    "end_seconds": 2632.78,
+    "text": "know, maintain their leadership. And the second, obviously, the companies that are a bit running behind, they want to open -weight because they want to clean the market, they want to collect user feedback, so they get more data to increase usage"
+  },
+  {
+    "segment_id": "tr-00264",
+    "start_seconds": 2632.78,
+    "end_seconds": 2638.8,
+    "text": "so that they can develop better models. But there is only, I think, observation from a technical perspective. Yeah."
+  },
+  {
+    "segment_id": "tr-00265",
+    "start_seconds": 2638.98,
+    "end_seconds": 2651.16,
+    "text": "So policy stuff for us, I don't know. Let me just say, I think first on the open -weight debate and what happens here is, one, first off, I'm a huge proponent of an open system because we're in academia and we need open"
+  },
+  {
+    "segment_id": "tr-00266",
+    "start_seconds": 2651.16,
+    "end_seconds": 2663.16,
+    "text": "models to be able to dissect, to be able to understand, to be able to teach the next generation. So I think if you're looking at it of a position, if I'm looking at it from my position within HAI itself as executive director, I deeply"
+  },
+  {
+    "segment_id": "tr-00267",
+    "start_seconds": 2663.16,
+    "end_seconds": 2671.22,
+    "text": "care about an open -weight and open system. I think it's a critical, vital part of what we need. And I will continue to be a proponent for that."
+  },
+  {
+    "segment_id": "tr-00268",
+    "start_seconds": 2671.32,
+    "end_seconds": 2683.46,
+    "text": "But if we were to actually look at this in terms of LLMs and where we've gone with LLMs related to this, and we're looking at it from both an industry and geopolitical perspective, if we're looking"
+  },
+  {
+    "segment_id": "tr-00269",
+    "start_seconds": 2683.46,
+    "end_seconds": 2689.68,
+    "text": "at what the U .S. has done in this particular space, what we see is the data shows the U .S."
+  },
+  {
+    "segment_id": "tr-00270",
+    "start_seconds": 2689.74,
+    "end_seconds": 2699.64,
+    "text": "is releasing incredibly exquisite frontier models that are amazing. And then China roughly seems at most six months to a year behind for that and releases an open -weight model."
+  },
+  {
+    "segment_id": "tr-00271",
+    "start_seconds": 2699.84,
+    "end_seconds": 2712.06,
+    "text": "There is no moat, as we keep hearing, that can be really built at this level and at this point that is going to be able to protect a particular proprietary model for long because of the fast"
+  },
+  {
+    "segment_id": "tr-00272",
+    "start_seconds": 2712.06,
+    "end_seconds": 2724.94,
+    "text": "pace of change that happens here. And so if that's the same paradigm for world models, then I think it's in the best interest for the world as a whole that"
+  },
+  {
+    "segment_id": "tr-00273",
+    "start_seconds": 2724.94,
+    "end_seconds": 2737.4,
+    "text": "we actually have robust, thoughtful world models that are available and open for us to build upon within places within academia so that we can learn, verify, test, be able to get"
+  },
+  {
+    "segment_id": "tr-00274",
+    "start_seconds": 2737.4,
+    "end_seconds": 2749.76,
+    "text": "deeper into all of this. So I'm not saying in terms of world models from a technical perspective where I think they will go open or close, but I do think the lessons that we're learning right now from LLMs are"
+  },
+  {
+    "segment_id": "tr-00275",
+    "start_seconds": 2749.76,
+    "end_seconds": 2760.02,
+    "text": "that an open system is going to be beneficial widely for the wider public and that the proprietary companies only get a short window to be able to stay ahead in this particular space."
+  },
+  {
+    "segment_id": "tr-00276",
+    "start_seconds": 2760.18,
+    "end_seconds": 2767.1,
+    "text": "And that's not, it's not, it might be different if we said two to three years, but six months to a year is by far very short."
+  },
+  {
+    "segment_id": "tr-00277",
+    "start_seconds": 2767.14,
+    "end_seconds": 2774.64,
+    "text": "And the capital spend and everything that comes from this is quite an intense race that I think it's questionable whether it's sustainable."
+  },
+  {
+    "segment_id": "tr-00278",
+    "start_seconds": 2776.82,
+    "end_seconds": 2788.82,
+    "text": "I want to end our panel portion with two more questions that are more forward looking. So the first would be, we've already heard a lot of potential"
+  },
+  {
+    "segment_id": "tr-00279",
+    "start_seconds": 2788.82,
+    "end_seconds": 2801.34,
+    "text": "use cases for world models that are quite promising. If both of you, if you had to pick one use case or application area that you find most exciting or promising for world models, what would that be and"
+  },
+  {
+    "segment_id": "tr-00280",
+    "start_seconds": 2801.34,
+    "end_seconds": 2810.02,
+    "text": "why? Can I say one use case that I'm excited about and other use cases that I'm concerned about?"
+  },
+  {
+    "segment_id": "tr-00281",
+    "start_seconds": 2810.24,
+    "end_seconds": 2822.32,
+    "text": "Absolutely, yeah. Okay. I think one use case I'm clearly excited about is as we enter a world where our climate is changing around us so rapidly, I think the means to be able to understand that climate more effectively, this will be a really"
+  },
+  {
+    "segment_id": "tr-00282",
+    "start_seconds": 2822.32,
+    "end_seconds": 2834.88,
+    "text": "important use case, whether that is through natural disaster. I think Daniel kind of addresses it with a wildfire situation, but natural disasters and what can happen, drones to be able to get more of a quick aerial"
+  },
+  {
+    "segment_id": "tr-00283",
+    "start_seconds": 2834.88,
+    "end_seconds": 2846.62,
+    "text": "understanding of data, collect the data quickly, simulate where the fire is going. There's a variety of key parts here, I think that will be very important for humanity to be beneficiaries of related to this."
+  },
+  {
+    "segment_id": "tr-00284",
+    "start_seconds": 2846.62,
+    "end_seconds": 2858.8,
+    "text": "There's also health care parts to this as well, but if I had to pick one thing, I think it would be climate change, the ability to address it more effectively in terms of a climate resilient side and natural disasters."
+  },
+  {
+    "segment_id": "tr-00285",
+    "start_seconds": 2858.8,
+    "end_seconds": 2870.94,
+    "text": "At the same time, one of the key reasons we added a national security chapter in here was the fact that there are fundamental questions about the future that we"
+  },
+  {
+    "segment_id": "tr-00286",
+    "start_seconds": 2870.94,
+    "end_seconds": 2883.02,
+    "text": "in an academic world should take time to stop and think about. We are talking about today, the future building a drone that can simulate and help us understand a map out of wildfire, but at the"
+  },
+  {
+    "segment_id": "tr-00287",
+    "start_seconds": 2883.02,
+    "end_seconds": 2895.12,
+    "text": "same time, that technology can easily be used for a drone to be able to enter a contested battlefield, lose communication with its operator and still be able"
+  },
+  {
+    "segment_id": "tr-00288",
+    "start_seconds": 2895.12,
+    "end_seconds": 2907.24,
+    "text": "to map out that specific area and even deliver a payload. Meaning that you actually are entering potential areas that have serious questions of what"
+  },
+  {
+    "segment_id": "tr-00289",
+    "start_seconds": 2907.24,
+    "end_seconds": 2919.56,
+    "text": "it means for morality, what it means for ethics. A lot of these key areas that people have always been concerned about entering into this physical space is a difficult thing that requires a whole of society"
+  },
+  {
+    "segment_id": "tr-00290",
+    "start_seconds": 2919.56,
+    "end_seconds": 2928.7,
+    "text": "to talk about, to debate, to be able to understand what we want out of these systems where we are willing to go and not go."
+  },
+  {
+    "segment_id": "tr-00291",
+    "start_seconds": 2928.9,
+    "end_seconds": 2935.18,
+    "text": "And I think it's a very, very important time and unique time for us to all have an active voice related to that."
+  },
+  {
+    "segment_id": "tr-00292",
+    "start_seconds": 2935.62,
+    "end_seconds": 2948.0,
+    "text": "So again, these systems have a dual edge to them. They have the means to be able to be quite beneficial to humanity, but they also have the means to be able to create"
+  },
+  {
+    "segment_id": "tr-00293",
+    "start_seconds": 2948.0,
+    "end_seconds": 2960.1,
+    "text": "a different framing of warfare and what do we want out of that. And the big thing that I would leave with a lot of people here is if we saw major debates between anthropic and the Pentagon"
+  },
+  {
+    "segment_id": "tr-00294",
+    "start_seconds": 2960.1,
+    "end_seconds": 2966.56,
+    "text": "over language models, imagine what the future could look like if we had a physical space related to that."
+  },
+  {
+    "segment_id": "tr-00295",
+    "start_seconds": 2966.56,
+    "end_seconds": 2975.42,
+    "text": "So it requires organizations like HAI to sit here and analyze the deep questions and ask that."
+  },
+  {
+    "segment_id": "tr-00296",
+    "start_seconds": 2975.66,
+    "end_seconds": 2981.92,
+    "text": "And that's why we were so focused on interdisciplinary paper. We could have done just a technical paper and called it a day."
+  },
+  {
+    "segment_id": "tr-00297",
+    "start_seconds": 2982.06,
+    "end_seconds": 2988.86,
+    "text": "I think it was really important for us to understand all of the facets for it so that we're as collectively asking these questions and taking them on now."
+  },
+  {
+    "segment_id": "tr-00298",
+    "start_seconds": 2990.8,
+    "end_seconds": 3002.5,
+    "text": "Well, I was about to say, I think our models could have very exciting applications in another very overloaded term, which is called physical AI."
+  },
+  {
+    "segment_id": "tr-00299",
+    "start_seconds": 3002.5,
+    "end_seconds": 3010.86,
+    "text": "But you just made it sound very scary when you say that because I'd be like, all right, it's not a vacation in physical AI, but there are a lot of, you know, I think what you said is also totally true."
+  },
+  {
+    "segment_id": "tr-00300",
+    "start_seconds": 3011.02,
+    "end_seconds": 3018.72,
+    "text": "But that's also, you know, there's also, as you said, a good part of it, you know, think about it, you can have systems that, for example, we're going to do what?"
+  },
+  {
+    "segment_id": "tr-00301",
+    "start_seconds": 3018.86,
+    "end_seconds": 3031.0,
+    "text": "You know, you have all the reception, fruit, coffee, whatever, right? So is that possible for us to have robots that can take care of bodies, you know, set out things for you, taking care of people who are getting old, you know, help them to live"
+  },
+  {
+    "segment_id": "tr-00302",
+    "start_seconds": 3031.0,
+    "end_seconds": 3043.04,
+    "text": "a better life? You know, so, and also, it doesn't have to be just robotics, right? Think about how we can, just like, you know, you have all these now, agenda systems, clockwork and stuff, and if they can help"
+  },
+  {
+    "segment_id": "tr-00303",
+    "start_seconds": 3043.04,
+    "end_seconds": 3052.28,
+    "text": "you in the physical world, and to come up with, you know, we have this, you know, beautiful layout of HAI open space, but what if we want to do renovation?"
+  },
+  {
+    "segment_id": "tr-00304",
+    "start_seconds": 3052.48,
+    "end_seconds": 3060.04,
+    "text": "Now there's a merge, and we have more spaces. How can we reallocate the furnitures? You know, so I think there are a lot of applications of that, which are also good."
+  },
+  {
+    "segment_id": "tr-00305",
+    "start_seconds": 3060.04,
+    "end_seconds": 3066.74,
+    "text": "You know, of course, what you said is true, but... Sorry, I didn't mean to give the doom, but I think we should just have the conversation."
+  },
+  {
+    "segment_id": "tr-00306",
+    "start_seconds": 3068.48,
+    "end_seconds": 3078.7,
+    "text": "Final rapid fire. If you could ask Congress to do just one thing tomorrow to advance world model development or governance, what would that be, and why?"
+  },
+  {
+    "segment_id": "tr-00307",
+    "start_seconds": 3082.04,
+    "end_seconds": 3088.54,
+    "text": "For me, I think I would reinforce the need for public sector data sets. I obviously care about..."
+  },
+  {
+    "segment_id": "tr-00308",
+    "start_seconds": 3088.54,
+    "end_seconds": 3100.74,
+    "text": "I... The National AI Research Resource itself always said that when our initial concepts on this never said it was just going to be a platform to provide compute for academic research, we also"
+  },
+  {
+    "segment_id": "tr-00309",
+    "start_seconds": 3100.74,
+    "end_seconds": 3108.22,
+    "text": "wanted it to be a place where there was government data sets that were rich, useful, and could be utilized, and we could get more out of that."
+  },
+  {
+    "segment_id": "tr-00310",
+    "start_seconds": 3108.22,
+    "end_seconds": 3116.64,
+    "text": "So I would probably, once again, tell Congress to pass the NAR or the Create AI Act and lead to much more better access to the NAR."
+  },
+  {
+    "segment_id": "tr-00311",
+    "start_seconds": 3116.88,
+    "end_seconds": 3123.16,
+    "text": "I think that this is one thing that I... One of the biggest failures at this point of when we talk..."
+  },
+  {
+    "segment_id": "tr-00312",
+    "start_seconds": 3123.16,
+    "end_seconds": 3132.24,
+    "text": "When policymakers say, what can we do? Well, you could provide greater public resources to be able to make a significant difference in the review of these."
+  },
+  {
+    "segment_id": "tr-00313",
+    "start_seconds": 3132.34,
+    "end_seconds": 3142.52,
+    "text": "We could create better benchmarks. There's a whole lot more things that can happen here. And so I think unlocking this for public sector research will probably be one of the most important things we could do."
+  },
+  {
+    "segment_id": "tr-00314",
+    "start_seconds": 3145.24,
+    "end_seconds": 3155.5,
+    "text": "Well, I don't know. I mean, my answer would be like the NAR should have a lot more compute because it's so limited. So if we have more compute, it's always good for universities to have more compute because we don't have that much compute."
+  },
+  {
+    "segment_id": "tr-00315",
+    "start_seconds": 3155.5,
+    "end_seconds": 3163.64,
+    "text": "Always more compute. Yes. All right. Thank you so much. I think it's time to open up the floor to our audience."
+  },
+  {
+    "segment_id": "tr-00316",
+    "start_seconds": 3163.64,
+    "end_seconds": 3169.84,
+    "text": "Thank you. This was so interesting because I really don't know much about world models. But something that's in my head is like..."
+  },
+  {
+    "segment_id": "tr-00317",
+    "start_seconds": 3169.84,
+    "end_seconds": 3178.72,
+    "text": "So my impression, please correct me if I'm wrong, is... Of course, LLMs have their own unique risks because part of it is like individuals can interact with it on the daily."
+  },
+  {
+    "segment_id": "tr-00318",
+    "start_seconds": 3179.2,
+    "end_seconds": 3187.08,
+    "text": "But my impression from world models is maybe that it's more so helpful for like organizations or government and things like wildfire response, for example."
+  },
+  {
+    "segment_id": "tr-00319",
+    "start_seconds": 3187.08,
+    "end_seconds": 3193.28,
+    "text": "But are there any... Like the benefits are clear for both individuals and society of world models."
+  },
+  {
+    "segment_id": "tr-00320",
+    "start_seconds": 3193.46,
+    "end_seconds": 3201.68,
+    "text": "But what are the unique risks of this fact? Like the distinguishment between LLMs being like everyday, like users can interact with it."
+  },
+  {
+    "segment_id": "tr-00321",
+    "start_seconds": 3201.78,
+    "end_seconds": 3211.5,
+    "text": "Whoever you are, you can interact with LLMs and there's risks that come with that. But are there any specific world model related risks for the average consumer on the daily to worry about?"
+  },
+  {
+    "segment_id": "tr-00322",
+    "start_seconds": 3212.14,
+    "end_seconds": 3221.4,
+    "text": "I'll let Jaijun talk about some more risk here. But I think one important part, I think the risk is just... The risk space is so significant, just like LLMs in a sense that..."
+  },
+  {
+    "segment_id": "tr-00323",
+    "start_seconds": 3221.4,
+    "end_seconds": 3228.52,
+    "text": "What about... You could talk about risk of like I just said, a bridge failing because we relied on the simulation of it."
+  },
+  {
+    "segment_id": "tr-00324",
+    "start_seconds": 3228.52,
+    "end_seconds": 3236.62,
+    "text": "We felt comfortable. Part of Daniel's presentation kind of notes that with the water and how we have this confidence that something may be accurate or work well."
+  },
+  {
+    "segment_id": "tr-00325",
+    "start_seconds": 3236.76,
+    "end_seconds": 3244.94,
+    "text": "And it works under 99 .9 % of conditions. But for one, that 0 .1%, it's an absolute failure, which could be catastrophic."
+  },
+  {
+    "segment_id": "tr-00326",
+    "start_seconds": 3246.06,
+    "end_seconds": 3254.94,
+    "text": "You could also say immersive video games that helped get teenagers more addicted into video games and get them locked in even more."
+  },
+  {
+    "segment_id": "tr-00327",
+    "start_seconds": 3254.94,
+    "end_seconds": 3267.1,
+    "text": "So I think the risk is very broad about what can happen from some of this. And I think this is the point of why write a paper like this to be early to forecast some of these things so we can mitigate this."
+  },
+  {
+    "segment_id": "tr-00328",
+    "start_seconds": 3267.1,
+    "end_seconds": 3277.36,
+    "text": "Because we should embrace this technology. I think there's a lot of beneficial things that will come from it. There are some huge fundamental opportunities to improve the human condition from this."
+  },
+  {
+    "segment_id": "tr-00329",
+    "start_seconds": 3278.72,
+    "end_seconds": 3285.56,
+    "text": "But we need to be really mindful and understand what are the risks and sit down and start to lay those out and how can we prepare it as best as possible."
+  },
+  {
+    "segment_id": "tr-00330",
+    "start_seconds": 3286.88,
+    "end_seconds": 3293.72,
+    "text": "Yeah, I thought Russell said it well. I mean, I would say it's maybe not a case that world models are something only organizations can do."
+  },
+  {
+    "segment_id": "tr-00331",
+    "start_seconds": 3293.76,
+    "end_seconds": 3300.76,
+    "text": "I can totally imagine every day we're going to use a lot of world models when they get ready. For example, I think entertainment is a big part of it."
+  },
+  {
+    "segment_id": "tr-00332",
+    "start_seconds": 3300.92,
+    "end_seconds": 3308.52,
+    "text": "If we have games and I play it every day, I interact with them. Let's say the game is generated on the fly as I play. Then isn't the case that that's a world model?"
+  },
+  {
+    "segment_id": "tr-00333",
+    "start_seconds": 3309.12,
+    "end_seconds": 3315.94,
+    "text": "And also, eventually when robots get ready, it will be like, oh, have robots that live with you and take care of you and making cooking dinner for you."
+  },
+  {
+    "segment_id": "tr-00334",
+    "start_seconds": 3316.04,
+    "end_seconds": 3328.16,
+    "text": "Is that a world model? And other things, for example, let's say I have a broken dishwasher and maybe I want someone to help me or let's say now eventually when these models"
+  },
+  {
+    "segment_id": "tr-00335",
+    "start_seconds": 3328.16,
+    "end_seconds": 3334.88,
+    "text": "get better, maybe I can use some AI -assisted technology to help me so that I can fix it myself. And are we using a world model to help us?"
+  },
+  {
+    "segment_id": "tr-00336",
+    "start_seconds": 3335.0,
+    "end_seconds": 3347.6,
+    "text": "So I would say it is totally possible eventually for us to interact with more models every day ourselves. Since world models rely on large amounts of data to effectively simulate an environment, and"
+  },
+  {
+    "segment_id": "tr-00337",
+    "start_seconds": 3347.6,
+    "end_seconds": 3359.82,
+    "text": "since training data scarcity is a bottleneck in scaling these models, this may incentivize industry to surveil society at a scale and in ways that American society is unaccustomed to and"
+  },
+  {
+    "segment_id": "tr-00338",
+    "start_seconds": 3359.82,
+    "end_seconds": 3369.8,
+    "text": "doctrinally opposed to. In addition, when robotics are widely disseminated throughout society, there will be ample opportunities for consensual and non -consensual surveillance."
+  },
+  {
+    "segment_id": "tr-00339",
+    "start_seconds": 3370.38,
+    "end_seconds": 3377.84,
+    "text": "What specific solutions are there for these potential problems? I don't think I fully understand the question. So you're saying, is it more like a surveillance question?"
+  },
+  {
+    "segment_id": "tr-00340",
+    "start_seconds": 3377.92,
+    "end_seconds": 3390.3,
+    "text": "Like if you have robots all around and are going to be like a surveillance question? Say it again, sorry. As your paper lays out, the data, the training data for these models is going to be a bottleneck, a very essential component"
+  },
+  {
+    "segment_id": "tr-00341",
+    "start_seconds": 3390.3,
+    "end_seconds": 3401.32,
+    "text": "of developing these models. And so both industry and perhaps governments will be incentivized to surveil people to get that data so that they can build these models."
+  },
+  {
+    "segment_id": "tr-00342",
+    "start_seconds": 3403.72,
+    "end_seconds": 3413.76,
+    "text": "It's actually referenced in your paper a bit. Yeah, I know what you're referring to in the sense, I think what we're talking about is the privacy aspects within here and what you look into this."
+  },
+  {
+    "segment_id": "tr-00343",
+    "start_seconds": 3413.92,
+    "end_seconds": 3422.14,
+    "text": "And yes, you do require a much broader, ubiquitous amount of data. And therefore, there's a lot of more video and things like this."
+  },
+  {
+    "segment_id": "tr-00344",
+    "start_seconds": 3422.14,
+    "end_seconds": 3429.68,
+    "text": "So driverless cars picking up a lot of this. So this isn't something that we, it's not that we are already don't see in a lot of this space."
+  },
+  {
+    "segment_id": "tr-00345",
+    "start_seconds": 3430.04,
+    "end_seconds": 3437.06,
+    "text": "First off on the LLMs and the need for more data, but the large amount of data that's required. Yeah, a lot of it is not consensual."
+  },
+  {
+    "segment_id": "tr-00346",
+    "start_seconds": 3437.06,
+    "end_seconds": 3450.12,
+    "text": "And I think that there is a important key part here. That's a concern for us. We highlight that in the paper is the larger amounts of data sets that are required and therefore the larger amounts of the desire"
+  },
+  {
+    "segment_id": "tr-00347",
+    "start_seconds": 3450.12,
+    "end_seconds": 3458.68,
+    "text": "to collect that data. I think we should be careful about what we're talking about here of whether on the surveillance side versus data collection side."
+  },
+  {
+    "segment_id": "tr-00348",
+    "start_seconds": 3458.9,
+    "end_seconds": 3466.68,
+    "text": "And I think that there's a little nuance on that. I think that there is a broad area for greater data collection."
+  },
+  {
+    "segment_id": "tr-00349",
+    "start_seconds": 3466.68,
+    "end_seconds": 3473.04,
+    "text": "And it's an important part we noted in the paper. And I think policymakers need to be aware of it."
+  },
+  {
+    "segment_id": "tr-00350",
+    "start_seconds": 3473.12,
+    "end_seconds": 3480.64,
+    "text": "And what happens in this particular space? What happens with someone's wearing metaglasses? I get very uncomfortable the minute someone has metaglasses on."
+  },
+  {
+    "segment_id": "tr-00351",
+    "start_seconds": 3480.76,
+    "end_seconds": 3488.32,
+    "text": "And I almost want to issue like being around them because it just becomes this broad aspect of data collection."
+  },
+  {
+    "segment_id": "tr-00352",
+    "start_seconds": 3488.32,
+    "end_seconds": 3495.56,
+    "text": "And that's one of the consequences of this. And we don't have broad federal policy, privacy policies in the space."
+  },
+  {
+    "segment_id": "tr-00353",
+    "start_seconds": 3495.56,
+    "end_seconds": 3504.86,
+    "text": "It requires us to rethink that and to have conversations about that and what that means. I don't know."
+  },
+  {
+    "segment_id": "tr-00354",
+    "start_seconds": 3504.98,
+    "end_seconds": 3512.8,
+    "text": "I don't have outright privacy. I'm not prepared to answer the privacy concerns that go well beyond anything."
+  },
+  {
+    "segment_id": "tr-00355",
+    "start_seconds": 3512.8,
+    "end_seconds": 3520.9,
+    "text": "We are talking about this in terms of the next phase of this particular paper is to look at use cases and find these particular areas."
+  },
+  {
+    "segment_id": "tr-00356",
+    "start_seconds": 3520.9,
+    "end_seconds": 3530.48,
+    "text": "So looking, we have our privacy scholar Jen King who's here and having conversations with her about what it takes to understand a lot of this."
+  },
+  {
+    "segment_id": "tr-00357",
+    "start_seconds": 3530.58,
+    "end_seconds": 3539.78,
+    "text": "But we do want to look at use cases specifically and design about five use cases in the space to be able to say, okay, what would be privacy preserving areas?"
+  },
+  {
+    "segment_id": "tr-00358",
+    "start_seconds": 3540.46,
+    "end_seconds": 3552.74,
+    "text": "There is one thing. It's not world modeling, but some of the same people working on the space work on ambient technology. And there's one reason of why ambient technology is appealing because of the fact that they do try to build in early privacy preserving"
+  },
+  {
+    "segment_id": "tr-00359",
+    "start_seconds": 3552.74,
+    "end_seconds": 3565.02,
+    "text": "parts to this. So if you're in the hospital care setting, there's a whole point of why the cameras fuzz you out a bit in order to make efforts to protect privacy"
+  },
+  {
+    "segment_id": "tr-00360",
+    "start_seconds": 3565.02,
+    "end_seconds": 3572.68,
+    "text": "at the point of inception, the collection of the data, still to be able to get the data that they want, but still be able to protect you in terms of your privacy as a whole."
+  },
+  {
+    "segment_id": "tr-00361",
+    "start_seconds": 3575.94,
+    "end_seconds": 3582.6,
+    "text": "Thank you so much for the panel talk. I had a more technical question. So world models, we need them to have some sort of physical reasoning."
+  },
+  {
+    "segment_id": "tr-00362",
+    "start_seconds": 3582.82,
+    "end_seconds": 3589.62,
+    "text": "What are some of the techniques we're trying to employ to teach them this physical reasoning? Right. I think people have different approaches."
+  },
+  {
+    "segment_id": "tr-00363",
+    "start_seconds": 3590.28,
+    "end_seconds": 3602.4,
+    "text": "Nowadays, we see one approach that is getting repeatedly proven to work and continue to work is basically you generate or you collect a lot of data that are physically plausible and eventually you fuse them"
+  },
+  {
+    "segment_id": "tr-00364",
+    "start_seconds": 3602.4,
+    "end_seconds": 3609.72,
+    "text": "into the training side of these foundation models. So that's one thing that is certainly going to work. But there are also other techniques that people have exploring."
+  },
+  {
+    "segment_id": "tr-00365",
+    "start_seconds": 3610.0,
+    "end_seconds": 3619.44,
+    "text": "For example, people having designed different types of verifiers. You know, so you can think the verifiers themselves can be from domain knowledge, but can also be from AI, you know, can be like neural networks."
+  },
+  {
+    "segment_id": "tr-00366",
+    "start_seconds": 3619.78,
+    "end_seconds": 3631.88,
+    "text": "So then they're like, okay, I can come up with systems or designs or videos that are may or may not be physically possible, but these verifiers are going to give me feedback so that I can go in through, you can think about it as some hard"
+  },
+  {
+    "segment_id": "tr-00367",
+    "start_seconds": 3631.88,
+    "end_seconds": 3643.16,
+    "text": "-easing framework that improve my output, you know, sets in the strategy. But eventually, these kinds of data can possibly be off use into some kind of pre -training datasets for training much larger foundation models."
+  },
+  {
+    "segment_id": "tr-00368",
+    "start_seconds": 3643.16,
+    "end_seconds": 3655.38,
+    "text": "Hi there. My name is Alex Molmond with FireScore. First off, this brief that was issued by HI, incredible, the amount of data that's here and really"
+  },
+  {
+    "segment_id": "tr-00369",
+    "start_seconds": 3655.38,
+    "end_seconds": 3665.32,
+    "text": "you all are pushing the envelope and understanding the implications to spatial intelligence, which is truly the next frontier in artificial intelligence beyond language."
+  },
+  {
+    "segment_id": "tr-00370",
+    "start_seconds": 3665.32,
+    "end_seconds": 3675.46,
+    "text": "With that being said, because wildfire is a domain that I'm currently working in. If wildfire were the test bed, what would a rigorous benchmark look like?"
+  },
+  {
+    "segment_id": "tr-00371",
+    "start_seconds": 3675.46,
+    "end_seconds": 3683.4,
+    "text": "What real -world measurements would you require to prove the model is physically reliable enough for operational use?"
+  },
+  {
+    "segment_id": "tr-00372",
+    "start_seconds": 3683.58,
+    "end_seconds": 3694.5,
+    "text": "And just for context, just here in the Palo Alto foothills, we have over 100 years of dead fuels that have not passed through its natural cycle of burning."
+  },
+  {
+    "segment_id": "tr-00373",
+    "start_seconds": 3694.64,
+    "end_seconds": 3702.74,
+    "text": "So I'm sure that that scenario will happen eventually. This is a cycle. So from your perspective, what would those benchmarks look like?"
+  },
+  {
+    "segment_id": "tr-00374",
+    "start_seconds": 3703.3,
+    "end_seconds": 3714.32,
+    "text": "Ideally, right, we have a similar of the walls that can take into account all the conditions, environmental conditions and everything into account so that we can just run everything in simulation."
+  },
+  {
+    "segment_id": "tr-00375",
+    "start_seconds": 3714.96,
+    "end_seconds": 3721.56,
+    "text": "But that is clearly not going to work in the shorter term because it's impossible to have a similar for the walls that take into account all these aspects."
+  },
+  {
+    "segment_id": "tr-00376",
+    "start_seconds": 3722.28,
+    "end_seconds": 3730.6,
+    "text": "So I would say this is actually maybe one of the things that we're going to, just like Russell was saying, oh, for privacy, let's look at five different cases and think about what their privacy concerns here."
+  },
+  {
+    "segment_id": "tr-00377",
+    "start_seconds": 3730.6,
+    "end_seconds": 3739.38,
+    "text": "So for firefighting, let's say, even just for these firefighting particular cases, you know, we probably want to work with domain experts and to identify, you know, what are the important attributes we have to be aware of, right?"
+  },
+  {
+    "segment_id": "tr-00378",
+    "start_seconds": 3739.44,
+    "end_seconds": 3749.18,
+    "text": "Let's say, oh, maybe it would be too difficult to simulate the entire walls, but maybe it is possible to simulate, you know, incidents that are often likely that lead to a wildfire, right?"
+  },
+  {
+    "segment_id": "tr-00379",
+    "start_seconds": 3749.18,
+    "end_seconds": 3756.44,
+    "text": "So let's say, you know, there are people who are entering regions at certain regions that they shouldn't enter at weird times, you know, so these kind of things, right?"
+  },
+  {
+    "segment_id": "tr-00380",
+    "start_seconds": 3756.6,
+    "end_seconds": 3764.52,
+    "text": "So what are the unit tests that you can come up with, which I have no idea, but you have a lot more. So you can tell me that these are the five conditions that we should really be aware of."
+  },
+  {
+    "segment_id": "tr-00381",
+    "start_seconds": 3764.66,
+    "end_seconds": 3776.88,
+    "text": "And is it possible for us to first come up with more specialized environments or some particular type of, you know, simulation, or just to test whether these models can perform well in these five, you know, unit tests."
+  },
+  {
+    "segment_id": "tr-00382",
+    "start_seconds": 3777.04,
+    "end_seconds": 3789.2,
+    "text": "And they will have strong indication of correlation with the possibility of having a wildfire. So I think that's the beginning. And eventually, you know, as we get more ready, and these models, as they keep improving, then hopefully we can have a more holistic"
+  },
+  {
+    "segment_id": "tr-00383",
+    "start_seconds": 3789.2,
+    "end_seconds": 3801.72,
+    "text": "environment that can simulate different scenarios and to make it work on more general cases. So from our online audience, we have a question that popped up asking or"
+  },
+  {
+    "segment_id": "tr-00384",
+    "start_seconds": 3801.72,
+    "end_seconds": 3809.22,
+    "text": "highlighting, so a world model can represent more elements around us, but that doesn't necessarily mean that that model will be more useful."
+  },
+  {
+    "segment_id": "tr-00385",
+    "start_seconds": 3809.5,
+    "end_seconds": 3816.26,
+    "text": "And so the question is, is what are the inherent advantages of a world model over a more simplistic model?"
+  },
+  {
+    "segment_id": "tr-00386",
+    "start_seconds": 3818.7,
+    "end_seconds": 3827.18,
+    "text": "I think if you depend, for a model to be useful, there are different things to consider, right? One is the accuracy, but there also could be like cost."
+  },
+  {
+    "segment_id": "tr-00387",
+    "start_seconds": 3827.34,
+    "end_seconds": 3839.4,
+    "text": "And if a model is very good, but it's so expensive, you know, and also there's efficiency, right? Sometimes you just want real -time responses, which are particularly important, let's say, especially in the physical world, because if you're a robot, you can't really wait for two minutes and you decide what to"
+  },
+  {
+    "segment_id": "tr-00388",
+    "start_seconds": 3839.4,
+    "end_seconds": 3851.44,
+    "text": "do, because if there's a wildfire situation, things will have already changed. So there are different attributes to consider. Yeah, but I think so, but if you only care about performance, or if you're kind of"
+  },
+  {
+    "segment_id": "tr-00389",
+    "start_seconds": 3851.44,
+    "end_seconds": 3863.92,
+    "text": "about care about accuracies, I think that is something that people have learned over the past decade, I would say, or maybe multiple decades, is what people may feel like if I have a small specialized models that will eventually, you"
+  },
+  {
+    "segment_id": "tr-00390",
+    "start_seconds": 3863.92,
+    "end_seconds": 3876.08,
+    "text": "know, that will be maybe potentially better for a larger model on particular cases. But we have seen repeatedly that once these small models, you know, they work well, but then you produce a lot of data, you fold these"
+  },
+  {
+    "segment_id": "tr-00391",
+    "start_seconds": 3876.08,
+    "end_seconds": 3888.36,
+    "text": "data into the training set of a larger model. The larger models will eventually always catch up, and they probably leverage all the word knowledge or the common sense they may have seen from other domains, and they actually can perform better even in these more specialized"
+  },
+  {
+    "segment_id": "tr-00392",
+    "start_seconds": 3888.36,
+    "end_seconds": 3901.32,
+    "text": "domains, right? So that's what we have seen since, you know, ImageNet or what Fei Fei was doing there, I was like, classifying images. So"
+  },
+  {
+    "segment_id": "tr-00393",
+    "start_seconds": 3901.32,
+    "end_seconds": 3913.52,
+    "text": "I would say, if you only care about model performance in terms of their accuracies, then I would say, going forward, we probably will see these larger models getting even better and much better even for specialized domains compared"
+  },
+  {
+    "segment_id": "tr-00394",
+    "start_seconds": 3913.52,
+    "end_seconds": 3926.06,
+    "text": "with the smaller models. But it is true that for physical AI and for, you know, when you apply to the physical world, there are things we have to consider that is how we can have a model that can respond to in real time if that is a hard requirement, and"
+  },
+  {
+    "segment_id": "tr-00395",
+    "start_seconds": 3926.06,
+    "end_seconds": 3933.52,
+    "text": "how can we have a model that can, you know, just like, subject to those additional physical constraints that we can still retain the performance as much as possible."
+  },
+  {
+    "segment_id": "tr-00396",
+    "start_seconds": 3933.52,
+    "end_seconds": 3945.62,
+    "text": "I would also add and correct me if I'm speaking out of turner, but I think the 3D, 4D concepts make it much more difficult to be able to get to that next level, and that the 3D aspects of this and the physics that would come into this space"
+  },
+  {
+    "segment_id": "tr-00397",
+    "start_seconds": 3945.62,
+    "end_seconds": 3954.06,
+    "text": "make it harder for just any model in that domain. Another question online."
+  },
+  {
+    "segment_id": "tr-00398",
+    "start_seconds": 3954.86,
+    "end_seconds": 3966.18,
+    "text": "So for physical AI, and this sort of harkens back to, you know, the need for greater data, where should we be pushing data acquisition so that better measurements can drive both capability and safety?"
+  },
+  {
+    "segment_id": "tr-00399",
+    "start_seconds": 3968.3,
+    "end_seconds": 3974.62,
+    "text": "Yeah, I think, despite all the arguments that people, again, this is a bit of my personal feeling, huh?"
+  },
+  {
+    "segment_id": "tr-00400",
+    "start_seconds": 3976.1,
+    "end_seconds": 3985.74,
+    "text": "Despite all the arguments that people say a model can emerge, have new behaviors, I feel like it's actually, they have very little emergent behaviors, even if it's like GPT or whatever, all the behaviors are coming from training data."
+  },
+  {
+    "segment_id": "tr-00401",
+    "start_seconds": 3985.94,
+    "end_seconds": 3994.34,
+    "text": "So in this case, if you care about safety, and if you care about safety in the real world, I feel like you have to collect a lot of data in the physical world about safety."
+  },
+  {
+    "segment_id": "tr-00402",
+    "start_seconds": 3994.6,
+    "end_seconds": 4006.74,
+    "text": "But then there's a little bit of a tricky balance to make because you don't want to collect unsafe data. That means you already created a lot of damage, right? So how can you collect data about failures, about possibly unsafe behaviors, but they're not really that unsafe, but"
+  },
+  {
+    "segment_id": "tr-00403",
+    "start_seconds": 4006.74,
+    "end_seconds": 4018.86,
+    "text": "that may potentially lead to unsafe behaviors. Then that would be, and that happened to you in the real world, and that would be very useful, real world feedback, that you can hopefully improve the safety of these models when you want to apply"
+  },
+  {
+    "segment_id": "tr-00404",
+    "start_seconds": 4018.86,
+    "end_seconds": 4026.78,
+    "text": "them in the physical world. But how to do that is not very obvious to me though. Because there's a fine line to, yeah, because otherwise you create a lot of unsafe events."
+  },
+  {
+    "segment_id": "tr-00405",
+    "start_seconds": 4026.92,
+    "end_seconds": 4034.44,
+    "text": "So you're like, oh, I don't want a robot to hurt people. Let me first have robots hit 20 different people. That's not going to work. So there's something to be figured out."
+  },
+  {
+    "segment_id": "tr-00406",
+    "start_seconds": 4036.24,
+    "end_seconds": 4048.7,
+    "text": "And then another one, when a world model infers what's in a physical space, like habitat, hazards, or seabed conditions, and then a government decision relies on that, how should provenance and uncertainty be documented"
+  },
+  {
+    "segment_id": "tr-00407",
+    "start_seconds": 4048.7,
+    "end_seconds": 4056.18,
+    "text": "so the decision holds up to further review? Yeah, this is, I think, a big part on the transparency side and to be able to see."
+  },
+  {
+    "segment_id": "tr-00408",
+    "start_seconds": 4056.26,
+    "end_seconds": 4068.28,
+    "text": "So we were talking about the open debate earlier and what happens here. In order to pull apart this to be able to get the confidence that I think a policy maker is going to need, I think that there is a particular issue about"
+  },
+  {
+    "segment_id": "tr-00409",
+    "start_seconds": 4068.28,
+    "end_seconds": 4080.36,
+    "text": "the data sets, the benchmarks, all of these other key things. And what we've seen in the last few years is, and as we know in our AI index this year, transparency is just backsliding significantly because what"
+  },
+  {
+    "segment_id": "tr-00410",
+    "start_seconds": 4080.36,
+    "end_seconds": 4093.2,
+    "text": "you have is an industry -driven field and the proprietary side is coming through. And I think the more transparency side will be help policymakers make more confident decisions because it's going to be better third"
+  },
+  {
+    "segment_id": "tr-00411",
+    "start_seconds": 4093.2,
+    "end_seconds": 4100.36,
+    "text": "-party evaluations, better evaluations as a whole. We talked about the state of open source with respect to world models."
+  },
+  {
+    "segment_id": "tr-00412",
+    "start_seconds": 4100.36,
+    "end_seconds": 4107.8,
+    "text": "So a question online was, based upon that, what's the best way to contribute to research in that space?"
+  },
+  {
+    "segment_id": "tr-00413",
+    "start_seconds": 4108.0,
+    "end_seconds": 4117.0,
+    "text": "Or how can folks sort of actively contribute or be participants when the resources on world models are quite scant right now?"
+  },
+  {
+    "segment_id": "tr-00414",
+    "start_seconds": 4118.28,
+    "end_seconds": 4128.88,
+    "text": "What do you need? Yeah, what do you need? Well, first we need GPUs, but it's something very hard for a public to contribute. So you can't really, if you have a hundred GPUs who want to donate to me, please let me know."
+  },
+  {
+    "segment_id": "tr-00415",
+    "start_seconds": 4130.68,
+    "end_seconds": 4138.66,
+    "text": "But otherwise I think it's really about the data. But then every domain, just like I think there's a firefighting question, and the domain expertise."
+  },
+  {
+    "segment_id": "tr-00416",
+    "start_seconds": 4138.98,
+    "end_seconds": 4146.62,
+    "text": "So it's like, okay, if I want to apply this world model into a physical world scenarios, so what would the data look like? And maybe you already have some data that it's possible to share."
+  },
+  {
+    "segment_id": "tr-00417",
+    "start_seconds": 4146.78,
+    "end_seconds": 4155.22,
+    "text": "Or maybe you have your own domain expertise. You'll be like, actually, you want to apply it to rescue scenarios, but these are the things we care about, right?"
+  },
+  {
+    "segment_id": "tr-00418",
+    "start_seconds": 4155.22,
+    "end_seconds": 4163.46,
+    "text": "These are the metrics we really value. But that's something that I think AI researchers may not know, right? Because we're like, oh, we have this model, I generally build for pictures, or produce beautiful language."
+  },
+  {
+    "segment_id": "tr-00419",
+    "start_seconds": 4163.78,
+    "end_seconds": 4173.04,
+    "text": "But whether that's useful for firefighting, I don't know. I have to talk to firefighters. So I think domain expertise and domain specific data that are shareable will be also very useful."
+  },
+  {
+    "segment_id": "tr-00420",
+    "start_seconds": 4175.46,
+    "end_seconds": 4187.66,
+    "text": "Thank you very much for the inspiring talk. My question is about how we can ensure that the model that we, for the physical world, like because they're mainly trained in the digital world, how can we ensure that they are consistent with"
+  },
+  {
+    "segment_id": "tr-00421",
+    "start_seconds": 4187.66,
+    "end_seconds": 4199.68,
+    "text": "their behaviors in our physical world? Like, yeah, basically like as the Seikas mentions that if the consequences of this kind of like, like world models can be"
+  },
+  {
+    "segment_id": "tr-00422",
+    "start_seconds": 4199.68,
+    "end_seconds": 4212.74,
+    "text": "very catastrophic in the physical world. But if they are mainly trained in the digital world, like what kind of things that can we do to ensure that they are understanding of our physical world, and that they are like behaviors of their actions"
+  },
+  {
+    "segment_id": "tr-00423",
+    "start_seconds": 4212.74,
+    "end_seconds": 4221.72,
+    "text": "in the physical world, we will be consistent with our understanding. Thank you. Yeah, I think it goes back to, you know, first you can build better simulators, right?"
+  },
+  {
+    "segment_id": "tr-00424",
+    "start_seconds": 4221.84,
+    "end_seconds": 4229.16,
+    "text": "So there are things that we know how to simulate, and then, or things that we almost know how to simulate, and that we now can probably simulate a lot better even with AI."
+  },
+  {
+    "segment_id": "tr-00425",
+    "start_seconds": 4229.58,
+    "end_seconds": 4240.8,
+    "text": "So if you can have more and more better simulators, that can help you to calibrate and evaluate your models. Mostly in simulation, because any type of evaluation in the physical world is very costly and can be potentially damaging and unsafe."
+  },
+  {
+    "segment_id": "tr-00426",
+    "start_seconds": 4241.26,
+    "end_seconds": 4252.1,
+    "text": "So if we can do a lot more simulation as evaluation, that would be great. And second, I think is probably you need a better mechanisms that allows you, because sometimes you're like, oh, whether this is working."
+  },
+  {
+    "segment_id": "tr-00427",
+    "start_seconds": 4252.22,
+    "end_seconds": 4261.02,
+    "text": "I say if I develop a robot, the robot works perfectly in simulation, no one's going to buy it, right? So you have to still have some kind of, even if I claim my simulator is the best in the world, people still want to see the results in real world."
+  },
+  {
+    "segment_id": "tr-00428",
+    "start_seconds": 4261.62,
+    "end_seconds": 4273.78,
+    "text": "So then you still want to test and evaluate in real world, but just because evaluating real world is very costly, I think it would be nice to think about a mechanism that you can use as few"
+  },
+  {
+    "segment_id": "tr-00429",
+    "start_seconds": 4273.78,
+    "end_seconds": 4284.98,
+    "text": "real world data or validation as possible, but you also show ideally provably that these real world validations have strong validations, and very good indicators about actual models performance in terms of all their physical behaviors."
+  },
+  {
+    "segment_id": "tr-00430",
+    "start_seconds": 4285.3,
+    "end_seconds": 4292.28,
+    "text": "Then that will, you know, I think how you can best leverage these expensive real world data points to most effectively validate our method."
+  },
+  {
+    "segment_id": "tr-00431",
+    "start_seconds": 4292.48,
+    "end_seconds": 4299.02,
+    "text": "I think there is some research to be done there. Please join me in thanking our panelists. Thank you."
+  },
+  {
+    "segment_id": "tr-00432",
+    "start_seconds": 4299.18,
+    "end_seconds": 4299.44,
+    "text": "Thank you."
+  }
+]

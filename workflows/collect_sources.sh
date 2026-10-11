@@ -36,7 +36,7 @@ for path in "$RUN_DIR/candidates/feeds.jsonl" "$RUN_DIR/candidates/youtube.jsonl
 done
 
 candidate_count=$(ps04_file_count "$RUN_DIR/candidates.jsonl")
-ps04_step 4 7 "Extract substantive evidence" "$candidate_count candidates. Articles use conditional HTTP; media uses cached/public transcripts first, then Whisper when necessary."
+ps04_step 4 7 "Extract substantive evidence" "$candidate_count candidates. Articles use conditional HTTP; media uses cached/public transcripts first, then local MLX when necessary."
 set +e
 sed '/^[[:space:]]*$/d' "$RUN_DIR/candidates.jsonl" | bash processing/extract_content.sh "$RUN_DIR" > "$RUN_DIR/items.jsonl"
 extract_code=$?

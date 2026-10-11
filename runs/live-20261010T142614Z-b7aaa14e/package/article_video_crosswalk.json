@@ -1,0 +1,53 @@
+[
+  {
+    "piece_id": "01",
+    "article": "articles/01.md",
+    "video_script": "video_scripts/01.md",
+    "narration_key": "01",
+    "title": "Use AI to Expand the Search Space, Not Choose the Research Bet",
+    "slides": [
+      {"slide": 1, "article_section": "Opening thesis and concluding division of labor", "video_role": "Frame AI as exploration support, not the decision-maker"},
+      {"slide": 2, "article_section": "Paragraph 2: the map as an intermediate artifact", "video_role": "Separate candidate generation from researcher judgment"},
+      {"slide": 3, "article_section": "Paragraph 1: breadth-first and depth-first exploration", "video_role": "Visualize the staged search pattern"},
+      {"slide": 4, "article_section": "Paragraph 3: MIT perspective on scholarly responsibility", "video_role": "Define the four non-delegable responsibilities"},
+      {"slide": 5, "article_section": "Paragraph 4: practitioner perspective on ambitious research bets", "video_role": "Explain why originality remains a human judgment"},
+      {"slide": 6, "article_section": "Paragraph 5: reported mathematics error and dependencies", "video_role": "Show how one local error propagates"},
+      {"slide": 7, "article_section": "Paragraphs 2 and 6: researcher justification and verification plan", "video_role": "Present a five-question decision gate"},
+      {"slide": 8, "article_section": "Source notes", "video_role": "Identify all four evidence sources and their evidentiary roles"}
+    ]
+  },
+  {
+    "piece_id": "02",
+    "article": "articles/02.md",
+    "video_script": "video_scripts/02.md",
+    "narration_key": "02",
+    "title": "Fluent Reasoning Is Not Provenance: Build a Verification Layer",
+    "slides": [
+      {"slide": 1, "article_section": "Opening thesis", "video_role": "Frame the need for a verification layer"},
+      {"slide": 2, "article_section": "Paragraphs 1 and 2", "video_role": "Distinguish fluency, provenance, and verification"},
+      {"slide": 3, "article_section": "Paragraph 1: reasoning-token Perspective", "video_role": "Show why contribution is not faithful explanation"},
+      {"slide": 4, "article_section": "Paragraphs 2 and 3: provenance and claim-source checking", "video_role": "Separate source location from evidentiary support"},
+      {"slide": 5, "article_section": "Paragraph 4: dependency propagation", "video_role": "Show why verification must travel upstream"},
+      {"slide": 6, "article_section": "Paragraphs 3 and 5: checking and calibration", "video_role": "Connect statement checking with behavioral characterization"},
+      {"slide": 7, "article_section": "Paragraphs 6–8: the proposed verification protocol", "video_role": "Present the five operational gates"},
+      {"slide": 8, "article_section": "Source notes", "video_role": "Identify all evidence sources and their evidentiary roles"}
+    ]
+  },
+  {
+    "piece_id": "03",
+    "article": "articles/03.md",
+    "video_script": "video_scripts/03.md",
+    "narration_key": "03",
+    "title": "Preserve Responsibility by Recording the Research Process",
+    "slides": [
+      {"slide": 1, "article_section": "Opening thesis", "video_role": "Frame process records as stronger than disclosure alone"},
+      {"slide": 2, "article_section": "Paragraph 1: authorship and intellectual responsibility", "video_role": "Define an inspectable chain of decisions"},
+      {"slide": 3, "article_section": "Paragraph 2: bounded division of labor", "video_role": "Separate reversible assistance from accountable judgment"},
+      {"slide": 4, "article_section": "Paragraphs 3 and 4: process lineage and failed approaches", "video_role": "Show why negative paths belong in the record"},
+      {"slide": 5, "article_section": "Paragraph 5: correction history", "video_role": "Show how lineage supports audit, repair, and withdrawal"},
+      {"slide": 6, "article_section": "Paragraph 6: compact process record", "video_role": "Present the reusable seven-field log"},
+      {"slide": 7, "article_section": "Paragraphs 7 and 8: internal record versus public disclosure", "video_role": "Separate the two records without visually overlapping them"},
+      {"slide": 8, "article_section": "Source notes and concluding responsibility test", "video_role": "Identify sources and restate the accountability standard"}
+    ]
+  }
+]

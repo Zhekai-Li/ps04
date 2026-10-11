@@ -1,0 +1,58 @@
+{
+  "stage": "extract_content",
+  "status": "completed",
+  "input_count": 50,
+  "output_count": 50,
+  "started_at": "2026-10-09T18:39:51Z",
+  "finished_at": "2026-10-09T18:44:07Z",
+  "elapsed_seconds": 256.0,
+  "tools": [
+    "ffmpeg",
+    "requests",
+    "trafilatura"
+  ],
+  "models": [
+    "mlx-community/whisper-turbo"
+  ],
+  "usage": null,
+  "cost_usd": 0.0,
+  "cost_estimated": false,
+  "errors": [],
+  "details": {
+    "transcriptions": [
+      {
+        "item_id": "youtube:Ef6k1d2Uq4Q",
+        "backend": "mlx-whisper",
+        "model": "mlx-community/whisper-turbo",
+        "model_revision": "ec8e501925a1e2e85b082740a208c37ff6c4f59a",
+        "audio_minutes": 71.658,
+        "compute_seconds": 213.969,
+        "billing_mode": "local_compute",
+        "cost_usd": 0.0,
+        "method": "mlx-whisper"
+      },
+      {
+        "item_id": "podcast:substack:post:219146438",
+        "backend": "mlx-whisper",
+        "model": "mlx-community/whisper-turbo",
+        "model_revision": "ec8e501925a1e2e85b082740a208c37ff6c4f59a",
+        "audio_minutes": 83.993,
+        "compute_seconds": 246.726,
+        "billing_mode": "local_compute",
+        "cost_usd": 0.0,
+        "method": "mlx-whisper"
+      },
+      {
+        "item_id": "podcast:substack:post:218414422",
+        "backend": "mlx-whisper",
+        "model": "mlx-community/whisper-turbo",
+        "model_revision": "ec8e501925a1e2e85b082740a208c37ff6c4f59a",
+        "audio_minutes": 101.462,
+        "compute_seconds": 293.326,
+        "billing_mode": "local_compute",
+        "cost_usd": 0.0,
+        "method": "mlx-whisper"
+      }
+    ]
+  }
+}

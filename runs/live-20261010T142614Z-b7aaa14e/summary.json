@@ -1,0 +1,112 @@
+{
+  "run_id": "live-20261010T142614Z-b7aaa14e",
+  "mode": "live",
+  "as_of_date": "2026-10-10",
+  "status": "ready_for_production",
+  "counts": {
+    "discovered": 44,
+    "extracted": 44,
+    "new": 0,
+    "changed": 0,
+    "unchanged": 44,
+    "eligible": 46,
+    "excluded": 6,
+    "accepted": 9,
+    "rejected": 36,
+    "deferred": 1,
+    "articles": 3,
+    "video_scripts": 3
+  },
+  "coverage": {
+    "raw_by_kind": {
+      "feed": 18,
+      "youtube": 20,
+      "podcast": 6
+    },
+    "eligible_by_kind": {
+      "feed": 24,
+      "podcast": 7,
+      "youtube": 15
+    },
+    "brief_citations_by_kind": {
+      "youtube": 2,
+      "podcast": 3,
+      "feed": 4
+    },
+    "independent_publishers": 10,
+    "publisher_ids": [
+      "acm",
+      "arxiv",
+      "latent-space",
+      "mit",
+      "mlst",
+      "nature",
+      "paperpile",
+      "retraction-watch",
+      "scispace",
+      "stanford-hai"
+    ],
+    "distinct_underlying_items": 44,
+    "duplicate_observations": 0
+  },
+  "failed_or_incomplete_stages": [],
+  "elapsed_seconds": 2880.0,
+  "tools": [
+    "bash",
+    "codex-cli",
+    "feedparser",
+    "ffmpeg",
+    "pydantic",
+    "python",
+    "python-dateutil",
+    "python-shutil",
+    "requests",
+    "sqlite3",
+    "sqlite3-store-interface",
+    "trafilatura",
+    "yt-dlp"
+  ],
+  "models": [
+    "gpt-5.6-sol",
+    "mlx-community/whisper-turbo"
+  ],
+  "cost": {
+    "incremental_api_cost_usd": 0.0,
+    "known_or_estimated_usd": 0.0,
+    "chatgpt_plan_stages": [
+      "create_briefs",
+      "select_items",
+      "write_articles",
+      "write_video_scripts"
+    ],
+    "unknown_cost_stages": [
+      "create_briefs",
+      "select_items",
+      "write_articles",
+      "write_video_scripts"
+    ]
+  },
+  "review": {
+    "review_id": "1361c8b77a6b8cfd5bf5ecb2b071e46f25b467acb55f2a0273039a612da4194a",
+    "passed": true
+  },
+  "publication_links": [
+    {
+      "piece_id": "01",
+      "substack_url": "https://zhekaili.substack.com/p/use-ai-to-expand-the-search-space",
+      "youtube_url": "https://youtu.be/mcfW1UkP8_M"
+    },
+    {
+      "piece_id": "02",
+      "substack_url": "https://zhekaili.substack.com/p/fluent-reasoning-is-not-provenance",
+      "youtube_url": "https://youtu.be/8ZhAS-fPmHw"
+    },
+    {
+      "piece_id": "03",
+      "substack_url": "https://zhekaili.substack.com/p/preserve-responsibility-by-recording",
+      "youtube_url": "https://youtu.be/xrAhfqGbpZM"
+    }
+  ],
+  "manual_steps_complete": true,
+  "remaining_manual_actions": []
+}

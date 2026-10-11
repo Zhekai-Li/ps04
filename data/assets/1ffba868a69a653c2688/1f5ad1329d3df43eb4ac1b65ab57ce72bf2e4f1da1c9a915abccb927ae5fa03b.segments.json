@@ -1,0 +1,764 @@
+[
+  {
+    "segment_id": "yt-00001",
+    "start_seconds": 0.0,
+    "end_seconds": 5.84,
+    "text": "You have 400 PDFs scattered across your"
+  },
+  {
+    "segment_id": "yt-00002",
+    "start_seconds": 3.24,
+    "end_seconds": 9.96,
+    "text": "hard drive with names like final paper"
+  },
+  {
+    "segment_id": "yt-00003",
+    "start_seconds": 5.84,
+    "end_seconds": 12.32,
+    "text": "version 3 and downloaded file 2847"
+  },
+  {
+    "segment_id": "yt-00004",
+    "start_seconds": 9.96,
+    "end_seconds": 14.32,
+    "text": "plus an entire Zotero library that"
+  },
+  {
+    "segment_id": "yt-00005",
+    "start_seconds": 12.32,
+    "end_seconds": 16.56,
+    "text": "you're not sure how to move. And you're"
+  },
+  {
+    "segment_id": "yt-00006",
+    "start_seconds": 14.32,
+    "end_seconds": 19.32,
+    "text": "wondering, can I actually get these into"
+  },
+  {
+    "segment_id": "yt-00007",
+    "start_seconds": 16.56,
+    "end_seconds": 21.52,
+    "text": "Paperpile without starting over? Well,"
+  },
+  {
+    "segment_id": "yt-00008",
+    "start_seconds": 19.32,
+    "end_seconds": 23.88,
+    "text": "the good news is yes, it's actually"
+  },
+  {
+    "segment_id": "yt-00009",
+    "start_seconds": 21.52,
+    "end_seconds": 26.68,
+    "text": "pretty easy to get everything organized"
+  },
+  {
+    "segment_id": "yt-00010",
+    "start_seconds": 23.88,
+    "end_seconds": 28.04,
+    "text": "and in one place. So, let me show you"
+  },
+  {
+    "segment_id": "yt-00011",
+    "start_seconds": 26.68,
+    "end_seconds": 32.32,
+    "text": "three ways to bring everything you"
+  },
+  {
+    "segment_id": "yt-00012",
+    "start_seconds": 28.04,
+    "end_seconds": 32.32,
+    "text": "already have into Paperpile."
+  },
+  {
+    "segment_id": "yt-00013",
+    "start_seconds": 35.52,
+    "end_seconds": 40.52,
+    "text": "In this video, I'll walk you through how"
+  },
+  {
+    "segment_id": "yt-00014",
+    "start_seconds": 37.84,
+    "end_seconds": 42.88,
+    "text": "to import your existing research into"
+  },
+  {
+    "segment_id": "yt-00015",
+    "start_seconds": 40.52,
+    "end_seconds": 46.16,
+    "text": "Paperpile without rebuilding it from"
+  },
+  {
+    "segment_id": "yt-00016",
+    "start_seconds": 42.88,
+    "end_seconds": 48.6,
+    "text": "scratch. Now, method one is uploading"
+  },
+  {
+    "segment_id": "yt-00017",
+    "start_seconds": 46.16,
+    "end_seconds": 50.72,
+    "text": "unorganized PDFs. So, this is where"
+  },
+  {
+    "segment_id": "yt-00018",
+    "start_seconds": 48.6,
+    "end_seconds": 53.64,
+    "text": "you've got folder, several folders full"
+  },
+  {
+    "segment_id": "yt-00019",
+    "start_seconds": 50.72,
+    "end_seconds": 56.8,
+    "text": "of PDFs including those with unclear or"
+  },
+  {
+    "segment_id": "yt-00020",
+    "start_seconds": 53.64,
+    "end_seconds": 58.16,
+    "text": "inconsistent file names. Method two is"
+  },
+  {
+    "segment_id": "yt-00021",
+    "start_seconds": 56.8,
+    "end_seconds": 60.72,
+    "text": "importing from another reference"
+  },
+  {
+    "segment_id": "yt-00022",
+    "start_seconds": 58.16,
+    "end_seconds": 63.44,
+    "text": "manager. So, if you're already using"
+  },
+  {
+    "segment_id": "yt-00023",
+    "start_seconds": 60.72,
+    "end_seconds": 65.64,
+    "text": "Zotero, Mendeley, or EndNote, or"
+  },
+  {
+    "segment_id": "yt-00024",
+    "start_seconds": 63.44,
+    "end_seconds": 67.8,
+    "text": "anything else that can export to RIS or"
+  },
+  {
+    "segment_id": "yt-00025",
+    "start_seconds": 65.64,
+    "end_seconds": 70.48,
+    "text": "BibTeX, you can bring across your"
+  },
+  {
+    "segment_id": "yt-00026",
+    "start_seconds": 67.8,
+    "end_seconds": 74.48,
+    "text": "library with all its metadata."
+  },
+  {
+    "segment_id": "yt-00027",
+    "start_seconds": 70.48,
+    "end_seconds": 76.96,
+    "text": "Method three is combining both. So, you"
+  },
+  {
+    "segment_id": "yt-00028",
+    "start_seconds": 74.48,
+    "end_seconds": 79.32,
+    "text": "can export your library as RIS or BibTeX"
+  },
+  {
+    "segment_id": "yt-00029",
+    "start_seconds": 76.96,
+    "end_seconds": 81.92,
+    "text": "file and upload your PDFs at the same"
+  },
+  {
+    "segment_id": "yt-00030",
+    "start_seconds": 79.32,
+    "end_seconds": 84.88,
+    "text": "time so Paperpile can match everything"
+  },
+  {
+    "segment_id": "yt-00031",
+    "start_seconds": 81.92,
+    "end_seconds": 84.88,
+    "text": "automatically."
+  },
+  {
+    "segment_id": "yt-00032",
+    "start_seconds": 86.48,
+    "end_seconds": 90.36,
+    "text": "So, let's start with the messiest,"
+  },
+  {
+    "segment_id": "yt-00033",
+    "start_seconds": 88.08,
+    "end_seconds": 92.36,
+    "text": "perhaps the most realistic scenario for"
+  },
+  {
+    "segment_id": "yt-00034",
+    "start_seconds": 90.36,
+    "end_seconds": 94.6,
+    "text": "researchers, which is that you've got"
+  },
+  {
+    "segment_id": "yt-00035",
+    "start_seconds": 92.36,
+    "end_seconds": 97.0,
+    "text": "hundreds of PDFs on your computer with"
+  },
+  {
+    "segment_id": "yt-00036",
+    "start_seconds": 94.6,
+    "end_seconds": 98.84,
+    "text": "very little organization. Now, it's easy"
+  },
+  {
+    "segment_id": "yt-00037",
+    "start_seconds": 97.0,
+    "end_seconds": 101.44,
+    "text": "to do when you're conducting a"
+  },
+  {
+    "segment_id": "yt-00038",
+    "start_seconds": 98.84,
+    "end_seconds": 103.92,
+    "text": "literature search online. To import"
+  },
+  {
+    "segment_id": "yt-00039",
+    "start_seconds": 101.44,
+    "end_seconds": 106.76,
+    "text": "these into your Paperpile library, go to"
+  },
+  {
+    "segment_id": "yt-00040",
+    "start_seconds": 103.92,
+    "end_seconds": 109.68,
+    "text": "the top left and click add, then upload"
+  },
+  {
+    "segment_id": "yt-00041",
+    "start_seconds": 106.76,
+    "end_seconds": 112.0,
+    "text": "files. Now, you can click choose files"
+  },
+  {
+    "segment_id": "yt-00042",
+    "start_seconds": 109.68,
+    "end_seconds": 114.2,
+    "text": "or choose folder or just drag and drop"
+  },
+  {
+    "segment_id": "yt-00043",
+    "start_seconds": 112.0,
+    "end_seconds": 117.04,
+    "text": "the folder directly into the Paperpile"
+  },
+  {
+    "segment_id": "yt-00044",
+    "start_seconds": 114.2,
+    "end_seconds": 118.64,
+    "text": "window. The upload dialog will appear"
+  },
+  {
+    "segment_id": "yt-00045",
+    "start_seconds": 117.04,
+    "end_seconds": 120.52,
+    "text": "automatically."
+  },
+  {
+    "segment_id": "yt-00046",
+    "start_seconds": 118.64,
+    "end_seconds": 122.68,
+    "text": "Before you upload, there are a few"
+  },
+  {
+    "segment_id": "yt-00047",
+    "start_seconds": 120.52,
+    "end_seconds": 125.12,
+    "text": "settings that are worth checking."
+  },
+  {
+    "segment_id": "yt-00048",
+    "start_seconds": 122.68,
+    "end_seconds": 127.44,
+    "text": "Firstly, check where you want to upload"
+  },
+  {
+    "segment_id": "yt-00049",
+    "start_seconds": 125.12,
+    "end_seconds": 129.52,
+    "text": "your papers. Instead of just sending"
+  },
+  {
+    "segment_id": "yt-00050",
+    "start_seconds": 127.44,
+    "end_seconds": 132.52,
+    "text": "everything into my library, choose a"
+  },
+  {
+    "segment_id": "yt-00051",
+    "start_seconds": 129.52,
+    "end_seconds": 134.8,
+    "text": "specific folder or create a new one so"
+  },
+  {
+    "segment_id": "yt-00052",
+    "start_seconds": 132.52,
+    "end_seconds": 137.2,
+    "text": "that you can review what came in. Then"
+  },
+  {
+    "segment_id": "yt-00053",
+    "start_seconds": 134.8,
+    "end_seconds": 139.2,
+    "text": "skip duplicates, which is on by default,"
+  },
+  {
+    "segment_id": "yt-00054",
+    "start_seconds": 137.2,
+    "end_seconds": 141.0,
+    "text": "and Paperpile won't import references"
+  },
+  {
+    "segment_id": "yt-00055",
+    "start_seconds": 139.2,
+    "end_seconds": 144.6,
+    "text": "that you already have."
+  },
+  {
+    "segment_id": "yt-00056",
+    "start_seconds": 141.0,
+    "end_seconds": 146.52,
+    "text": "Next, keep folder organization. If your"
+  },
+  {
+    "segment_id": "yt-00057",
+    "start_seconds": 144.6,
+    "end_seconds": 149.16,
+    "text": "PDFs are already organized into"
+  },
+  {
+    "segment_id": "yt-00058",
+    "start_seconds": 146.52,
+    "end_seconds": 151.0,
+    "text": "subfolders on your computer, turn this"
+  },
+  {
+    "segment_id": "yt-00059",
+    "start_seconds": 149.16,
+    "end_seconds": 153.4,
+    "text": "on and Paperpile will recreate that"
+  },
+  {
+    "segment_id": "yt-00060",
+    "start_seconds": 151.0,
+    "end_seconds": 156.32,
+    "text": "structure in your library."
+  },
+  {
+    "segment_id": "yt-00061",
+    "start_seconds": 153.4,
+    "end_seconds": 158.32,
+    "text": "Once everything is set, click upload."
+  },
+  {
+    "segment_id": "yt-00062",
+    "start_seconds": 156.32,
+    "end_seconds": 160.76,
+    "text": "You'll see a progress window showing how"
+  },
+  {
+    "segment_id": "yt-00063",
+    "start_seconds": 158.32,
+    "end_seconds": 162.8,
+    "text": "many files are uploading and how many"
+  },
+  {
+    "segment_id": "yt-00064",
+    "start_seconds": 160.76,
+    "end_seconds": 164.64,
+    "text": "are complete. This may take a couple of"
+  },
+  {
+    "segment_id": "yt-00065",
+    "start_seconds": 162.8,
+    "end_seconds": 167.04,
+    "text": "minutes depending on how many files"
+  },
+  {
+    "segment_id": "yt-00066",
+    "start_seconds": 164.64,
+    "end_seconds": 169.959,
+    "text": "you're adding to your library."
+  },
+  {
+    "segment_id": "yt-00067",
+    "start_seconds": 167.04,
+    "end_seconds": 172.68,
+    "text": "Paperpile analyzes each PDF, extracts"
+  },
+  {
+    "segment_id": "yt-00068",
+    "start_seconds": 169.959,
+    "end_seconds": 174.92,
+    "text": "the text, and searches online databases"
+  },
+  {
+    "segment_id": "yt-00069",
+    "start_seconds": 172.68,
+    "end_seconds": 178.08,
+    "text": "to find the correct metadata."
+  },
+  {
+    "segment_id": "yt-00070",
+    "start_seconds": 174.92,
+    "end_seconds": 180.6,
+    "text": "So, something like downloaded 2847"
+  },
+  {
+    "segment_id": "yt-00071",
+    "start_seconds": 178.08,
+    "end_seconds": 185.8,
+    "text": "becomes a proper reference with a title,"
+  },
+  {
+    "segment_id": "yt-00072",
+    "start_seconds": 180.6,
+    "end_seconds": 185.8,
+    "text": "authors, journal, year, and DOI."
+  },
+  {
+    "segment_id": "yt-00073",
+    "start_seconds": 189.519,
+    "end_seconds": 193.36,
+    "text": "Now, let's look at importing from"
+  },
+  {
+    "segment_id": "yt-00074",
+    "start_seconds": 191.32,
+    "end_seconds": 195.56,
+    "text": "another reference manager."
+  },
+  {
+    "segment_id": "yt-00075",
+    "start_seconds": 193.36,
+    "end_seconds": 196.959,
+    "text": "Click add, then import from other"
+  },
+  {
+    "segment_id": "yt-00076",
+    "start_seconds": 195.56,
+    "end_seconds": 198.84,
+    "text": "programs."
+  },
+  {
+    "segment_id": "yt-00077",
+    "start_seconds": 196.959,
+    "end_seconds": 201.48,
+    "text": "Choose your reference manager from the"
+  },
+  {
+    "segment_id": "yt-00078",
+    "start_seconds": 198.84,
+    "end_seconds": 203.68,
+    "text": "options listed, and Paperpile guides you"
+  },
+  {
+    "segment_id": "yt-00079",
+    "start_seconds": 201.48,
+    "end_seconds": 206.36,
+    "text": "through the export and import process"
+  },
+  {
+    "segment_id": "yt-00080",
+    "start_seconds": 203.68,
+    "end_seconds": 207.959,
+    "text": "step by step."
+  },
+  {
+    "segment_id": "yt-00081",
+    "start_seconds": 206.36,
+    "end_seconds": 210.44,
+    "text": "Once you connect to your library or"
+  },
+  {
+    "segment_id": "yt-00082",
+    "start_seconds": 207.959,
+    "end_seconds": 212.88,
+    "text": "upload the exported file, Paperpile"
+  },
+  {
+    "segment_id": "yt-00083",
+    "start_seconds": 210.44,
+    "end_seconds": 215.56,
+    "text": "imports all of your references with full"
+  },
+  {
+    "segment_id": "yt-00084",
+    "start_seconds": 212.88,
+    "end_seconds": 218.64,
+    "text": "metadata, so everything comes across"
+  },
+  {
+    "segment_id": "yt-00085",
+    "start_seconds": 215.56,
+    "end_seconds": 218.64,
+    "text": "into your library."
+  },
+  {
+    "segment_id": "yt-00086",
+    "start_seconds": 218.76,
+    "end_seconds": 224.84,
+    "text": "Paperpile cleans up the metadata and"
+  },
+  {
+    "segment_id": "yt-00087",
+    "start_seconds": 220.88,
+    "end_seconds": 224.84,
+    "text": "skips duplicates automatically."
+  },
+  {
+    "segment_id": "yt-00088",
+    "start_seconds": 231.84,
+    "end_seconds": 236.04,
+    "text": "Now, the third option, which is"
+  },
+  {
+    "segment_id": "yt-00089",
+    "start_seconds": 233.8,
+    "end_seconds": 237.36,
+    "text": "combining both."
+  },
+  {
+    "segment_id": "yt-00090",
+    "start_seconds": 236.04,
+    "end_seconds": 240.8,
+    "text": "So, you'll have a bunch of different"
+  },
+  {
+    "segment_id": "yt-00091",
+    "start_seconds": 237.36,
+    "end_seconds": 242.8,
+    "text": "file types and a folder of PDFs."
+  },
+  {
+    "segment_id": "yt-00092",
+    "start_seconds": 240.8,
+    "end_seconds": 245.24,
+    "text": "Upload your bibliographic file and your"
+  },
+  {
+    "segment_id": "yt-00093",
+    "start_seconds": 242.8,
+    "end_seconds": 248.0,
+    "text": "PDFs together by dragging them into"
+  },
+  {
+    "segment_id": "yt-00094",
+    "start_seconds": 245.24,
+    "end_seconds": 250.04,
+    "text": "Paperpile."
+  },
+  {
+    "segment_id": "yt-00095",
+    "start_seconds": 248.0,
+    "end_seconds": 254.8,
+    "text": "Paperpile will automatically match the"
+  },
+  {
+    "segment_id": "yt-00096",
+    "start_seconds": 250.04,
+    "end_seconds": 254.8,
+    "text": "PDF to the correct references."
+  },
+  {
+    "segment_id": "yt-00097",
+    "start_seconds": 262.0,
+    "end_seconds": 266.88,
+    "text": "Once your import finishes, there are a"
+  },
+  {
+    "segment_id": "yt-00098",
+    "start_seconds": 264.2,
+    "end_seconds": 269.4,
+    "text": "few quick things to do. First, review"
+  },
+  {
+    "segment_id": "yt-00099",
+    "start_seconds": 266.88,
+    "end_seconds": 271.2,
+    "text": "what you've imported. If you've created"
+  },
+  {
+    "segment_id": "yt-00100",
+    "start_seconds": 269.4,
+    "end_seconds": 274.32,
+    "text": "a folder or label, click it in the"
+  },
+  {
+    "segment_id": "yt-00101",
+    "start_seconds": 271.2,
+    "end_seconds": 277.44,
+    "text": "sidebar to see everything."
+  },
+  {
+    "segment_id": "yt-00102",
+    "start_seconds": 274.32,
+    "end_seconds": 279.32,
+    "text": "Next, check for incomplete references."
+  },
+  {
+    "segment_id": "yt-00103",
+    "start_seconds": 277.44,
+    "end_seconds": 282.04,
+    "text": "Open the filter menu and select"
+  },
+  {
+    "segment_id": "yt-00104",
+    "start_seconds": 279.32,
+    "end_seconds": 285.0,
+    "text": "incomplete. Now, these are your missing"
+  },
+  {
+    "segment_id": "yt-00105",
+    "start_seconds": 282.04,
+    "end_seconds": 287.12,
+    "text": "metadata. You can edit them manually or"
+  },
+  {
+    "segment_id": "yt-00106",
+    "start_seconds": 285.0,
+    "end_seconds": 290.04,
+    "text": "let Paperpile try to update them"
+  },
+  {
+    "segment_id": "yt-00107",
+    "start_seconds": 287.12,
+    "end_seconds": 290.04,
+    "text": "automatically."
+  },
+  {
+    "segment_id": "yt-00108",
+    "start_seconds": 290.8,
+    "end_seconds": 296.0,
+    "text": "Next, check for duplicates. Open the"
+  },
+  {
+    "segment_id": "yt-00109",
+    "start_seconds": 293.44,
+    "end_seconds": 298.16,
+    "text": "filter menu and select duplicates. And"
+  },
+  {
+    "segment_id": "yt-00110",
+    "start_seconds": 296.0,
+    "end_seconds": 301.36,
+    "text": "if you see the same paper twice, select"
+  },
+  {
+    "segment_id": "yt-00111",
+    "start_seconds": 298.16,
+    "end_seconds": 301.36,
+    "text": "them and merge them."
+  },
+  {
+    "segment_id": "yt-00112",
+    "start_seconds": 301.96,
+    "end_seconds": 307.64,
+    "text": "Paperpile keeps the correct metadata and"
+  },
+  {
+    "segment_id": "yt-00113",
+    "start_seconds": 304.24,
+    "end_seconds": 307.64,
+    "text": "removes the duplicate."
+  },
+  {
+    "segment_id": "yt-00114",
+    "start_seconds": 308.72,
+    "end_seconds": 313.32,
+    "text": "If a PDF didn't attach correctly, you"
+  },
+  {
+    "segment_id": "yt-00115",
+    "start_seconds": 311.08,
+    "end_seconds": 316.96,
+    "text": "can fix that by clicking the paper clip"
+  },
+  {
+    "segment_id": "yt-00116",
+    "start_seconds": 313.32,
+    "end_seconds": 316.96,
+    "text": "and attaching the file manually."
+  },
+  {
+    "segment_id": "yt-00117",
+    "start_seconds": 325.16,
+    "end_seconds": 330.04,
+    "text": "Don't worry about getting everything"
+  },
+  {
+    "segment_id": "yt-00118",
+    "start_seconds": 327.12,
+    "end_seconds": 332.08,
+    "text": "perfectly organized right away. The goal"
+  },
+  {
+    "segment_id": "yt-00119",
+    "start_seconds": 330.04,
+    "end_seconds": 333.44,
+    "text": "is just to get your library into"
+  },
+  {
+    "segment_id": "yt-00120",
+    "start_seconds": 332.08,
+    "end_seconds": 335.44,
+    "text": "Paperpile."
+  },
+  {
+    "segment_id": "yt-00121",
+    "start_seconds": 333.44,
+    "end_seconds": 338.84,
+    "text": "Once everything is in one place, it"
+  },
+  {
+    "segment_id": "yt-00122",
+    "start_seconds": 335.44,
+    "end_seconds": 343.04,
+    "text": "becomes much easier to organize, search,"
+  },
+  {
+    "segment_id": "yt-00123",
+    "start_seconds": 338.84,
+    "end_seconds": 343.04,
+    "text": "and actually use your papers."
+  },
+  {
+    "segment_id": "yt-00124",
+    "start_seconds": 344.04,
+    "end_seconds": 348.76,
+    "text": "So, whether you're bringing in 50 PDFs"
+  },
+  {
+    "segment_id": "yt-00125",
+    "start_seconds": 345.96,
+    "end_seconds": 350.72,
+    "text": "or 5,000 references, Paperpile handles"
+  },
+  {
+    "segment_id": "yt-00126",
+    "start_seconds": 348.76,
+    "end_seconds": 353.52,
+    "text": "the import so that you don't have to"
+  },
+  {
+    "segment_id": "yt-00127",
+    "start_seconds": 350.72,
+    "end_seconds": 353.52,
+    "text": "start over."
+  }
+]

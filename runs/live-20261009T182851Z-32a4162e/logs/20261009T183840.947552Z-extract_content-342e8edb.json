@@ -1,0 +1,49 @@
+{
+  "stage": "extract_content",
+  "status": "incomplete",
+  "input_count": 50,
+  "output_count": 49,
+  "started_at": "2026-10-09T18:29:28Z",
+  "finished_at": "2026-10-09T18:38:40Z",
+  "elapsed_seconds": 552.0,
+  "tools": [
+    "ffmpeg",
+    "requests",
+    "trafilatura"
+  ],
+  "models": [
+    "mlx-community/whisper-turbo"
+  ],
+  "usage": null,
+  "cost_usd": 0.0,
+  "cost_estimated": false,
+  "errors": [
+    "youtube:Ef6k1d2Uq4Q: [Errno 2] No such file or directory: 'yt-dlp'"
+  ],
+  "details": {
+    "transcriptions": [
+      {
+        "item_id": "podcast:substack:post:219146438",
+        "backend": "mlx-whisper",
+        "model": "mlx-community/whisper-turbo",
+        "model_revision": "ec8e501925a1e2e85b082740a208c37ff6c4f59a",
+        "audio_minutes": 83.993,
+        "compute_seconds": 246.726,
+        "billing_mode": "local_compute",
+        "cost_usd": 0.0,
+        "method": "mlx-whisper"
+      },
+      {
+        "item_id": "podcast:substack:post:218414422",
+        "backend": "mlx-whisper",
+        "model": "mlx-community/whisper-turbo",
+        "model_revision": "ec8e501925a1e2e85b082740a208c37ff6c4f59a",
+        "audio_minutes": 101.462,
+        "compute_seconds": 293.326,
+        "billing_mode": "local_compute",
+        "cost_usd": 0.0,
+        "method": "mlx-whisper"
+      }
+    ]
+  }
+}

@@ -80,7 +80,7 @@ class EvidenceReference(StrictModel):
 
 
 class Claim(StrictModel):
-    claim_id: str
+    claim_id: str = Field(pattern=r"^(01|02|03)-c[1-9][0-9]*$")
     statement: str
     type: Literal["reported_fact", "source_claim", "inference"]
     evidence: list[EvidenceReference] = Field(min_length=1)

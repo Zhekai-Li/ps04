@@ -1,0 +1,17 @@
+{
+  "stage": "fetch_podcasts",
+  "status": "completed",
+  "input_count": 4,
+  "output_count": 6,
+  "started_at": "2026-10-09T18:28:12Z",
+  "finished_at": "2026-10-09T18:28:17Z",
+  "elapsed_seconds": 5.0,
+  "tools": [
+    "feedparser"
+  ],
+  "models": [],
+  "usage": null,
+  "cost_usd": null,
+  "cost_estimated": false,
+  "errors": []
+}

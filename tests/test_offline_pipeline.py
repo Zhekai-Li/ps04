@@ -111,6 +111,16 @@ def test_offline_editorial_review_and_approval_gate(tmp_path: Path) -> None:
         assert run(["bash", "publishing/prepare_package.sh", str(run_dir)], env=env).returncode == 0
         assert json.loads(links_path.read_text())[0]["substack_url"] == "https://example.test/article"
 
+        manifest_path = run_dir / "package" / "manifest.json"
+        manifest = json.loads(manifest_path.read_text())
+        manifest["manual_steps_complete"] = True
+        manifest_path.write_text(json.dumps(manifest), encoding="utf-8")
+        summary_result = run(["bash", "reporting/summarize_run.sh", str(run_dir)], env=env)
+        assert summary_result.returncode == 0, summary_result.stderr
+        summary = json.loads(summary_result.stdout)
+        assert summary["manual_steps_complete"] is True
+        assert summary["remaining_manual_actions"] == []
+
         original_id = review["review_id"]
         with (run_dir / "articles" / "01.md").open("a", encoding="utf-8") as handle:
             handle.write("\nEditorial change.\n")

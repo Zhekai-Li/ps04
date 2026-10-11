@@ -37,6 +37,8 @@ The two workflows coordinate their components. `reporting/summarize_run.sh` repo
 
 Run commands from the repository root. After implementing the files, start a new run with:
 
+The implementation uses non-interactive `codex exec` with the ChatGPT login for all four structured text stages and local `mlx-whisper` for transcript fallback. Before the first run, use `bash scripts/setup.sh` followed by `bash scripts/check_backends.sh --download`. A paid API fallback is disabled unless both `PS04_ALLOW_PAID_FALLBACK=1` and `OPENAI_API_KEY` are present for that process.
+
 ```bash
 bash run.sh
 ```

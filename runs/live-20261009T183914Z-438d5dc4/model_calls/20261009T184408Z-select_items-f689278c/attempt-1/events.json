@@ -1,0 +1,27 @@
+[
+  {
+    "type": "thread.started",
+    "item_type": "thread.started",
+    "thread_id": "01a121fa-d3ff-7f82-b6b8-e2ad34a94ab6"
+  },
+  {
+    "type": "turn.started",
+    "item_type": "turn.started"
+  },
+  {
+    "type": "item.completed",
+    "item_type": "agent_message",
+    "item_id": "item_0"
+  },
+  {
+    "type": "turn.completed",
+    "item_type": "turn.completed",
+    "usage": {
+      "input_tokens": 279982,
+      "cached_input_tokens": 0,
+      "cache_write_input_tokens": 0,
+      "output_tokens": 7132,
+      "reasoning_output_tokens": 1865
+    }
+  }
+]

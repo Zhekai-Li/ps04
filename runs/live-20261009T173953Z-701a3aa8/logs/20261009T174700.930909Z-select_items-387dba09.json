@@ -1,0 +1,23 @@
+{
+  "stage": "select_items",
+  "status": "completed",
+  "input_count": 42,
+  "output_count": 42,
+  "started_at": "2026-10-09T17:44:40Z",
+  "finished_at": "2026-10-09T17:47:00Z",
+  "elapsed_seconds": 140.0,
+  "tools": [
+    "openai-responses"
+  ],
+  "models": [
+    "gpt-6.1-sol"
+  ],
+  "usage": {
+    "input_tokens": 480084,
+    "output_tokens": 6326,
+    "total_tokens": 486410
+  },
+  "cost_usd": null,
+  "cost_estimated": false,
+  "errors": []
+}

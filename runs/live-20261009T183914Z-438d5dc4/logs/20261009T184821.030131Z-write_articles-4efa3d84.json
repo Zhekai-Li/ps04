@@ -1,0 +1,30 @@
+{
+  "stage": "write_articles",
+  "status": "completed",
+  "input_count": 3,
+  "output_count": 3,
+  "started_at": "2026-10-09T18:46:57Z",
+  "finished_at": "2026-10-09T18:48:21Z",
+  "elapsed_seconds": 84.0,
+  "tools": [
+    "codex-cli"
+  ],
+  "models": [
+    "gpt-5.6-sol"
+  ],
+  "usage": {
+    "input_tokens": 25918,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 4466,
+    "reasoning_output_tokens": 423
+  },
+  "cost_usd": null,
+  "cost_estimated": false,
+  "errors": [],
+  "details": {
+    "billing_mode": "chatgpt_plan",
+    "response_id": "01a121fd-65de-79b3-876c-5e2dcc83fb11",
+    "audit_path": "model_calls/20261009T184657Z-write_articles-814b4759"
+  }
+}

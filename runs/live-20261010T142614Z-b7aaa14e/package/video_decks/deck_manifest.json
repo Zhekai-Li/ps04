@@ -1,0 +1,50 @@
+{
+  "generated_at": "2026-10-10T19:22:26.450Z",
+  "design": {
+    "aspect_ratio": "16:9",
+    "style": "academic editorial + strategy consulting",
+    "fonts": [
+      "Arial"
+    ],
+    "palette": {
+      "ink": "#132238",
+      "navy": "#17324D",
+      "teal": "#167D7F",
+      "mint": "#DDF3ED",
+      "amber": "#EAA94B",
+      "coral": "#D86A5A",
+      "paper": "#F6F2EA",
+      "white": "#FFFFFF",
+      "fog": "#E8EDF1",
+      "muted": "#607083",
+      "line": "#B9C4CC"
+    },
+    "safeguards": [
+      "36pt safe margins",
+      "one visual argument per slide",
+      "no dense bullet slides",
+      "uniform card and connector system",
+      "no internal claim IDs in audience-facing slides"
+    ]
+  },
+  "decks": [
+    {
+      "piece_id": "01",
+      "title": "Use AI to Expand the Search Space, Not Choose the Research Bet",
+      "slide_count": 8,
+      "path": "/Users/zhekaili/Documents/1125/Lesson09/runs/live-20261010T142614Z-b7aaa14e/package/video_decks/01-scholar-in-the-loop-final.pptx"
+    },
+    {
+      "piece_id": "02",
+      "title": "Fluent Reasoning Is Not Provenance: Build a Verification Layer",
+      "slide_count": 8,
+      "path": "/Users/zhekaili/Documents/1125/Lesson09/runs/live-20261010T142614Z-b7aaa14e/package/video_decks/02-scholar-in-the-loop-final.pptx"
+    },
+    {
+      "piece_id": "03",
+      "title": "Preserve Responsibility by Recording the Research Process",
+      "slide_count": 8,
+      "path": "/Users/zhekaili/Documents/1125/Lesson09/runs/live-20261010T142614Z-b7aaa14e/package/video_decks/03-scholar-in-the-loop-final.pptx"
+    }
+  ]
+}

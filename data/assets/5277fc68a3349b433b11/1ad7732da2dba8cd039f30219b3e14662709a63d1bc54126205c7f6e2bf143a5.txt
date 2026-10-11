@@ -1,0 +1,13 @@
+Computer Science > Computation and Language
+Title:Cognitive Thermometers: Machine Learning and Logical Complexity
+View PDF HTML (experimental)
+            Abstract:How does the human mind represent semantic categories? Why do natural languages favor certain meanings over others? Prior explanations have relied on logical definability and complexity, but these are highly sensitive to the choice of logical language, rendering some design choices unmotivated. In this article, we propose that machine learning provides a somewhat more agnostic approach to measuring semantic complexity. We review emerging evidence that logic and machine learning often yield converging results on relative complexity and its resulting effects in semantic typology. Where they diverge, learning appears to be a better explanation than logical complexity. We argue that treating machine learning models as ``cognitive thermometers'' enables a unified approach to complexity that bridges symbolic logic and connectionist AI.
+    
+Bibliographic and Citation Tools
+Code, Data and Media Associated with this Article
+Demos
+Recommenders and Search Tools
+arXivLabs: experimental projects with community collaborators
+arXivLabs is a framework that allows collaborators to develop and share new arXiv features directly on our website.
+Both individuals and organizations that work with arXivLabs have embraced and accepted our values of openness, community, excellence, and user data privacy. arXiv is committed to these values and only works with partners that adhere to them.
+Have an idea for a project that will add value for arXiv's community? Learn more about arXivLabs.

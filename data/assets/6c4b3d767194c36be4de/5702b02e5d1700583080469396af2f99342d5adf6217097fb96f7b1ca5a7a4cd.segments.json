@@ -1,0 +1,506 @@
+[
+  {
+    "segment_id": "tr-00001",
+    "start_seconds": 0.0,
+    "end_seconds": 12.0,
+    "text": "Welcome to the podcast Today we have the United States government that has launched America gov a new AI agent for every government website We have NVIDIA who's"
+  },
+  {
+    "segment_id": "tr-00002",
+    "start_seconds": 12.0,
+    "end_seconds": 24.16,
+    "text": "opened something called OpenShell and Sentry and it is going to contain rogue AI agents We also have OpenAI's Astra and also Anthropics Claude Opus 5 that have cracked some"
+  },
+  {
+    "segment_id": "tr-00003",
+    "start_seconds": 24.16,
+    "end_seconds": 36.26,
+    "text": "unsolved Enigma messages from World War II And we have Anthropics founders that are looking to get a 50 1 voting control of Anthropic ahead of the IPO We also"
+  },
+  {
+    "segment_id": "tr-00004",
+    "start_seconds": 36.26,
+    "end_seconds": 48.32,
+    "text": "have an appeals court that is upholding the Pentagon's supply chain risk ban on Anthropic And we have different Tesla workers that are resisting training Optimus robots to replace them according to some"
+  },
+  {
+    "segment_id": "tr-00005",
+    "start_seconds": 48.32,
+    "end_seconds": 60.36,
+    "text": "allegations And a story about UpGuard that found that 16 000 SuperBase databases are leaking personal data to the open web All of that and more on the podcast today Before we get"
+  },
+  {
+    "segment_id": "tr-00006",
+    "start_seconds": 60.36,
+    "end_seconds": 72.54,
+    "text": "into the show I wanted to mention if you've ever wanted to use all of the different AI models in one place I'd love for you to check out my startup which is called AIBox ai We give you access to over 90 different AI models"
+  },
+  {
+    "segment_id": "tr-00007",
+    "start_seconds": 72.54,
+    "end_seconds": 84.6,
+    "text": "in one playground So you can sit there and you can talk to Claude in the same chat thread as ChatGPT and as Gemini and as Grok You can then different image generators and audio generators and video"
+  },
+  {
+    "segment_id": "tr-00008",
+    "start_seconds": 84.6,
+    "end_seconds": 96.66,
+    "text": "generators all in the same thread So if you want to get access to all of the different AI models for 8 99 a month you can test everything new that comes out Sometimes you might just need one video generated for a project but you don't need"
+  },
+  {
+    "segment_id": "tr-00009",
+    "start_seconds": 96.66,
+    "end_seconds": 108.82,
+    "text": "to go and spend you know 70 a month on a high subscription tier of Higgsfield If this is the case I'd love for you to go check out the AIBox platform at AIBox ai And also we have a connector that plugs it into Claude So"
+  },
+  {
+    "segment_id": "tr-00010",
+    "start_seconds": 108.82,
+    "end_seconds": 120.96,
+    "text": "if you want Claude to be able to generate images and video right inside of Claude go check out the AIBox MCP connector All right let's get into the episode today So I mean this is a big thing that has been talked about all over"
+  },
+  {
+    "segment_id": "tr-00011",
+    "start_seconds": 120.96,
+    "end_seconds": 133.08,
+    "text": "X today which is that America gov has just launched and it's basically they're calling it a single front door to the federal government So instead of opening a whole bunch of different tabs across different agencies and sites"
+  },
+  {
+    "segment_id": "tr-00012",
+    "start_seconds": 133.08,
+    "end_seconds": 145.34,
+    "text": "trying to figure out which information actually matters to you you can ask America gov a question and you get a relevant answer from across 29 000 official government websites with the source and what to do next"
+  },
+  {
+    "segment_id": "tr-00013",
+    "start_seconds": 145.36,
+    "end_seconds": 157.66,
+    "text": "To be honest so that was a tweet from Tyler Kim on this who's working on this I think that for what it's worth I mean everyone's got different political opinions in the United States However this is something that I think everyone should get behind in"
+  },
+  {
+    "segment_id": "tr-00014",
+    "start_seconds": 157.66,
+    "end_seconds": 169.66,
+    "text": "a nonpartisan way making the government's websites less horribly ugly and confusing That should be something that is everyone should be on board with So America gov I was testing it out this morning You basically it's"
+  },
+  {
+    "segment_id": "tr-00015",
+    "start_seconds": 169.66,
+    "end_seconds": 181.66,
+    "text": "just like a chat It's a chat thread that you can talk to and it will answer you any questions The big pitch they have on there is that it's going to get the answers only from official government websites and sources It's free to use and"
+  },
+  {
+    "segment_id": "tr-00016",
+    "start_seconds": 181.66,
+    "end_seconds": 193.88,
+    "text": "it never has ads and it keeps all of your private information protected So it's as I mentioned 29 000 different websites I hope every government does some version of this but you know I for one I'm originally from Canada I got"
+  },
+  {
+    "segment_id": "tr-00017",
+    "start_seconds": 193.88,
+    "end_seconds": 206.06,
+    "text": "a green card and I'm living in the United States and the process for getting a green card and living in the United States was just I mean probably in any country pretty painful and confusing and long and hard and"
+  },
+  {
+    "segment_id": "tr-00018",
+    "start_seconds": 206.06,
+    "end_seconds": 218.36,
+    "text": "all of the different things It's doable but it's not a fun experience I would say And same thing with starting businesses opening LLCs contacting different departments getting different tax stuff"
+  },
+  {
+    "segment_id": "tr-00019",
+    "start_seconds": 218.36,
+    "end_seconds": 231.0,
+    "text": "filing taxes getting passports I mean there's a thousand different things that everyone has to do This should make it all easier What's cool here is I mean right now it's just a chat a chat bubble but they said that coming in 2026"
+  },
+  {
+    "segment_id": "tr-00020",
+    "start_seconds": 231.0,
+    "end_seconds": 243.06,
+    "text": "you're going to be able to do a whole bunch of new things One of those being that you're going to be able to actually go and file your passport online including the photo which is pretty wild"
+  },
+  {
+    "segment_id": "tr-00021",
+    "start_seconds": 243.94,
+    "end_seconds": 256.06,
+    "text": "2027 you're going to be able to go and book you know like any government campsites I don't know if you've been to government campsites but you have to like it's like a little piece of paper and you've got to put like money in a drop box And I mean and the park"
+  },
+  {
+    "segment_id": "tr-00022",
+    "start_seconds": 256.06,
+    "end_seconds": 268.38,
+    "text": "ranger gets it It's pretty wild So you'll be able to do they're doing campsites for national parks they're doing passports they're doing medication I think there's something called Trump RX I don't know too much about it but I know that yeah"
+  },
+  {
+    "segment_id": "tr-00023",
+    "start_seconds": 268.38,
+    "end_seconds": 280.66,
+    "text": "it's it's you know you'd be able to go get medicine They're going to be doing things with housing And also if you need to like update your name so you know you get married you have to do a legal name change it can update the social security"
+  },
+  {
+    "segment_id": "tr-00024",
+    "start_seconds": 280.66,
+    "end_seconds": 292.74,
+    "text": "website your my travel gov website your CBP your global entry TSA pre check all that kind of stuff in one spot So anyways I'm really excited when the government is modernizing"
+  },
+  {
+    "segment_id": "tr-00025",
+    "start_seconds": 292.96,
+    "end_seconds": 305.16,
+    "text": "I believe this whole project was spearheaded by one of the co founders of Airbnb decided to just basically volunteer or very cheap for the United States government went in and is redesigning all of the different government sites"
+  },
+  {
+    "segment_id": "tr-00026",
+    "start_seconds": 305.16,
+    "end_seconds": 317.22,
+    "text": "and implementing AI in there And so I mean honestly civic duty nonpartisan massive kudos and shout out to this guy for making everyone's life better So yeah hope that all"
+  },
+  {
+    "segment_id": "tr-00027",
+    "start_seconds": 317.22,
+    "end_seconds": 329.4,
+    "text": "governments can do this But also there's a lot of companies that have really old outdated ugly websites you know the insurance industry and a lot of other places So I think there's a lot of people that could take notes from this Okay let's get into what's going on with Nvidia they"
+  },
+  {
+    "segment_id": "tr-00028",
+    "start_seconds": 329.4,
+    "end_seconds": 341.44,
+    "text": "just launched something called open shell And the idea is that it's going to help contain rogue AI agents They actually partnered with anthropic on this But it's basically an open source agent safety platform And you know we"
+  },
+  {
+    "segment_id": "tr-00029",
+    "start_seconds": 341.44,
+    "end_seconds": 353.88,
+    "text": "have open AI going and hacking hugging faces and a bunch of other place and a bunch of other things So there's obviously a lot of drama in this space And you have people like anthropic saying Hey look we need the government to go regulate everybody"
+  },
+  {
+    "segment_id": "tr-00030",
+    "start_seconds": 353.88,
+    "end_seconds": 366.16,
+    "text": "and not let any new AI models come out or ban open source right There's a lot of different conversations being had I love them videos approach it feels like they're the adults in the room they've gone gone and actually created a product open shell that is addressing this And"
+  },
+  {
+    "segment_id": "tr-00031",
+    "start_seconds": 366.16,
+    "end_seconds": 378.18,
+    "text": "like let's be honest they're working in tandem with anthropic and a bunch of other partners I think SpaceX is using open safety or open agent safety platform for their cursor agent and their grok models anthropic"
+  },
+  {
+    "segment_id": "tr-00032",
+    "start_seconds": 378.18,
+    "end_seconds": 390.24,
+    "text": "is building it into Claude there's a bunch of other people that are working on partnerships with that open AI as part of this effort but they didn't explain exactly how they were using it At the end of the day I think the industry can and should regulate"
+  },
+  {
+    "segment_id": "tr-00033",
+    "start_seconds": 390.24,
+    "end_seconds": 402.32,
+    "text": "itself It's definitely capable That's where all the talent is Anyways I don't think the government has I mean you know you know we have if the government was the expert on this AI stuff on the frontier AI technology they would be putting out they'd be"
+  },
+  {
+    "segment_id": "tr-00034",
+    "start_seconds": 402.32,
+    "end_seconds": 414.82,
+    "text": "putting out the technology but instead asking them to write you know someone like anthropic who's got the smartest you know quote unquote smartest minds and PhDs that are discovering the technology that are the frontier that are making the agents asking the government to"
+  },
+  {
+    "segment_id": "tr-00035",
+    "start_seconds": 414.82,
+    "end_seconds": 426.86,
+    "text": "regulate them I mean like we mentioned in the last segment we barely got the government's websites not looking like they're you know banks from 1995 So I think the best place to have some of this regulation happening the people that"
+  },
+  {
+    "segment_id": "tr-00036",
+    "start_seconds": 426.86,
+    "end_seconds": 438.96,
+    "text": "know the most about it are people in the industry having them all work together and in a you know cross cross platform way is fantastic I think Nvidia does a great job in this And yeah I'm rooting for more"
+  },
+  {
+    "segment_id": "tr-00037",
+    "start_seconds": 438.96,
+    "end_seconds": 451.02,
+    "text": "of this in the future Okay opening eyes Astra and Anthropics Claude Opus five have just cracked some unsolved enigma messages So there's two cryptanalogists that were using LLMs to"
+  },
+  {
+    "segment_id": "tr-00038",
+    "start_seconds": 451.02,
+    "end_seconds": 463.42,
+    "text": "break wartime codes that hadn't or basically there are no humans have been able to crack these for over two decades I love this concept because especially you know obviously in wartimes back in the day we're sending covert"
+  },
+  {
+    "segment_id": "tr-00039",
+    "start_seconds": 463.42,
+    "end_seconds": 475.5,
+    "text": "submarine messages in World War Two and people were trying to decode what was happening And there was entire departments you know in the government that were that were dedicated to this And yet all these years later there was still a bunch that"
+  },
+  {
+    "segment_id": "tr-00040",
+    "start_seconds": 475.5,
+    "end_seconds": 487.66,
+    "text": "had been completely uncracked So developer Carter LeFen was using Astra to decode these that some of these things had been unsolved since 2025 cryptanalogist Jack Willis used Anthropics"
+  },
+  {
+    "segment_id": "tr-00041",
+    "start_seconds": 487.68,
+    "end_seconds": 499.8,
+    "text": "Claude Opus five to break a second unsolved wartime message on September 21 Only seven unbroken enigma messages remain There's also one that the plaintext is known but the code is not known"
+  },
+  {
+    "segment_id": "tr-00042",
+    "start_seconds": 500.58,
+    "end_seconds": 512.62,
+    "text": "And so you know for basically there's like an encrypted message gets sent And when you decrypt it it's like the eagle star five seven walks So like we decrypted it into the words but we don't know what those words necessarily"
+  },
+  {
+    "segment_id": "tr-00043",
+    "start_seconds": 512.62,
+    "end_seconds": 524.98,
+    "text": "mean So this is it's kind of interesting when you can get these AI agents because they can look at so many different angles and so many different ways to decrypt some of the stuff It's really fascinating master built its own enigma simulator"
+  },
+  {
+    "segment_id": "tr-00044",
+    "start_seconds": 524.98,
+    "end_seconds": 537.1,
+    "text": "and then it ran archival research and it reached a solution in two days on this So I think this is a fascinating kind of topic for some different research projects Right now we have the founder the founders of"
+  },
+  {
+    "segment_id": "tr-00045",
+    "start_seconds": 537.1,
+    "end_seconds": 549.3,
+    "text": "Anthropic that are looking to get a 50 1 voting control ahead of their IPO Dario and six of his founders want super voting shares to keep control after Anthropic goes public evaluation which right now is getting up to"
+  },
+  {
+    "segment_id": "tr-00046",
+    "start_seconds": 549.3,
+    "end_seconds": 561.3,
+    "text": "about 1 5 trillion I mean it's interesting because it's Dario and some of the co founders that would collectively be getting that So I mean to be fair none of them are all necessarily doesn't mean"
+  },
+  {
+    "segment_id": "tr-00047",
+    "start_seconds": 561.3,
+    "end_seconds": 573.38,
+    "text": "they all have to vote together as a block not saying that they wouldn't This is similar though to what Zuckerberg has with Facebook but he's one of the few companies that was able to keep super super majority voting shares And you know some people that's a good thing"
+  },
+  {
+    "segment_id": "tr-00048",
+    "start_seconds": 573.38,
+    "end_seconds": 585.86,
+    "text": "or bad thing So people would say hey you know it's terrible for Zuckerberg because he pursued the metaverse and it just burned a bunch of money and was useless But at the end of the day I mean that's how he's probably gained control of his company And he was able to take other big bets like you"
+  },
+  {
+    "segment_id": "tr-00049",
+    "start_seconds": 585.86,
+    "end_seconds": 598.02,
+    "text": "know spending billions of dollars on llama models when it was making no money it seems like that that is now paying off And even the metaverse bet which you know I admittedly have criticized a lot over the years everything that happened with like Oculus which you"
+  },
+  {
+    "segment_id": "tr-00050",
+    "start_seconds": 598.02,
+    "end_seconds": 610.2,
+    "text": "know I don't see people walking around with Oculus is these days not to say it's not used but it's just not as big as I think they hoped All of that technology is going into the meta Ray bans into a lot of these glasses technology and augmented reality there So I think a"
+  },
+  {
+    "segment_id": "tr-00051",
+    "start_seconds": 610.2,
+    "end_seconds": 622.24,
+    "text": "lot of the money spent there is getting recycled and reusing some of these newer products and kind of the evolution of these products which was probably just too much of a big step back then to make So you know maybe it maybe it wasn't bad But all that to say"
+  },
+  {
+    "segment_id": "tr-00052",
+    "start_seconds": 622.96,
+    "end_seconds": 635.22,
+    "text": "getting the super voting is this super majority voting shares is something that they're going after each of the seven co founders including Dario own about 2 of anthropic at this point anthropic"
+  },
+  {
+    "segment_id": "tr-00053",
+    "start_seconds": 635.22,
+    "end_seconds": 647.24,
+    "text": "was valued at 950 or 965 billion in May but they have traded at 1 5 trillion on the secondary market So that's you basically the employees of the company are being able to sell there's a"
+  },
+  {
+    "segment_id": "tr-00054",
+    "start_seconds": 647.24,
+    "end_seconds": 659.6,
+    "text": "bunch of secondary markets where they can sell their shares and people are you know are paying up to a 1 5 trillion valuation for those shares founders board would grow from two to three while the long term benefit trust would still choose most"
+  },
+  {
+    "segment_id": "tr-00055",
+    "start_seconds": 659.6,
+    "end_seconds": 671.72,
+    "text": "of the board So anthropic kind of has a interesting way that they have structured this up And this proposal comes at the same time they have a kind of a bigger quote unquote wealth commitment Dario announced in January that the"
+  },
+  {
+    "segment_id": "tr-00056",
+    "start_seconds": 671.72,
+    "end_seconds": 684.12,
+    "text": "co founders had pledged to give away 80 of their wealth warning at the time that AI driven wealth concentration would destabilize society So I mean this is only a five year old company they're getting close to you"
+  },
+  {
+    "segment_id": "tr-00057",
+    "start_seconds": 684.12,
+    "end_seconds": 696.16,
+    "text": "know a trillion dollar plus IPO and they're planning on giving away a lot of their funds I mean basically saying that the inequality from AI was gonna kind of wreck the world in some ways So it's it's interesting"
+  },
+  {
+    "segment_id": "tr-00058",
+    "start_seconds": 696.16,
+    "end_seconds": 708.52,
+    "text": "to see what's going on here And it looks like they want to keep most control of the company You know some people positively would say so that it doesn't get derailed And other people would you know just say they're trying to keep control At the end of the day I think this is pretty standard for anyone starting"
+  },
+  {
+    "segment_id": "tr-00059",
+    "start_seconds": 708.52,
+    "end_seconds": 720.56,
+    "text": "a company The appeals court is also upholding the Pentagon supply chain risk ban and on anthropic there was a two to one DC circuit ruling that keeps Claude blocked from the Defense Department systems"
+  },
+  {
+    "segment_id": "tr-00060",
+    "start_seconds": 720.56,
+    "end_seconds": 732.96,
+    "text": "and contractors despite a parallel San Francisco loss for the Pentagon So I mean this is going through many different courts in a bunch of different ways In San Francisco they lost but in DC they upheld this So I"
+  },
+  {
+    "segment_id": "tr-00061",
+    "start_seconds": 732.96,
+    "end_seconds": 745.04,
+    "text": "imagine this is something that's going to continue to be litigated The circuit judge Gregory Katas and Naomi Rao formed the majority circuit judge Karen LaCraft Henderson dissented on that a San Francisco federal judge"
+  },
+  {
+    "segment_id": "tr-00062",
+    "start_seconds": 745.04,
+    "end_seconds": 757.18,
+    "text": "ruled last month that a parallel DoD designation was illegal So now we kind of have these two different things Anthropic said that is considering all options including further review So I think that's not the end of the road for"
+  },
+  {
+    "segment_id": "tr-00063",
+    "start_seconds": 757.18,
+    "end_seconds": 769.46,
+    "text": "anthropic trying to get their AI into the government But we'll just have to see where that goes It seems like there's definitely some very frosty relations with the Department of War Tesla workers right now apparently"
+  },
+  {
+    "segment_id": "tr-00064",
+    "start_seconds": 769.46,
+    "end_seconds": 781.74,
+    "text": "are resisting training optimist robots because these bots are built to replace them right If you're working on robots and they're like hey we can build robots that can help work on these robots Maybe you don't want to do that Tesla"
+  },
+  {
+    "segment_id": "tr-00065",
+    "start_seconds": 781.74,
+    "end_seconds": 793.84,
+    "text": "right now is aiming for 1000 optimist robots created every week by the end of the year Apparently there's a bunch of workers pushing back and there is a number of reasons I mean sure workers are pushing back But I mean if"
+  },
+  {
+    "segment_id": "tr-00066",
+    "start_seconds": 793.84,
+    "end_seconds": 805.92,
+    "text": "your job is to build robots you probably know what you're in for there But another part of this is that the hand on the optimist robots has about 100 plus different parts And that's also slowing the ramp down quite"
+  },
+  {
+    "segment_id": "tr-00067",
+    "start_seconds": 805.92,
+    "end_seconds": 818.14,
+    "text": "a bit So apparently this is all happened in the Friedman factory in California they stopped making the Tesla Model S and Model X in May of this year to shift all of the workers and engineers on to creating the optimist bot"
+  },
+  {
+    "segment_id": "tr-00068",
+    "start_seconds": 818.34,
+    "end_seconds": 830.44,
+    "text": "So that was kind of a big swing that Elon took with Tesla basically saying look we have these very popular cars the Model S the Model X these are very popular cars we're going to completely stop making them and just put all of that bandwidth into"
+  },
+  {
+    "segment_id": "tr-00069",
+    "start_seconds": 830.44,
+    "end_seconds": 842.7,
+    "text": "creating the optimist robot because he sees so much potential there Optimists is very complicated Hyundai plans to deploy up to 25 000 Atlas robots from Boston Dynamics over the next several years you can"
+  },
+  {
+    "segment_id": "tr-00070",
+    "start_seconds": 842.7,
+    "end_seconds": 854.74,
+    "text": "imagine optimist is going to have a very similar demand from different companies So if Hyundai's alone is planning on grabbing 25 000 you can imagine many many companies will be buying even more than that the FCC has banned new foreign made"
+  },
+  {
+    "segment_id": "tr-00071",
+    "start_seconds": 854.74,
+    "end_seconds": 866.92,
+    "text": "humanoid robots robot dogs and robot vacuums in July So considering optimist is going to be built in the United States it seems like this is it seems like Elon might just be and a"
+  },
+  {
+    "segment_id": "tr-00072",
+    "start_seconds": 866.92,
+    "end_seconds": 879.1,
+    "text": "number of other Silicon Valley companies might be in for a huge boost When all of the foreign bots are banned right we're not going to have a whole bunch of robots humanoid robots coming out of China I mean it's been literally foreign"
+  },
+  {
+    "segment_id": "tr-00073",
+    "start_seconds": 879.1,
+    "end_seconds": 891.26,
+    "text": "made So that's a really wild take Now you can you can see like a lot of the reasons or the reasoning behind a decision like that right Like theoretically let's say China released like a"
+  },
+  {
+    "segment_id": "tr-00074",
+    "start_seconds": 891.26,
+    "end_seconds": 903.48,
+    "text": "million humanoid robots into the United States and they're helping people And it's basically like DJI drones but like robots And then all of a sudden you know there's like a backdoor they create and all the robots turn into an army and go attack a military"
+  },
+  {
+    "segment_id": "tr-00075",
+    "start_seconds": 903.48,
+    "end_seconds": 915.52,
+    "text": "base Like you could imagine some terrifying some terrifying scenarios there So they definitely want to keep them all created by American companies And beyond that I mean you really have to trust a company making a humanoid robot people are"
+  },
+  {
+    "segment_id": "tr-00076",
+    "start_seconds": 915.52,
+    "end_seconds": 927.74,
+    "text": "going to have these in their homes they're going to have them in businesses it is definitely a wild time for technology Okay up guard right now has found that there is 16 000 super based databases"
+  },
+  {
+    "segment_id": "tr-00077",
+    "start_seconds": 927.74,
+    "end_seconds": 939.98,
+    "text": "right now that are leaking personal data to the open web I didn't want to like do this segment like it's like a fear and doom thing Like oh man this is like vibe coding is bad I will just say like if you are vibe coding things which I vibe code lots of projects"
+  },
+  {
+    "segment_id": "tr-00078",
+    "start_seconds": 940.3,
+    "end_seconds": 952.6,
+    "text": "you got to be careful because a lot of these different database tools super based being one this is the main the main database that I use for all of my vibe coding you got to be careful because you have to regularly conduct security audits which I mean at the most basic sense"
+  },
+  {
+    "segment_id": "tr-00079",
+    "start_seconds": 952.6,
+    "end_seconds": 964.6,
+    "text": "you can just tell Claude or check here whatever using five code please conduct a security got a security audit let me know if there's any issues I think companies like lovable are doing a good job trying to do that themselves internally and let you know if there's issues and"
+  },
+  {
+    "segment_id": "tr-00080",
+    "start_seconds": 964.6,
+    "end_seconds": 976.7,
+    "text": "have you fix it But yeah it's definitely an issue for all of these people that don't know what they're doing developing they're just kind of shouting at the void and it's creating things for them It's super exciting that you can create things For example if you're"
+  },
+  {
+    "segment_id": "tr-00081",
+    "start_seconds": 976.7,
+    "end_seconds": 988.84,
+    "text": "watching the video of this on screen I'm showing my website AI chat daily com where I have like all of these articles and a ton of information and a lot of really cool stuff that I've built But this entire site was vibe coded However I"
+  },
+  {
+    "segment_id": "tr-00082",
+    "start_seconds": 988.84,
+    "end_seconds": 1001.06,
+    "text": "did have to run all these security audits on it to make sure that different things in the back end weren't visible especially when you're dealing with actual customers and people's personal information So just a PSA on that But at the end of the day so much to"
+  },
+  {
+    "segment_id": "tr-00083",
+    "start_seconds": 1001.06,
+    "end_seconds": 1013.3,
+    "text": "build so much to do Thank you so much for tuning into the podcast If you enjoyed the episode make sure to go check out AI box ai where you can get access to over 80 different AI models you can test them against each other This is a phenomenal way to save money"
+  },
+  {
+    "segment_id": "tr-00084",
+    "start_seconds": 1013.3,
+    "end_seconds": 1020.44,
+    "text": "consolidating subscriptions but also get access to all of the latest different AI tools in one place Alright I'll catch you all in the next episode Transcribed by https://otter ai"
+  }
+]

@@ -1,0 +1,632 @@
+[
+  {
+    "segment_id": "yt-00001",
+    "start_seconds": 0.0,
+    "end_seconds": 5.32,
+    "text": "The way we find papers in 2026 looks"
+  },
+  {
+    "segment_id": "yt-00002",
+    "start_seconds": 2.8,
+    "end_seconds": 7.16,
+    "text": "nothing like it did 5 years ago. You're"
+  },
+  {
+    "segment_id": "yt-00003",
+    "start_seconds": 5.32,
+    "end_seconds": 9.92,
+    "text": "using AI assistants to summarize"
+  },
+  {
+    "segment_id": "yt-00004",
+    "start_seconds": 7.16,
+    "end_seconds": 12.84,
+    "text": "literature, visual tools to map citation"
+  },
+  {
+    "segment_id": "yt-00005",
+    "start_seconds": 9.92,
+    "end_seconds": 15.24,
+    "text": "networks, and discovery apps to follow"
+  },
+  {
+    "segment_id": "yt-00006",
+    "start_seconds": 12.84,
+    "end_seconds": 17.4,
+    "text": "references. And that's on top of"
+  },
+  {
+    "segment_id": "yt-00007",
+    "start_seconds": 15.24,
+    "end_seconds": 20.24,
+    "text": "traditional sources like your university"
+  },
+  {
+    "segment_id": "yt-00008",
+    "start_seconds": 17.4,
+    "end_seconds": 22.8,
+    "text": "library and Google Scholar. The"
+  },
+  {
+    "segment_id": "yt-00009",
+    "start_seconds": 20.24,
+    "end_seconds": 25.44,
+    "text": "challenge is keeping all of this in one"
+  },
+  {
+    "segment_id": "yt-00010",
+    "start_seconds": 22.8,
+    "end_seconds": 28.28,
+    "text": "place and then actually organizing it"
+  },
+  {
+    "segment_id": "yt-00011",
+    "start_seconds": 25.44,
+    "end_seconds": 30.64,
+    "text": "and making sure it gets read. So, let me"
+  },
+  {
+    "segment_id": "yt-00012",
+    "start_seconds": 28.28,
+    "end_seconds": 33.28,
+    "text": "show you how Paperpile brings it all"
+  },
+  {
+    "segment_id": "yt-00013",
+    "start_seconds": 30.64,
+    "end_seconds": 33.28,
+    "text": "together."
+  },
+  {
+    "segment_id": "yt-00014",
+    "start_seconds": 35.28,
+    "end_seconds": 39.88,
+    "text": "Let's start with the basics. Google"
+  },
+  {
+    "segment_id": "yt-00015",
+    "start_seconds": 37.4,
+    "end_seconds": 41.04,
+    "text": "Scholar and PubMed aren't going"
+  },
+  {
+    "segment_id": "yt-00016",
+    "start_seconds": 39.88,
+    "end_seconds": 43.6,
+    "text": "anywhere."
+  },
+  {
+    "segment_id": "yt-00017",
+    "start_seconds": 41.04,
+    "end_seconds": 46.36,
+    "text": "So, let's say I'm starting research on"
+  },
+  {
+    "segment_id": "yt-00018",
+    "start_seconds": 43.6,
+    "end_seconds": 49.04,
+    "text": "bee population decline. I'll run a broad"
+  },
+  {
+    "segment_id": "yt-00019",
+    "start_seconds": 46.36,
+    "end_seconds": 50.88,
+    "text": "search in Google Scholar. Now, I've got"
+  },
+  {
+    "segment_id": "yt-00020",
+    "start_seconds": 49.04,
+    "end_seconds": 52.64,
+    "text": "a list of results."
+  },
+  {
+    "segment_id": "yt-00021",
+    "start_seconds": 50.88,
+    "end_seconds": 55.8,
+    "text": "This is usually the point where things"
+  },
+  {
+    "segment_id": "yt-00022",
+    "start_seconds": 52.64,
+    "end_seconds": 58.76,
+    "text": "start to get messy. I'll open a few"
+  },
+  {
+    "segment_id": "yt-00023",
+    "start_seconds": 55.8,
+    "end_seconds": 61.36,
+    "text": "tabs, maybe download a couple of PDFs,"
+  },
+  {
+    "segment_id": "yt-00024",
+    "start_seconds": 58.76,
+    "end_seconds": 63.92,
+    "text": "bookmark a few papers, and then promise"
+  },
+  {
+    "segment_id": "yt-00025",
+    "start_seconds": 61.36,
+    "end_seconds": 66.04,
+    "text": "myself I'll sort it later."
+  },
+  {
+    "segment_id": "yt-00026",
+    "start_seconds": 63.92,
+    "end_seconds": 69.6,
+    "text": "With the Paperpile browser extension, I"
+  },
+  {
+    "segment_id": "yt-00027",
+    "start_seconds": 66.04,
+    "end_seconds": 72.48,
+    "text": "can save as I go instead. You'll see the"
+  },
+  {
+    "segment_id": "yt-00028",
+    "start_seconds": 69.6,
+    "end_seconds": 75.56,
+    "text": "Paperpile buttons next to every result"
+  },
+  {
+    "segment_id": "yt-00029",
+    "start_seconds": 72.48,
+    "end_seconds": 79.04,
+    "text": "to Google Scholar, PubMed, archive,"
+  },
+  {
+    "segment_id": "yt-00030",
+    "start_seconds": 75.56,
+    "end_seconds": 81.6,
+    "text": "hundreds of academic databases."
+  },
+  {
+    "segment_id": "yt-00031",
+    "start_seconds": 79.04,
+    "end_seconds": 83.84,
+    "text": "If I hover over a result, I can click"
+  },
+  {
+    "segment_id": "yt-00032",
+    "start_seconds": 81.6,
+    "end_seconds": 85.36,
+    "text": "the Paperpile button to add it to my"
+  },
+  {
+    "segment_id": "yt-00033",
+    "start_seconds": 83.84,
+    "end_seconds": 87.32,
+    "text": "library."
+  },
+  {
+    "segment_id": "yt-00034",
+    "start_seconds": 85.36,
+    "end_seconds": 89.76,
+    "text": "That pulls in the full reference"
+  },
+  {
+    "segment_id": "yt-00035",
+    "start_seconds": 87.32,
+    "end_seconds": 93.12,
+    "text": "automatically. That's title, authors,"
+  },
+  {
+    "segment_id": "yt-00036",
+    "start_seconds": 89.76,
+    "end_seconds": 95.72,
+    "text": "journal, year, DOI, everything."
+  },
+  {
+    "segment_id": "yt-00037",
+    "start_seconds": 93.12,
+    "end_seconds": 98.24,
+    "text": "Paperpile will also look for the PDF at"
+  },
+  {
+    "segment_id": "yt-00038",
+    "start_seconds": 95.72,
+    "end_seconds": 100.6,
+    "text": "the same time."
+  },
+  {
+    "segment_id": "yt-00039",
+    "start_seconds": 98.24,
+    "end_seconds": 103.72,
+    "text": "If I find a few useful ones, I can"
+  },
+  {
+    "segment_id": "yt-00040",
+    "start_seconds": 100.6,
+    "end_seconds": 106.0,
+    "text": "select several and add them together."
+  },
+  {
+    "segment_id": "yt-00041",
+    "start_seconds": 103.72,
+    "end_seconds": 108.2,
+    "text": "Then I can put them in a folder, add a"
+  },
+  {
+    "segment_id": "yt-00042",
+    "start_seconds": 106.0,
+    "end_seconds": 111.96,
+    "text": "label, or leave a note if I want to"
+  },
+  {
+    "segment_id": "yt-00043",
+    "start_seconds": 108.2,
+    "end_seconds": 111.96,
+    "text": "remember why I saved them."
+  },
+  {
+    "segment_id": "yt-00044",
+    "start_seconds": 113.76,
+    "end_seconds": 121.2,
+    "text": "So, before I move on, everything is"
+  },
+  {
+    "segment_id": "yt-00045",
+    "start_seconds": 116.12,
+    "end_seconds": 121.2,
+    "text": "already organized with no cleanup later."
+  },
+  {
+    "segment_id": "yt-00046",
+    "start_seconds": 127.92,
+    "end_seconds": 132.76,
+    "text": "Now let's talk about the new generation"
+  },
+  {
+    "segment_id": "yt-00047",
+    "start_seconds": 130.0,
+    "end_seconds": 135.4,
+    "text": "of tools, AI-powered search engines"
+  },
+  {
+    "segment_id": "yt-00048",
+    "start_seconds": 132.76,
+    "end_seconds": 138.48,
+    "text": "built specifically for research. But the"
+  },
+  {
+    "segment_id": "yt-00049",
+    "start_seconds": 135.4,
+    "end_seconds": 141.2,
+    "text": "pattern here is simple. Ask a question,"
+  },
+  {
+    "segment_id": "yt-00050",
+    "start_seconds": 138.48,
+    "end_seconds": 143.44,
+    "text": "get AI-generated summaries, and save"
+  },
+  {
+    "segment_id": "yt-00051",
+    "start_seconds": 141.2,
+    "end_seconds": 146.12,
+    "text": "what's relevant, all without leaving the"
+  },
+  {
+    "segment_id": "yt-00052",
+    "start_seconds": 143.44,
+    "end_seconds": 149.2,
+    "text": "search page. Let me show you how that"
+  },
+  {
+    "segment_id": "yt-00053",
+    "start_seconds": 146.12,
+    "end_seconds": 152.32,
+    "text": "works. Instead of a keyword, I start"
+  },
+  {
+    "segment_id": "yt-00054",
+    "start_seconds": 149.2,
+    "end_seconds": 155.52,
+    "text": "with a question, something like, \"What's"
+  },
+  {
+    "segment_id": "yt-00055",
+    "start_seconds": 152.32,
+    "end_seconds": 157.52,
+    "text": "driving bee population decline?\""
+  },
+  {
+    "segment_id": "yt-00056",
+    "start_seconds": 155.52,
+    "end_seconds": 160.4,
+    "text": "Tools like Consensus and Google Scholar"
+  },
+  {
+    "segment_id": "yt-00057",
+    "start_seconds": 157.52,
+    "end_seconds": 163.24,
+    "text": "Labs return papers with AI-generated"
+  },
+  {
+    "segment_id": "yt-00058",
+    "start_seconds": 160.4,
+    "end_seconds": 165.52,
+    "text": "summaries right in the results. I'll"
+  },
+  {
+    "segment_id": "yt-00059",
+    "start_seconds": 163.24,
+    "end_seconds": 167.04,
+    "text": "scroll through, click the Paperpile"
+  },
+  {
+    "segment_id": "yt-00060",
+    "start_seconds": 165.52,
+    "end_seconds": 169.68,
+    "text": "button next to anything that looks"
+  },
+  {
+    "segment_id": "yt-00061",
+    "start_seconds": 167.04,
+    "end_seconds": 172.4,
+    "text": "relevant, and it's added to my library"
+  },
+  {
+    "segment_id": "yt-00062",
+    "start_seconds": 169.68,
+    "end_seconds": 175.24,
+    "text": "instantly. If I'm using Scholar Labs,"
+  },
+  {
+    "segment_id": "yt-00063",
+    "start_seconds": 172.4,
+    "end_seconds": 179.52,
+    "text": "the AI summary can be imported as a note"
+  },
+  {
+    "segment_id": "yt-00064",
+    "start_seconds": 175.24,
+    "end_seconds": 179.52,
+    "text": "as well, which is useful later."
+  },
+  {
+    "segment_id": "yt-00065",
+    "start_seconds": 183.16,
+    "end_seconds": 189.239,
+    "text": "Once I've found a few references, I'll"
+  },
+  {
+    "segment_id": "yt-00066",
+    "start_seconds": 185.68,
+    "end_seconds": 191.6,
+    "text": "actually use those to find more. The"
+  },
+  {
+    "segment_id": "yt-00067",
+    "start_seconds": 189.239,
+    "end_seconds": 193.92,
+    "text": "simplest way is to check what sites a"
+  },
+  {
+    "segment_id": "yt-00068",
+    "start_seconds": 191.6,
+    "end_seconds": 196.4,
+    "text": "paper in Google Scholar,"
+  },
+  {
+    "segment_id": "yt-00069",
+    "start_seconds": 193.92,
+    "end_seconds": 199.239,
+    "text": "but the most powerful discovery happens"
+  },
+  {
+    "segment_id": "yt-00070",
+    "start_seconds": 196.4,
+    "end_seconds": 201.959,
+    "text": "through visual tools that map citation"
+  },
+  {
+    "segment_id": "yt-00071",
+    "start_seconds": 199.239,
+    "end_seconds": 203.92,
+    "text": "networks. Tools like Connected Papers,"
+  },
+  {
+    "segment_id": "yt-00072",
+    "start_seconds": 201.959,
+    "end_seconds": 206.08,
+    "text": "Litmaps, and Research Rabbit that"
+  },
+  {
+    "segment_id": "yt-00073",
+    "start_seconds": 203.92,
+    "end_seconds": 208.04,
+    "text": "specialize in doing this."
+  },
+  {
+    "segment_id": "yt-00074",
+    "start_seconds": 206.08,
+    "end_seconds": 210.12,
+    "text": "Connected Papers shows you a visual"
+  },
+  {
+    "segment_id": "yt-00075",
+    "start_seconds": 208.04,
+    "end_seconds": 211.959,
+    "text": "graph of papers related to one you"
+  },
+  {
+    "segment_id": "yt-00076",
+    "start_seconds": 210.12,
+    "end_seconds": 214.68,
+    "text": "already have."
+  },
+  {
+    "segment_id": "yt-00077",
+    "start_seconds": 211.959,
+    "end_seconds": 217.04,
+    "text": "Click any paper in the graph,"
+  },
+  {
+    "segment_id": "yt-00078",
+    "start_seconds": 214.68,
+    "end_seconds": 218.92,
+    "text": "and the Paperpile button is there, which"
+  },
+  {
+    "segment_id": "yt-00079",
+    "start_seconds": 217.04,
+    "end_seconds": 221.92,
+    "text": "you can add without leaving the"
+  },
+  {
+    "segment_id": "yt-00080",
+    "start_seconds": 218.92,
+    "end_seconds": 221.92,
+    "text": "visualization."
+  },
+  {
+    "segment_id": "yt-00081",
+    "start_seconds": 222.68,
+    "end_seconds": 228.0,
+    "text": "Litmaps builds literature maps showing"
+  },
+  {
+    "segment_id": "yt-00082",
+    "start_seconds": 225.08,
+    "end_seconds": 230.04,
+    "text": "connections between papers. Paperpile"
+  },
+  {
+    "segment_id": "yt-00083",
+    "start_seconds": 228.0,
+    "end_seconds": 234.44,
+    "text": "buttons appear throughout, so you can"
+  },
+  {
+    "segment_id": "yt-00084",
+    "start_seconds": 230.04,
+    "end_seconds": 234.44,
+    "text": "build your library as you explore."
+  },
+  {
+    "segment_id": "yt-00085",
+    "start_seconds": 237.28,
+    "end_seconds": 241.72,
+    "text": "Research Rabbit suggests related work"
+  },
+  {
+    "segment_id": "yt-00086",
+    "start_seconds": 239.56,
+    "end_seconds": 244.48,
+    "text": "either from keyword search or by"
+  },
+  {
+    "segment_id": "yt-00087",
+    "start_seconds": 241.72,
+    "end_seconds": 247.2,
+    "text": "importing papers that you already know."
+  },
+  {
+    "segment_id": "yt-00088",
+    "start_seconds": 244.48,
+    "end_seconds": 249.16,
+    "text": "And it's the same pattern. When I see"
+  },
+  {
+    "segment_id": "yt-00089",
+    "start_seconds": 247.2,
+    "end_seconds": 251.84,
+    "text": "something useful, I add it to my"
+  },
+  {
+    "segment_id": "yt-00090",
+    "start_seconds": 249.16,
+    "end_seconds": 251.84,
+    "text": "library."
+  },
+  {
+    "segment_id": "yt-00091",
+    "start_seconds": 253.72,
+    "end_seconds": 258.04,
+    "text": "These tools surface papers you wouldn't"
+  },
+  {
+    "segment_id": "yt-00092",
+    "start_seconds": 255.8,
+    "end_seconds": 260.959,
+    "text": "otherwise find through keyword search"
+  },
+  {
+    "segment_id": "yt-00093",
+    "start_seconds": 258.04,
+    "end_seconds": 263.52,
+    "text": "alone. With Paperpile, you can make sure"
+  },
+  {
+    "segment_id": "yt-00094",
+    "start_seconds": 260.959,
+    "end_seconds": 265.16,
+    "text": "everything gets saved as you go. And of"
+  },
+  {
+    "segment_id": "yt-00095",
+    "start_seconds": 263.52,
+    "end_seconds": 267.28,
+    "text": "course, if you're working with a larger"
+  },
+  {
+    "segment_id": "yt-00096",
+    "start_seconds": 265.16,
+    "end_seconds": 269.32,
+    "text": "set, you can export a collection of"
+  },
+  {
+    "segment_id": "yt-00097",
+    "start_seconds": 267.28,
+    "end_seconds": 273.72,
+    "text": "papers from any of these tools and"
+  },
+  {
+    "segment_id": "yt-00098",
+    "start_seconds": 269.32,
+    "end_seconds": 273.72,
+    "text": "import it into Paperpile in one go."
+  },
+  {
+    "segment_id": "yt-00099",
+    "start_seconds": 277.4,
+    "end_seconds": 282.84,
+    "text": "Research in 2026 means jumping between"
+  },
+  {
+    "segment_id": "yt-00100",
+    "start_seconds": 280.2,
+    "end_seconds": 285.48,
+    "text": "traditional databases, AI-powered search"
+  },
+  {
+    "segment_id": "yt-00101",
+    "start_seconds": 282.84,
+    "end_seconds": 288.12,
+    "text": "engines, and citation network tools."
+  },
+  {
+    "segment_id": "yt-00102",
+    "start_seconds": 285.48,
+    "end_seconds": 290.28,
+    "text": "Now, Paperpile brings it all together."
+  },
+  {
+    "segment_id": "yt-00103",
+    "start_seconds": 288.12,
+    "end_seconds": 293.08,
+    "text": "Wherever you find papers, they end up in"
+  },
+  {
+    "segment_id": "yt-00104",
+    "start_seconds": 290.28,
+    "end_seconds": 296.72,
+    "text": "one organized library, ready to read,"
+  },
+  {
+    "segment_id": "yt-00105",
+    "start_seconds": 293.08,
+    "end_seconds": 296.72,
+    "text": "annotate, and cite."
+  }
+]

@@ -1,8 +1,13 @@
 {
-  "editorial_model": "gpt-6.1-sol",
-  "writing_model": "gpt-6.1-sol",
-  "transcription_model": "whisper-1",
-  "pricing_note": "Costs are reported from configured estimates when present; otherwise cost is null and explicitly unknown.",
+  "text_backend": "codex-cli",
+  "editorial_model": "gpt-5.6-sol",
+  "writing_model": "gpt-5.6-sol",
+  "reasoning_effort": "high",
+  "transcription_backend": "mlx-whisper",
+  "transcription_model": "mlx-community/whisper-turbo",
+  "max_model_attempts": 2,
+  "paid_fallback_enabled": false,
+  "pricing_note": "Codex uses ChatGPT plan allowance and has no per-run USD estimate. Local MLX transcription has no incremental API charge.",
   "usd_per_million_input_tokens": null,
   "usd_per_million_output_tokens": null,
   "usd_per_audio_minute": null

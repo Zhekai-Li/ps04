@@ -1,0 +1,57 @@
+{
+  "generated_at": "2026-10-10T20:52:43.432Z",
+  "design": {
+    "aspect_ratio": "16:9",
+    "style": "academic editorial + strategy consulting",
+    "font_family": "Arial",
+    "font_sizes_pt": [
+      28,
+      18,
+      11
+    ],
+    "palette": {
+      "ink": "#10263F",
+      "navy": "#153A52",
+      "teal": "#0F7C7A",
+      "mint": "#E1F2EE",
+      "amber": "#E8A33B",
+      "amberSoft": "#F8EBCF",
+      "coral": "#D76A5D",
+      "coralSoft": "#F6DFDA",
+      "paper": "#F8F7F3",
+      "white": "#FFFFFF",
+      "fog": "#E9EEF1",
+      "muted": "#607180",
+      "line": "#C6D0D6",
+      "grid": "#E4E9EC"
+    },
+    "safeguards": [
+      "36pt safe margins",
+      "one visual argument per slide",
+      "no circular arrow containers",
+      "three-level typography only",
+      "chart axes rasterized and visually refined",
+      "no internal claim IDs in audience-facing slides"
+    ]
+  },
+  "decks": [
+    {
+      "piece_id": "01",
+      "title": "Use AI to Expand the Search Space, Not Choose the Research Bet",
+      "slide_count": 8,
+      "path": "/Users/zhekaili/Documents/1125/Lesson09/runs/live-20261010T142614Z-b7aaa14e/package/video_decks/01-scholar-in-the-loop-final-v2.pptx"
+    },
+    {
+      "piece_id": "02",
+      "title": "Fluent Reasoning Is Not Provenance: Build a Verification Layer",
+      "slide_count": 8,
+      "path": "/Users/zhekaili/Documents/1125/Lesson09/runs/live-20261010T142614Z-b7aaa14e/package/video_decks/02-scholar-in-the-loop-final-v2.pptx"
+    },
+    {
+      "piece_id": "03",
+      "title": "Preserve Responsibility by Recording the Research Process",
+      "slide_count": 8,
+      "path": "/Users/zhekaili/Documents/1125/Lesson09/runs/live-20261010T142614Z-b7aaa14e/package/video_decks/03-scholar-in-the-loop-final-v2.pptx"
+    }
+  ]
+}

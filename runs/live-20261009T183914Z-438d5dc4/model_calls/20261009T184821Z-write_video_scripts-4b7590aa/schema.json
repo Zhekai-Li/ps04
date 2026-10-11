@@ -1,0 +1,43 @@
+{
+  "$defs": {
+    "WrittenPiece": {
+      "additionalProperties": false,
+      "properties": {
+        "piece_id": {
+          "enum": [
+            "01",
+            "02",
+            "03"
+          ],
+          "title": "Piece Id",
+          "type": "string"
+        },
+        "markdown": {
+          "title": "Markdown",
+          "type": "string"
+        }
+      },
+      "required": [
+        "piece_id",
+        "markdown"
+      ],
+      "title": "WrittenPiece",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "pieces": {
+      "items": {
+        "$ref": "#/$defs/WrittenPiece"
+      },
+      "title": "Pieces",
+      "type": "array"
+    }
+  },
+  "required": [
+    "pieces"
+  ],
+  "title": "WrittenBatch",
+  "type": "object"
+}

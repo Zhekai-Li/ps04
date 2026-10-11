@@ -1,0 +1,77 @@
+{
+  "audited_at": "2026-10-10T22:43:00Z",
+  "scope": "three final audience-video decks and exported MP4 files",
+  "source_slide_audit": {
+    "slide_count": 24,
+    "overflow_findings": 0,
+    "font_families": [
+      "Arial, Helvetica, sans-serif"
+    ],
+    "font_sizes_css_px": [
+      "14.6667px",
+      "24px",
+      "37.3333px"
+    ],
+    "audience_facing_video_numbers": 0,
+    "audience_facing_claim_ids": 0,
+    "coordinate_charts": 0
+  },
+  "design_system": {
+    "font_sizes_pt": [
+      28,
+      18,
+      11
+    ],
+    "safe_margin_pt": 42,
+    "card_padding_pt": "20–24",
+    "chromatic_roles": [
+      "ink/navy",
+      "teal",
+      "sand",
+      "warm paper"
+    ],
+    "shadows": false
+  },
+  "mp4_results": [
+    {
+      "piece_id": "01",
+      "revision": "final_design_v3_1",
+      "duration_seconds": 212.992,
+      "resolution": "1920x1080",
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "audio_channels": 1,
+      "subtitle_codec": "mov_text",
+      "caption_blocks": 83,
+      "silence_intervals_over_2_seconds": 0,
+      "full_resolution_spot_check": "scene 2 owner card passed"
+    },
+    {
+      "piece_id": "02",
+      "revision": "final_design_v3",
+      "duration_seconds": 208.027574,
+      "resolution": "1920x1080",
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "audio_channels": 2,
+      "subtitle_codec": "mov_text",
+      "caption_blocks": 106,
+      "silence_intervals_over_2_seconds": 0,
+      "full_resolution_spot_check": "contact sheet passed"
+    },
+    {
+      "piece_id": "03",
+      "revision": "final_design_v3_1",
+      "duration_seconds": 232.385306,
+      "resolution": "1920x1080",
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "audio_channels": 2,
+      "subtitle_codec": "mov_text",
+      "caption_blocks": 106,
+      "silence_intervals_over_2_seconds": 0,
+      "full_resolution_spot_check": "scene 6 seven-field log passed"
+    }
+  ],
+  "result": "passed"
+}

@@ -1,0 +1,2900 @@
+[
+  {
+    "segment_id": "tr-00001",
+    "start_seconds": 4.1,
+    "end_seconds": 10.5,
+    "text": "Okay, we're here at Periodic. We're here today with Liam Mendoj from Periodic. Welcome and thanks for having us at your..."
+  },
+  {
+    "segment_id": "tr-00002",
+    "start_seconds": 10.5,
+    "end_seconds": 18.48,
+    "text": "Yeah, great to be here and yeah, thanks for coming in. I want to start off with one of these like quotes that I love from your website."
+  },
+  {
+    "segment_id": "tr-00003",
+    "start_seconds": 18.68,
+    "end_seconds": 24.94,
+    "text": "It says, intelligence is necessary but not sufficient. New knowledge is created when ideas are found to be consistent with reality."
+  },
+  {
+    "segment_id": "tr-00004",
+    "start_seconds": 25.18,
+    "end_seconds": 37.38,
+    "text": "It seems so straightforward, but why is it non -obvious? I think that's sort of the thesis and premise behind Periodic that Doge and I thought when we were building this, which is you can't just think your way"
+  },
+  {
+    "segment_id": "tr-00005",
+    "start_seconds": 37.38,
+    "end_seconds": 49.52,
+    "text": "to a solution. The universe is so complicated that in order to actually push the frontier of knowledge and to make progress, you need to create these conjectures and then actually see whether or not it"
+  },
+  {
+    "segment_id": "tr-00006",
+    "start_seconds": 49.52,
+    "end_seconds": 61.68,
+    "text": "holds. No amount of rereading that textbook or paper and just thinking and like disappearing into a room is going to allow you to think through all possible experimental outcomes, expected"
+  },
+  {
+    "segment_id": "tr-00007",
+    "start_seconds": 61.68,
+    "end_seconds": 68.1,
+    "text": "and unexpected. And you really need this like iterative process. And that's our core belief for putting this together."
+  },
+  {
+    "segment_id": "tr-00008",
+    "start_seconds": 68.1,
+    "end_seconds": 77.52,
+    "text": "And that's why from the very beginning, we're like, we need to have the AI systems, the simulations of the physical world, but then also to build up the physical high -thruped experiment."
+  },
+  {
+    "segment_id": "tr-00009",
+    "start_seconds": 77.92,
+    "end_seconds": 87.0,
+    "text": "And we think a different type of intelligence emerges from that. I think it's also notable, like with OpenAI and Google, you don't have that resources in those big labs."
+  },
+  {
+    "segment_id": "tr-00010",
+    "start_seconds": 87.08,
+    "end_seconds": 93.16,
+    "text": "Like you have to come out and do your own thing because you are kind of inventing your own playbook as you go along."
+  },
+  {
+    "segment_id": "tr-00011",
+    "start_seconds": 93.68,
+    "end_seconds": 104.56,
+    "text": "Yeah, I mean, a team like this has never existed, I think. We tried to bring together cell state chemists, cell state physicists, experimentalists, theorists, hardware engineers, LLM experts, computer scientists."
+  },
+  {
+    "segment_id": "tr-00012",
+    "start_seconds": 105.48,
+    "end_seconds": 113.3,
+    "text": "And some of these technologies are very recent, like the high -throughput experimentation, the robotic arms have only been tried in the last three years or so."
+  },
+  {
+    "segment_id": "tr-00013",
+    "start_seconds": 113.56,
+    "end_seconds": 123.96,
+    "text": "The force field expertise, some of these force fields are also very recent. But yeah, we felt like having a lab is very important, having this focus and bringing all these people together to work together is very important."
+  },
+  {
+    "segment_id": "tr-00014",
+    "start_seconds": 125.1,
+    "end_seconds": 134.96,
+    "text": "And I guess like the closest examples from history are places like Bell Labs, where incredible theorists and experimentalists and chemists work together and achieved incredible things."
+  },
+  {
+    "segment_id": "tr-00015",
+    "start_seconds": 135.16,
+    "end_seconds": 141.52,
+    "text": "So we're trying to do the same here, yeah. I want to talk about force fields in a bit, but before we get to that, yeah, like what are they?"
+  },
+  {
+    "segment_id": "tr-00016",
+    "start_seconds": 141.52,
+    "end_seconds": 152.16,
+    "text": "Anyway, before we get to that, I think one of the, just for context, one of the biggest differences between, you know, some of our audience are AI, you know, engineers, and some of the audience is scientists."
+  },
+  {
+    "segment_id": "tr-00017",
+    "start_seconds": 152.66,
+    "end_seconds": 159.12,
+    "text": "So let's go and talk to the engineers real quick and say, like, what is the difference if you've been working at OpenAI as a big lab?"
+  },
+  {
+    "segment_id": "tr-00018",
+    "start_seconds": 159.12,
+    "end_seconds": 168.78,
+    "text": "What's the difference between what you do there and what is, you know, what is here? I think you've already hinted at this, but maybe explicitly, what's the, how do you have to reframe your thought process?"
+  },
+  {
+    "segment_id": "tr-00019",
+    "start_seconds": 168.78,
+    "end_seconds": 178.04,
+    "text": "Well, I mean, I think like one interesting thing is now our reinforcement learning environments literally derive from the environment, from our physical labs."
+  },
+  {
+    "segment_id": "tr-00020",
+    "start_seconds": 178.58,
+    "end_seconds": 190.88,
+    "text": "Our data comes from our physical labs, and this is sort of our ultimate truth. It's not enough just to do optimization against some answers that were known in some papers or textbooks"
+  },
+  {
+    "segment_id": "tr-00021",
+    "start_seconds": 190.88,
+    "end_seconds": 199.22,
+    "text": "because we're going beyond that. And I think that's one of the biggest differences. But along with that, there's issues of, say, decision -making under uncertainty."
+  },
+  {
+    "segment_id": "tr-00022",
+    "start_seconds": 199.42,
+    "end_seconds": 211.74,
+    "text": "So when you're doing optimization against math, there's a high precision to it. You're not really dealing with, you know, kind of like variants or uncertainties or, you know, aberrant measurements, whereas that's very key to our process."
+  },
+  {
+    "segment_id": "tr-00023",
+    "start_seconds": 211.94,
+    "end_seconds": 219.66,
+    "text": "Like, for example, when we are doing materials discovery loop, things don't come off the, out of the furnace labeled, right?"
+  },
+  {
+    "segment_id": "tr-00024",
+    "start_seconds": 219.66,
+    "end_seconds": 226.84,
+    "text": "Even the labeling process can be stochastic and noisy. And sometimes you'll have aberrations between different machines."
+  },
+  {
+    "segment_id": "tr-00025",
+    "start_seconds": 227.46,
+    "end_seconds": 235.94,
+    "text": "Maybe we'll have insufficient telemetry. So we thought we ran it at this temperature, but really the temperature was, you know, some delta away."
+  },
+  {
+    "segment_id": "tr-00026",
+    "start_seconds": 236.46,
+    "end_seconds": 246.34,
+    "text": "And an intelligence that can take in this noisy data and make intelligent decisions like a scientist would is a sort of a different set of reasoning strategies."
+  },
+  {
+    "segment_id": "tr-00027",
+    "start_seconds": 246.34,
+    "end_seconds": 258.8,
+    "text": "So I think there's a huge amount of commonalities. So the standard mid -training, reinforcement learning, the construction of tool -using agents, variance reduction, you"
+  },
+  {
+    "segment_id": "tr-00028",
+    "start_seconds": 258.8,
+    "end_seconds": 270.64,
+    "text": "know, making sure infra doesn't have mismatches between, like, training and inference. But we have to go beyond that and really think about how do you do accurate work when there's a high amount of uncertainty?"
+  },
+  {
+    "segment_id": "tr-00029",
+    "start_seconds": 270.92,
+    "end_seconds": 283.3,
+    "text": "How do you make really incredibly efficient use of a limited set of data? So we're scaling things up significantly, but still it's very different than a digital environment where you can arbitrarily add more"
+  },
+  {
+    "segment_id": "tr-00030",
+    "start_seconds": 283.3,
+    "end_seconds": 293.38,
+    "text": "environments or more rollouts. We don't have that same capacity. So sample efficiency is another key thing. This seems a little bit abstract to me, and it is a theme which has been on the science pods for a bit."
+  },
+  {
+    "segment_id": "tr-00031",
+    "start_seconds": 293.52,
+    "end_seconds": 303.82,
+    "text": "But I think it might be helpful when you talk about experimental uncertainty to explain, like, what would a specific process that you were doing experimentally look like?"
+  },
+  {
+    "segment_id": "tr-00032",
+    "start_seconds": 303.88,
+    "end_seconds": 316.06,
+    "text": "And, like, what would a human, how would a human approach this problem before we jump into how do you go into the AI side? Do you have, like, a specific example of a type of material you make and, like, what sort of uncertainty in the measurements you would experience"
+  },
+  {
+    "segment_id": "tr-00033",
+    "start_seconds": 316.06,
+    "end_seconds": 347.2,
+    "text": "in the process? More"
+  },
+  {
+    "segment_id": "tr-00034",
+    "start_seconds": 347.2,
+    "end_seconds": 358.1,
+    "text": "atoms than we could ever store on a computer. So clearly we'll have to go from the original number of dimensions and bits that represent the system to the number of bits we can fit in the computer."
+  },
+  {
+    "segment_id": "tr-00035",
+    "start_seconds": 358.78,
+    "end_seconds": 365.02,
+    "text": "And, you know, this was, I guess, the original premise of thermodynamics. They were originally really confused about how steam engines worked."
+  },
+  {
+    "segment_id": "tr-00036",
+    "start_seconds": 365.02,
+    "end_seconds": 371.58,
+    "text": "But then it turns out you can find, like, five or six thermodynamic variables that explain what's going on pretty well, which is incredible."
+  },
+  {
+    "segment_id": "tr-00037",
+    "start_seconds": 371.8,
+    "end_seconds": 379.4,
+    "text": "That's the beauty of physics. Like, you have a room full of atoms and there are, you know, 10 to the 23 or 10 to the 27."
+  },
+  {
+    "segment_id": "tr-00038",
+    "start_seconds": 379.54,
+    "end_seconds": 386.84,
+    "text": "There's something atoms in this room. And yet you need temperature and pressure and, you know, simple variables. And that tells you everything."
+  },
+  {
+    "segment_id": "tr-00039",
+    "start_seconds": 387.2,
+    "end_seconds": 395.04,
+    "text": "It tells you mostly what you need to know for most cases, right? So, like, let's say you make a material and you could do something like look at an x -ray structure."
+  },
+  {
+    "segment_id": "tr-00040",
+    "start_seconds": 395.42,
+    "end_seconds": 401.56,
+    "text": "And this thing is a very lossy projection, right? It's, like, not actually a structure."
+  },
+  {
+    "segment_id": "tr-00041",
+    "start_seconds": 402.0,
+    "end_seconds": 414.12,
+    "text": "Or it doesn't tell you the true structure. It tells you some principal components of that. But so, how would a human take these simple principal components and then kind of reason about them?"
+  },
+  {
+    "segment_id": "tr-00042",
+    "start_seconds": 414.24,
+    "end_seconds": 425.72,
+    "text": "And then how do you extend that to an AI? So, on the theoretical physics side, right, we've decided that energy, the average value of energy and the fluctuations of energy is very important."
+  },
+  {
+    "segment_id": "tr-00043",
+    "start_seconds": 426.04,
+    "end_seconds": 432.92,
+    "text": "So, a lot of thermodynamics has been derived from this. And then we realize reaction barriers are also very important. The kinetics is very important."
+  },
+  {
+    "segment_id": "tr-00044",
+    "start_seconds": 433.76,
+    "end_seconds": 441.12,
+    "text": "So, a human kind of tries to reason through this extremely complex system by coming up with some, you know, reduced dimensionality descriptors."
+  },
+  {
+    "segment_id": "tr-00045",
+    "start_seconds": 442.54,
+    "end_seconds": 452.3,
+    "text": "People also really like atomistic picture. Like, do you think about what the local neighborhoods look like? Whether they're from octahedra, tetrahedra, and that especially chemists really benefit from that?"
+  },
+  {
+    "segment_id": "tr-00046",
+    "start_seconds": 453.12,
+    "end_seconds": 462.32,
+    "text": "Okay. So, that's on the theoretical side. And on the experimental side, you would try to collect as much data as possible. So, you'd have a lab notebook and you'd write everything you see, et cetera."
+  },
+  {
+    "segment_id": "tr-00047",
+    "start_seconds": 462.74,
+    "end_seconds": 474.78,
+    "text": "But with the understanding, of course, that you'll miss a lot. So, like as Liam mentioned, there are all these issues that come up. For example, your furnace will degrade over time because as you're using the furnace, some of the things you're"
+  },
+  {
+    "segment_id": "tr-00048",
+    "start_seconds": 474.78,
+    "end_seconds": 484.78,
+    "text": "baking will evaporate and cover the heating element. So, every time you use a furnace, it gets worse and worse. Another issue is, like, you have a furnace, but the temperature isn't perfectly uniform."
+  },
+  {
+    "segment_id": "tr-00049",
+    "start_seconds": 485.0,
+    "end_seconds": 493.16,
+    "text": "So, where you put in the furnace will affect the result. We don't have this issue yet, but we will maybe someday. The optical instruments suffer a lot from vibrations."
+  },
+  {
+    "segment_id": "tr-00050",
+    "start_seconds": 493.48,
+    "end_seconds": 501.86,
+    "text": "So, like, every time somebody walks. Like, I remember when I was doing my PhD, one lab had this big issue because sometimes their results will be very different than other times."
+  },
+  {
+    "segment_id": "tr-00051",
+    "start_seconds": 501.86,
+    "end_seconds": 508.76,
+    "text": "And they brought it down to, at a certain time in the night, upstairs, somebody will be walking. And that vibration affected the laser setup."
+  },
+  {
+    "segment_id": "tr-00052",
+    "start_seconds": 509.7,
+    "end_seconds": 520.72,
+    "text": "So, yes, science is very hard, but that's what makes it special, right? Like, the other thing Liam and I have been talking about is a lot of the current improvements focus on math and coding and theoretical computer science because it's easier for LLMs."
+  },
+  {
+    "segment_id": "tr-00053",
+    "start_seconds": 520.96,
+    "end_seconds": 532.96,
+    "text": "But in real life, most things that require intelligence are actually more like science. Like, there's all the uncertainty, there's all the noise, there's all the missing context, but you have to be the intelligent being and figure out what to do next."
+  },
+  {
+    "segment_id": "tr-00054",
+    "start_seconds": 533.28,
+    "end_seconds": 544.52,
+    "text": "I think, like, a really interesting point to build on that, too, is the optimal reasoning strategies to do math, to do theoretical computer science, to do these types of things, may not be the optimal reasoning strategies to do science."
+  },
+  {
+    "segment_id": "tr-00055",
+    "start_seconds": 545.34,
+    "end_seconds": 556.82,
+    "text": "How do you define a RL reward function when your output is a noisy crystal structure or some number of, I don't know, like collective variables or something?"
+  },
+  {
+    "segment_id": "tr-00056",
+    "start_seconds": 557.56,
+    "end_seconds": 567.26,
+    "text": "Maybe I'll give one part of the loop and I'll just kind of dig into that. So, as part of the materials discovery loop, we have to first figure out what to make."
+  },
+  {
+    "segment_id": "tr-00057",
+    "start_seconds": 567.26,
+    "end_seconds": 573.88,
+    "text": "So, that's the stability of the atoms together, as well as do we expect it to have the properties we want."
+  },
+  {
+    "segment_id": "tr-00058",
+    "start_seconds": 574.04,
+    "end_seconds": 582.18,
+    "text": "So, we don't just want a novel configuration of the atoms. We want them, when put together, to have the property of interest. Next is, how do you synthesize it?"
+  },
+  {
+    "segment_id": "tr-00059",
+    "start_seconds": 582.28,
+    "end_seconds": 593.14,
+    "text": "How do you actually make the thing? That's also non -trivial. So, even if you know something will hold together, the process of actually, you know, what are the processing conditions to actually bring that forth is highly non -trivial."
+  },
+  {
+    "segment_id": "tr-00060",
+    "start_seconds": 593.14,
+    "end_seconds": 600.76,
+    "text": "But, again, like the thing, once you've done those two steps and you've made something, it doesn't come off labeled. So, you actually have to characterize it and figure out what you made."
+  },
+  {
+    "segment_id": "tr-00061",
+    "start_seconds": 601.3,
+    "end_seconds": 613.36,
+    "text": "So, in that case, rather than thinking about the RL environment of we're just going to kick off an experiment, wait a couple days, and try to do like an update on like, did you find a room temperature"
+  },
+  {
+    "segment_id": "tr-00062",
+    "start_seconds": 613.36,
+    "end_seconds": 624.86,
+    "text": "superconductor or not? That's completely infeasible. I was going to ask that. Yeah, like you can't leave your GPU sitting for a week or something. Yeah, it's completely infeasible because you don't have enough agents to reduce the variance sufficiently."
+  },
+  {
+    "segment_id": "tr-00063",
+    "start_seconds": 625.2,
+    "end_seconds": 635.82,
+    "text": "The rollout time is going between the different instruments. You're waiting. There's just some physics limits of the experiments for like the actual like synthesis or furnace time."
+  },
+  {
+    "segment_id": "tr-00064",
+    "start_seconds": 636.16,
+    "end_seconds": 646.54,
+    "text": "So, it's just too slow, too noisy. So, the way we think about the AI program is basically constructing agents around this set of data that we've produced."
+  },
+  {
+    "segment_id": "tr-00065",
+    "start_seconds": 646.74,
+    "end_seconds": 655.26,
+    "text": "And so, in the case of characterization, you're looking for RL environments that are rewarding the identification of the phases actually present."
+  },
+  {
+    "segment_id": "tr-00066",
+    "start_seconds": 655.54,
+    "end_seconds": 665.24,
+    "text": "Are you able to, given the raw experimental data, fit that effectively? So, the way we do this is we'll shoot x -rays at the material."
+  },
+  {
+    "segment_id": "tr-00067",
+    "start_seconds": 665.82,
+    "end_seconds": 672.38,
+    "text": "X -rays have a frequency or a wavelength roughly measurable or commensurate to the spacing between atoms."
+  },
+  {
+    "segment_id": "tr-00068",
+    "start_seconds": 672.38,
+    "end_seconds": 682.12,
+    "text": "So, you get nice diffraction patterns that kind of give a fingerprint of the crystal structure. And doing this identification of what actually is present is highly non -trivial."
+  },
+  {
+    "segment_id": "tr-00069",
+    "start_seconds": 682.22,
+    "end_seconds": 694.38,
+    "text": "And so, some of our early AI work has been on basically producing systems to do this. And this allows us to move much more quickly, too, because if you're running so many experiments, you"
+  },
+  {
+    "segment_id": "tr-00070",
+    "start_seconds": 694.38,
+    "end_seconds": 706.02,
+    "text": "really quickly become bottlenecked on your ability to understand what was produced. But again, now, the reinforcement learning environment is fairly straightforward, which is you're going to reward the identification of the phases present."
+  },
+  {
+    "segment_id": "tr-00071",
+    "start_seconds": 706.48,
+    "end_seconds": 718.0,
+    "text": "You're going to penalize spurious phases or things that don't have any like real chemical plausibility. So, that's like a little succinct thing where you can kind of do this for the different pieces."
+  },
+  {
+    "segment_id": "tr-00072",
+    "start_seconds": 718.0,
+    "end_seconds": 730.2,
+    "text": "And when you stitch this together, that's the end -to -end discovery loop. Maybe like another piece would be as we build up a large basket of experimental data, you can think of another"
+  },
+  {
+    "segment_id": "tr-00073",
+    "start_seconds": 730.2,
+    "end_seconds": 738.9,
+    "text": "thing of basically like timestamping the state of the world. So, you could say at this date, this was our experimental evidence up until that point."
+  },
+  {
+    "segment_id": "tr-00074",
+    "start_seconds": 738.9,
+    "end_seconds": 750.94,
+    "text": "And you can construct reinforcement learning environments where you say, okay, given that body of experimental evidence and given the choices, what was like the next choice that the"
+  },
+  {
+    "segment_id": "tr-00075",
+    "start_seconds": 750.94,
+    "end_seconds": 761.2,
+    "text": "scientists made or what was an outcome of that experiment? And this is really interesting, too, because this allows us to do types of programs that would be harder externally."
+  },
+  {
+    "segment_id": "tr-00076",
+    "start_seconds": 761.5,
+    "end_seconds": 773.58,
+    "text": "Because if the pre -trained model has already memorized some of this data, and then you try to do reinforcement learning on that, if it already knows the answer and you construct reinforcement learning tasks that depend on"
+  },
+  {
+    "segment_id": "tr-00077",
+    "start_seconds": 773.58,
+    "end_seconds": 782.4,
+    "text": "that answer, it can fake work. So, and then, I mean, because it's like, oh, well, it already knows the answer, so it doesn't actually have to do the hard physics reasoning."
+  },
+  {
+    "segment_id": "tr-00078",
+    "start_seconds": 782.58,
+    "end_seconds": 790.64,
+    "text": "It doesn't have to actually do the calculation simulations. And it gets to the right answer. And then you reinforce that policy and you upweight those reasoning strategies."
+  },
+  {
+    "segment_id": "tr-00079",
+    "start_seconds": 790.94,
+    "end_seconds": 802.94,
+    "text": "Those reasoning strategies will not generalize to novel systems. So, it's not useful to us. But as we build up baskets of experimental data and, like, stitching things together, having the lineage through the whole process, that gives"
+  },
+  {
+    "segment_id": "tr-00080",
+    "start_seconds": 802.94,
+    "end_seconds": 810.64,
+    "text": "us the ability to construct new types of environments that are just not plausible elsewhere. I want to ask my question, but I'm worried that I'm taking it off the rails."
+  },
+  {
+    "segment_id": "tr-00081",
+    "start_seconds": 810.78,
+    "end_seconds": 818.44,
+    "text": "I'm just going to go for it because, again, I come from the non -scientists, but engineering, I'm familiar with the ML side, but not the physics side."
+  },
+  {
+    "segment_id": "tr-00082",
+    "start_seconds": 818.44,
+    "end_seconds": 827.24,
+    "text": "Okay, there's a few versions of this, but I think the basic question is, don't we have, like, most of the laws of physics worked out?"
+  },
+  {
+    "segment_id": "tr-00083",
+    "start_seconds": 827.92,
+    "end_seconds": 835.94,
+    "text": "And, like, how come we don't have perfect simulators already? Oh, that's a great question. This is, like, very basic, like, and he was like, ha, ha, ha, that's cute."
+  },
+  {
+    "segment_id": "tr-00084",
+    "start_seconds": 836.24,
+    "end_seconds": 846.92,
+    "text": "But, like, I'm like, dude, like, I have all these physics books. What do you mean? What do you mean we're not done? Yeah, so there are a couple of things going on here, right?"
+  },
+  {
+    "segment_id": "tr-00085",
+    "start_seconds": 846.92,
+    "end_seconds": 859.18,
+    "text": "So, I think, first of all, we're definitely not done with any of the laws of physics. Like, even the... Like, a quantum scale, okay, and, like, maybe, like, you know, very, very large scale, but, like, at human scale, at, like, you know, material"
+  },
+  {
+    "segment_id": "tr-00086",
+    "start_seconds": 859.18,
+    "end_seconds": 867.64,
+    "text": "scale, like, what's left? We're not... So, it's a really good question. And it's very interesting why we're not done yet, right?"
+  },
+  {
+    "segment_id": "tr-00087",
+    "start_seconds": 868.66,
+    "end_seconds": 878.68,
+    "text": "So, there's a very common story people talk about. Like, when Dirac was figuring out quantum mechanics, like, late 1920s, he wrote a textbook about quantum mechanics."
+  },
+  {
+    "segment_id": "tr-00088",
+    "start_seconds": 878.84,
+    "end_seconds": 887.3,
+    "text": "And he kind of framed it as it's all done. And then there's a phrase people like to quote. I'm not sure, actually, how accurate it is, but apparently Dirac said, the rest is chemistry."
+  },
+  {
+    "segment_id": "tr-00089",
+    "start_seconds": 887.86,
+    "end_seconds": 894.3,
+    "text": "The idea being, like, he could solve the hydrogen atom. Just compose everything. Yeah, he could maybe solve, like, a chain of 1D hydrogen atoms."
+  },
+  {
+    "segment_id": "tr-00090",
+    "start_seconds": 894.52,
+    "end_seconds": 900.74,
+    "text": "But then he cannot currently solve, say, nitrogen interacting with oxygen. But that's okay. That's just chemistry. Yeah."
+  },
+  {
+    "segment_id": "tr-00091",
+    "start_seconds": 901.02,
+    "end_seconds": 907.66,
+    "text": "Physics really... Physicists really love single, like, atom... Really simple systems. Simple systems. And that's all you can solve. Spherical cow."
+  },
+  {
+    "segment_id": "tr-00092",
+    "start_seconds": 907.88,
+    "end_seconds": 916.58,
+    "text": "Yeah, yeah. Spherical cow. But it turns out, I think what we learned in the last hundred years is, first of all, that's not true. It's not, like, a simple extension of what it was to do with hydrogen."
+  },
+  {
+    "segment_id": "tr-00093",
+    "start_seconds": 917.28,
+    "end_seconds": 924.24,
+    "text": "And it's not just... The rest is not just chemistry. There's actually a lot of physics there. I mean, I guess one of the things we still haven't figured out is high -temperature superconductivity."
+  },
+  {
+    "segment_id": "tr-00094",
+    "start_seconds": 924.62,
+    "end_seconds": 932.12,
+    "text": "But there are a lot of other... And high for you is, like, 175, 200... When people say high -temperature superconductivity, what they mean there is unconventional superconductivity."
+  },
+  {
+    "segment_id": "tr-00095",
+    "start_seconds": 932.26,
+    "end_seconds": 939.8,
+    "text": "So there's the conventional superconductivity that's just mainly driven by electron -phonon coupling. And in that case, you can kind of see the isotope effect."
+  },
+  {
+    "segment_id": "tr-00096",
+    "start_seconds": 939.92,
+    "end_seconds": 947.08,
+    "text": "Like, if you take the same system but just different weight for one of the elements, you can see the superconducting temperature drops at the rate you expect."
+  },
+  {
+    "segment_id": "tr-00097",
+    "start_seconds": 947.3,
+    "end_seconds": 955.7,
+    "text": "So that one is conventional. But then higher -temperature superconductors, like coupe rates, like the ones that are above 77 Kelvin, like 93 Kelvin, turns out don't obey that physics."
+  },
+  {
+    "segment_id": "tr-00098",
+    "start_seconds": 955.9,
+    "end_seconds": 965.76,
+    "text": "But we don't know what physics they obey. They're just incredible superconductors. But it's not just that. So that definitely is one of these, like, very popular topics we don't know the theory for yet."
+  },
+  {
+    "segment_id": "tr-00099",
+    "start_seconds": 965.88,
+    "end_seconds": 973.4,
+    "text": "But there's so many other things we don't understand. Like, for example, even strong correlation in simple quantum mechanical systems we cannot simulate yet."
+  },
+  {
+    "segment_id": "tr-00100",
+    "start_seconds": 974.32,
+    "end_seconds": 983.92,
+    "text": "Density functional theory is a very powerful tool. It's incredibly accurate on some things. But as soon as there's, like, some strong electron correlation, it actually fails to capture some of the effects."
+  },
+  {
+    "segment_id": "tr-00101",
+    "start_seconds": 984.64,
+    "end_seconds": 992.86,
+    "text": "I mean, there's so much to figure out. That's why I'm really excited for AI to be applied to this field. Because theoretically, computationally, and experimentally, there's so much to figure out."
+  },
+  {
+    "segment_id": "tr-00102",
+    "start_seconds": 992.98,
+    "end_seconds": 1001.5,
+    "text": "And every improvement we make here should improve human life. Because, you know, the better we can understand materials, solid state physics, the better devices we can make for them."
+  },
+  {
+    "segment_id": "tr-00103",
+    "start_seconds": 1001.5,
+    "end_seconds": 1009.7,
+    "text": "There's this famous quote by Phil Anderson, which is, more is different. Which is basically, you may understand all the basic laws of something."
+  },
+  {
+    "segment_id": "tr-00104",
+    "start_seconds": 1009.92,
+    "end_seconds": 1017.28,
+    "text": "But when you add many things, they behave qualitatively differently from how the simple, like, physics should tell you."
+  },
+  {
+    "segment_id": "tr-00105",
+    "start_seconds": 1017.48,
+    "end_seconds": 1023.88,
+    "text": "So understanding how lots of things behave together, it seems like it should be simple. Like, beginning laws are simple."
+  },
+  {
+    "segment_id": "tr-00106",
+    "start_seconds": 1023.94,
+    "end_seconds": 1030.66,
+    "text": "But the collective behavior is so complicated that it's really hard to model. It's, like, emergent and universal, which is crazy."
+  },
+  {
+    "segment_id": "tr-00107",
+    "start_seconds": 1030.66,
+    "end_seconds": 1039.76,
+    "text": "And we're also seeing this with deep learning models, right? Like, we see power laws everywhere in deep learning. We don't understand. But it's, like, it's very reminiscent of physics, where there's emergence and universality."
+  },
+  {
+    "segment_id": "tr-00108",
+    "start_seconds": 1040.74,
+    "end_seconds": 1053.1,
+    "text": "There's been many theory papers in the physics world about emergence and neural networks. Yeah, absolutely, yes. Yeah. And then my other follow -up question was also just on the process of, let's call it the process"
+  },
+  {
+    "segment_id": "tr-00109",
+    "start_seconds": 1053.1,
+    "end_seconds": 1061.12,
+    "text": "and the end result. Like, let's call it, like, you want to have these properties that you're targeting for materials. And then you have to figure out the process to get there."
+  },
+  {
+    "segment_id": "tr-00110",
+    "start_seconds": 1061.52,
+    "end_seconds": 1070.72,
+    "text": "Is it worth separating these things so that you can have, like, you just train a model that perfectly reverse engineers any process whatsoever, given whatever theoretical end state you want?"
+  },
+  {
+    "segment_id": "tr-00111",
+    "start_seconds": 1071.18,
+    "end_seconds": 1080.92,
+    "text": "Is that meaningful? Maybe going back to the conversation we had about how, since there are more than Avogadro's number of atoms, we'll never know the exact context of what happened."
+  },
+  {
+    "segment_id": "tr-00112",
+    "start_seconds": 1081.18,
+    "end_seconds": 1092.5,
+    "text": "I think there might be a reason why we'll never be able to reverse engineer everything perfectly. But we're just trying to reverse engineer sufficiently to be able to improve the performance of the material, basically."
+  },
+  {
+    "segment_id": "tr-00113",
+    "start_seconds": 1092.5,
+    "end_seconds": 1102.5,
+    "text": "Yeah. What you're asking is, is there a forward model where you put in an input and you can predict the output and you want to create a surrogate model which can..."
+  },
+  {
+    "segment_id": "tr-00114",
+    "start_seconds": 1102.5,
+    "end_seconds": 1108.64,
+    "text": "Like, the input is, like, the final state of that, this configuration of atoms. And then the prediction is... Because then you can split up the work, almost."
+  },
+  {
+    "segment_id": "tr-00115",
+    "start_seconds": 1108.82,
+    "end_seconds": 1115.52,
+    "text": "Like, you can have one team do the process side, the other team do the property side. And then, you know, just raise them."
+  },
+  {
+    "segment_id": "tr-00116",
+    "start_seconds": 1115.52,
+    "end_seconds": 1124.0,
+    "text": "Yeah, you know, I think there's a lot of progress we can make in terms of these, like, you know, splitting up these agentic workflows to these different areas."
+  },
+  {
+    "segment_id": "tr-00117",
+    "start_seconds": 1124.4,
+    "end_seconds": 1134.4,
+    "text": "I think there's a lot of, like, empirical work we can make on synthesis prediction as well. Yeah. Where it's, like, you know, taking in that configuration of atoms, what tools can you use?"
+  },
+  {
+    "segment_id": "tr-00118",
+    "start_seconds": 1135.04,
+    "end_seconds": 1143.94,
+    "text": "Given this experimental evidence, given prior literature, prior papers, how do you actually get to these things? And you ultimately are testing, you know, are you able to actually replicate it or not?"
+  },
+  {
+    "segment_id": "tr-00119",
+    "start_seconds": 1143.94,
+    "end_seconds": 1154.22,
+    "text": "And the reason I say this maybe also is just thinking about it in terms of a company. You know, the way that TSMC is kind of, like, a fab for semis, but they don't design the semis."
+  },
+  {
+    "segment_id": "tr-00120",
+    "start_seconds": 1155.0,
+    "end_seconds": 1161.08,
+    "text": "You know, you could be the TSMC of materials where, like, people come to you with, like, well, here's what I want. And then, like, you can figure out the process."
+  },
+  {
+    "segment_id": "tr-00121",
+    "start_seconds": 1161.46,
+    "end_seconds": 1167.92,
+    "text": "Yeah, it's like a matter compiler. Yeah. It's like, given these requirements... Very Star Trek. Yeah, yeah, yeah."
+  },
+  {
+    "segment_id": "tr-00122",
+    "start_seconds": 1167.98,
+    "end_seconds": 1174.64,
+    "text": "But it's like, given these requirements, is this actually, like, a valid set of configurations? Can this exist? Is it a good objective function?"
+  },
+  {
+    "segment_id": "tr-00123",
+    "start_seconds": 1175.1,
+    "end_seconds": 1182.06,
+    "text": "I don't know. It's too big. Yeah. Well, I mean, we kind of talk about, like, one of our missions as, like, synthesis superintelligence."
+  },
+  {
+    "segment_id": "tr-00124",
+    "start_seconds": 1182.24,
+    "end_seconds": 1190.86,
+    "text": "So I think it's in line with this. Yeah. I want to double -click on something that you said a little while back, which was you talked about phases."
+  },
+  {
+    "segment_id": "tr-00125",
+    "start_seconds": 1191.36,
+    "end_seconds": 1197.82,
+    "text": "And I think this is, you know, going to Doge's comment about what is, like, emergence."
+  },
+  {
+    "segment_id": "tr-00126",
+    "start_seconds": 1198.04,
+    "end_seconds": 1207.86,
+    "text": "Like, the concept of a phase transition, I think, might be foreign to a lot of the audience. So can you explain what is a phase transition? And then why is this, like, a helpful signal for something like an RL environment?"
+  },
+  {
+    "segment_id": "tr-00127",
+    "start_seconds": 1208.32,
+    "end_seconds": 1217.8,
+    "text": "Phase transitions are fascinating. I mean, I think maybe the one that people can most easily relate to in their life is ice melting, probably, or water boiling."
+  },
+  {
+    "segment_id": "tr-00128",
+    "start_seconds": 1217.8,
+    "end_seconds": 1224.46,
+    "text": "Like, you know, you increase the temperature of ice, and it still looks like ice, and it behaves like ice."
+  },
+  {
+    "segment_id": "tr-00129",
+    "start_seconds": 1224.64,
+    "end_seconds": 1230.74,
+    "text": "But there's a certain temperature at which it just stops raising its temperature and then turns into liquid."
+  },
+  {
+    "segment_id": "tr-00130",
+    "start_seconds": 1230.98,
+    "end_seconds": 1237.54,
+    "text": "So it suddenly goes from this solid phase to the liquid phase. Another one that's very relevant to us, of course, is the Ising model."
+  },
+  {
+    "segment_id": "tr-00131",
+    "start_seconds": 1237.54,
+    "end_seconds": 1248.76,
+    "text": "And I think computer science and mathematicians also study this maybe under different names. But basically, you can have spins up and down, and they have different interaction terms if they're both up versus one is up, one is down."
+  },
+  {
+    "segment_id": "tr-00132",
+    "start_seconds": 1249.08,
+    "end_seconds": 1256.14,
+    "text": "And at high enough temperature, they're usually just randomly up or down, entropy wins. You lower the temperature, it's still looking the same."
+  },
+  {
+    "segment_id": "tr-00133",
+    "start_seconds": 1256.36,
+    "end_seconds": 1265.44,
+    "text": "But then at some point, suddenly they perfectly set aligning, yeah, the phase transition. Phase transition is really nice because it makes physicist's life easier for studying certain things."
+  },
+  {
+    "segment_id": "tr-00134",
+    "start_seconds": 1265.44,
+    "end_seconds": 1278.58,
+    "text": "They tend to have certain spatial correlations that really help us as well. Okay, so in our lab, phase transitions come about usually because we mix the precursors that are different crystals,"
+  },
+  {
+    "segment_id": "tr-00135",
+    "start_seconds": 1278.72,
+    "end_seconds": 1286.8,
+    "text": "basically. But then we raise the temperature or do something else to encourage them to react. And then atoms start reacting, and they form into this new crystal."
+  },
+  {
+    "segment_id": "tr-00136",
+    "start_seconds": 1288.38,
+    "end_seconds": 1295.14,
+    "text": "And this shows up in the XRD pattern because usually if the geometry of the atoms change drastically, the XRD pattern changes a lot."
+  },
+  {
+    "segment_id": "tr-00137",
+    "start_seconds": 1295.44,
+    "end_seconds": 1302.82,
+    "text": "But what really happens in like a typical practical materials discovery campaign is when you first try something, it doesn't work."
+  },
+  {
+    "segment_id": "tr-00138",
+    "start_seconds": 1303.06,
+    "end_seconds": 1309.2,
+    "text": "And the outcome isn't just like a clear yes or no, but it's usually like a very mixed phase. It will usually have some of the precursors."
+  },
+  {
+    "segment_id": "tr-00139",
+    "start_seconds": 1309.32,
+    "end_seconds": 1315.68,
+    "text": "It might have some amorphous phase. And then it will have like a bunch of phases that you maybe didn't try to make. So that becomes a challenge."
+  },
+  {
+    "segment_id": "tr-00140",
+    "start_seconds": 1315.82,
+    "end_seconds": 1327.82,
+    "text": "And that's why we found it very difficult to bring together simulations and AI to do the characterization. So the simulations can always say, oh, this phase doesn't look like what we predicted, but it's a slight variation of it."
+  },
+  {
+    "segment_id": "tr-00141",
+    "start_seconds": 1327.98,
+    "end_seconds": 1336.94,
+    "text": "Let me now do force field calculation to see if it's still stable. Or like the AI can say, based on the previous experiment on this one, this is probably not the phase we want to make."
+  },
+  {
+    "segment_id": "tr-00142",
+    "start_seconds": 1336.94,
+    "end_seconds": 1346.64,
+    "text": "So let's change the conditions. For listeners, XRD is X -ray diffraction, which you already described. Yeah, in some cases, there's like a phase that just hasn't been recorded before."
+  },
+  {
+    "segment_id": "tr-00143",
+    "start_seconds": 1346.86,
+    "end_seconds": 1356.84,
+    "text": "It doesn't exist in any papers or database. And so the AI has to actually go and sort of use these tools to say, well, what configuration atoms would actually explain these phases?"
+  },
+  {
+    "segment_id": "tr-00144",
+    "start_seconds": 1356.84,
+    "end_seconds": 1364.4,
+    "text": "But this becomes incredibly important for directing the scientific process because let's say we have a phase target in mind."
+  },
+  {
+    "segment_id": "tr-00145",
+    "start_seconds": 1364.52,
+    "end_seconds": 1371.86,
+    "text": "We really need to sort of hill climb that to get better measurements on that. So if it's 1 % and we're like, actually, we want to increase this phase parity."
+  },
+  {
+    "segment_id": "tr-00146",
+    "start_seconds": 1371.98,
+    "end_seconds": 1382.7,
+    "text": "We want to have a very good measurement on this experimental data to say, you know, what is present and what's not. So one of the advantages is you have just a distinct variable that you can just observe."
+  },
+  {
+    "segment_id": "tr-00147",
+    "start_seconds": 1382.7,
+    "end_seconds": 1391.48,
+    "text": "Like going back to the statement about how do you deal with uncertainty, one of the, it seems like part of your answer is you make your observable signature somewhat unambiguous."
+  },
+  {
+    "segment_id": "tr-00148",
+    "start_seconds": 1391.82,
+    "end_seconds": 1399.76,
+    "text": "There's no interpretation there. Is that right? Is that like the logic behind this? Or is this like literally you just need to define a new phase and so this is the thing you care about?"
+  },
+  {
+    "segment_id": "tr-00149",
+    "start_seconds": 1400.06,
+    "end_seconds": 1407.58,
+    "text": "I mean, I think there's still ambiguity in a lot of these cases. I mean, like, you know, a very dumb thing is like replicates. We run replicates, of course."
+  },
+  {
+    "segment_id": "tr-00150",
+    "start_seconds": 1407.58,
+    "end_seconds": 1417.7,
+    "text": "But no, I mean, I think there, you know, it's a challenging task because it's not just a fully deterministic. And there are like, well, there are like ambiguities and other things."
+  },
+  {
+    "segment_id": "tr-00151",
+    "start_seconds": 1418.68,
+    "end_seconds": 1431.5,
+    "text": "Two different phases can actually be consistent with the same pattern. And so I think that's why it's really important for the system to use some chemical intuition to say like, okay, well, this would be highly unlikely given"
+  },
+  {
+    "segment_id": "tr-00152",
+    "start_seconds": 1431.5,
+    "end_seconds": 1437.98,
+    "text": "the synthesis conditions, given the prior knowledge. And so that can be used to help disambiguate."
+  },
+  {
+    "segment_id": "tr-00153",
+    "start_seconds": 1438.18,
+    "end_seconds": 1446.56,
+    "text": "So you're somewhat injecting priors there based on what you expect. Yeah. I mean, I think thermodynamics is the biggest prior, right?"
+  },
+  {
+    "segment_id": "tr-00154",
+    "start_seconds": 1447.16,
+    "end_seconds": 1457.68,
+    "text": "And then physics is a big prior. Another one that we really benefit from here is multimodality or materials characterization. So like we can do XRD and yes, some phases might look similar on the XRD pattern."
+  },
+  {
+    "segment_id": "tr-00155",
+    "start_seconds": 1457.88,
+    "end_seconds": 1468.02,
+    "text": "But then we can also measure their electrical properties, magnetic properties. We can measure their morphology, like some kind of electron microscopy. And then some of the phases that look similar on XRD will look different in some of these dimensions."
+  },
+  {
+    "segment_id": "tr-00156",
+    "start_seconds": 1468.32,
+    "end_seconds": 1475.3,
+    "text": "And that kind of multimodality really helps. And again, AI is really helpful here because like humans have limited context and computation power as well."
+  },
+  {
+    "segment_id": "tr-00157",
+    "start_seconds": 1475.44,
+    "end_seconds": 1481.64,
+    "text": "So if you give humans like 10 different modalities at the same time and say, analyze these all consistently, it's a bit difficult."
+  },
+  {
+    "segment_id": "tr-00158",
+    "start_seconds": 1481.8,
+    "end_seconds": 1489.68,
+    "text": "But it's actually not super intelligent for an AI to do it. It's great. Yeah. Yeah. It's like the super intelligence is it can just do so much calculations."
+  },
+  {
+    "segment_id": "tr-00159",
+    "start_seconds": 1489.68,
+    "end_seconds": 1502.06,
+    "text": "It can look at everything. And this is kind of gets to that phrase about like this is better decision making under uncertainty, where now it's stitching together the signal across many different instruments, longitudinally"
+  },
+  {
+    "segment_id": "tr-00160",
+    "start_seconds": 1502.06,
+    "end_seconds": 1512.14,
+    "text": "across different experiments, across the replicates. And then kind of getting to this like underlying better model rather than just overindexing on one measurement from one instrument."
+  },
+  {
+    "segment_id": "tr-00161",
+    "start_seconds": 1512.7,
+    "end_seconds": 1520.56,
+    "text": "And let me just like, so, you know, you started, I think, a while ago also saying that there's just more data than you can fit in any reasonable computer or process or anything."
+  },
+  {
+    "segment_id": "tr-00162",
+    "start_seconds": 1520.88,
+    "end_seconds": 1528.04,
+    "text": "So at some point you have to throw out data, even though you have all these replicates, even though you have like presumably like 10 different ways to measure the same thing."
+  },
+  {
+    "segment_id": "tr-00163",
+    "start_seconds": 1528.04,
+    "end_seconds": 1536.48,
+    "text": "Because what if one of your temperature things is wrong? So like, when do you throw that out? How do you decide what to do? As a data hungry ML guy, I just want everything, right?"
+  },
+  {
+    "segment_id": "tr-00164",
+    "start_seconds": 1536.6,
+    "end_seconds": 1543.72,
+    "text": "And then I just, you know, waddle, learn everything. I don't know what I don't know. And it's just the machine at it. Yeah. So we don't throw in data."
+  },
+  {
+    "segment_id": "tr-00165",
+    "start_seconds": 1544.32,
+    "end_seconds": 1553.36,
+    "text": "I think maybe what I meant was potentially like if God was observing the experiment, there is more data in the experiment than humans can fit in a computer."
+  },
+  {
+    "segment_id": "tr-00166",
+    "start_seconds": 1553.94,
+    "end_seconds": 1562.6,
+    "text": "Unfortunately, us mortals cannot observe all the atoms. So even though there's more data than we could store, we actually can't access that data."
+  },
+  {
+    "segment_id": "tr-00167",
+    "start_seconds": 1562.68,
+    "end_seconds": 1571.08,
+    "text": "For example, I cannot trace all the atoms' positions. So unfortunately, we're still in a regime where any data we collect is very precious and we don't delete any of it."
+  },
+  {
+    "segment_id": "tr-00168",
+    "start_seconds": 1571.26,
+    "end_seconds": 1578.58,
+    "text": "Maybe a way of thinking of it to connect to the AI side is like, think about probing, like linear probing of a foundation model, right?"
+  },
+  {
+    "segment_id": "tr-00169",
+    "start_seconds": 1578.58,
+    "end_seconds": 1590.48,
+    "text": "This model has all of this data. So God has this entire picture of what the material is doing. And then the experiment is this little tiny linear probe, which has like eight bits or something of output."
+  },
+  {
+    "segment_id": "tr-00170",
+    "start_seconds": 1590.7,
+    "end_seconds": 1602.78,
+    "text": "And so you're taking this humongous thing and of course grading it down to a little bit of information. And then it's now either traditionally human's job or now your agent's job to reconstruct from those eight"
+  },
+  {
+    "segment_id": "tr-00171",
+    "start_seconds": 1602.78,
+    "end_seconds": 1611.76,
+    "text": "bits of information what is actually happening inside. Like it's an analog where you can't have full visibility over every parameter way, over every activation for that input."
+  },
+  {
+    "segment_id": "tr-00172",
+    "start_seconds": 1612.26,
+    "end_seconds": 1618.82,
+    "text": "Yeah, you're getting like some sort of subset on it or some like, you know, coarse grained features across the whole thing. Yeah."
+  },
+  {
+    "segment_id": "tr-00173",
+    "start_seconds": 1619.18,
+    "end_seconds": 1626.2,
+    "text": "But you probably find that you probably do find Maxwell's demon argument very interesting because that kind of..."
+  },
+  {
+    "segment_id": "tr-00174",
+    "start_seconds": 1626.2,
+    "end_seconds": 1638.24,
+    "text": "Can you recite it? Because I don't... He's mentioned it before. I keep forgetting. So, you know, in the 1800s, people realized that entropy of a system has to increase or like for a closed system"
+  },
+  {
+    "segment_id": "tr-00175",
+    "start_seconds": 1638.24,
+    "end_seconds": 1650.56,
+    "text": "or stay the same, but it can't go down. It's the second law of thermodynamics. And there was a thought experiment that was asking what would happen if there was a very tiny, all -knowing demon that"
+  },
+  {
+    "segment_id": "tr-00176",
+    "start_seconds": 1650.56,
+    "end_seconds": 1662.12,
+    "text": "could kind of look at atoms. And then whenever an atom had low energy, kind of open a door and let it into this other room and keep doing this to reduce entropy of the system, which would break second law thermodynamics."
+  },
+  {
+    "segment_id": "tr-00177",
+    "start_seconds": 1662.46,
+    "end_seconds": 1670.3,
+    "text": "And for a long time, I think there wasn't like a very satisfying answer for why that was the case. But then there was a more recent paper in the 1900s, more recently to us."
+  },
+  {
+    "segment_id": "tr-00178",
+    "start_seconds": 1671.12,
+    "end_seconds": 1681.9,
+    "text": "Landau came up with the argument that you'd have to spend energy to delete information. And Maxwell's demon would basically have access to so much information by doing this thing he's doing that he'd have to delete some."
+  },
+  {
+    "segment_id": "tr-00179",
+    "start_seconds": 1682.34,
+    "end_seconds": 1694.52,
+    "text": "And when he's deleting information, he'd have to spend energy, which would then make sure entropy increases. So even though we're not at the level where we can be Maxwell's demon, I think your question is like very visionary towards like a future"
+  },
+  {
+    "segment_id": "tr-00180",
+    "start_seconds": 1694.52,
+    "end_seconds": 1700.56,
+    "text": "where we store so much data we have to delete some. Yeah, no, I wasn't obviously going to that extent."
+  },
+  {
+    "segment_id": "tr-00181",
+    "start_seconds": 1701.24,
+    "end_seconds": 1713.24,
+    "text": "It does remind me of air conditioning. That's kind of how air conditioning works. But also, I think it's just like a question of like, why don't you just buy every sensor in the world and just like, you know, over ridiculously over instrument, over replicate everything."
+  },
+  {
+    "segment_id": "tr-00182",
+    "start_seconds": 1713.46,
+    "end_seconds": 1719.94,
+    "text": "How we do that. Right. Okay. Yeah. Okay. Yes. Right. All right. Yeah, I think it's a matter of like, yeah, exactly."
+  },
+  {
+    "segment_id": "tr-00183",
+    "start_seconds": 1720.26,
+    "end_seconds": 1729.44,
+    "text": "Are you getting visibility to individual atoms, which is infeasible? But no, we add a huge amount of telemetry and that basically reduces the number of like hidden variables, if you will."
+  },
+  {
+    "segment_id": "tr-00184",
+    "start_seconds": 1729.68,
+    "end_seconds": 1738.48,
+    "text": "Yeah. And just out of curiosity, it does like, do you worry that you're just in like California? Like, don't you want to do this in like Nepal and like Australia?"
+  },
+  {
+    "segment_id": "tr-00185",
+    "start_seconds": 1739.0,
+    "end_seconds": 1746.8,
+    "text": "Yeah, we could. I mean, we have plans to, you know, open more labs. Because obviously gravity and like, you know, where you face and where you are."
+  },
+  {
+    "segment_id": "tr-00186",
+    "start_seconds": 1746.8,
+    "end_seconds": 1758.8,
+    "text": "Matters. Also like expertise can change, right? Like here we have certain kinds of expertise. For example, Stanford physics department, engineering department has certain kinds of expertise that really helps us because we can hire from"
+  },
+  {
+    "segment_id": "tr-00187",
+    "start_seconds": 1758.8,
+    "end_seconds": 1766.78,
+    "text": "there. our resources can collaborate. Like, as you said, like geography can matter, but then different cities can have some different sets of expertise just in physics, chemistry."
+  },
+  {
+    "segment_id": "tr-00188",
+    "start_seconds": 1767.04,
+    "end_seconds": 1774.3,
+    "text": "Yeah, I mean, we have Zoom for that. It's just like your experiments are going to be affected by like where you are."
+  },
+  {
+    "segment_id": "tr-00189",
+    "start_seconds": 1774.96,
+    "end_seconds": 1782.44,
+    "text": "Yeah, I mean, the future of Periodic is not a single lab. I mean, I think you've got to hit up like your buddy Jeff and like go to space and like, you know."
+  },
+  {
+    "segment_id": "tr-00190",
+    "start_seconds": 1782.8,
+    "end_seconds": 1793.78,
+    "text": "Yeah, I mean, I think it's necessary to have this sort of network of labs and like, yeah, I think as they're just kind of pointing out, like there's an optimal place for each of these based on expertise or, you know, materials constraint."
+  },
+  {
+    "segment_id": "tr-00191",
+    "start_seconds": 1793.94,
+    "end_seconds": 1806.78,
+    "text": "There's many different constraints permitting. Okay, so one of them is, so one thing I've been curious about is how do you deal with computational tools or like how do you integrate computational tools into a decision -making workflow, especially"
+  },
+  {
+    "segment_id": "tr-00192",
+    "start_seconds": 1806.78,
+    "end_seconds": 1818.84,
+    "text": "when, let's say computation and experiment don't necessarily, you know, meet. It's also like theory in terms of like high -level like understanding and yeah,"
+  },
+  {
+    "segment_id": "tr-00193",
+    "start_seconds": 1819.12,
+    "end_seconds": 1831.14,
+    "text": "how does that sort of work together? Yeah, so I mean, one thing that's really helpful here is there are certain things that are easier to do in simulation and more accurate in simulation and certain things that are easier to do in"
+  },
+  {
+    "segment_id": "tr-00194",
+    "start_seconds": 1831.14,
+    "end_seconds": 1841.62,
+    "text": "experiment and more accurate in experiment. I mean, in general, of course, experiments are more accurate, but certain measurements are very hard to make with experiment, so you make a bad version of it, so you get inaccurate data."
+  },
+  {
+    "segment_id": "tr-00195",
+    "start_seconds": 1842.14,
+    "end_seconds": 1851.12,
+    "text": "Like, let me just give you some examples. So one of them is we use density functional theory to estimate formation enthalpy materials and..."
+  },
+  {
+    "segment_id": "tr-00196",
+    "start_seconds": 1851.12,
+    "end_seconds": 1862.42,
+    "text": "Sorry, quick pause. Can you explain density functional theory and formation entropy? Yeah. Sorry, enthalpy. Yeah, so density functional theory is probably the most commonly used simulation method for materials."
+  },
+  {
+    "segment_id": "tr-00197",
+    "start_seconds": 1863.6,
+    "end_seconds": 1875.78,
+    "text": "It kind of comes from Kohn -Honinberg theorem and Kohn got a Nobel Prize for this. When he realized that, sure, quantum mechanics is very expensive because you basically have this exponential Hilbert space for every wave"
+  },
+  {
+    "segment_id": "tr-00198",
+    "start_seconds": 1875.78,
+    "end_seconds": 1886.68,
+    "text": "function, so you have to solve this very difficult problem, especially as the system size grows. Kohn and Honinberg realized that, turns out, you don't need to deal with that exponential space."
+  },
+  {
+    "segment_id": "tr-00199",
+    "start_seconds": 1886.84,
+    "end_seconds": 1899.14,
+    "text": "All you have to do is think about the charge density, at least for the ground state of quantum mechanical systems. So it's actually, the theorem is pretty simple, so even, I think, an undergraduate in physics can understand, but"
+  },
+  {
+    "segment_id": "tr-00200",
+    "start_seconds": 1899.14,
+    "end_seconds": 1911.6,
+    "text": "the idea is all the properties of a quantum mechanical system ground state is a functional of the charge density, which is amazing because charge density is just this three -dimensional object, whereas"
+  },
+  {
+    "segment_id": "tr-00201",
+    "start_seconds": 1911.6,
+    "end_seconds": 1923.66,
+    "text": "the Hilbert space and wave functions are exponential. So that was a really interesting observation, and then Kohn published another paper, I think, with his postdoc, Scham, Kohn -Scham wave functions, kind of"
+  },
+  {
+    "segment_id": "tr-00202",
+    "start_seconds": 1923.66,
+    "end_seconds": 1933.22,
+    "text": "had a practical way to solving some approximation of quantum mechanical properties of materials. And today, we use it very much, both in our lab and externally."
+  },
+  {
+    "segment_id": "tr-00203",
+    "start_seconds": 1933.94,
+    "end_seconds": 1945.08,
+    "text": "And then formation enthalpy is one of the measurements we can make to understand the energy of the material. Like, basically, we want to ask, what is the energy that this material has?"
+  },
+  {
+    "segment_id": "tr-00204",
+    "start_seconds": 1945.24,
+    "end_seconds": 1952.94,
+    "text": "Because if that energy is higher than other materials these atoms can come into, then it's unlikely that this material will be able to be made."
+  },
+  {
+    "segment_id": "tr-00205",
+    "start_seconds": 1953.08,
+    "end_seconds": 1961.86,
+    "text": "So stable just means like it's on the convex hull of other materials and their energies. Was that clear enough, or should we..."
+  },
+  {
+    "segment_id": "tr-00206",
+    "start_seconds": 1961.86,
+    "end_seconds": 1973.98,
+    "text": "I mean, maybe a simple, like, high -level point. So, like, density functional theory is a way of taking something which is exponentially hard in number of electrons or number, you know, in your system size, and"
+  },
+  {
+    "segment_id": "tr-00207",
+    "start_seconds": 1973.98,
+    "end_seconds": 1981.36,
+    "text": "then reducing it approximately with some introduced error to, like, maybe usually an in -cubed approximation."
+  },
+  {
+    "segment_id": "tr-00208",
+    "start_seconds": 1982.18,
+    "end_seconds": 1988.66,
+    "text": "So now you can compute quantities which are, you know, you can now compute things which are just uncomputable but at some cost."
+  },
+  {
+    "segment_id": "tr-00209",
+    "start_seconds": 1988.86,
+    "end_seconds": 1998.58,
+    "text": "All right? If you could do it perfectly, you would, we wouldn't need a lab. But, you know, we can. This may be a good callback to our, actually, our second episode ever."
+  },
+  {
+    "segment_id": "tr-00210",
+    "start_seconds": 1998.78,
+    "end_seconds": 2007.36,
+    "text": "Heather Kulik had said, she famously said, there is no alpha fold for materials, not just computationally, but the ground truth just doesn't exist."
+  },
+  {
+    "segment_id": "tr-00211",
+    "start_seconds": 2007.38,
+    "end_seconds": 2014.68,
+    "text": "Like, we don't really know what material crystal structures look like and DFT is generally our best route towards."
+  },
+  {
+    "segment_id": "tr-00212",
+    "start_seconds": 2014.78,
+    "end_seconds": 2023.14,
+    "text": "Yeah, I think so. I mean, maybe two things I would add is DFT by definition doesn't have to be an approximation. The Kohn -Honenberg theorem shows it can be exact."
+  },
+  {
+    "segment_id": "tr-00213",
+    "start_seconds": 2023.38,
+    "end_seconds": 2031.84,
+    "text": "But I think, as you're pointing out, the exchange correlation functional, we don't yet have access to. And then for the charge density based models, we don't know what the kinetic energy functional is."
+  },
+  {
+    "segment_id": "tr-00214",
+    "start_seconds": 2032.06,
+    "end_seconds": 2042.74,
+    "text": "And then, even if we had perfect DFT, I still think we'd need a lab because we, even if we had perfect DFT, we cannot fit 10 to the 23 atoms in the computer."
+  },
+  {
+    "segment_id": "tr-00215",
+    "start_seconds": 2043.1,
+    "end_seconds": 2055.32,
+    "text": "Yeah. You're very obsessed with that, Amber. No, okay, okay, yeah, but with exponentially growing compute, you can argue that in encubed scaling size, eventually you could, in principle, calculate"
+  },
+  {
+    "segment_id": "tr-00216",
+    "start_seconds": 2055.32,
+    "end_seconds": 2064.18,
+    "text": "things. You just wait until the law is long enough. Massive computers, yeah. But as long as encubed is a good scaling, you can, you can."
+  },
+  {
+    "segment_id": "tr-00217",
+    "start_seconds": 2064.32,
+    "end_seconds": 2071.06,
+    "text": "As the non -scientist, I will make an observation, which I don't know if you want to throw around or anything like that. So I came from finance."
+  },
+  {
+    "segment_id": "tr-00218",
+    "start_seconds": 2071.32,
+    "end_seconds": 2079.56,
+    "text": "We had the Gaussian copula, which was a way of pricing like credit default swaps by doing correlations and reducing everything into a single kernel."
+  },
+  {
+    "segment_id": "tr-00219",
+    "start_seconds": 2080.44,
+    "end_seconds": 2088.12,
+    "text": "And it's very, it feels also spiritually similar to the VAE in terms of like, like condensing all these things into like a single sort of parameter."
+  },
+  {
+    "segment_id": "tr-00220",
+    "start_seconds": 2088.6,
+    "end_seconds": 2100.88,
+    "text": "I wonder if just like, there's like the same trick everywhere. Yours sounds, you know, a bit more high dimensional than mine, which, you know, like VAE is just like, you know, one sigma thing, but like, sounds"
+  },
+  {
+    "segment_id": "tr-00221",
+    "start_seconds": 2100.88,
+    "end_seconds": 2107.3,
+    "text": "the same. Yeah, the charge density file is still quite a big file. Yeah. Right. You hand wave a bit, but like it's good enough."
+  },
+  {
+    "segment_id": "tr-00222",
+    "start_seconds": 2107.46,
+    "end_seconds": 2114.94,
+    "text": "Like this is, this is the highest order bit. Like, yeah. I personally don't know of a better method to predict the stability of a new material."
+  },
+  {
+    "segment_id": "tr-00223",
+    "start_seconds": 2115.16,
+    "end_seconds": 2127.64,
+    "text": "It's definitely not perfect, but it's definitely better than other methods I can think of. And yeah, so going back to your question, the reason we use them is for certain things, easier to simulate than experiment and"
+  },
+  {
+    "segment_id": "tr-00224",
+    "start_seconds": 2127.64,
+    "end_seconds": 2139.86,
+    "text": "they kind of complement each other well. And then we can like do this in a loop. Like we feel like simulations will never be enough by themselves, but in the loop of simulations, AI and experiments, I think we can make progress"
+  },
+  {
+    "segment_id": "tr-00225",
+    "start_seconds": 2139.86,
+    "end_seconds": 2150.58,
+    "text": "much faster than before. One thing that simulations let you do is scale up much more quickly. I mean, there's now like compute is much easier to bring online than bringing in, bringing on new labs."
+  },
+  {
+    "segment_id": "tr-00226",
+    "start_seconds": 2150.72,
+    "end_seconds": 2162.44,
+    "text": "How do you avoid or let's say you scale up a bunch of DFT, how do you avoid in having your models over -index on that and still be grounded that the real world is ultimately the truth you care about?"
+  },
+  {
+    "segment_id": "tr-00227",
+    "start_seconds": 2163.1,
+    "end_seconds": 2177.08,
+    "text": "If you, you know, how do you sort of balance it? Well, we scale up the lab as well. Yeah, you scale up the lab. But I mean, you could, I could imagine scaling up DFT to millions, hundreds of millions given modern compute, whereas your lab, I would imagine your"
+  },
+  {
+    "segment_id": "tr-00228",
+    "start_seconds": 2177.08,
+    "end_seconds": 2187.02,
+    "text": "hundreds, thousands a day. I don't know. Like something still like fairly, even in a really high throughput case, like, you know, you're still fairly limited by comparison, right?"
+  },
+  {
+    "segment_id": "tr-00229",
+    "start_seconds": 2187.3,
+    "end_seconds": 2194.92,
+    "text": "Yeah. I mean, one thing is the humans, but also the LMs are kind of pretty aware of the limitations of DFT."
+  },
+  {
+    "segment_id": "tr-00230",
+    "start_seconds": 2195.1,
+    "end_seconds": 2201.78,
+    "text": "For example, even if we can do, as you said, 100 million trials with DFT, we could never actually try their microstructure."
+  },
+  {
+    "segment_id": "tr-00231",
+    "start_seconds": 2202.0,
+    "end_seconds": 2214.32,
+    "text": "And microstructure is this idea that like DFT usually simulates the perfect crystal, but crystals usually actually aren't perfect and their microstructure, which is the structure at like a medium order can really affect the properties."
+  },
+  {
+    "segment_id": "tr-00232",
+    "start_seconds": 2214.58,
+    "end_seconds": 2220.7,
+    "text": "Other issues, of course, like some properties like superconducting temperature cannot be easily simulated by DFT."
+  },
+  {
+    "segment_id": "tr-00233",
+    "start_seconds": 2221.02,
+    "end_seconds": 2227.94,
+    "text": "Again, like even if you do 100 million trials with DFT, it won't be enough. So we have to rely on heuristics, experiments, et cetera."
+  },
+  {
+    "segment_id": "tr-00234",
+    "start_seconds": 2228.18,
+    "end_seconds": 2236.74,
+    "text": "And so there's a huge filter from all those calculations to actually what gets executed in the lab. Is that human mediated or LM or a mix?"
+  },
+  {
+    "segment_id": "tr-00235",
+    "start_seconds": 2237.1,
+    "end_seconds": 2245.88,
+    "text": "Can be a mix. Like for example, for a long time materials project, which was the best open source DFT database, use experimental calibration for DFT."
+  },
+  {
+    "segment_id": "tr-00236",
+    "start_seconds": 2246.3,
+    "end_seconds": 2256.96,
+    "text": "So they would actually use experimental data to calibrate DFT. We also do this internally here. Like whenever there's a certain chemical system we're interested in, you get experiments, you get simulations and you can calibrate them."
+  },
+  {
+    "segment_id": "tr-00237",
+    "start_seconds": 2257.14,
+    "end_seconds": 2268.52,
+    "text": "This is another thing. I've talked to a lot of biologist friends and they are always very confused when you say materials, you can't just do an XRD structure and actually know what the structure is."
+  },
+  {
+    "segment_id": "tr-00238",
+    "start_seconds": 2268.62,
+    "end_seconds": 2277.98,
+    "text": "Because if you're in the biology world, you can look at a crystal structure of a protein and typically more or less with like sub A, well they order Engstrom accuracy reconstructed."
+  },
+  {
+    "segment_id": "tr-00239",
+    "start_seconds": 2278.26,
+    "end_seconds": 2290.54,
+    "text": "What is the difference between the materials XRD, you know, X -ray diffraction, X -ray diffraction, experimental XRD for materials"
+  },
+  {
+    "segment_id": "tr-00240",
+    "start_seconds": 2290.54,
+    "end_seconds": 2302.56,
+    "text": "versus let's say the biology world. Like what information do you lose and why is this sort of like a lossy projection? It's hard not to sound like crazy when answering this question, but do you not feel like organic"
+  },
+  {
+    "segment_id": "tr-00241",
+    "start_seconds": 2302.56,
+    "end_seconds": 2308.92,
+    "text": "chemistry and biology almost stem from a lower VC dimension, like lower Kolmogoro complexity model?"
+  },
+  {
+    "segment_id": "tr-00242",
+    "start_seconds": 2309.3,
+    "end_seconds": 2318.62,
+    "text": "Like you can almost represent it as a 1D sequence and it can almost be compiled. So like there's a sense in which it's a simpler in the Kolmogoro complexity sense."
+  },
+  {
+    "segment_id": "tr-00243",
+    "start_seconds": 2318.86,
+    "end_seconds": 2327.1,
+    "text": "1D? I mean like just DNA is like just or RNA. I think most people would argue it's more 2D, but yeah."
+  },
+  {
+    "segment_id": "tr-00244",
+    "start_seconds": 2327.66,
+    "end_seconds": 2334.88,
+    "text": "I'm not a biologist, so I'm sure they're right. But with inorganic chemistry, virtual is crazy."
+  },
+  {
+    "segment_id": "tr-00245",
+    "start_seconds": 2335.16,
+    "end_seconds": 2347.32,
+    "text": "It's clearly not coming from such a low Kolmogoro complexity model because like 3D inorganic crystals can host metals, insulators, superconductors, diamonds, it's like really crazy different."
+  },
+  {
+    "segment_id": "tr-00246",
+    "start_seconds": 2347.86,
+    "end_seconds": 2360.04,
+    "text": "Like people tried, but we could never find a 1D representation. It's very hard to find a smile string for 3D inorganic crystals. And the way the atoms interact with each other is quite strange, like covalent bonds, ionic"
+  },
+  {
+    "segment_id": "tr-00247",
+    "start_seconds": 2360.04,
+    "end_seconds": 2369.06,
+    "text": "bonds, metallic bonds. But yeah, this is very interesting. I wonder sometimes like, you know, have you ever looked into issues with solid electrolytes?"
+  },
+  {
+    "segment_id": "tr-00248",
+    "start_seconds": 2369.16,
+    "end_seconds": 2379.92,
+    "text": "Like why people cannot replace liquid electrolytes in batteries with solids. There are all these dendrites that form. Like basically the lithium will form these structures that go into solid electrolytes and crack it."
+  },
+  {
+    "segment_id": "tr-00249",
+    "start_seconds": 2380.22,
+    "end_seconds": 2392.34,
+    "text": "And you look at that and you think this is so primitive compared to biology. Like in biology, these systems can do such complex nanotechnological progress, whereas we can't even"
+  },
+  {
+    "segment_id": "tr-00250",
+    "start_seconds": 2392.34,
+    "end_seconds": 2400.02,
+    "text": "like make two interfaces work with each other because lithium will break it. yeah, but then I guess inorganic stuff can be very resistant to high temperature."
+  },
+  {
+    "segment_id": "tr-00251",
+    "start_seconds": 2400.3,
+    "end_seconds": 2408.56,
+    "text": "You can make space shuttles, you can make silicon, compute Moore's law. So yeah, it's a trade -off. Yeah, we've talked about this with several other guests."
+  },
+  {
+    "segment_id": "tr-00252",
+    "start_seconds": 2408.68,
+    "end_seconds": 2420.86,
+    "text": "I think one of the big differences in my mind is that biology, we have a toolkit that, you know, that you can basically borrow like from millions of years of evolution that has already"
+  },
+  {
+    "segment_id": "tr-00253",
+    "start_seconds": 2420.86,
+    "end_seconds": 2429.74,
+    "text": "given us all the tools and we can just reproduce those. But also evolution also constrains the VC dimension to be fairly low for like proteins and so on."
+  },
+  {
+    "segment_id": "tr-00254",
+    "start_seconds": 2429.96,
+    "end_seconds": 2436.98,
+    "text": "The like emergent behavior of large scale systems like cells can be much more complicated. Yeah, and cautiousness."
+  },
+  {
+    "segment_id": "tr-00255",
+    "start_seconds": 2437.24,
+    "end_seconds": 2449.26,
+    "text": "Yeah, yeah, yeah. Yeah, but maybe even just like more specifically for like if you just look at an x -ray, you had a perfect crystal and you shoot an XRD at it and you get the, you know, you get"
+  },
+  {
+    "segment_id": "tr-00256",
+    "start_seconds": 2449.26,
+    "end_seconds": 2456.32,
+    "text": "the spectrum. That still doesn't actually tell you uniquely what the crystal structure is, right? No. So, and that's something that."
+  },
+  {
+    "segment_id": "tr-00257",
+    "start_seconds": 2456.8,
+    "end_seconds": 2466.36,
+    "text": "It's just average. It's just average behavior. But like, for example, disproportionation is a very complicated thing, right? Where it's possible that you had the perfect crystal and on average it looks like this perfect XRD."
+  },
+  {
+    "segment_id": "tr-00258",
+    "start_seconds": 2466.64,
+    "end_seconds": 2473.34,
+    "text": "But in reality, there is some other pattern going on where like atoms slightly shift to the right or left, but on average they're in the middle."
+  },
+  {
+    "segment_id": "tr-00259",
+    "start_seconds": 2474.2,
+    "end_seconds": 2483.56,
+    "text": "Yeah, it's a difficult life, yeah. Whereas with proteins, you basically know there's some sort of underlying protein with follow some rules so you can, you can combine a forward model."
+  },
+  {
+    "segment_id": "tr-00260",
+    "start_seconds": 2483.84,
+    "end_seconds": 2495.94,
+    "text": "Right. And then you can kind of move and move towards like single crystal XRD and that can help. When we started the science pod there were all these like elements of AI and science, AI and math, AI and physics and all these things and there was"
+  },
+  {
+    "segment_id": "tr-00261",
+    "start_seconds": 2495.94,
+    "end_seconds": 2504.54,
+    "text": "just like kind of pissing contest like which is harder and like I think you can make the scientific argument that material is nice as the artist. Well, we didn't pick it necessarily for hardness."
+  },
+  {
+    "segment_id": "tr-00262",
+    "start_seconds": 2506.16,
+    "end_seconds": 2518.34,
+    "text": "I mean, there's actually like a lot of areas where it is easier. I mean, we have these like great simulators for large classes of materials whereas in biology it's incredibly difficult to model a cell or an organ"
+  },
+  {
+    "segment_id": "tr-00263",
+    "start_seconds": 2518.34,
+    "end_seconds": 2530.92,
+    "text": "or a full organism. So I mean, that's a huge advantage. Yeah, isn't that interesting that at the smallest level it is one -dimensional or two -dimensional but then like it just has many orders more scale and"
+  },
+  {
+    "segment_id": "tr-00264",
+    "start_seconds": 2530.92,
+    "end_seconds": 2539.56,
+    "text": "structure and that actually introduces the complexity. That's weird. Whereas like maybe the complexity in materials is more the microstructure."
+  },
+  {
+    "segment_id": "tr-00265",
+    "start_seconds": 2539.82,
+    "end_seconds": 2546.38,
+    "text": "Yeah, I mean, you still get like different complexity at the different length scales for materials as well. So yeah, microstructure and beyond."
+  },
+  {
+    "segment_id": "tr-00266",
+    "start_seconds": 2546.88,
+    "end_seconds": 2555.04,
+    "text": "Yeah. Just sort of like a brief like sort of palette cleanser. In terms of science fiction, let's say you can invent whatever materials you want."
+  },
+  {
+    "segment_id": "tr-00267",
+    "start_seconds": 2555.64,
+    "end_seconds": 2563.38,
+    "text": "What is more valuable? I have a list here. There's obviously room temperature superintroductors but also you mentioned batteries."
+  },
+  {
+    "segment_id": "tr-00268",
+    "start_seconds": 2563.74,
+    "end_seconds": 2570.5,
+    "text": "I've always thought like batteries just like do better than lithium ion, you're good. Like, you know, that's stood around for like 100 years."
+  },
+  {
+    "segment_id": "tr-00269",
+    "start_seconds": 2571.22,
+    "end_seconds": 2579.22,
+    "text": "And then the last one is carbon nanotubes mostly for the space elevators. I don't know if like those are three that come to mind."
+  },
+  {
+    "segment_id": "tr-00270",
+    "start_seconds": 2579.34,
+    "end_seconds": 2591.48,
+    "text": "Are there any that like people talk about in your world that like are the dream? Definitely superconductors, magnets, especially if you can lower the dependence on rare earth or like transition metals that"
+  },
+  {
+    "segment_id": "tr-00271",
+    "start_seconds": 2591.48,
+    "end_seconds": 2603.66,
+    "text": "are hard to source like cobalt, reducing cobalt in batteries. One of the things I think is very fundamentally important is if we can get close to Landauer limit for compute energy"
+  },
+  {
+    "segment_id": "tr-00272",
+    "start_seconds": 2603.66,
+    "end_seconds": 2615.68,
+    "text": "efficiency. Can you explain Landauer limit? Yeah. So if you look at how much energy we spend per like flappo compute, it is followed the Moore's law type behavior where it's"
+  },
+  {
+    "segment_id": "tr-00273",
+    "start_seconds": 2615.68,
+    "end_seconds": 2622.76,
+    "text": "kind of exponentially more efficient. So we've been spending exponentially less energy per flappo compute. I mean, I haven't checked recently."
+  },
+  {
+    "segment_id": "tr-00274",
+    "start_seconds": 2622.88,
+    "end_seconds": 2630.38,
+    "text": "This was the case 10 years ago. that's great. I remember when I first learned about it, looked at that and we were what, like 10, 20, or it's a magnitude away from it or something."
+  },
+  {
+    "segment_id": "tr-00275",
+    "start_seconds": 2630.9,
+    "end_seconds": 2638.78,
+    "text": "And last time I looked, we're weirdly close. Like we're within a factor of, I don't know, like three or four orders of magnitude away."
+  },
+  {
+    "segment_id": "tr-00276",
+    "start_seconds": 2639.36,
+    "end_seconds": 2646.0,
+    "text": "It's actually like... I guess exponentials rolled out over many years. Yeah, pretty impressive. In your lifetime."
+  },
+  {
+    "segment_id": "tr-00277",
+    "start_seconds": 2647.04,
+    "end_seconds": 2659.08,
+    "text": "Yeah, just since I discovered this like 10 or 15 years ago. And one of the things we have to do is dissipate heat because as these computations are happening, it's producing heat, which has to happen, but"
+  },
+  {
+    "segment_id": "tr-00278",
+    "start_seconds": 2659.08,
+    "end_seconds": 2666.02,
+    "text": "then we have to dissipate it. So if we can get close to the Landau limit for how efficiently we do computation, that's amazing for humanity, right?"
+  },
+  {
+    "segment_id": "tr-00279",
+    "start_seconds": 2666.12,
+    "end_seconds": 2674.04,
+    "text": "Because that means now we're doing computation, which is probably one of the most fundamental things we do as humanity, but as efficiently as possible from energy perspective, which is a real currency in the universe."
+  },
+  {
+    "segment_id": "tr-00280",
+    "start_seconds": 2674.22,
+    "end_seconds": 2681.34,
+    "text": "That get affected by quantum computing? I'm just going to throw it out there. Theoretically, massively, embarrassingly, parallel compute."
+  },
+  {
+    "segment_id": "tr-00281",
+    "start_seconds": 2682.38,
+    "end_seconds": 2694.38,
+    "text": "So it definitely gets affected by reversible computing, but honestly, I'm not an expert, I don't understand. You don't actually have to spend energy to do computation because you're not actually deleting any"
+  },
+  {
+    "segment_id": "tr-00282",
+    "start_seconds": 2694.38,
+    "end_seconds": 2706.1,
+    "text": "information, it's reversible. But I don't know if that works, I don't know. Quantum computing, I assume, has to obey these laws somehow, because they have to obey thermodynamics."
+  },
+  {
+    "segment_id": "tr-00283",
+    "start_seconds": 2706.1,
+    "end_seconds": 2714.76,
+    "text": "It's unitary, so it's reversible. One of my most memorable conversations with Elad Gil was he actually was a very skeptical person about quantum computing."
+  },
+  {
+    "segment_id": "tr-00284",
+    "start_seconds": 2715.1,
+    "end_seconds": 2721.94,
+    "text": "He's like, even if he had it today, there's no applications. I'm like, whoa. It breaks the key radio, I say, that's it."
+  },
+  {
+    "segment_id": "tr-00285",
+    "start_seconds": 2722.06,
+    "end_seconds": 2728.44,
+    "text": "I agree with that. People talk about how if you're a quantum computer today, you could simulate things so much better."
+  },
+  {
+    "segment_id": "tr-00286",
+    "start_seconds": 2728.98,
+    "end_seconds": 2739.1,
+    "text": "I ask them, okay, let's accept that. What would you simulate? You're still simulating perfect crystal. You still have the issues that DFT has if DFT was perfect in its prediction ability."
+  },
+  {
+    "segment_id": "tr-00287",
+    "start_seconds": 2739.4,
+    "end_seconds": 2751.4,
+    "text": "I do think people are glossing over some things because quantum computing is so exciting. If we can compute in a quantum logic space instead of classical logic, it's just so exciting that people are glossing over"
+  },
+  {
+    "segment_id": "tr-00288",
+    "start_seconds": 2751.4,
+    "end_seconds": 2757.86,
+    "text": "what it would actually do when it's made. Maybe that's fine because maybe once it's made, it will do amazing things we can't even imagine. Good."
+  },
+  {
+    "segment_id": "tr-00289",
+    "start_seconds": 2758.26,
+    "end_seconds": 2765.36,
+    "text": "Okay. I was going to move to the automating the lab side where you've closed the loop on your experimentation."
+  },
+  {
+    "segment_id": "tr-00290",
+    "start_seconds": 2765.82,
+    "end_seconds": 2775.64,
+    "text": "You talked about robotic arms. Talk about basically just everything you've done here. My favorite quote from you was that every piece of equipment in your lab is going to have 140 IQ."
+  },
+  {
+    "segment_id": "tr-00291",
+    "start_seconds": 2776.04,
+    "end_seconds": 2784.08,
+    "text": "Okay, what does that mean? In the early days as we were scaling things up, we realized that we had huge bottlenecks imposed just by operating machinery."
+  },
+  {
+    "segment_id": "tr-00292",
+    "start_seconds": 2784.42,
+    "end_seconds": 2796.54,
+    "text": "So for one set of machinery, we would have technicians and scientists looking for particular morphology and trying to see, okay, what actually were we making, see if this"
+  },
+  {
+    "segment_id": "tr-00293",
+    "start_seconds": 2796.54,
+    "end_seconds": 2804.2,
+    "text": "is consistent with our intentions. And we really quickly as we scaled up the lab came into these bottlenecks where it just wasn't keeping up."
+  },
+  {
+    "segment_id": "tr-00294",
+    "start_seconds": 2804.2,
+    "end_seconds": 2816.24,
+    "text": "So we started doing some programmatic approaches to capturing the data on SEM. And the data that was being surfaced from this very simple program where it sort of takes"
+  },
+  {
+    "segment_id": "tr-00295",
+    "start_seconds": 2816.24,
+    "end_seconds": 2825.24,
+    "text": "a field of view, captures, zooms in, captures, was just not all that useful. It was a little too dumb for what we really wanted to get."
+  },
+  {
+    "segment_id": "tr-00296",
+    "start_seconds": 2825.58,
+    "end_seconds": 2832.64,
+    "text": "And so at that point, it was then really pertinent to build AI systems directly onto the machines to start controlling these things."
+  },
+  {
+    "segment_id": "tr-00297",
+    "start_seconds": 2832.64,
+    "end_seconds": 2838.76,
+    "text": "And now they have the full context as to what we were trying to achieve. So what was the intent of the experiment?"
+  },
+  {
+    "segment_id": "tr-00298",
+    "start_seconds": 2838.9,
+    "end_seconds": 2845.6,
+    "text": "What were we trying to synthesize? What were some other experimental evidence? And it's actually looking in the machine and capturing that data."
+  },
+  {
+    "segment_id": "tr-00299",
+    "start_seconds": 2845.78,
+    "end_seconds": 2857.92,
+    "text": "And this is really valuable now because we've been talking about these hidden variables not being able to capture everything. But if you can do more intelligent data capture at the time of that experiment, your data for future AI"
+  },
+  {
+    "segment_id": "tr-00300",
+    "start_seconds": 2857.92,
+    "end_seconds": 2870.16,
+    "text": "systems and future computational predictions is that much better. You'll have just a richer set of data. And so that's sort of what we mean by just everything on the lab has to be incredibly"
+  },
+  {
+    "segment_id": "tr-00301",
+    "start_seconds": 2870.16,
+    "end_seconds": 2876.72,
+    "text": "intelligent to just make the data as useful as possible. So that was sort of the motivation and inspiration behind that."
+  },
+  {
+    "segment_id": "tr-00302",
+    "start_seconds": 2877.02,
+    "end_seconds": 2889.22,
+    "text": "What's the state of the art there in terms of putting intelligence on every device? Right? Well, I think one interesting aspect is what's the latency of"
+  },
+  {
+    "segment_id": "tr-00303",
+    "start_seconds": 2889.22,
+    "end_seconds": 2897.8,
+    "text": "controlling that instrument? Because there's cloud latency, but then there's also device compute. That's right. And then there's sort of a timescale associated with different physical processes."
+  },
+  {
+    "segment_id": "tr-00304",
+    "start_seconds": 2898.18,
+    "end_seconds": 2910.3,
+    "text": "And if calling out to an API or something is simply too slow, so the amount of reasoning or tokens or tool calls is just not matched to the latency of"
+  },
+  {
+    "segment_id": "tr-00305",
+    "start_seconds": 2910.3,
+    "end_seconds": 2916.34,
+    "text": "that actual process, then that's infeasible. Okay. That is right. It's almost like self -driving cars, right?"
+  },
+  {
+    "segment_id": "tr-00306",
+    "start_seconds": 2916.34,
+    "end_seconds": 2926.44,
+    "text": "So... Real quick, I'm actually surprised to hear that because the latency I'd imagine for reasoning seems small compared to a lot of these things take hours to run, right?"
+  },
+  {
+    "segment_id": "tr-00307",
+    "start_seconds": 2926.58,
+    "end_seconds": 2932.82,
+    "text": "Or maybe your experiments are much faster, high -tupel or something. I'm just surprised to hear that."
+  },
+  {
+    "segment_id": "tr-00308",
+    "start_seconds": 2932.9,
+    "end_seconds": 2940.46,
+    "text": "So ultimately, the experiments do take many hours, days, but there could be particular steps where latency wouldn't matter."
+  },
+  {
+    "segment_id": "tr-00309",
+    "start_seconds": 2940.78,
+    "end_seconds": 2952.84,
+    "text": "Yeah. You might want to have finer control. Another thing is how expensive it is because the same reason some of these models can be really slow in analyzing data also"
+  },
+  {
+    "segment_id": "tr-00310",
+    "start_seconds": 2952.84,
+    "end_seconds": 2965.1,
+    "text": "makes them very expensive. And then finally, the human patience. If a human wants the analysis of a certain XRD pattern and they have to wait two hours before they get a good result, that's very different, I think, than if they can get it in two minutes."
+  },
+  {
+    "segment_id": "tr-00311",
+    "start_seconds": 2965.34,
+    "end_seconds": 2975.56,
+    "text": "Oh, okay. Yeah. And then the reasoning, you're not doing a single call to that model, right? You're doing potentially many, many tokens to kind of get to these patterns."
+  },
+  {
+    "segment_id": "tr-00312",
+    "start_seconds": 2975.76,
+    "end_seconds": 2982.5,
+    "text": "Like run simulations in the loop. Exactly. Deep research in the loop. It's not a single tool call. It's not a single inference thread."
+  },
+  {
+    "segment_id": "tr-00313",
+    "start_seconds": 2982.72,
+    "end_seconds": 2993.04,
+    "text": "So then the latency can blow up quite a bit. I see what you mean. Yeah. So how much of your latency is tool calls? And I assume tool calls is like largely like DFT or computational techniques in the effort."
+  },
+  {
+    "segment_id": "tr-00314",
+    "start_seconds": 2993.24,
+    "end_seconds": 3000.88,
+    "text": "Yeah. So how much of your latency is derived from those versus like actual reasoning? It's really process dependent."
+  },
+  {
+    "segment_id": "tr-00315",
+    "start_seconds": 3001.08,
+    "end_seconds": 3013.26,
+    "text": "Okay. Yeah. And then the other thing I think about is also, I guess, building up from small things to bigger things where I assume the general temptation or the typical development is incremental where like everything"
+  },
+  {
+    "segment_id": "tr-00316",
+    "start_seconds": 3013.26,
+    "end_seconds": 3025.1,
+    "text": "is human operated and then you find ways in which to automate it and then you sort of build up from there. I worry that sometimes that that is the way that people evolve things but that's a local minima, optimal."
+  },
+  {
+    "segment_id": "tr-00317",
+    "start_seconds": 3025.22,
+    "end_seconds": 3037.12,
+    "text": "Like short noise and optimization. Exactly. When like actually you should get a humanoid and just put them in there. I think we're in the opinion that solving humanoids would actually be slower to kind of getting to some of our goals."
+  },
+  {
+    "segment_id": "tr-00318",
+    "start_seconds": 3037.34,
+    "end_seconds": 3044.06,
+    "text": "Just checking. Again, a lot of this is just like you do this every day. We like see this but I don't know the reality of the situation."
+  },
+  {
+    "segment_id": "tr-00319",
+    "start_seconds": 3044.38,
+    "end_seconds": 3056.5,
+    "text": "A lot of people hyperhumanoids. Yeah. I mean I think like maybe one process is by having like a mix of humans and automation you can identify really quickly like what are some of the bottlenecks"
+  },
+  {
+    "segment_id": "tr-00320",
+    "start_seconds": 3056.5,
+    "end_seconds": 3068.56,
+    "text": "in the experimental process and you start alleviating those bottlenecks one at a time. And so for example if there's some really tricky dexterity task that humans are excellent at but you'd have to spend months"
+  },
+  {
+    "segment_id": "tr-00321",
+    "start_seconds": 3068.56,
+    "end_seconds": 3079.2,
+    "text": "automating machine maybe don't spend a ton of time there and maybe like a more promising thing is something very routine that takes up a huge amount of scientists and technicians time and it's easy to automate."
+  },
+  {
+    "segment_id": "tr-00322",
+    "start_seconds": 3079.48,
+    "end_seconds": 3092.0,
+    "text": "So I think there's like this pragmatism to it but I mean ultimately what we want from the lab is a huge quantity of data high quality data diverse data and those are our goals and full"
+  },
+  {
+    "segment_id": "tr-00323",
+    "start_seconds": 3092.0,
+    "end_seconds": 3098.94,
+    "text": "autonomy is a non -goal. It's sort of in the service that we use automation in the service of achieving the goals on the data."
+  },
+  {
+    "segment_id": "tr-00324",
+    "start_seconds": 3099.34,
+    "end_seconds": 3111.36,
+    "text": "Yeah. But also I mean I think another aspect to automation is robots will just be make fewer mistakes potentially in the lab and it's been really helpful having AI systems"
+  },
+  {
+    "segment_id": "tr-00325",
+    "start_seconds": 3111.36,
+    "end_seconds": 3119.82,
+    "text": "with a full view over all of our data because sometimes if there's like a permutation in data then it can identify it."
+  },
+  {
+    "segment_id": "tr-00326",
+    "start_seconds": 3119.94,
+    "end_seconds": 3130.08,
+    "text": "So for example one of our steps at one point had a cyclic error because one of the machines was loaded incorrectly and the patterns were inconsistent."
+  },
+  {
+    "segment_id": "tr-00327",
+    "start_seconds": 3130.32,
+    "end_seconds": 3142.34,
+    "text": "So the AI was reading through these things and says well given what was run this is not expected and it's looking at this basket of data longitudinally and then it realized if I do this like cyclic permutation and reverse"
+  },
+  {
+    "segment_id": "tr-00328",
+    "start_seconds": 3142.34,
+    "end_seconds": 3154.48,
+    "text": "it everything is consistent and then we're able to go back to the physical infrastructure and understand that a mistake had been made in the loading and I think like managing data quality is so foundational"
+  },
+  {
+    "segment_id": "tr-00329",
+    "start_seconds": 3154.48,
+    "end_seconds": 3166.04,
+    "text": "to doing AI in the physical world and you know these are the types of things that we're building in and so you can improve the operating process but at that point you're like okay this is another great opportunity for automation."
+  },
+  {
+    "segment_id": "tr-00330",
+    "start_seconds": 3166.38,
+    "end_seconds": 3175.14,
+    "text": "How do you make this just so reliable so durable that we never have those types of mistakes again? Yeah I mean reducing the noise flow of experimental data I think is very important."
+  },
+  {
+    "segment_id": "tr-00331",
+    "start_seconds": 3175.68,
+    "end_seconds": 3187.96,
+    "text": "Most experimental data in literature have such high noise floor that it's actually usually worse than DFT accuracy because you know when different people do experiments different labs different parts of the world different times it really introduces"
+  },
+  {
+    "segment_id": "tr-00332",
+    "start_seconds": 3187.96,
+    "end_seconds": 3195.44,
+    "text": "so much fluctuation to the result. So we are hoping that by standardizing these workflows one of the biggest benefits will be that the noise floor will be lowered."
+  },
+  {
+    "segment_id": "tr-00333",
+    "start_seconds": 3196.26,
+    "end_seconds": 3202.46,
+    "text": "You've been pretty public about how you use open source models and fine tune them for stuff like this. Is it better?"
+  },
+  {
+    "segment_id": "tr-00334",
+    "start_seconds": 3202.64,
+    "end_seconds": 3212.62,
+    "text": "Is it basically I can imagine a situation where you have like maybe the number models do one task and then you optimize for that task and then like sort of like a generalist frontier model that like supervises everything."
+  },
+  {
+    "segment_id": "tr-00335",
+    "start_seconds": 3212.82,
+    "end_seconds": 3222.4,
+    "text": "Is that a good mental model to have? Are there more stages to this that I can't think about? I mean we basically use a mix of open source models and closed source models."
+  },
+  {
+    "segment_id": "tr-00336",
+    "start_seconds": 3222.7,
+    "end_seconds": 3230.68,
+    "text": "You know we're huge beneficiaries of this from our simulation side building up the ML stack the simulation stack we don't need to push on that axis."
+  },
+  {
+    "segment_id": "tr-00337",
+    "start_seconds": 3231.02,
+    "end_seconds": 3243.18,
+    "text": "But there's a lot of areas where the latency is too high the cost is too high but in some cases we can actually you know by having access to this data we can actually push beyond the frontier of"
+  },
+  {
+    "segment_id": "tr-00338",
+    "start_seconds": 3243.18,
+    "end_seconds": 3255.32,
+    "text": "what these systems can do under even some like the highest reasoning efforts. And so it's not necessarily just about cost or Pareto efficiency but in some cases you can push beyond it when you have access to"
+  },
+  {
+    "segment_id": "tr-00339",
+    "start_seconds": 3255.32,
+    "end_seconds": 3267.66,
+    "text": "data that no one else has. One way to characterize this is in terms of compute efficiencies. So by having access to this data you can be that much more compute efficient compared to you"
+  },
+  {
+    "segment_id": "tr-00340",
+    "start_seconds": 3267.66,
+    "end_seconds": 3279.92,
+    "text": "know some of the frontier models and that's been able been like a really instrumental thing in our program. Yeah I'm so data quality or data access as a trade -off of compute like you know I"
+  },
+  {
+    "segment_id": "tr-00341",
+    "start_seconds": 3279.92,
+    "end_seconds": 3291.98,
+    "text": "think there's some amount of exchange rate of dollars for compute for dollars for data that people I feel like the pendulum might be swinging now towards data I mean obviously you would agree with that but like Yeah especially like you know talking about"
+  },
+  {
+    "segment_id": "tr-00342",
+    "start_seconds": 3291.98,
+    "end_seconds": 3300.56,
+    "text": "the noise floor of experimental data like we need to have high quality data if you throw a huge amount of compute against a bunch of noise you're not going to have a good thing emerge."
+  },
+  {
+    "segment_id": "tr-00343",
+    "start_seconds": 3300.7,
+    "end_seconds": 3312.82,
+    "text": "And it's harder for you because you actively try to be sparse like you actually try to get null results and learn from that That's right Yeah you've talked about null results and several other venues like what does a null result look like for materials and how"
+  },
+  {
+    "segment_id": "tr-00344",
+    "start_seconds": 3312.82,
+    "end_seconds": 3324.98,
+    "text": "do you use that effectively especially when I think your overall signal is probably quite sparse usually in terms of success null results I mean a null result could be we intended to produce some structure and then"
+  },
+  {
+    "segment_id": "tr-00345",
+    "start_seconds": 3324.98,
+    "end_seconds": 3337.08,
+    "text": "all of the evidence points to us not producing that structure You ever intend to not produce a structure? Of course Yeah Absolutely You do the negative controls Absolutely like there are impurity phases that will kill"
+  },
+  {
+    "segment_id": "tr-00346",
+    "start_seconds": 3337.08,
+    "end_seconds": 3349.16,
+    "text": "your property Yeah Okay It can be toxic Exactly 100 % Okay And a negative result in some cases is actually we intended to make the following thing and"
+  },
+  {
+    "segment_id": "tr-00347",
+    "start_seconds": 3349.16,
+    "end_seconds": 3361.16,
+    "text": "then we're actually able to identify a new structure that hadn't previously been identified so it's negative in some respect like we intended to do something else but something else"
+  },
+  {
+    "segment_id": "tr-00348",
+    "start_seconds": 3361.16,
+    "end_seconds": 3373.42,
+    "text": "emerged from the data Yeah And also in general when you're training a machine learning algorithm especially like at a very basic level if you're just a classification algorithm if you don't have negative samples you can't really train if everything is positive"
+  },
+  {
+    "segment_id": "tr-00349",
+    "start_seconds": 3373.42,
+    "end_seconds": 3385.56,
+    "text": "and this is a particularly bad problem in material science because people usually publish crystals they could synthesize but they usually don't publish if they fail to synthesize the crystals sometimes they might and"
+  },
+  {
+    "segment_id": "tr-00350",
+    "start_seconds": 3385.56,
+    "end_seconds": 3397.58,
+    "text": "also like we never know really if a crystal is not synthesizable ever right It could just be a skill issue Exactly a skill issue Especially with the literature Like synthesis method issue technology yeah so I"
+  },
+  {
+    "segment_id": "tr-00351",
+    "start_seconds": 3397.58,
+    "end_seconds": 3409.72,
+    "text": "think it really helps us when we do our own experiments and get negative results in the context of what we tried so then we can even train a classification algorithm I think there's also like another valid thing too of when"
+  },
+  {
+    "segment_id": "tr-00352",
+    "start_seconds": 3409.72,
+    "end_seconds": 3422.04,
+    "text": "you have this sort of string of negative results results and then finally through process iteration you're able to get to that positive result it's a really interesting set of I'll call it like process engineering type"
+  },
+  {
+    "segment_id": "tr-00353",
+    "start_seconds": 3422.04,
+    "end_seconds": 3434.1,
+    "text": "data so it's like through iteration how did you actually get to that correct result because so much of material science has this ambiguity and actually how something was"
+  },
+  {
+    "segment_id": "tr-00354",
+    "start_seconds": 3434.1,
+    "end_seconds": 3446.22,
+    "text": "made and so yeah and so there's actually even if there's a known material it can be highly non -trivial to replicate that some things are you know in like a high school textbook"
+  },
+  {
+    "segment_id": "tr-00355",
+    "start_seconds": 3446.22,
+    "end_seconds": 3458.24,
+    "text": "but other things are really at the frontier and you know we're building up that know -how as well and then building up a system that you know given the string of negative results how do you actually get to that positive case going to the classifier result I would almost"
+  },
+  {
+    "segment_id": "tr-00356",
+    "start_seconds": 3458.24,
+    "end_seconds": 3470.28,
+    "text": "assume that if you are doing everything in -house most of your results will actually be negative rather than positive which is kind of ironic because the literature only gives you positive results so if you were sort of cold starting this it seems like"
+  },
+  {
+    "segment_id": "tr-00357",
+    "start_seconds": 3470.28,
+    "end_seconds": 3482.28,
+    "text": "the problem is actually the reverse that you have an abundance of negative results and not enough positive and as you said like if you were doing per experiment labels it would be mostly negative but if you were doing per campaign"
+  },
+  {
+    "segment_id": "tr-00358",
+    "start_seconds": 3482.28,
+    "end_seconds": 3494.46,
+    "text": "and assuming campaigns and when we succeed then it could be a bit more balanced I see so your reasoning traces could almost be over entire campaigns absolutely okay this is the key thing"
+  },
+  {
+    "segment_id": "tr-00359",
+    "start_seconds": 3494.46,
+    "end_seconds": 3506.52,
+    "text": "this type of data basically doesn't exist anywhere else and we spend so much of our time getting the full lineage of the scientific process into the model and so like tracking all this data like"
+  },
+  {
+    "segment_id": "tr-00360",
+    "start_seconds": 3506.52,
+    "end_seconds": 3519.0,
+    "text": "the conversations the intuitions what was executed in the lab or the computations run where was the code written stitching all this together is so valuable and I think the overall goal is rather"
+  },
+  {
+    "segment_id": "tr-00361",
+    "start_seconds": 3519.0,
+    "end_seconds": 3531.38,
+    "text": "than training on the final output of science you're training on the process of doing science this feels very much like what you would try to do with RSI where you are having a model trained to train better models"
+  },
+  {
+    "segment_id": "tr-00362",
+    "start_seconds": 3531.38,
+    "end_seconds": 3543.5,
+    "text": "you're now having a model trained to make better experiments but the difference is it's not going back into the core model for so it's unless the physics models you're developing are improving"
+  },
+  {
+    "segment_id": "tr-00363",
+    "start_seconds": 3543.5,
+    "end_seconds": 3555.84,
+    "text": "chips which then improve AI so this is the wider the higher level RSI that's the bigger the fly wheel but does that mean that is it plausible that you know Fable"
+  },
+  {
+    "segment_id": "tr-00364",
+    "start_seconds": 3555.84,
+    "end_seconds": 3568.3,
+    "text": "6 or something or you know GPT 8 could just have a which has been tuned on these sort of higher order reasoning traces could actually just do"
+  },
+  {
+    "segment_id": "tr-00365",
+    "start_seconds": 3568.3,
+    "end_seconds": 3580.44,
+    "text": "this without any logic because it's sort of the same thinking process right yeah I mean I think there's decision making under uncertainty obviously in machine learning there's noise in running like"
+  },
+  {
+    "segment_id": "tr-00366",
+    "start_seconds": 3580.44,
+    "end_seconds": 3592.54,
+    "text": "the AI loops but we do think there's like a different set of challenges when you're actually interfacing with the physical world but also I think there's another piece too which is getting the compression of everything into weights"
+  },
+  {
+    "segment_id": "tr-00367",
+    "start_seconds": 3592.54,
+    "end_seconds": 3604.66,
+    "text": "is still really valuable if inference time reasoning! was sufficient all of the frontier labs really good at inference time"
+  },
+  {
+    "segment_id": "tr-00368",
+    "start_seconds": 3604.66,
+    "end_seconds": 3616.8,
+    "text": "improvements and so we think that by you know because of the differences between you know physical sciences and machine learning getting that compressed into our own weights will"
+  },
+  {
+    "segment_id": "tr-00369",
+    "start_seconds": 3616.8,
+    "end_seconds": 3629.06,
+    "text": "lead to different types of systems and different types of capabilities but also we feel like even if like Fable 7 gets really good at like even better than what it is today it will still have to run experiments"
+  },
+  {
+    "segment_id": "tr-00370",
+    "start_seconds": 3629.06,
+    "end_seconds": 3641.26,
+    "text": "to get results and the reason for that is right like machine learning is really good at what's been trained on but scientific discovery is almost by definition what you haven't been trained on and that's why we're building these labs so that"
+  },
+  {
+    "segment_id": "tr-00371",
+    "start_seconds": 3641.9,
+    "end_seconds": 3658.56,
+    "text": "whether open models or closed models can use these labs to tinker with the universe because we don't feel like you can make a big discovery without trying was"
+  },
+  {
+    "segment_id": "tr-00372",
+    "start_seconds": 3658.56,
+    "end_seconds": 3670.62,
+    "text": "more skeptical about zero shotting scientific results than some but it is something that I think some people might ask so yeah I think it's really important"
+  },
+  {
+    "segment_id": "tr-00373",
+    "start_seconds": 3670.62,
+    "end_seconds": 3682.72,
+    "text": "to distinguish the results we see in math and theoretical physics from the physical world right so far it's been theoretical computer science"
+  },
+  {
+    "segment_id": "tr-00374",
+    "start_seconds": 3682.72,
+    "end_seconds": 3694.92,
+    "text": "coding and math maybe theoretical physics! can I get a mental model of the levels of extraction that you can go so for"
+  },
+  {
+    "segment_id": "tr-00375",
+    "start_seconds": 3694.92,
+    "end_seconds": 3707.2,
+    "text": "example in terms of automation and I'm just on this theme again where we talked about the campaign talk about individual essays and running tests and how humans are bad at it so we should stop humans from doing it are"
+  },
+  {
+    "segment_id": "tr-00376",
+    "start_seconds": 3707.2,
+    "end_seconds": 3720.6,
+    "text": "there others so for example one level higher than campaign! be a physics! I"
+  },
+  {
+    "segment_id": "tr-00377",
+    "start_seconds": 3720.6,
+    "end_seconds": 3732.64,
+    "text": "like to think about it from that point of view and think about it from this is an API call now you never have to touch this again and this is still 90 % human maybe we can draw the"
+  },
+  {
+    "segment_id": "tr-00378",
+    "start_seconds": 3732.64,
+    "end_seconds": 3745.02,
+    "text": "map of the territory that way are there other levels I can tell you some levels I feel like you asked a good question I don't have a very systematic answer but let's talk about some levels so one level is the atomistic structure"
+  },
+  {
+    "segment_id": "tr-00379",
+    "start_seconds": 3745.02,
+    "end_seconds": 3757.14,
+    "text": "this is an abstraction right there is no perfect atomistic structure anything we do but it's one approximation another one is the continuum model so this one is not atomistic anymore but it's a continuous"
+  },
+  {
+    "segment_id": "tr-00380",
+    "start_seconds": 3764.76,
+    "end_seconds": 3776.76,
+    "text": "you do this experiment forever what would be the final state and then there's another layer abstraction which is kinetics acknowledging that we're not doing this experiment forever so time matters so how quickly will a reaction"
+  },
+  {
+    "segment_id": "tr-00381",
+    "start_seconds": 3776.76,
+    "end_seconds": 3788.76,
+    "text": "happen or not even if it's lower energy or not so thermodynamics kinetics atomistic continuum what else are there other levels of abstraction well I think your point about there could be an overarching"
+  },
+  {
+    "segment_id": "tr-00382",
+    "start_seconds": 3788.76,
+    "end_seconds": 3801.02,
+    "text": "new theoretical advance that informs multiple campaigns kind of like as an investor I want to go like here's the bottleneck guys we get everything else I"
+  },
+  {
+    "segment_id": "tr-00383",
+    "start_seconds": 3801.02,
+    "end_seconds": 3813.04,
+    "text": "don't know I mean from the beginning our hypothesis has been that one of the bottlenecks is automatic characterization because it's not that hard to mix powders to get to try stuff but if you"
+  },
+  {
+    "segment_id": "tr-00384",
+    "start_seconds": 3813.04,
+    "end_seconds": 3825.16,
+    "text": "can't characterize and analyze it and decide what the next step should be intelligently you don't really benefit much from mixing powders randomly so we focused a lot on automatic characterization closing the loop with simulations"
+  },
+  {
+    "segment_id": "tr-00385",
+    "start_seconds": 3825.76,
+    "end_seconds": 3838.24,
+    "text": "because that's how you try a lot of things make an informed decision and then decide what to do the next day maybe as a follow -up question how do humans live in this loop at what"
+  },
+  {
+    "segment_id": "tr-00386",
+    "start_seconds": 3838.24,
+    "end_seconds": 3850.6,
+    "text": "points do you drop the human in I mean you could randomly! where do you decide to spend your time it seems like it might be all levels like you have"
+  },
+  {
+    "segment_id": "tr-00387",
+    "start_seconds": 3851.24,
+    "end_seconds": 3863.48,
+    "text": "people in the lab who are physically moving materials and then you also have scientists who are guiding decisions about what campaign and then you have humans who are 100 % I think it's always shifting"
+  },
+  {
+    "segment_id": "tr-00388",
+    "start_seconds": 3863.48,
+    "end_seconds": 3876.06,
+    "text": "too so I think even just using the guidance of campaigns in early days that was fully human driven now early"
+  },
+  {
+    "segment_id": "tr-00389",
+    "start_seconds": 3876.06,
+    "end_seconds": 3888.46,
+    "text": "on we identified that characterization was a big bottleneck in the early days it was human driven and the scientists were very much overwhelmed and the balance has shifted significantly towards AI driven and this"
+  },
+  {
+    "segment_id": "tr-00390",
+    "start_seconds": 3888.46,
+    "end_seconds": 3900.7,
+    "text": "has allowed the scientists who were previously spending all of their time doing these refinements to now elevate their work to something else but I think it's really a function of time!"
+  },
+  {
+    "segment_id": "tr-00391",
+    "start_seconds": 3901.42,
+    "end_seconds": 3913.6,
+    "text": "It's always changing at these things that perform well in the physical world that don't perform well in the other worlds or vice"
+  },
+  {
+    "segment_id": "tr-00392",
+    "start_seconds": 3913.6,
+    "end_seconds": 3926.36,
+    "text": "versa evolutionary search is pretty popular in LLMs I don't imagine it works well here especially in simulations people have been using evolutionary search for"
+  },
+  {
+    "segment_id": "tr-00393",
+    "start_seconds": 3926.36,
+    "end_seconds": 3938.54,
+    "text": "a long time it's pretty good at structure prediction for example finding low energy structures and then process engineers in semiconductor industry will do DOE design of experiments and"
+  },
+  {
+    "segment_id": "tr-00394",
+    "start_seconds": 3938.54,
+    "end_seconds": 3950.66,
+    "text": "they'll often use some kind of zero third like whether it's Bayesian optimization or evolutionary search or I don't think they use RL but similar idea yeah you have to have some kind of algorithm yeah to figure it out all zero third"
+  },
+  {
+    "segment_id": "tr-00395",
+    "start_seconds": 3950.66,
+    "end_seconds": 3962.74,
+    "text": "optimization behaves the same anyway right so okay I want to go back to a question I had earlier which was one of scaling and so I'm curious what is your vision for scaling the lab so"
+  },
+  {
+    "segment_id": "tr-00396",
+    "start_seconds": 3962.74,
+    "end_seconds": 3974.92,
+    "text": "there's different ways coming from the biology world there's a lot of cool tricks you can do in biology you can tag things you know you can use DNA sequencing for all"
+  },
+  {
+    "segment_id": "tr-00397",
+    "start_seconds": 3974.92,
+    "end_seconds": 3986.98,
+    "text": "sorts of interesting readouts and if you can map your complicated assay onto sequencing you can now scale to millions or hundreds of millions or something can you do tricks like this like ultimately every assay"
+  },
+  {
+    "segment_id": "tr-00398",
+    "start_seconds": 3986.98,
+    "end_seconds": 3999.96,
+    "text": "has its own runtime I have a favorite blog post I would want to quote in the show notes but what does the runtimes look like for these labs is your scaling just for materials"
+  },
+  {
+    "segment_id": "tr-00399",
+    "start_seconds": 3999.96,
+    "end_seconds": 4012.1,
+    "text": "just fundamentally linear in terms of you just need more resources to do more things or can you parallelize things in clever ways and combine things and are there tricks there"
+  },
+  {
+    "segment_id": "tr-00400",
+    "start_seconds": 4012.1,
+    "end_seconds": 4024.22,
+    "text": "well I think one way to think about it is the RL environment is not quite trivially run the experiment wait for that agent to fully roll out doing the calculations"
+  },
+  {
+    "segment_id": "tr-00401",
+    "start_seconds": 4024.22,
+    "end_seconds": 4036.5,
+    "text": "going through all the instruments to the final outcome we basically start producing data across all the different instruments and all these different campaigns and one way you can begin to expand that for machine"
+  },
+  {
+    "segment_id": "tr-00402",
+    "start_seconds": 4036.5,
+    "end_seconds": 4048.9,
+    "text": "learning is now reinforcement learning environments can be constructed based on again like dates for the experimental campaigns or computational campaigns at that point or you can also start taking"
+  },
+  {
+    "segment_id": "tr-00403",
+    "start_seconds": 4048.9,
+    "end_seconds": 4061.06,
+    "text": "subsets of instruments and you're like okay we're going to create reinforcement learning environments! this instrument alone or maybe it's across these different instruments to get to some reward state"
+  },
+  {
+    "segment_id": "tr-00404",
+    "start_seconds": 4061.06,
+    "end_seconds": 4073.62,
+    "text": "so that's a way where this finite basket of data when viewed in different ways can then be expanded for training purposes so it doesn't get at the actual experiment"
+  },
+  {
+    "segment_id": "tr-00405",
+    "start_seconds": 4073.62,
+    "end_seconds": 4085.7,
+    "text": "run but from ML perspective maybe I can give you some analogues for the bio! examples you gave so one thing people have tried is combinatorial sputtering I don't know if you ever heard of this like you have these sputtering targets and you"
+  },
+  {
+    "segment_id": "tr-00406",
+    "start_seconds": 4085.7,
+    "end_seconds": 4097.94,
+    "text": "create this compositional gradient so when you look at the final product because there is gradient from each precursor it creates different crystals at different spatial locations so in one go you maybe"
+  },
+  {
+    "segment_id": "tr-00407",
+    "start_seconds": 4097.94,
+    "end_seconds": 4110.3,
+    "text": "try hundreds thousands of crystals this is similar right to your example and as far as I know this hasn't worked very well so far because it turns out like there is diffusivity so things move around"
+  },
+  {
+    "segment_id": "tr-00408",
+    "start_seconds": 4110.88,
+    "end_seconds": 4122.9,
+    "text": "another one that we thought about but we haven't done yet but a lot of people talk about this is superconductivity measurements are a bottleneck because unlike XRD there's no high throughput superconductivity measurement and it can take like one hour per measurement so people"
+  },
+  {
+    "segment_id": "tr-00409",
+    "start_seconds": 4122.9,
+    "end_seconds": 4135.1,
+    "text": "have thought about taking the different candidates mixing them all into one sample and putting it in and if it has superconductivity you know that one of the sources that and then you can do a bit like how people are doing COVID testing too"
+  },
+  {
+    "segment_id": "tr-00410",
+    "start_seconds": 4135.1,
+    "end_seconds": 4147.38,
+    "text": "so there are ideas like this exist some of them work well some of them don't yeah so you I think are about to announce a big fundraise how are you thinking about scaling like we've been doing"
+  },
+  {
+    "segment_id": "tr-00411",
+    "start_seconds": 4147.38,
+    "end_seconds": 4159.5,
+    "text": "our design of our labs for a while and I think the resources allow us to continue to scale up the labs significantly but also the compute both from like the AI side and the computational side but I think really importantly"
+  },
+  {
+    "segment_id": "tr-00412",
+    "start_seconds": 4159.5,
+    "end_seconds": 4171.62,
+    "text": "too it's what are the new types of labs we're able to build so I think we've been proving out this loop in our initial labs here in Menlo Park but we'll be continuing to expand to new types of labs"
+  },
+  {
+    "segment_id": "tr-00413",
+    "start_seconds": 4171.62,
+    "end_seconds": 4183.64,
+    "text": "and repeat the same process yeah like the kind of lab we're trying to build I think haven't been built before at this scale or at this approach so we have learned a lot from our own build out so far and those lessons guide us for the next version"
+  },
+  {
+    "segment_id": "tr-00414",
+    "start_seconds": 4183.64,
+    "end_seconds": 4195.72,
+    "text": "and the next version and then we can as you said like increase the scale the ambition the quality of instruments some instruments are very expensive as we get a really good understand for what we get"
+  },
+  {
+    "segment_id": "tr-00415",
+    "start_seconds": 4195.72,
+    "end_seconds": 4207.86,
+    "text": "a lot of return from we can invest into those more and it makes hardware engineering has become so core to it so for example in the early days just for speed we buy some off -the -shelf instruments and as we kind of push the"
+  },
+  {
+    "segment_id": "tr-00416",
+    "start_seconds": 4207.86,
+    "end_seconds": 4219.86,
+    "text": "scale of the lab you make your own we have to make our own so we realize okay for this instrument um it's pretty fast these components are actually pretty quick but this weighing machine actually becomes the bottleneck or there can"
+  },
+  {
+    "segment_id": "tr-00417",
+    "start_seconds": 4219.86,
+    "end_seconds": 4232.12,
+    "text": "be things pertinent to data quality where well the resting position of this robotic arm actually is above the plate of previously mixed things so there's a contamination risk so in our hardware design we're going to"
+  },
+  {
+    "segment_id": "tr-00418",
+    "start_seconds": 4232.12,
+    "end_seconds": 4244.14,
+    "text": "redesign it so that the resting position lies away from the things like these are the kind of subtle details that allow us to kind of push the noise floor down for our experimental campaign so um basically take"
+  },
+  {
+    "segment_id": "tr-00419",
+    "start_seconds": 4244.14,
+    "end_seconds": 4256.5,
+    "text": "these learnings and scale it up uh you know you ship your org chart uh you have many teams i think that we were surprised when we looked at your jobs page and we were like okay we don't think we fully map what periodic does"
+  },
+  {
+    "segment_id": "tr-00420",
+    "start_seconds": 4256.5,
+    "end_seconds": 4268.72,
+    "text": "maybe some organizing principles so to kind of make sense of the job page uh so we hire for ai research and infrastructure computational uh experimental roles and hardware engineering roles"
+  },
+  {
+    "segment_id": "tr-00421",
+    "start_seconds": 4268.72,
+    "end_seconds": 4280.74,
+    "text": "and then product roles we want to achieve synthesis super intelligence right and we feel like for that we need the right chemistry expertise the right physics expertise simulation theory and thin films"
+  },
+  {
+    "segment_id": "tr-00422",
+    "start_seconds": 4280.74,
+    "end_seconds": 4292.76,
+    "text": "powder so hardware engineering like these seem like very diverse roles which they are but they're all actually um coherent in what they're trying to do which is a sense of super intelligence and this also applies to the llm"
+  },
+  {
+    "segment_id": "tr-00423",
+    "start_seconds": 4292.76,
+    "end_seconds": 4304.98,
+    "text": "researchers the infra even the product engineers because the product engineers kind of make sure all the research gets made into a product that the experimentals in the lab can use yeah so in order to do the end -to -end loop with the physical"
+  },
+  {
+    "segment_id": "tr-00424",
+    "start_seconds": 4304.98,
+    "end_seconds": 4317.28,
+    "text": "world it really requires your ability to have agency over the physical world to build these labs to run the campaigns effectively to create ai systems against that to make them good users of the computational tools uh"
+  },
+  {
+    "segment_id": "tr-00425",
+    "start_seconds": 4317.28,
+    "end_seconds": 4329.44,
+    "text": "that's like the difficulty but also the opportunity of periodic it's like this group of people has just never been brought together before it's irreducibly a multi -disciplinary problem yeah and one other like guiding"
+  },
+  {
+    "segment_id": "tr-00426",
+    "start_seconds": 4329.44,
+    "end_seconds": 4341.9,
+    "text": "principle for us that is really important for us is we want the people who are very good at what they do and experience to do it hands -on you know like the modern life has gotten us to this place where especially in academia when"
+  },
+  {
+    "segment_id": "tr-00427",
+    "start_seconds": 4341.9,
+    "end_seconds": 4354.2,
+    "text": "someone is really good at research in some area we give them so much responsibility for grant writing teaching that they stop having the time to do research in that area hands -on but if you look back at like bell labs ibm"
+  },
+  {
+    "segment_id": "tr-00428",
+    "start_seconds": 4354.2,
+    "end_seconds": 4366.2,
+    "text": "institutions that made really good progress it was really experienced people doing hands -on work like bardine was in the lab every day even though he's a theorist alex muller was in the lab doing experiments even though he was the lab lead"
+  },
+  {
+    "segment_id": "tr-00429",
+    "start_seconds": 4366.2,
+    "end_seconds": 4378.28,
+    "text": "so we try to do that here too so we have some of the world's leaders in different fields but they're doing hands -on work do you want to brag or just call them out like oh i would love to yeah so um you know when i was doing my"
+  },
+  {
+    "segment_id": "tr-00430",
+    "start_seconds": 4378.28,
+    "end_seconds": 4390.52,
+    "text": "phd my favorite computational material scientist who's kind of from my age group is muratan aikol he did his phd with one of our advisors chris wolverton and he is kind of like our computational material"
+  },
+  {
+    "segment_id": "tr-00431",
+    "start_seconds": 4390.52,
+    "end_seconds": 4402.56,
+    "text": "science expert he's incredible uh he's sometimes you know a really good experimentalist even though he does simulations like he understands systems really well uh our lab lead is joe chekielski who is a professor at mit"
+  },
+  {
+    "segment_id": "tr-00432",
+    "start_seconds": 4402.56,
+    "end_seconds": 4414.72,
+    "text": "but he's on leave to work with us full time and joe is just incredible physicist understands superconductivity really well but he also was a professor in japan for a bit so i learned synthesis and chemistry really"
+  },
+  {
+    "segment_id": "tr-00433",
+    "start_seconds": 4414.72,
+    "end_seconds": 4426.88,
+    "text": "well especially for a physicist we have daniel chica who was a graduate student in mercury kinesthetist group which is maybe the best cell state chemistry group in the world and daniel was one of his like synthesis experts so"
+  },
+  {
+    "segment_id": "tr-00434",
+    "start_seconds": 4426.88,
+    "end_seconds": 4439.7,
+    "text": "he's like a magician with his fingers um i mean there's so many examples like this no i know i mean i think like dima bahanda so he's been leading a lot of our ai and llm efforts he was the inventor of neural network attention um"
+  },
+  {
+    "segment_id": "tr-00435",
+    "start_seconds": 4439.7,
+    "end_seconds": 4451.96,
+    "text": "oh but now that but now attention yeah exactly yeah yeah yeah yeah so very hands -on and sort of getting into like you know the traces the training distribution how to connect it to the lab the chemistry i mean"
+  },
+  {
+    "segment_id": "tr-00436",
+    "start_seconds": 4451.96,
+    "end_seconds": 4464.54,
+    "text": "he'll go deep he was very deep um he actually has like solid state synthesis books like at his lab in montreal ray nakano so he used to tech lead some of the operator work at open ai he's"
+  },
+  {
+    "segment_id": "tr-00437",
+    "start_seconds": 4464.54,
+    "end_seconds": 4476.72,
+    "text": "in the lab so when we were doing some lab tours we were initially we're like oh this new uh scientist this new technician really looks like ray and no it was literally this was ray like actually in the lab um with the scientists"
+  },
+  {
+    "segment_id": "tr-00438",
+    "start_seconds": 4476.72,
+    "end_seconds": 4488.86,
+    "text": "automating the machines and it's like this is sort of the the dna and the type of people we need to kind of pull this off uh so uh we also saw that you have forward deployed engineering uh roles um we happen to be spinning"
+  },
+  {
+    "segment_id": "tr-00439",
+    "start_seconds": 4488.86,
+    "end_seconds": 4500.9,
+    "text": "up a forward to plan engineering podcast because there's so many engineers that would do that role they may not necessarily know that there even is a role for them at periodic what is it um and how do they work with customers"
+  },
+  {
+    "segment_id": "tr-00440",
+    "start_seconds": 4500.9,
+    "end_seconds": 4513.2,
+    "text": "so we've been building our own products our own tools our own ai and computation for ourselves so we've been customer zero now what we're doing is we're taking these same tools to different industries and we're"
+  },
+  {
+    "segment_id": "tr-00441",
+    "start_seconds": 4513.2,
+    "end_seconds": 4525.56,
+    "text": "we have a huge focus right now in the semiconductor industry uh however in order to do this like these are very uh um private companies we need to be able to operate within some of the most secure environments"
+  },
+  {
+    "segment_id": "tr-00442",
+    "start_seconds": 4525.56,
+    "end_seconds": 4537.62,
+    "text": "and so our periodic for deployed engineers and researchers will actually be on site working and actually integrating our ai systems or computational systems to help our partners get to their goal"
+  },
+  {
+    "segment_id": "tr-00443",
+    "start_seconds": 4537.62,
+    "end_seconds": 4549.8,
+    "text": "states more quickly uh so basically the tools the know -how that we've built in doing our own materials discovery materials engineering we're now bringing to industry and we think this is the the most effective"
+  },
+  {
+    "segment_id": "tr-00444",
+    "start_seconds": 4549.8,
+    "end_seconds": 4561.82,
+    "text": "way to get partners to their end states and to their goals rather than just like throwing some technology over the wall and telling them to to figure it out then these four deployed engineers will also do the"
+  },
+  {
+    "segment_id": "tr-00445",
+    "start_seconds": 4561.82,
+    "end_seconds": 4573.92,
+    "text": "inference locally but then also can train on the data so again once we take our system that understands these different areas and we deploy we can make it expert on the customers of the partners data so that"
+  },
+  {
+    "segment_id": "tr-00446",
+    "start_seconds": 4573.92,
+    "end_seconds": 4586.06,
+    "text": "they can own their own intelligence and have systems that understand this much more effectively than uh you know than just like hitting some api or some untrained model and so this is a"
+  },
+  {
+    "segment_id": "tr-00447",
+    "start_seconds": 4586.06,
+    "end_seconds": 4598.36,
+    "text": "much expanded um for deployment engineering role than typical because this really requires some very deep machine learning expertise uh you have to be incredibly precise from like a data training"
+  },
+  {
+    "segment_id": "tr-00448",
+    "start_seconds": 4598.36,
+    "end_seconds": 4610.82,
+    "text": "perspective infrastructure perspective but also the physics perspective so we're working with you know highly technical industries they have to understand you know different areas of like chemistry is material science um some of the devices and"
+  },
+  {
+    "segment_id": "tr-00449",
+    "start_seconds": 4610.82,
+    "end_seconds": 4623.0,
+    "text": "so that those are the roles we're building out right now part of it is willingness to spend extended periods on site in taiwan okay well i know that kind of customer uh it's interesting that like you're"
+  },
+  {
+    "segment_id": "tr-00450",
+    "start_seconds": 4623.0,
+    "end_seconds": 4635.22,
+    "text": "monetizing that that is the primary way that you're monetizing now but it might change in the future but like i mean you know that's that's like a a model that i think people don't really get about april"
+  },
+  {
+    "segment_id": "tr-00451",
+    "start_seconds": 4635.22,
+    "end_seconds": 4647.26,
+    "text": "research lab like because then when you compare yourself to like a bell labs that's what people are thinking right like which is i think like a really great analog would be software engineering right so in the early days of software engineering like we have like you know github copilot then we had early versions"
+  },
+  {
+    "segment_id": "tr-00452",
+    "start_seconds": 4647.26,
+    "end_seconds": 4659.34,
+    "text": "of chat gpt people were using these things as copilots to help them get to their solutions and as the automation improved now we have things like codex and very few of our engineers are writing code the way they used to and we"
+  },
+  {
+    "segment_id": "tr-00453",
+    "start_seconds": 4659.34,
+    "end_seconds": 4671.5,
+    "text": "think a very similar thing could play out for periodic as well where you can have systems to accelerate the researchers the material scientists materials engineers the process engineers but as the autonomy intelligence"
+  },
+  {
+    "segment_id": "tr-00454",
+    "start_seconds": 4671.5,
+    "end_seconds": 4683.54,
+    "text": "and capability grows you can begin to price outcomes so help me get to this kind of goal state um and i think that's a really interesting area for us yeah i"
+  },
+  {
+    "segment_id": "tr-00455",
+    "start_seconds": 4683.54,
+    "end_seconds": 4695.82,
+    "text": "mean we kind of feel like our best contribution to solid state physics and science could be if we made these tools and topics profitable uh similar to how chat gpt made cs and llm"
+  },
+  {
+    "segment_id": "tr-00456",
+    "start_seconds": 4695.82,
+    "end_seconds": 4708.2,
+    "text": "majors way more popular in colleges before and after we love to show that solid state physics material science research can make a big impact commercially and then that will attract more attention young people will want to study physics"
+  },
+  {
+    "segment_id": "tr-00457",
+    "start_seconds": 4708.2,
+    "end_seconds": 4720.88,
+    "text": "uh which will be uh a dream um and you know bell labs did make a huge commercial impact right so they failed to commercialize some of their incredible advances they of course did some research that just couldn't be commercialized"
+  },
+  {
+    "segment_id": "tr-00458",
+    "start_seconds": 4720.88,
+    "end_seconds": 4733.02,
+    "text": "like the cosmic uh background but but they did benefit a lot from like the vacuum tube connecting uh east coast to west coast by phone lines yeah and i think it's it's really also interesting to think that technology and capital are"
+  },
+  {
+    "segment_id": "tr-00459",
+    "start_seconds": 4733.02,
+    "end_seconds": 4745.24,
+    "text": "incredibly intertwined so if you look at what was the progress on chatbots for many years like imagine recounting okay what was the progress from chatbots from i'll say 2010 to"
+  },
+  {
+    "segment_id": "tr-00460",
+    "start_seconds": 4745.24,
+    "end_seconds": 4757.44,
+    "text": "2015 we'd be kind of at a loss to say over that five -year period how much did they improve whereas if you look at the period from 2021 to 2026 you know it's night and day"
+  },
+  {
+    "segment_id": "tr-00461",
+    "start_seconds": 4757.44,
+    "end_seconds": 4769.62,
+    "text": "and what happened was chat gpt and these other systems were able to achieve a product market fit and it changed the capital landscape entirely this changes the landscape for hiring um compute"
+  },
+  {
+    "segment_id": "tr-00462",
+    "start_seconds": 4769.62,
+    "end_seconds": 4781.72,
+    "text": "data etc the virtual cycle exactly success be success exactly so technology uh it's incredibly coupled to the capital and those resources and we want to achieve the same thing in the physical world yeah"
+  },
+  {
+    "segment_id": "tr-00463",
+    "start_seconds": 4781.72,
+    "end_seconds": 4793.78,
+    "text": "so one thing i've been seeing is there there's this move from science being funded from you know government grants and so on to you know vcs and uh private funding do you all plan on making anything you're"
+  },
+  {
+    "segment_id": "tr-00464",
+    "start_seconds": 4793.78,
+    "end_seconds": 4805.92,
+    "text": "doing uh open source like either releasing data sets or actual models is this something like in the future even you know there are many models which may be not well your your state of the art but which could still be"
+  },
+  {
+    "segment_id": "tr-00465",
+    "start_seconds": 4805.92,
+    "end_seconds": 4818.28,
+    "text": "you know useful release absolutely i mean so uh we have a couple of things so we have been contributing to open source to kind of like pymetgen the materials project uh code based uh custodian their dft"
+  },
+  {
+    "segment_id": "tr-00466",
+    "start_seconds": 4818.28,
+    "end_seconds": 4830.4,
+    "text": "runner uh torch sim was actually created by one of the researchers here abhijit gangan and he maintains it still jacks md uh abhijit maintains it so we do a lot of open source contributions"
+  },
+  {
+    "segment_id": "tr-00467",
+    "start_seconds": 4830.4,
+    "end_seconds": 4842.44,
+    "text": "as she lang megatron yeah yeah so we've been very active contributors back into open source and and we also have an academic grant program where we give academic gift grants to uh academic groups"
+  },
+  {
+    "segment_id": "tr-00468",
+    "start_seconds": 4842.44,
+    "end_seconds": 4854.48,
+    "text": "in universities that we feel like a really advancing this direction towards synthesis super intelligence uh so that's also been great to see i think the first paper from this funding is about to come out so it will be exciting"
+  },
+  {
+    "segment_id": "tr-00469",
+    "start_seconds": 4854.48,
+    "end_seconds": 4867.28,
+    "text": "to just get more papers come out like this yeah okay um let's still man this say that you've successfully have 100 lab automation which does everything characterizes everything correctly you have all of the fun agents which can do everything i"
+  },
+  {
+    "segment_id": "tr-00470",
+    "start_seconds": 4867.28,
+    "end_seconds": 4879.4,
+    "text": "i still am somewhat unclear about how you actually get to superconductivity there's a lot of hard problems to solve what is the path there when like there is no sort of like theory for model"
+  },
+  {
+    "segment_id": "tr-00471",
+    "start_seconds": 4879.4,
+    "end_seconds": 4891.42,
+    "text": "for most of the like strongly correlated systems or high temperature systems yeah so i mean our view is that it's not hard to think of chemical spaces that would host superconductivity what's"
+  },
+  {
+    "segment_id": "tr-00472",
+    "start_seconds": 4891.42,
+    "end_seconds": 4903.74,
+    "text": "really hard is to synthesize them that's why we're really like emphasizing since the super intelligence so maybe one example to give historically is alex muller when he thought that transition metal oxides might be a good path to superconductivity"
+  },
+  {
+    "segment_id": "tr-00473",
+    "start_seconds": 4903.74,
+    "end_seconds": 4915.78,
+    "text": "he was actually trying nicolates the nickel oxygen and some uh cations and that didn't work and then he tried cup rates just copper copper oxygen and some cations and that worked and then he got a nobel prize but then we know that later"
+  },
+  {
+    "segment_id": "tr-00474",
+    "start_seconds": 4915.78,
+    "end_seconds": 4927.98,
+    "text": "on turns out nicolates was a good idea i mean nickel and copper are next to each other two layers right exactly there are only so many 3d transition metals and then uh harold huang one of our um stanford professors here who's incredible"
+  },
+  {
+    "segment_id": "tr-00475",
+    "start_seconds": 4927.98,
+    "end_seconds": 4940.14,
+    "text": "he realized he can make nicolates in thin film form and show the superconductivity um so you know if we have a really good synthesis super intelligence in the lab and we can really scale up these things i"
+  },
+  {
+    "segment_id": "tr-00476",
+    "start_seconds": 4940.14,
+    "end_seconds": 4952.68,
+    "text": "think we won't run out of ideas or the lm won't run out of ideas about what directions to try uh like 3d transition metals oxygen like they're very related ideas here like many people have been trying like cobaltates"
+  },
+  {
+    "segment_id": "tr-00477",
+    "start_seconds": 4952.68,
+    "end_seconds": 4964.78,
+    "text": "which is like instead of copper or nickel you try cobalt um so i think that's super exciting like maybe one historical example to also study is the japanese group that discovered magnesium diboride as you know that's"
+  },
+  {
+    "segment_id": "tr-00478",
+    "start_seconds": 4964.78,
+    "end_seconds": 4977.28,
+    "text": "the highest temperature ambient pressure conventional superconductor and they discovered it by just trying a bunch of materials i think they tried 30 000 different things 30 of them seem to host interesting superconductivity"
+  },
+  {
+    "segment_id": "tr-00479",
+    "start_seconds": 4977.28,
+    "end_seconds": 4989.52,
+    "text": "and mgb2 was one of them but magnesium diboride set on people's shelves as a precursor for decades before then and bcs theory had been invented back in 1957 so the"
+  },
+  {
+    "segment_id": "tr-00480",
+    "start_seconds": 4989.52,
+    "end_seconds": 5001.74,
+    "text": "way people found these materials wasn't for directly from theory it wasn't because they couldn't synthesize until then it was just like they tried a bunch of things so now imagine if we have this perfect automation that you're describing which sounds like a dream um and"
+  },
+  {
+    "segment_id": "tr-00481",
+    "start_seconds": 5001.74,
+    "end_seconds": 5014.0,
+    "text": "we tried the 30 000 the takahito group tried in over his career in a month we just really increased the surface area for luck uh no but yeah it's very inspiring what you've done congrats on all your success"
+  },
+  {
+    "segment_id": "tr-00482",
+    "start_seconds": 5014.0,
+    "end_seconds": 5026.0,
+    "text": "i think i feel like you're creating yeah the modern like playground i imagine recruiting must be like super easy for you so i'm just like a little bit jealous but uh you've worked hard for it to get here so yeah yeah well thank you so much yeah it was great"
+  },
+  {
+    "segment_id": "tr-00483",
+    "start_seconds": 5026.0,
+    "end_seconds": 5029.0,
+    "text": "chatting with you both yeah thank you you"
+  }
+]

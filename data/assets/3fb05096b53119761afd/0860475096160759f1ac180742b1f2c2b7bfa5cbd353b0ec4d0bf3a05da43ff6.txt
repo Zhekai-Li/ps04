@@ -1,0 +1,158 @@
+Reading papers usually means
+highlighting, note-taking, and trying to
+keep track of what matters. Now, with
+Paper Pile, you can do all of that
+[music] in one place. So, let's walk
+through how to read and annotate papers
+within Paper Pile so that you can
+capture ideas as [music] you read.
+Let's start by opening a paper. So, from
+your library, click the PDF button next
+[music] to any reference. Now, this
+opens the PDF viewer inside Paper Pile.
+[music] So, instead of downloading files
+or switching to another app, everything
+happens here. Let's start with the
+navigation. In the left sidebar, you've
+got a few tools to make it easier to
+move through the paper. [music] First,
+click the outline to see the table of
+contents for the paper, including it
+subheadings for quick navigation [music]
+to sections like the introduction,
+methods, or results. Next, you've got
+thumbnails. Now, this shows a preview of
+every [music] page in the paper. And
+this is super useful if you're looking
+for a specific figure or section. You
+can just jump to it straight away. Now,
+let's say you're looking for a specific
+term. [music] Click on the magnifying
+glass to search the document or press
+command plus F on Mac or control + F on
+Windows. Type in your [music] keyword
+and paper highlights all matches in the
+document. Sometimes I'll use this to
+search for key topics within a paper to
+make reading more efficient, but you can
+also use it to find the broader context
+surrounding [music] a particular quote.
+The results appear here in the sidebar
+so that you can jump between them. You
+can also adjust the zoom level, rotate
+pages, or switch between light, [music]
+dark, and night mode from the toolbar.
+Now, let's move on to marking up the
+paper using highlights, underline, and
+strikethroughs. To highlight, choose the
+highlight button in the toolbar, choose
+the color, and then select [music] the
+text.
+The fastest way to highlight is using
+[music] keyboard shortcuts. So, you
+select any text and press H to [music]
+highlight it.
+You can also press U to underline
+or T to strike [music] through.
+You can change colors quickly. Two,
+[music] press one for yellow, two for
+red, three for blue, or four for green.
+So, it's efficient to highlight core
+parts of the paper as you read [music]
+and use different colors for different
+themes. For example, you might use one
+color for key findings [music] or quotes
+that are particularly useful, another
+for methods, and another one for things
+that you need to follow up on. You can
+also change the markup after you've
+created it. All of your highlights
+appear in the sidebar, so you can see
+everything you've marked up without
+[music] scrolling through the whole
+paper again.
+Now, let's look at sticky note [music]
+annotations. Now you can add sticky
+notes anywhere on the page linked to
+different parts of the paper. Click the
+sticky note button in the toolbar or
+press M. [music] Then click anywhere on
+the page to place the note. Now you can
+type something like use this in the
+discussion section [music]
+and your note appears both in the
+sidebar and in the comments panel. Now
+this is where the paper starts to become
+really useful. So, [music] you're
+extracting important information and
+adding your own thinking alongside
+[music] it. You can change the color of
+notes to organize by priority or
+category. And another really useful
+feature here is that you can reply to
+[music] notes. So, if you come back
+later or you're working with someone
+else in a shared library, [music] you
+can build up a thread of comments,
+discuss different interpretations, or
+evaluate or synthesize what you [music]
+found when you're writing later. You can
+track your understanding over time and
+collaborate with others [music] while
+reading. You can also add notes to
+existing annotations. So instead of
+placing a note [music] separately, you
+can select the highlight and add a
+comment directly to it. This lets you
+mark something and explain [music] why
+it matters in one step.
+Now let's look at annotating figures and
+diagrams. Now this is where Paper Pile's
+annotation tools really shine. [music]
+The best way to do this is to use shape
+tools. Just like with highlighting,
+shapes have keyboard shortcuts.
+Click the draw option in the toolbar or
+press R to [music] draw a rectangle,
+O for an oval,
+A for an arrow,
+or P for freehand drawing. [music]
+You can use these for circling important
+parts of a figure, highlighting specific
+data points, or showing relationships
+between different [music] figures. You
+can also add a text box directly onto
+the page by clicking the text tool,
+[music] placing the box, and then typing
+your note.
+And of course, you can adjust the font,
+the size, the color, and formatting of
+the text, which is particularly useful
+for adding context directly onto
+diagrams and figures.
+All of these annotations, [music]
+shapes, arrows, and text boxes also
+appear in the sidebar.
+Now, let's review everything you've
+[music] annotated. The sidebar shows all
+of your highlights, notes, and shapes in
+[music] a single list. So, instead of
+rereading the entire paper, you can
+quickly scan your annotations. [music]
+Click on any annotation and paper pile
+takes you straight to that point in the
+paper. You can also search your
+annotations by using the search box at
+the top of the sidebar to search your
+notes and highlights, [music] not the
+entire PDF. Now, if you want to export
+your annotations, click the summary
+[music] button. This shows all of your
+annotations in one view. So, you can
+export this summary in various formats
+or download the [music] PDFs with all of
+your annotations included. Everything is
+saved automatically and synced across
+your devices. So you can annotate on
+your computer and then review your notes
+later on your laptop, tablet or phone.

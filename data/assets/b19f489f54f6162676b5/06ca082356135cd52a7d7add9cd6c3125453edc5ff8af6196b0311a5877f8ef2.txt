@@ -1,0 +1,93 @@
+As AI tools have [music] emerged, it's
+changed the way software engineers
+create new technology. But does AI
+significantly boost productivity?
+How does AI make an impact on the
+organizational level? Join us as we
+[music] hear from Fay Luo, principal
+researcher at Okta, to discuss beyond
+the hype, the efficiency throughput gap
+[music] with GitHub Copilot.
+>> So, about 5 years ago, our CEO told me,
+"Can I ask me to look at the engineering
+productivity best practices?" The single
+most interesting is this insight that
+software engineers so hard to run
+faster. This is because that software
+engineer requires collaboration and has
+dependencies, and this cannot run in
+parallel. This observation really
+brought me back to my early career as a
+semiconductor researcher.
+Where we use equivalent circuit to
+analyze devices by decompose a
+complicated concept into current,
+voltage, resistance, and so on.
+And I saw exactly same pattern in
+organizations.
+So, we proposed organizational Ohm's
+law. In this framework, we have
+productivity as a current, individual
+potential as a voltage, and
+organizational resistance, which
+consists both individual and the team
+components. In our research, we run a
+survey where engineer reports their time
+spent across different activity before
+and after GitHub Copilot. And then, we
+pair that survey information with their
+GitHub Copilot usage as well as their
+engineering metrics. What we found is
+something we call efficiency throughput
+gap. The efficiency throughput gap
+described the phenomena that at
+individual level, things are great.
+Engineers are happy, motivated, they do
+things faster, but at the team
+organization level, throughput do not
+improve. There's a huge gap between how
+each individual perceive a technology
+versus how organization benefit from
+this technology. So, what do we found
+challenged industry point of view of
+this instant AI productivity gain? At
+the time we did the research, Copilot
+could only do simple code writing,
+queries, helping configurations, and do
+some tests. But now,
+the field has evolved so fast. AI tools
+can [music] generate very sophisticated
+software. But the point we're trying to
+make here is that the technological
+advancement itself is just half of the
+story, probably the simple half of the
+story. What's really need as
+organization is to evolve the processes,
+the way we work together together with
+AI technology. To achieve the full
+potential of AI productivity gain, we
+see three stage. First is this
+efficiency gain stage where individual
+engineers see the benefit, while
+organization do not. This is where our
+data sits.
+The second stage is a productivity gain.
+This requires continuous upskill our
+engineers, but also change the workflow
+so that it can align with our AI
+augmented capability.
+The third stage is
+organizational optimization, making
+quicker, better decisions, less
+collaboration for unnecessary
+components. All this has to evolve
+together, the people, the team, the
+collaboration, the infrastructure, the
+processes. Think this AI productivity
+gain process as a way for us to reinvent
+ourselves as organization to a better
+stage of who we are.
+>> Learn more in Beyond the Hype, The
+Efficiency Throughput Gap with GitHub
+Copilot, a research article in the
+October 2026 Communications of the ACM.

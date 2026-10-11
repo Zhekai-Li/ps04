@@ -1,0 +1,1524 @@
+We have Professor Professor Surya
+Ganguli,
+who will
+tell us
+a science of AI for science.
+So please
+Surya.
+>> [applause]
+>> Okay, great. So it's been a super fun
+conference. Thanks Ben for for leading
+us in this. It's
+it's really it's really been exciting.
+Um
+So I wanted to start with a very light
+topic.
+The devil.
+All right.
+Okay, so how am I going to work the
+devil into this? So there's a famous
+quote by Sir Michael Atiyah.
+You know, famous you know, the
+Atiyah-Singer index theorems related to
+anomalies in the in in particle physics.
+The quote is algebra is the offer made
+by the devil to a mathematician.
+The devil says, "I'll give you this
+powerful machine.
+All you need to do is give up your soul,
+give up geometry."
+The danger to our soul is there. When
+you pass into algebraic calculation, you
+stop thinking geometrically, you stop
+thinking about meaning.
+Okay, do you see where I'm going with
+this?
+So I have a paraphrase of Michael
+Michael Atiyah.
+AI is the offer made by a devil to a
+physicist.
+The devil says, "I'll give you this
+powerful machine. All you need to do is
+give up your soul, give up
+understanding."
+The danger to your our soul is there.
+When you pass into AI, you stop thinking
+conceptually, you stop thinking about
+meaning. Okay? This sounds
+like I'm very negative on on AI. I'm
+actually not. I'm very bullish on AI in
+physics and in science in general.
+It obviously has very practical
+significance in especially in situations
+where you can search over verifiable
+situations. AI will be very powerful
+for physical applications like material
+design, drug discovery, chip design,
+mathematical discovery, and so forth.
+It's already quite powerful there.
+But as fundamental scientists,
+you know, we want the thing we want to
+advance is our conceptual understanding
+about how the universe works. And that
+leads to the joy that drives humans to
+achieve, right? So we're all intensely
+curious about major open questions like
+how does life emerge from molecules, how
+does intelligence emerge from neurons,
+how for example does our macroscopic
+world emerge from the quantum. It's
+these big picture questions that drive
+us as scientists. Now somebody once said
+that actually the American taxpayer is
+not paying us to be happy. Okay? They're
+actually paying us for results. So in
+some sense it's it's
+it's it's our responsibility to make use
+of AI as powerfully as we can, but also
+because of human psychology, if we don't
+feel joy in what we do, we can't always
+achieve what what we can what we can
+possibly achieve. So the the question is
+how do we sort of maintain A joy, but B
+conceptual understanding in in the face
+of AI, right?
+Um so science and AI both have a similar
+understanding problem. I'll give you a
+couple of examples from from
+neuroscience, but this will be
+recognizable to you in any field. For
+example, in neuroscience we can record
+hundreds to thousands of neurons in the
+brain. We can even build accurate but
+complex predictive models of neural
+activity and behavior. They're really
+good models as far as prediction goes.
+But are we replacing something else we
+don't understand, i.e. the brain, with
+something else we don't understand, our
+model of it? In astrophysics for
+example, are we replacing the huge
+amounts of data we're collecting, i.e.
+something we don't understand, with
+foundation models of that data, again
+something we don't understand.
+At the same time, separately in AI we
+can build large performant neural
+networks, but we don't understand how
+they learn and work, which is quite
+alarming given that they're poised to
+transform society.
+Right?
+So what I think we need is that that of
+course AI for science must move beyond
+prediction alone or always have as an
+ambition going beyond prediction. We
+need algorithmic methods to go from data
+to training to models to prediction then
+to explanations of those models that
+that yield conceptual understanding and
+help us design the next generation
+experiments, which then algorithmically
+leads to joy, hopefully.
+All right? Um and at the same time we
+need a science of AI for science. We
+can't It's not sustainable to continue
+to use tools we don't understand
+on applications to science that we don't
+understand. Um so we need new uh
+theories of how AI learns, reasons,
+computes, imagines, and so forth. And
+those new theories will help us uh uh do
+better science, hopefully.
+So I'll give you sort of four uh uh
+examples of um
+of this uh in our in our work. Uh
+so on the first part, sort of going
+beyond prediction, like coming up with
+models, but then the hard work starts
+once you get the model, uh we'll talk
+about uh uh digital twins or or you
+know, accurate models of the retina and
+of epilepsy and how we went beyond
+prediction there. And then on the
+science of AI, we all use diffusion
+models, for example,
+in many applications, but what do they
+actually learn? What do they What do
+they tell us in terms of the data?
+And we all uh you know, in pilot
+projects, we all do scaling laws to see
+what what choices matter as we scale up
+our models and scale up the data,
+but we don't have any theory for these
+scaling laws. I'll present one of the
+first theory of scaling laws for LLMs.
+Uh you know, how do they scale uh the
+way they do?
+Okay, so let's start with the retina
+just to get everybody on the same page.
+The retina is actually roughly a
+three-layer neural network. You have
+photoreceptors that are so sensitive
+that they can absorb single photons.
+Then you have a layer of bipolar cells
+and then a layer of ganglion cells. Each
+of you have about 1 million ganglion
+cells and everything you know about the
+visual world comes from those 1 million
+ganglion cells.
+Uh the physicist's spherical cow model
+of the retina is a spatial
+spatial-temporal linear filter and a
+nonlinearity. These are pretty good
+models at mimicking the retinal response
+to low-resolution white noise, but
+they're not good at mimicking the
+retinal response to high-resolution
+natural movies, the very movies that
+sculpted the evolution of the retina
+itself.
+Okay?
+So, we tried to uh um
+come up with a a more complicated model
+of the retina. We trained a larger
+convolutional neural network uh to mimic
+the retinal response to natural movies.
+And for the first time, we're actually
+able to get an accurate model that
+predicted the response to natural movies
+uh quite well, as well as could be
+expected given the intrinsic stochastic
+uh
+uh nature of responses in the retina.
+Uh but then, this begs the question like
+what did we actually learn about the
+retina by doing this exercise?
+So, it turns out that there were before
+we could model the retinal response to
+natural movies, there were decades of uh
+work using artificial stimuli, moving
+bars, moving dots, and full-field
+flashes
+that all yielded really interesting
+response properties that were highly
+nonlinear, right? So, we basically
+asked, now that we have a good model of
+the retina, does it reproduce these two
+decades worth of experiments on
+artificial stimuli? These are out of
+distribution. They're not natural
+movies. Remarkably, it did, and it did
+quantitatively generalize to these
+things. Just to give you a sense of how
+striking some of these properties are,
+one is the omitted stimulus response
+here. So, let's say you show full-field
+flashes to the retina.
+The retina will fire and train to the
+the oscillating flashes. Then, let's say
+you omit a flash.
+The retina will detect a violation of
+periodicity, and it'll send a huge
+complaint to the retina.
+And it'll do this over a range of
+frequencies. So, it learns the periodic
+structure of the world, and it sends a
+violation of this prediction to the
+brain.
+Newton's first law of motion, right?
+This is a physics audience. We all know
+that law. Objects that are in motion
+tend to remain in motion unless acted on
+by other forces.
+So, if you show a moving bar and it
+suddenly reverses direction,
+neurons whose receptive field are at the
+location of the bar reversal will send a
+huge complaint to the retina. It's as if
+your retina knows Newton's first law of
+motion and it would when it detects
+violations of that first law, it sends a
+huge complaint to the brain.
+Um I'll I'll skip this one in the in the
+interest of time, but basically uh
+there's been a lot of talk in AI about
+world models, models that can predict
+the future evolution of the world,
+potentially condition an action. What's
+remarkable is that your retina already
+has the the basics of a predictive world
+model over the time scale of about 200
+milliseconds.
+But then this raises a a major question.
+So our artificial neural network could
+get all of these correct, okay?
+Uh here's examples of the comparison
+between our model and the um the data.
+There's a nice match across two decades
+worth of experiments.
+Okay, but this raises deep questions
+about the nature of explanation in
+neuroscience and in science in general,
+right?
+Can we understand how this model
+simultaneously accounts for all all of
+these experiments? These are qualitative
+phenomena, like why did the retina
+complain when the bar reversed
+direction? It's a qualitative question
+that demands a qualitative response.
+So intriguingly, once we become
+quantitative, we might have to step back
+and become qualitative to to obtain
+conceptual understanding. We do this all
+the time in terms of physics intuition
+about various complicated scenarios.
+So we developed a a systematic
+algorithmic approach to do this through
+the lens of model reduction, trying to
+find successively simpler and simpler
+models.
+So what we did was for any given uh
+response to any particular stimulus,
+we we asked at each intermediate layer
+which hidden neurons were
+responsible
+for uh mediating the relationship
+between stimulus and response and we
+carved out a sub circuit important for
+each different stimulus. Because we're
+only restricting attention to a single
+stimulus, we could come up with a
+simpler model.
+Okay? So, that's the basic idea. We have
+a complex model, we simplify it and
+simplify it until we get a simple
+interpretable model that's accurate for
+that stimulus alone.
+Now, every time we went into the Every
+time we did this for each of these
+experiments and we went back into the
+literature, the simple model that we
+found was the consensus model just that
+experimenters agreed on was that was the
+model for that phenomenon.
+Except in one case in which there was no
+agreed upon model and we came up with a
+new one that nobody had come up with
+before.
+So, and that was for the admitted
+stimulus response for
+this one we came up with a new model and
+that model was completely understandable
+in terms of temporal filters and
+nonlinearities and it suggested
+experiments you could do to test the
+model.
+Okay?
+So,
+so this kind of turns the process of
+doing neuroscience on its head. Instead
+of coming up with
+bespoke stimuli and understanding how
+the how the brain responds to those
+bespoke stimuli, you throw the kitchen
+sink at the brain natural movies, you
+show the kitchen sink of deep learning
+at it and you get a good accurate model,
+but that's where the science starts, not
+ends.
+You try to explain or understand how the
+model works and and and and and you know
+derive conceptual understanding from it.
+Okay, so let's move on to something of
+even more clinical relevance epilepsy.
+Right? How do we learn and control the
+digital twin of the epileptic brain
+that allows us to control the actual
+brain? Okay? So, here's the basic idea.
+This is by the way, it's basically a
+physics problem. It's a
+You can think of an epileptic seizure as
+a bifurcation from a steady state to an
+oscillatory state and we'd like to
+understand the nature of that
+bifurcation. So, this is a paper
+led by Jacob Hull and John Huguenard's
+lab and I was collaborating with them
+um, on on bioRxiv.
+Okay, so
+uh
+So, this is what the data looks like.
+They were recording from many many uh
+locations in the brain of a mouse
+uh
+of an epileptic mouse that had a certain
+mutation that was associated with
+epilepsy. And you can see examples of
+where the entire brain goes from a
+quiescent state to a highly oscillatory
+state. So, it undergoes this transition.
+Okay? So, we modeled this
+multi-dimensional dynamical system uh
+over time.
+Uh so, basically um we used a method
+called Cindy. Uh
+we basically learned a dynamical systems
+model
+of these uh uh
+um electrode recordings. We have
+basically a 24-dimensional dynamical
+system. We model its dynamics in the
+transition to not from non-epileptic to
+epileptic states.
+And And what would we like to
+understand? How do we score a model?
+Well, we have all these uh electrodes.
+They might start oscillating at a
+certain amplitude and a certain phase
+lag.
+Uh so, this yields about 60 possible
+quantitative metrics for our model, and
+we learned the model from data, and we
+could generate seizures that looked a
+lot like the actual seizures in the
+mouse's brain. So, here's an example of
+the experiment in the model
+um and in in multiple brain regions
+here. Uh so, the top row is experiment,
+the bottom row is model the model. And
+we could compare all 60 metrics of
+amplitudes and phase lags, and we got
+all of them very uh close to correct.
+Okay? So, we have a very good model of
+the seizure, but this still begs a
+fundamental scientific question. How did
+the seizure start?
+What brain region is responsible? In
+fact, a lot of the epilepsy literature
+thought that there was a single locus
+for the origin of the seizure.
+What we were able to show is that the
+seizure is instead an emergent property
+that arises from the interaction between
+multiple brain regions in a very
+interesting way. The way we did it was
+we analyzed We we stared at the
+equations spit out by machine learning,
+and we saw all sorts of coincidences.
+And through a lot of hard work, we
+figured out a very simple principle
+from the model that we couldn't get from
+the data alone.
+The seizure mechanism a very simple
+mechanism actually. It turns out that if
+you look at any pair of brain regions,
+there's a preferred phase lag between
+the two brain regions such that if the
+two brain regions start oscillating at
+the preferred phase lag,
+the seizure amplitude will grow.
+If they oscillate at the opposite phase
+lag, it won't grow. Okay? And each brain
+region pair has a different preferred
+phase lag.
+So so this is a very simple conceptual
+understanding gleaned from the model.
+Basically phase lag dependent amplitude
+growth.
+But this this conceptual understanding
+also yields a very simple testable
+prediction.
+Through the magic of optogenetics, we
+can shine laser light into genetically
+modified mice
+and and stimulate pairs of brain regions
+at the preferred phase lag or the
+non-preferred phase lag. And we predict
+that at the preferred phase lag, the
+seizure in the actual mouse will grow.
+The amplitude will grow. But uh
+at the opposite phase lag, it won't
+grow.
+And that's exactly what happened. All
+right? So at the preferred phase lag, it
+grew. At the non-preferred phase lag, it
+didn't.
+And the model predicted this and we
+would have had no way of predicting this
+without fitting the model first.
+And having an accurate model, but again,
+getting the accurate model was the
+beginning of science, not the end of
+science.
+Okay. So now
+This actually like a lot of this
+actually changed completely what I teach
+as theoretical neuroscience. You know,
+for the last decade I've taught
+theoretical neuroscience at Stanford and
+I taught classic things like
+Hodgkin-Huxley models,
+plasticity rules, Hopfield models that
+won the Nobel Prize and so forth.
+And you know, I had a
+last section neuroscience and artificial
+intelligence time permitting. Okay?
+Just recently I've completely changed my
+my approach to teaching. Really thinking
+carefully about what scientists need uh
+in the age of AI. For neuroscience, but
+also beyond neuroscience. And I thought
+of explainable AI as the fundamental
+glue, right? A fundamental
+question that permeates both
+neuroscience, AI, and actually all of
+all of science is how do large
+non-linear distributed circuits learn
+and compute?
+And so, um, our colleagues in AI
+actually have been made a lot of
+progress in that because they don't face
+the same experimental uh blockers that
+that real biologists do.
+Uh, and so, I I I changed my entire
+entire course to be about explainable
+AI. If you're interested, you can just
+search for my name and twit under
+Twitter on explainable AI, and you'll
+find the entire reading list. It
+actually got a ton of uh interest when I
+when I posted on Twitter and LinkedIn
+and so forth.
+Um, and I'm teaching it in the fall. And
+it is I think it's useful for like
+anybody who wants to understand
+explainable AI. That's mostly what the
+course is about.
+Okay, so let's now shift gears to the
+science of AI, right? So, what is AI
+actually doing? Uh, and again
+uh, because AI is becoming fundamental
+tools for science, it's just I think
+it's very imperative that we really
+understand how these tools work.
+Um, you know, just the same way that
+astronomers need to understand how their
+telescopes work. Um
+Okay, so
+uh
+Okay, so let's start with diffusion
+models. What do they learn? So, this
+work done by very talented grad student
+in my lab, Mason Mason Cannon.
+Uh, and this has to do with a theory of
+creativity in convolutional diffusion
+models. So, diffusion models uh you
+know, we're using them to generate say
+galaxies, for example, or spectra. Um
+um, for proteins and and so forth. Um,
+here's for images. They seem to be quite
+creative.
+So, how do they they seem to generate
+images that are not in their training
+data?
+So, where are these images that are not
+in the training data coming from?
+Right? How is it generating these
+images?
+Okay, so just so we're on the same page.
+Uh as you know, Joshua, my former
+postdoc, uh spoke this morning. So we're
+we've all seen diffusion models. Um
+Uh the basic idea is to
+you know, take data and slowly diffuse
+it until it becomes noise.
+And then you train a recurrent network
+to reverse that flow, to go from noise
+to images. Okay?
+And uh if you succeed, you'll have a now
+neural network where you feed it in some
+noise and you'll get get new images out.
+Okay?
+Now, there's a puzzle here, which is
+that there exists an exact reversal of
+diffusion. Okay? Done by Anderson in
+1982.
+Uh what I mean by that is if you have a
+finite training set of a finite set of
+images, the data is a sum of delta
+functions, it'll it'll diffuse into a
+Gaussian. There's an exact reversal, a
+vector field such that if you flow along
+it, if you start from a Gaussian, you'll
+flow back to one of the training set
+images.
+Okay, so it's not obvious that you can
+do that, but it's actually possible to
+mathematically write down this exact
+reversal. But this is exactly what
+neural networks are trained to do.
+So, if neural networks are trained to to
+try to exactly reverse diffusion,
+they must fail because they don't always
+go back to the training images. So, the
+success of diffusion models in in
+generating new images far from any
+training image must lie in their failure
+to do exactly what they're trained to
+do, which is to reverse diffusion.
+So, how do they fail in intelligent
+ways?
+So, um
+the key idea is that the neural networks
+that implement the reverse diffusion
+process, that take in an image input and
+spit out a reverse flow direction
+output. For the technical term, it's
+called a score function. So, so this
+this output tells tells you where each
+pixel is going to flow. This input tells
+you what the image is. And you go round
+and round this thing many times and you
+get the reverse flow. Okay? These neural
+networks are not infinitely expressive.
+Uh it turned because there's sort of if
+you look at convolutional only neural
+networks, they have this convolutional
+structure which means the direction that
+a certain pixel flows depends only on a
+neighborhood of that pixel. That's
+locality.
+And that rule, moreover, is copied
+across the entire image. That's
+translation equivariance. Okay?
+So, what we did is we um
+we just like in the spirit of Anderson,
+we wrote down the exact reversal for
+diffusion subject to two constraints,
+locality and translation equivariance.
+And you can write down a deterministic
+ODE that knows about the training data.
+No no training required. And then you
+can feed noise into it and get out
+images. Okay? What does this
+deterministic ODE do?
+Each local patch of the image undergoes
+reverse diffusion under this ideal score
+function, the the force field
+that I'm talking about. And then um
+but then different local patches of the
+image because of locality can flow to
+different training set images. Global
+consistency arises from patch overlaps
+and creativity comes from mixing and
+matching different training examples uh
+in different patch locations. So, let me
+restate the same thing in pictures.
+A perfect reversal of diffusion starts
+from a noisy image that flows back to
+one of the training set images.
+Okay?
+The local equivariant reverse diffusion,
+one local patch might flow back to some
+local patch from some training set
+image. But a different local patch will
+flow back to a different local patch
+from a different training set image. And
+you get this mixing and matching of
+training set patches from different
+locations.
+Uh, so it's like a patch mosaic model of
+creativity.
+Okay?
+So, this sounds all nice, but does it
+actually explain what's going on?
+Well, this theory makes incisive
+testable predictions for any noise
+realization as follows.
+You can take a single realization of
+noise and feed it into this trained
+diffusion model.
+And you'll get Oh, yes, you you a
+trained diffusion model off the shelf or
+you train it yourself,
+and you get an experimental image that
+you'd like to explain.
+The way we explain it is we take that
+same noise realization and we feed it
+into our ODE, this optimal local
+equivariant reverse diffusion.
+And out pops a theoretical prediction,
+and we'd like to compare theory and
+against experiment.
+So, and we can do this on a case-by-case
+basis for every noise realization.
+And this is what we find. So, what
+you're looking at is for four different
+data sets
+and two types of architectures, you're
+seeing pairs of images.
+The right-hand image in each pair is an
+experimental image obtained from a
+trained diffusion model trained on that
+data set.
+And the left-hand image pair of the of
+the pair is our theoretical prediction
+for it from our theory. And you can see
+there's a very beautiful correspondence
+between theory and experiment on a
+case-by-case basis. Okay? In fact, the
+median R squared between theory and
+experiment is 0.9. Okay?
+So, this this sort of um
+this sort of explains what these
+convolution only diffusion models
+actually do. Now, the full story isn't
+done yet
+because you notice we're looking at
+quite simple data sets. If you want to
+look at more complicated data sets that
+are larger and higher resolution, you
+need more powerful diffusion models that
+aren't convolutional only.
+They might have self-attention layers or
+transform you know, diffusion
+transformers or things like that with a
+more complicated architecture that
+breaks locality. And we don't have a
+theory for how those work. We've spent
+some time working on that, and the best
+we can say at the moment is that I think
+the self-attention is doing some kind of
+semantic segmentation
+in these in these models. So, I don't
+want you to think that the the we have a
+full theory for the most complicated
+diffusion models.
+But but this is to my knowledge, 10
+years after the first paper with Joshua
+and and and myself
+from my lab, this is the first time
+we've had a theory of diffusion models
+that actually can quantitatively explain
+what I what's going on at at in these
+simple convolutional uh models.
+So, now if your if your diffusion models
+in science are constructing patch
+mosaics,
+what implications does it have for
+science? That that's I think an open
+question.
+Okay, so again to summarize, we we
+developed the first analytic theory of
+creativity in diffusion models that can
+quantitatively explain or predict new
+samples and explain how they're composed
+out of the training data. And again just
+a summary is you get a local patch
+mosaic model of creativity.
+Okay, now um
+the scaling laws, okay? So, again when
+we're trying out
+uh models in AI for science, we always
+start with small models, small data sets
+to see what the scaling laws look like,
+to see if we should justify further
+investment in in scaling up our models
+or scaling up data collection and so
+forth.
+Um
+And and indeed these scaling laws uh
+and by the way, this is a paper that'll
+be presented in in Korea in the summer
+at ICML. Um it's it's led by French
+Francesco Cagnetta in Matiu Wyart's lab
+and Hal and Raventos in in my lab. And
+this is super fun collaboration. So, um
+Yeah, industry also like like you know,
+did this you know, about 6 years ago or
+so. There's this famous paper scaling
+laws for neural language models that
+showed for example, as you increase the
+data set size in a situation where
+compute is not a bottleneck or model
+size is not a bottleneck, but data set
+size is the bottleneck,
+as you increase data set size, the test
+loss, the cross entropy loss for next
+token prediction on held out uh data set
+falls, and it falls as a power law with
+some
+Right, these power laws really captured
+the imagination of industry. They
+motivated significant societal
+investments
+in compute and data collection and
+energy and so forth.
+Um and they're they've been motivating
+us to this day.
+But what's kind of shocking is that even
+in these last 6 years,
+we have not had a theory of um
+what value why the exponents in these
+power laws take the values that they do
+um for any realistic language model on
+any realistic natural language data set.
+Okay?
+So, just recently in this paper we came
+up with a with to our knowledge the
+first theory of this.
+And and so, let me explain uh uh what it
+has. And it be very interesting to think
+about how to generalize this theory to
+scientific data sets.
+Okay. So, again just so we're all in the
+same page here. I mean, I think all of
+you know what a transformer is in the
+context of large language models. But
+just to set the notation,
+right? If this is your transformer
+architecture, you feed in a bunch of
+tokens. For example, subtle is the Lord,
+but malicious he is.
+Good. Okay. Famous quote by Einstein.
+And so, the the transformer is supposed
+to adjust its parameters to increase the
+probability of not given these previous
+words. Okay?
+But they're not that inefficient at
+training. What they do is they take the
+entire sentence and they they shift the
+sentence by one in the output and they
+train
+it to predict every next word based on
+all previous words.
+And so, if L sub n is a loss function,
+which is the minus log probability of
+the next word given n previous words, L
+sub one is the loss function applied to
+is, which should be predicted from
+subtle. L sub two is the loss function
+applied to the, which should be
+predicted from subtle is, and so on.
+Okay?
+Now, the actual total loss is the sum of
+these conditional losses or the average
+of the conditional losses. So, again
+just to set the notation,
+um this so, this is the total loss. This
+is what we want to construct a theory
+of. P is the amount of training data,
+the number of words in the training set.
+T is the maximal context length. And
+again, L sub n is the loss conditioned
+on the n previous tokens.
+Okay?
+All right. We want to construct a theory
+of this thing. But in order to do so, we
+need to do a higher resolution analysis
+of these individual uh
+um losses conditioned on different
+amounts of history n. Okay?
+Okay, so this is what these functions
+look like for a GPT-2 style model
+trained on the Tiny Stories data set.
+Again, we're academics. We're not
+operating at Anthropic or OpenAI scale.
+But this what you're looking at, this
+horizontal axis is the size of the
+training set.
+This verse vertical axis is the is the
+uh cross-entropy loss of L sub n where
+you it's the it's a loss in predicting
+the next token given little n previous
+tokens.
+The color is indexed by little n.
+Right? So, this is for example one
+token. So, if you're predicting the next
+word given only one token, you're going
+to do quite poorly
+even as you increase data set size. If
+you predict the next word given two
+tokens, you do better. Three tokens, you
+do even better, and so on. Okay? So,
+these are these curves. Now, as
+physicists see a bunch of curves on a
+plot, they salivate if they can uh do a
+scaling collapse. Okay? And we salivated
+in that same way. We asked
+how can we collapse all of these curves
+onto a single universal curve?
+Uh in particular, simply by rescaling
+the vertical and horizontal axes.
+So, you need some sort of intuitive
+understanding of what are natural scales
+for the amount of loss and the amount of
+training data. So, let's think about the
+vertical scale first.
+Well, it's well known in this field that
+the cross-entropy loss is lower bounded
+by the conditional entropy of the next
+token given n previous tokens. That's H
+sub n. Okay?
+H sub n is a property of language itself
+or more precisely a a property of the
+data set itself.
+Right? We expect H sub n to be a
+decreasing function of n because if you
+condition on more history, you reduce
+your uncertainty, your entropy about the
+next token.
+Right? So, H sub n should be a
+decreasing function of n, and we can
+measure this in data.
+And we find that H sub n decays as a
+power law as n to the minus gamma where
+this gamma is a property of the data set
+itself.
+This is how much your uncertainty in the
+next token decreases as you look further
+back in the past.
+So, we can naturally measure L sub n in
+units of H sub n which means rescaling
+by n to the gamma. Okay?
+Let's think about the horizontal scale.
+Uh now I'll try to go through this uh
+quickly, but
+the rough idea is that
+if you have more training data
+you can look further back in the past to
+usefully predict the next token because
+you can resolve weaker correlations
+between tokens further back in the past
+and the next token.
+So, this means that
+uh
+if you want to use tokens n time steps
+in the past
+you're going to need a minimum amount
+amount of data in order to use such
+tokens uh uh usefully. So, there's sort
+of a time-dependent data threshold.
+Basically, if your amount of training
+data P is bigger than your data
+threshold P star of n, then and only
+then can you use n tokens n steps in the
+past to predict. That seems intuitive,
+but how do we actually derive a P star
+of n?
+Well, a very simple principle
+is that token correlations will decay
+with token distance, right? So, what we
+do is we
+you know, let's say you're using byte
+pair encoding so you have like a a
+vocabulary of 50,000 tokens.
+So, you can form a 50,000 by 50,000
+covariance matrix of all the tokens at
+the next token and all the tokens at n
+time steps in the past. And so, you you
+you you'd look at the statistics of your
+data set, you form a 50,000 by 50,000
+covariance matrix, and you compute say
+it's top singular value as a measure of
+the strongest second-order correlation
+in the data as a function of time little
+n into the past. And this correlation
+will decay with time into the past,
+right? Words further back in the past
+are less less relevant for predicting
+the next word. And it it turns out, and
+we measure this in data, it decays as
+another power law with an exponent n to
+the minus beta.
+Okay?
+Now, naturally, if you have P tokens,
+you can expect your level of sampling
+noise for measuring, say, correlations
+to be order one over square root of P.
+So, there's a this decay of next token
+correlations with time intersecting with
+the noise floor sets a relationship
+between training data and time.
+And if you just equate one over square
+root of P with n to the minus beta to
+find this intersection, and solve for P,
+you get the data threshold. P star of n
+grows as n to the two beta. Again, this
+final result should be super intuitive.
+Um
+to look little n time steps in the past
+to predict the future,
+you better have an amount of data
+that grows with the time into the past
+as a power law with exponent two beta,
+where beta is a power law defined by the
+decay of token correlations.
+Okay. So, at the end of the day, what
+this suggests
+is that for the vertical axis, we
+rescale
+uh the cross-entropy loss with n to the
+minus gamma, or we multiply by n to the
+gamma,
+and we measure the data set size in
+units of the data threshold
+for each time step little n. Okay? So,
+in other words, you rescale by n to the
+two beta. So, when you do that,
+magically all the data points collapse
+onto a single universal curve.
+Um so, this is uh
+you know, l n to the n to the l n times
+n to the gamma and p over n to the two
+beta. So, these points and these points
+are exactly the same except that they've
+been rescaled. Okay?
+We can go beyond this, and we can
+actually uh come up with a theory for
+the shape of this curve
+as follows.
+So,
+you know, the opposite of the relation I
+just talked about is that there's a
+maximal data-dependent prediction time
+horizon n of P. Right? So, this
+intersection point allows you to relate
+P to N in either direction.
+So, relating in the other direction,
+this is saying
+um
+words at time in the past bigger than N
+star of P cannot be leveraged for
+prediction.
+Right? So, if you make P bigger, the
+amount of training data bigger, you can
+look further back in the past.
+So, there's basically a time horizon.
+So, if this is time into the past, this
+is the next token right here, and this
+is N tokens into the past. There's a
+prediction time horizon N star of P
+such that a language model shouldn't be
+able to use tokens further back than N
+star of P in order to predict the
+future. Okay, great.
+So, this prediction time horizon is
+going to limit predictive performance.
+The second thing we can do, and this is
+not obvious, but requires some algebra,
+is that we can decompose the total loss
+into an irreducible loss
+which is just the conditional entropy of
+the next token conditioned on a number
+of tokens equal to the prediction time
+horizon.
+Okay, no language model can do better
+than this.
+Right? This is the conditional entropy
+of the next token given all the previous
+tokens. So, you cannot do better than
+this, but you can do worse than this.
+We can decompose this into a sum of
+positive losses, which is the excess
+loss, which reflects suboptimal use of
+the tokens within the prediction time
+horizon.
+Okay?
+So, now this is our next assumption. We
+assume that the large language model is
+not so suboptimal
+that the excess loss due to suboptimal
+use of tokens within the prediction time
+horizon does not dominate over the
+irreducible loss loss due to a finite
+time horizon.
+So, as far as scaling goes, I can drop
+this term, and I'll have a very simple
+theory
+for the the scaling laws.
+And and when you plug everything in,
+it's actually super simple, right? We
+want the conditional entropy at the
+prediction time horizon. The prediction
+time horizon scales with the amount of
+data as P to the 1 over 2 beta. The
+conditional entropy at any time scales
+as n to the minus gamma, so we plug
+these two in. Sorry, we plug these two
+in and we get a very simple formula for
+the the neural scaling law. The loss
+scales with data as P to the minus gamma
+over 2 beta.
+Okay, that's fantastic. It sounds like a
+nice theory, but does it actually
+explain what's going on?
+Okay, and and probably even to our
+surprise, it does. Um
+So, what you're looking at is again the
+horizontal axis the amount of training
+data. The vertical axis is the loss.
+These colored curves are experiments on
+a GPT-2 style model trained on Tiny
+Stories data set, the cross-entropy loss
+on held out data, and you see a nice
+power law uh for different context
+maximum context lengths.
+And this this is our theoretical
+prediction. Now, again, we're only
+predicting the slope. We're not
+predicting the Y intercept. So, we just
+offset this, but you compare the slope
+of this to the slope of this and you see
+that we're in the right ballpark, right?
+Uh and also here, uh you know, for a
+GPT-2 style model trained on WikiText,
+we get this slope and this slope, and
+again, they're very similar to each
+other. And you can see the equation this
+neural scaling law in terms of gamma
+over 2 beta here and here.
+So, this actually sort of explains
+what's what's going on, which is really
+nice.
+Okay, just to zoom out again, uh just
+for you know, for a physics audience,
+physics can really help us understand
+AI. I mean, over the years we've used uh
+very deep uh topics from physics and
+math like non-equilibrium stat mech, uh
+dynamical mean field theory, statistical
+mechanics of high-dimensional random
+landscapes, Riemannian geometry, random
+matrix theory, free probability theory
+to answer all sorts of questions in in
+deep learning um
+across many different domains. Uh this
+is kind of an old list of papers up
+here.
+Um if you're interested in sort of
+entering this field uh along with
+Yasaman and also Joshua um when I was
+hanging out with them at Google when I
+was uh kind of one day a week at Google,
+uh we wrote a review article uh
+on this in annual reviews of condensed
+matter physics. So this was actually an
+invited article, so kind of warmed my
+heart at the time that physicists were
+interested in deep learning.
+It wasn't that common back then.
+We wrote a more technical one if you're
+interested on system mechanics of
+complex neural systems and high
+dimensional data where we use ideas from
+the system mechanics of quenched
+disorder like the replica method and
+cavity method
+to explain a whole bunch of topics in
+learning, random matrices, random
+projections, and so forth, compressed
+sensing.
+And recently I became the director of
+the Simons collaboration on the physics
+of learning and neural computation. This
+is the website and we actually have a a
+bunch of survey lectures on this website
+by researchers in the collaboration. So
+if you're interested in seeing sort of
+frontier topics, you know, as of the
+last you know, year so,
+this is probably a good a good resource.
+Okay.
+So again, just to summarize, um
+you know, AI for science and science of
+AI, I think there is a virtuous circle
+towards joy here. Not just prediction,
+not just better drugs, but joy, okay?
+But but to get there, we do need to move
+uh beyond prediction alone. I I realize
+I'm probably preaching to the choir here
+being an audience of physicists,
+but you'd be surprised even among people
+who do drug discovery, their attitude is
+we don't need to understand how the
+drugs work cuz we actually don't really
+understand how most of our drugs work to
+be honest.
+As long as the drug works, that's all
+that matters. But but uh
+you know, I think in physics we we we're
+we're aiming for fundamental conceptual
+understanding.
+So so we need to think about ways to get
+there. I showed you a couple of
+examples, but there's probably many many
+more ways to do it and it's actually a
+major open question actually.
+Um we also need a science of AI for
+science. You know, I think physics of of
+of AI is actually an excellent subject.
+You know, for those of you in in
+positions of power to hire in physics
+departments, this is something for us to
+think about. Physics has continuously
+expanded from its original domains. Like
+it used to be particle physics as the
+only respectable field of physics or or
+fundamental physics went into
+microscopic physics.
+And then Anderson came and said no more
+is different. Like dirty physics is
+actually really good physics to to work
+on. Then we expanded into biophysics.
+And now how can it be that the most
+consequential complex system of our
+time, AI, could not be a subject of
+inquiry for physicists who have been
+dealing with complex systems their
+entire sort of career and also the
+entire discipline history history of the
+discipline. So um I think physics can
+really help in understanding AI.
+And also a deeper understanding of AI
+will lead to more powerful uses of AI in
+science. So again, it's a virtual
+circle.
+So just to close, uh going back to the
+devil,
+let's dance with the devil without
+losing our soul.
+All right, thanks.
+>> [applause]
+>> Fantastic. Thank you for that uh
+>> [clears throat]
+>> including um
+uh talk. So we have a few minutes for
+some questions. Um
+Uh so if you have a question, um you can
+uh go to one of the microphones
+and we can
+go from there. Aha, great. Take yours.
+Let's start over there, please. Yeah.
+>> Uh thank you very much for the talk. I
+really enjoyed it. Uh I especially
+enjoyed the part about um explaining
+diffusion models. It's really nice and
+simple.
+And my question is more about the
+like how you got to that very nice and
+simple explanation of diffusion models.
+Is there some way of thinking or
+investigating that we could replicate to
+do better research in explainable AI?
+>> Yeah, that was a a bit of a torturous
+path. Like like one thing I
+it's a lot of guesswork, inspired
+guesswork, and and so forth. I mean
+Mason did an incredible job uh there as
+well, like trying all sorts all sorts of
+ideas that didn't work, actually. I
+skipped all the ideas that didn't work.
+Um
+So, you know, that's where I think
+humans really retain an edge over AI at
+the moment is uh
+situations where you need to go down a
+deep logical reasoning path that has
+never been done before,
+right? But in hindsight, we can explain
+it simply as there exists an exact
+reversal.
+Locality and equivariance are
+constraints that prevent you from
+learning the exact reversal. So, can you
+write down an exact reversal subject to
+those constraints?
+And the answer is yes, but then there's
+a lot of questions after which we just
+skipped over, which is the locality
+scale and all that kind of stuff. That's
+all in the paper. But that's the key
+logical step, but it wasn't as clean as
+that the order in which we got things.
+And that's it. Over here.
+>> Hi. I had a related question. In
+diffusion models generally, we are not
+predicting noise to image. It's
+sometimes not sometimes, all the times
+conditioned on what the image is. How do
+you factor that in in the theory of
+analytic theory?
+>> Yeah. Yeah. So, that's a really good
+point. This is for unconditional image
+generation.
+Uh, so in conditional image generation,
+say language conditioned image
+generation, you you'd feed in, you know,
+a few words, and then you get out an
+image.
+Um, we don't have a theory for that, but
+if I were to like suggest a direction to
+go to come up with that theory, you
+could imagine situations where, you
+know, you you learn the such diffusion
+models from paired image text data.
+So, in the way that we kind of came up
+with the reverse diffusion,
+you can also condition our analytic
+reverse diffusion only on image patches
+from images that have those words in the
+caption.
+Right? Now, that's an eminently
+write-downable theory. You can implement
+it easily. What we don't know is if
+it'll actually predict language
+conditioned images on a case-by-case
+basis. That's actually a good project,
+that's to be honest with you.
+>> Uh, thanks.
+>> Yeah.
+>> Very good. I I have a question. So, you
+talk about the you you've set out a
+theory uh in the space of physics for
+AI. And in in physics there's a
+interesting come you know back and forth
+between the experimentalists and the and
+the theorists. So here you're a theorist
+in the space. Who are the
+experimentalists and what does it look
+like to to have collaboration between
+the experimentalists and the theorists?
+>> Yeah. I had to look up this number
+because of a recent grants application.
+It turns out in the last 10 years I've
+collaborated with like about 15
+different experimentalists and capitals
+are just neuroscientists. I didn't have
+to count the non-neuroscientist but I
+have collaborated with people in my
+applied physics department who are not
+neuroscientists as well.
+But but yeah so so other people are the
+experimentalists. Now in AI we're the
+experimentalists which is a great thing
+about this field. Like we can do the
+numerical experiments.
+And so we're always um I love projects
+where you can put theory and experiment
+on the same plot and see a match. Right?
+And that's what we're able to do in the
+diffusion models and the scaling laws.
+It's we're not always successful with
+that.
+So so I mean that's the rough answer. In
+in other fields other people have
+experimentals. I cannot do neuroscience
+experiments to save my life. I mean
+people tried to force me when I was a
+postdoc and I refused.
+And that was a good use of their
+experimental resources for me to do
+nothing actually.
+Um
+but
+but yeah in AI we can do our own
+experiments which is great.
+>> Yeah so then the quick follow question
+is what are the implications for that?
+So you're the experimentalist you're the
+theorist. Yeah what are the implications
+for having this kind of closed loop in
+the same in the same spot? Does that
+allow for new things you couldn't do
+before or is it is it kind of yeah
+what's what's the opportunity?
+>> Yeah it it definitely allows for new
+thing I mean in some sense everything is
+new because these artifacts that we're
+trying to explain didn't exist right
+recently. So I feel like we're in
+completely uncharted territory here
+where um
+we're not even sure what the right
+questions to ask are. Like uh
+you know oftentimes the way we do it is
+we we find interesting phenomena that
+are out there that a lot of people are
+curious about and then we really try to
+understand them. That's that's like a
+data driven approach or an
+experimentalist driven approach so to
+speak.
+>> Totally.
+>> Um Great. I'll let you start over there
+and then we'll come over here. Please.
+>> So, it uh regarding this picture you
+paint of you how you train the model and
+then you like identify important
+sub-circuits and you uh create an
+interpretable model that then gives you
+insight about the domain.
+Like uh how how do you see this picture
+applying to language models, which in
+some sense can be viewed as like a model
+uh trained on human intelligence or
+something. Then we should be able to
+identify circuits and find interpretable
+models to then gain insight about human
+cognition potentially or uh about uh
+human language or whatever else. Um so,
+I'm wondering like do you agree with
+that uh
+picture applying in that way? And uh
+what do you see as the uh
+the implications of the extent to which
+we've seen success in the human
+cognition domain for the rest of the the
+story.
+>> a whole cottage industry of doing
+exactly what you're talking about. So,
+you know, there's a whole a circuit
+circuit finding uh industry out there.
+Like Anthropic is is leading some of it.
+Where they focus on specific tasks. Uh
+you know, and they and and they try to
+find sub-circuits that are uh solving
+those specific tasks. And they're very
+interesting, right? Like uh there's
+specific tasks that you don't know how
+to solve immediately or you don't know
+how to LLM solves immediately and they
+really reveal how it does it. In terms
+of human cognition, again, there's a
+whole cottage industry in neuroscience
+of training AI systems
+on uh
+on AI tasks and then comparing the
+neural representations in the AI trained
+models to neural representations in mice
+and monkeys doing the same task. And
+also humans with language. There's a ton
+of papers out there comparing the
+geometry neural representations in LLMs
+to the geometry neural representations
+in Broca's area or Wernicke's area in
+humans either perceiving or producing
+language. And they see relative
+correspondences, right? So, so it it
+it's a vibrant field at the moment.
+In fact, Laura Wiliams is a new
+relatively new professor here that I'm
+just starting collaboration with looking
+at uh language models and and and new
+representations of the human brain
+while they're doing language tasks.
+>> All right, let's take one more question
+and then we'll close here.
+>> Yeah, it's very exciting to see the
+scaling laws collapse onto a universal
+curves and you have explanation for how
+the exponent depend on a not other two
+exponents. So, I was curious if you have
+explanation for those
+beta and gamma values and are there ways
+to do intervention to increase
+gamma gamma so that you get a steeper
+power law?
+>> Yeah, so so the beta and gamma are
+properties of the data set itself. Like
+so we would have to have a a generative
+theory of language to explain why
+correlations decay the way they do. I'm
+not optimistic about that because
+natural language is so complicated. A
+new collaboration that I'm starting with
+Anshul Gondaje is on language models for
+DNA.
+Now, they have scaling laws for language
+models in DNA but different segments of
+DNA are different, right? Because
+there's junk DNA, there's regulatory
+coding DNA, there's protein folding DNA,
+protein coding DNA. And they they might
+have different scaling laws and nobody's
+looking at that. So, we're hoping that
+we can extract the scaling laws for
+different segments of DNA and then
+understand something about the selection
+pressures that led to the those segments
+of DNA or something like that. The other
+thing is another fun project would be to
+just measure beta and gamma for coding,
+for math, you know, see what happens
+there
+and see how they're different.
+>> A quick follow up like is it possible to
+test at the hypothesis that the data
+exponent influence the power exponent by
+engineering the data?
+>> yeah. You you can do you can create
+artificial data sets like
+hierarchical model like context free
+grammar like models of language where
+you can parametrically vary the
+parameters in the context free
+generation to parametric change gamma
+and beta and then measure the exponents.
+You could do that.
+>> And then a quick question.
+>> All right, let's yeah, we can take that
+question.
+>> Yes, so a quick question. I'm get us
+researcher visiting from London.
+What would be an equivalent of
+apprehension and comprehension in neural
+networks and also equivalent of Eureka
+moment?
+>> Oh, in neural Yeah. So, this is the
+question of do neural networks really
+understand
+what they're doing?
+There's a famous meme that comes from a
+movie is like, "Well, do you?"
+Do you Do you understand what you're
+doing?
+So,
+the the question of understanding is is
+like a very fraught question uh
+that I don't really know the answer to
+to be honest. Uh
+um
+I what I have written about
+understanding in in various things is
+that like
+as physicists we say we understand like
+it Let's say if the only way you
+understand fluid mechanics was to
+numerically integrate Navier-Stokes
+equations to predict the fluid flow. And
+that's the only way you could do it.
+You'd be loath to say that we understand
+in some some human sense. Instead, we
+say we understand fluid mechanics
+because we have very many reduced order
+models that approximate some of what
+will happen. We have intuition about how
+various fluid flows will flow without
+actually solving the fluid flow. So so
+when we have that hierarchy of of of
+models, then we and we can traverse them
+easily that then we say we kind of
+understand it. I'm not sure LLMs have
+that hierarchy. They're They're
+basically next token prediction, but you
+can extract a lot of stuff out of them.
+So like I I'm not sure what it means uh
+to say they understand or not.
+Yeah.
+>> All right, I think we should close
+there. So, thank you so much again uh
+terrific.
+>> [applause]

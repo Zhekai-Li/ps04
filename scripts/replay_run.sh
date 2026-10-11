@@ -9,6 +9,8 @@ SOURCE_RUN=$1
 [[ -f "$SOURCE_RUN/run.json" && -f "$SOURCE_RUN/candidates.jsonl" ]] || { echo "source run is missing run.json or candidates.jsonl" >&2; exit 2; }
 AS_OF=$(jq -r '.as_of_date' "$SOURCE_RUN/run.json")
 RUN_DIR=$("$PYTHON" -m src.run_setup create replay --as-of-date "$AS_OF") || exit $?
+export PS04_PROGRESS_LOG="$ROOT_DIR/$RUN_DIR/progress.log"
+: > "$PS04_PROGRESS_LOG"
 cp "$SOURCE_RUN"/config/* "$RUN_DIR/config/"
 cp "$SOURCE_RUN"/prompts/* "$RUN_DIR/prompts/"
 cp "$SOURCE_RUN/candidates.jsonl" "$RUN_DIR/candidates.jsonl"

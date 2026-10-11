@@ -1,0 +1,151 @@
+AI assistants can help with your
+research. You can use them to summarize
+papers, compare studies, extract data,
+explain terminology, or generate
+critical questions before a meeting or
+presentation.
+Let me show you how Paperpile sends PDFs
+to AI tools like ChatGPT, Claude,
+Copilot, Gemini, or Notebook LM in one
+click, and how to use Paperpile's
+built-in prompts to get more useful
+outputs.
+In your Paperpile library, select one or
+more references that already have PDFs.
+If you're preparing for a literature
+review, you can select multiple
+references at once. Then click the Ask
+AI button in the toolbar.
+Under Send to, you can choose the AI
+assistant that you would like to use.
+So, that could be ChatGPT, Claude,
+Gemini, Copilot, or Notebook LM.
+Then choose a prompt from Paperpile's
+prompt library, or click Create blank
+chat if you would like to write your
+own. Once you do that, Paperpile opens a
+new tab with your chosen assistant and
+uploads the PDFs automatically. Click
+Submit, and your papers and your prompt
+are now in the AI assistant ready to
+work with. So, instead of managing files
+across different apps, you're starting
+with the papers already in your library
+and moving straight into the analysis.
+You can also work the other way around.
+So, if you're already working within
+your AI assistant, you'll see the
+Paperpile button there, as well.
+So, if you're mid-conversation, you can
+click the Paperpile button, search your
+library, and add papers directly from
+there. That's awesome when you're
+already in a thread and you don't want
+to go back and restart the whole
+process.
+We've also built a dedicated prompt
+library specifically for real-world
+research tasks. So, these aren't generic
+prompts like summarize this paper.
+They're built around the kind of things
+researchers actually want to do.
+Summarization, comparison, data
+extraction, critique, and language. For
+example, the structured summary. This
+gives you a one-page summary with
+sections like methods, findings, and
+significance.
+So, rather than getting back a summary
+paragraph, you get something with a very
+clear structure.
+If you're comparing several papers, you
+can choose from multiple prompts. For
+example, you can use the meta-analysis
+table prompt to create a table comparing
+methods, sample sizes, findings, and
+themes across multiple studies.
+Uh this works really well when you're
+trying to make sense of a set of related
+papers and want a really structured
+overview.
+We've included prompts to help you think
+critically about papers, too. For
+example, the critical questions prompt
+generates a set of questions you might
+get about a paper in a research talk,
+journal club, or supervision meeting.
+So, you can use these to go beyond
+understanding a paper and actually
+prepare to discuss it.
+We've also added prompts that are just
+for fun, like making a social media
+thread based on a paper.
+We've designed these so that you can use
+them as they are or treat them as
+starting points and adjust them to your
+needs.
+What about AI hallucinations such as
+inaccurate quotes, wrong page numbers,
+made-up links, or claims stated too
+confidently?
+For example, the AI says Smith et al.
+2023 proved X, but you're not sure if
+it's true.
+In Paperpile, these citations are live
+links. So, when you see a page number
+link in the output, you can click it and
+Paperpile will open the PDF at the
+relevant page or quotation.
+This means you don't have to search
+through a paper trying to work out where
+the AI got something from.
+The PDF viewer snaps exactly to the
+highlight, so you can check it for
+yourself. So, your AI chat becomes an
+interactive index that is grounded in
+your papers.
+Now, let's talk about Notebook LM
+because it works a bit differently.
+Most AI assistants are built around
+short-lived chat threads, meaning that
+you'll import your papers from
+Paperpile, ask a prompt, and then move
+on. Notebook LM is useful when you're
+working on something bigger. Instead of
+a chat thread, it creates a notebook.
+And that notebook can hold a much larger
+collection of papers. When you send
+papers to Notebook LM from Paperpile,
+Ask AI creates a new notebook and
+uploads the PDFs there.
+And when Notebook LM cites something,
+you can hover over the citation chip and
+click through to the quoted text in the
+source PDF.
+There are a few practical things to know
+before you use Ask AI. First, make sure
+you're signed in to the AI assistant
+that you want to use before you start
+because Paperpile uses whichever account
+is currently signed in.
+Secondly, some free accounts can be
+restrictive, particularly ChatGPT and
+Claude can have tight PDF limits on free
+plans.
+Third, Ask AI responds in the language
+you've set in the AI assistant.
+And finally, always verify it avoid
+hallucinations.
+Even with source links and even with
+good prompts, AI tools still make
+mistakes. Rather than replace your
+reading, Ask AI handles the logistics so
+you can focus on the analysis. We've
+built Ask AI to bring together your
+Paperpile library and AI tools so that
+you can spend less time managing files
+and more time connecting your papers
+directly to the world's most powerful AI
+models. It's simply a faster, more
+reliable way to work with the research
+you've already built.

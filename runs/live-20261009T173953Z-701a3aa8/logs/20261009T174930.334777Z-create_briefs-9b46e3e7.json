@@ -1,0 +1,17 @@
+{
+  "stage": "create_briefs",
+  "status": "failed",
+  "input_count": null,
+  "output_count": null,
+  "started_at": "2026-10-09T17:47:01Z",
+  "finished_at": "2026-10-09T17:49:30Z",
+  "elapsed_seconds": 149.0,
+  "tools": [],
+  "models": [],
+  "usage": null,
+  "cost_usd": null,
+  "cost_estimated": false,
+  "errors": [
+    "duplicate or invalid claim ID: 01-C1"
+  ]
+}

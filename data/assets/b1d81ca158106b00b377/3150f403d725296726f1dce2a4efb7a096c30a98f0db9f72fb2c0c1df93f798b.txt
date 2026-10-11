@@ -1,0 +1,432 @@
+Welcome to Stanford HAI. My name is Caroline Meinhart. I'm leader of policy research here at Stanford High and I'm delighted to be moderating today's session.
+Today's topic revolves all around how we govern AI beyond language models. So more specifically we'll be talking about AI systems that
+can perceive, understand, predict and act in the real physical world.
+These are systems that are increasingly known as world models. The emergence of world models is really pointing to a broader shift in AI that we're seeing right now where we are increasingly moving from AI
+that operates primarily through language or through a combination of images, audio and video, to a new class of AI that can maintain a coherent representation
+of a physical environment over time and predict how it might change in response to action. In July of this year we published a HAI issue brief that highlights
+the emergence of world models and also outlines what we think was the first of its kind governance and policy agenda for this emerging technology.
+We actually do have a limited number of hard copies of this issue brief available in the entrance desk if you want to grab some but of course you can also find it online on our web page.
+And so today is all about hearing from some of the authors of this issue brief and having a bit of a discussion about why world models are so significant from both a technical and
+a policy perspective. I'm going to introduce our first speaker Daniel Zhang. Daniel is the chief of staff here at Stanford HAI.
+He previously led HAI's policy research outreach and education initiatives and his policy research has focused on the intersection of technology policy, governance and societal impact and he
+has engaged extensively with US and global policymakers on these issues. So I'm delighted to welcome Daniel. Daniel Zhang.
+Thank you, everyone. Thanks for being here. Before I start, I want to give everybody a scenario before we talk about world models.
+I think a lot of us in California has experienced wildfire quite a lot over the past few years.
+So imagine it's 2 a .m. and there's a wildfire creeping its way towards a densely popular suburbs.
+The incident commander is needed to make several decisions at once, right? Including whether people should evacuate, where to evacuate, where to shut off
+the power, which hospital remain reachable. And those decisions need to be made collectively, right?
+You should not look at just one because one decision affects each other. Closing a road might change the evaluation. Traffic traffic and hospital access and a power shutoff while it may reduce the risk of fire, but
+also could affect critical facilities. So the critical challenge here is to maintain one shared picture as both the conditions and response keep changing.
+And currently we have a fair amount of AI tools and models that can help with this situation.
+We have, for example, language models that can turn weather reports, road conditions, and hospital data into useful briefing for the incident commander that will help them understand what is happening on the ground.
+But this is still one snapshot of one particular time, right? It will not show how closing a road might change evacuation traffic, hospital access, and the routes available to emergency crews.
+We also have multimodal AI, which adds another layer. It can examine through its ability to predict images, audio, and videos to arm satellite images, locate the
+threat and power lines, for example, detect congestions, which will give the incident commander a better perception of the overall picture.
+But still, seeing the current situation is different from predicting how the entire system will respond to a decision.
+And this is the critical missing capability here that we want to discuss today. Suppose the commander proposed, let's close the highway 12, and we need a model that can test the action before it is taken
+and estimate the consequences across the whole picture, where traffic moves, which also become harder to reach, and whether emergency crews lose a critical route.
+So, all those intertwined elements in one model that can create environment across different scenarios and test those environments before proposing actions.
+And that's what we're here to talk about today, the world models, and this is what we hope the world model can achieve over time. A world model creates an internal representation of environment and can both generate and maintain
+that environment over time. It asks critical questions. If something acts within this environment, what is likely to happen next?
+In the wildfire example, for example, the model can not only track and maintain the image and environment of the fire, the roads, and the weather as one changing system, but can also construct
+or update the scene itself as new information arrives. It tests a possible road closure, predicts effects, and continuously revives its picture as conditions evolve.
+That's what we hope the world model can ultimately achieve in this day and age. This marks quite an important shift in AI for the past few years.
+We've heard a lot about large language models and we've heard about multi -models that can work across text, image, audio, and video.
+World models use those capabilities and take them to the next level to represent environment that persist and change over time.
+This opens a pathway towards a lot of the hype terms we've heard about in the press about physical AI, spatial intelligence, embodied AI, where models are here beyond
+just observers, but actually an agent in the world we live in that can perceive and act.
+Understanding the environment well enough to reason about movement, the interactions and actions within that environment.
+This is why we developed this policy issue briefs with this highly interdisciplinary set of authors spanning deep technical computer science backgrounds alongside law,
+national security policy, robotics, computer vision, and AI governance. We think when we start writing this paper, we think this range of authors really matters.
+We're actively trying to pull HIA faculty from different disciplines because we believe world models cut across different boundaries.
+That our current world treat them rather separately. Because world models can ultimately become a research frontier, a new form of infrastructure, and a potential layer of physical decision
+making. So let's break down different types of world models that we have seen nowadays.
+And I want to make this note up front that we're not talking about technical approaches here. I'm sure there are PhDs or faculty here that knows more about the technical approach to world models more than I do.
+But for this audience, we want to provide a rather simple conceptual way to understand what those models and systems can do.
+The first type is renderer. Essentially, a renderer creates a view of a world that a person can explore.
+As you can see by the demo from Google DeepMind here, it can generate a beautiful video or audio based on a prompt.
+Right? This kind of models can be rather helpful in, let's say, design industry, architecture industry, and entertainment industry.
+But if you look closely to this demo, for example, let's say the jet ski that cruised through the river.
+If we all want to create an autonomous jet ski in this case, and we train it based on data, a 2D representation of how the water flows in reaction to the jet ski cruising through
+the river is not going to cut it. You need 3D environment that actually predict how the water will interact with the jet ski and a lot of law physics elements in here.
+And that's what brings us to the second category, which is the simulator. Simulator represents how objects and environments behave as conditions change.
+So this is an example from the Stanford Vision and Learning Labs just upstairs that show how you train a robot in a virtual environment that can understand how gravity works.
+This is quite intuitive for us humans to understand when a robot drops an item that will follow the law of gravity.
+But it's really hard for robots to understand that. And it's impossible to learn that just by looking at a 2D representation.
+So today, building those simulations is actually quite slow and labor and resource intensive, requiring a lot of engineers to manually design the environments and program how they behave.
+Learned moral models can automate much of this process by generating training environments. Learned moral models can understand how they behave in a virtual environment that can help them understand how they behave in a virtual environment.
+That's what happens in simulation match what actually happens in the real world. And that's what brings up the third type of world model, which is called planner.
+Planner uses prediction to choose an action. So in this example demo by Meta, a robot uses a model of what its action likely to produce to move toward a goal.
+You can see how it thinks through different courses of actions, how to pick up this cup, and then choose the best actions in a control setting.
+Think of a way as how we hire a candidate through the hiring process. We adjust the course every time after a hiring manager interview, after a team interview,
+and ultimately after a director interview. And we change the course and reconsider as new conditions come about.
+So a planner does not have to produce a realistic video for us to watch. It can predict an internal representation that is useful for choosing actions.
+This is where the consequences actually become more direct. Because if a prediction is wrong by a planner, this mistake can become fairly physical in a physical environment and could potentially
+produce a greater degree of harm. So I'm going to turn to a panel later to actually talk a little bit more in depth about this.
+But I do want to quickly show where does the technology stand today. Just in the past few months, you've probably seen in the press a lot of new world models were announced, including Astro by OpenAI.
+That could have a fair degree of 3D environment generations capabilities. So, for example, for starter, researchers can generate the detailed scenes that we've seen that renderer example
+earlier. But keeping them consistent is keeping the environment, particularly 3D environment, consistent is a greater challenge.
+In an earlier version of GENIE 3, they have improved since then. But in an earlier version of GENIE 3, the technical report paper did say that the model are only able to maintain a 3D environment by a
+matter of less than 20 seconds. And then the environment will fall apart. So how do you keep the environment consistent throughout is one of the current research challenge.
+As we know, world models can also help robots learn specific tasks. But they need the data connecting actions to consequences, including in very rare situations and failures to learn
+from the data. So the physical experience, the data is quite difficult to collect. I will elaborate a little bit later. And also, some systems can transfer skills to new task robots.
+But success in an experiment does not establish reliable performance in unfamiliar conditions. So in all, the progress is real.
+But the research challenge is to make those capabilities dependable as interactions accumulate and conditions change.
+In the paper, we specifically talked about why world model matters. And this is for policy audience as much as the general audience to learn a little bit more about the current capabilities and what are some of the applications for models.
+Very briefly, return to the wildfire example. Roads, hospital, and the power grid that I've seen in the earlier slides are already modeled across different government institutions and who might use separate
+tools. The larger opportunity here with the world model is coordination across those systems that cannot be managed effectively in isolation.
+And one of the critical benefits of role models is actually lowering the cost of learning through physical experimentation that we see in the simulator slide.
+For example, an aerospace team can examine more designs before building a prototype. A hospital could rehearse changes before disrupting patient care.
+And a robot can encounter rare situations in simulation before facing them around people. I think one conclusion we draw from the paper is physical setting remains essential.
+Evaluations, government interventions are still a very important part of it. But simulations in the meantime allow different teams to reach it with better designs and fewer avoidable failures.
+We also think about how this could mean for national security with some of the national security experts on the author list, including Amy Ziegert.
+This capability, I think, like a lot of general purpose technology is inherently due use. Right. The same model that routes humanitarian aid through a disaster zone could also support military logistics.
+In a lot of the cases, if the model gets the real world wrong, you can end up practicing the wrong response and repeat and repeating it may build confidence without improving
+readiness. But that's a key point to look out for when you deploy a role model in national security settings as an adversary could really exploit those mistakes.
+And one thing that Amy really brought up that I think is critical in the national security setting is this could also change who has the advantage in the battlefield.
+Right. Forces usually with less field experience could rehearse situations they have never encountered before.
+And if those simulations are reliable, they could reduce some of the advantages that more experienced forces have built up over the years.
+Then we want to talk, let's talk a little bit about the set of policy question we want to explore and what kind of risks that world models produce. We based on our observation so far, AI pulse discussions have largely examined
+two things for language models. One thing we evaluate the content they generate, right, the toxicity, disinformation, accuracy, etc.
+And second categories, AI agents, we examine what actions they're authorized to take and under whose authority.
+In this case, role models add a third object of governance, the environment the system has learned.
+So, for example, is the environment being used to train, to test, or to guide that system valid for the intended tasks?
+This is really important because the error can spread beyond just the learned environment itself, right?
+Because the same flawed environment may shape the training, may shape the evaluation and decisions throughout the process of when the system is being deployed.
+And not every problem matters equally. We need to identify which assumptions affect action and test those actions against the actual setting.
+Let me give you one example. Imagine a company training a self -driving car inside a similar city. I think a lot of us in the Bay Area probably already experienced Waymos.
+And in the earlier simulations, the autonomous cars are often trained in situations where the roads are always dry, let's say.
+The lane markings are always clear, and the pedestrians always behave predictably. The carms will perform extremely well in those virtual environments.
+But when deployed in the real world, it may struggle with heavy rain, faded lane markings, or unexpected pedestrian behavior.
+The problem is not just the car made a mistake, but that I learned from what was never an accurate enough version of the world it needed to operate in.
+So, if the training and test environment did not represent those conditions well enough, the result might not transfer. And this is what we call in the paper the simulation to reality gap.
+Another example is this illustrative sequence of the renderer model. You can see throughout the pouring water looks quite convincing from frame to frame, but as you pour the
+water, the level in the glass barely changes. This is what we call the visual possibility trap. Each frame can look convincing while the relationship across frames is wrong.
+Now, a model can pass a causal visual inspection by evaluation or benchmark, but still be unsuitable for a task involving physical quantities.
+And that's related to, for example, the law of physics, the gravity example we've seen before. So, a polished demonstration, in a lot of cases, tells you very little about whether a model is ready for consequential use, especially in critical
+conditions. And evaluation, therefore, must test the geometry and physical behavior across times.
+And there are a lot of benchmarks that our panel can elaborate a little bit on later. And finally, for the risk and policy questions, we also examined a variety of the risks that when AI guides
+the physical actions, what can the risk extend beyond? For example, for liability, if a robot actually injures someone, what's the problem?
+A faulty sensor, bad prediction, or just how it was deployed in the application? We need to trace the failure to understand who should be how responsible.
+This is similar to a lot of discussions happening in the language models. Then, of course, there is spatial privacy that extends way beyond the privacy issues of language models.
+A system mapping workplace may also reveal people's routines and relationships. They can infer very sensitive information that no one really explicitly give their consent to be recorded.
+And finally, there is dependence. I think this is quite important, not only for policy, but also just for general public, that if a vendor controls both the model and the simulator used to test it, how can
+customers check its performance independently? Workers may also lose practical expertise at those systems take over decisions, leaving them less capable to question a recommendation
+or step when something fails. So to conclude, we presented a preliminary governance framework to help the policymakers think
+about those issues. As I mentioned, this is not really a topic that policymakers think about a lot lately, that they are more focused on language models, and this is why we want to bring it to their attention.
+We essentially come up with three pillars for just a preliminary policy agenda that includes shared access incentives, proportional safeguards, and public sector capacity.
+So for shared access, we think a number of resources are crucial. Of course, there's always the compute.
+We think world models use a substantial amount of computational resources, a lot more than the current language models do, including 3D environments, the sequences, the video sequences, etc.
+But the other quite often overlooked factor is even scarcer input, the data element here.
+Data that connects an action to what happens next is quite scarce, and that's not data you can just scrape from the internet as you do for language models.
+So as I mentioned, firms operating physical systems accumulate them rather fast, and that advantage compounds with every deployment.
+AI has been a big proponent of national AI research resource initiatives over the years from the very idea back in 2019 when the then co -directors John Schmendie
+and Dr. Faye Faye Lee came up with national AI research resource idea, which is a public funded, federally funded government initiatives that help academic researchers and startups to get access
+to the computational resources and data that's critical for AI development. So we think in this case for world models, the NAR could be really helpful.
+They can widen the participation through shared compute, the action data set, and the sector specific test beds and open evaluation tools.
+We see a lot of the great work that currently NAR and SF is doing that we're thinking can be really helpful for the development of world models.
+And also for proportional safeguards, the critical takeaway here is the scrutiny should rise as systems approach consequential physical action.
+For example, a renderer used for concept art may require just a basic disclosure as the physical harm is little, but a simulator informing infrastructure decisions should
+be independently evaluated and validated against real world conditions. And a planner controlling a robot or in national security setting a weapon requires continued oversight after deployment.
+The key variable here is proximity to irreversible physical actions and harms, especially when no human is positioned to catch an error.
+As that proximity increases, requirements should expand to include field validation and some of the other policy measures we've talked about extensively here at HAI, like incident reporting and transparency
+into the records of what the system perceived and did. And finally, the third is policy agenda items is the public sector capacity.
+That goes back to the earlier point that government needs to be able to evaluate what it buys and regulate without depending entirely on the developer.
+The best simulator for evaluating a vendor's products is often the vendor's own because it contains proprietary information about the system and its known weaknesses.
+Without outside access, that becomes a seller grading its own exam. So this will be just a couple months ago talking to people on the Hill and especially policymakers from
+some standard setting organizations like NIST about how to set the standard for shared measurement methods while some of the sector agencies, for example, can define the conditions the system must withstand.
+Let me conclude and turn over to the panel by going back to the early example of wildfire.
+I think this incident commander in that example needs a shared picture that stays current and allows them to test choices before lives depend on this very critical situations.
+And ultimately, role model can achieve that. But whether they can earn their trust depends on the choices we're making now.
+The goal is to capture the value of simulation without asking the public to trust a learned world on faith.
+And with that, I'm happy to turn it over to back to Caroline. Thank you so much, Daniel.
+That was a really useful foundation for us to now dive into a slightly more wide -ranging discussion.
+And for that, we'll have two additional experts joining us to share some additional perspectives. First, we have Jha -Jun Wu, who is an assistant professor of computer science and by courtesy of psychology here at Stanford.
+Jha -Jun is a faculty affiliate at HAI, and his research focuses on computer vision, machine learning robotics, and computational cognitive science.
+And then we have Russell Wald, who is the executive director here at HAI. In that role, Russell oversees, hires research, education, and outreach missions.
+He's a recognized leader in AI governance and policy, and also one of the lead authors of the issue brief. Thank you. All right.
+First off, I think it's worth spending a little bit more time on the term world models itself, which may or may not be new to some folks in this room.
+Daniel has already provided us with some helpful categorizations and examples. But the reality is that in this current moment, a lot of people are using the term quite loosely, and often to refer to quite a wide range of technical approaches.
+So maybe I could start with Jha -Jun. I'm curious, as a computer scientist and someone who actually builds machines that interact with the physical world, what do you think is the most useful and accurate way to define what
+world models are and maybe what they are not? Right. I say, you know, the term has been there for a long time, but I guess the first modern revival of the term is maybe this 2018 paper
+by David Hart and Jha -Jun Schmihoover, and they say, okay, we have to build world models. And back then, they and later, the many people who use them mostly in robotics, they're like, it's like a predictive model, right?
+So we're going to predict what's going to happen. But then later, just like, you know, as the field gets a lot popular and a lot of people are coming into it, and people have to use it to mean many different things because to predict something well, you have
+to understand it, you have to model it really well. Then if a model that can reconstruct modeled appearance and physics of objects and scenes, is there a world model or not?
+That leads to a lot of, like, I think ambiguous discussions and definitions. And so just like the term AGI, what is AGI?
+I often feel like it's very hard to define what is AGI just like what is world models. Yeah, so I think in a framework that, you know, Daniel presented, which is I think this, based on this white paper that Fei
+-Fei wrote a while back, I think they try to categorize world models based on the functionality or the purpose it serves, right? So which is like, you know, what are the functionalities?
+What are the problems that you can solve? Whether it's rendering, you know, modeling the scenes, whether it's prediction, you know, simulation, what's going to happen, or whether it's due planning, right?
+So you can do much longer horizon reasoning and stuff like that. So I thought that's kind of a, and then, you know, with each problems like simulation, right?
+You can do, you can take different approaches. You can use a simulator. You can use a neural network. You can use JEPA, latency representation models, right? So you can, there are different ways of realizing them, but you can always try to categorize and fit
+these different types of world models into these beings based on their functionalities, which I actually thought is a pretty neat, I remember Justin and I were talking about this a couple of months ago before this was released.
+I thought this is a very nice categorizations of the possible definition of world models. I'm going to stay on this kind of definitional space for a sec.
+A lot of the kind of tasks or applications that you and Daniel have mentioned are, some of them are not entirely new, right?
+Like the idea, we've had models and systems that can run simulations, that can run predictions or produce renderings for years already.
+So what is it exactly about world models that is novel and groundbreaking? There are, you know, there are some leaders saying that this is the new frontier of AI.
+So what is it that is novel here? And then relatedly, can you clarify a little bit more? Daniel already touched on this a little bit.
+What can world models already do now? And then what is still an ambition that we are kind of still working towards?
+Right. I think there's a non -standing problems in AI and people call it like symbol grounding. You know, it's like, okay, if I have a symbol like A or B or any kind of word, what does that mean?
+And that has been a long -standing problems going back to like many years ago and people were doing like symbolic AI stuff. And the term is not very popular enough, only very few people look into it.
+But I think in some sense, now we have this context of, you know, language model getting so much better, especially since a couple years ago.
+And you can think about it as now we're trying to do symbol grounding at a much larger scale. So in some sense, the word model is trying to take every symbol, every word, but try to understand what it means in the physical world.
+Right. So I thought, and that becomes a lot more relevant because now we have much better language models. Right. If we cannot even manipulate symbols that well, then people don't care about symbol grounding.
+But now we can manipulate symbols so well, they can produce language that is, you know, in some sense, at least in certain cases, you can't really tell if it's AI read it.
+Right. So in essence, now naturally it would be like, oh, then if we can do much larger scale symbol grounding, has a lot more practical impact in the world, that seems great.
+So I think naturally like, okay, we can go from digital space to the physical space. And that's why it gets so popular. The second question is.
+What can world models already do now versus what is still in the future? What are we still working towards? Yeah. So, okay.
+I think because of that, you know, so, you know, I think what it can do right now, I think, to do very well is the domain that naturally connects better to language or connects better to those
+data modalities that you have a lot of, you know, data rich modalities, right? For example, language, you have a lot of language. Therefore, if you use, if a robot use word models to help you plan and think about, oh, I can have these, you
+know, to organize a room. Like what are the 100 steps I need to take? It can probably take pretty well. But whether the plan is actually grounded to a particular room, can you connect them to your perceptual data,
+to a visual input, to a tactile input that is not yet soft. Right. You can come up with a plan, which is kind of abstract language based, but it is not as grounded.
+And similarly, because you have a lot of videos, you know, world models, if you think about a simulator as video generation, then they can generate very beautiful videos because you have a lot of videos.
+But whether they can be grounded to the physical world, so they are totally physically possible, that is a bit unsolved.
+So maybe that's how I put it. I want to switch gears now and talk about the policy implications of world model development.
+Russell, a few months back, you took this research to DC and you talked to policymakers. I'm curious, what, if anything, are policymakers in DC or, you know, in the world so
+far thinking about world models? Are they aware of world model development? What are some initial reactions that you've seen? Yeah, let me start and kind of elevate on your question and make one key part here in understanding.
+This is a niche field that's starting to get a lot more attention and starting to go to another level.
+And I think one part of it for us is our founding director, Fei -Fei Li, is looking at this and taking a serious approach to that.
+And if it was just Fei -Fei, I would listen fairly and take a listen very carefully to this.
+But it's not just her. It's people, Demis was looking at this with Jeannie and it was Jan LeCun looking into this.
+And there's a lot of giants in the field that were saying, we've over -indexed on the areas of LLMs and there's this entire other separate area that we need to look at.
+And what's fundamental about that for me was that was kind of an aha moment of we need to get more serious about that and look at that within HAI as well.
+But one beauty about HAI was we never wanted to look at this just purely as a technical field, but understand what were the spillover implications within society?
+How would this affect other people and who will help us govern that technology ultimately are the decision makers in certain policy roles?
+So we wanted to gear this whole conversation to how is it that we're doing the research in the first place that it is focused on understanding and educating the public at large and
+primarily policy makers. And you're right, we did take this to Washington DC in order to give an early signal or forecast.
+Let them know this is coming. And what it reminded me of was a moment in late 2022 when I was with one of our other senior fellows when I used to be HAI's policy director previously.
+And I was with one of our other senior fellows in Washington and saying generative AI is coming. We can see it in the labs.
+We're starting to see that it's starting to be with the quality that's supposed to be is looking really good.
+And they would look at me and say, yes, AI is very important. And I said, no, no, no, this is generative AI. It's something very specific.
+And there was just a glazed look on their face. And it wasn't until that chat GPT moment happens of where it puts it into their fingertips that it fundamentally changes the conversation in such a way that it was they
+were overwhelmed by it. And we want to be early to be able to make a difference so that people are understanding that they shouldn't be shocked or overwhelmed by this, that it's coming and that they can be as prepared as
+possible for this. And we can talk a lot about the public sector part, which I think is a fundamental part of where we need to go different with world models or where we have not done as well in the past.
+But I would say right now, a lot of policymakers have never heard of a world model. It's still new to them. We're still trying to educate them.
+And there are some places of where in some departments, I won't say which ones or be specific, but there are some people who know a lot and were informed and understood things.
+And then there are others who just had a blank look on their face and they were in a position of power. And it was a little bit concerning because we needed to.
+It said that we're doing the right thing to be able to inform people early about this and how it has different treatments that are needed versus an LLM and how they're thinking.
+So you mentioned you used to be the policy director at HAI. You've been working on policy and with policymakers for many years on AI, pre -ChatGPT moment, post -ChatGPT moment.
+When you think about now the policy challenges and or implications that world models bring, what do you stands out as being the most unique as compared to the policy
+issues that you have been, you know, talking to policymakers about already for several years with the AI systems that we do already have and that are already widely being used?
+Yeah. So one thing that I see in particular here that stands out to me that's a little bit different is particularly with LLMs and these foundation models, we have scraped the Internet and that's our data resource.
+And we've been able to effectively do that. World models, I think, are a little bit different because they're a little bit you need more isolated or domain specific areas to be able to help understand certain parts.
+So what if it's about best shipping lanes and simulating shipping lanes or something like that? You need shipping logs or things that are data that's a little bit more locked up with proprietary companies.
+And that has a fundamental difference than just scraping the Internet. So data sets are going to be very unique here and have a completely different approach than what we needed to before.
+So to be able to get the best world modeling possible is we need to be able to unlock more different type of data sets.
+We do run into a situation of a power concentration. We are already seeing a power concentration in industry.
+And I think in this particular if this technology starts to take off more like we're starting to see, there will be means as to where large companies will be able to just purchase data and be able to buy these data sets and be
+able to do that in a more proprietary fashion of keeping and owning the data sets. And then therefore entrenching and locking them in even further.
+So I think right now what's one of the most fundamental things that we'll need to be able to do is understand the data components here.
+And one key aspect to that data component is public sector data. So a lot of government data is out there that is agencies are sitting on
+and can be really rich and useful for this type of research and make a fundamental difference. Let's use NOAA weather data for example.
+The prediction or understanding weather patterns. If that was much more available and ubiquitous for public sector research, we would be able to have I think more quality, higher, better world models.
+And so I think it's critical that we really understand the data components here related to this. How are we able to unlock data resources that are not that same scraping that we see right now?
+I want to bring the technical perspective back into the policy discussion and zoom in on benchmarks for a sec.
+Many of us are very familiar with benchmarks and AI evaluation more broadly. It has been something on our minds when it comes to evaluating how current AI models perform for a while.
+When it comes to world models and finding standardised reliable benchmarks to measure the performance of world models, one of the things the brief says is that we do not have that right now.
+And the authors identify this as an urgent area for policy action. So I'd be curious to hear from both of you, perhaps from Russell, from the policy perspective, why do you think focusing
+on benchmarks should be a near -term policy focus, specifically when it comes to world models?
+And then maybe Jajun, could you explain why is evaluating or measuring performance and safety of world models so difficult as opposed to other types of AI?
+Sure, I can go first. So I think the nice thing about language, these models or video models is like, OK, I have to share modality, right?
+So output, same format, what is that? It's natural language, same as it's videos. And it happened to be also have a lot of data.
+And these data are human understandable. So it's like, OK, I can just set up all the benchmarks. And just as Russell was saying, you know, I think for world models, you have to tackle many different sectors and domains.
+And they're dealing with heterogeneous data. You know, you may have a lot of data, but they're in very different formats. And you have to deal with many different tasks, right?
+Let's say, you know, in curve, let's say if you want to use it for robotics, and robots has to solve many different tasks. What about not robotics? Now you're seeing all these demos about, I know Astra, it's not only solving robotics, but you can design objects, do CAD modeling,
+all these things. But then what about data there? And what is this a different format that's a different task? And how can we collect high quality data that are, and also a lot of these that are maybe only privacy available, or some are publicly available,
+but also a lot more are privacy available, and it's not a proprietary to companies or to government. So how can we have, I would say, practical benchmarks that is fair, unbiased, but also cover so
+many different sectors, dealing with so many different types of data, right, often a proprietary, you know, so how can we have a particular benchmark that can do all these?
+I think that's very challenging. That's my feeling. So what I would say first on benchmarking is benchmarking as a whole is a field where I think it's flimsy, weak, and brittle.
+We see a lot of problems with benchmarks as a whole and AI. So much so that we want to start with an HAI looking more specifically at the science of benchmarking itself, and we put a lot more rigor
+behind them because right now what we're building is just a simple test that people are trying to design their model to pass the test, say it's great and it's good to go.
+So that's not enough, I think, for these systems. And what is fundamentally different is one is that of words and the effect of words, and the other one is the physical application.
+The difference of getting one wrong is fundamentally different and will have a greater effect on a lot of this.
+The other key part here is, and Joijun has mentioned this, is the downstream areas of this world modeling actually has so many unique downstream applications in different ways that
+the benchmarks on there, you have to have probably a much more robust set of multi -set of benchmarks to be able to, one benchmark is not going to be sufficient for understanding.
+I mean, you've simulated the design of a bridge, you were able to truncate the time of how long it took to design a bridge. Fabrication, a lot of these key things are a big part of consume, consume a
+lot of time. I learned through this paper how much engineering goes into this, you would be able to significantly truncate that time to be able to be more effective to build certain systems and physical systems.
+But now we're talking about the significant difference of what it means for policymakers to be able to judge.
+Is this going to be safe or not? Could we actually authorize this? Would regulators sign off on certain things?
+If there is not a good testing and measurement system, we run into a serious risk of having faulty systems that could go wrong at really key times.
+So I think that the benchmarking side of this is well beyond the importance of where we are with LLMs.
+And if we're looking at LLMs, I think they're weak. So we have to really rethink our benchmarking system as a whole when we start, as we're working into this physical space.
+I want to briefly bring up the open versus closed debate that many of us are quite familiar with in AI.
+So Chinese company Tencent, which is developing world models in China, has released the weights for its world model HY World 2 .0, albeit under a restrictive license.
+And then in the meantime, leading US world model systems are closed so far proprietary. I'm curious to know from both of you how you think the decision
+to release models openly with open weights versus closed, how you think that might play out with world models?
+And how, if at all, the open versus closed debate differs for world models versus language models or foundation models, more broadly?
+I would say at this moment, honestly, I feel like we're still in the very early stage of developing different types of world models.
+This is like, and it depends on what you mean. Again, you know, you can say GPT is a world model, right? But if you're thinking about models that can be applied to a physical world, you know, we actually, we see a lot of those in GPT as well.
+But still, to have them actually work in practice, my feeling is still in a relatively early stage.
+In that sense, especially those like video or, you know, other types of like, if you want to use world models to have different types of modalities, like for example, the Tencent ones and maybe the World Apps ones, they're more on the pixel level.
+So, for those type of models, because they're still so early, in some sense, you can see we're in this pre -GPT moment that it doesn't really matter if it's open or closed debate, because, you know, we're just like
+helping the community develop these models to get better. But once they get to the moment where they actually can have a lot of practical use, then I think it comes back to this discussion on like LLMs.
+And LLMs are like, you know, you have these open -weight models and closed -weight models. And what is the dynamics between the two? And I think so far we've been seeing is, you know, the most leading companies, they often want to have a closed -weight models because they want to, you
+know, maintain their leadership. And the second, obviously, the companies that are a bit running behind, they want to open -weight because they want to clean the market, they want to collect user feedback, so they get more data to increase usage
+so that they can develop better models. But there is only, I think, observation from a technical perspective. Yeah.
+So policy stuff for us, I don't know. Let me just say, I think first on the open -weight debate and what happens here is, one, first off, I'm a huge proponent of an open system because we're in academia and we need open
+models to be able to dissect, to be able to understand, to be able to teach the next generation. So I think if you're looking at it of a position, if I'm looking at it from my position within HAI itself as executive director, I deeply
+care about an open -weight and open system. I think it's a critical, vital part of what we need. And I will continue to be a proponent for that.
+But if we were to actually look at this in terms of LLMs and where we've gone with LLMs related to this, and we're looking at it from both an industry and geopolitical perspective, if we're looking
+at what the U .S. has done in this particular space, what we see is the data shows the U .S.
+is releasing incredibly exquisite frontier models that are amazing. And then China roughly seems at most six months to a year behind for that and releases an open -weight model.
+There is no moat, as we keep hearing, that can be really built at this level and at this point that is going to be able to protect a particular proprietary model for long because of the fast
+pace of change that happens here. And so if that's the same paradigm for world models, then I think it's in the best interest for the world as a whole that
+we actually have robust, thoughtful world models that are available and open for us to build upon within places within academia so that we can learn, verify, test, be able to get
+deeper into all of this. So I'm not saying in terms of world models from a technical perspective where I think they will go open or close, but I do think the lessons that we're learning right now from LLMs are
+that an open system is going to be beneficial widely for the wider public and that the proprietary companies only get a short window to be able to stay ahead in this particular space.
+And that's not, it's not, it might be different if we said two to three years, but six months to a year is by far very short.
+And the capital spend and everything that comes from this is quite an intense race that I think it's questionable whether it's sustainable.
+I want to end our panel portion with two more questions that are more forward looking. So the first would be, we've already heard a lot of potential
+use cases for world models that are quite promising. If both of you, if you had to pick one use case or application area that you find most exciting or promising for world models, what would that be and
+why? Can I say one use case that I'm excited about and other use cases that I'm concerned about?
+Absolutely, yeah. Okay. I think one use case I'm clearly excited about is as we enter a world where our climate is changing around us so rapidly, I think the means to be able to understand that climate more effectively, this will be a really
+important use case, whether that is through natural disaster. I think Daniel kind of addresses it with a wildfire situation, but natural disasters and what can happen, drones to be able to get more of a quick aerial
+understanding of data, collect the data quickly, simulate where the fire is going. There's a variety of key parts here, I think that will be very important for humanity to be beneficiaries of related to this.
+There's also health care parts to this as well, but if I had to pick one thing, I think it would be climate change, the ability to address it more effectively in terms of a climate resilient side and natural disasters.
+At the same time, one of the key reasons we added a national security chapter in here was the fact that there are fundamental questions about the future that we
+in an academic world should take time to stop and think about. We are talking about today, the future building a drone that can simulate and help us understand a map out of wildfire, but at the
+same time, that technology can easily be used for a drone to be able to enter a contested battlefield, lose communication with its operator and still be able
+to map out that specific area and even deliver a payload. Meaning that you actually are entering potential areas that have serious questions of what
+it means for morality, what it means for ethics. A lot of these key areas that people have always been concerned about entering into this physical space is a difficult thing that requires a whole of society
+to talk about, to debate, to be able to understand what we want out of these systems where we are willing to go and not go.
+And I think it's a very, very important time and unique time for us to all have an active voice related to that.
+So again, these systems have a dual edge to them. They have the means to be able to be quite beneficial to humanity, but they also have the means to be able to create
+a different framing of warfare and what do we want out of that. And the big thing that I would leave with a lot of people here is if we saw major debates between anthropic and the Pentagon
+over language models, imagine what the future could look like if we had a physical space related to that.
+So it requires organizations like HAI to sit here and analyze the deep questions and ask that.
+And that's why we were so focused on interdisciplinary paper. We could have done just a technical paper and called it a day.
+I think it was really important for us to understand all of the facets for it so that we're as collectively asking these questions and taking them on now.
+Well, I was about to say, I think our models could have very exciting applications in another very overloaded term, which is called physical AI.
+But you just made it sound very scary when you say that because I'd be like, all right, it's not a vacation in physical AI, but there are a lot of, you know, I think what you said is also totally true.
+But that's also, you know, there's also, as you said, a good part of it, you know, think about it, you can have systems that, for example, we're going to do what?
+You know, you have all the reception, fruit, coffee, whatever, right? So is that possible for us to have robots that can take care of bodies, you know, set out things for you, taking care of people who are getting old, you know, help them to live
+a better life? You know, so, and also, it doesn't have to be just robotics, right? Think about how we can, just like, you know, you have all these now, agenda systems, clockwork and stuff, and if they can help
+you in the physical world, and to come up with, you know, we have this, you know, beautiful layout of HAI open space, but what if we want to do renovation?
+Now there's a merge, and we have more spaces. How can we reallocate the furnitures? You know, so I think there are a lot of applications of that, which are also good.
+You know, of course, what you said is true, but... Sorry, I didn't mean to give the doom, but I think we should just have the conversation.
+Final rapid fire. If you could ask Congress to do just one thing tomorrow to advance world model development or governance, what would that be, and why?
+For me, I think I would reinforce the need for public sector data sets. I obviously care about...
+I... The National AI Research Resource itself always said that when our initial concepts on this never said it was just going to be a platform to provide compute for academic research, we also
+wanted it to be a place where there was government data sets that were rich, useful, and could be utilized, and we could get more out of that.
+So I would probably, once again, tell Congress to pass the NAR or the Create AI Act and lead to much more better access to the NAR.
+I think that this is one thing that I... One of the biggest failures at this point of when we talk...
+When policymakers say, what can we do? Well, you could provide greater public resources to be able to make a significant difference in the review of these.
+We could create better benchmarks. There's a whole lot more things that can happen here. And so I think unlocking this for public sector research will probably be one of the most important things we could do.
+Well, I don't know. I mean, my answer would be like the NAR should have a lot more compute because it's so limited. So if we have more compute, it's always good for universities to have more compute because we don't have that much compute.
+Always more compute. Yes. All right. Thank you so much. I think it's time to open up the floor to our audience.
+Thank you. This was so interesting because I really don't know much about world models. But something that's in my head is like...
+So my impression, please correct me if I'm wrong, is... Of course, LLMs have their own unique risks because part of it is like individuals can interact with it on the daily.
+But my impression from world models is maybe that it's more so helpful for like organizations or government and things like wildfire response, for example.
+But are there any... Like the benefits are clear for both individuals and society of world models.
+But what are the unique risks of this fact? Like the distinguishment between LLMs being like everyday, like users can interact with it.
+Whoever you are, you can interact with LLMs and there's risks that come with that. But are there any specific world model related risks for the average consumer on the daily to worry about?
+I'll let Jaijun talk about some more risk here. But I think one important part, I think the risk is just... The risk space is so significant, just like LLMs in a sense that...
+What about... You could talk about risk of like I just said, a bridge failing because we relied on the simulation of it.
+We felt comfortable. Part of Daniel's presentation kind of notes that with the water and how we have this confidence that something may be accurate or work well.
+And it works under 99 .9 % of conditions. But for one, that 0 .1%, it's an absolute failure, which could be catastrophic.
+You could also say immersive video games that helped get teenagers more addicted into video games and get them locked in even more.
+So I think the risk is very broad about what can happen from some of this. And I think this is the point of why write a paper like this to be early to forecast some of these things so we can mitigate this.
+Because we should embrace this technology. I think there's a lot of beneficial things that will come from it. There are some huge fundamental opportunities to improve the human condition from this.
+But we need to be really mindful and understand what are the risks and sit down and start to lay those out and how can we prepare it as best as possible.
+Yeah, I thought Russell said it well. I mean, I would say it's maybe not a case that world models are something only organizations can do.
+I can totally imagine every day we're going to use a lot of world models when they get ready. For example, I think entertainment is a big part of it.
+If we have games and I play it every day, I interact with them. Let's say the game is generated on the fly as I play. Then isn't the case that that's a world model?
+And also, eventually when robots get ready, it will be like, oh, have robots that live with you and take care of you and making cooking dinner for you.
+Is that a world model? And other things, for example, let's say I have a broken dishwasher and maybe I want someone to help me or let's say now eventually when these models
+get better, maybe I can use some AI -assisted technology to help me so that I can fix it myself. And are we using a world model to help us?
+So I would say it is totally possible eventually for us to interact with more models every day ourselves. Since world models rely on large amounts of data to effectively simulate an environment, and
+since training data scarcity is a bottleneck in scaling these models, this may incentivize industry to surveil society at a scale and in ways that American society is unaccustomed to and
+doctrinally opposed to. In addition, when robotics are widely disseminated throughout society, there will be ample opportunities for consensual and non -consensual surveillance.
+What specific solutions are there for these potential problems? I don't think I fully understand the question. So you're saying, is it more like a surveillance question?
+Like if you have robots all around and are going to be like a surveillance question? Say it again, sorry. As your paper lays out, the data, the training data for these models is going to be a bottleneck, a very essential component
+of developing these models. And so both industry and perhaps governments will be incentivized to surveil people to get that data so that they can build these models.
+It's actually referenced in your paper a bit. Yeah, I know what you're referring to in the sense, I think what we're talking about is the privacy aspects within here and what you look into this.
+And yes, you do require a much broader, ubiquitous amount of data. And therefore, there's a lot of more video and things like this.
+So driverless cars picking up a lot of this. So this isn't something that we, it's not that we are already don't see in a lot of this space.
+First off on the LLMs and the need for more data, but the large amount of data that's required. Yeah, a lot of it is not consensual.
+And I think that there is a important key part here. That's a concern for us. We highlight that in the paper is the larger amounts of data sets that are required and therefore the larger amounts of the desire
+to collect that data. I think we should be careful about what we're talking about here of whether on the surveillance side versus data collection side.
+And I think that there's a little nuance on that. I think that there is a broad area for greater data collection.
+And it's an important part we noted in the paper. And I think policymakers need to be aware of it.
+And what happens in this particular space? What happens with someone's wearing metaglasses? I get very uncomfortable the minute someone has metaglasses on.
+And I almost want to issue like being around them because it just becomes this broad aspect of data collection.
+And that's one of the consequences of this. And we don't have broad federal policy, privacy policies in the space.
+It requires us to rethink that and to have conversations about that and what that means. I don't know.
+I don't have outright privacy. I'm not prepared to answer the privacy concerns that go well beyond anything.
+We are talking about this in terms of the next phase of this particular paper is to look at use cases and find these particular areas.
+So looking, we have our privacy scholar Jen King who's here and having conversations with her about what it takes to understand a lot of this.
+But we do want to look at use cases specifically and design about five use cases in the space to be able to say, okay, what would be privacy preserving areas?
+There is one thing. It's not world modeling, but some of the same people working on the space work on ambient technology. And there's one reason of why ambient technology is appealing because of the fact that they do try to build in early privacy preserving
+parts to this. So if you're in the hospital care setting, there's a whole point of why the cameras fuzz you out a bit in order to make efforts to protect privacy
+at the point of inception, the collection of the data, still to be able to get the data that they want, but still be able to protect you in terms of your privacy as a whole.
+Thank you so much for the panel talk. I had a more technical question. So world models, we need them to have some sort of physical reasoning.
+What are some of the techniques we're trying to employ to teach them this physical reasoning? Right. I think people have different approaches.
+Nowadays, we see one approach that is getting repeatedly proven to work and continue to work is basically you generate or you collect a lot of data that are physically plausible and eventually you fuse them
+into the training side of these foundation models. So that's one thing that is certainly going to work. But there are also other techniques that people have exploring.
+For example, people having designed different types of verifiers. You know, so you can think the verifiers themselves can be from domain knowledge, but can also be from AI, you know, can be like neural networks.
+So then they're like, okay, I can come up with systems or designs or videos that are may or may not be physically possible, but these verifiers are going to give me feedback so that I can go in through, you can think about it as some hard
+-easing framework that improve my output, you know, sets in the strategy. But eventually, these kinds of data can possibly be off use into some kind of pre -training datasets for training much larger foundation models.
+Hi there. My name is Alex Molmond with FireScore. First off, this brief that was issued by HI, incredible, the amount of data that's here and really
+you all are pushing the envelope and understanding the implications to spatial intelligence, which is truly the next frontier in artificial intelligence beyond language.
+With that being said, because wildfire is a domain that I'm currently working in. If wildfire were the test bed, what would a rigorous benchmark look like?
+What real -world measurements would you require to prove the model is physically reliable enough for operational use?
+And just for context, just here in the Palo Alto foothills, we have over 100 years of dead fuels that have not passed through its natural cycle of burning.
+So I'm sure that that scenario will happen eventually. This is a cycle. So from your perspective, what would those benchmarks look like?
+Ideally, right, we have a similar of the walls that can take into account all the conditions, environmental conditions and everything into account so that we can just run everything in simulation.
+But that is clearly not going to work in the shorter term because it's impossible to have a similar for the walls that take into account all these aspects.
+So I would say this is actually maybe one of the things that we're going to, just like Russell was saying, oh, for privacy, let's look at five different cases and think about what their privacy concerns here.
+So for firefighting, let's say, even just for these firefighting particular cases, you know, we probably want to work with domain experts and to identify, you know, what are the important attributes we have to be aware of, right?
+Let's say, oh, maybe it would be too difficult to simulate the entire walls, but maybe it is possible to simulate, you know, incidents that are often likely that lead to a wildfire, right?
+So let's say, you know, there are people who are entering regions at certain regions that they shouldn't enter at weird times, you know, so these kind of things, right?
+So what are the unit tests that you can come up with, which I have no idea, but you have a lot more. So you can tell me that these are the five conditions that we should really be aware of.
+And is it possible for us to first come up with more specialized environments or some particular type of, you know, simulation, or just to test whether these models can perform well in these five, you know, unit tests.
+And they will have strong indication of correlation with the possibility of having a wildfire. So I think that's the beginning. And eventually, you know, as we get more ready, and these models, as they keep improving, then hopefully we can have a more holistic
+environment that can simulate different scenarios and to make it work on more general cases. So from our online audience, we have a question that popped up asking or
+highlighting, so a world model can represent more elements around us, but that doesn't necessarily mean that that model will be more useful.
+And so the question is, is what are the inherent advantages of a world model over a more simplistic model?
+I think if you depend, for a model to be useful, there are different things to consider, right? One is the accuracy, but there also could be like cost.
+And if a model is very good, but it's so expensive, you know, and also there's efficiency, right? Sometimes you just want real -time responses, which are particularly important, let's say, especially in the physical world, because if you're a robot, you can't really wait for two minutes and you decide what to
+do, because if there's a wildfire situation, things will have already changed. So there are different attributes to consider. Yeah, but I think so, but if you only care about performance, or if you're kind of
+about care about accuracies, I think that is something that people have learned over the past decade, I would say, or maybe multiple decades, is what people may feel like if I have a small specialized models that will eventually, you
+know, that will be maybe potentially better for a larger model on particular cases. But we have seen repeatedly that once these small models, you know, they work well, but then you produce a lot of data, you fold these
+data into the training set of a larger model. The larger models will eventually always catch up, and they probably leverage all the word knowledge or the common sense they may have seen from other domains, and they actually can perform better even in these more specialized
+domains, right? So that's what we have seen since, you know, ImageNet or what Fei Fei was doing there, I was like, classifying images. So
+I would say, if you only care about model performance in terms of their accuracies, then I would say, going forward, we probably will see these larger models getting even better and much better even for specialized domains compared
+with the smaller models. But it is true that for physical AI and for, you know, when you apply to the physical world, there are things we have to consider that is how we can have a model that can respond to in real time if that is a hard requirement, and
+how can we have a model that can, you know, just like, subject to those additional physical constraints that we can still retain the performance as much as possible.
+I would also add and correct me if I'm speaking out of turner, but I think the 3D, 4D concepts make it much more difficult to be able to get to that next level, and that the 3D aspects of this and the physics that would come into this space
+make it harder for just any model in that domain. Another question online.
+So for physical AI, and this sort of harkens back to, you know, the need for greater data, where should we be pushing data acquisition so that better measurements can drive both capability and safety?
+Yeah, I think, despite all the arguments that people, again, this is a bit of my personal feeling, huh?
+Despite all the arguments that people say a model can emerge, have new behaviors, I feel like it's actually, they have very little emergent behaviors, even if it's like GPT or whatever, all the behaviors are coming from training data.
+So in this case, if you care about safety, and if you care about safety in the real world, I feel like you have to collect a lot of data in the physical world about safety.
+But then there's a little bit of a tricky balance to make because you don't want to collect unsafe data. That means you already created a lot of damage, right? So how can you collect data about failures, about possibly unsafe behaviors, but they're not really that unsafe, but
+that may potentially lead to unsafe behaviors. Then that would be, and that happened to you in the real world, and that would be very useful, real world feedback, that you can hopefully improve the safety of these models when you want to apply
+them in the physical world. But how to do that is not very obvious to me though. Because there's a fine line to, yeah, because otherwise you create a lot of unsafe events.
+So you're like, oh, I don't want a robot to hurt people. Let me first have robots hit 20 different people. That's not going to work. So there's something to be figured out.
+And then another one, when a world model infers what's in a physical space, like habitat, hazards, or seabed conditions, and then a government decision relies on that, how should provenance and uncertainty be documented
+so the decision holds up to further review? Yeah, this is, I think, a big part on the transparency side and to be able to see.
+So we were talking about the open debate earlier and what happens here. In order to pull apart this to be able to get the confidence that I think a policy maker is going to need, I think that there is a particular issue about
+the data sets, the benchmarks, all of these other key things. And what we've seen in the last few years is, and as we know in our AI index this year, transparency is just backsliding significantly because what
+you have is an industry -driven field and the proprietary side is coming through. And I think the more transparency side will be help policymakers make more confident decisions because it's going to be better third
+-party evaluations, better evaluations as a whole. We talked about the state of open source with respect to world models.
+So a question online was, based upon that, what's the best way to contribute to research in that space?
+Or how can folks sort of actively contribute or be participants when the resources on world models are quite scant right now?
+What do you need? Yeah, what do you need? Well, first we need GPUs, but it's something very hard for a public to contribute. So you can't really, if you have a hundred GPUs who want to donate to me, please let me know.
+But otherwise I think it's really about the data. But then every domain, just like I think there's a firefighting question, and the domain expertise.
+So it's like, okay, if I want to apply this world model into a physical world scenarios, so what would the data look like? And maybe you already have some data that it's possible to share.
+Or maybe you have your own domain expertise. You'll be like, actually, you want to apply it to rescue scenarios, but these are the things we care about, right?
+These are the metrics we really value. But that's something that I think AI researchers may not know, right? Because we're like, oh, we have this model, I generally build for pictures, or produce beautiful language.
+But whether that's useful for firefighting, I don't know. I have to talk to firefighters. So I think domain expertise and domain specific data that are shareable will be also very useful.
+Thank you very much for the inspiring talk. My question is about how we can ensure that the model that we, for the physical world, like because they're mainly trained in the digital world, how can we ensure that they are consistent with
+their behaviors in our physical world? Like, yeah, basically like as the Seikas mentions that if the consequences of this kind of like, like world models can be
+very catastrophic in the physical world. But if they are mainly trained in the digital world, like what kind of things that can we do to ensure that they are understanding of our physical world, and that they are like behaviors of their actions
+in the physical world, we will be consistent with our understanding. Thank you. Yeah, I think it goes back to, you know, first you can build better simulators, right?
+So there are things that we know how to simulate, and then, or things that we almost know how to simulate, and that we now can probably simulate a lot better even with AI.
+So if you can have more and more better simulators, that can help you to calibrate and evaluate your models. Mostly in simulation, because any type of evaluation in the physical world is very costly and can be potentially damaging and unsafe.
+So if we can do a lot more simulation as evaluation, that would be great. And second, I think is probably you need a better mechanisms that allows you, because sometimes you're like, oh, whether this is working.
+I say if I develop a robot, the robot works perfectly in simulation, no one's going to buy it, right? So you have to still have some kind of, even if I claim my simulator is the best in the world, people still want to see the results in real world.
+So then you still want to test and evaluate in real world, but just because evaluating real world is very costly, I think it would be nice to think about a mechanism that you can use as few
+real world data or validation as possible, but you also show ideally provably that these real world validations have strong validations, and very good indicators about actual models performance in terms of all their physical behaviors.
+Then that will, you know, I think how you can best leverage these expensive real world data points to most effectively validate our method.
+I think there is some research to be done there. Please join me in thanking our panelists. Thank you.
+Thank you.

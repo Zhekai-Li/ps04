@@ -1,0 +1,121 @@
+In the debate over workplace automation,
+tech developers and accessibility
+advocates are confronting a critical
+divide.
+Researchers warn that replacing
+human-centered accommodations with
+unvetted AI tools creates a false sense
+of inclusion and are calling for a
+fundamental shift that puts disabled
+workers in control of the technology
+shaping their careers. Join us [music]
+as we speak with Chancey Fleet to
+discuss AI and the future of accessible
+work.
+>> In this paper, we wanted to identify
+structural, organizational, and social
+issues
+>> [music]
+>> that occur at the nexus of AI access and
+employment [music] when it comes to
+workers with disabilities. There's been
+a lot of excitement, exploration, dare I
+say hype when it comes to AI, and a lot
+of really hurried, frenetic
+implementation, particularly in the
+enterprise sector. And there's a lot of
+interest in using AI to flatten
+inaccessibility and flatten inequities.
+[music] And in some situations, maybe
+that can happen.
+But all of that hype may mask the rise
+of new barriers and new inequities that
+can be created by [music] AI. In
+particular, I want to highlight that AI
+tools
+are not
+solely in the users', the workers', or
+even the companies' control, right? They
+can be adjusted without warning,
+>> [music]
+>> which means that they can be unreliable
+in practice.
+Outputs can vary even for the same user,
+the same exact model.
+And when AI does fail, that failure can
+block a worker from doing their work,
+or it can create an error
+that the worker is going to bear the
+responsibility for because an AI can't
+receive accountability.
+>> [music]
+>> Access washing is real.
+AI companies have
+legitimate benefits to offer disabled
+workers and disabled people,
+but those benefits are packaged into a
+highlight reel to sell us on the
+proposition that AI is so good that we
+can give up our privacy, that we can
+give up built-in access, that we can
+skirt things like data retention
+requirements that limit what AI can do.
+We are used as a powerful use case. It's
+so appealing that we have to question it
+[music] because we can't exchange that
+{quote} freedom for the loss of our
+privacy and security.
+We have to engage people with lived
+experience of disability all across the
+spectrum.
+>> [music]
+>> We have to study situated real-world
+uses of AI by disabled workers, listen
+to workers, listen to teams,
+>> [music]
+>> and understand that AI can play a role,
+but that individual workers need to be
+centered in any decisions, and that AI
+needs to be an opt-in tool, not
+something that we're pressured to
+accept. We need to empower disabled
+people to lead community-based
+>> [music]
+>> AI auditing. We need to be involved in
+every stage of AIs [music] development,
+remediation,
+moderation, and evaluation for AI to
+ever effectively support disabled
+workers.
+>> [music]
+>> So, you might think from the tone of
+this interview that I'm not a big fan of
+AI for accessibility, but as a blind
+person, I use it every single day. It is
+enmeshed in our lives to a degree that
+might surprise you, and there's a
+complex tension there. We are the
+bellwethers. We are in this pretty deep
+as disabled workers. We have a lot to
+teach
+the digital commons at large about
+using AI mindfully [music] and
+protecting ourselves and our business
+interests when it comes to AI.
+We don't always have
+as [music] much power in the development
+and design and remediation of AI tools
+[music]
+or in when to use them
+as we have insight and wisdom and
+>> [music]
+>> that
+power differential needs to go away in
+order for us to
+help craft a future for AI tools that is
+accessible and respectful of all human
+beings.
+>> Find out more in AI and the future of
+accessible work.
+A research article in the October 2026
+Communications of the ACM.

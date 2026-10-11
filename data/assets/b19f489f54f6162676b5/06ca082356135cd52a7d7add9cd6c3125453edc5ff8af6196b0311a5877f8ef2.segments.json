@@ -1,0 +1,560 @@
+[
+  {
+    "segment_id": "yt-00001",
+    "start_seconds": 1.52,
+    "end_seconds": 5.64,
+    "text": "As AI tools have [music] emerged, it's"
+  },
+  {
+    "segment_id": "yt-00002",
+    "start_seconds": 3.6,
+    "end_seconds": 8.6,
+    "text": "changed the way software engineers"
+  },
+  {
+    "segment_id": "yt-00003",
+    "start_seconds": 5.64,
+    "end_seconds": 11.24,
+    "text": "create new technology. But does AI"
+  },
+  {
+    "segment_id": "yt-00004",
+    "start_seconds": 8.6,
+    "end_seconds": 13.32,
+    "text": "significantly boost productivity?"
+  },
+  {
+    "segment_id": "yt-00005",
+    "start_seconds": 11.24,
+    "end_seconds": 15.74,
+    "text": "How does AI make an impact on the"
+  },
+  {
+    "segment_id": "yt-00006",
+    "start_seconds": 13.32,
+    "end_seconds": 17.68,
+    "text": "organizational level? Join us as we"
+  },
+  {
+    "segment_id": "yt-00007",
+    "start_seconds": 15.74,
+    "end_seconds": 20.16,
+    "text": "[music] hear from Fay Luo, principal"
+  },
+  {
+    "segment_id": "yt-00008",
+    "start_seconds": 17.68,
+    "end_seconds": 22.27,
+    "text": "researcher at Okta, to discuss beyond"
+  },
+  {
+    "segment_id": "yt-00009",
+    "start_seconds": 20.16,
+    "end_seconds": 25.88,
+    "text": "the hype, the efficiency throughput gap"
+  },
+  {
+    "segment_id": "yt-00010",
+    "start_seconds": 22.27,
+    "end_seconds": 25.88,
+    "text": "[music] with GitHub Copilot."
+  },
+  {
+    "segment_id": "yt-00011",
+    "start_seconds": 28.24,
+    "end_seconds": 33.72,
+    "text": ">> So, about 5 years ago, our CEO told me,"
+  },
+  {
+    "segment_id": "yt-00012",
+    "start_seconds": 30.72,
+    "end_seconds": 36.2,
+    "text": "\"Can I ask me to look at the engineering"
+  },
+  {
+    "segment_id": "yt-00013",
+    "start_seconds": 33.72,
+    "end_seconds": 38.4,
+    "text": "productivity best practices?\" The single"
+  },
+  {
+    "segment_id": "yt-00014",
+    "start_seconds": 36.2,
+    "end_seconds": 40.64,
+    "text": "most interesting is this insight that"
+  },
+  {
+    "segment_id": "yt-00015",
+    "start_seconds": 38.4,
+    "end_seconds": 43.24,
+    "text": "software engineers so hard to run"
+  },
+  {
+    "segment_id": "yt-00016",
+    "start_seconds": 40.64,
+    "end_seconds": 46.48,
+    "text": "faster. This is because that software"
+  },
+  {
+    "segment_id": "yt-00017",
+    "start_seconds": 43.24,
+    "end_seconds": 49.36,
+    "text": "engineer requires collaboration and has"
+  },
+  {
+    "segment_id": "yt-00018",
+    "start_seconds": 46.48,
+    "end_seconds": 52.24,
+    "text": "dependencies, and this cannot run in"
+  },
+  {
+    "segment_id": "yt-00019",
+    "start_seconds": 49.36,
+    "end_seconds": 54.52,
+    "text": "parallel. This observation really"
+  },
+  {
+    "segment_id": "yt-00020",
+    "start_seconds": 52.24,
+    "end_seconds": 56.76,
+    "text": "brought me back to my early career as a"
+  },
+  {
+    "segment_id": "yt-00021",
+    "start_seconds": 54.52,
+    "end_seconds": 59.44,
+    "text": "semiconductor researcher."
+  },
+  {
+    "segment_id": "yt-00022",
+    "start_seconds": 56.76,
+    "end_seconds": 62.16,
+    "text": "Where we use equivalent circuit to"
+  },
+  {
+    "segment_id": "yt-00023",
+    "start_seconds": 59.44,
+    "end_seconds": 64.72,
+    "text": "analyze devices by decompose a"
+  },
+  {
+    "segment_id": "yt-00024",
+    "start_seconds": 62.16,
+    "end_seconds": 67.32,
+    "text": "complicated concept into current,"
+  },
+  {
+    "segment_id": "yt-00025",
+    "start_seconds": 64.72,
+    "end_seconds": 69.56,
+    "text": "voltage, resistance, and so on."
+  },
+  {
+    "segment_id": "yt-00026",
+    "start_seconds": 67.32,
+    "end_seconds": 71.24,
+    "text": "And I saw exactly same pattern in"
+  },
+  {
+    "segment_id": "yt-00027",
+    "start_seconds": 69.56,
+    "end_seconds": 74.16,
+    "text": "organizations."
+  },
+  {
+    "segment_id": "yt-00028",
+    "start_seconds": 71.24,
+    "end_seconds": 76.68,
+    "text": "So, we proposed organizational Ohm's"
+  },
+  {
+    "segment_id": "yt-00029",
+    "start_seconds": 74.16,
+    "end_seconds": 79.72,
+    "text": "law. In this framework, we have"
+  },
+  {
+    "segment_id": "yt-00030",
+    "start_seconds": 76.68,
+    "end_seconds": 82.2,
+    "text": "productivity as a current, individual"
+  },
+  {
+    "segment_id": "yt-00031",
+    "start_seconds": 79.72,
+    "end_seconds": 84.04,
+    "text": "potential as a voltage, and"
+  },
+  {
+    "segment_id": "yt-00032",
+    "start_seconds": 82.2,
+    "end_seconds": 86.28,
+    "text": "organizational resistance, which"
+  },
+  {
+    "segment_id": "yt-00033",
+    "start_seconds": 84.04,
+    "end_seconds": 89.08,
+    "text": "consists both individual and the team"
+  },
+  {
+    "segment_id": "yt-00034",
+    "start_seconds": 86.28,
+    "end_seconds": 92.6,
+    "text": "components. In our research, we run a"
+  },
+  {
+    "segment_id": "yt-00035",
+    "start_seconds": 89.08,
+    "end_seconds": 95.32,
+    "text": "survey where engineer reports their time"
+  },
+  {
+    "segment_id": "yt-00036",
+    "start_seconds": 92.6,
+    "end_seconds": 98.36,
+    "text": "spent across different activity before"
+  },
+  {
+    "segment_id": "yt-00037",
+    "start_seconds": 95.32,
+    "end_seconds": 101.84,
+    "text": "and after GitHub Copilot. And then, we"
+  },
+  {
+    "segment_id": "yt-00038",
+    "start_seconds": 98.36,
+    "end_seconds": 104.72,
+    "text": "pair that survey information with their"
+  },
+  {
+    "segment_id": "yt-00039",
+    "start_seconds": 101.84,
+    "end_seconds": 106.88,
+    "text": "GitHub Copilot usage as well as their"
+  },
+  {
+    "segment_id": "yt-00040",
+    "start_seconds": 104.72,
+    "end_seconds": 109.64,
+    "text": "engineering metrics. What we found is"
+  },
+  {
+    "segment_id": "yt-00041",
+    "start_seconds": 106.88,
+    "end_seconds": 112.48,
+    "text": "something we call efficiency throughput"
+  },
+  {
+    "segment_id": "yt-00042",
+    "start_seconds": 109.64,
+    "end_seconds": 115.2,
+    "text": "gap. The efficiency throughput gap"
+  },
+  {
+    "segment_id": "yt-00043",
+    "start_seconds": 112.48,
+    "end_seconds": 117.92,
+    "text": "described the phenomena that at"
+  },
+  {
+    "segment_id": "yt-00044",
+    "start_seconds": 115.2,
+    "end_seconds": 121.0,
+    "text": "individual level, things are great."
+  },
+  {
+    "segment_id": "yt-00045",
+    "start_seconds": 117.92,
+    "end_seconds": 123.479,
+    "text": "Engineers are happy, motivated, they do"
+  },
+  {
+    "segment_id": "yt-00046",
+    "start_seconds": 121.0,
+    "end_seconds": 126.04,
+    "text": "things faster, but at the team"
+  },
+  {
+    "segment_id": "yt-00047",
+    "start_seconds": 123.479,
+    "end_seconds": 130.56,
+    "text": "organization level, throughput do not"
+  },
+  {
+    "segment_id": "yt-00048",
+    "start_seconds": 126.04,
+    "end_seconds": 133.2,
+    "text": "improve. There's a huge gap between how"
+  },
+  {
+    "segment_id": "yt-00049",
+    "start_seconds": 130.56,
+    "end_seconds": 135.68,
+    "text": "each individual perceive a technology"
+  },
+  {
+    "segment_id": "yt-00050",
+    "start_seconds": 133.2,
+    "end_seconds": 138.44,
+    "text": "versus how organization benefit from"
+  },
+  {
+    "segment_id": "yt-00051",
+    "start_seconds": 135.68,
+    "end_seconds": 141.04,
+    "text": "this technology. So, what do we found"
+  },
+  {
+    "segment_id": "yt-00052",
+    "start_seconds": 138.44,
+    "end_seconds": 143.959,
+    "text": "challenged industry point of view of"
+  },
+  {
+    "segment_id": "yt-00053",
+    "start_seconds": 141.04,
+    "end_seconds": 146.88,
+    "text": "this instant AI productivity gain? At"
+  },
+  {
+    "segment_id": "yt-00054",
+    "start_seconds": 143.959,
+    "end_seconds": 149.48,
+    "text": "the time we did the research, Copilot"
+  },
+  {
+    "segment_id": "yt-00055",
+    "start_seconds": 146.88,
+    "end_seconds": 152.48,
+    "text": "could only do simple code writing,"
+  },
+  {
+    "segment_id": "yt-00056",
+    "start_seconds": 149.48,
+    "end_seconds": 155.0,
+    "text": "queries, helping configurations, and do"
+  },
+  {
+    "segment_id": "yt-00057",
+    "start_seconds": 152.48,
+    "end_seconds": 158.88,
+    "text": "some tests. But now,"
+  },
+  {
+    "segment_id": "yt-00058",
+    "start_seconds": 155.0,
+    "end_seconds": 161.4,
+    "text": "the field has evolved so fast. AI tools"
+  },
+  {
+    "segment_id": "yt-00059",
+    "start_seconds": 158.88,
+    "end_seconds": 163.32,
+    "text": "can [music] generate very sophisticated"
+  },
+  {
+    "segment_id": "yt-00060",
+    "start_seconds": 161.4,
+    "end_seconds": 165.8,
+    "text": "software. But the point we're trying to"
+  },
+  {
+    "segment_id": "yt-00061",
+    "start_seconds": 163.32,
+    "end_seconds": 168.44,
+    "text": "make here is that the technological"
+  },
+  {
+    "segment_id": "yt-00062",
+    "start_seconds": 165.8,
+    "end_seconds": 170.16,
+    "text": "advancement itself is just half of the"
+  },
+  {
+    "segment_id": "yt-00063",
+    "start_seconds": 168.44,
+    "end_seconds": 172.4,
+    "text": "story, probably the simple half of the"
+  },
+  {
+    "segment_id": "yt-00064",
+    "start_seconds": 170.16,
+    "end_seconds": 175.52,
+    "text": "story. What's really need as"
+  },
+  {
+    "segment_id": "yt-00065",
+    "start_seconds": 172.4,
+    "end_seconds": 177.84,
+    "text": "organization is to evolve the processes,"
+  },
+  {
+    "segment_id": "yt-00066",
+    "start_seconds": 175.52,
+    "end_seconds": 179.92,
+    "text": "the way we work together together with"
+  },
+  {
+    "segment_id": "yt-00067",
+    "start_seconds": 177.84,
+    "end_seconds": 183.04,
+    "text": "AI technology. To achieve the full"
+  },
+  {
+    "segment_id": "yt-00068",
+    "start_seconds": 179.92,
+    "end_seconds": 185.56,
+    "text": "potential of AI productivity gain, we"
+  },
+  {
+    "segment_id": "yt-00069",
+    "start_seconds": 183.04,
+    "end_seconds": 188.68,
+    "text": "see three stage. First is this"
+  },
+  {
+    "segment_id": "yt-00070",
+    "start_seconds": 185.56,
+    "end_seconds": 190.8,
+    "text": "efficiency gain stage where individual"
+  },
+  {
+    "segment_id": "yt-00071",
+    "start_seconds": 188.68,
+    "end_seconds": 193.44,
+    "text": "engineers see the benefit, while"
+  },
+  {
+    "segment_id": "yt-00072",
+    "start_seconds": 190.8,
+    "end_seconds": 194.76,
+    "text": "organization do not. This is where our"
+  },
+  {
+    "segment_id": "yt-00073",
+    "start_seconds": 193.44,
+    "end_seconds": 198.08,
+    "text": "data sits."
+  },
+  {
+    "segment_id": "yt-00074",
+    "start_seconds": 194.76,
+    "end_seconds": 201.12,
+    "text": "The second stage is a productivity gain."
+  },
+  {
+    "segment_id": "yt-00075",
+    "start_seconds": 198.08,
+    "end_seconds": 204.56,
+    "text": "This requires continuous upskill our"
+  },
+  {
+    "segment_id": "yt-00076",
+    "start_seconds": 201.12,
+    "end_seconds": 207.32,
+    "text": "engineers, but also change the workflow"
+  },
+  {
+    "segment_id": "yt-00077",
+    "start_seconds": 204.56,
+    "end_seconds": 209.56,
+    "text": "so that it can align with our AI"
+  },
+  {
+    "segment_id": "yt-00078",
+    "start_seconds": 207.32,
+    "end_seconds": 212.16,
+    "text": "augmented capability."
+  },
+  {
+    "segment_id": "yt-00079",
+    "start_seconds": 209.56,
+    "end_seconds": 215.08,
+    "text": "The third stage is"
+  },
+  {
+    "segment_id": "yt-00080",
+    "start_seconds": 212.16,
+    "end_seconds": 217.32,
+    "text": "organizational optimization, making"
+  },
+  {
+    "segment_id": "yt-00081",
+    "start_seconds": 215.08,
+    "end_seconds": 219.76,
+    "text": "quicker, better decisions, less"
+  },
+  {
+    "segment_id": "yt-00082",
+    "start_seconds": 217.32,
+    "end_seconds": 222.92,
+    "text": "collaboration for unnecessary"
+  },
+  {
+    "segment_id": "yt-00083",
+    "start_seconds": 219.76,
+    "end_seconds": 226.12,
+    "text": "components. All this has to evolve"
+  },
+  {
+    "segment_id": "yt-00084",
+    "start_seconds": 222.92,
+    "end_seconds": 227.959,
+    "text": "together, the people, the team, the"
+  },
+  {
+    "segment_id": "yt-00085",
+    "start_seconds": 226.12,
+    "end_seconds": 231.2,
+    "text": "collaboration, the infrastructure, the"
+  },
+  {
+    "segment_id": "yt-00086",
+    "start_seconds": 227.959,
+    "end_seconds": 234.52,
+    "text": "processes. Think this AI productivity"
+  },
+  {
+    "segment_id": "yt-00087",
+    "start_seconds": 231.2,
+    "end_seconds": 237.36,
+    "text": "gain process as a way for us to reinvent"
+  },
+  {
+    "segment_id": "yt-00088",
+    "start_seconds": 234.52,
+    "end_seconds": 239.6,
+    "text": "ourselves as organization to a better"
+  },
+  {
+    "segment_id": "yt-00089",
+    "start_seconds": 237.36,
+    "end_seconds": 241.92,
+    "text": "stage of who we are."
+  },
+  {
+    "segment_id": "yt-00090",
+    "start_seconds": 239.6,
+    "end_seconds": 244.04,
+    "text": ">> Learn more in Beyond the Hype, The"
+  },
+  {
+    "segment_id": "yt-00091",
+    "start_seconds": 241.92,
+    "end_seconds": 246.36,
+    "text": "Efficiency Throughput Gap with GitHub"
+  },
+  {
+    "segment_id": "yt-00092",
+    "start_seconds": 244.04,
+    "end_seconds": 251.959,
+    "text": "Copilot, a research article in the"
+  },
+  {
+    "segment_id": "yt-00093",
+    "start_seconds": 246.36,
+    "end_seconds": 251.959,
+    "text": "October 2026 Communications of the ACM."
+  }
+]

@@ -48,17 +48,18 @@ fi
 
 if [[ $# -ne 0 ]]; then echo "usage: bash run.sh | bash run.sh --package runs/RUN_ID" >&2; exit 2; fi
 if [[ -n ${PS04_MOCK_RESPONSES_DIR:-} ]]; then echo "mock responses are forbidden in a live run; use scripts/replay_run.sh" >&2; exit 2; fi
-if [[ -z ${OPENAI_API_KEY:-} ]]; then echo "OPENAI_API_KEY is required for a live run; see docs/account_setup.md" >&2; exit 2; fi
-
 if ! "$PYTHON" -m src.run_setup validate; then exit 2; fi
 RUN_DIR=$("$PYTHON" -m src.run_setup create live) || exit $?
+export PS04_PROGRESS_LOG="$ROOT_DIR/$RUN_DIR/progress.log"
+: > "$PS04_PROGRESS_LOG"
 # shellcheck disable=SC2329  # Invoked by the EXIT trap.
 finish_run_receipt() { code=$?; trap - EXIT; "$PYTHON" -m src.receipt_cli "$RUN_DIR" run "$code" >/dev/null 2>&1 || true; exit "$code"; }
 trap finish_run_receipt EXIT
 ps04_banner "SCHOLAR IN THE LOOP · LIVE RUN"
 ps04_info "Run directory: $RUN_DIR"
 ps04_info "Progress and explanations → stderr; final summary JSON → stdout."
-ps04_warn "Typical time: 5–15 min with cached/public transcripts; 20–60+ min when audio needs Whisper transcription."
+ps04_warn "Typical time: 5–15 min with cached/public transcripts; long local MLX transcription can take longer."
+if [[ ${PS04_ALLOW_PAID_FALLBACK:-0} == 1 ]]; then ps04_warn "Paid API fallback is explicitly enabled for this run"; else ps04_info "Paid API fallback is disabled"; fi
 ps04_info "Safe to stop with Ctrl-C. Completed assets are cached; extraction records now flush item by item."
 
 ps04_step 1 4 "Initialize evidence store" "Creates missing SQLite tables without erasing prior evidence."

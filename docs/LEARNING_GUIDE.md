@@ -17,8 +17,8 @@ flowchart TD
     F & Y & P --> E[extract_content.sh]
     E -->|items JSONL| D[data/store.sh: SQLite versions]
     D -->|latest corpus JSONL| W[filter_items.sh: D-29 through D]
-    W --> S[select_items.sh: Responses API]
-    S --> B[create_briefs.sh: Responses API]
+    W --> S[select_items.sh: read-only Codex CLI]
+    S --> B[create_briefs.sh: read-only Codex CLI]
     B --> A[write_articles.sh]
     B --> V[write_video_scripts.sh]
     A & V --> K[check_content.sh]
@@ -75,7 +75,9 @@ Written locators contain an exact quote. Media locators contain an exact segment
 
 RSS and podcast feeds are parsed with `feedparser`; YouTube endpoints are enumerated with `yt-dlp`. A successful search with zero entries exits `0`. A network or deliberately simulated collector failure exits `1`, writes a failed receipt, and may still leave valid records. The collection workflow continues with usable sources and reports incomplete coverage.
 
-Articles use conditional HTTP headers when cached validators are available. `trafilatura` extracts substantive text, with a cached copy or substantive feed summary as a documented fallback. YouTube captions are preferred. Publisher timestamped podcast transcripts are preferred. If neither exists, media is retained under ignored `data/media/` and sent to `whisper-1`; word timestamps are grouped deterministically into short segments. Files over the transcription limit are compressed with `ffmpeg`, and material that remains too large fails explicitly.
+Articles use conditional HTTP headers when cached validators are available. `trafilatura` extracts substantive text, with a cached copy or substantive feed summary as a documented fallback. YouTube captions are preferred, followed by publisher timestamped podcast transcripts. If neither exists, media is retained under ignored `data/media/` and transcribed locally on Apple Silicon with `mlx-whisper==0.4.3` and `mlx-community/whisper-turbo`. The call requests word timestamps and groups them deterministically into roughly 12-second global-time segments. The cache identity includes the media, backend, model, and model revision, so a model change does not silently reuse incompatible output.
+
+The default path never calls a paid transcription API, even when `OPENAI_API_KEY` happens to exist. Only a run that explicitly sets `PS04_ALLOW_PAID_FALLBACK=1` may use the paid fallback. That fallback compresses and divides oversized media into overlapping chunks, transcribes each chunk, restores global times, and removes overlap duplicates.
 
 For an as-of date `D`, eligibility includes dates from `D−29` through `D`, inclusive. Filtering emits one of four reasons:
 
@@ -88,11 +90,13 @@ Collection time is never substituted for publication time. Previously stored mat
 
 ## Constrained model calls
 
-The pipeline uses the OpenAI Responses API. It supplies the snapshotted project, policy, prompt, evidence, and as-of date. `text.format` uses a named JSON Schema with `strict: true`; Pydantic validates the response again. Selection must cover every eligible version exactly once. Briefs must be `01`, `02`, and `03`, and each piece must use at least three accepted independent publishers. Content must preserve every brief claim marker.
+The four text stages run non-interactively through the locally authenticated Codex CLI. The snapshotted configuration fixes `gpt-5.6-sol` with `high` reasoning effort. Every call uses an isolated temporary directory, read-only sandboxing, no search, no repository rule loading, and a JSON Schema passed through `--output-schema`; the final structured response is captured with `--output-last-message`. OpenAI's official Codex example documents this machine-readable `codex exec` pattern. The project then validates the response again with Pydantic and its own semantic rules. Selection must cover every eligible version exactly once. Briefs must be `01`, `02`, and `03`; claim IDs must match `^(01|02|03)-c[1-9][0-9]*$` and be globally unique; and each piece must use at least three accepted independent publishers. Content must preserve every brief claim marker.
 
-Malformed or refused responses are retried, then fail explicitly. `PS04_MOCK_RESPONSES_DIR` is available only for labeled offline tests and replays; its receipts say `provider: mock`. A replay is never a live run.
+Model input is bounded without breaking traceability. Article evidence is capped at 14,000 characters. Short media transcripts are supplied in full; long media input contains the opening, ending, evenly distributed, and question-relevant segments, capped at 120 segments and 30,000 serialized characters, with an excerpt manifest retained under `logs/excerpt_manifests/`. Writing stages receive only the evidence actually cited by the brief plus adjacent context.
 
-The actual resolved model, token usage, response ID, elapsed time, and cost are recorded. If pricing is not configured in the snapshotted `config/models.json`, cost stays `null` and the summary lists it as unknown. It is never silently reported as zero. Official implementation references: [Structured Outputs](https://developers.openai.com/api/docs/guides/structured-outputs?api-mode=responses) and [file transcription](https://developers.openai.com/api/docs/guides/speech-to-text).
+Malformed JSON, schema failures, and semantic failures receive at most one repair retry, then fail explicitly. A response that attempts a command, tool call, or external lookup is rejected. Each attempt retains the prompt, schema, final response, sanitized lifecycle events, validation errors, CLI version, model, reasoning effort, elapsed time, response ID when available, and usage when reported. Hidden reasoning and authentication material are never stored. `PS04_MOCK_RESPONSES_DIR` is available only for labeled offline tests and replays; its receipts say `provider: mock`. A replay is never a live run.
+
+Codex receipts use `billing_mode: chatgpt_plan` and `cost_usd: null`: plan consumption cannot be converted reliably into a per-call dollar amount. Local MLX receipts use `billing_mode: local_compute` and record audio duration, elapsed compute time, and model revision. The normal summary therefore reports `incremental_api_cost_usd: 0.0` without falsely claiming that a Codex call itself cost `$0`. A deliberately enabled paid fallback is itemized separately. Official references: [Codex CLI JSON-Schema execution](https://developers.openai.com/cookbook/examples/codex/build_iterative_repair_loops_with_codex) and [GPT-5.6 Sol model capabilities](https://developers.openai.com/api/docs/models/gpt-5.6-sol).
 
 ## One evidence trace
 
@@ -122,12 +126,14 @@ Requirements are Python 3.12, Bash, SQLite, `jq`, Git, `ffmpeg`, and `shellcheck
 bash scripts/setup.sh
 ```
 
-Create an OpenAI Platform project, enable billing, create a project API key, and set it only in the local environment. Do not paste it into chat or commit it:
+Sign in to Codex with the ChatGPT account used for this project, then run the backend preflight. The download flag also primes the local MLX model cache:
 
 ```bash
-export OPENAI_API_KEY='set-locally'
-bash scripts/check_openai.sh
+codex login
+bash scripts/check_backends.sh --download
 ```
+
+No API key is required for the default path. Leave `PS04_ALLOW_PAID_FALLBACK` unset. For a deliberately authorized one-run paid fallback only, set both `PS04_ALLOW_PAID_FALLBACK=1` and `OPENAI_API_KEY`; that choice is recorded in run metadata and receipts.
 
 Before a live run, verify the Substack publication, YouTube channel, and Google Vids access; configure articles for free access and videos as Unlisted. Audit `config/sources.json` against the prior 30 days and replace inaccessible or irrelevant endpoints while preserving publisher identity judgments.
 
@@ -187,7 +193,7 @@ Record a separate 4–6 minute technical demonstration using `docs/technical_dem
 ## Diagnosis and security
 
 - Read the latest stage receipt in `RUN_DIR/logs/`; it distinguishes invalid input, empty success, incomplete work, and failure.
-- If extraction fails, check the retained candidate, URL access, captions, transcript availability, media size, `ffmpeg`, and API key.
+- If extraction fails, check the retained candidate, URL access, captions, transcript availability, local MLX installation/model cache, available disk space, and `ffmpeg`. Check an API key only when the paid fallback was explicitly enabled.
 - If a brief fails, inspect accepted publisher assignments; the system refuses to create unsupported pieces.
 - If review fails, follow each error to the precise claim, path, date, quote, or segment. Length issues are warnings; missing evidence is an error.
 - If packaging fails, rerun the check and compare `review_id` with `approval.json`.
@@ -196,16 +202,16 @@ Record a separate 4–6 minute technical demonstration using `docs/technical_dem
 
 ## Requirement checklist
 
-- [ ] All 16 Bash commands pass `shellcheck` and independent smoke tests.
-- [ ] Two live runs occurred on different actual UTC dates during the assignment week.
-- [ ] At least 12 distinct eligible items, six independent publishers, and two of each input kind are present.
-- [ ] Every cited version is within `D−29` through `D`, and exclusions show all relevant reasons.
-- [ ] Each piece uses at least three independent publishers and includes a multi-source inference and limitation.
-- [ ] Three accepted and three rejected/deferred decisions were personally reviewed.
-- [ ] Policy version one and the evidence-based revision are both preserved with changed outputs.
-- [ ] Human corrections and final approval are recorded against the current `review_id`.
-- [ ] Replay shows unchanged evidence plus a labeled withheld item; failure demo shows explicit incomplete coverage.
-- [ ] Three 600–900 word articles and three 3–5 minute Google Vids videos are published and cross-linked.
-- [ ] All four YouTube uploads, including the 4–6 minute technical demo, are Unlisted and work signed out.
-- [ ] `SUBMISSION.md` contains actual paths, dates, elapsed time, costs, trace, reflection, and public links.
+- [x] All 16 Bash commands pass `shellcheck` and independent smoke tests.
+- [x] Complete live runs occurred on two different actual UTC dates during the assignment week.
+- [x] At least 12 distinct eligible items, six independent publishers, and two of each input kind are present.
+- [x] Every cited version is within `D−29` through `D`, and exclusions show all relevant reasons.
+- [x] Each piece uses at least three independent publishers and includes a multi-source inference and limitation.
+- [x] Three accepted and three rejected/deferred decisions were personally reviewed.
+- [x] The pre-revision policy snapshot and the evidence-based version 3 revision are both preserved with changed outputs.
+- [x] Human corrections and final approval are recorded against the current `review_id`.
+- [x] The first day-two run records one new eligible podcast, the corrected rerun records all 44 observations as unchanged, and the retained failed run shows explicit failure and recovery.
+- [x] Three 600–900 word articles and three 3–5 minute Google Vids videos are published and cross-linked.
+- [x] All four YouTube uploads, including the 4–6 minute technical demo, are Unlisted and work without account authentication.
+- [x] `SUBMISSION.md` contains actual paths, dates, elapsed time, costs, trace, reflection, and public links.
 

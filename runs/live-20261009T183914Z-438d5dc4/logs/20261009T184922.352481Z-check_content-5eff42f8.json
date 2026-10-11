@@ -1,0 +1,22 @@
+{
+  "stage": "check_content",
+  "status": "completed",
+  "input_count": null,
+  "output_count": 1,
+  "started_at": "2026-10-09T18:49:19Z",
+  "finished_at": "2026-10-09T18:49:22Z",
+  "elapsed_seconds": 3.0,
+  "tools": [
+    "pydantic",
+    "sqlite3-store-interface"
+  ],
+  "models": [],
+  "usage": null,
+  "cost_usd": null,
+  "cost_estimated": false,
+  "errors": [],
+  "details": {
+    "review_id": "c687c194be49a2c17dab6fdcfa455196f441446a141556bba609302aefd6a25f",
+    "passed": true
+  }
+}

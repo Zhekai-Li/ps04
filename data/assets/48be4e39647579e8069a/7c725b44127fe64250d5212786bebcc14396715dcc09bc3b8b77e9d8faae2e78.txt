@@ -1,0 +1,105 @@
+The way we find papers in 2026 looks
+nothing like it did 5 years ago. You're
+using AI assistants to summarize
+literature, visual tools to map citation
+networks, and discovery apps to follow
+references. And that's on top of
+traditional sources like your university
+library and Google Scholar. The
+challenge is keeping all of this in one
+place and then actually organizing it
+and making sure it gets read. So, let me
+show you how Paperpile brings it all
+together.
+Let's start with the basics. Google
+Scholar and PubMed aren't going
+anywhere.
+So, let's say I'm starting research on
+bee population decline. I'll run a broad
+search in Google Scholar. Now, I've got
+a list of results.
+This is usually the point where things
+start to get messy. I'll open a few
+tabs, maybe download a couple of PDFs,
+bookmark a few papers, and then promise
+myself I'll sort it later.
+With the Paperpile browser extension, I
+can save as I go instead. You'll see the
+Paperpile buttons next to every result
+to Google Scholar, PubMed, archive,
+hundreds of academic databases.
+If I hover over a result, I can click
+the Paperpile button to add it to my
+library.
+That pulls in the full reference
+automatically. That's title, authors,
+journal, year, DOI, everything.
+Paperpile will also look for the PDF at
+the same time.
+If I find a few useful ones, I can
+select several and add them together.
+Then I can put them in a folder, add a
+label, or leave a note if I want to
+remember why I saved them.
+So, before I move on, everything is
+already organized with no cleanup later.
+Now let's talk about the new generation
+of tools, AI-powered search engines
+built specifically for research. But the
+pattern here is simple. Ask a question,
+get AI-generated summaries, and save
+what's relevant, all without leaving the
+search page. Let me show you how that
+works. Instead of a keyword, I start
+with a question, something like, "What's
+driving bee population decline?"
+Tools like Consensus and Google Scholar
+Labs return papers with AI-generated
+summaries right in the results. I'll
+scroll through, click the Paperpile
+button next to anything that looks
+relevant, and it's added to my library
+instantly. If I'm using Scholar Labs,
+the AI summary can be imported as a note
+as well, which is useful later.
+Once I've found a few references, I'll
+actually use those to find more. The
+simplest way is to check what sites a
+paper in Google Scholar,
+but the most powerful discovery happens
+through visual tools that map citation
+networks. Tools like Connected Papers,
+Litmaps, and Research Rabbit that
+specialize in doing this.
+Connected Papers shows you a visual
+graph of papers related to one you
+already have.
+Click any paper in the graph,
+and the Paperpile button is there, which
+you can add without leaving the
+visualization.
+Litmaps builds literature maps showing
+connections between papers. Paperpile
+buttons appear throughout, so you can
+build your library as you explore.
+Research Rabbit suggests related work
+either from keyword search or by
+importing papers that you already know.
+And it's the same pattern. When I see
+something useful, I add it to my
+library.
+These tools surface papers you wouldn't
+otherwise find through keyword search
+alone. With Paperpile, you can make sure
+everything gets saved as you go. And of
+course, if you're working with a larger
+set, you can export a collection of
+papers from any of these tools and
+import it into Paperpile in one go.
+Research in 2026 means jumping between
+traditional databases, AI-powered search
+engines, and citation network tools.
+Now, Paperpile brings it all together.
+Wherever you find papers, they end up in
+one organized library, ready to read,
+annotate, and cite.

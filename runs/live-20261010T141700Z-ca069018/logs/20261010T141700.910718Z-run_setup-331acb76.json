@@ -1,0 +1,20 @@
+{
+  "stage": "run_setup",
+  "status": "completed",
+  "input_count": 0,
+  "output_count": 1,
+  "started_at": "2026-10-10T14:17:00Z",
+  "finished_at": "2026-10-10T14:17:00Z",
+  "elapsed_seconds": 0.0,
+  "tools": [
+    "python"
+  ],
+  "models": [],
+  "usage": null,
+  "cost_usd": null,
+  "cost_estimated": false,
+  "errors": [],
+  "details": {
+    "mode": "live"
+  }
+}

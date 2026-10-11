@@ -1,0 +1,20 @@
+{
+  "stage": "prepare_package",
+  "status": "completed",
+  "input_count": 6,
+  "output_count": 10,
+  "started_at": "2026-10-10T15:14:04Z",
+  "finished_at": "2026-10-10T15:14:14Z",
+  "elapsed_seconds": 10.0,
+  "tools": [
+    "python-shutil"
+  ],
+  "models": [],
+  "usage": null,
+  "cost_usd": null,
+  "cost_estimated": false,
+  "errors": [],
+  "details": {
+    "review_id": "1361c8b77a6b8cfd5bf5ecb2b071e46f25b467acb55f2a0273039a612da4194a"
+  }
+}

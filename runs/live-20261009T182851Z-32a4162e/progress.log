@@ -1,0 +1,212 @@
+SCHOLAR IN THE LOOP · LIVE RUN
+      → Run directory: runs/live-20261009T182851Z-32a4162e
+      → Progress and explanations → stderr; final summary JSON → stdout.
+      ! Typical time: 5–15 min with cached/public transcripts; long local MLX transcription can take longer.
+      → Paid API fallback is disabled
+      → Safe to stop with Ctrl-C. Completed assets are cached; extraction records now flush item by item.
+[1/4] Initialize evidence store
+      Creates missing SQLite tables without erasing prior evidence.
+      ✓ Evidence store ready
+[2/4] Collect and normalize evidence
+      RSS, YouTube, podcasts → text/captions/transcripts → versioned store → 30-day filter.
+[1/7] Discover RSS articles
+      Fetch configured feeds and publication metadata.
+      → 14:28:51 [fetch_feeds] 4 configured feed sources
+      … 14:28:51 [fetch_feeds 1/4] Fetching nature-machine-intelligence
+      ✓ 14:28:51 [fetch_feeds 1/4] nature-machine-intelligence: 6 records
+      … 14:28:51 [fetch_feeds 2/4] Fetching mit-ai-news
+      ✓ 14:28:51 [fetch_feeds 2/4] mit-ai-news: 6 records
+      … 14:28:51 [fetch_feeds 3/4] Fetching arxiv-cs-cl
+      ✓ 14:28:52 [fetch_feeds 3/4] arxiv-cs-cl: 6 records
+      … 14:28:52 [fetch_feeds 4/4] Fetching research-integrity-watch
+      ✓ 14:28:52 [fetch_feeds 4/4] research-integrity-watch: 6 records
+      ✓ 24 records discovered
+[2/7] Discover YouTube videos
+      Resolve each selected video's real upload date; usually the slowest collector.
+      → 14:28:52 [fetch_youtube] 4 configured youtube sources
+      … 14:28:52 [fetch_youtube 1/4] Fetching stanford-hai-youtube
+      … 14:28:52 [youtube metadata 1/5] Resolving upload date: HAI Seminar: The World Model and Spatial Intelligence Era: Governing AI Beyond Language
+      … 14:28:54 [youtube metadata 2/5] Resolving upload date: HAI Seminar: Industry Conversation with Instacart
+      … 14:28:56 [youtube metadata 3/5] Resolving upload date: Rob Reich, Diyi Yang, Surya Ganguli | Prompt Response: Should AI Slow Down?
+      … 14:28:58 [youtube metadata 4/5] Resolving upload date: 2026 Conference on Physics and AI: Benjamin Nachman
+      … 14:28:59 [youtube metadata 5/5] Resolving upload date: 2026 Conference on Physics and AI: Surya Ganguli
+      ✓ 14:29:01 [fetch_youtube 1/4] stanford-hai-youtube: 5 records
+      … 14:29:01 [fetch_youtube 2/4] Fetching acm-youtube
+      … 14:29:01 [youtube metadata 1/5] Resolving upload date: People of ACM: Altigran Soares da Silva (10/06/2026)
+      … 14:29:03 [youtube metadata 2/5] Resolving upload date: October 2026 CACM: AI and the Future of Accessible Work
+      … 14:29:05 [youtube metadata 3/5] Resolving upload date: October 2026 CACM: Who Owns the Wai (Water)? AI, Power, and the Public Trust
+      … 14:29:06 [youtube metadata 4/5] Resolving upload date: October 2026 CACM: Beyond the Hype: The Efficiency-Throughput Gap with GitHub Copilot
+      … 14:29:08 [youtube metadata 5/5] Resolving upload date: AMA-Style Talk with VC Investor and ML Engineer Oana Olteanu
+      ✓ 14:29:09 [fetch_youtube 2/4] acm-youtube: 5 records
+      … 14:29:09 [fetch_youtube 3/4] Fetching paperpile-youtube
+      … 14:29:09 [youtube metadata 1/5] Resolving upload date: How to import any library into Paperpile (PDFs, RIS, BibTeX)
+      … 14:29:11 [youtube metadata 2/5] Resolving upload date: How to organize 100+ papers in Paperpile
+      … 14:29:12 [youtube metadata 3/5] Resolving upload date: How to read and annotate references in Paperpile
+      … 14:29:13 [youtube metadata 4/5] Resolving upload date: Paperpile and AI: Turn papers into insights
+      … 14:29:13 [youtube metadata 5/5] Resolving upload date: Finding papers in 2026: Paperpile and the modern research landscape
+      ✓ 14:29:14 [fetch_youtube 3/4] paperpile-youtube: 5 records
+      … 14:29:14 [fetch_youtube 4/4] Fetching scispace-youtube
+      … 14:29:14 [youtube metadata 1/5] Resolving upload date: Introducing Unlimited Agent Usage on SciSpace
+      … 14:29:16 [youtube metadata 2/5] Resolving upload date: Why Journal Editors Reject Your Research Paper Before Peer Review
+      … 14:29:18 [youtube metadata 3/5] Resolving upload date: AI in Academic Writing: Red Flags Journal Reviewers Notice | SciSpace
+      … 14:29:19 [youtube metadata 4/5] Resolving upload date: How to Find the Right Journal & Get Your Research Noticed | Complete Tutorial | SciSpace
+      … 14:29:21 [youtube metadata 5/5] Resolving upload date: A Medical Doctor on How SciSpace Changed Her Research Process | Margaret Corinne Ramos
+      ✓ 14:29:22 [fetch_youtube 4/4] scispace-youtube: 5 records
+      ✓ 20 records discovered
+[3/7] Discover podcast episodes
+      Preserve episode, enclosure, and transcript locations.
+      → 14:29:23 [fetch_podcasts] 4 configured podcast sources
+      … 14:29:23 [fetch_podcasts 1/4] Fetching gradient-podcast
+      ✓ 14:29:23 [fetch_podcasts 1/4] gradient-podcast: 0 records
+      … 14:29:23 [fetch_podcasts 2/4] Fetching nature-podcast
+      ✓ 14:29:24 [fetch_podcasts 2/4] nature-podcast: 2 records
+      … 14:29:24 [fetch_podcasts 3/4] Fetching latent-space-podcast
+      ✓ 14:29:26 [fetch_podcasts 3/4] latent-space-podcast: 2 records
+      … 14:29:26 [fetch_podcasts 4/4] Fetching machine-learning-street-talk
+      ✓ 14:29:27 [fetch_podcasts 4/4] machine-learning-street-talk: 2 records
+      ✓ 6 records discovered
+[4/7] Extract substantive evidence
+      50 candidates. Articles use conditional HTTP; media uses cached/public transcripts first, then local MLX when necessary.
+      → 14:29:28 [extract_content] Starting 50 candidates; every completed item is flushed immediately
+      … 14:29:28 [extract_content 1/50] feed: Emotional optimization by newsroom AI needs behavioural evaluation
+      ✓ 14:29:29 [extract_content 1/50] Saved feed:https://www.nature.com/articles/s42256-026-01315-8 via http-200
+      … 14:29:29 [extract_content 2/50] feed: Characterizing the role of reasoning tokens in large language models as state over tokens
+      ✓ 14:29:30 [extract_content 2/50] Saved feed:https://www.nature.com/articles/s42256-026-01303-y via http-200
+      … 14:29:30 [extract_content 3/50] feed: Shifting from knowledge retrieval to evidence exploration and synthesis
+      ✓ 14:29:31 [extract_content 3/50] Saved feed:https://www.nature.com/articles/s42256-026-01313-w via http-200
+      … 14:29:31 [extract_content 4/50] feed: Large language models discover complementary heuristics for combinatorial optimization
+      ✓ 14:29:33 [extract_content 4/50] Saved feed:https://www.nature.com/articles/s42256-026-01307-8 via http-200
+      … 14:29:33 [extract_content 5/50] feed: Towards foundation-style models for energy-frontier heterogeneous neutrino detectors via s
+      ✓ 14:29:34 [extract_content 5/50] Saved feed:https://www.nature.com/articles/s42256-026-01309-6 via http-200
+      … 14:29:34 [extract_content 6/50] feed: Regional climate risk assessment from climate models using probabilistic machine learning
+      ✓ 14:29:35 [extract_content 6/50] Saved feed:https://www.nature.com/articles/s42256-026-01308-7 via http-200
+      … 14:29:35 [extract_content 7/50] feed: 3 Questions: What is the best path forward for AI in academia?
+      ✓ 14:29:35 [extract_content 7/50] Saved feed:https://news.mit.edu/2026/3-questions-what-best-path-forward-ai-academia-0925 via http-200
+      … 14:29:35 [extract_content 8/50] feed: Using AI to mitigate the growing environmental threat of data centers
+      ✓ 14:29:35 [extract_content 8/50] Saved feed:https://news.mit.edu/2026/mitigating-environmental-threat-of-data-centers-christina-delimitrou-1008 via http-200
+      … 14:29:35 [extract_content 9/50] feed: Discovering the value of humanistic inquiry
+      ✓ 14:29:35 [extract_content 9/50] Saved feed:https://news.mit.edu/2026/discovering-value-humanistic-inquiry-1007 via http-200
+      … 14:29:35 [extract_content 10/50] feed: Supercomputing researchers document evolution of AI hardware
+      ✓ 14:29:35 [extract_content 10/50] Saved feed:https://news.mit.edu/2026/supercomputing-researchers-document-evolution-ai-hardware-1006 via http-200
+      … 14:29:35 [extract_content 11/50] feed: Chris Bourg named vice provost and Barbara K. Ostrom (1978) Director of the MIT Libraries
+      ✓ 14:29:35 [extract_content 11/50] Saved feed:https://news.mit.edu/2026/chris-bourg-named-vice-provost-and-barbara-ostrom-director-mit-libraries-1006 via http-200
+      … 14:29:35 [extract_content 12/50] feed: MIT announces the MIT for America initiative, to strengthen STEM education across the coun
+      ✓ 14:29:36 [extract_content 12/50] Saved feed:https://news.mit.edu/2026/mit-america-initiative-strengthens-stem-education-across-country-1006 via http-200
+      … 14:29:36 [extract_content 13/50] feed: Diffu-LoRA: A Novel Low-Rank Adaptation for Personalized Diffusion Models
+      ✓ 14:29:36 [extract_content 13/50] Saved feed:oai:arXiv.org:2610.10550v1 via http-304
+      … 14:29:36 [extract_content 14/50] feed: Wieszcz-XIX: A 3.1-Billion-Word Corpus of Pre-1918 Polish and Temporally Bounded Language 
+      ✓ 14:29:36 [extract_content 14/50] Saved feed:oai:arXiv.org:2610.10592v1 via http-304
+      … 14:29:36 [extract_content 15/50] feed: Large Language Model-Assisted Preparation of Transportation Management Plans: A Case Study
+      ✓ 14:29:36 [extract_content 15/50] Saved feed:oai:arXiv.org:2610.10650v1 via http-304
+      … 14:29:36 [extract_content 16/50] feed: Cognitive Thermometers: Machine Learning and Logical Complexity
+      ✓ 14:29:36 [extract_content 16/50] Saved feed:oai:arXiv.org:2610.10724v1 via http-304
+      … 14:29:36 [extract_content 17/50] feed: Lossy Compressive Text Autoencoders
+      ✓ 14:29:36 [extract_content 17/50] Saved feed:oai:arXiv.org:2610.10738v1 via http-304
+      … 14:29:36 [extract_content 18/50] feed: Clarify, Then Focus: Statement Normalization for Conversation Analytics at Scale
+      ✓ 14:29:36 [extract_content 18/50] Saved feed:oai:arXiv.org:2610.10758v1 via http-304
+      … 14:29:36 [extract_content 19/50] feed: ‘Cerebral torment’: IOP retracts nearly 100 conference papers for tortured phrases
+      ✓ 14:29:36 [extract_content 19/50] Saved feed:https://retractionwatch.com/?p=136186 via http-304
+      … 14:29:36 [extract_content 20/50] feed: OpenAI withdraws three preprints a day after releasing 722 manuscripts on unsolved math pr
+      ✓ 14:29:36 [extract_content 20/50] Saved feed:https://retractionwatch.com/?p=136176 via http-304
+      … 14:29:36 [extract_content 21/50] feed: A paper suggested a paleontologist’s fossil was forged. He wants it retracted.
+      ✓ 14:29:37 [extract_content 21/50] Saved feed:https://retractionwatch.com/?p=136168 via http-304
+      … 14:29:37 [extract_content 22/50] feed: Wildlife journal issues corrections for missing ethics statements
+      ✓ 14:29:37 [extract_content 22/50] Saved feed:https://retractionwatch.com/?p=136163 via http-304
+      … 14:29:37 [extract_content 23/50] feed: Editor-in-chief resigns amid probes of alleged citation manipulation, data errors
+      ✓ 14:29:37 [extract_content 23/50] Saved feed:https://retractionwatch.com/?p=136141 via http-304
+      … 14:29:37 [extract_content 24/50] feed: Weekend reads: China intensifies crackdown on misconduct; AI flooding medical journals wit
+      ✓ 14:29:38 [extract_content 24/50] Saved feed:https://retractionwatch.com/?p=136136 via http-304
+      … 14:29:38 [extract_content 25/50] youtube: HAI Seminar: The World Model and Spatial Intelligence Era: Governing AI Beyond Language
+      … 14:29:38 [transcript] Requesting YouTube captions for Ef6k1d2Uq4Q
+      ! 14:29:39 [transcript] Captions unavailable for Ef6k1d2Uq4Q; falling back to audio transcription
+      ✗ 14:29:39 [extract_content 25/50] Skipped youtube:Ef6k1d2Uq4Q: [Errno 2] No such file or directory: 'yt-dlp'
+      … 14:29:39 [extract_content 26/50] youtube: HAI Seminar: Industry Conversation with Instacart
+      ✓ 14:29:39 [transcript] Compatible legacy transcript cache hit for youtube:ZByKqo03krQ
+      ✓ 14:29:39 [extract_content 26/50] Saved youtube:ZByKqo03krQ via legacy-transcript-cache
+      … 14:29:39 [extract_content 27/50] youtube: Rob Reich, Diyi Yang, Surya Ganguli | Prompt Response: Should AI Slow Down?
+      ✓ 14:29:39 [transcript] Compatible legacy transcript cache hit for youtube:hYZbJWioUJI
+      ✓ 14:29:39 [extract_content 27/50] Saved youtube:hYZbJWioUJI via legacy-transcript-cache
+      … 14:29:39 [extract_content 28/50] youtube: 2026 Conference on Physics and AI: Benjamin Nachman
+      ✓ 14:29:39 [transcript] Compatible legacy transcript cache hit for youtube:kCJ42ZAS_3g
+      ✓ 14:29:39 [extract_content 28/50] Saved youtube:kCJ42ZAS_3g via legacy-transcript-cache
+      … 14:29:39 [extract_content 29/50] youtube: 2026 Conference on Physics and AI: Surya Ganguli
+      ✓ 14:29:39 [transcript] Compatible legacy transcript cache hit for youtube:SSzPOKtCMUM
+      ✓ 14:29:39 [extract_content 29/50] Saved youtube:SSzPOKtCMUM via legacy-transcript-cache
+      … 14:29:39 [extract_content 30/50] youtube: People of ACM: Altigran Soares da Silva (10/06/2026)
+      ✓ 14:29:39 [transcript] Compatible legacy transcript cache hit for youtube:DD2oJj7Dbfw
+      ✓ 14:29:39 [extract_content 30/50] Saved youtube:DD2oJj7Dbfw via legacy-transcript-cache
+      … 14:29:39 [extract_content 31/50] youtube: October 2026 CACM: AI and the Future of Accessible Work
+      ✓ 14:29:39 [transcript] Compatible legacy transcript cache hit for youtube:Qram04nQw-8
+      ✓ 14:29:39 [extract_content 31/50] Saved youtube:Qram04nQw-8 via legacy-transcript-cache
+      … 14:29:39 [extract_content 32/50] youtube: October 2026 CACM: Who Owns the Wai (Water)? AI, Power, and the Public Trust
+      ✓ 14:29:39 [transcript] Compatible legacy transcript cache hit for youtube:D_6c8Oe5JaY
+      ✓ 14:29:39 [extract_content 32/50] Saved youtube:D_6c8Oe5JaY via legacy-transcript-cache
+      … 14:29:39 [extract_content 33/50] youtube: October 2026 CACM: Beyond the Hype: The Efficiency-Throughput Gap with GitHub Copilot
+      ✓ 14:29:39 [transcript] Compatible legacy transcript cache hit for youtube:KhPa_vvuoHE
+      ✓ 14:29:39 [extract_content 33/50] Saved youtube:KhPa_vvuoHE via legacy-transcript-cache
+      … 14:29:39 [extract_content 34/50] youtube: AMA-Style Talk with VC Investor and ML Engineer Oana Olteanu
+      ✓ 14:29:39 [transcript] Compatible legacy transcript cache hit for youtube:6VxJrO4i6Lo
+      ✓ 14:29:39 [extract_content 34/50] Saved youtube:6VxJrO4i6Lo via legacy-transcript-cache
+      … 14:29:39 [extract_content 35/50] youtube: How to import any library into Paperpile (PDFs, RIS, BibTeX)
+      ✓ 14:29:39 [transcript] Compatible legacy transcript cache hit for youtube:-KmD3oj7iYo
+      ✓ 14:29:39 [extract_content 35/50] Saved youtube:-KmD3oj7iYo via legacy-transcript-cache
+      … 14:29:39 [extract_content 36/50] youtube: How to organize 100+ papers in Paperpile
+      ✓ 14:29:39 [transcript] Compatible legacy transcript cache hit for youtube:C6ZHDGwq1wE
+      ✓ 14:29:39 [extract_content 36/50] Saved youtube:C6ZHDGwq1wE via legacy-transcript-cache
+      … 14:29:39 [extract_content 37/50] youtube: How to read and annotate references in Paperpile
+      ✓ 14:29:39 [transcript] Compatible legacy transcript cache hit for youtube:1BcpW_Hnwvc
+      ✓ 14:29:39 [extract_content 37/50] Saved youtube:1BcpW_Hnwvc via legacy-transcript-cache
+      … 14:29:39 [extract_content 38/50] youtube: Paperpile and AI: Turn papers into insights
+      ✓ 14:29:39 [transcript] Compatible legacy transcript cache hit for youtube:d9Tpb2nJeU4
+      ✓ 14:29:39 [extract_content 38/50] Saved youtube:d9Tpb2nJeU4 via legacy-transcript-cache
+      … 14:29:39 [extract_content 39/50] youtube: Finding papers in 2026: Paperpile and the modern research landscape
+      ✓ 14:29:39 [transcript] Compatible legacy transcript cache hit for youtube:Jg0voITSk1U
+      ✓ 14:29:39 [extract_content 39/50] Saved youtube:Jg0voITSk1U via legacy-transcript-cache
+      … 14:29:39 [extract_content 40/50] youtube: Introducing Unlimited Agent Usage on SciSpace
+      ✓ 14:29:39 [transcript] Compatible legacy transcript cache hit for youtube:fj2ptkAwFf0
+      ✓ 14:29:39 [extract_content 40/50] Saved youtube:fj2ptkAwFf0 via legacy-transcript-cache
+      … 14:29:39 [extract_content 41/50] youtube: Why Journal Editors Reject Your Research Paper Before Peer Review
+      ✓ 14:29:39 [transcript] Compatible legacy transcript cache hit for youtube:pmerzX8gNPE
+      ✓ 14:29:39 [extract_content 41/50] Saved youtube:pmerzX8gNPE via legacy-transcript-cache
+      … 14:29:39 [extract_content 42/50] youtube: AI in Academic Writing: Red Flags Journal Reviewers Notice | SciSpace
+      ✓ 14:29:39 [transcript] Compatible legacy transcript cache hit for youtube:3sDQyUPl6yA
+      ✓ 14:29:39 [extract_content 42/50] Saved youtube:3sDQyUPl6yA via legacy-transcript-cache
+      … 14:29:39 [extract_content 43/50] youtube: How to Find the Right Journal & Get Your Research Noticed | Complete Tutorial | SciSpace
+      ✓ 14:29:39 [transcript] Compatible legacy transcript cache hit for youtube:dmYtC5xRNVw
+      ✓ 14:29:39 [extract_content 43/50] Saved youtube:dmYtC5xRNVw via legacy-transcript-cache
+      … 14:29:39 [extract_content 44/50] youtube: A Medical Doctor on How SciSpace Changed Her Research Process | Margaret Corinne Ramos
+      ✓ 14:29:39 [transcript] Compatible legacy transcript cache hit for youtube:q_g-rU1kW2o
+      ✓ 14:29:39 [extract_content 44/50] Saved youtube:q_g-rU1kW2o via legacy-transcript-cache
+      … 14:29:39 [extract_content 45/50] podcast: Briefing Chat: Top researchers are being misled by sham academic societies
+      ✓ 14:29:39 [transcript] Compatible legacy transcript cache hit for podcast:6ac8c93beea51f2aa3043bb8
+      ✓ 14:29:39 [extract_content 45/50] Saved podcast:6ac8c93beea51f2aa3043bb8 via legacy-transcript-cache
+      … 14:29:39 [extract_content 46/50] podcast: Nobel Prizes 2026: ‘ghost’ particles, mirror molecules and light switches in the brain
+      ✓ 14:29:39 [transcript] Compatible legacy transcript cache hit for podcast:6ac673cf9fea6e0a64d06d1a
+      ✓ 14:29:39 [extract_content 46/50] Saved podcast:6ac673cf9fea6e0a64d06d1a via legacy-transcript-cache
+      … 14:29:39 [extract_content 47/50] podcast: Synthesis Superintelligence: from Semiconductors to Superconductors — Periodic Labs’ Liam 
+      ! 14:29:39 [transcript] No timestamped transcript for podcast:substack:post:219146438; audio transcription required
+      … 14:29:40 [transcription] Transcribing 84.0 minutes locally with mlx-community/whisper-turbo
+      ✓ 14:33:47 [transcription] Created 483 timestamped segments for podcast:substack:post:219146438
+      ✓ 14:33:47 [extract_content 47/50] Saved podcast:substack:post:219146438 via mlx-whisper
+      … 14:33:47 [extract_content 48/50] podcast: Academia is for Ambition — Alex Zhang, MIT
+      ! 14:33:47 [transcript] No timestamped transcript for podcast:substack:post:218414422; audio transcription required
+      … 14:33:47 [transcription] Transcribing 101.5 minutes locally with mlx-community/whisper-turbo
+      ✓ 14:38:40 [transcription] Created 645 timestamped segments for podcast:substack:post:218414422
+      ✓ 14:38:40 [extract_content 48/50] Saved podcast:substack:post:218414422 via mlx-whisper
+      … 14:38:40 [extract_content 49/50] podcast: OpenAI's Releases "Intelligent UI" and Anthropic's New Model
+      ✓ 14:38:40 [transcript] Compatible legacy transcript cache hit for podcast:gid://art19-episode-locator/V0/WiqOqm0onCaeB_pzjE-hRhokKRVEz_Iq1BlOjeFjCps
+      ✓ 14:38:40 [extract_content 49/50] Saved podcast:gid://art19-episode-locator/V0/WiqOqm0onCaeB_pzjE-hRhokKRVEz_Iq1BlOjeFjCps via legacy-transcript-cache
+      … 14:38:40 [extract_content 50/50] podcast: NVIDIA's OpenShell: A Step Towards AI Safety
+      ✓ 14:38:40 [transcript] Compatible legacy transcript cache hit for podcast:gid://art19-episode-locator/V0/gtg83nZlGz9HYYcbhDOQOqUBjG8J-yunLnyXQRDk9eQ
+      ✓ 14:38:40 [extract_content 50/50] Saved podcast:gid://art19-episode-locator/V0/gtg83nZlGz9HYYcbhDOQOqUBjG8J-yunLnyXQRDk9eQ via legacy-transcript-cache
+      ! Extraction was partial: 51 items preserved
+[5/7] Upsert evidence versions
+      Classifies each item as new, changed, or unchanged.
+      ! Collection was partial; usable evidence was preserved
+[3/4] Create the three-piece series
+      AI selection, evidence-grounded briefs, articles, scripts, and deterministic checks.
+[1/5] Editorial selection
+      The model must decide accept/reject/defer for every eligible evidence version.
+      ✗ Series workflow stopped; inspect the last stage diagnostic
+[4/4] Write run summary
+      Counts evidence, coverage, failures, models, cost, and next human action.

@@ -1,0 +1,146 @@
+You've got about 100 papers saved. Some
+are in folders, some labeled to be read,
+and some haven't even left your
+downloads folder. So, when you sit down
+to write, you're scrolling, searching,
+trying to remember why you saved
+something [music] in the first place or
+wasting too much time looking for it.
+[music] Paper Pile helps you clean that
+up. So, let's get your references
+organized quickly [music] so you can get
+back to writing. Before
+[music]
+you even think about organizing
+anything, [music] the first step is just
+to get everything into one place. If
+your papers are spread across [music]
+your downloads folder, your desktop, or
+different tools, trying to organize them
+where they are just doesn't work.
+[music] So, first you want to get all of
+your papers into paper pile. So you can
+drag and drop PDFs, you can upload
+entire folders, [music] bib files, or
+import from another reference manager.
+Paperpile will match the metadata
+[music] and rename the files. So instead
+of random file names, you can [music]
+actually see what you have.
+Once that's done, organizing becomes
+much easier.
+So once everything's in paper pile,
+[music]
+this is what your library looks like.
+Let's say you're working on a
+dissertation, a manuscript, or a few
+different projects [music] at once. The
+first thing you want is a structure you
+can actually use dayto-day. [music]
+Paper pile gives you two ways to
+organize folders and labels. So I'll
+start with folders. These are
+hierarchical, so you can create folders
+and subfolders [music] and are perfect
+for organizing by project or course. So
+for example, let's say you're working on
+a dissertation. I might create a folder
+for that. Then add subfolders for
+literature [music] review, methodology,
+and case studies so that it gives me a
+clear structure to work from.
+labels work a little bit differently
+with more flexibility. Instead of being
+part of a hierarchy, they let you
+[music] tag papers across your whole
+library. So, it's things like to read,
+[music] important, methods, or theory.
+The useful bit is that [music]
+references can have multiple labels and
+sit in multiple folders without creating
+duplicates. [music] So, if I've got one
+paper that's relevant to two different
+areas, I can add it to both. It's still
+one reference, it's just easier to find
+later. One thing that's worth knowing,
+removing a folder or label doesn't
+delete [music] anything. If you delete a
+folder, the papers just stay in your
+main library. So, don't be afraid to
+play around with different ways of
+organizing [music] it. In practice,
+you'll usually want folders for broader
+organization [music] and labels for more
+detailed tracking as you progress
+through your projects.
+Now that [music] you've got folders and
+labels set up, let's talk about keeping
+them clean. Once your library starts to
+grow, you'll want to tidy things up to
+[music] make sure everything stays
+organized.
+If I open the three dot menu next to my
+library and go to manage folders,
+[music]
+I can do that in one place. From here, I
+can rename folders, delete a few at
+once, or fix [music] naming across
+everything.
+You can do the same with labels, open
+manage labels, and then you can rename
+them, you can merge similar ones, or
+change colors in bulk. So, if you've
+ended up with slightly different
+versions of the same label, you can
+clean that up properly because this
+stuff [music] may drift over time.
+[music] Now, not everyone organizes in
+the same way. Research gets messy as
+projects grow. [music] Paper Pile's
+filters help you stay on top of it. If
+you open the filter menu, you can
+quickly [music] find papers that need
+cleaning up. Duplicates show papers
+you've [music] added more than once. You
+can merge those, and PayPal keeps the
+best version.
+Incomplete shows references missing
+metadata.
+You can also filter by things like
+whether a reference has a [music] PDF or
+not. If you want everything organized,
+you can find references [music] that
+aren't in a folder or don't have labels
+yet.
+You can also combine filters. So, for
+example, if I open my dissertation
+folder, then filter by to read. [music]
+Now, I've just got the papers I still
+need to read for that project.
+Probably the most useful [music] habit
+here is to organize papers as you save
+them. That's when it takes the least
+effort. So, whenever you add a paper
+through the [music] browser extension,
+by uploading files or by pasting a title
+or DOI, you can choose where it goes
+straight [music] away. So, instead of
+saving everything into your main library
+and sorting it later, you just give it a
+folder and a label as it [music] comes
+in. This takes just a few seconds, but
+it saves you having to fix it [music]
+later. If you're using the browser
+extension, you'll see the destination
+selection box in the pop-up. From
+[music] there, you can choose a folder
+or label before saving. And if you're
+working on something specific, [music]
+you can pin a folder so everything you
+save goes there automatically. So, the
+workflow is pretty simple. Get
+everything into paper pile first, then
+use folders for structure and labels for
+detail. [music]
+Tidy up with filters when needed, and
+organize papers as you save them.

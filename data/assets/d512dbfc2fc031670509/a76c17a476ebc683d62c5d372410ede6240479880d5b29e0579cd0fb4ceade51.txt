@@ -1,0 +1,95 @@
+You're always on the move School drop off back to back meetings catching the game with friends Being on the move means juggling a lot It can also mean making a lot Because when you move your money to Citizens you can earn a significant
+cash bonus Just how much Check out citizensbank com slash make more or head to your nearest branch to find out But move quickly This offer is only available for a limited time Offer available on select new accounts Qualifying
+balance deposit activity requirements and additional terms and conditions apply Member FDIC State fair food is getting smaller and pricier We'll have room for fried cookies Okay you never overspend on
+food What's your deal What's his deal He went to Metro and got 450 in value on the new Samsung Galaxy A37 5G for free and no activation fees Free phone Oh sign me
+up Get that more for your money feeling Only on Metro by T Mobile Bring your number and activate 40 period plan 450 based on device discount waived activation fee Not available with Metro T Mobile in the past 180 days In
+an experiment we don't know yet Why is light so far Like it sounds so simple They had no idea But now the data speed I find this not only refreshing but but at some
+level astounding Nature Welcome back to the nature podcast This time how butterflies
+can trick you into thinking they're flying one way when they're really going another I'm Nick Petrichou Butterflies
+are hard to catch Perhaps uniquely so A new research in nature proposes that this is down to their patterns and how they confuse predators You
+may think that butterflies are pretty and colourful to ward off predators Don't eat me their stripes say I'm poisonous Or that they're useful to attract mates A dull butterfly may
+not stand a chance against a charming colourful competitor And you'd be right But that doesn't explain everything For instance butterflies in Europe aren't poisonous
+but still have the bright patterns that suggest they are It seems these patterns may also be doing something more And the new study reveals something new These
+patterns are sending predators the wrong way with a confusing motion cue Curious about these confusing colourations I made a trip to Cornwall to meet the
+authors of the new nature paper Hi
+Jolyon lovely to meet you Nice to meet you That's Jolyon Trushanko one of the authors of the new study as he welcomed me into his office He is a visual ecologist who studies
+how animals interact with the world they see And while there are a lot of ways that animals use visual cues to avoid predators camouflage being the obvious example he told me that butterflies may
+be uniquely good at this The really really telling interesting thing is that there are no birds that have evolved to really specialise on catching butterflies in flight So lots of things will try and eat moths and other insects
+but butterflies despite being the most obvious thing they're so visually salient you know there's nothing much that really specialises on eating them on the wing When you see a bird try and catch a butterfly they sort of just try and chase around it they can never actually
+grab it So this is an interesting tell that there's something weird going on with butterflies It's rare but some birds do actually catch butterflies but they do it when they've landed When a butterfly is
+in flight or on the wing there's no known predators that specialise in catching them In fact I even got to see quite how hard it is to catch butterflies in person This
+is George Hancock one of Jolyon's colleagues and another of the authors on the new paper trying and failing to catch a butterfly Now in fairness to him he did quite expertly catch another two
+butterflies later on but those had landed Butterflies in flight seem particularly hard to catch even with a net So Jolyon and George were curious why this was and they
+thought that they could look to advanced camera technology to figure it out These days high speed footage that you can slow down to a crawl is fairly commonplace So Jolyon tried to find some of
+this footage and run it through a vision model which replicates how birds eyes see to understand what was the cause of the butterfly's unique weirdness I just went on YouTube and took a high speed video of
+a butterfly taking off It was a BBC Natural History video and I just thought right I'll take this put it through the model see what happens And I thought I'd made a big mistake It was colour coded so green was upwards motion and
+purple was coded as downwards motion and this butterfly was taking off and it was just loads of this purple This downwards motion was really powerful and this is before I'd really conceptually thought about how this visual illusion might
+work And I thought initially I've made an error my code's gone wrong so I did lots of double checking and then no it was true Despite the butterfly clearly moving upwards as it took off Jolyon's
+model was identifying downwards motion This is really this eureka moment of realising wow the way the stripes are angling in the different points in the wingbeat cycle they are turning into what we call a barber
+pole effect They are creating sideways and downwards motion from a wing that's actually moving up The barber pole effect gets its name from you guessed it barber's poles These are the often red and
+white rotating poles that you see outside of barbers They're made of a cylinder painted with a diagonal spiral stripe This spins sideways but looks as though it's
+moving up or down This is because the information about the is ambiguous to our brains We don't know what's happening to the stripes behind the pole but because
+the stripes are diagonal our brains interpret the movement as going up or down as if they're twisting around the pole and then disappearing off the end In essence the stripey pattern misleads the
+eyes Jolyon thought that a similar thing was happening with the butterflies but he needed more than a single video nicked off YouTube to make sure So he and mostly George to be honest caught some butterflies and
+then recorded them taking off with their own high speed camera And we took those videos put them through this bird motion vision model and then a really fun thing that we could do is in each frame of the video we could take
+away the butterfly's patterning So we could simulate here's the butterfly taking off with its real wing patterns and then we could in every frame get rid of those patterns make them an average grey or
+white or black Simulating the same butterfly moving same flight same exact dynamics but taking away the patterns And then we can put both of those through the model and see how much patterns interfere
+with motion detection And that was really cool because that showed that the presence of patterns had a really powerful effect at making it look like they're flying in the wrong direction As the butterfly's wings move up and down the
+stripes and patterns create illusions and make it look like the butterfly is moving slower than it is That would mean a would be predator would end up attacking behind the butterfly missing all
+the important bits and allowing the insect to escape But that's just what the model implied The researchers wanted to see how this would work when an actual predator is trying to catch a butterfly Unfortunately
+such an experiment would be really difficult to do with birds but George came up with a solution He made a game that humans could play In the game they could see how much the butterfly's patterns interfered
+with the humans abilities to net them So in this game your goal is to try and catch a butterfly You're going to try and catch it as fast and accurately as you can There is going to be a tutorial where it teaches how to play This is George explaining the game to
+a player They have to catch a virtual butterfly on a touchscreen George and the team can monitor how successful they are at catching it as well as exactly where their missed attempts are landing What
+we found by getting people to play this game is that the more motion confusing you are the more attacks are directed towards the back of a butterfly the more likely you are to hit less vulnerable parts of the wings So the hind
+wings of many butterfly species especially those such as swallowtails which have a long tail are evolved to break off So if a predator just catches a butterfly but only catches that part it's not going to come away with a meal and the butterfly
+is going to be able to continue to flee with its life The human butterfly predators were also quite bad at catching butterflies I can personally attest to this having played the game myself On average people caught only 40
+of butterflies if only my own percentage had been that high But as George says even when the people hit them they tended not to hit anything vital being directed to hit towards the back of the wings Survival
+it seems is the name of the game Losing a bit of the hind wing isn't a big deal to a lot of butterflies but surviving to mate and bring forth the next generation is Which is
+what the team wanted to look at in their next experiment It seemed that butterflies had confusing motion cues They could mislead predators or at least humans playing a game into missing them or hitting non
+vital parts But if this is the case then you'd expect it to be an evolved trait Rather than waiting to see evolution play out over the next few million years the team used a
+computer simulation to fast forward through generations of natural selection And what we found was that if you select for motion confusion metrics you get butterflies that eerily resemble
+real butterflies that we see in the natural world So if you select for a metric that we call forwards confusion you get the same kind of stripe patterns you see all across swallowtail butterflies and various
+different nymphalids and they've all settled on having these stripes If you've ever seen a tiger swallowtail butterfly or a scarce swallowtail butterfly they have stripes in almost exactly the same positions
+on their wings And we think this is because they have evolved in order to try and redirect attacks towards the back of them onto this tail which can break off George and the team think that this observation really validates their
+study It's another bit of data along with the high speed camera footage the game and the real world observations that point towards the butterflies misleading their would be predators by creating confusing cues with
+their patterns But one thing that really annoyed me was whites So the white butterfly this wasn't explained It's an immaculate white butterfly often or it sometimes has little black spots on its wingtips This wasn't really being explained
+by our model And so another thing we did in the genetic algorithm model this fully computer based thing is we flipped it So instead of making the butterfly look like it's flying too slowly too far backwards what if we try and make it look like it's flying
+faster than it really is so that the bird's attacks might be deflected too far forwards And then they all turn immaculate white almost instantly sometimes with little black spots on the wingtips too So
+this is a really nice it's an elegant way I feel of showing that this is it's a strategy where there's lots of different ways of achieving this And this fits in really nicely with how we think evolution should work for kind of creating
+lots of diversity lots of different strategies for evading being eaten by birds Julian and the team think that the method of avoiding predators that they've explained could be the most successful visual defence strategy in moving
+animals By manipulating their predators with motion cues the butterflies are able to avoid being caught This probably is also aided by the butterfly's rather chaotic flying style They
+change direction seemingly at random and can barrel through the air flapping madly at 70cm a second about a mile and a half per hour Pretty fast when you're only a few centimetres long
+yourself And the team are currently investigating how butterfly's flying style affects this One big caveat here though is that there's a lot we don't understand about how motion vision
+works We also don't really know a lot about how birds see which may have implications for the game the team created While the game simulated how we think birds see to the humans playing it it'll be
+better to have actual birds try it out something that's very very difficult to do I don't for instance envy the researchers who need to corral flying birds in their lab to hit butterflies Ultimately
+though Julian and George think that it's likely that many other animals influence how their predators see them using similar motion tricks It seems to be a widely distributed trait amongst butterflies according
+to their study and there's no reason to think that other animals don't also do it Zebra stripes for instance have puzzled researchers for hundreds of years so this work may help uncover the real reason why
+they have their stripes Perhaps they too set off confusing cues that mislead their predators So in the end Julian and George hope that this work will inspire investigations of other animals
+It's really exciting when you think that there are so many animals that need to be protected from being eaten while in motion If you think about fish and birds many of these animals have really high
+contrast markings on their wings or on their tails and a really important thing here that we've kind of realised is this is due to biological motion So real animals have limbs that at some points are moving in
+the opposite direction to where they're going So on the butterfly their wings are moving downwards at one point so you maximise the motion on that downwards moving limb and then hide the motion fold that wing up and hide it on
+the way up And there are lots of animals that can do this As a fish is escaping its predators the spots on its tail will at one point move in the opposite direction to the rest of the fish and where it's going to be in 100 milliseconds time And
+so this is potentially super common in nature And yeah we've now hopefully got the tools to start exploring this That was Jolyon Treshanko from the University of Exeter here in the UK You also heard from
+George Hancock also from the University of Exeter For more on that story check out the show notes for some links Right now though it's time for the Research Highlights with Dan Fox Don't
+worry you're not receiving an emergency alert That is the call of the bare throated bellbird one of two birds in contention for the title of world's loudest bird The
+other the red legged seriama sounds like this We've turned it down a bit to save your eardrums but trust us at full volume it is
+loud These two avian ear splitters were identified by researchers investigating the role of evolutionary biology on bird communication Being
+loud is vital for communication and this team set out to answer two questions about bird calls To what extent can birds vary their vocal amplitude And what are the evolutionary factors that
+drive this Using laser rangefinders designed for golfers and sound level meters intended to ensure workplace safety they were able to make field recordings of over 100 species of bird at
+locations in the US and Brazil Analyzing the data they found 58 decibels of variation in bird calls from a tiny hummingbird singing at 64 decibels up to
+the booming duo we heard earlier peaking at 120 decibels louder than a chainsaw They found that bigger birds tended to be louder with wider beak openings and
+stronger muscles to compress and explosively expel air But birds are often louder than significantly larger land animals And so the authors suggest other mechanisms
+enabling their extreme vocalizations remain to be discovered You can read that research in full in Evolution In Iron Age
+Europe around 2 200 years ago iron was unsurprisingly pretty important But the scale of its production and trade has been unclear Now
+the discovery of a huge cache of iron bars suggests that iron was being shipped along the river Danube more than a ton at a time Researchers analyzed 193 confirmed iron bars iron
+bars and hundreds of fragments recovered during gravel extraction along the Danube in northern Austria The pieces represent at least 500 forged iron bars making the find the largest
+known assemblage of such objects from Iron Age Europe Radiocarbon dating of three bars together with analysis of similar artifacts found elsewhere suggests that the cargo dates to the 3rd or 2nd
+century BC and would have been enough metal to equip around 500 warriors with swords The authors say the iron was probably being transported down the Danube when it was lost in a shipwreck
+pointing to large scale iron production in Central Europe during the Late Iron Age You can find that paper in Antiquity And
+that's all for now If you want to stay in touch with us you can We're on email podcast nature com or you can find us on social media at Nature Podcast We'll be back again soon with more
+from the world of science Until then I've been Nick Petrichau Thanks for listening You're
+always on the move School drop off back to back meetings catching the game with friends Being on the move means juggling a lot It can also mean making a lot Because when you move your money to Citizens you can earn a significant
+cash bonus Just how much Check out citizensbank com slash makemore or head to your nearest branch to find out But move quickly This offer is only available for a limited time Offer available on select new accounts qualifying
+balance deposit activity requirements and additional terms and conditions apply Member FDIC State Fair food is getting smaller and pricier We'll have room for fried cookies Okay you never overspend on
+food What's your deal What's his deal He went to Metro and got 450 in value on the new Samsung Galaxy A37 5G for free And no activation fees Free phone Oh sign me up
+Get that more for your money feeling only on Metro by T Mobile Bring your number and activate 40 period plan 450 based on device discount waived activation fee Not available with Metro T Mobile in the past 180 days

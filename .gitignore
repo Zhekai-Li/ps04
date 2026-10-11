@@ -19,4 +19,5 @@ runs/*/package/rendered/
 *.wav
 *.webm
 .DS_Store
+node_modules/
 

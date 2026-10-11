@@ -1,0 +1,740 @@
+[
+  {
+    "segment_id": "tr-00001",
+    "start_seconds": 0.0,
+    "end_seconds": 12.12,
+    "text": "Therapy's biggest impact doesn't show up in some dramatic breakthrough It shows up in the smallest moments You bite your tongue instead of escalating You put your phone down instead of firing off that text You"
+  },
+  {
+    "segment_id": "tr-00002",
+    "start_seconds": 12.12,
+    "end_seconds": 24.32,
+    "text": "say what you actually mean instead of what would hurt someone else the most Nobody applauds those moments but they quietly change your life That's what growing feels like and that's exactly what Grow Therapy is"
+  },
+  {
+    "segment_id": "tr-00003",
+    "start_seconds": 24.32,
+    "end_seconds": 36.62,
+    "text": "here for Grow is therapy that works covered by insurance Sessions average 21 with insurance and some pay as little as 0 depending on their plan There are no subscriptions no long"
+  },
+  {
+    "segment_id": "tr-00004",
+    "start_seconds": 36.62,
+    "end_seconds": 48.7,
+    "text": "term commitments You just pay per session Grow connects you with thousands of high quality licensed therapists across the U S offering both virtual and in person sessions nights and weekends You can"
+  },
+  {
+    "segment_id": "tr-00005",
+    "start_seconds": 48.7,
+    "end_seconds": 60.8,
+    "text": "search by what matters like insurance specialty identity or availability And you can book a therapy session in minutes and begin in as little as two days not the national 48 day average See if you could"
+  },
+  {
+    "segment_id": "tr-00006",
+    "start_seconds": 60.8,
+    "end_seconds": 72.98,
+    "text": "pay as little as 0 for therapy in seconds at growtherapy com slash ACAST That's growtherapy com slash ACAST growtherapy com"
+  },
+  {
+    "segment_id": "tr-00007",
+    "start_seconds": 72.98,
+    "end_seconds": 85.1,
+    "text": "slash ACAST Availability and coverage vary by state and insurance plan This Monday com ad was created by a team of people and AI agents The agents wrote the copy and managed the"
+  },
+  {
+    "segment_id": "tr-00008",
+    "start_seconds": 85.1,
+    "end_seconds": 119.38,
+    "text": "timelines while our human creative director made sure it all made sense Easy Create your own AI agent today on Monday com Welcome"
+  },
+  {
+    "segment_id": "tr-00009",
+    "start_seconds": 119.38,
+    "end_seconds": 131.52,
+    "text": "back to the Nature Podcast This week rounding up the 2026 Nobel Science winners and hints of the ancient human gut microbiome I'm Nick Petruchow And I'm"
+  },
+  {
+    "segment_id": "tr-00010",
+    "start_seconds": 131.52,
+    "end_seconds": 143.56,
+    "text": "Benjamin Thompson The start of October is always a big moment in the science"
+  },
+  {
+    "segment_id": "tr-00011",
+    "start_seconds": 143.56,
+    "end_seconds": 155.68,
+    "text": "calendar as it's the announcement of the Nobel Prizes I caught up with one of my colleagues each day this week to learn more about the winners It is Monday and"
+  },
+  {
+    "segment_id": "tr-00012",
+    "start_seconds": 155.68,
+    "end_seconds": 168.22,
+    "text": "Monday is of course the Nobel Prize in Physiology or Medicine And here to talk to me about it today is Miriam Nadaf Miriam thank you so much for being here Thank you Ben So everyone is talking about optogenetics today because the folk who won it the three"
+  },
+  {
+    "segment_id": "tr-00013",
+    "start_seconds": 168.22,
+    "end_seconds": 180.7,
+    "text": "researchers who won it won for working on optogenetics Now let's have a quick 101 on what optogenetics is Yeah so optogenetics is this very cool technique that uses light to"
+  },
+  {
+    "segment_id": "tr-00014",
+    "start_seconds": 180.7,
+    "end_seconds": 192.84,
+    "text": "control the activity of neurons So imagine that this room is a brain cell And on that wall there is a light switch And using that light switch I can control what happens in the room So if I switch on the"
+  },
+  {
+    "segment_id": "tr-00015",
+    "start_seconds": 192.84,
+    "end_seconds": 205.26,
+    "text": "light we all start working and recording the podcast But if I switch off the light then we all go to sleep And this is basically how optogenetics work And in the lab researchers use this technique to dial"
+  },
+  {
+    "segment_id": "tr-00016",
+    "start_seconds": 205.26,
+    "end_seconds": 217.32,
+    "text": "the activity of neurons up or down and study what happens in real time And it's been in use for about what 20 years or so now And it has made a big impact on the field of neuroscience Yes"
+  },
+  {
+    "segment_id": "tr-00017",
+    "start_seconds": 217.32,
+    "end_seconds": 229.54,
+    "text": "it has definitely revolutionised neuroscience especially basic science And there's been an explosion of papers using optogenetics over the past 20 years to study brain function"
+  },
+  {
+    "segment_id": "tr-00018",
+    "start_seconds": 229.54,
+    "end_seconds": 241.98,
+    "text": "and brain circuits in conditions like schizophrenia autism Parkinson's disease and depression So we have to talk about the winners of the prize right And I think the story starts with two of them Peter"
+  },
+  {
+    "segment_id": "tr-00019",
+    "start_seconds": 241.98,
+    "end_seconds": 254.14,
+    "text": "Hegemann at Humboldt University of Berlin and Georg Nagel at the University of Würzburg also in Germany What was the starting point for this field So the starting point was a type of green algae"
+  },
+  {
+    "segment_id": "tr-00020",
+    "start_seconds": 254.14,
+    "end_seconds": 266.24,
+    "text": "in Hegemann's lab Hegemann was very curious to know how this single cell algae swims towards light And he and his colleagues identified two DNA sequences that encode"
+  },
+  {
+    "segment_id": "tr-00021",
+    "start_seconds": 266.24,
+    "end_seconds": 278.56,
+    "text": "a particular type of protein And this protein which is called channelrhodopsin is an ion channel And when blue light is shone upon it it creates an electrical signal Right And that's where the third winner"
+  },
+  {
+    "segment_id": "tr-00022",
+    "start_seconds": 278.56,
+    "end_seconds": 290.72,
+    "text": "comes on the scene then Karl Deisseroth from Stanford University in the US He took this protein and this light sensing protein and put it into neurons essentially Exactly So Deisseroth and his colleagues used"
+  },
+  {
+    "segment_id": "tr-00023",
+    "start_seconds": 290.72,
+    "end_seconds": 303.22,
+    "text": "this technique in rodents and they managed to control the activity of neurons in the brains of these animals And this is basically how optogenetics moved from algae into"
+  },
+  {
+    "segment_id": "tr-00024",
+    "start_seconds": 303.22,
+    "end_seconds": 315.36,
+    "text": "neuroscience labs all over the world And you've been reporting on this story all day The announcement was this morning You've spoken to scientists around the world What have they told you about this win Many people thought that this was a long"
+  },
+  {
+    "segment_id": "tr-00025",
+    "start_seconds": 315.36,
+    "end_seconds": 327.66,
+    "text": "time coming including myself So yesterday I was talking to a friend over WhatsApp and I envisioned this happening And I thought to myself what if optogenetics wins this year We"
+  },
+  {
+    "segment_id": "tr-00026",
+    "start_seconds": 327.66,
+    "end_seconds": 340.14,
+    "text": "say this every year and it doesn't happen But it happened Well Miriam could I have the lottery numbers for this week as well That'd be very very helpful Miriam Nadaf thank you so much for being here Thank you Ben It's"
+  },
+  {
+    "segment_id": "tr-00027",
+    "start_seconds": 340.14,
+    "end_seconds": 352.22,
+    "text": "Tuesday and that's the day that the physics prize is awarded And joining me to talk about it is Lizzie Gibney Lizzie hi Hello Ben So right now then we are surrounded by ghosts They're coming through the walls They're coming through"
+  },
+  {
+    "segment_id": "tr-00028",
+    "start_seconds": 352.22,
+    "end_seconds": 364.42,
+    "text": "us billions upon billions of them But we can't see them And these specters which are subatomic particles called neutrinos are central to this year's Nobel win That's right Neutrinos are millions of"
+  },
+  {
+    "segment_id": "tr-00029",
+    "start_seconds": 364.42,
+    "end_seconds": 376.46,
+    "text": "times lighter than an electron They interact almost never But when they do they can tell us something really incredible because the fact that they don't interact means they're a direct source They go straight back to where they came from And in this case we're looking at"
+  },
+  {
+    "segment_id": "tr-00030",
+    "start_seconds": 376.46,
+    "end_seconds": 388.5,
+    "text": "cosmic neutrinos neutrinos created outside our solar system That means that we can figure out what's going on in supermassive black holes or blazars or other kinds of supernovae incredible things that"
+  },
+  {
+    "segment_id": "tr-00031",
+    "start_seconds": 388.5,
+    "end_seconds": 400.56,
+    "text": "are happening out there in the universe So they don't really do a huge amount then And yet they can be used as an arrow to point towards these apocalyptically huge cosmic events That's right So as you said"
+  },
+  {
+    "segment_id": "tr-00032",
+    "start_seconds": 400.64,
+    "end_seconds": 412.68,
+    "text": "there are billions passing through us every second But very very rarely these are the high energy neutrinos that come from deep space And even more rarely do we actually detect them So to detect them you need to have this very"
+  },
+  {
+    "segment_id": "tr-00033",
+    "start_seconds": 413.0,
+    "end_seconds": 425.0,
+    "text": "very rare chance that they hit into an atom and you get the flashes of light that are created And detecting these neutrinos then is very central to this year's prize And the winner is physicist Francis Halzen And"
+  },
+  {
+    "segment_id": "tr-00034",
+    "start_seconds": 425.0,
+    "end_seconds": 437.14,
+    "text": "his win is related to this IceCube Neutrino Observatory Now this is a telescope of sorts I suppose but not in the way that you might imagine one with a sort of a tube with a glass lens on it It"
+  },
+  {
+    "segment_id": "tr-00035",
+    "start_seconds": 437.14,
+    "end_seconds": 449.2,
+    "text": "doesn't look like your average telescope And that's because it's not trying to bring in light It's not detecting photons What you need to find something very very rare is a very very large volume He had the amazing idea"
+  },
+  {
+    "segment_id": "tr-00036",
+    "start_seconds": 449.2,
+    "end_seconds": 461.26,
+    "text": "to use a huge hunk of ice in Antarctica It's a cubic kilometre of ice one and a half kilometres down And within that space when you have these very very rare events when a neutrino actually"
+  },
+  {
+    "segment_id": "tr-00037",
+    "start_seconds": 461.26,
+    "end_seconds": 473.26,
+    "text": "does interact with something you can then actually detect it So he had this idea back in the 80s and then kind of pitched it in the 90s And nobody really knew if it actually was possible If you would"
+  },
+  {
+    "segment_id": "tr-00038",
+    "start_seconds": 473.26,
+    "end_seconds": 485.34,
+    "text": "get enough interactions if you'd be able to capture this very very rare event when a neutrino actually did hit an atom he sounds like he really was a kind of a force of nature in bringing this about and pushing it forward And he's been called the father of"
+  },
+  {
+    "segment_id": "tr-00039",
+    "start_seconds": 485.34,
+    "end_seconds": 497.36,
+    "text": "this field which is now neutrino astronomy or even multi messenger astronomy So a worthy winner then according to the community would you say Absolutely We've been talking to people today and everybody seems to be absolutely thrilled that he's won And he really"
+  },
+  {
+    "segment_id": "tr-00040",
+    "start_seconds": 497.36,
+    "end_seconds": 510.18,
+    "text": "is beyond doubt like the driving force of this whole field And when this announcement was made I have to say that you and our colleague Davide Castelvecchi both sort of punched the air and went neutrinos right let's go I love neutrinos Neutrinos"
+  },
+  {
+    "segment_id": "tr-00041",
+    "start_seconds": 510.3,
+    "end_seconds": 522.56,
+    "text": "they were discovered later than some of the other particles people might be more familiar with you know the proton and the neutron electron And because of these very strange properties that they have that they're just so light and they interact so rarely we often call them ghostly because"
+  },
+  {
+    "segment_id": "tr-00042",
+    "start_seconds": 522.56,
+    "end_seconds": 534.7,
+    "text": "of these properties But it also just makes them really interesting And because they are so relatively undiscovered they probably are going to be key to some really important discoveries in the future There's a lot more that physicists have"
+  },
+  {
+    "segment_id": "tr-00043",
+    "start_seconds": 534.7,
+    "end_seconds": 546.78,
+    "text": "to learn about neutrinos And so it's just a whole new area that's opening up and one that excites me every time I get to write about neutrinos And so Davide and I have been kind of like fighting to write the story today because we both love a good neutrino story"
+  },
+  {
+    "segment_id": "tr-00044",
+    "start_seconds": 549.12,
+    "end_seconds": 561.52,
+    "text": "It's Wednesday lunchtime just a few hours before the podcast goes live We're going to talk about today's Chemistry Nobel And joining me to do so for what is what the seventh eighth year in a row I'm not even sure It's Flora Graham Flora hi Hi"
+  },
+  {
+    "segment_id": "tr-00045",
+    "start_seconds": 561.6,
+    "end_seconds": 573.88,
+    "text": "thanks for having me So much like your well your hands molecules can be left or right handed And that's the subject of today's Chemistry Prize We're talking about things that are mirror images of"
+  },
+  {
+    "segment_id": "tr-00046",
+    "start_seconds": 573.88,
+    "end_seconds": 586.06,
+    "text": "each other molecules that are mirror images of each other Almost every molecule of life is actually only one version of the possible two mirror image molecules out there Right because amino"
+  },
+  {
+    "segment_id": "tr-00047",
+    "start_seconds": 586.06,
+    "end_seconds": 598.1,
+    "text": "acids the building blocks of proteins can be left or right handed But yet life has gone for the left handed version Right And it's been a big mystery I would say Not only why this has happened this way but how"
+  },
+  {
+    "segment_id": "tr-00048",
+    "start_seconds": 598.42,
+    "end_seconds": 610.6,
+    "text": "When all the chemistry that we do in the lab ends up with pretty much fairly equal amounts of one and the other how did natural processes somehow create this massive asymmetry in one direction"
+  },
+  {
+    "segment_id": "tr-00049",
+    "start_seconds": 610.7,
+    "end_seconds": 622.78,
+    "text": "Right And that brings us to today's winners then Henri Cagan from the University of Paris Sud in France and Kenzo Soei from Tokyo University in Japan That's right They came up with processes that"
+  },
+  {
+    "segment_id": "tr-00050",
+    "start_seconds": 622.78,
+    "end_seconds": 634.98,
+    "text": "were kind of the missing piece in this explanation of how a spontaneous chemical system could end up with this one handed nature So there's actually been a couple Chemistry Nobels"
+  },
+  {
+    "segment_id": "tr-00051",
+    "start_seconds": 634.98,
+    "end_seconds": 647.06,
+    "text": "linked to this topic in the past So you might be thinking why is this new Well these are kind of the last piece of the puzzle Right And so their discoveries essentially changed the game then in terms of making these handed molecules What did they actually do So what Cagan did"
+  },
+  {
+    "segment_id": "tr-00052",
+    "start_seconds": 647.06,
+    "end_seconds": 659.08,
+    "text": "is he figured out how by using a catalyst you could end up with more of a certain handed molecule more than we thought was possible And then Soei came up with a reaction that has his name on it now"
+  },
+  {
+    "segment_id": "tr-00053",
+    "start_seconds": 659.08,
+    "end_seconds": 671.42,
+    "text": "And what he did is he figured out how to make that reaction self sustaining So you add some catalysts and a big bucket of stuff and that continuously creates more and more and more of"
+  },
+  {
+    "segment_id": "tr-00054",
+    "start_seconds": 671.42,
+    "end_seconds": 683.56,
+    "text": "one version until you end up with basically a big bucket that's almost purely this one kind And of course this is super useful for things like the pharmaceutical industry because a molecule can have say two different hands But"
+  },
+  {
+    "segment_id": "tr-00055",
+    "start_seconds": 683.56,
+    "end_seconds": 695.56,
+    "text": "when it comes to drugs one can be very useful and have one effect but the other has a different effect for example I think the example that the Nobel Committee gave which is if you're a locksmith and you're making keys for a lock and every time you make a key you get"
+  },
+  {
+    "segment_id": "tr-00056",
+    "start_seconds": 695.56,
+    "end_seconds": 707.56,
+    "text": "a mirror image version and you don't know which one works but one breaks the lock it's pretty important that you figure out how to determine that you get only the correct key when you need it And during the announcement then they actually got"
+  },
+  {
+    "segment_id": "tr-00057",
+    "start_seconds": 707.56,
+    "end_seconds": 719.56,
+    "text": "hold of Kenzo Soei and he was out shopping when he heard the news and he was obviously delighted I mean it's funny to hear who thinks that they might you know take a break to the shops and not really worry about getting the call from Sweden And I"
+  },
+  {
+    "segment_id": "tr-00058",
+    "start_seconds": 719.56,
+    "end_seconds": 731.78,
+    "text": "have heard actually that a few people do keep a bottle of champagne on ice So you know good luck to those people for next year But of course you've been on the podcast for many many years with me Flora and it seems like we have this conversation again and again All today's winners and in fact all the"
+  },
+  {
+    "segment_id": "tr-00059",
+    "start_seconds": 731.78,
+    "end_seconds": 743.96,
+    "text": "winners for the past three days have all been men It's a trend that a lot of people had hoped would not continue In this case there have been many mentions of a scientist called Donna Blackmon who did some very very pivotal work in this field who"
+  },
+  {
+    "segment_id": "tr-00060",
+    "start_seconds": 743.96,
+    "end_seconds": 756.16,
+    "text": "is very well respected and might have been according to observers equally worthy of one of the spots But that's not said with any disrespect for the people who did win And let me just add that the very first thing that most"
+  },
+  {
+    "segment_id": "tr-00061",
+    "start_seconds": 756.34,
+    "end_seconds": 768.56,
+    "text": "if not all of the winners emphasise I think especially with the physics prizes here is that this is a huge huge group enterprise And really you know we always talk about how picking out individuals is a bit of an impossible"
+  },
+  {
+    "segment_id": "tr-00062",
+    "start_seconds": 768.56,
+    "end_seconds": 780.66,
+    "text": "mission And I would say in all my years covering the Nobels there's been never to my recollection a case where the winner did not immediately start talking about the you know essential input of"
+  },
+  {
+    "segment_id": "tr-00063",
+    "start_seconds": 780.66,
+    "end_seconds": 792.86,
+    "text": "other people in the field So it's never far from winners minds from everyone's minds Well Flora looking forward to speaking to you next year Flora Graham thank you for being here Thank you very much Flora Graham there Also talking with"
+  },
+  {
+    "segment_id": "tr-00064",
+    "start_seconds": 792.86,
+    "end_seconds": 805.26,
+    "text": "me was Lizzie Gibney and Miriam Nadaf To read all of Nature's Nobel coverage look for links in the show notes Coming up how humans may have once shared a similar gut microbiome Right"
+  },
+  {
+    "segment_id": "tr-00065",
+    "start_seconds": 805.26,
+    "end_seconds": 817.62,
+    "text": "now though it's time for Research Highlights with Dan Fox Watching sports on YouTube doesn't necessarily inspire people to engage in physical activity"
+  },
+  {
+    "segment_id": "tr-00066",
+    "start_seconds": 817.62,
+    "end_seconds": 829.78,
+    "text": "in real life according to new research Scientists surveyed more than 300 university students in their 20s who consume sports content on YouTube including live game coverage"
+  },
+  {
+    "segment_id": "tr-00067",
+    "start_seconds": 830.38,
+    "end_seconds": 842.82,
+    "text": "videos on exercise and sports variety programs But while the students watch these videos for a variety of reasons the research has found no significant difference between the two between motivation to watch sports content and how much the"
+  },
+  {
+    "segment_id": "tr-00068",
+    "start_seconds": 842.82,
+    "end_seconds": 855.06,
+    "text": "respondents actually participated in exercise The researchers also studied attitudes towards YouTube sports videos and found that the more motivated the students were to consume the content the more positively they perceived the technology"
+  },
+  {
+    "segment_id": "tr-00069",
+    "start_seconds": 855.56,
+    "end_seconds": 867.92,
+    "text": "rating it as useful and easy to use This positive attitude however did not translate into more physical activity but merely into a stronger intention to continue watching the programs Run over to Performance"
+  },
+  {
+    "segment_id": "tr-00070",
+    "start_seconds": 867.92,
+    "end_seconds": 880.06,
+    "text": "Enhancement and Health to read more Researchers have found evidence that the supermassive black holes at the centre of most galaxies help to regulate the pace of"
+  },
+  {
+    "segment_id": "tr-00071",
+    "start_seconds": 880.06,
+    "end_seconds": 892.62,
+    "text": "star formation in their host systems A team studied 324 galaxies each with a central black hole that is going through a growth spurt heating the gas in its immediate vicinity This"
+  },
+  {
+    "segment_id": "tr-00072",
+    "start_seconds": 892.62,
+    "end_seconds": 904.7,
+    "text": "process can also cause black holes to spew jets of plasma out of the galaxy in opposite directions Such jets are thought to heat up gas in the halo that surround galaxies a mixture"
+  },
+  {
+    "segment_id": "tr-00073",
+    "start_seconds": 904.7,
+    "end_seconds": 917.04,
+    "text": "that might otherwise have cooled and fallen towards the galaxy helping to form new stars It is also proposed that the jets partially ionise hydrogen in the halo To confirm this the team analysed"
+  },
+  {
+    "segment_id": "tr-00074",
+    "start_seconds": 917.04,
+    "end_seconds": 929.24,
+    "text": "the spectrum of light from different regions of the galactic halos In the regions crossed by a black hole's jet the researchers observed the signature of ionised hydrogen By contrast other regions did"
+  },
+  {
+    "segment_id": "tr-00075",
+    "start_seconds": 929.24,
+    "end_seconds": 952.04,
+    "text": "not have that signature confirming that the jets had the expected effect on the gas in the galaxy's halo Read that research in full in Astrophysical Journal Letters Now"
+  },
+  {
+    "segment_id": "tr-00076",
+    "start_seconds": 952.04,
+    "end_seconds": 964.54,
+    "text": "if you're familiar at all with the gut microbiome the collection of microorganisms that inhabit our guts you'll know that it's associated with various health conditions There's evidence that the presence or"
+  },
+  {
+    "segment_id": "tr-00077",
+    "start_seconds": 964.54,
+    "end_seconds": 976.76,
+    "text": "absence of certain bacteria can contribute to inflammatory bowel diseases diabetes and even some cancers So there's an idea that changing or improving our microbiomes could treat"
+  },
+  {
+    "segment_id": "tr-00078",
+    "start_seconds": 976.76,
+    "end_seconds": 988.78,
+    "text": "or prevent some of these conditions and improve our health But what does a healthier microbiome actually look like A major part of the gut microbiome field has been interested in"
+  },
+  {
+    "segment_id": "tr-00079",
+    "start_seconds": 988.78,
+    "end_seconds": 1000.86,
+    "text": "kind of this holy grail question of what is a healthy gut microbiome This is Justin Sonnenberg a microbiologist and one of the authors of a new paper in Nature that's been looking back in time to"
+  },
+  {
+    "segment_id": "tr-00080",
+    "start_seconds": 1000.86,
+    "end_seconds": 1012.9,
+    "text": "try and answer that question Because there's been quite a bit of evidence that historically human gut microbiomes were more diverse than they are now and that the less diverse microbiomes"
+  },
+  {
+    "segment_id": "tr-00081",
+    "start_seconds": 1012.9,
+    "end_seconds": 1025.04,
+    "text": "now present in most of us in the industrialized world could be having negative effects on our health For instance some research suggests that humans living in less industrialized"
+  },
+  {
+    "segment_id": "tr-00082",
+    "start_seconds": 1025.04,
+    "end_seconds": 1037.18,
+    "text": "societies today have lower instances of inflammatory bowel diseases And that really led to this question of is there something more fundamental going on here Are these microbes that are associated"
+  },
+  {
+    "segment_id": "tr-00083",
+    "start_seconds": 1037.18,
+    "end_seconds": 1049.6,
+    "text": "with populations living non industrialized lifestyles are those microbes really part of our ancient history microbes that perhaps we transmitted across generations over a long period of time Many"
+  },
+  {
+    "segment_id": "tr-00084",
+    "start_seconds": 1049.6,
+    "end_seconds": 1061.74,
+    "text": "researchers have been interested in studying the microbiomes of non industrialized populations hunter gatherer groups or others who don't live with easy access to healthcare antibiotics and other"
+  },
+  {
+    "segment_id": "tr-00085",
+    "start_seconds": 1061.74,
+    "end_seconds": 1074.22,
+    "text": "comforts that most of the world now enjoys But Justin is specifically interested in whether their microbiomes are closer to what could have been thought of as our ancestral state and"
+  },
+  {
+    "segment_id": "tr-00086",
+    "start_seconds": 1074.22,
+    "end_seconds": 1086.76,
+    "text": "whether he could trace the specific microorganisms they carry backwards in time to figure out what species might have been present in ancient humans This was a big challenge Testing that was a little bit"
+  },
+  {
+    "segment_id": "tr-00087",
+    "start_seconds": 1086.76,
+    "end_seconds": 1099.28,
+    "text": "tricky because of the unique ways that microbes evolve They unlike human genomes they can get transmitted between us This is Ben Good another one of the authors of the new paper The thing is microorganisms"
+  },
+  {
+    "segment_id": "tr-00088",
+    "start_seconds": 1099.28,
+    "end_seconds": 1111.84,
+    "text": "love swapping genes between each other While in humans you can look at our genomes over time and get a sense of how things were changing in microorganisms they do a lot of horizontal"
+  },
+  {
+    "segment_id": "tr-00089",
+    "start_seconds": 1111.84,
+    "end_seconds": 1123.9,
+    "text": "gene transfer meaning that it's hard to trace their history If the genes keep moving then it's tricky to keep track of what mutations have been accumulated and where Undeterred Ben"
+  },
+  {
+    "segment_id": "tr-00090",
+    "start_seconds": 1123.9,
+    "end_seconds": 1136.18,
+    "text": "and Justin teamed up for a new Nature paper where they think they've managed to overcome this issue Their idea was to find two non industrialized populations that are very isolated from one another That way there's less chance"
+  },
+  {
+    "segment_id": "tr-00091",
+    "start_seconds": 1136.18,
+    "end_seconds": 1148.98,
+    "text": "of their microorganisms having exchanged genes And the idea was maybe in these two populations which are sort of the furthest apart this is the Chimani in Bolivia and the Hadza in Tanzania that their ancestors actually were"
+  },
+  {
+    "segment_id": "tr-00092",
+    "start_seconds": 1148.98,
+    "end_seconds": 1161.06,
+    "text": "separated geographically 10 000 20 000 years ago And so this was maybe an idea that okay that geographic separation would maybe prevent a little bit of the transmission at least in ancient historical times And therefore we"
+  },
+  {
+    "segment_id": "tr-00093",
+    "start_seconds": 1161.06,
+    "end_seconds": 1173.38,
+    "text": "should be able to distinguish these hypotheses by going in and looking at the not just which species were there but the statistics of the mutations in their genomes Throughout most of time these two groups were continents apart But despite"
+  },
+  {
+    "segment_id": "tr-00094",
+    "start_seconds": 1173.38,
+    "end_seconds": 1186.16,
+    "text": "this geographical separation the Chimani and the Hadza had a lot of similarities Here's Justin again I think the stunning finding initially was how similar their gut microbiomes actually"
+  },
+  {
+    "segment_id": "tr-00095",
+    "start_seconds": 1186.16,
+    "end_seconds": 1199.08,
+    "text": "are based on the species that are present So we identified about 1400 different bacterial species in the Chimani microbiomes collectively and out"
+  },
+  {
+    "segment_id": "tr-00096",
+    "start_seconds": 1199.08,
+    "end_seconds": 1211.1,
+    "text": "of those 1400 species 1200 of those are shared with the Hadza in Tanzania So just a huge amount of overlap in species composition between these"
+  },
+  {
+    "segment_id": "tr-00097",
+    "start_seconds": 1211.1,
+    "end_seconds": 1223.46,
+    "text": "two populations A share of common species despite the separation could imply that those microorganisms have a long history with humans Despite the tens of thousands of years without any"
+  },
+  {
+    "segment_id": "tr-00098",
+    "start_seconds": 1223.46,
+    "end_seconds": 1235.64,
+    "text": "historical contact those organisms persisted and more than two thirds of these shared species are rare or absent in industrialized populations which may also suggest that"
+  },
+  {
+    "segment_id": "tr-00099",
+    "start_seconds": 1235.64,
+    "end_seconds": 1248.2,
+    "text": "we've lost some of the microorganisms we evolved with But Justin and Ben were curious about the history of these microbiomes They wanted to see how the genetic changes in these microorganisms lined"
+  },
+  {
+    "segment_id": "tr-00100",
+    "start_seconds": 1248.2,
+    "end_seconds": 1260.34,
+    "text": "up with when humans dispersed around the globe This would be more telling evidence that these microbes have persisted over time They found that there was little transfer of species between the Chimani and"
+  },
+  {
+    "segment_id": "tr-00101",
+    "start_seconds": 1260.34,
+    "end_seconds": 1272.78,
+    "text": "the Hadza in the last few thousand years and they appear to have become genetically isolated around 44 000 years ago That roughly lines up with when humans are thought to have dispersed out of"
+  },
+  {
+    "segment_id": "tr-00102",
+    "start_seconds": 1272.78,
+    "end_seconds": 1285.06,
+    "text": "Africa suggesting that these species of microbes are similar to those that ancient humans would have had I was generally impressed by the analysis I did This is Karina Schliebusch a population"
+  },
+  {
+    "segment_id": "tr-00103",
+    "start_seconds": 1285.06,
+    "end_seconds": 1297.48,
+    "text": "geneticist who's been writing a News Views article about this new work She too was struck by the finding that the Chimani and the Hadza had so much in common and she wonders if looking deeper at our connections to microbiomes"
+  },
+  {
+    "segment_id": "tr-00104",
+    "start_seconds": 1297.48,
+    "end_seconds": 1309.5,
+    "text": "of the past could tell us more about human migrations themselves I think of these other microbes now identified in the Hadza and the Chimani populations all of those"
+  },
+  {
+    "segment_id": "tr-00105",
+    "start_seconds": 1309.5,
+    "end_seconds": 1321.56,
+    "text": "then could be studied separately to see if their inheritance history or their history and their relatedness to each other reflects also the different relatedness between human"
+  },
+  {
+    "segment_id": "tr-00106",
+    "start_seconds": 1321.56,
+    "end_seconds": 1333.64,
+    "text": "populations So I think it could be very nice to study past migrations and also contact between different people because contact in humans we measure this by admixture by two populations mixing with"
+  },
+  {
+    "segment_id": "tr-00107",
+    "start_seconds": 1333.64,
+    "end_seconds": 1345.9,
+    "text": "each other but then we can probably also use microorganisms as some evidence for contact between different populations Justin and Ben were a bit cautious about using microorganisms"
+  },
+  {
+    "segment_id": "tr-00108",
+    "start_seconds": 1345.9,
+    "end_seconds": 1358.0,
+    "text": "to infer information about human migrations as the problems of horizontal gene transfer do so complicate things But they think there were some things that could be learnt such as how different communities"
+  },
+  {
+    "segment_id": "tr-00109",
+    "start_seconds": 1358.0,
+    "end_seconds": 1370.08,
+    "text": "may have interacted Changes in their diet for instance may leave a telltale trace on their microbiomes Corina would like to see more work with non industrialised groups to see how persistent"
+  },
+  {
+    "segment_id": "tr-00110",
+    "start_seconds": 1370.08,
+    "end_seconds": 1382.46,
+    "text": "these microbes really are So I think it's important for the few indigenous hunter gatherer groups that remain to try to contact them try to set up a collaboration between"
+  },
+  {
+    "segment_id": "tr-00111",
+    "start_seconds": 1382.46,
+    "end_seconds": 1394.6,
+    "text": "the people themselves and the researchers and try to sequence microbiomes so that we can see if this pattern that is between the Tsimane and the Hatsa is repeated If we also see it in other hunter gatherer"
+  },
+  {
+    "segment_id": "tr-00112",
+    "start_seconds": 1395.34,
+    "end_seconds": 1407.92,
+    "text": "communities then of course people are getting more and more industrialised and more westernised by the day so a lot of this will also disappear in the next few decades But what does this all mean for that holy"
+  },
+  {
+    "segment_id": "tr-00113",
+    "start_seconds": 1407.92,
+    "end_seconds": 1420.0,
+    "text": "grail question What is a healthy gut microbiome The answer is complicated it kind of depends on how you define healthy But the study suggests that there was a more"
+  },
+  {
+    "segment_id": "tr-00114",
+    "start_seconds": 1420.0,
+    "end_seconds": 1432.08,
+    "text": "diverse gut microbiome in the past one that persists in non industrialised populations And for Justin that's something to pay attention to I think it does raise some"
+  },
+  {
+    "segment_id": "tr-00115",
+    "start_seconds": 1432.08,
+    "end_seconds": 1444.56,
+    "text": "alarm bells now in terms of what industrialisation and loss of these species may mean to our biology now And it's important to note that out of the approximately"
+  },
+  {
+    "segment_id": "tr-00116",
+    "start_seconds": 1444.56,
+    "end_seconds": 1457.18,
+    "text": "1 200 species that were shared between the Hatsa and Tsimane the vast majority of these 60 of these are either rare or completely missing in industrialised populations So"
+  },
+  {
+    "segment_id": "tr-00117",
+    "start_seconds": 1457.18,
+    "end_seconds": 1469.62,
+    "text": "there's been this sort of mass extinction of microbes that were part of our evolutionary history as humans and the question now is what does that mean for our biology That was Justin"
+  },
+  {
+    "segment_id": "tr-00118",
+    "start_seconds": 1469.62,
+    "end_seconds": 1481.7,
+    "text": "Sonnenberg from Stanford University in the US You also heard from Ben Goode also from Stanford University and Corina Schlebusch from Uppsala University in Sweden For more on that story check out"
+  },
+  {
+    "segment_id": "tr-00119",
+    "start_seconds": 1481.7,
+    "end_seconds": 1494.32,
+    "text": "the show notes for some links And that's all for this time If you'd like to stay in touch with us you can We're on email podcastatnature com or you can find us on social media at Nature Podcast I'm"
+  },
+  {
+    "segment_id": "tr-00120",
+    "start_seconds": 1494.32,
+    "end_seconds": 1506.68,
+    "text": "Benjamin Thompson And I'm Nick Patritchell Thanks for"
+  },
+  {
+    "segment_id": "tr-00121",
+    "start_seconds": 1506.68,
+    "end_seconds": 1518.82,
+    "text": "listening Because when"
+  },
+  {
+    "segment_id": "tr-00122",
+    "start_seconds": 1518.82,
+    "end_seconds": 1531.0,
+    "text": "you move your money to Citizens you can earn a significant cash bonus Just how much Check out citizensbank com slash make more or head to your nearest branch to find out But move quickly This offer is only available"
+  },
+  {
+    "segment_id": "tr-00123",
+    "start_seconds": 1531.0,
+    "end_seconds": 1537.24,
+    "text": "for a limited time Offer available on select new accounts Qualifying balance deposit activity requirements and additional terms and conditions apply Member FDIC"
+  }
+]

@@ -1,0 +1,51 @@
+{
+  "scope": "24 source slides and three final MP4 exports",
+  "source_slide_overflow_count": 0,
+  "font_families": [
+    "Arial, Helvetica, sans-serif"
+  ],
+  "font_sizes_px": [
+    "14.6667px",
+    "24px",
+    "37.3333px"
+  ],
+  "font_sizes_pt": [
+    11,
+    18,
+    28
+  ],
+  "circular_arrow_containers": 0,
+  "audience_facing_claim_ids": 0,
+  "videos": [
+    {
+      "piece_id": "01",
+      "duration_seconds": 216.224218,
+      "resolution": "1920x1080",
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "audio_channels": 2,
+      "subtitle_codec": "mov_text",
+      "silence_intervals_over_2_seconds": 0
+    },
+    {
+      "piece_id": "02",
+      "duration_seconds": 212.555465,
+      "resolution": "1920x1080",
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "audio_channels": 2,
+      "subtitle_codec": "mov_text",
+      "silence_intervals_over_2_seconds": 0
+    },
+    {
+      "piece_id": "03",
+      "duration_seconds": 227.253696,
+      "resolution": "1920x1080",
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "audio_channels": 2,
+      "subtitle_codec": "mov_text",
+      "silence_intervals_over_2_seconds": 0
+    }
+  ]
+}

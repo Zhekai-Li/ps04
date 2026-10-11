@@ -1,0 +1,24 @@
+{
+  "stage": "extract_content",
+  "status": "incomplete",
+  "input_count": 50,
+  "output_count": 48,
+  "started_at": "2026-10-09T17:40:34Z",
+  "finished_at": "2026-10-09T17:44:39Z",
+  "elapsed_seconds": 245.0,
+  "tools": [
+    "ffmpeg",
+    "requests",
+    "trafilatura"
+  ],
+  "models": [
+    "whisper-1"
+  ],
+  "usage": null,
+  "cost_usd": null,
+  "cost_estimated": false,
+  "errors": [
+    "podcast:substack:post:219146438: media exceeds transcription limit after compression; split it manually",
+    "podcast:substack:post:218414422: media exceeds transcription limit after compression; split it manually"
+  ]
+}

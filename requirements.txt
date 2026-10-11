@@ -1,4 +1,5 @@
 openai==3.27.0
+mlx-whisper==0.4.3
 pydantic==2.14.0
 feedparser==6.0.14
 trafilatura==2.3.1

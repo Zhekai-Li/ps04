@@ -1,4 +1,4 @@
-# Scholar in the Loop editorial policy — version 1
+# Scholar in the Loop editorial policy — version 3
 
 ## Purpose and audience
 
@@ -16,10 +16,11 @@ Select recent evidence that helps AI and operations-research PhD students decide
 8. **Uncertainty and disagreement.** State what is measured, what is claimed, what is inferred, and what remains unknown. Explain plausible reasons for conflict; do not manufacture balance.
 9. **Original synthesis.** Accept material only when it can support or challenge a cross-source argument. A list of summaries is not an editorial contribution.
 10. **Exclusions.** Exclude undergraduate cheating, generic workplace productivity, automated paper generation, fabricated citations, and unsupervised acceptance of AI conclusions.
+11. **Perspective evidence.** Accept directly relevant personal experience or stakeholder testimony when it contains a specific qualitative perspective that can contribute to cross-source synthesis, provided the source and relevant incentives are disclosed. An unsupported quantitative or promotional claim in the same item is not, by itself, grounds to discard an otherwise usable qualitative perspective. Explicitly exclude the unsupported claim from evidentiary use, label the accepted material as testimony or perspective, and assign it only to pieces where that perspective is useful. Without independent corroboration, do not use testimony to support quantitative performance, prevalence, or causal claims. Briefs and final pieces must preserve these limits rather than converting testimony into a measured result. Reject testimony that is irrelevant, too vague for synthesis, or offers no usable content beyond its unsupported claim.
 
 ## Decision meanings
 
-- `accept`: sufficiently relevant and supportable for one or more specified pieces.
+- `accept`: sufficiently relevant and supportable for one or more specified pieces, including clearly bounded perspective evidence under rule 11.
 - `reject`: irrelevant, duplicative without new evidence, promotional without usable support, or within an explicit exclusion.
 - `defer`: potentially relevant but inaccessible, ambiguous, inadequately supported, or better evaluated after corroboration.
 

@@ -1,0 +1,1245 @@
+Hello and welcome to today's uh very
+special ACM tech talk. This webcast is
+part of ACM's commitment to lifelong
+learning and professional development,
+serving a global membership of computing
+professionals and students. I'm
+Yantanowski, ACM education and
+professional development manager.
+For those of you who may be unfamiliar
+with ACM or what it has to offer, here's
+a little bit of information. ACM offers
+educational and professional development
+resources that bolster skills and
+enhance career opportunities. You can
+see some of the highlights on your
+screen. ACM provides access to the ACM
+digital library, which is now fully open
+access. very exciting as of this year.
+The world's first comprehensive database
+of computing literature, leading
+publications and global conferences that
+draw top experts on a broad spectrum of
+computing topics, support for education
+and research including curriculum
+development, teacher training, the ACM
+touring and ACM prize in computing
+awards, and of course the ACM code of
+ethics, a collection of principles and
+guidelines designed to help computing
+professionals make ethically responsible
+decisions in professional practice.
+So before we get started uh just uh
+before we get started just a few uh
+housekeeping items I'd like to quickly
+mention. This is an AMA style talk. So
+ask me anything for those of you who
+haven't attended one like this before.
+It'll be driven entirely by your
+questions. Uh so please type your
+questions in at any time using Zoom's
+Q&A button, not through the chat. uh
+we'll organize the questions and try to
+get to as many of them as possible. The
+session is being recorded and will be
+archived. You'll receive an email
+notifications when it becomes available.
+And you can always check
+learning.acm.org
+for updates on this and other upcoming
+webcasts. At the end of the
+presentation, you'll see a survey open
+up on your screen. Please take a moment
+to fill it out and help us improve
+future tech talks. it really does help
+and we always uh take your uh insights
+into uh into account in planning our
+future talks. So uh today's presentation
+is an AMA style talk with VC investor
+and machine learning engineer Aana
+Ultanu. Awana is the founder of Motive
+Force, a preede and seed venture firm
+backing technical founders building
+beautiful software or software that
+makes people more capable. A former ML
+engineer, she invests from AI
+infrastructure to applications.
+She decks ear founders early before
+there's an obvious category or playbook
+and works with them until what they see
+is obvious to everyone else. Some of her
+investments include poolside, maintain
+X, Hyper, Param, Paperclip, and Sophie.
+Maintain X. Her first angel investment
+was actually acquired by Autodesk in
+just just this year for 3.6 6 billion.
+Aana was named to Business Insiders 2026
+seed 40 of learning of leading early
+stage investors. She writes motive notes
+about software AI and ideas that often
+look strange before their importance
+becomes obvious, including the recent
+essay against usefulness. Check it out
+if you haven't yet on interfaces,
+computing, and what we haven't invented
+yet. Aana is also a member of the ACM
+professional development committee.
+Anana, without further ado, take it
+away.
+>> Thank you, Ann. I'm super excited to be
+here. Hello everyone. Um Ian did a great
+job with ma giving an intro. So maybe I
+will um since this is an ask me anything
+session and it's made for you to be
+useful, I will give an overview of what
+kind of categories of questions um I
+could answer to and then perhaps a brief
+overview of different insights that I'm
+seeing from boots on the ground speaking
+with engineers with customers um and
+with founders
+in case that is something that you're
+also maybe working on um because I
+believe the main topic for today of the
+ask me anything is we have this new wave
+of technology
+and a lot of really smart people are now
+rebuilding from first principles around
+the new primitives and there is a lot of
+opportunity for us as users but also as
+builders
+and uh for um in terms of types of
+questions um basically
+I was an engineer for about seven years
+and then for about seven years as an
+institutional investor invested from
+preede up to series B. So if there are
+any questions around fundraising
+um starting a company anything related
+to that I'm happy to answer. uh on the
+machine learning part and the software
+and the investing part. when I was doing
+my bachelor thesis on echo state neural
+networks um there was math lab so not a
+lot of the tools that you all have today
+um but I've seen this um evolution from
+math lab till the present moment
+and in terms of what I invest in as um
+Ian mentioned
+I go in the stack and above the stack
+and what's important important for me or
+the earliest that I come in, it can be
+that the technology is maybe appreciated
+by a few other innovators, but maybe you
+don't have um customers yet. Um and so
+it can be as early as you just have an
+idea. Um
+with Sophie for example, Chris Dobbins,
+she's amazing um former Hashi Corp. she
+when I invested she had the idea an idea
+that she lived through in her previous
+companies um and so that's for example
+an early introduction
+um so yeah that's like fundraising
+anything related and then more specific
+on um the AI sector and software
+in terms of what I'm seeing uh for
+insights I will just give a brief
+overview I could spend a lot of time
+talking about these things because this
+is what passionates me as well. Um, but
+I'll give you like a flavor because I
+believe that the rhetoric online can be
+very different than the current reality.
+And also um the thesis or the areas that
+people talk about a lot um at least in
+the investment community can feel
+sometimes like a a mono kind of track.
+And perhaps if you are from academia or
+a student or from the industry, you can
+maybe get a bit disappointed by um
+by the guard [laughter] rails that that
+the list of requests for startups. So I
+don't think that way. I think workflow
+first from in the inside of the
+technology and well with that I will
+share a few um insights that I've seen
+in market.
+The first insight um is around semantic
+layers. You can call them different
+things. We've all seen it. Um especially
+if you're from the industry as knowledge
+graphs, you know, context layers. I will
+call it semantic layers. Um the insight
+here from what I saw is that no matter
+how good the models are, if you speak
+with customers, they actually um all
+realize that they need some sort of
+ontology or a record to say what exactly
+a specific word or category means in
+their context for their own business.
+And this information um it's not decided
+yet how to it's it's hard to maintain
+which we had this problem before in
+knowledge graphs. Um but for the machine
+learning models to work they actually
+need this information. So there are
+startups right now who are building kind
+of like a company brain for it. They are
+um startups who are going into like a
+super like narrow vertical.
+Um the most interesting startups I've
+seen are more in the open-source um
+ontology or semantic layer category and
+then you take it and hydrate it on your
+own data set. Um the challenge continues
+with the fact that um you still have to
+have a human to maintain it. So, whoever
+I think makes this um semantic layer
+updated and maintainable as an exhaust
+of an action, that's going to be
+something interesting. Um, that's one
+insight. The second insight I've been
+looking at is um admissibility.
+A lot of the customers and engineers you
+speak with here in the Bay Area and also
+like in the broader geography, they tell
+you that yes, there is cost to produce
+um the new agents or applications, but
+there is also sometimes an even bigger
+cost to um prove that this work that
+they've done is admissible based on
+company guidelines and everything. Just
+because the answer looks somewhat right,
+it doesn't mean it's correct. um at the
+ACM conference on um Kais for agents the
+first conference agent conference from
+ACM that was one of the most well
+attended sessions uh where they talked
+about a survey um of um people who
+develop agents and it turns out that
+even if the agent gives the correct
+answer they can violate the path that it
+gets to reach there. And so in the real
+world when it's no longer about demos
+and it's about customers and production,
+you actually have to prove that the work
+is actually correct even like before you
+test it with a bigger system. Um
+and this is a big problem um that I'm
+seeing in the stack and above the stack.
+For in the stack um even the big labs um
+they cannot necessarily um use the CI
+systems off the shelf or if you speak
+with the most advanced teams you learn
+that they stitch together things. And
+then above the stack if you look at
+specific verticals like accounting um
+you will realize that even there where
+it's more specific there is a lot of
+information that's like sitting around
+in people's inboxes and in mind that
+they've worked for 20 years um on
+something. So um this budget for is the
+work admittable of the AI it's becoming
+more and more important um and there are
+various companies they're building
+they're building for it um yes there are
+no slides um this is an ask me anything
+so I will maybe give one of the last
+insights I have more but since there are
+no slides um the other thing that's that
+shows up is um there are a lot of people
+who use agents but not a lot of them who
+are able to collaborate. there's these
+parallel streams um and then there are
+not people who come together and um are
+able to collaborate and that's something
+that even the most advanced AI engineers
+um suffer through because um there needs
+to be not only dev tools for developers
+but also for teams of agents and that's
+one other area where um I think there's
+a lot of room for improvement
+So those were three insights uh an
+overview of um what exactly I can cover
+in qu in terms of questions. So maybe
+now we open it up for questions. Um I
+will try and look at the Q&A.
+Um
+wow. Uh, I appreciate the questions.
+Um, from Masha, in early stages, would
+you recommend getting a customer to sign
+a contract first or immediately raising
+with an MVP? What's a proxy signal for a
+good idea in AI currently?
+Uh, I think there are two questions
+there. The first question is, can you
+recommend? So basically when should you
+raise or when is it like better to raise
+if you have a signed customer or if you
+have an MVP and then the second is
+what's a signal of a good idea. Um
+so basically in terms of when is it good
+to raise the answer varies. Uh what I'm
+seeing right now in the Bay Area where I
+currently live in San Francisco is that
+um if your team is amazing, you can
+raise even pre-MP.
+Amazing. What does amazing mean? The
+reality is the amazing can mean two
+things and there are two buckets of
+investors. The first and the biggest
+bucket is investors who are looking for
+obvious signal of amazing meaning are
+you the head of AI from I don't know
+entropic or pick your favorite company.
+So you have to have that star star
+background you the halo for those kinds
+of people it's really easy to raise pre
+anything and a modest valuation is
+considered like 50 million um pre
+anything for um
+people who maybe don't come from like
+that obviously kind of star background
+um
+you can still be amazing. But then you
+have to speak with investors who are
+more like me who look for your earned
+insight. The same way I earn my insight
+that I share with you three of them in
+the beginning. I look for those kinds of
+things. I look for um your thinking in
+building the the product. Um like Ian
+mentioned that I invest in beautiful
+software. That's not the marketing term.
+that's more about coherence all
+throughout in the stack from how it
+looks and the experience for the
+customer to how it's built underneath
+architecture to how easy it is to pay.
+So there is a smaller bucket of
+investors like that. Um but we
+definitely exist. Um
+and in terms of what is a good idea um
+to like for AI um for a good idea for AI
+I don't think so I'm like very against
+uh founders um building something for
+investors or according to what investors
+think is a good idea. I back people who
+build without permission for themselves
+who stand for something in this world
+and they want to see this be out there
+and nobody can stop them. Not a me who
+says oh that's not a good idea or anyone
+how no matter how like famous they are
+as an investor who says oh this is not a
+good idea. So what's a good idea for AI?
+If your answer, if your question truly
+is what's an idea that will get me to
+race quickly, well, you know, you can
+find it everywhere. There is this like
+group think list of requests for
+startups. Every blog of like, you know,
+has the same list in different words out
+there. So, you can go for that. People
+have this hot list of themes that they
+need to chase the junior investors.
+So if if that was the question, I would
+say that if you ask me truly what's in
+terms of you want to dedicate your next
+10 15 years of your life on it, it has
+to be something that you personally have
+a motivation on. And then in terms of
+how big it can get as an investor, I
+want to invest in companies that grow,
+right? Like not kind of lifestyle
+business. And so I'm looking for
+companies or products where if you take
+that product off the from the workflow,
+the workflow stops like they really have
+to provide enough information for a
+human to take a decision on it and that
+human has to depend on it. Uh I'm not
+interested into like the 20th company
+which does it a bit better but it can be
+easily replaced by somebody else. Um, so
+yeah, that's I hope that answers uh the
+question. And if it doesn't answer, by
+the way, I really am doing this to give
+back to this community that I've been
+part of for many years now. So feel free
+to get my contact from Ian and contact
+me or find me online. I'm pretty
+approachable.
+Um,
+in the ontology capture and update area,
+what are the best approaches that that
+[clears throat] you have seen
+that improve upon graphs?
+Um, I don't think it's a solved area. Um
+the best approaches that I've seen are
+those that try to not um
+give extra work for the customer if that
+makes sense. where because you take an
+action the customer takes an action it
+inadvertently and that you know the
+there is a a record of the action and
+what happened and the consequences that
+also updates the graph. So it's more
+like ease of ease of deployment. If you
+are thinking about more about um the
+um you know the math of it or like how
+it works underneath.
+There are different approaches from
+people who come from the formal methods
+math backgrounds. There are people who
+are trying to build new foundation
+models uh that are not transformerbased
+to get to this question.
+Basically a lot of the privacy first um
+industries
+they need something more specific
+reliable that you can go through like an
+audit log back into like the origin the
+decision everything. So there are
+multiple like approaches deterministic
+and nondeterministic.
+Um the privacy aware ones are more in
+Europe from what I saw.
+Um
+when you attempt when you attend
+probably conferences like ACM
+Kais are you looking for projects to
+invest in there or you are are you just
+curious on how the field is moving? um
+both in this case I attended because the
+founder of hyper param uh in which I
+invested before he went to the
+conference um he won uh he presented and
+he won best paper for in the workshop
+section this is an open-source company
+Kenny um is the name of the CEO it's an
+open-source company that helps make
+sense of agent traces and logs uh
+without the data movement and cost that
+would normally come associated with it.
+Um, so I went to see him and support
+him, but I'm also attending the sessions
+and on my blog post you can actually
+find the the learnings that I had there
+and how they correlate with what I'm
+seeing from engineers in the Bay Area
+and founders.
+Um,
+Hel
+could you
+could you take us through your journey
+from idea development to MVP and
+acquiring customers?
+Um
+I wonder what the question kind of
+really is um looking to ask but um I
+will maybe I assume that because the
+person answer asked this question is
+maybe not a founder and they are
+thinking of maybe starting something and
+they want to see how overwhelming this
+experience can be. Um
+so I will give like a high level um and
+feel free to ask follow-up questions. So
+from the idea development to the MVP um
+I will give observations versus how I
+did it when I built a company when I was
+in um in Germany after I graduated.
+Um, so what I'm seeing what I'm seeing
+is that people start with the idea based
+on either they are working inside of a
+company and they and they see that an
+abstraction no longer works and it
+breaks and they need something else to
+get their work done but that something
+else doesn't exist and they cannot buy
+it yet. So they start to build it
+themselves. That's one way I'm seeing
+it. Then the other way is there are
+people who come from the outside with
+fresh eyes or they you know read
+whatever Reddit whatever they where they
+stay up to date and they see oh there is
+this new capability maybe I could build
+this with this new thing they start to
+build it and they also realize something
+is missing and from the floor like from
+where they are building this on and they
+also want to buy but they realize it's
+not there so they build it themselves.
+Also, I think there's a bit of like as
+as an engineer as well, like we kind of
+like to build stuff. So, maybe sometimes
+we shouldn't build the stuff. So, I
+always recommend look for other
+startups, they would love to be um to to
+have you as a customer and all of this
+stuff before you build it maybe. But if
+you really feel like it's not there and
+you build it, that's when people start
+with the idea. So the people who start
+like I've explained I've seen to be most
+likely to convert that into a an MVP or
+a product or to actually raise. There is
+another bucket of people which uh I have
+seen least able to make it on the
+entrepreneurship um journey and I will
+mention that because I think there is a
+perception thing that could be changed
+and those people could make it too. The
+second bucket is um basically the person
+who probably you know everybody has a
+person like that in their life which
+talks about ideas and different
+startups. Um but instead of spending the
+time to actually test that idea they are
+just going around asking what do you
+think about this? What do you think
+about you know would this be a good
+idea? Um there are people who are
+talking but not moving into action and
+I'm mentioning that because I think some
+of them could become great founders but
+it maybe stems from like a fear a fear
+that can be from oh how is it going to
+go if I leave my well-paying job or if I
+um expose myself out there and people
+are not going to like it. Um I had this
+fear before I started uh motive force as
+well and this is something I've been
+thinking about but um so I think it's
+totally human there is one book I would
+recommend it's called the courage to be
+disliked if uh people have this fear
+they should go and look into that in
+terms of how do you develop the MVP and
+the acquire the customers it's not that
+complicated as you might think it's
+really you just have to do it like if
+you have a thesis of who might be the
+customers
+everybody has access to LinkedIn people
+do respond to like thoughtful called
+outreach or the other thing I've seen
+done is um if you live in the Bay Area
+or some some place where they have these
+meetups and things like that you go to
+the meetup and you find them on Luma I
+think Eventbrite is kind of I don't know
+Boomer meetups I don't [laughter] I I
+just don't use it that much. But like if
+you go to Luma, if you just go to um uh
+online um there's all these like online
+like we are doing it now but more you
+know collaborative and so on. So if you
+go to one of these places, even if you
+don't have a slot to present and you
+talk with people and you open your
+laptop or to a conference, that's the
+most highest density
+um place. And even if you're a founder
+who has raised some money, uh you still
+will get value from going to these
+conferences because you get all your
+potential customers in one place for
+validation
+or for refining the messaging. That's
+what I've uh I've seen the founders I
+get to work with um find also very
+useful is that they go to these
+conferences, they share the messaging
+and often they come back with like a
+much more refined message. Um and in
+terms of customers, the first customers
+will always go on trust and they will
+the reality is we are humans. Even if
+you know we have all these personal
+agents now which buy and sell stuff for
+us, it's still about humans. So whoever
+is going to buy first from you, they
+will have to like you or there has to be
+something about you and they have to
+ideally be you know innovators or like
+early adop adopters of innovation where
+they don't care how awful um you know
+your software is and everything will be
+awful in the beginning. Um, so the first
+people, the first believers who either
+give you money, like I'm in that
+category or the first people who buy
+your product, sometimes I'm like in that
+category for um products myself, they
+have to be people who um believe in you
+and so it's it's possible. It was has
+happened the same with me in my journey
+so far. You just have to get over the
+fear of asking. That has been my biggest
+thing. I think as engineers, we're a bit
+more used to, you know, the computer and
+maybe things being more obvious, but you
+just have to get over the fear of
+asking. Um,
+what will it take for multiple agents to
+collaborate reliably rather than operate
+as uh in parallel disconnected
+workflows? There are several
+orchestration frameworks that promise a
+audible I I guess like audit and some
+are predictable workflows but it's not
+guaranteed.
+uh it depends on so yes I've seen
+solutions
+I will give a concrete example of a
+company and then
+the observation meta observation pattern
+insight that I've had looking at
+multiple companies uh in for this
+specific thing so one example of a
+company uh this company Sophie um I'm an
+investor in it designers use it to
+collaborate live on the product and
+bring their different agentic workflows
+togethers. So designers and like um
+product people uh at high growth AI
+companies so you can't say that these
+people don't know what AI is and
+therefore only the mere mortals like us
+have this um paralization or lack of
+paralization problem. Um
+the question disappeared so I'll find it
+later. Um so I promised an example. So
+that's the example. S O FFI that's the
+the the company and the founder is Chris
+Dobbins. Um in terms of what I have
+observed the meta pattern of how to make
+them work together and get to more of a
+seamless flow. Um
+there are multiple challenges here
+because
+how do you get them to work like on like
+multiple parallel but also like joined
+together? Uh I think it's underneath all
+of this there is one clear question
+which is um what is even an agent and
+where does the agent live? And this
+might sound, you know, weird, but the
+reality is for all these workflows to,
+you know, get together and and for
+people to collab collaborate and flow
+seamlessly, you need to have some sort
+of durable object
+and
+that needs to store, you know, the state
+every time like the the agent takes an
+action, but also like external factors
+like what decision has been made, the
+the context or the all the data it has
+access like it has to be a durable
+object which gets to the problem of
+where does the agent live and the
+reality is even the most you know well
+uh funded founders out there disagree
+like even from the beginning of like
+context
+there are people so where does the agent
+live some people say it's all about the
+context and there are people who are
+trying to build an open context um
+standard and you know there that's their
+approach. There are people who are
+saying well there should be a shared
+workspace this doesn't work but those
+people require you to take all your
+workflows and like it's like a really
+big change management like for those of
+you who are earlier machine learning
+folks you remember feature stores there
+was a good idea but it was required a
+big change um so
+there are people who are now trying
+trying to store the decision
+um of what a human decided in a on an
+agent's result. That's because in
+reality there are all these nasty edge
+cases and
+the agent doesn't always have authority
+to say what's right. Like let's say
+there is like a decision about a
+product. You have the documentation, you
+have the agent, the founder says
+something else. Even the documentation
+gets contradicted. Especially sometimes
+now when everybody can use AI to write
+and they don't actually read what they
+are writing. So that question is TBD. Um
+there has to be an evolution from we all
+don't know to actually this is the best
+way to like do it. And I've seen for
+people who are more interested in this
+feel free to like contact me privately.
+But the reality is people don't agree
+even to the definition of context. I've
+seen I think this week context being
+defined in six different ways and that's
+not in blog post that's in text stacks
+like people who are building solutions
+and for this and they are betting their
+life on it. Um so I hope that answers
+love the against usefulness against
+usefulness perspective.
+However, how do you think such spaces
+may be different than what exists within
+academia?
+Uh, specifically, what aspects of
+academia do not permit or encourage
+these types of wild ideas that we'd like
+to see more of? Um so for the folks who
+don't know what against usefulness means
+this is a blog post I wrote uh which
+went viral on hacker news and it was
+based on the idea of everybody around me
+who is an investor is saying you should
+build uh tools with a purpose you should
+get the MVP early customers and my
+argument there was that that makes us
+miss the great inventions and companies
+if we always have to build with
+something with a purpose of being useful
+versus explore our curiosity. Um and I
+talked about Xerox Park and those kinds
+of like um times and the inventions that
+came and how they trickle down to modern
+day
+um to full computer which is a company a
+new type of computer which I found in in
+a warehouse in Brooklyn. when I went to
+New York to um for some ACM work.
+So that's the context. And then the
+question asks how would these spaces be
+different? Because I argued for spaces
+where people can just build stuff
+without necessarily worrying about it
+being useful. And the question is asking
+how is it different from the academia
+and what aspects of the academia do not
+permit or encourage these types of wild
+ideas.
+Um it's long since I've been in the
+academia. I started um on the PhD track
+myself but then I dropped to join SAP
+because frankly was paying better than
+my u PhD in Germany and I needed uh
+money for some family matters. Um
+but what I remember from then maybe
+things have not changed much was that
+even for my PhD topic we were talking
+about um sponsorship or a grant or
+something. So even for the PG yes it had
+to have a component that I want to
+explore but money was a question and
+which is why also even outside of
+academia there is always the question of
+money that's the usefulness part you
+know we want to build useful things but
+we don't all have to start thinking
+about that first and the usefulness
+comes with a slashmoney
+um and so what I'm saying in the blog
+post is that there needs to be also the
+type of funding which is not my type of
+funding which is I'm giving you a check
+and I expect equity and I expect you to
+grow and of course I will also do
+whatever I can to contribute but um
+that's like uh money with an ask um
+versus money from more of like donation
+half donation half grant kind of things.
+Uh I've looked into it and there are
+mechanisms to actually
+do something like that. It's closer to a
+nonforprofit which is not my you know
+lane. Um I have how I've been
+contributing so far is I've known people
+who have the means to sponsor these kind
+of things without you know expecting a
+return back. And so I've introduced
+those folks to for example full computer
+and I'm not part of the money flow. Um
+I don't believe that money is bad. So I
+think more people should be for profit
+and when you are able to generate that
+profit also you are able to have a great
+impact and be reliable for your
+customers. But that doesn't mean I'm
+dismissing these types of spaces that I
+believe they need to exist. It's just
+not my, you know, primary passion
+because if you want to be into
+what's the highest biggest impact you
+can have, you have to find and support
+the most ambitious people in the world,
+which are the founders who are building
+these things to have the biggest impact.
+So that's my thinking. Um I do think the
+academia is closer to these types of
+spaces of where you don't have to have
+the money tag uh above you. At the same
+time it's it's I believe that right now
+it's more it's going backwards a bit
+from what I'm seeing in the computer
+science and AI tracks. Um I do go
+sometimes speak with students and every
+computer science department especially
+you know Stanford or whatever like more
+uh prestigious schools they have a
+professor who gets some sort of money
+from a VC or they are part-time OVC they
+are I'm not against it as I said like
+it's good to have impact and for profit
+but it feels like the academia at least
+from my point of view in the Bayer area
+where I see every professor has like a
+new fund now. It makes you wonder like
+are we like what happened to the
+academia like are we polluting in a way
+the academia like it's good to have like
+to be applied but I think we should not
+forget about this like spaces of pure
+exploration of your own curiosity.
+Um,
+if the startup is not located in
+California but in Canada,
+um,
+I don't, it sounds like this is the
+second part of a question, but I'll just
+assume this is a question. Uh, it
+doesn't matter where the startup is
+located for me or other investors. Uh
+what matters though is if you have
+customers in the Bay Area then what
+stops you from being near your customers
+especially in the beginning is about
+trust. It's one to sell over Zoom and
+it's the other to sell over uh you know
+like in person. Um
+looking past or away AI for a moment
+from Matt Gorbbit. I was struck by your
+against usefulness framing as the
+pendulum has now swung so far away from
+blue sky curiosity based research over
+the past few decades. Historically real
+tech and design breakthroughs often come
+from seeing a different way to do things
+rather yes rather than an incremental
+way to solve the problem
+um we are already addressing. Do you
+currently foresee any viable model for
+bringing brains together like Bell Lab,
+Xerox Park, National Lab with aim to
+move the important question from beyond
+useful now to exploratory and possibly
+new paradigms? Is there space for
+funding fundamental research?
+Yeah, this relates to the previous
+question um or one of the previous
+questions I I addressed.
+Yeah, I I agree with everything you
+said. Um, and do I foresee a way to
+bring the brains together.
+I am a person who believes if something
+needs to happen or I want something to
+happen, I have to do it. It has been my
+hands. I hope that there are other
+people out there who are thinking about
+this. Uh, what I am doing about this, I
+am bringing these types of people
+together. Um it's mostly in the evenings
+during the week because I don't want to
+exclude people who have families. Um
+so if this if you are one of those
+people and want to join one of these
+things you can meet you can join you
+know in person. Uh if you are somewhere
+remote and not in the Bay Area, I'm
+thinking to do some sort of like remote
+also kind of um get together to just
+kind of keep the conversation going and
+yeah the beautiful thing that comes out
+of it is like the brains like when they
+are together magic things happen from
+you know the curiosity based research to
+the right intro to the right person be
+it on you maybe sponsoring this to the
+right other brand. Um, that's one of the
+things I enjoy about my job. I meet so
+many of these best brains out there in
+the world and uh sometimes I can see
+that they should be together and I will
+connect them. Um, and yes, sparks come
+out. So that's what I'm doing. Um, in
+terms of fundamental research for
+funding, there are people who are
+funding that. The only caveat or issue
+that I see with it is that
+because there are people who are funding
+that uh people who actually don't have a
+pure reason or the motivation or the
+passion for it are raising the funds
+because they can. So then they mess the
+water, muddy the waters for the people
+who truly are passionate about this. Um,
+so the glamorization of
+AI, I think that's a factor contributing
+factor to this. When I was in AI, there
+was nobody in it for like money. In my
+undergrad um generation in Germany, we
+were only two students, me and one other
+guy who's now at Google um brain in in
+Switzerland.
+um that chose to like even do the thesis
+in this and we were like the odd ones
+out there. So um yeah, I think there
+good things that come from the
+glamorization and now that you know
+there is money around it but also some
+of the bad things. Uh I am an optimist
+otherwise I wouldn't do this job. So
+yes, it's possible. If you have specific
+things in mind and you want my help to
+either point out who are the people
+funding these things or what's the
+mechanism for you to get in front of
+some of these people, please reach out.
+Um, we should not let the money status
+chaser halo of celebrity people
+destroy what's you know what's one of
+the most intellectually exciting like
+times uh right now in technologies
+um
+from Sophia my wife and I are building a
+company together we don't need any
+external investment but have seen the
+network effects from being in those
+conversations. We're much more
+interested in building an actual
+sustainable company than an exit or acu
+hire, but recognize the business
+opportunities that
+working with investors open. What are
+the other ways in for landing contracts
+with midsize and large companies?
+Uh
+I'm a bit
+confused by
+um
+by the question because
+you say we don't need any external
+investment. You would recognize that's
+actually useful if you had some external
+investment.
+But instead of asking how to get the
+external investment, you're asking how
+um you can get contracts from customers.
+Uh
+I do think
+how do I answer? So I will answer how
+you can get the investment and then
+mention the customer thing. I'm a VC,
+right? So, uh,
+how do you get the investment? I think
+there are two two things here. First,
+um, how would anyone get an investment?
+How would anyone get an investment? You
+either have to have the background that
+makes one of these VCs say, "Oh, you are
+the only person in the world who can
+build this because you see this or you
+are this or you did this." If you don't
+have the halo of celebrity,
+uh you can still raise um you have to
+have something. So you have to have
+maybe some sort of like product uh being
+like an MVP because the reality is the
+cost of building product has like
+dropped um or at least some validation
+from customers. I've seen people raise
+with a slide in a table where it says we
+are building this and here are the
+quotes from customers that we spoke with
+who are validating this. So it's even
+possible with that or if you have some
+sort you know revenue I think a lot of
+people expect you to have revenue to
+raise or at least people who are not
+investors people from the outside who
+say oh you should you can raise once you
+have revenue you can absolutely raise
+before you have revenue as well once you
+have revenue people will say why do you
+have just this amount of of revenue so
+again I think that there are many
+investors Not all of them are the first
+believers in you. So you have to
+pre-qualify
+the group of investors. There are
+different methods to do that and you
+have to just raise when it's the right
+time. Like I hate the advice of oh the
+market is not good or this or that. You
+know how many people told me that when I
+started motive force but I thought you
+know founders don't wait for the market
+to be right. They raise when they need
+to raise. um or they build something
+when they need to build something. So as
+long as you are doing something of value
+and you have a true motivation behind it
+and you have some sort of customer,
+you know, um validation, even if it's
+just words, you can find somebody to
+raise money. Now, it's a TBD from who
+are you raising money? Cuz not everybody
+can actually
+be additive to the money. But maybe you
+just need the money and that's fine too.
+Uh the other thing I mentioned two
+things though like I when I said how
+would anyone raise I was specific to the
+anyone just because you said your wife
+and you the reality is as a person who
+has backed a lot of female founders. Uh
+it is harder to raise as a woman. I
+don't care what other people are saying
+out there to be politically correct or
+the DI or this or that. I have backed
+women who have raised from pre to series
+C and it is harder. So the good news is
+that there is um like a way to avoid it.
+There are women are more likely to get a
+set of questions. You can preempt those
+questions. You have to know how to get
+out of a corner where the investors put
+you in that corner. Uh if you are one of
+those people, I'm happy to share
+my notes and observations from working
+with female founders.
+um I don't know if there is a book even
+on it but I can ask them but I have
+observed lived stuff so it is possible
+to do it and for customers the reality
+is you shouldn't ask me how to get
+customers if I know how to get your
+customers I should be doing your startup
+and you shouldn't be doing it so yeah
+just go out there like you're not going
+to get customers by sitting in the
+building you have to leave the building
+um
+Hello, I have a master's degree that was
+focused in blockchain
+scientific publications.
+Congratulations. Uh, however, I would
+like to start a PhD and I want to focus
+in ML data engineering. I already can
+use common libraries. Um, what should I
+focus to start a PhD in a US university?
+Tips. So, I'm not sure if the question
+is if the question is how to start to do
+a PhD in the US. I have no idea wrong
+person. I did the bachelor's and masters
+in Germany. Um if the question is should
+you maybe start or like study in machine
+learning because everybody tells you
+it's like doom and gloom. Agents will do
+everything I would still study computer
+science and machine learning today. So
+you know that's my if you ask somebody
+with a computer science background
+probably will tell you this. If you ask
+like an MBA person probably they will
+tell you to take an MBA. I would not um
+get an MBA. Um
+big LM agentic labs are eating the AI
+space from Damir Coric
+i.e getting into many different
+application spaces like education,
+coding, medicine, you name it. How do
+you look at limits of the expansion on
+one and risks and opportunities for
+startups on the other side?
+Uh this is a question that
+a lot of people are thinking about. Um
+from the founder side is the existential
+dread of will I wake [snorts] up to the
+news that my company is irrelevant and
+it's a very real
+real feeling that a lot of people have
+right now.
+And then there is the question from the
+fun investors heads of you know if I
+invest in your company and then entropic
+announces something am I going to lose
+the money of my LPS which is also a very
+hard existential question. Um
+so the overall answer is
+I do believe that there is room for
+other companies to exist around the big
+labs as well. Um
+the question is where
+to answer that question
+I think you have to have your own
+thesis. Uh if you are the person who is
+just going to go on hype,
+your best bet is to spray and pray and
+put a check into everything and maybe
+you shouldn't start a company if you
+don't have a point of view how the
+future will look like and you should you
+know diversify. Uh I am not doing that.
+I am doing actual diligence when I
+invest in a company and I'm not backing
+other competitors. Um, so to get to your
+like the bottom of your question of how
+do you know the limit, you have to do
+I believe it's two things. One, you have
+to stay informed on what the big labs
+are doing. Um,
+yes, you can read online, but if you
+live in the Bay Area, you go to, I don't
+know, uh, have a tea with those people
+who are building these things. people
+talk. Um,
+and the second thing besides that, you
+have to
+to realize or or at least my perception
+for based on my background is that
+working at SAP what I've seen is that
+people don't buy technology, people buy
+solutions to workflow problems. So
+in the application space I'm still in I
+just invested in a company in the
+accounting space um which I probably
+will be able to mention soon uh where
+you know people already use and open air
+or whatever it's still not solving this
+like workflow problem and so um workflow
+is still very important
+for those who want to know more what I
+mean I did write um something which is
+you know more specific on my motive
+notes is the name of the um substack and
+it's the name of the blog is map uh work
+not markets. So basically if you want to
+get to maybe similar things you have to
+reason from what's the work to be done
+workflow kind of technology space versus
+the big kind of market map of there are
+20 companies here what does this say
+like I'm reading or my insights or
+deriving my insight it's not from deal
+flow I'm doing it from workflow Um, I do
+believe that if you want to not be, you
+know, eaten by the big labs, you have to
+understand exactly what the customers
+are doing. Um, so it's possible. You
+just have to go deeper in the weeds. I
+have proof that's possible. I've done
+this approach of investing in the
+companies that Ian mentioned about like
+the in the billions category, but it's
+still TBD, right? We are all living now.
+And even the people at the big labs,
+they don't know everything. Um,
+so yes, I will maybe take one more
+question because I think we have like
+five minutes till we stop. Um,
+oh, there's so many good questions. I
+hope that Ian captures them because I
+would love to address some of those uh
+after 60 questions. Wow. And we only
+answered 11.
+Um,
+how have you seen from Ben Moskov?
+How have you seen teams proven agents
+work is acceptable when outcomes aren't
+deterministic?
+Um
+I can you know I don't have time for how
+exactly I want to answer it. So I'll
+give a brief answer that everybody can
+kind of look up. If you look up um the
+blog posts from Whimo, from the machine
+learning team from Whimo,
+they the the short answer is in that
+blog post you will see them answering
+that question in the context of
+self-driving.
+And the very brief answer is that you
+don't just have the drive driver model,
+you have a critic and a simulate.
+Basically all this nondeterministic
+stuff rests on some deterministic um
+modules that are being built. Um so
+that's one answer. Then there's like
+there is different answers and startups
+I've seen for it. Um
+but since we have four minutes if anyone
+from this audience has questions feel
+free to like follow up and if Ian is
+giving me the questions I can answer
+some of those. If you feel like you are
+working on something and you want a
+solution for it, feel free to ask me as
+well. I'm happy to provide the landscape
+of companies I've uh seen. If I have
+invested in a category, I can provide
+more deeper dive into their own
+technologies, how they compare. Um maybe
+it would be useful for me to have a list
+that people can, for example, if you're
+looking for a solution for billing. I
+went deeper into how exactly, you know,
+those solutions map technically and
+things like that, which I'm happy to
+share if it's if it helps people. Um,
+I really enjoyed this. I don't think we
+have the time to answer the other um 60
+questions here. Uh, maybe Ian, I don't
+know if there's anything else we can
+share.
+>> Yeah, absolutely. I want to I'll be
+happy to share the other questions and
+then we can think of a um interesting
+way of getting some of those responses
+to people um or potentially maybe even
+another uh talk in the future. Uh but
+yeah, we'll try to get to as many as we
+can. But uh I do want to thank uh Aana.
+Uh we have run out of time today. Uh I
+want to thank her for her really
+informative presentation and a really
+unique AMA uh format that we're trying
+out. So a special thanks to everybody
+for attending. Uh the talk was recorded
+and will be available online and you'll
+receive an email about that and you can
+find announcements on upcoming talks and
+other ACM activities at learning.acm.org
+and acm.org. And a quick reminder to
+fill out the survey that you'll uh get
+by email and that may pop up on your
+screen as well. On behalf of ACM, Oana
+Alanu and myself, Yansowski, thanks
+again for joining us and I hope you will
+join us again in the future. Uh this
+concludes our talk today.
+>> Thank you everyone and reach out if
+you're building something. I'm actively
+investing.

@@ -34,6 +34,7 @@ def summarize(run_dir_arg: str) -> int:
         decisions = _records(run_dir / "decisions.jsonl")
         articles = _records(run_dir / "articles.jsonl")
         scripts = _records(run_dir / "video_scripts.jsonl")
+        briefs = _records(run_dir / "briefs.jsonl")
         review = load_json(run_dir / "review.json") if (run_dir / "review.json").is_file() else None
         receipts = []
         for path in sorted((run_dir / "logs").glob("*.json")) if (run_dir / "logs").is_dir() else []:
@@ -45,7 +46,10 @@ def summarize(run_dir_arg: str) -> int:
             {"stage": receipt.get("stage"), "status": receipt.get("status"), "errors": receipt.get("errors", [])}
             for receipt in receipts if receipt.get("status") in {"failed", "incomplete", "invalid"}
         ]
-        package_ready = (run_dir / "package" / "manifest.json").is_file()
+        manifest_path = run_dir / "package" / "manifest.json"
+        package_ready = manifest_path.is_file()
+        package_manifest = load_json(manifest_path) if package_ready else None
+        manual_steps_complete = bool((package_manifest or {}).get("manual_steps_complete"))
         if package_ready:
             status = "ready_for_production"
         elif review and review.get("passed") and articles and scripts:
@@ -63,6 +67,24 @@ def summarize(run_dir_arg: str) -> int:
         models = sorted({model for receipt in receipts for model in receipt.get("models", [])})
         known_cost = round(sum(float(receipt["cost_usd"]) for receipt in receipts if receipt.get("cost_usd") is not None), 6)
         unknown_cost_stages = sorted({receipt.get("stage") for receipt in receipts if receipt.get("models") and receipt.get("cost_usd") is None})
+        def billing_mode(receipt: dict[str, Any]) -> str | None:
+            details = receipt.get("details") or {}
+            return details.get("billing_mode") or (details.get("model_call") or {}).get("billing_mode")
+
+        chatgpt_plan_stages = sorted({receipt.get("stage") for receipt in receipts if billing_mode(receipt) == "chatgpt_plan"})
+        paid_receipts = [receipt for receipt in receipts if billing_mode(receipt) == "paid_api_fallback"]
+        paid_audio = [
+            entry for receipt in receipts for entry in (receipt.get("details") or {}).get("transcriptions", [])
+            if entry.get("billing_mode") == "paid_api_fallback"
+        ]
+        paid_values = [entry.get("cost_usd") for entry in [*paid_receipts, *paid_audio]]
+        incremental_api_cost = None if any(value is None for value in paid_values) else round(sum((float(value) for value in paid_values), 0.0), 6)
+        cited_keys = {
+            (reference["item_id"], reference["version_id"])
+            for brief in briefs or [] for claim in brief.get("claims", []) for reference in claim.get("evidence", [])
+        }
+        eligible_index = {(item["item_id"], item["version_id"]): item for item in eligible or []}
+        cited_kind_counts = Counter(eligible_index[key]["kind"] for key in cited_keys if key in eligible_index)
         finished_values = [receipt.get("finished_at") for receipt in receipts if receipt.get("finished_at")]
         finish = max(finished_values) if finished_values else utc_now()
         begin_dt = datetime.fromisoformat(run["started_at"].replace("Z", "+00:00"))
@@ -76,7 +98,7 @@ def summarize(run_dir_arg: str) -> int:
             remaining.append("Repair blocking collection, evidence, model, or review errors and rerun the affected stage.")
         if status == "awaiting_review":
             remaining.append("Zhekai Li must inspect the drafts and evidence, record corrections, and create approval.json personally.")
-        if status == "ready_for_production":
+        if status == "ready_for_production" and not manual_steps_complete:
             remaining.extend([
                 "Create three 3–5 minute videos in Google Vids.",
                 "Publish three free Substack articles and upload the videos plus technical demo to YouTube as Unlisted.",
@@ -101,6 +123,7 @@ def summarize(run_dir_arg: str) -> int:
             "coverage": {
                 "raw_by_kind": dict(raw_kind_counts),
                 "eligible_by_kind": dict(eligible_kind_counts),
+                "brief_citations_by_kind": dict(cited_kind_counts) if briefs is not None else None,
                 "independent_publishers": len(publishers) if eligible is not None else None,
                 "publisher_ids": publishers,
                 "distinct_underlying_items": len(set(raw_underlying)) if candidates is not None else None,
@@ -110,9 +133,15 @@ def summarize(run_dir_arg: str) -> int:
             "elapsed_seconds": round((finish_dt - begin_dt).total_seconds(), 3),
             "tools": tools,
             "models": models,
-            "cost": {"known_or_estimated_usd": known_cost, "unknown_cost_stages": unknown_cost_stages},
+            "cost": {
+                "incremental_api_cost_usd": incremental_api_cost,
+                "known_or_estimated_usd": known_cost,
+                "chatgpt_plan_stages": chatgpt_plan_stages,
+                "unknown_cost_stages": unknown_cost_stages,
+            },
             "review": None if review is None else {"review_id": review.get("review_id"), "passed": review.get("passed")},
             "publication_links": publication_links,
+            "manual_steps_complete": manual_steps_complete,
             "remaining_manual_actions": remaining,
         }
         print(json.dumps(summary, ensure_ascii=False, indent=2))

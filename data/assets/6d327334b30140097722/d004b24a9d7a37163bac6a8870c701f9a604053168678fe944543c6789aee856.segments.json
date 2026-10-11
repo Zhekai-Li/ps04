@@ -1,0 +1,3872 @@
+[
+  {
+    "segment_id": "tr-00001",
+    "start_seconds": 3.08,
+    "end_seconds": 10.88,
+    "text": "All right, we're here in the studio with Alex Zhang, I guess most famously of RLMs, but you have a few other affiliations."
+  },
+  {
+    "segment_id": "tr-00002",
+    "start_seconds": 11.14,
+    "end_seconds": 17.82,
+    "text": "Welcome to the show. Yeah, thank you for having me. Yeah, I guess GPU mode as well? Yes, GPU mode as well. You were shepherded in by Mark Serafin."
+  },
+  {
+    "segment_id": "tr-00003",
+    "start_seconds": 17.94,
+    "end_seconds": 29.34,
+    "text": "Not everyone gets that kind of welcome. Yeah, I'm very, very close to all the people in GPU mode. So yeah, we often end up working together in various capacities, like even beyond just GPU mode itself."
+  },
+  {
+    "segment_id": "tr-00004",
+    "start_seconds": 29.34,
+    "end_seconds": 40.02,
+    "text": "Yeah. Can we explain that? So people who are not that close don't know about this. It's a Discord. It used to be focused on, I guess, CUDA mode, and then generalized a little bit."
+  },
+  {
+    "segment_id": "tr-00005",
+    "start_seconds": 40.38,
+    "end_seconds": 46.46,
+    "text": "It was started by Mark. Yep. It was basically like, to me, it's like the hiring pipeline of the PyTorch team. And then you left PyTorch."
+  },
+  {
+    "segment_id": "tr-00006",
+    "start_seconds": 46.64,
+    "end_seconds": 56.44,
+    "text": "Yep, yep, yep, yeah. So it used to be, I think, it started actually around when I was in college in like 2023."
+  },
+  {
+    "segment_id": "tr-00007",
+    "start_seconds": 57.2,
+    "end_seconds": 69.22,
+    "text": "I think it was started by Mark, Andreas, and Jeremy Howard. The original premise was just like, it was a GPU, or it was a Discord dedicated to learning how to write GPU"
+  },
+  {
+    "segment_id": "tr-00008",
+    "start_seconds": 69.22,
+    "end_seconds": 76.12,
+    "text": "kernels, and they had like lectures. That was basically the extent of it. And I got interested in it because I was writing GPU kernels."
+  },
+  {
+    "segment_id": "tr-00009",
+    "start_seconds": 76.28,
+    "end_seconds": 82.94,
+    "text": "It was actually out of like pure chance. I was interning at Snapchat at the time. And - Rexxus."
+  },
+  {
+    "segment_id": "tr-00010",
+    "start_seconds": 83.16,
+    "end_seconds": 93.88,
+    "text": "Yeah, I was very bored with Rexxus. So they had a project where like they were interested in writing, it was this paper called Infinite Attention."
+  },
+  {
+    "segment_id": "tr-00011",
+    "start_seconds": 94.1,
+    "end_seconds": 102.74,
+    "text": "It was like a Google paper. Yes, we've covered it on Paper Club. Yes, yeah. So I was interested in whether or not you could write specialized kernels for it at Snapchat."
+  },
+  {
+    "segment_id": "tr-00012",
+    "start_seconds": 103.4,
+    "end_seconds": 111.3,
+    "text": "It didn't, nothing really came of it, but I joined GPU mode at the time. It was called CUDA mode. I think for like legal reasons or something, they changed the name."
+  },
+  {
+    "segment_id": "tr-00013",
+    "start_seconds": 111.46,
+    "end_seconds": 123.62,
+    "text": "But I met Mark, I met Matei, I met a bunch of other people that were very involved in the community. And then Mark had pitched this idea called Popcorn, which was now what you see as the leaderboard today."
+  },
+  {
+    "segment_id": "tr-00014",
+    "start_seconds": 124.02,
+    "end_seconds": 134.24,
+    "text": "But the general idea was like, I think all of us had this like intuition that GPU programming is like very similar to if you guys have done like competitive programming."
+  },
+  {
+    "segment_id": "tr-00015",
+    "start_seconds": 134.6,
+    "end_seconds": 144.16,
+    "text": "It's not, I don't mean to say like they're transferable skills. You have constraints, you code golf a little bit. Yeah, yeah, yeah. And there's like, there's actually a surprisingly small space of optimizations that people do."
+  },
+  {
+    "segment_id": "tr-00016",
+    "start_seconds": 144.58,
+    "end_seconds": 156.54,
+    "text": "And there's actually not that many kernels per se that people are interested in optimizing. And so we kind of had this thought that like, if you had enough data, like in the same way that code forces, there's millions of problems."
+  },
+  {
+    "segment_id": "tr-00017",
+    "start_seconds": 156.82,
+    "end_seconds": 165.56,
+    "text": "If you could do this with GPU code, like you could scale and automate kind of GPU kernel development, which for researchers is a huge deal."
+  },
+  {
+    "segment_id": "tr-00018",
+    "start_seconds": 165.82,
+    "end_seconds": 177.82,
+    "text": "Because I think one of the bigger bottlenecks, like if you look like Mamba, for example, like they released the paper with kernels, because otherwise, like you can't really use it in any meaningful way, you know, and not everyone has like a tree down on their team."
+  },
+  {
+    "segment_id": "tr-00019",
+    "start_seconds": 178.0,
+    "end_seconds": 185.64,
+    "text": "So we're very interested in this kernel bench kind of spawned from that too, of like, can we get LLMs to automate GPU kernel code?"
+  },
+  {
+    "segment_id": "tr-00020",
+    "start_seconds": 185.76,
+    "end_seconds": 194.96,
+    "text": "And I think that was like, it was a very, very fun time. It was like between college and my PhD. And yeah, I had a really pleasant time doing stuff with GPU mode."
+  },
+  {
+    "segment_id": "tr-00021",
+    "start_seconds": 195.24,
+    "end_seconds": 203.44,
+    "text": "Now I kind of just help with the lectures sometimes. I'm not as involved. And I think in general, like we don't have as many competitions as we used to."
+  },
+  {
+    "segment_id": "tr-00022",
+    "start_seconds": 203.76,
+    "end_seconds": 213.04,
+    "text": "But yeah, I still keep in touch a lot with everyone there. Is there a friendly rivalry? Because I think the previous community that used to do this, like MLSys, MLperf, kind of thing."
+  },
+  {
+    "segment_id": "tr-00023",
+    "start_seconds": 213.18,
+    "end_seconds": 225.22,
+    "text": "Is there a friendly rivalry? Is this like just new generation MLperf or what's going on? The nice thing about GPU mode is that it is also a community in the sense that like, a lot of the lectures"
+  },
+  {
+    "segment_id": "tr-00024",
+    "start_seconds": 225.22,
+    "end_seconds": 236.58,
+    "text": "are very easy enough for a beginner to follow and ask questions and things like that. And like the competitions are like, somewhat not secondary, but like, you can participate in them to learn."
+  },
+  {
+    "segment_id": "tr-00025",
+    "start_seconds": 236.74,
+    "end_seconds": 245.82,
+    "text": "I think with a lot of like MLSys, MLperf kind of benchmarks, like, for the most part, like only serious labs and companies participate, like seriously in them at least."
+  },
+  {
+    "segment_id": "tr-00026",
+    "start_seconds": 245.86,
+    "end_seconds": 258.08,
+    "text": "That was my understanding of it. I could be wrong. But I think also beyond GPU mode now, one thing that has been really exciting is there's a lot more websites and like people that work"
+  },
+  {
+    "segment_id": "tr-00027",
+    "start_seconds": 258.08,
+    "end_seconds": 264.22,
+    "text": "on hosting competitions. Like I think there's this, I think there's this website called like LeetGPU or something."
+  },
+  {
+    "segment_id": "tr-00028",
+    "start_seconds": 264.4,
+    "end_seconds": 274.46,
+    "text": "And it's like LeetCode for GPU problems. Wow. There's like other ones too that I've seen that like we've, we've seen like, there's many that have kind of spawned and like talked on GPU mode."
+  },
+  {
+    "segment_id": "tr-00029",
+    "start_seconds": 274.6,
+    "end_seconds": 280.96,
+    "text": "And like, it's very exciting in the sense that I think GPU programming used to be super niche."
+  },
+  {
+    "segment_id": "tr-00030",
+    "start_seconds": 281.18,
+    "end_seconds": 288.86,
+    "text": "Like when I was interested in it. And the only reason I got interested in it was Tredow gave a talk at Princeton because he was applying for faculty."
+  },
+  {
+    "segment_id": "tr-00031",
+    "start_seconds": 288.94,
+    "end_seconds": 295.52,
+    "text": "I mean, he is faculty there now, but I listened to his talk on Flash Tension in like 2023. And I was like, wow, this is like the coolest thing ever."
+  },
+  {
+    "segment_id": "tr-00032",
+    "start_seconds": 296.16,
+    "end_seconds": 303.58,
+    "text": "And I was like, this is like, this is what everyone should be working on. I guess like VLLM and stuff had come out too. And it was like, oh, you know, we should be writing kernels."
+  },
+  {
+    "segment_id": "tr-00033",
+    "start_seconds": 303.7,
+    "end_seconds": 310.94,
+    "text": "But now it's like, you know, everyone writes kernels. Like everyone, it's, it's, I think it's actually almost saturated in some sense as a field."
+  },
+  {
+    "segment_id": "tr-00034",
+    "start_seconds": 311.36,
+    "end_seconds": 320.28,
+    "text": "Any, any interesting takes for people that want to get into it? So I think one of the biggest news is GPT 5 .6 wrote more efficient kernels."
+  },
+  {
+    "segment_id": "tr-00035",
+    "start_seconds": 320.62,
+    "end_seconds": 331.68,
+    "text": "So Terra and Luna could be 80 % cheaper. And then we've seen other competitions where people are like setting records and they're like, we're doing some auto research loop."
+  },
+  {
+    "segment_id": "tr-00036",
+    "start_seconds": 331.8,
+    "end_seconds": 344.1,
+    "text": "And these are people that don't have a background in any kernel writing, right? Yeah. So even on the GPU mode leaderboard, if you look at like a lot of the recent problems, almost all the solutions are AI generated."
+  },
+  {
+    "segment_id": "tr-00037",
+    "start_seconds": 344.5,
+    "end_seconds": 351.88,
+    "text": "However, you'll notice on the leaderboard. So there's this guy named Gownerst, who's like a very, very like regular member of GPU mode."
+  },
+  {
+    "segment_id": "tr-00038",
+    "start_seconds": 352.28,
+    "end_seconds": 364.34,
+    "text": "We've always known for a long time that he's like a super, super cracked, like GPU kernel writer. One thing we discovered on this leaderboard is like almost every, he also used AI to help him with these solutions."
+  },
+  {
+    "segment_id": "tr-00039",
+    "start_seconds": 364.52,
+    "end_seconds": 377.1,
+    "text": "But for the most part, like he helped prompt and move it in certain directions. We found that like his kernel was like basically the only one in like the top 10 that was actually stable in like actual like end"
+  },
+  {
+    "segment_id": "tr-00040",
+    "start_seconds": 377.1,
+    "end_seconds": 384.6,
+    "text": "-to -end systems. And it does bring into question like, it's not like, I mean, GPU kernels have a verification problem."
+  },
+  {
+    "segment_id": "tr-00041",
+    "start_seconds": 384.78,
+    "end_seconds": 393.52,
+    "text": "Like we've kind of known this. It's been a problem since kernel bench was released. Like there's a lot of reward hacking that goes on, but you'll, yeah, you also notice like the lines of code is a lot smaller."
+  },
+  {
+    "segment_id": "tr-00042",
+    "start_seconds": 393.52,
+    "end_seconds": 404.52,
+    "text": "Is that noticeable or is it just? Yeah, no, it's, it's, it's definitely like very important. And I think like it's, it's really interesting that still there's a lot of alpha and being good at GPU kernels."
+  },
+  {
+    "segment_id": "tr-00043",
+    "start_seconds": 404.52,
+    "end_seconds": 410.76,
+    "text": "Okay. So there is a gap from vibranium. There definitely is. Yeah. I think like, and this applies to a lot of AI systems as well."
+  },
+  {
+    "segment_id": "tr-00044",
+    "start_seconds": 410.88,
+    "end_seconds": 417.48,
+    "text": "Like I think, you know, even with the most recent like math proofs and stuff, like it doesn't necessarily mean mathematicians are obsolete."
+  },
+  {
+    "segment_id": "tr-00045",
+    "start_seconds": 417.64,
+    "end_seconds": 425.38,
+    "text": "I mean, these companies still hire mathematicians like to do, whether it be like data labeling work or, or even just like steering the models to solve problems."
+  },
+  {
+    "segment_id": "tr-00046",
+    "start_seconds": 425.54,
+    "end_seconds": 431.74,
+    "text": "Like there is still a lot of alpha and being like knowledgeable in these things. So."
+  },
+  {
+    "segment_id": "tr-00047",
+    "start_seconds": 431.84,
+    "end_seconds": 440.96,
+    "text": "Is it just knowledge or is it also, there's just more planning and is there an emergent style of planning that works better?"
+  },
+  {
+    "segment_id": "tr-00048",
+    "start_seconds": 441.68,
+    "end_seconds": 448.86,
+    "text": "I think it's, it's a mix of maybe this is what you mean, like intuition for something, how to solve the problems."
+  },
+  {
+    "segment_id": "tr-00049",
+    "start_seconds": 449.04,
+    "end_seconds": 456.32,
+    "text": "Like for example, I always diagram my code. Yeah. Right. And then like, if there's a part of the diagram, I don't understand, I work until I understand it."
+  },
+  {
+    "segment_id": "tr-00050",
+    "start_seconds": 456.42,
+    "end_seconds": 468.44,
+    "text": "Otherwise it's not allowed. Yeah. Yeah. Yeah. So I think it's like, it's a mix of those things of like the people who work, like the people who know how to look at these problems and how to solve them, like also know how to use AI to"
+  },
+  {
+    "segment_id": "tr-00051",
+    "start_seconds": 468.44,
+    "end_seconds": 480.54,
+    "text": "do them because like you're acting as a very strong verifier. Like if you are knowledge or if you know what to do and you're also like, I think the thing that we've kind of discovered with all these agent swarms and"
+  },
+  {
+    "segment_id": "tr-00052",
+    "start_seconds": 480.54,
+    "end_seconds": 488.44,
+    "text": "things like this is like, when you throw enough compute at a problem, you like can sufficiently explore solutions to that problem."
+  },
+  {
+    "segment_id": "tr-00053",
+    "start_seconds": 488.7,
+    "end_seconds": 500.82,
+    "text": "But oftentimes like, you know, maybe you can burn like a hundred billion or a trillion tokens on something. But if you bring in someone who knows something about the problem, they can uncover something for the model that would like erase"
+  },
+  {
+    "segment_id": "tr-00054",
+    "start_seconds": 500.82,
+    "end_seconds": 511.04,
+    "text": "that one trillion token spend. I mean, it's not, it's not super clear, like what exactly the trends are here. But I think like there are so many problems in the wild still right now that we want to solve."
+  },
+  {
+    "segment_id": "tr-00055",
+    "start_seconds": 511.16,
+    "end_seconds": 521.02,
+    "text": "And like, we can't afford to just always, you know, throw as much compute as possible at it. Like there is still an efficiency aspect of all of these things that is super, super important."
+  },
+  {
+    "segment_id": "tr-00056",
+    "start_seconds": 521.02,
+    "end_seconds": 528.0,
+    "text": "Is there like a theoretical right answer that you can just calculate based on physics and then you just get close to the physics?"
+  },
+  {
+    "segment_id": "tr-00057",
+    "start_seconds": 528.26,
+    "end_seconds": 536.92,
+    "text": "Yes. So for GPU kernels, you can compute. It's actually not that easy to compute sometimes, like depending on how complex the problem is."
+  },
+  {
+    "segment_id": "tr-00058",
+    "start_seconds": 537.0,
+    "end_seconds": 546.14,
+    "text": "Like for, for matrix multiplication, it's very easy to compute. This like speed of light kind of estimate of what the fastest kernel can be."
+  },
+  {
+    "segment_id": "tr-00059",
+    "start_seconds": 546.14,
+    "end_seconds": 554.88,
+    "text": "And like, this is also assuming like, you know, maybe all of your, all your data starts on the CPU or maybe it starts in DRAM on the GPU, et cetera."
+  },
+  {
+    "segment_id": "tr-00060",
+    "start_seconds": 555.28,
+    "end_seconds": 567.44,
+    "text": "Like this changes these, these numbers slightly. The transfers and all these things. Yeah. But I, I, I will say like, it's not clear though, like in a lot of cases, if it's even possible to"
+  },
+  {
+    "segment_id": "tr-00061",
+    "start_seconds": 567.44,
+    "end_seconds": 574.7,
+    "text": "hit this theoretical number, if that makes sense. Like this is assuming like perfect overlapping and transfer of data."
+  },
+  {
+    "segment_id": "tr-00062",
+    "start_seconds": 574.9,
+    "end_seconds": 582.98,
+    "text": "And like, there's maybe some bottleneck that you can't get around, but often the kernels are not even close. Like that we write are not nearly close enough to this number to be like meaningful at all."
+  },
+  {
+    "segment_id": "tr-00063",
+    "start_seconds": 583.34,
+    "end_seconds": 590.56,
+    "text": "Yeah. And is it speed that matters? Do you also care about, uh, obviously memory, which feeds into speed. Do you care about power consumption?"
+  },
+  {
+    "segment_id": "tr-00064",
+    "start_seconds": 590.56,
+    "end_seconds": 599.04,
+    "text": "So one of my, uh, one of our top pods of the year was Jeff Dean, who was like, actually, I just checked the microjoules or like the nanojoules, picojoules."
+  },
+  {
+    "segment_id": "tr-00065",
+    "start_seconds": 599.22,
+    "end_seconds": 606.26,
+    "text": "Yeah. It's often picojoules. Yeah. Uh, do you care about that? So I don't, I guess maybe I'm not, I'm not as."
+  },
+  {
+    "segment_id": "tr-00066",
+    "start_seconds": 606.58,
+    "end_seconds": 619.04,
+    "text": "But everything here is speed, right? Like nobody's counting picojoules. Um, but I, there's a caveat here, which is, I think like there is speed in the context of a single kernel and there's speed in the context of a larger"
+  },
+  {
+    "segment_id": "tr-00067",
+    "start_seconds": 619.04,
+    "end_seconds": 631.48,
+    "text": "problem, like maybe the N10 model, because like one thing to consider, and this is why it's important to talk about what, what speed of light is referring to, because in these cases for the kernels, like we"
+  },
+  {
+    "segment_id": "tr-00068",
+    "start_seconds": 631.48,
+    "end_seconds": 643.66,
+    "text": "always start with everything in, in, uh, like HBM, for example. Right. But you can imagine that like an end to end current, like an end to end model, what you might want to do between"
+  },
+  {
+    "segment_id": "tr-00069",
+    "start_seconds": 643.66,
+    "end_seconds": 652.04,
+    "text": "two layers is like, you might sacrifice the speed of the first operation to keep things in the cache for the second operation."
+  },
+  {
+    "segment_id": "tr-00070",
+    "start_seconds": 652.04,
+    "end_seconds": 662.66,
+    "text": "And like, these are things that like, you can't really get out of, in isolation with like these kinds of kernels. And, you know, people call this like the fusion or like the kernel fusion problem."
+  },
+  {
+    "segment_id": "tr-00071",
+    "start_seconds": 662.82,
+    "end_seconds": 669.48,
+    "text": "Yeah. Or like mega kernel stuff. And it generally only applies like when you are like memory bound in, in, in most cases."
+  },
+  {
+    "segment_id": "tr-00072",
+    "start_seconds": 669.66,
+    "end_seconds": 678.08,
+    "text": "But this is something that like, also there, there is this question of like, as these models get better, like, should we just be generating like mega kernels?"
+  },
+  {
+    "segment_id": "tr-00073",
+    "start_seconds": 678.26,
+    "end_seconds": 688.88,
+    "text": "Is that like what we want? Um, what's your take? I think that this is really difficult because you need the data to do this."
+  },
+  {
+    "segment_id": "tr-00074",
+    "start_seconds": 688.92,
+    "end_seconds": 700.94,
+    "text": "And I think like, I have yet to see an example in the wild of like, we bootstrap the ability to solve a very difficult class of problems without"
+  },
+  {
+    "segment_id": "tr-00075",
+    "start_seconds": 700.94,
+    "end_seconds": 713.0,
+    "text": "any examples. Um, and I think like the other reason why I think maybe this isn't that interesting is that at the level of an individual kernel, a, like they're not that they're not as complex, but"
+  },
+  {
+    "segment_id": "tr-00076",
+    "start_seconds": 713.0,
+    "end_seconds": 724.64,
+    "text": "B you're somewhat confident that there's not as much structure in a single kernel, but like in a mega kernel, like I would be more inclined to believe that like a compiler would be better here."
+  },
+  {
+    "segment_id": "tr-00077",
+    "start_seconds": 724.78,
+    "end_seconds": 735.56,
+    "text": "Like some compiler over like higher level ops makes sense because in general, like, actually I think mega kernels are very, like the pieces are very composable of like the individual kernels."
+  },
+  {
+    "segment_id": "tr-00078",
+    "start_seconds": 735.9,
+    "end_seconds": 743.72,
+    "text": "There's some areas where you might want to do like weird fusions and everything. But in general, I think these are cases that like a compiler can probably handle."
+  },
+  {
+    "segment_id": "tr-00079",
+    "start_seconds": 743.9,
+    "end_seconds": 753.08,
+    "text": "And there is a company that's working on this from, from what I understand that has given some talks on GPU mode as well. Yeah. I want to basically cluster all the GPU mode discussions here because obviously there's other parts that we need to move on to."
+  },
+  {
+    "segment_id": "tr-00080",
+    "start_seconds": 753.22,
+    "end_seconds": 760.54,
+    "text": "I think there is something to plug. You guys do host a lot of really good lectures. They're all on YouTube. People can follow along and you lead quite a bit of it."
+  },
+  {
+    "segment_id": "tr-00081",
+    "start_seconds": 760.88,
+    "end_seconds": 767.0,
+    "text": "I used to, uh, sometimes I still do. Uh, I think they're mostly Mark. Mark is the one who usually does them."
+  },
+  {
+    "segment_id": "tr-00082",
+    "start_seconds": 767.16,
+    "end_seconds": 773.46,
+    "text": "Matei does sometimes as well, but, um, yeah, I highly recommend them. They are extremely good resources."
+  },
+  {
+    "segment_id": "tr-00083",
+    "start_seconds": 773.64,
+    "end_seconds": 783.1,
+    "text": "Like I think it's kind of crazy how much people share on there. So yeah. Cause like, if you're there, like you're very, very, like you're exactly the right audience, you know?"
+  },
+  {
+    "segment_id": "tr-00084",
+    "start_seconds": 783.18,
+    "end_seconds": 790.24,
+    "text": "Yes, exactly. This isn't going to reach the mainstream. And there's a lot of like introductory material as well, um, that we've put on, um, that I think is useful for people."
+  },
+  {
+    "segment_id": "tr-00085",
+    "start_seconds": 790.44,
+    "end_seconds": 798.44,
+    "text": "Kernel bench was kind of influential. I just want to see like, you know, that was last year. Yep. Uh, what other ongoing work do you want to shout out that people should pay attention to?"
+  },
+  {
+    "segment_id": "tr-00086",
+    "start_seconds": 798.62,
+    "end_seconds": 808.72,
+    "text": "Cause obviously you're involved in this field. Yeah. I will give maybe the, in the background story of like, I am actually involved in a lot of benchmarks where I used to be, uh, maybe prior to my PhD."
+  },
+  {
+    "segment_id": "tr-00087",
+    "start_seconds": 809.18,
+    "end_seconds": 815.92,
+    "text": "It started because I was at Princeton. Uh, I worked with the sweet bench team there, John, John, Carlos, Ophir. They're all great."
+  },
+  {
+    "segment_id": "tr-00088",
+    "start_seconds": 816.08,
+    "end_seconds": 822.86,
+    "text": "Like I love them. Yeah. Uh, there's basically this, like, I think people don't understand how much, how many, how much benchmarks come from the same group at Princeton."
+  },
+  {
+    "segment_id": "tr-00089",
+    "start_seconds": 824.3,
+    "end_seconds": 830.82,
+    "text": "It is crazy. Do you know Shun Yu? Yes. Yeah. We had him on the pod before. Now, now he's like running 10 seconds. Yeah. Now he's like, he's like a superstar."
+  },
+  {
+    "segment_id": "tr-00090",
+    "start_seconds": 831.14,
+    "end_seconds": 840.9,
+    "text": "Uh, when I, when I, I met him, so he, uh, he was advising my friend, Michael, Michael Tang, who is now an anthropic, but they work together a lot."
+  },
+  {
+    "segment_id": "tr-00091",
+    "start_seconds": 841.28,
+    "end_seconds": 847.82,
+    "text": "We were like the two undergrads in Karthik's lab. I, and then some others joined later as well, but yeah, Shun Yu is great."
+  },
+  {
+    "segment_id": "tr-00092",
+    "start_seconds": 848.0,
+    "end_seconds": 854.02,
+    "text": "I, I did not know he was like such a superstar until like later on, like after I left, but. Yeah. I mean like, like, okay."
+  },
+  {
+    "segment_id": "tr-00093",
+    "start_seconds": 854.12,
+    "end_seconds": 864.46,
+    "text": "So there are very few PhD students. Like yours is, yours is like the next one. Like once a year we feature someone like who is like basically entire PhD, uh, has been like on target."
+  },
+  {
+    "segment_id": "tr-00094",
+    "start_seconds": 864.94,
+    "end_seconds": 873.78,
+    "text": "There's not that many of them. Shun Yu was like clearly one of them. And, uh, you know, Jack, Jack Morris is another one. And like, you know, we talked before the show, we talked about research tastes, right?"
+  },
+  {
+    "segment_id": "tr-00095",
+    "start_seconds": 873.84,
+    "end_seconds": 881.2,
+    "text": "Like somehow some grad students just have a very blessed career where like, yeah, mostly like, yep, yep, yep, yep. This is like going to stick around relevant."
+  },
+  {
+    "segment_id": "tr-00096",
+    "start_seconds": 881.38,
+    "end_seconds": 890.78,
+    "text": "Everyone should know this. Yeah. And then others just nothing. I think this is also true of like even people within like industry labs as well."
+  },
+  {
+    "segment_id": "tr-00097",
+    "start_seconds": 891.0,
+    "end_seconds": 902.0,
+    "text": "I think it's just like grad students are a lot more visible. So you just see, like, you see, like, you know, there are some people who really like get lucky in like, or I mean, it's, it's a mix of being lucky and also being very smart and things like that."
+  },
+  {
+    "segment_id": "tr-00098",
+    "start_seconds": 902.12,
+    "end_seconds": 914.14,
+    "text": "I think like with, with research tastes as well, like I think it, it gets, it gets developed through opportunities, at least in my case, like I got, I was very fortunate to have like taken the path that I took,"
+  },
+  {
+    "segment_id": "tr-00099",
+    "start_seconds": 914.5,
+    "end_seconds": 926.58,
+    "text": "like working at Princeton and then like later, like finding my advice, like Omar at MIT, like he's a fantastic advisor. I will say though, I, I find that the most successful research from grad students"
+  },
+  {
+    "segment_id": "tr-00100",
+    "start_seconds": 926.58,
+    "end_seconds": 934.94,
+    "text": "or like in academia comes when people care about problems that maybe like most people in industry are not looking at."
+  },
+  {
+    "segment_id": "tr-00101",
+    "start_seconds": 935.08,
+    "end_seconds": 942.36,
+    "text": "I think this is the issue that like a lot of grad students work on things that benefit, like that look good to an industry lab."
+  },
+  {
+    "segment_id": "tr-00102",
+    "start_seconds": 942.48,
+    "end_seconds": 951.06,
+    "text": "Like for example, they'll work on some, like some benchmark. It's really popular now. I mean, I think benchmarks in 2023 were a very different story than benchmarks."
+  },
+  {
+    "segment_id": "tr-00103",
+    "start_seconds": 951.34,
+    "end_seconds": 959.74,
+    "text": "Now there are a lot of people that work on like harnesses and like meta harnesses and like specific harnesses for XYZ task."
+  },
+  {
+    "segment_id": "tr-00104",
+    "start_seconds": 959.96,
+    "end_seconds": 971.92,
+    "text": "And when you really think about it, the reason someone would work on this is like, maybe there's like a clear goal shaped around the models that we have today of like, this is what I want to see."
+  },
+  {
+    "segment_id": "tr-00105",
+    "start_seconds": 972.22,
+    "end_seconds": 980.4,
+    "text": "But like, I'll give, I'll give the, the like RLM, like the recursive language model paper as an example, because I think like, it's a super, super simple idea."
+  },
+  {
+    "segment_id": "tr-00106",
+    "start_seconds": 980.74,
+    "end_seconds": 987.38,
+    "text": "I think when it came out as well, like there were a lot of people that were like, when they see something like that, they're like, what is even the purpose of this?"
+  },
+  {
+    "segment_id": "tr-00107",
+    "start_seconds": 987.48,
+    "end_seconds": 1000.22,
+    "text": "Or like, yeah, like why, like what, this is just sub agents or something. Right. And I think it's like, when you get a reaction like that, it's almost like a good sign in the sense that like, it's clear that people aren't"
+  },
+  {
+    "segment_id": "tr-00108",
+    "start_seconds": 1000.22,
+    "end_seconds": 1008.28,
+    "text": "thinking about what the purpose of this is. And I will give another example of like Sweetbench. When Sweetbench came out, I mean, Ophir loves to tell this story."
+  },
+  {
+    "segment_id": "tr-00109",
+    "start_seconds": 1008.6,
+    "end_seconds": 1015.76,
+    "text": "When it came out, like nobody cared. Like everybody was like, this is an impossible task. Like why would we ever even consider this as a benchmark?"
+  },
+  {
+    "segment_id": "tr-00110",
+    "start_seconds": 1015.98,
+    "end_seconds": 1028.28,
+    "text": "And it wasn't until Devin came out that everyone was like, whoa, like this is something we want to hill climb. And I think this is, this, this rings true for, you tend to see that a lot of ideas, I think like the, my"
+  },
+  {
+    "segment_id": "tr-00111",
+    "start_seconds": 1028.28,
+    "end_seconds": 1035.44,
+    "text": "favorite, I guess, example of this is Eric Seligman's work with like Star and like Quiet Star."
+  },
+  {
+    "segment_id": "tr-00112",
+    "start_seconds": 1035.6,
+    "end_seconds": 1041.84,
+    "text": "Like I think when you read the paper, at least when I first read the paper, I was like, is this not like an obvious idea?"
+  },
+  {
+    "segment_id": "tr-00113",
+    "start_seconds": 1042.14,
+    "end_seconds": 1050.1,
+    "text": "Or maybe not. I don't know. I mean, I was like, oh, this seems really simple. Or like Chain of Thought. And it's same thing. Or like Chinyu's React. It's like, okay, like, yeah, I mean, sure."
+  },
+  {
+    "segment_id": "tr-00114",
+    "start_seconds": 1050.28,
+    "end_seconds": 1061.72,
+    "text": "But then like, when you really think about it, it's like, why, what is the value of the paper? And I think it comes from like, it tells a bit of a story as to like what you want the field to look like."
+  },
+  {
+    "segment_id": "tr-00115",
+    "start_seconds": 1061.8,
+    "end_seconds": 1073.86,
+    "text": "And that is something that it's very hard to do this in academia, because if you look at all these papers, Quiet Star, React, RLMs, Sweebench, none of these papers are, it's not like a GPT"
+  },
+  {
+    "segment_id": "tr-00116",
+    "start_seconds": 1073.86,
+    "end_seconds": 1081.54,
+    "text": "-6 Astro release. You know, it's not like everyone's like, oh my gosh, like I'm going to use this now. This is the best thing in the world. Like academia just can't afford to do this, at least right now."
+  },
+  {
+    "segment_id": "tr-00117",
+    "start_seconds": 1081.68,
+    "end_seconds": 1093.68,
+    "text": "I mean, there's a whole slew of reasons why I think that should change. But I think it's like, if you don't have, as a PhD student, I think you're in such a unique position where you can work on literally whatever"
+  },
+  {
+    "segment_id": "tr-00118",
+    "start_seconds": 1093.68,
+    "end_seconds": 1104.32,
+    "text": "you want, for the most part. If you're not taking advantage of that and working on things that like nobody cares about, or like people see as some trivial thing, like, oh, I thought about this, but like, I don't use it."
+  },
+  {
+    "segment_id": "tr-00119",
+    "start_seconds": 1104.64,
+    "end_seconds": 1112.24,
+    "text": "I just think like, in the end, the research is just never going to be that interesting because you kind of need to take big bets if you're going to be in academia."
+  },
+  {
+    "segment_id": "tr-00120",
+    "start_seconds": 1112.42,
+    "end_seconds": 1124.62,
+    "text": "Because otherwise, I think like, just go to an industry lab, like, you know, they have tons of resources, tons of talent. Why constrain yourself in an area where you don't have a lot of resources and like, there's not even that many people around."
+  },
+  {
+    "segment_id": "tr-00121",
+    "start_seconds": 1124.8,
+    "end_seconds": 1133.7,
+    "text": "And I think it's just, it literally just comes down to like big bets. You just have to take big bets. And like, a lot of them will fail, you know, like, that's just, it's natural."
+  },
+  {
+    "segment_id": "tr-00122",
+    "start_seconds": 1133.96,
+    "end_seconds": 1146.08,
+    "text": "But I think that is, as a PhD student, like, that's the biggest advantage you have over any single person at another lab, because you don't have to deal with bureaucracy and all these"
+  },
+  {
+    "segment_id": "tr-00123",
+    "start_seconds": 1146.08,
+    "end_seconds": 1158.2,
+    "text": "other things. Fair enough. Yeah. I asked a lot of people this question, and usually they hand wave away. So I think I appreciate that you're actually giving a thoughtful response on like, no, like, this is your unfair advantage, because everything"
+  },
+  {
+    "segment_id": "tr-00124",
+    "start_seconds": 1158.2,
+    "end_seconds": 1167.98,
+    "text": "else is biased against you, basically. Yeah, exactly. And so like, it's honestly, I will bring up Jev as an example, because it's not an academic project."
+  },
+  {
+    "segment_id": "tr-00125",
+    "start_seconds": 1168.2,
+    "end_seconds": 1174.54,
+    "text": "I want to bring this up, because this also happened with RLMs, and it happens with many other works, like things get overhyped, right?"
+  },
+  {
+    "segment_id": "tr-00126",
+    "start_seconds": 1174.62,
+    "end_seconds": 1187.22,
+    "text": "To an extent, like something gets overhyped, and then people are like, why is this overhyped? Like, this is trivial, this is stupid. And I saw the same thing with Jev, because I think the release was like, I mean, there is this whole thing about like, academics,"
+  },
+  {
+    "segment_id": "tr-00127",
+    "start_seconds": 1187.42,
+    "end_seconds": 1199.6,
+    "text": "or they're not an academic group, but like, people have to do branding, and they have to like, kind of market their research. And so like, I understand. But I think there was a lot of discourse about Jev just being like something we've"
+  },
+  {
+    "segment_id": "tr-00128",
+    "start_seconds": 1199.6,
+    "end_seconds": 1205.92,
+    "text": "known for years. And I think it's kind of missing the point of like, why is such a system so interesting?"
+  },
+  {
+    "segment_id": "tr-00129",
+    "start_seconds": 1206.3,
+    "end_seconds": 1213.34,
+    "text": "It's why is it not just some stupid MLP classifier that like, we've we've been doing, you know, back in our intro ML classes or something."
+  },
+  {
+    "segment_id": "tr-00130",
+    "start_seconds": 1213.54,
+    "end_seconds": 1222.58,
+    "text": "I think what's really interesting about Jev is that it kind of opens up this question of, are language models correct?"
+  },
+  {
+    "segment_id": "tr-00131",
+    "start_seconds": 1222.86,
+    "end_seconds": 1229.36,
+    "text": "Like in the form that they're in, can we consider a different design space other than text to text?"
+  },
+  {
+    "segment_id": "tr-00132",
+    "start_seconds": 1229.62,
+    "end_seconds": 1235.64,
+    "text": "What they're doing is they're basically saying like, I will take advantage of this language model backbone."
+  },
+  {
+    "segment_id": "tr-00133",
+    "start_seconds": 1235.84,
+    "end_seconds": 1247.86,
+    "text": "Like I know it captures a lot of information about language, language. But I'm going to change the output space of the model to give you a trade off, which is I will do very, very fast inference over"
+  },
+  {
+    "segment_id": "tr-00134",
+    "start_seconds": 1247.86,
+    "end_seconds": 1258.22,
+    "text": "like, if you have some prior about this problem, like, let's say I only need to make a binary classification. Am I going to ask my language model to do this and pay like a 400x cost?"
+  },
+  {
+    "segment_id": "tr-00135",
+    "start_seconds": 1258.56,
+    "end_seconds": 1270.64,
+    "text": "No, it's like silly, right? And I think for the longest time, because the labs are the only places that control, you're never going to use something other than like GPT -6 or Fable because they're"
+  },
+  {
+    "segment_id": "tr-00136",
+    "start_seconds": 1270.64,
+    "end_seconds": 1280.56,
+    "text": "the best models. But because of that, like people have gotten kind of accustomed to this idea that a language model is just a autoregressive decoder."
+  },
+  {
+    "segment_id": "tr-00137",
+    "start_seconds": 1280.74,
+    "end_seconds": 1289.06,
+    "text": "Like we have accepted this. And I think when RLMs came out, it was the same thing. Like one of the comments, like a very frequent criticism I got was like, this is not a language model."
+  },
+  {
+    "segment_id": "tr-00138",
+    "start_seconds": 1289.1,
+    "end_seconds": 1299.16,
+    "text": "Or like when I look at this, like I thought it was a new architecture, but it's actually not. And my response to that is like, well, a language model is just modeling language."
+  },
+  {
+    "segment_id": "tr-00139",
+    "start_seconds": 1299.34,
+    "end_seconds": 1311.42,
+    "text": "It doesn't have to be this transformer decoder, you know? And Jeb is really, really interesting in that like, we now have a new thing to tune, which is like, what is the"
+  },
+  {
+    "segment_id": "tr-00140",
+    "start_seconds": 1311.42,
+    "end_seconds": 1319.46,
+    "text": "output space and how does this affect inference latency? And I think we can actually start asking this about various parts of the language model itself."
+  },
+  {
+    "segment_id": "tr-00141",
+    "start_seconds": 1320.42,
+    "end_seconds": 1327.1,
+    "text": "We are seeing this too with like loop transformers. It's a similar idea of a lot of the attention around it was like, this is a silly idea."
+  },
+  {
+    "segment_id": "tr-00142",
+    "start_seconds": 1327.26,
+    "end_seconds": 1339.28,
+    "text": "Like why, who cares about this? But it's like, it is a simple idea, but it's actually, it opens up a whole new set of questions that I think like, especially if you're a PhD student, these are the things that"
+  },
+  {
+    "segment_id": "tr-00143",
+    "start_seconds": 1339.28,
+    "end_seconds": 1346.2,
+    "text": "you want to answer. Because I think it's like, we don't know. For Jeb, for example, we don't know how far we can take this."
+  },
+  {
+    "segment_id": "tr-00144",
+    "start_seconds": 1346.6,
+    "end_seconds": 1358.12,
+    "text": "For loop transformers, we also don't know how far we can take this. What if you loop only a subset of the model? What if you route to like only, like you have some router to different parts of the model?"
+  },
+  {
+    "segment_id": "tr-00145",
+    "start_seconds": 1358.36,
+    "end_seconds": 1367.82,
+    "text": "Like, can you mimic what you do in a harness inside of the model? What can you bridge between a harness choice and a model architecture choice?"
+  },
+  {
+    "segment_id": "tr-00146",
+    "start_seconds": 1367.98,
+    "end_seconds": 1375.82,
+    "text": "These are all questions I think that open up with works like this. And that's like really exciting. Jeb in particular, when I saw it, I was like, this is actually really useful for RLMs."
+  },
+  {
+    "segment_id": "tr-00147",
+    "start_seconds": 1376.08,
+    "end_seconds": 1382.76,
+    "text": "Like I think it's, it's, it makes sense because the biggest bottleneck in RLMs or swarms or systems like these is they're slow."
+  },
+  {
+    "segment_id": "tr-00148",
+    "start_seconds": 1383.0,
+    "end_seconds": 1395.12,
+    "text": "When you do multiple language model calls all the time, you're not distributing your compute correctly because like maybe there's something trivial that you just want a simple model to do, but you can't do it because your language model is"
+  },
+  {
+    "segment_id": "tr-00149",
+    "start_seconds": 1395.12,
+    "end_seconds": 1407.18,
+    "text": "just this, this bulky thing, you know? So I'm very excited. I think, I think we will start to see new types of models emerge beyond just the bog standard"
+  },
+  {
+    "segment_id": "tr-00150",
+    "start_seconds": 1407.18,
+    "end_seconds": 1413.68,
+    "text": "frontier model. And that is like, there's so many things that you can do with these like new trade -offs."
+  },
+  {
+    "segment_id": "tr-00151",
+    "start_seconds": 1414.18,
+    "end_seconds": 1425.88,
+    "text": "Also shout out Thinky with their interaction models. Yes. Yeah. Yeah. Another great example. Yeah. So like basically try to break the paradigm from sequence to sequence, decoder only, and just literally do anything else."
+  },
+  {
+    "segment_id": "tr-00152",
+    "start_seconds": 1426.06,
+    "end_seconds": 1438.72,
+    "text": "Yeah. I mean, there's, there's a level of, if you're trying to compete, you're not going to compete with a frontier lab doing an auto aggressive decoder on, like the amount of compute scaling resources they have, even"
+  },
+  {
+    "segment_id": "tr-00153",
+    "start_seconds": 1438.72,
+    "end_seconds": 1445.52,
+    "text": "Thinky will not, you know, okay, there may be one of the handful that can, but you're not really going to do much in that."
+  },
+  {
+    "segment_id": "tr-00154",
+    "start_seconds": 1445.92,
+    "end_seconds": 1454.6,
+    "text": "I don't know too much about Thinky or I don't want to say anything either, but it's like, if their strategy is just to replicate open AI or Anthropic, like that's a horrible strategy."
+  },
+  {
+    "segment_id": "tr-00155",
+    "start_seconds": 1455.34,
+    "end_seconds": 1462.12,
+    "text": "Well, because like, I mean, they just don't have, like, you kind of just have to think of it in terms of like, what advantage do you have?"
+  },
+  {
+    "segment_id": "tr-00156",
+    "start_seconds": 1462.26,
+    "end_seconds": 1471.66,
+    "text": "And if, if you're going to use the same setup, I'm sure they're not, but it's like, if you're going to do the same setup, like you're basically competing on the things you can control, which is data and compute."
+  },
+  {
+    "segment_id": "tr-00157",
+    "start_seconds": 1471.76,
+    "end_seconds": 1483.08,
+    "text": "And obviously they cannot compete with the frontier labs on that. So yeah, it makes sense that like, if you are a Neolab, like, actually, I don't know if you would consider them to be a Neolab, but I guess like, I guess they're kind of a weird one."
+  },
+  {
+    "segment_id": "tr-00158",
+    "start_seconds": 1483.22,
+    "end_seconds": 1494.24,
+    "text": "Yeah. In that list, they ship Inkling, like they can't. Anything other than open AI, Anthropic, maybe like meta and GDM, like you just, you got to do something else, you know?"
+  },
+  {
+    "segment_id": "tr-00159",
+    "start_seconds": 1494.38,
+    "end_seconds": 1506.62,
+    "text": "Like it's just, it's the sad reality, but I think, I actually think it's a good thing. I'm very happy that like scale works and these companies will just keep doing it because it opens up like"
+  },
+  {
+    "segment_id": "tr-00160",
+    "start_seconds": 1506.62,
+    "end_seconds": 1516.92,
+    "text": "potentially new players. Like if they uncover something really, really interesting, because I sort of have my doubts that this is like seriously going on at frontier labs."
+  },
+  {
+    "segment_id": "tr-00161",
+    "start_seconds": 1517.04,
+    "end_seconds": 1523.98,
+    "text": "Cause it's like, like, why would you do that? You know, like, why would you take the risk of allocating a large amount of compute to new bets when the old bet already works?"
+  },
+  {
+    "segment_id": "tr-00162",
+    "start_seconds": 1524.14,
+    "end_seconds": 1530.92,
+    "text": "So, and I think that's what spins off a lot of Neolabs, right? You have a side bet and you don't get compute and you're like, okay, I'll go."
+  },
+  {
+    "segment_id": "tr-00163",
+    "start_seconds": 1531.04,
+    "end_seconds": 1541.4,
+    "text": "I'll go. Exactly. And you know, your example of the potential upside is something like JEV, which is X hundred times cheaper, you know, comes out and maybe it is language model."
+  },
+  {
+    "segment_id": "tr-00164",
+    "start_seconds": 1541.56,
+    "end_seconds": 1551.14,
+    "text": "In this case, it's just different. Yeah, yeah, yeah. Yeah. So no speculation on what JEV actually is. I guess I have some guesses for what it might be."
+  },
+  {
+    "segment_id": "tr-00165",
+    "start_seconds": 1551.28,
+    "end_seconds": 1557.92,
+    "text": "I have seen some people say like, oh, it's like a diffusion thing. I guess that... Which is the parallel decode."
+  },
+  {
+    "segment_id": "tr-00166",
+    "start_seconds": 1557.92,
+    "end_seconds": 1565.62,
+    "text": "Yeah. Parallel decode. Honestly, I think regardless of what it actually is, because I think you can, I've seen some like open source replications of it."
+  },
+  {
+    "segment_id": "tr-00167",
+    "start_seconds": 1566.18,
+    "end_seconds": 1574.7,
+    "text": "What is really exciting to me about what they did is I'm not entirely sure what their optimization objective was and how they trained it."
+  },
+  {
+    "segment_id": "tr-00168",
+    "start_seconds": 1574.86,
+    "end_seconds": 1582.88,
+    "text": "And I think like, this is a thing for RLMs that we've also been thinking about, which is like, okay, like RLMs are a very simple idea."
+  },
+  {
+    "segment_id": "tr-00169",
+    "start_seconds": 1583.16,
+    "end_seconds": 1595.64,
+    "text": "If I come out with this paper, like anyone can use it now. But what distinguishes the actual value of an RLM is whether or not you can train it properly and whether or not maybe you can mold some architecture around this"
+  },
+  {
+    "segment_id": "tr-00170",
+    "start_seconds": 1595.64,
+    "end_seconds": 1606.68,
+    "text": "system to make it really, really good. And that's something that like, I mean, I'm actively working on, I guess. But I think for them, like they figured out a way to train the system, which is completely non -trivial."
+  },
+  {
+    "segment_id": "tr-00171",
+    "start_seconds": 1606.84,
+    "end_seconds": 1618.92,
+    "text": "Like I actually don't really know how they did it. And I've seen some comparisons online of, you know, some people are claiming they used Quen or they post -train on top of Quen, but every open source Quen that you use is going to be"
+  },
+  {
+    "segment_id": "tr-00172",
+    "start_seconds": 1618.92,
+    "end_seconds": 1631.12,
+    "text": "worse because whatever they did to train it clearly works very well. And so that's, that's very exciting. There's one element of calibration, which is a, is a rare topic that I don't think people even knew about"
+  },
+  {
+    "segment_id": "tr-00173",
+    "start_seconds": 1631.12,
+    "end_seconds": 1643.14,
+    "text": "or understood. We covered it with our conversation with Clementine Forio of Hugging Face and she used to run the evals at Hugging Face, which is basically the idea that, you know, models are attuned"
+  },
+  {
+    "segment_id": "tr-00174",
+    "start_seconds": 1643.14,
+    "end_seconds": 1650.26,
+    "text": "to give you the most likely next token, but they're going to lie to you when you ask them, how confident are you?"
+  },
+  {
+    "segment_id": "tr-00175",
+    "start_seconds": 1650.42,
+    "end_seconds": 1656.86,
+    "text": "Because they're just going to give you the most likely next answer instead of like, actually like, no, let's calibrate. Like I am actually 50 % sure."
+  },
+  {
+    "segment_id": "tr-00176",
+    "start_seconds": 1657.02,
+    "end_seconds": 1669.08,
+    "text": "I am 20 % sure. And like, let's try to calibrate that. I would say like, if anything, I think that actually that's pretty easy to generate synthetic data around because you can sort of see the truth and then synthetically generate a bunch"
+  },
+  {
+    "segment_id": "tr-00177",
+    "start_seconds": 1669.08,
+    "end_seconds": 1681.28,
+    "text": "of answers, have Jeff classify it and then compare it with ground truth. That would be my reverse engineering. I've actually, I think calibration is probably the under, like people are just using it as a very fast classifier, but they're actually not even using the"
+  },
+  {
+    "segment_id": "tr-00178",
+    "start_seconds": 1681.28,
+    "end_seconds": 1690.38,
+    "text": "probability or calibration estimates. Yeah. Yeah. I think it's also still just misunderstood to, to reiterate, when you ask a model, how confident are you?"
+  },
+  {
+    "segment_id": "tr-00179",
+    "start_seconds": 1690.58,
+    "end_seconds": 1696.9,
+    "text": "It will spew out what 43%. Uh, the, the big Delta is this is a grounded classification, right?"
+  },
+  {
+    "segment_id": "tr-00180",
+    "start_seconds": 1697.2,
+    "end_seconds": 1703.68,
+    "text": "Yeah. Yeah. I'm, I'm very excited to see what people do with this model. I mean, is it going to solve everything?"
+  },
+  {
+    "segment_id": "tr-00181",
+    "start_seconds": 1703.82,
+    "end_seconds": 1710.32,
+    "text": "Like, no, of course not. But I think it solves a class of problems that we traditionally struggled with, which is low latency things."
+  },
+  {
+    "segment_id": "tr-00182",
+    "start_seconds": 1710.5,
+    "end_seconds": 1719.12,
+    "text": "So I love the examples with games. That's actually like, I mean, I have a doom example. Very good. I have a benchmark on language models playing video games."
+  },
+  {
+    "segment_id": "tr-00183",
+    "start_seconds": 1719.2,
+    "end_seconds": 1726.82,
+    "text": "I've always been fascinated by whether you can have an intelligent system, play new games and things of, of, of this nature."
+  },
+  {
+    "segment_id": "tr-00184",
+    "start_seconds": 1726.98,
+    "end_seconds": 1738.7,
+    "text": "And so I think it's really, really cool that they have sort of a unique way to do this, to capture language and understanding in like a fast, a very, very fast model."
+  },
+  {
+    "segment_id": "tr-00185",
+    "start_seconds": 1738.88,
+    "end_seconds": 1746.38,
+    "text": "Well, while you're on the topic, anything you want to point out? Oh yeah. I mean, you know, you did do a benchmark. So, um, yeah, yeah, yeah."
+  },
+  {
+    "segment_id": "tr-00186",
+    "start_seconds": 1746.58,
+    "end_seconds": 1757.76,
+    "text": "Um, I guess these numbers are very outdated. A lot of the models are, are, are very different. And I've seen actually people run, there, there are some folks out there that are running newer models on these games, which is really cool."
+  },
+  {
+    "segment_id": "tr-00187",
+    "start_seconds": 1758.14,
+    "end_seconds": 1768.24,
+    "text": "I guess the general premise of this benchmark was we just want to see if vision language models are good enough at just like plugging into games with the latency constraint included."
+  },
+  {
+    "segment_id": "tr-00188",
+    "start_seconds": 1768.4,
+    "end_seconds": 1780.64,
+    "text": "Cause this, this actually, I came out with this right after Claude Plays Pokemon came out. Um, so this was like two years ago, which I guess is like ancient now, but I think what's really, really cool about this suite of"
+  },
+  {
+    "segment_id": "tr-00189",
+    "start_seconds": 1780.64,
+    "end_seconds": 1790.6,
+    "text": "tasks. It's very diverse in terms of what games they are. And also I think most of the games are games that people know or like have seen before."
+  },
+  {
+    "segment_id": "tr-00190",
+    "start_seconds": 1790.6,
+    "end_seconds": 1802.6,
+    "text": "I saw, yeah, Jev playing doom. I will say, I don't think, I think they were just playing like really simple levels and stuff, but honestly, like most models still can't really"
+  },
+  {
+    "segment_id": "tr-00191",
+    "start_seconds": 1802.6,
+    "end_seconds": 1811.9,
+    "text": "do, or I don't actually think any models can solve these games very meaningfully. Like there's some games that they can. I think I've seen Astra be able to solve the Kirby game."
+  },
+  {
+    "segment_id": "tr-00192",
+    "start_seconds": 1812.12,
+    "end_seconds": 1823.7,
+    "text": "And we also, for this benchmark, we intentionally designed a really minimal harness. And I will get to this point about harnesses, because I think there's a whole conversation to be had about like, what is the value of a harness?"
+  },
+  {
+    "segment_id": "tr-00193",
+    "start_seconds": 1823.86,
+    "end_seconds": 1834.7,
+    "text": "Like what is even the purpose of harness for a model? But in general, like, I think it's, uh, yeah, I, I hope to see very quickly or very soon, like all of these games be in by newer models."
+  },
+  {
+    "segment_id": "tr-00194",
+    "start_seconds": 1835.04,
+    "end_seconds": 1842.48,
+    "text": "Yeah. It's interesting. Like the old, old Claude Plays Pokemon, they like red state from Ram and saw what tiles are walkable and whatnot."
+  },
+  {
+    "segment_id": "tr-00195",
+    "start_seconds": 1842.6,
+    "end_seconds": 1848.62,
+    "text": "We did a podcast with them a long, long time ago. Gotcha. Gotcha. Yeah. I mean, it's similar, right? Like Jeff doesn't have vision."
+  },
+  {
+    "segment_id": "tr-00196",
+    "start_seconds": 1848.82,
+    "end_seconds": 1856.02,
+    "text": "So you have to kind of, feed in, uh, these like, uh, game state and all these things. I mean, let's go right into the harness stuff because you met, you brought it up."
+  },
+  {
+    "segment_id": "tr-00197",
+    "start_seconds": 1856.22,
+    "end_seconds": 1862.38,
+    "text": "Language model harnesses, a compositional, generalizes. Yes. I'm going to read that one. Explain. Yes."
+  },
+  {
+    "segment_id": "tr-00198",
+    "start_seconds": 1862.6,
+    "end_seconds": 1874.68,
+    "text": "Okay. Okay. So I have been a little unsatisfied maybe with, with how people think about harnesses because people compare like, oh, like I love cloud"
+  },
+  {
+    "segment_id": "tr-00199",
+    "start_seconds": 1874.68,
+    "end_seconds": 1881.18,
+    "text": "code. I love codex. I love PI. Like, no, I love, oh my PI. I love prime agent. It's to be honest."
+  },
+  {
+    "segment_id": "tr-00200",
+    "start_seconds": 1881.42,
+    "end_seconds": 1893.94,
+    "text": "I think all of them are the same. Most of the design decisions are like the design choices around these harnesses are the same. Maybe prime agent is a little bit different because it's like inherently an RLM, but in general, like, I think we can be a lot more creative with harnesses."
+  },
+  {
+    "segment_id": "tr-00201",
+    "start_seconds": 1894.02,
+    "end_seconds": 1901.0,
+    "text": "And what I mean by that is if we think about this from the perspective of what exactly is the harness doing for the model?"
+  },
+  {
+    "segment_id": "tr-00202",
+    "start_seconds": 1901.36,
+    "end_seconds": 1910.62,
+    "text": "Well, basically when you're trying to solve a problem and you want to use a language model to solve it, like a very difficult task."
+  },
+  {
+    "segment_id": "tr-00203",
+    "start_seconds": 1910.96,
+    "end_seconds": 1917.24,
+    "text": "One thing that we have discovered is that next token prediction is a really, really awkward form to do a lot of these tasks."
+  },
+  {
+    "segment_id": "tr-00204",
+    "start_seconds": 1917.4,
+    "end_seconds": 1927.12,
+    "text": "So for example, take Sweebench. When you're navigating a code base, like, are you going to be able to figure out how to do all of this with a single language model call?"
+  },
+  {
+    "segment_id": "tr-00205",
+    "start_seconds": 1927.26,
+    "end_seconds": 1936.02,
+    "text": "Like you just say, solve code or like solve my query over this code base? No. So we rely on a harness to help you do these kinds of things."
+  },
+  {
+    "segment_id": "tr-00206",
+    "start_seconds": 1936.06,
+    "end_seconds": 1948.6,
+    "text": "And I think what is interesting is like a harness is a very, very opinionated program over how you want a language model to be form fit over"
+  },
+  {
+    "segment_id": "tr-00207",
+    "start_seconds": 1948.6,
+    "end_seconds": 1960.76,
+    "text": "a problem. And I bring this up because when we think about what a harness is doing, we should really think about like what choices in the harness let the language model solve this task."
+  },
+  {
+    "segment_id": "tr-00208",
+    "start_seconds": 1960.9,
+    "end_seconds": 1973.2,
+    "text": "And can I actually just have a language model that just does this? Because a harness, if you think about it, now that loop transformers are a thing, I think what's really interesting about it is you can model"
+  },
+  {
+    "segment_id": "tr-00209",
+    "start_seconds": 1973.2,
+    "end_seconds": 1979.88,
+    "text": "a loop transformer in some ways, like with a harness as well, right? You're just looping over the model. Now you can say like, oh, I'm not decoding."
+  },
+  {
+    "segment_id": "tr-00210",
+    "start_seconds": 1980.04,
+    "end_seconds": 1988.38,
+    "text": "So it's like a little bit different. But in general, we, for whatever reason, have stuck with the same model architecture choice forever."
+  },
+  {
+    "segment_id": "tr-00211",
+    "start_seconds": 1988.6,
+    "end_seconds": 1994.92,
+    "text": "And there's many arguments for why, but clearly like we are now training models around harness rollouts."
+  },
+  {
+    "segment_id": "tr-00212",
+    "start_seconds": 1995.1,
+    "end_seconds": 2004.96,
+    "text": "And so there is this very awkward way of doing training over harnesses, which is that we train a language model to act within a harness."
+  },
+  {
+    "segment_id": "tr-00213",
+    "start_seconds": 2005.16,
+    "end_seconds": 2012.04,
+    "text": "But like now it's like a really long, maybe like multiple agent rollout that we're doing. And there's like really awkward hacky ways of doing this."
+  },
+  {
+    "segment_id": "tr-00214",
+    "start_seconds": 2012.28,
+    "end_seconds": 2024.54,
+    "text": "So what this blog talks about is like, well, one way you can think about what is going on here is if the harness is basically helping the"
+  },
+  {
+    "segment_id": "tr-00215",
+    "start_seconds": 2024.54,
+    "end_seconds": 2036.08,
+    "text": "model solve a particular task, can different harness design choices actually do something a little bit more meaningful beyond just here are some tool calls that will help you here as a way to grep through your code base."
+  },
+  {
+    "segment_id": "tr-00216",
+    "start_seconds": 2036.48,
+    "end_seconds": 2043.08,
+    "text": "And so this actually the idea for this blog came with the RLM idea as well."
+  },
+  {
+    "segment_id": "tr-00217",
+    "start_seconds": 2043.24,
+    "end_seconds": 2052.08,
+    "text": "We just didn't package it that way. And I think this is actually true. There are many other ideas around RLMs that like we will be coming out with, but we're all there from the beginning."
+  },
+  {
+    "segment_id": "tr-00218",
+    "start_seconds": 2052.24,
+    "end_seconds": 2063.32,
+    "text": "I mean, these are all design decisions around. I think with what is what I like about the RLM is that there were many, many, many iterations and versions of different abstractions that I was interested in doing."
+  },
+  {
+    "segment_id": "tr-00219",
+    "start_seconds": 2063.5,
+    "end_seconds": 2071.34,
+    "text": "And ultimately the RLM made the most sense. But there's a lot of reasons that aren't public as to why that's the case. I mean, you will see."
+  },
+  {
+    "segment_id": "tr-00220",
+    "start_seconds": 2071.42,
+    "end_seconds": 2084.32,
+    "text": "So in this example, one of the things that we see with an RLM is that if you sufficiently offload context and write, ask the model to write code over that context, you get this really, really weird"
+  },
+  {
+    "segment_id": "tr-00221",
+    "start_seconds": 2084.32,
+    "end_seconds": 2096.52,
+    "text": "but useful property, which is that when the model recognizes during training how to solve a task, it turns out that the solution to many tasks is very similar across like"
+  },
+  {
+    "segment_id": "tr-00222",
+    "start_seconds": 2096.52,
+    "end_seconds": 2108.2,
+    "text": "tasks where you don't even like it's not even that clear to you that the solutions are similar. So in this example, we have like a retrieval task and we have like a an aggregation task and they're very, very different query."
+  },
+  {
+    "segment_id": "tr-00223",
+    "start_seconds": 2108.34,
+    "end_seconds": 2116.18,
+    "text": "Like the domain is just completely different. And when you train a regular language model over these two tasks, the trajectory is look very different."
+  },
+  {
+    "segment_id": "tr-00224",
+    "start_seconds": 2116.4,
+    "end_seconds": 2123.38,
+    "text": "And so what you're relying when you like, let's say you use pi or cloud code or something, which is not in this blog, but we do have these results."
+  },
+  {
+    "segment_id": "tr-00225",
+    "start_seconds": 2123.86,
+    "end_seconds": 2130.4,
+    "text": "You'll find that like these harnesses distinguish too much between these problems, even though the solutions are the same."
+  },
+  {
+    "segment_id": "tr-00226",
+    "start_seconds": 2130.64,
+    "end_seconds": 2136.68,
+    "text": "And so one thing that we find when training RLMs is that like when it sees these problems, it's the same."
+  },
+  {
+    "segment_id": "tr-00227",
+    "start_seconds": 2136.9,
+    "end_seconds": 2144.94,
+    "text": "And the reason it sees these problems as the same is the sub agent sees different problems, but the sub agent is solving an easier subtask."
+  },
+  {
+    "segment_id": "tr-00228",
+    "start_seconds": 2145.06,
+    "end_seconds": 2155.8,
+    "text": "And so you're confident it's smart enough to do it. But for the base overall strategy, they end up looking the same. And so when you train on the left task, for example, it can immediately solve the right task."
+  },
+  {
+    "segment_id": "tr-00229",
+    "start_seconds": 2155.96,
+    "end_seconds": 2168.22,
+    "text": "And so if you go down to like the plots that we have, one thing you'll kind of observe is that the, as you just naively train your RLM on these tasks, they naturally learn to generalize, for example,"
+  },
+  {
+    "segment_id": "tr-00230",
+    "start_seconds": 2168.42,
+    "end_seconds": 2177.48,
+    "text": "to longer tasks because the strategy is basically the same. You're just modifying like a length variable. And this actually also holds for tasks that are different."
+  },
+  {
+    "segment_id": "tr-00231",
+    "start_seconds": 2177.76,
+    "end_seconds": 2184.08,
+    "text": "And there's not even, they're not different across length. They're completely different tasks, math tasks versus writing tasks."
+  },
+  {
+    "segment_id": "tr-00232",
+    "start_seconds": 2184.18,
+    "end_seconds": 2193.68,
+    "text": "But the solution, the like meta high level solution is the same. And so when you train the RLM on one of them, it generalizes this behavior to the second one."
+  },
+  {
+    "segment_id": "tr-00233",
+    "start_seconds": 2193.8,
+    "end_seconds": 2201.62,
+    "text": "And there's no magic here. I guess maybe that's the thing that I want to kind of stress. How would you kind of verbalize what they're learning?"
+  },
+  {
+    "segment_id": "tr-00234",
+    "start_seconds": 2201.82,
+    "end_seconds": 2212.34,
+    "text": "So I think in here you say, you train it on short tasks, they generalize the stuff eight to 30 times longer. They're learning how to solve these types of problems or what's the core thing they're actually learning?"
+  },
+  {
+    "segment_id": "tr-00235",
+    "start_seconds": 2212.42,
+    "end_seconds": 2224.48,
+    "text": "Yeah. They're learning how to solve these types of problems at a certain length. And it turns out that when you take this strategy that they learned, it is directly transferable to"
+  },
+  {
+    "segment_id": "tr-00236",
+    "start_seconds": 2224.48,
+    "end_seconds": 2236.74,
+    "text": "the longer length. They're effectively the same program. And this is something that is really exciting because what this kind of implies is that when you have a corpus of data or environments that you train"
+  },
+  {
+    "segment_id": "tr-00237",
+    "start_seconds": 2236.74,
+    "end_seconds": 2248.66,
+    "text": "your model on, the hope is that like, A, you can train on less environments and generalize some more than what existing models can do through night or harnesses through existing kind of like naive training."
+  },
+  {
+    "segment_id": "tr-00238",
+    "start_seconds": 2248.82,
+    "end_seconds": 2260.84,
+    "text": "But B also, you still want to use all the data you have. So when you train on these tasks, like hopefully it generalizes to a wider class of problems and why this is also even more exciting, at least in the context"
+  },
+  {
+    "segment_id": "tr-00239",
+    "start_seconds": 2260.84,
+    "end_seconds": 2272.9,
+    "text": "of RLMs or any recursively calling system is this argument holds inductively. So like I'll give you an example because I said I claimed that competitive programming and GPU optimization use very"
+  },
+  {
+    "segment_id": "tr-00240",
+    "start_seconds": 2272.9,
+    "end_seconds": 2284.96,
+    "text": "similar skill sets. The model can the harness potentially, I mean, you might have to nudge it a certain way, but it can learn that like, OK, how I'm going to go about solving this GPU programming task is"
+  },
+  {
+    "segment_id": "tr-00241",
+    "start_seconds": 2284.96,
+    "end_seconds": 2292.7,
+    "text": "very similar to what I learned for competitive programming. So I'm going to list out a set of solutions. I'll like spawn subagents to list out promising solutions."
+  },
+  {
+    "segment_id": "tr-00242",
+    "start_seconds": 2292.9,
+    "end_seconds": 2301.24,
+    "text": "And then I'll like write this loop to go through and check these solutions, maybe evolve them and like evolve them against a verifier."
+  },
+  {
+    "segment_id": "tr-00243",
+    "start_seconds": 2301.48,
+    "end_seconds": 2309.18,
+    "text": "And between these two tasks, this looks the same. But what the subagents are doing are maybe like unique and something, something like different."
+  },
+  {
+    "segment_id": "tr-00244",
+    "start_seconds": 2309.18,
+    "end_seconds": 2316.02,
+    "text": "But even what the subagents are solving might actually also be of the same form, right? Because it's like it's a recursive argument."
+  },
+  {
+    "segment_id": "tr-00245",
+    "start_seconds": 2316.22,
+    "end_seconds": 2328.42,
+    "text": "And so what I'm trying to get at with this whole blog post is just that like we should rethink what the role of the harness is, because harnesses can actually greatly increase"
+  },
+  {
+    "segment_id": "tr-00246",
+    "start_seconds": 2328.42,
+    "end_seconds": 2335.34,
+    "text": "the generalization capability of your model and the amount of data that it's given. And this is not exclusive to RLMs."
+  },
+  {
+    "segment_id": "tr-00247",
+    "start_seconds": 2335.46,
+    "end_seconds": 2347.58,
+    "text": "I think there is a wide class of harnesses that are yet to be discovered that actually can yield similar properties. And to extend this argument a little bit further, I think what you can also extrapolate from this"
+  },
+  {
+    "segment_id": "tr-00248",
+    "start_seconds": 2347.58,
+    "end_seconds": 2356.4,
+    "text": "is like if I look at an RLM, what are the components of an RLM that are actually necessary? And can I actually just directly train a model to do this?"
+  },
+  {
+    "segment_id": "tr-00249",
+    "start_seconds": 2356.64,
+    "end_seconds": 2367.12,
+    "text": "Can I train a model to act as an RLM implicitly in its forward pass? It's a really weird thing to think about because like, you know, you might say like, oh, code is non -differentiable, blah, blah, blah, blah, blah."
+  },
+  {
+    "segment_id": "tr-00250",
+    "start_seconds": 2367.28,
+    "end_seconds": 2379.36,
+    "text": "But there are many approximations of this behavior that we will start to uncover. And I think like we will see beyond just like I'm going to design a new coding harness that"
+  },
+  {
+    "segment_id": "tr-00251",
+    "start_seconds": 2379.36,
+    "end_seconds": 2389.32,
+    "text": "uses a special form of compaction or something. I think we can be a lot more creative here. Like there's so much we can do with these language models that I think we are just not doing."
+  },
+  {
+    "segment_id": "tr-00252",
+    "start_seconds": 2389.64,
+    "end_seconds": 2401.84,
+    "text": "And I'm like very excited about this because I think like I think we can get serious gains from very, very opinionated and good harness design that lends itself better to scale."
+  },
+  {
+    "segment_id": "tr-00253",
+    "start_seconds": 2402.08,
+    "end_seconds": 2413.68,
+    "text": "And what I mean by this is like, you know, the RLM, for example, is a very primitive inductive bias. Like there's nothing super special about the design other than the fact that it's very different than what we currently do."
+  },
+  {
+    "segment_id": "tr-00254",
+    "start_seconds": 2413.74,
+    "end_seconds": 2426.2,
+    "text": "But this may potentially scale much better with like the data and environments that we have available to us. I guess the, you know, opposite thing that people would probably ask is current harnesses are"
+  },
+  {
+    "segment_id": "tr-00255",
+    "start_seconds": 2426.2,
+    "end_seconds": 2434.0,
+    "text": "very generalized towards coding, which people see works for a lot of domains. Cloud code is being used for design presentations, everything."
+  },
+  {
+    "segment_id": "tr-00256",
+    "start_seconds": 2435.46,
+    "end_seconds": 2442.24,
+    "text": "MuseSpark, GrokBot, these are very simple, non -opinionated harnesses that are good at code."
+  },
+  {
+    "segment_id": "tr-00257",
+    "start_seconds": 2442.26,
+    "end_seconds": 2448.58,
+    "text": "And that is also scaling out. What's the example of how we improve those, I guess? Hmm."
+  },
+  {
+    "segment_id": "tr-00258",
+    "start_seconds": 2448.92,
+    "end_seconds": 2455.26,
+    "text": "Yeah. Let me, let me bring up another paper, which came out very recently. It's like the harness tax paper."
+  },
+  {
+    "segment_id": "tr-00259",
+    "start_seconds": 2455.4,
+    "end_seconds": 2467.4,
+    "text": "I think it's by Arena. I really like this paper because it puts forward a prior that I had, which is basically that like most"
+  },
+  {
+    "segment_id": "tr-00260",
+    "start_seconds": 2467.4,
+    "end_seconds": 2474.68,
+    "text": "- It confirms a prior. Yeah. Like most harness choices don't matter because all of these harnesses are the same."
+  },
+  {
+    "segment_id": "tr-00261",
+    "start_seconds": 2475.12,
+    "end_seconds": 2482.22,
+    "text": "But I also like GrokBot, for example, is actually quite different, I think, from my understanding than how some of these other harnesses have been designed."
+  },
+  {
+    "segment_id": "tr-00262",
+    "start_seconds": 2482.38,
+    "end_seconds": 2492.9,
+    "text": "And I like that a lot. And I think it's clear from here, at least, that like I'm pretty sure Anthropic or OpenAI are exclusively training on their harnesses."
+  },
+  {
+    "segment_id": "tr-00263",
+    "start_seconds": 2492.98,
+    "end_seconds": 2501.18,
+    "text": "They're probably not training on their competitor's harnesses. I mean, I'd assume not because I don't know why they would do that. But I mean, you know, this is a thing you see in open models, right?"
+  },
+  {
+    "segment_id": "tr-00264",
+    "start_seconds": 2501.28,
+    "end_seconds": 2507.62,
+    "text": "Like Quen is really good at using open code. They need to train in harnesses. Old Gemmas were notoriously bad at this."
+  },
+  {
+    "segment_id": "tr-00265",
+    "start_seconds": 2508.02,
+    "end_seconds": 2520.12,
+    "text": "Models are good, but you need to train in a harness. I think though, as models get smarter or like as they get better, this distinction becomes not that important in the sense that like"
+  },
+  {
+    "segment_id": "tr-00266",
+    "start_seconds": 2520.12,
+    "end_seconds": 2527.04,
+    "text": "if you take Astra and you put it inside of open code, like it's not going to go crazy because I think it's like just sufficiently good."
+  },
+  {
+    "segment_id": "tr-00267",
+    "start_seconds": 2527.28,
+    "end_seconds": 2533.68,
+    "text": "And so I say this because the only benefits between these different harnesses is just cost for the most part."
+  },
+  {
+    "segment_id": "tr-00268",
+    "start_seconds": 2533.84,
+    "end_seconds": 2541.48,
+    "text": "And I think like what I'm getting at here is if you plug these models into RLMs, though, they're not that good still."
+  },
+  {
+    "segment_id": "tr-00269",
+    "start_seconds": 2541.66,
+    "end_seconds": 2553.78,
+    "text": "They're okay. And I think it's mainly because the types, like the class of harness that we are training around is this class of harness, this like pie loop, this like I like to call it trajectory as"
+  },
+  {
+    "segment_id": "tr-00270",
+    "start_seconds": 2553.78,
+    "end_seconds": 2561.68,
+    "text": "a prompt, which just means like you keep the whole trajectory of the rollout as the context that your main model is using."
+  },
+  {
+    "segment_id": "tr-00271",
+    "start_seconds": 2561.86,
+    "end_seconds": 2574.54,
+    "text": "Even if you use subagents, it's still like kind of this form. And I think we're going to, if we want to explore new harnesses, there needs to be teams that are dedicated to actually"
+  },
+  {
+    "segment_id": "tr-00272",
+    "start_seconds": 2574.54,
+    "end_seconds": 2581.1,
+    "text": "running meaningful experiments over like scaling out new harnesses, like maybe post -train scaling out on different harness designs."
+  },
+  {
+    "segment_id": "tr-00273",
+    "start_seconds": 2581.26,
+    "end_seconds": 2591.0,
+    "text": "Like I think we can actually get very meaningful knowledge or gains from doing this kind of thing, whether it's an RLM or whether it's something different."
+  },
+  {
+    "segment_id": "tr-00274",
+    "start_seconds": 2591.0,
+    "end_seconds": 2598.96,
+    "text": "And that's exciting because I think, for example, if you train a lot on Fable for a long time was the best model for RLMs because they had dynamic workflows."
+  },
+  {
+    "segment_id": "tr-00275",
+    "start_seconds": 2599.24,
+    "end_seconds": 2610.22,
+    "text": "And it was pretty obvious that like this was a capability that was somewhat trained in, even if the model was still like a little dumb, like in the RLM harness, it still worked a lot better than other models did."
+  },
+  {
+    "segment_id": "tr-00276",
+    "start_seconds": 2610.8,
+    "end_seconds": 2618.34,
+    "text": "Astra is now also like good enough at doing these things. But is this where we see that Fable is the best for RLMs or is there some other?"
+  },
+  {
+    "segment_id": "tr-00277",
+    "start_seconds": 2618.48,
+    "end_seconds": 2630.48,
+    "text": "Oh, no, these are all internal results, I guess. Yeah, I don't have them public right now. But in general, like I think you can, you can very easily tell that we have not"
+  },
+  {
+    "segment_id": "tr-00278",
+    "start_seconds": 2630.48,
+    "end_seconds": 2638.96,
+    "text": "optimized for RLM like workflows yet. And I think if we get models that do this correctly, they will be a lot more efficient as well."
+  },
+  {
+    "segment_id": "tr-00279",
+    "start_seconds": 2639.34,
+    "end_seconds": 2650.56,
+    "text": "I mean, you can kind of just think through like why this is the case, right? I think this is the point where you have to give the 10 second what are RLMs because there's a lot of listeners here that are assuming a lot of knowledge."
+  },
+  {
+    "segment_id": "tr-00280",
+    "start_seconds": 2650.98,
+    "end_seconds": 2658.76,
+    "text": "Also, I think, but you have set some context so you can like with everything we just said, can we have a clean, crisp definition of RLMs?"
+  },
+  {
+    "segment_id": "tr-00281",
+    "start_seconds": 2658.76,
+    "end_seconds": 2665.76,
+    "text": "Yes. Okay. I want to go back to the blog, the compositional generalizers blog. This one. Okay. Okay. This is like the best."
+  },
+  {
+    "segment_id": "tr-00282",
+    "start_seconds": 2666.2,
+    "end_seconds": 2678.44,
+    "text": "I wish I had this in the original paper. An RLM is basically just a harness design where the only tool in the harness is code,"
+  },
+  {
+    "segment_id": "tr-00283",
+    "start_seconds": 2678.72,
+    "end_seconds": 2689.54,
+    "text": "which is this programmatic subagent calling thing where it has the option to call itself as a tool and it has other tools, but all of these things are functions in code."
+  },
+  {
+    "segment_id": "tr-00284",
+    "start_seconds": 2690.02,
+    "end_seconds": 2696.76,
+    "text": "And the context that it's dealing with is always stored in some memory inside of this code environment."
+  },
+  {
+    "segment_id": "tr-00285",
+    "start_seconds": 2696.9,
+    "end_seconds": 2708.24,
+    "text": "So this could be a file system. Like this could be like, I'll give an example, prime agent, the trajectory of prime agent, like the context, even the, when you compact and do all these things is stored on disk."
+  },
+  {
+    "segment_id": "tr-00286",
+    "start_seconds": 2708.32,
+    "end_seconds": 2718.08,
+    "text": "So the model can always reference its original context, even if it's compacted and all of its tools are run inside of, let's say like a Python REPL or a bash REPL."
+  },
+  {
+    "segment_id": "tr-00287",
+    "start_seconds": 2718.26,
+    "end_seconds": 2730.0,
+    "text": "And so this, it's like this very primitive abstraction. And I would say like where most harnesses differ is a context offloading is not done that like that."
+  },
+  {
+    "segment_id": "tr-00288",
+    "start_seconds": 2730.12,
+    "end_seconds": 2742.36,
+    "text": "I mean, if you look at prime agent, by the way, prime agent does context offloading, but not all the way. So like it still maintains the standard cod code codex loop of like trajectory as a prompt"
+  },
+  {
+    "segment_id": "tr-00289",
+    "start_seconds": 2742.36,
+    "end_seconds": 2752.28,
+    "text": "where you compact, but it has the additional kind of like the context is offloaded and it only has the unique point of, of prime agent is that the only tool is, is IPython."
+  },
+  {
+    "segment_id": "tr-00290",
+    "start_seconds": 2752.6,
+    "end_seconds": 2762.18,
+    "text": "So this is like the very kind of generic abstraction around like RLMs. Concretely, what's the core thing RLMs are trying to solve?"
+  },
+  {
+    "segment_id": "tr-00291",
+    "start_seconds": 2762.38,
+    "end_seconds": 2772.24,
+    "text": "Yeah. At one point, I think when it first came out, it was context. I'll pass the question. Yeah. So the original problem was harnesses have a really bad time dealing with long context."
+  },
+  {
+    "segment_id": "tr-00292",
+    "start_seconds": 2772.48,
+    "end_seconds": 2779.66,
+    "text": "They typically were used to only really do them for like specific things like code. Like, you know, they could deal with your code base because it was trained on it."
+  },
+  {
+    "segment_id": "tr-00293",
+    "start_seconds": 2779.92,
+    "end_seconds": 2786.96,
+    "text": "But now it's more around what this blog is talking about, which is compositionality."
+  },
+  {
+    "segment_id": "tr-00294",
+    "start_seconds": 2787.28,
+    "end_seconds": 2799.48,
+    "text": "And the fact that like, I think harnesses, we want to have language model systems that have much more control over the"
+  },
+  {
+    "segment_id": "tr-00295",
+    "start_seconds": 2799.48,
+    "end_seconds": 2807.08,
+    "text": "actions they make at every step. And what I mean by this is tool calls are very limited because you have to invoke them every turn."
+  },
+  {
+    "segment_id": "tr-00296",
+    "start_seconds": 2807.24,
+    "end_seconds": 2813.54,
+    "text": "Like you have to invoke tool A, then tool B, then tool C. And there's no central context that you can kind of draw back from."
+  },
+  {
+    "segment_id": "tr-00297",
+    "start_seconds": 2814.62,
+    "end_seconds": 2822.96,
+    "text": "And RLMs are specifically like designed around composition and having like a central context that you can always draw from."
+  },
+  {
+    "segment_id": "tr-00298",
+    "start_seconds": 2823.18,
+    "end_seconds": 2833.94,
+    "text": "And this context is like designed around the existing language models. Another like very similar example actually in design is like agent swarms, for example, the hugging face incident."
+  },
+  {
+    "segment_id": "tr-00299",
+    "start_seconds": 2834.18,
+    "end_seconds": 2844.14,
+    "text": "Like these agent swarms have like a message board that they that they learn to communicate over. And this message board in some sense is the shared context that they like act over."
+  },
+  {
+    "segment_id": "tr-00300",
+    "start_seconds": 2844.62,
+    "end_seconds": 2852.06,
+    "text": "And RLMs basically say that like the best way to communicate through this is in code. Like you write the code to do this."
+  },
+  {
+    "segment_id": "tr-00301",
+    "start_seconds": 2852.16,
+    "end_seconds": 2864.4,
+    "text": "And it's because these models are so good at writing code. Like we want to take advantage of that fact. And then for this compositional thing, up to and including generating your own harness, you know, specific for the task."
+  },
+  {
+    "segment_id": "tr-00302",
+    "start_seconds": 2864.4,
+    "end_seconds": 2872.04,
+    "text": "Exactly. Exactly. Exactly. Right. I think we will start to see that if you go up to this figure."
+  },
+  {
+    "segment_id": "tr-00303",
+    "start_seconds": 2872.24,
+    "end_seconds": 2878.38,
+    "text": "Okay. So we talk about this idea of locally in distribution tasks for a harness."
+  },
+  {
+    "segment_id": "tr-00304",
+    "start_seconds": 2878.6,
+    "end_seconds": 2890.78,
+    "text": "And it is like an idea on top of like in distribution tasks. When we think about language models, an in distribution task is just a task where like the prompt is something that the model has either seen before or like has seen some"
+  },
+  {
+    "segment_id": "tr-00305",
+    "start_seconds": 2890.78,
+    "end_seconds": 2903.44,
+    "text": "version of it. Most harnesses work like the one on the right, which is they keep appending the trajectory as a prompt. And so eventually, unless you're anthropic or open AI and you train on like kind of these like user trajectories, most"
+  },
+  {
+    "segment_id": "tr-00306",
+    "start_seconds": 2903.44,
+    "end_seconds": 2915.66,
+    "text": "of these things end up being out of distribution for the most part. But locally in distribution is basically the compositional argument of if an RLM breaks down its computation into like a kind of a meta harness"
+  },
+  {
+    "segment_id": "tr-00307",
+    "start_seconds": 2915.66,
+    "end_seconds": 2927.98,
+    "text": "of sorts or like a program that involves sub agents that like look at a local problem. Every individual language model call over the course of this task is in distribution, even if the entire task itself"
+  },
+  {
+    "segment_id": "tr-00308",
+    "start_seconds": 2927.98,
+    "end_seconds": 2938.7,
+    "text": "is out of distribution. And this is a very desirable property, I think, for obvious reasons. Like if every task is in distribution for each individual language model call, you will probably get to the right answer."
+  },
+  {
+    "segment_id": "tr-00309",
+    "start_seconds": 2938.7,
+    "end_seconds": 2950.78,
+    "text": "Um, so. I mean, the, the logical limit of RLMs is RLLMs where like you not just, you don't just write the harness, you also train a"
+  },
+  {
+    "segment_id": "tr-00310",
+    "start_seconds": 2950.78,
+    "end_seconds": 2956.92,
+    "text": "custom model. Exactly. You collect data, everything. Like it's a fully automated AI researcher inside of your harness. Yeah."
+  },
+  {
+    "segment_id": "tr-00311",
+    "start_seconds": 2957.04,
+    "end_seconds": 2968.32,
+    "text": "We will see where the training of RLMs goes. I will say as an academic, I am not working on this at MIT or at least in the scaled sense because I, I can't afford to."
+  },
+  {
+    "segment_id": "tr-00312",
+    "start_seconds": 2968.6,
+    "end_seconds": 2975.08,
+    "text": "Uh, but there are companies out there that are working on this. I think Prime and Select is very clearly working on this and it's very cool."
+  },
+  {
+    "segment_id": "tr-00313",
+    "start_seconds": 2975.18,
+    "end_seconds": 2987.3,
+    "text": "Like I'm, I'm very excited to see maybe we'll observe, I don't know, but maybe we'll observe better like post -training scaling laws with when you train around a smart harness, maybe we'll even see smarter harnesses that come out and like"
+  },
+  {
+    "segment_id": "tr-00314",
+    "start_seconds": 2987.3,
+    "end_seconds": 2993.74,
+    "text": "they, they work better around these kinds of principles. What is a smarter harness? Like that doesn't mean anything. You just said it all the same."
+  },
+  {
+    "segment_id": "tr-00315",
+    "start_seconds": 2994.04,
+    "end_seconds": 3000.62,
+    "text": "No, what more of what I mean is like Claude code, codex, pi, et cetera, are all the same in that."
+  },
+  {
+    "segment_id": "tr-00316",
+    "start_seconds": 3000.76,
+    "end_seconds": 3006.92,
+    "text": "Like when you break down the, the logic of the harness, it's like virtually the same thing. Yeah."
+  },
+  {
+    "segment_id": "tr-00317",
+    "start_seconds": 3007.0,
+    "end_seconds": 3014.06,
+    "text": "Two calls in a loop. Yeah. Whatever. But with RLMs and, and with other harness abstractions, it looks very different."
+  },
+  {
+    "segment_id": "tr-00318",
+    "start_seconds": 3014.38,
+    "end_seconds": 3026.38,
+    "text": "And this is where I think you really distinguish. I mean, it's, it's in the same way that like, I think with language model architecture choices, a lot of architecture choices end up kind of looking the same when"
+  },
+  {
+    "segment_id": "tr-00319",
+    "start_seconds": 3026.38,
+    "end_seconds": 3037.16,
+    "text": "you like scale it out or like the differences end up being like somewhat minor in terms of, I mean, for a lab, it's not minor, but you know, maybe one model converges better than the other one, like slightly."
+  },
+  {
+    "segment_id": "tr-00320",
+    "start_seconds": 3037.54,
+    "end_seconds": 3047.1,
+    "text": "But in general, like if you were, so for example, pre -training scaling laws only hold because the architecture choices we have are somewhat stable right now."
+  },
+  {
+    "segment_id": "tr-00321",
+    "start_seconds": 3047.34,
+    "end_seconds": 3055.72,
+    "text": "But if you were to completely change the architecture, pre -training scaling laws probably don't hold, or like these kinds of, this like power law is going to look very different."
+  },
+  {
+    "segment_id": "tr-00322",
+    "start_seconds": 3055.92,
+    "end_seconds": 3065.96,
+    "text": "And it's like the same thing with harnesses. Like I think all the harnesses we have right now, for the most part, roughly look the same, but there are some exceptions to this, I think that are, that are coming out."
+  },
+  {
+    "segment_id": "tr-00323",
+    "start_seconds": 3066.16,
+    "end_seconds": 3078.2,
+    "text": "I was going to say, like, actually one of the things that I've been more interested by, you know, talking about PhD students who take big risks is that people have been, people are also pursuing the other side, which is pre -training scaling laws don't hold if you change data."
+  },
+  {
+    "segment_id": "tr-00324",
+    "start_seconds": 3078.84,
+    "end_seconds": 3085.66,
+    "text": "Right now, it's just raw and structured text, a corpus of internet. What if you had a better data representation to train on?"
+  },
+  {
+    "segment_id": "tr-00325",
+    "start_seconds": 3085.82,
+    "end_seconds": 3092.0,
+    "text": "Then, then yes, your scaling law will change as well. Yeah. So there's architecture, there's data, and you know, whatever else you can think about."
+  },
+  {
+    "segment_id": "tr-00326",
+    "start_seconds": 3092.36,
+    "end_seconds": 3105.22,
+    "text": "Well, so I just want to get back to, to this. It's all makes sense. It's very interesting how you sort of recurse up and down the stack from like very conceptual to like, not like, well, this is, this is where we are today, but like, yeah, obviously you"
+  },
+  {
+    "segment_id": "tr-00327",
+    "start_seconds": 3105.22,
+    "end_seconds": 3114.02,
+    "text": "can, you can scale up and down. I guess, I'm curious, how did you start working with Prime? Is Prime taking on more work with this?"
+  },
+  {
+    "segment_id": "tr-00328",
+    "start_seconds": 3114.18,
+    "end_seconds": 3121.38,
+    "text": "Is this their answer to Hermes agents? You mentioned Grokbar, it's a little bit different. I just wanted to like name check all these guys and get your thoughts on each."
+  },
+  {
+    "segment_id": "tr-00329",
+    "start_seconds": 3121.38,
+    "end_seconds": 3133.52,
+    "text": "Yeah. Yeah. I got involved with Prime after they, they released a blog post, by the way, not affiliated with me at all about like how they believed RLMs were kind of the future."
+  },
+  {
+    "segment_id": "tr-00330",
+    "start_seconds": 3134.02,
+    "end_seconds": 3145.64,
+    "text": "And I, I had a friend that was working there, GP mode, Matej, like we got in touch and I think I agreed with a lot of the researchers there and like what they believed about harness design."
+  },
+  {
+    "segment_id": "tr-00331",
+    "start_seconds": 3145.74,
+    "end_seconds": 3157.9,
+    "text": "Like I, I was, I was very impressed. I think that like they understood the purpose of the RLM paper, which is not necessarily just to say that like, you know, we're solving long context tasks, but actually like we"
+  },
+  {
+    "segment_id": "tr-00332",
+    "start_seconds": 3157.9,
+    "end_seconds": 3164.16,
+    "text": "want more opinionated harness designs. Yeah. There's always like the result of the paper that you choose to highlight. Yes. Versus the actual point."
+  },
+  {
+    "segment_id": "tr-00333",
+    "start_seconds": 3164.34,
+    "end_seconds": 3174.38,
+    "text": "Yes. I would love to talk about like the incentives of academia and like the things around like why it's kind of flawed and all the issues and we'll get back to that."
+  },
+  {
+    "segment_id": "tr-00334",
+    "start_seconds": 3174.76,
+    "end_seconds": 3187.06,
+    "text": "Yeah. So, so anyways, you know, I, I, I love the guys at prime. So we kind of had been after, after we decided to work together, we decided to look into training and RLM"
+  },
+  {
+    "segment_id": "tr-00335",
+    "start_seconds": 3187.06,
+    "end_seconds": 3193.74,
+    "text": "and also build this kind of RLM harness and kind of see where we can take it. That is how like prime agent came about."
+  },
+  {
+    "segment_id": "tr-00336",
+    "start_seconds": 3193.92,
+    "end_seconds": 3204.9,
+    "text": "And I think the reception for prime agent has been pretty good. Like the one thing I was worried about with prime agent is that none of them, at least at the time when we were building it, none of the models were that good at doing RLM stuff."
+  },
+  {
+    "segment_id": "tr-00337",
+    "start_seconds": 3205.12,
+    "end_seconds": 3215.72,
+    "text": "So this was like pre -fable, pre -astra. I guess, I think to take a step back, can you explain what prime agent is, how it's different than a traditional, you know, cloud code, what people would expect harness?"
+  },
+  {
+    "segment_id": "tr-00338",
+    "start_seconds": 3215.96,
+    "end_seconds": 3228.12,
+    "text": "Yes. So prime agent, I think I mentioned this a little bit earlier. Yeah. There's the design. Is basically, it is a, a harness on top of pi, like pi mono, which is"
+  },
+  {
+    "segment_id": "tr-00339",
+    "start_seconds": 3228.12,
+    "end_seconds": 3237.02,
+    "text": "pi mono for context is like the, like a minimalist. Yeah. Like harness. I use pi as the reference for everything because I think all other harnesses are basically just pi."
+  },
+  {
+    "segment_id": "tr-00340",
+    "start_seconds": 3238.0,
+    "end_seconds": 3244.48,
+    "text": "But it is pi, except we explicitly restrict IPython to be the only tool that's available to it."
+  },
+  {
+    "segment_id": "tr-00341",
+    "start_seconds": 3244.92,
+    "end_seconds": 3251.84,
+    "text": "Every other tool gets loaded in as like a Python module or like a, like a bash kind of script that it can, it can run."
+  },
+  {
+    "segment_id": "tr-00342",
+    "start_seconds": 3252.0,
+    "end_seconds": 3260.44,
+    "text": "So it uses the core RLM abstraction on top of pi. And then it also has this continual harness thing, which is Seth."
+  },
+  {
+    "segment_id": "tr-00343",
+    "start_seconds": 3260.58,
+    "end_seconds": 3267.0,
+    "text": "He's another PhD student. This is a thing that he used to get language model harnesses to play games."
+  },
+  {
+    "segment_id": "tr-00344",
+    "start_seconds": 3267.08,
+    "end_seconds": 3275.28,
+    "text": "Like, so he worked a lot with Joel, who is the like Gemini plays Pokemon guy. And continual harness is also, by the way, very simple."
+  },
+  {
+    "segment_id": "tr-00345",
+    "start_seconds": 3275.42,
+    "end_seconds": 3285.36,
+    "text": "I quite like it. It basically is this design principle around like what parts of the harness can you let the harness itself modify."
+  },
+  {
+    "segment_id": "tr-00346",
+    "start_seconds": 3285.62,
+    "end_seconds": 3293.08,
+    "text": "There are certain pieces that like you'll let it modify its own skills, the sub agents available to it, what the system prompt to the model is."
+  },
+  {
+    "segment_id": "tr-00347",
+    "start_seconds": 3293.42,
+    "end_seconds": 3299.76,
+    "text": "And continual harness is available basically as a tool inside of the IPython kernel."
+  },
+  {
+    "segment_id": "tr-00348",
+    "start_seconds": 3299.98,
+    "end_seconds": 3306.9,
+    "text": "And so that's what Prime Agent is like, how, what is design around everything else in Prime Agent is like standard, standard, right?"
+  },
+  {
+    "segment_id": "tr-00349",
+    "start_seconds": 3307.12,
+    "end_seconds": 3315.1,
+    "text": "Yeah. I think what is what I, I really liked about it. And we got kind of lucky is that like a lot of the new frontier models actually work really well inside."
+  },
+  {
+    "segment_id": "tr-00350",
+    "start_seconds": 3315.28,
+    "end_seconds": 3327.74,
+    "text": "And actually even a lot of the open source models work really well, at least some of the newer ones. And there was another thing in Prime Agent I should highlight, which is that like, we have a very particular agent to agent communication"
+  },
+  {
+    "segment_id": "tr-00351",
+    "start_seconds": 3327.74,
+    "end_seconds": 3339.78,
+    "text": "system or like, like framework, which is because RLMs tend to spawn many sub agents, we want a way for sub agents to communicate with maybe the root or with each"
+  },
+  {
+    "segment_id": "tr-00352",
+    "start_seconds": 3339.78,
+    "end_seconds": 3346.1,
+    "text": "other. And so there are some design decisions around like what each sub agent is allowed to talk to, how it does it."
+  },
+  {
+    "segment_id": "tr-00353",
+    "start_seconds": 3346.2,
+    "end_seconds": 3358.44,
+    "text": "Again, everything is in code. So it writes the code to do this kind of communication, which I think is really, really cool. And then there's, I guess, persistent sub agents is another thing that was kind of added, which is the sub agents, they can last beyond like"
+  },
+  {
+    "segment_id": "tr-00354",
+    "start_seconds": 3358.44,
+    "end_seconds": 3369.86,
+    "text": "the standard runtime of, of the actual like original agent. And you can go into that sub agent, you can prompt it more, like you have more visibility and flexibility into what is kind of going on."
+  },
+  {
+    "segment_id": "tr-00355",
+    "start_seconds": 3370.02,
+    "end_seconds": 3377.82,
+    "text": "This is my number one pain with codex right now. Their sub agents are just very ephemeral and they actively discourage you from using it for long running things."
+  },
+  {
+    "segment_id": "tr-00356",
+    "start_seconds": 3377.92,
+    "end_seconds": 3384.48,
+    "text": "Yeah. Yeah. Yeah. Which, which I think it makes sense. Yeah. I mean, the trick is just externalize to a file system, right?"
+  },
+  {
+    "segment_id": "tr-00357",
+    "start_seconds": 3384.48,
+    "end_seconds": 3393.84,
+    "text": "Like, yeah, that's the trick. That is the big trick. Yeah. And well, and also like force everything to run through code, you know, trust the model that can write code and it's going to write its own harnesses itself."
+  },
+  {
+    "segment_id": "tr-00358",
+    "start_seconds": 3394.18,
+    "end_seconds": 3400.32,
+    "text": "So is Prime going to take on like training, post -training custom models for this? Is this a one -off collaboration between you guys?"
+  },
+  {
+    "segment_id": "tr-00359",
+    "start_seconds": 3400.44,
+    "end_seconds": 3407.4,
+    "text": "That's it? Like what's... Yeah. They are training a model, uh, in turn. I think they were, they were pretty public about this actually, um, back in March."
+  },
+  {
+    "segment_id": "tr-00360",
+    "start_seconds": 3407.58,
+    "end_seconds": 3414.52,
+    "text": "I mean, clearly it is their business. Yeah. Yeah. Yeah. So, uh, yeah. I mean, they're, they're showing that they can train it on their, their kind of hosted training stack, but no."
+  },
+  {
+    "segment_id": "tr-00361",
+    "start_seconds": 3414.62,
+    "end_seconds": 3424.94,
+    "text": "So for model training, I'm, I'm not involved with them on that. The main reason is just, I have other things in the PhD I want to work on. I think like there are many other big bets to take, um, outside of just RLMs."
+  },
+  {
+    "segment_id": "tr-00362",
+    "start_seconds": 3425.26,
+    "end_seconds": 3436.1,
+    "text": "Uh, some, uh, some, I, I don't know how much I can share yet. Uh, but in general, like I think, I actually think one of the luxuries of being a PhD student genuinely is that there's so many big bets to take."
+  },
+  {
+    "segment_id": "tr-00363",
+    "start_seconds": 3436.46,
+    "end_seconds": 3448.34,
+    "text": "Most of them will probably yield nothing, but it's a really, really exciting time to be in research, especially because I think most progress in the field has been a little bit boring."
+  },
+  {
+    "segment_id": "tr-00364",
+    "start_seconds": 3448.48,
+    "end_seconds": 3458.82,
+    "text": "Like I'm not saying the outcome is boring, but the process of, of doing these things tends to be quite boring. Um, and so there is kind of this question of like, you know, what, what do we want to do next?"
+  },
+  {
+    "segment_id": "tr-00365",
+    "start_seconds": 3459.12,
+    "end_seconds": 3465.5,
+    "text": "Um, but we can talk about that later. Yeah. Yeah. Okay. I want to close out a little bit more of your research and then we can, we can, uh, put it out."
+  },
+  {
+    "segment_id": "tr-00366",
+    "start_seconds": 3465.68,
+    "end_seconds": 3473.82,
+    "text": "Uh, since you released RLM, a lot of excitement about it. Any secondary third -party work that you want to shout out as like that you guys should take a look at this."
+  },
+  {
+    "segment_id": "tr-00367",
+    "start_seconds": 3473.82,
+    "end_seconds": 3486.18,
+    "text": "Oh yeah. Yeah. Yeah. So, uh, Harvey, the legal AI company released a blog post, not affiliated at all, but they post -trained an RLM on their like legal work, which often"
+  },
+  {
+    "segment_id": "tr-00368",
+    "start_seconds": 3486.18,
+    "end_seconds": 3497.28,
+    "text": "involves a lot of like sifting through documents and kind of looking through like a variety of, uh, specific information that maybe is not so easy to retrieve with like a pure retrieval system."
+  },
+  {
+    "segment_id": "tr-00369",
+    "start_seconds": 3497.4,
+    "end_seconds": 3504.76,
+    "text": "And they show like really, really good results. It's very exciting. I mean, I, I, I was, I was shocked that, that, that they worked on this."
+  },
+  {
+    "segment_id": "tr-00370",
+    "start_seconds": 3504.76,
+    "end_seconds": 3513.7,
+    "text": "They did not tell me. So when this came out, I was like, oh, that's awesome. So there's this one, I think it's super, super cool. And, and what they're doing there, I think this is a collaboration with base 10 by the way as well."
+  },
+  {
+    "segment_id": "tr-00371",
+    "start_seconds": 3514.58,
+    "end_seconds": 3521.34,
+    "text": "Headlong, which is law, the Laud Institute's kind of, uh, it is there like persistently running harness."
+  },
+  {
+    "segment_id": "tr-00372",
+    "start_seconds": 3521.8,
+    "end_seconds": 3528.86,
+    "text": "Um, it's very cool. Oh, they renamed it. They used to call it something else. It was like auto terminus. Yeah. I know they, they, they, they've, they've gone through."
+  },
+  {
+    "segment_id": "tr-00373",
+    "start_seconds": 3529.08,
+    "end_seconds": 3541.18,
+    "text": "Yeah. Um, so this is Andy Kuhnwinski's big projects. Um, it's super, super cool. I love Andy. I don't want to downplay what they're doing because they're using the RLM abstraction, but they're"
+  },
+  {
+    "segment_id": "tr-00374",
+    "start_seconds": 3541.18,
+    "end_seconds": 3549.08,
+    "text": "doing something much cooler than the RLM, uh, which is like, they, they have a system that kind of what they call like thinks persistently."
+  },
+  {
+    "segment_id": "tr-00375",
+    "start_seconds": 3549.32,
+    "end_seconds": 3556.24,
+    "text": "So even when you don't query it, it has a way to, um, think through problems that it has in its context."
+  },
+  {
+    "segment_id": "tr-00376",
+    "start_seconds": 3556.46,
+    "end_seconds": 3566.28,
+    "text": "Oh, so it's just like an always on type thing. And always on thing, but it's like not that expensive. Like they, they, they control the, the token costs, um, to make sure it's not like burning through all your, all your credits."
+  },
+  {
+    "segment_id": "tr-00377",
+    "start_seconds": 3566.82,
+    "end_seconds": 3576.96,
+    "text": "This is super cool. I'm trying to think there, there are many, actually, if you go to the RLM, uh, GitHub page, there's a bunch of things I've linked, uh, below."
+  },
+  {
+    "segment_id": "tr-00378",
+    "start_seconds": 3577.68,
+    "end_seconds": 3584.88,
+    "text": "There's a ton of really, really cool kind of things that people have been doing. Axe is another really cool one that I think it's just by this one guy."
+  },
+  {
+    "segment_id": "tr-00379",
+    "start_seconds": 3585.08,
+    "end_seconds": 3597.4,
+    "text": "It's like a harness around DSPi and RLMs. DSPi also has an RLM. Oh, the last thing I'll shout out is on ARC AGI 3, I believe there were a lot of"
+  },
+  {
+    "segment_id": "tr-00380",
+    "start_seconds": 3597.4,
+    "end_seconds": 3604.38,
+    "text": "harnesses on their, like Kaggle competition, like the official one, not, not the like public prime and select one that, or like what people have evaluated on."
+  },
+  {
+    "segment_id": "tr-00381",
+    "start_seconds": 3604.52,
+    "end_seconds": 3615.14,
+    "text": "They all like claim to use, or they reference like, like Tufa, for example, some form or some inspired form of the RLM abstraction in their harness, which is really, really cool."
+  },
+  {
+    "segment_id": "tr-00382",
+    "start_seconds": 3615.34,
+    "end_seconds": 3626.32,
+    "text": "I think it's, um, this is where, I mean, this is exactly the setting where you would see a lot of benefits from composition and, and, and using code and combining like neurosymbolic systems with, with AI."
+  },
+  {
+    "segment_id": "tr-00383",
+    "start_seconds": 3626.54,
+    "end_seconds": 3636.52,
+    "text": "And so, yeah, very, very cool. We love a good newer symbolic reference. Yeah. Uh, you also, uh, mentioning RK AGI 3, OpenAI comes on and says we're 99 .9 % on this."
+  },
+  {
+    "segment_id": "tr-00384",
+    "start_seconds": 3636.8,
+    "end_seconds": 3643.68,
+    "text": "Uh, they also say we, we solved Navier Stokes. We just throw a model at it. Uh, there's some debate around whether or not it's just model."
+  },
+  {
+    "segment_id": "tr-00385",
+    "start_seconds": 3644.26,
+    "end_seconds": 3655.62,
+    "text": "Are they using an RLM? Do you know? I mean, I, I, I would guess probably not, unless you say like, I'll be, I'll be careful here because, you know, people debate what is an RLM, what is not an RLM."
+  },
+  {
+    "segment_id": "tr-00386",
+    "start_seconds": 3656.06,
+    "end_seconds": 3662.82,
+    "text": "It's somewhat clear that what they used is some kind of swarm of agents with a shared, some shared context, like some shared file system."
+  },
+  {
+    "segment_id": "tr-00387",
+    "start_seconds": 3663.06,
+    "end_seconds": 3671.12,
+    "text": "And like, this is very much in the spirit of RLM stuff, but I think there's a, there's a lot of like, you know, more clever things that they did."
+  },
+  {
+    "segment_id": "tr-00388",
+    "start_seconds": 3671.26,
+    "end_seconds": 3682.72,
+    "text": "That's not maybe related to, to the RLM itself. I agree a little bit with the idea that like a harness is not that necessary for what they did."
+  },
+  {
+    "segment_id": "tr-00389",
+    "start_seconds": 3682.94,
+    "end_seconds": 3695.1,
+    "text": "The way that I would put this is that I think a model, like a GPT -6 Astra type thing is technically smart enough, conditioned on"
+  },
+  {
+    "segment_id": "tr-00390",
+    "start_seconds": 3695.1,
+    "end_seconds": 3705.4,
+    "text": "the right information to come up with a proof for these very, very difficult problems. Now, how you get to that information is a giant question mark."
+  },
+  {
+    "segment_id": "tr-00391",
+    "start_seconds": 3705.5,
+    "end_seconds": 3714.44,
+    "text": "And in, in their case, it probably came down to like a very long search over like many of these sub, or many of these like agents in the swarm."
+  },
+  {
+    "segment_id": "tr-00392",
+    "start_seconds": 3714.44,
+    "end_seconds": 3722.98,
+    "text": "And, and maybe also like researchers can, I'm actually not sure about this part, but putting in like their kind of intuition as to like what you should explore and things like this."
+  },
+  {
+    "segment_id": "tr-00393",
+    "start_seconds": 3723.12,
+    "end_seconds": 3730.26,
+    "text": "And ultimately like this produced some information that some agent was able to take to finish the proof."
+  },
+  {
+    "segment_id": "tr-00394",
+    "start_seconds": 3730.52,
+    "end_seconds": 3742.46,
+    "text": "And so in that sense, like, I think was the harness that important? No. And I think what this is pointing at is like, these specific details of a harness do not really matter."
+  },
+  {
+    "segment_id": "tr-00395",
+    "start_seconds": 3742.6,
+    "end_seconds": 3754.76,
+    "text": "And I think that's also what that, what the harness text paper is pointing at, which is that like beyond the user's feeling of the harness, realistically, all that matters is just like, how are you composing these"
+  },
+  {
+    "segment_id": "tr-00396",
+    "start_seconds": 3754.76,
+    "end_seconds": 3767.02,
+    "text": "agents in a meaningful way to get to the final answer? And maybe that's what like swarms and all these things are, are, are really about. And so for my POV, at least, if we, if we start to think about like for user use cases, what"
+  },
+  {
+    "segment_id": "tr-00397",
+    "start_seconds": 3767.02,
+    "end_seconds": 3779.3,
+    "text": "do we want out of harnesses and, and, and things like this? Like we want to take the good parts out of these, like the cloud codes, the codexes, like the stream that people like to see, but like under"
+  },
+  {
+    "segment_id": "tr-00398",
+    "start_seconds": 3779.3,
+    "end_seconds": 3785.38,
+    "text": "the hood, whatever is running can be some really weird, complicated swarm of agents that like ultimately come up with an answer."
+  },
+  {
+    "segment_id": "tr-00399",
+    "start_seconds": 3785.52,
+    "end_seconds": 3795.4,
+    "text": "The user doesn't want to see that though, obviously, right? Like it's, it's not legible information. And so I, you know, I, this was another kind of thing in the spirit of RLM's like recursive language model."
+  },
+  {
+    "segment_id": "tr-00400",
+    "start_seconds": 3795.5,
+    "end_seconds": 3807.56,
+    "text": "It sounds like it's a language model and, but it's not a language model architecture. But the reason for this is like, I think we will start to see in the future, probably one day, and I wrote a blog about this, what we think"
+  },
+  {
+    "segment_id": "tr-00401",
+    "start_seconds": 3807.56,
+    "end_seconds": 3819.06,
+    "text": "of as a language model, like the thing that we query might actually be like a swarm or like a scaffold or like some weird harness design that scales very well, but the user just doesn't see it."
+  },
+  {
+    "segment_id": "tr-00402",
+    "start_seconds": 3819.54,
+    "end_seconds": 3828.38,
+    "text": "Ultimately, all the user sees is some front end version of this harness. And yeah, I, I, I think it's a relatively safe bet at least to make that this is what we will see."
+  },
+  {
+    "segment_id": "tr-00403",
+    "start_seconds": 3828.52,
+    "end_seconds": 3839.98,
+    "text": "Yeah. And this maybe goes back to the limitations of the base transformer, like, you know, obviously if you just took a base transformer and you said like solve Navier Stokes or something, it's not going to do it."
+  },
+  {
+    "segment_id": "tr-00404",
+    "start_seconds": 3840.06,
+    "end_seconds": 3852.2,
+    "text": "Like, yeah, we all know this is not what's going to happen. But yeah, I think this is maybe the more interesting part. And maybe the claims around like, you know, did the harness matter is, is more around this of like just arbitrarily pointing models,"
+  },
+  {
+    "segment_id": "tr-00405",
+    "start_seconds": 3852.5,
+    "end_seconds": 3860.28,
+    "text": "like, or agents at a growing kind of context of information. Maybe it's just enough to solve very difficult problems that I can buy."
+  },
+  {
+    "segment_id": "tr-00406",
+    "start_seconds": 3860.7,
+    "end_seconds": 3872.96,
+    "text": "Well, there's a lot in there. I do want to say the, the, the amount that OpenAI spent is semi -public. It's a 10 ,000 agents in 88 hours, 130 billion open tokens, which is estimated to be about $40 million in"
+  },
+  {
+    "segment_id": "tr-00407",
+    "start_seconds": 3872.96,
+    "end_seconds": 3880.42,
+    "text": "public pricing. Hmm. Surprisingly actually like less than I thought. Yeah. Not that much. Yeah. Yeah. $130 billion output for the final."
+  },
+  {
+    "segment_id": "tr-00408",
+    "start_seconds": 3880.78,
+    "end_seconds": 3887.86,
+    "text": "But as you said, there was a lot of context being passed around. It's more than double that in just the total agent messages being said."
+  },
+  {
+    "segment_id": "tr-00409",
+    "start_seconds": 3888.16,
+    "end_seconds": 3897.06,
+    "text": "Yeah. Yeah. Yeah. Yeah. Yeah. I think one thing I was honored to bring out also was cursor as far as like swarm stuff is concerned. This is slightly older, meaning February, which is ancient."
+  },
+  {
+    "segment_id": "tr-00410",
+    "start_seconds": 3897.46,
+    "end_seconds": 3904.94,
+    "text": "But if you scroll down all the way to the final sort of multi -agent architecture that they arrived at, it was basically an org chart of a normal software team."
+  },
+  {
+    "segment_id": "tr-00411",
+    "start_seconds": 3905.32,
+    "end_seconds": 3916.48,
+    "text": "One thing I'm thinking about, because I, I basically, there's like this, um, uh, gather all function that you have to do with, with sub -agents or, you know, it's very similar to GPU programming actually."
+  },
+  {
+    "segment_id": "tr-00412",
+    "start_seconds": 3916.76,
+    "end_seconds": 3928.8,
+    "text": "Yeah. Yeah. Yeah. Uh, and, and so, uh, that's a bottleneck. This is a bottleneck. If there's one main guy, uh, it's coordinating all the sub guys, then they have to like re, you know, gather again and then, and then re"
+  },
+  {
+    "segment_id": "tr-00413",
+    "start_seconds": 3928.8,
+    "end_seconds": 3935.2,
+    "text": "-coordinate that's slow. That's, that's crappy. Uh, what a true swarm should be is everyone is just their own person."
+  },
+  {
+    "segment_id": "tr-00414",
+    "start_seconds": 3935.5,
+    "end_seconds": 3945.82,
+    "text": "Yeah. Yeah. Right. Well, I agree with this. And I think that there is a question to be had though. Let me give an analogy, which is like, when would you use compaction and when would you use an RLM?"
+  },
+  {
+    "segment_id": "tr-00415",
+    "start_seconds": 3946.3,
+    "end_seconds": 3958.34,
+    "text": "And there are many settings where an RLM can solve maybe a more difficult task than compaction can, but you would prefer to use compaction in most cases because it's cheaper and it's quicker."
+  },
+  {
+    "segment_id": "tr-00416",
+    "start_seconds": 3958.64,
+    "end_seconds": 3970.76,
+    "text": "Uh, and I think in, in, in the context of agent swarms, there is a similar thing going on of like, I'm fairly certain that like 95 % of the swarm is entirely useless or like what it's"
+  },
+  {
+    "segment_id": "tr-00417",
+    "start_seconds": 3970.76,
+    "end_seconds": 3977.8,
+    "text": "exploring is entirely, you're just burning tokens versus in this setup, maybe not so much. I'm not sure. I mean, maybe it's also the case here."
+  },
+  {
+    "segment_id": "tr-00418",
+    "start_seconds": 3977.86,
+    "end_seconds": 3989.98,
+    "text": "Everyone has a job. There's a Jira board. I think at some level that's how problems are framed, right? So like if you have a search problem and you're spanning out a bunch of sub agents to do search, there's going to be a lot of useless information, right?"
+  },
+  {
+    "segment_id": "tr-00419",
+    "start_seconds": 3990.0,
+    "end_seconds": 3996.72,
+    "text": "There's one retrieval answer that you're getting and you're spanning off, but that is consciously understood, right?"
+  },
+  {
+    "segment_id": "tr-00420",
+    "start_seconds": 3996.74,
+    "end_seconds": 4009.26,
+    "text": "Yes. But there is kind of this question of like, what is appropriate to solve for which problems? Like what, what design, you know, in theory, open AI can use, can, can, can package up this API and they'll call it swarms and"
+  },
+  {
+    "segment_id": "tr-00421",
+    "start_seconds": 4009.26,
+    "end_seconds": 4017.44,
+    "text": "then they'll give it to you and they'll be like, point this at any problem and we'll give you a solution. Yeah. It's called pro. Yeah. Maybe you'll have to pay like $40 million to get a result."
+  },
+  {
+    "segment_id": "tr-00422",
+    "start_seconds": 4017.68,
+    "end_seconds": 4027.54,
+    "text": "And it's like, well, but it's exciting. I will say like, it is, it's very exciting that we even have the option to point $40 million at a problem and solve it."
+  },
+  {
+    "segment_id": "tr-00423",
+    "start_seconds": 4027.56,
+    "end_seconds": 4033.76,
+    "text": "Yes. But there is, there is still kind of a lot of research to be done in this area around like, you know, what is necessary?"
+  },
+  {
+    "segment_id": "tr-00424",
+    "start_seconds": 4033.84,
+    "end_seconds": 4040.98,
+    "text": "Like what, what do we want to do? What design do we want? I mean, we probably don't want everything to be a swarm, but like, where do we draw the line?"
+  },
+  {
+    "segment_id": "tr-00425",
+    "start_seconds": 4041.2,
+    "end_seconds": 4051.1,
+    "text": "Like, can the agent design that or decide that for itself, et cetera, et cetera. So. Yeah. And then just a quick check in case you have opinions on this."
+  },
+  {
+    "segment_id": "tr-00426",
+    "start_seconds": 4051.22,
+    "end_seconds": 4058.04,
+    "text": "Have you looked much into open -endedness as a general category of problems? Meaning no prompts, just go."
+  },
+  {
+    "segment_id": "tr-00427",
+    "start_seconds": 4058.04,
+    "end_seconds": 4065.36,
+    "text": "A little bit. So I, I was at Sakana for a summer, right after, or I guess right before my PhD."
+  },
+  {
+    "segment_id": "tr-00428",
+    "start_seconds": 4065.56,
+    "end_seconds": 4073.68,
+    "text": "And that's something that they work on a lot there. And I think there's a lot of people even at like recursive super intelligent, there's many of them now."
+  },
+  {
+    "segment_id": "tr-00429",
+    "start_seconds": 4073.68,
+    "end_seconds": 4081.04,
+    "text": "Yes, we just had Richard Sautcher on. Oh yes. Yeah. So, so like Richard's company and then, and then, and then also actually wait, that might be, it might be the same company."
+  },
+  {
+    "segment_id": "tr-00430",
+    "start_seconds": 4081.14,
+    "end_seconds": 4087.2,
+    "text": "I don't remember. Is Tim Rochteshall also? Okay. Yes. He's the main co -founder. He's the head of open -endedness for Google. Yeah."
+  },
+  {
+    "segment_id": "tr-00431",
+    "start_seconds": 4087.44,
+    "end_seconds": 4098.56,
+    "text": "Yeah. Yeah. So I think with open -endedness problems, like I view them as somewhat similar to even like unsolved math problems."
+  },
+  {
+    "segment_id": "tr-00432",
+    "start_seconds": 4098.7,
+    "end_seconds": 4106.34,
+    "text": "Maybe that's a weird way of framing it. But like, I think a lot of the techniques in terms of like how people like approach them are kind of the same."
+  },
+  {
+    "segment_id": "tr-00433",
+    "start_seconds": 4106.46,
+    "end_seconds": 4118.68,
+    "text": "Like evolutionary search is like very similar to just launching swarms of agents and hoping that like they come up with like an interesting, and this is what, what like alpha evolved and some of these other works did like"
+  },
+  {
+    "segment_id": "tr-00434",
+    "start_seconds": 4118.68,
+    "end_seconds": 4131.04,
+    "text": "a year or two ago. But I think what maybe is, is not, and I'm not sure if this is what you were alluding to, but I think what's not super clear in open"
+  },
+  {
+    "segment_id": "tr-00435",
+    "start_seconds": 4131.04,
+    "end_seconds": 4140.18,
+    "text": "-endedness style search problems is do we frame all of them as basically like an unsolved, very difficult problem where like where the objective is clear."
+  },
+  {
+    "segment_id": "tr-00436",
+    "start_seconds": 4140.64,
+    "end_seconds": 4148.86,
+    "text": "If that's not the case, I still don't know yet entirely what the value of it is."
+  },
+  {
+    "segment_id": "tr-00437",
+    "start_seconds": 4149.1,
+    "end_seconds": 4161.36,
+    "text": "Maybe you have other opinions. Like I don't have too many opinions on this, but at least from my time at Skana, like I, I got the sense that like, we ultimately still kind of want to approach things the way that like, say open AI approach Navier Stokes."
+  },
+  {
+    "segment_id": "tr-00438",
+    "start_seconds": 4161.54,
+    "end_seconds": 4168.76,
+    "text": "We want, we, there's still a lot of nudging in certain directions that we want to have to like get to the point where we have something interesting."
+  },
+  {
+    "segment_id": "tr-00439",
+    "start_seconds": 4169.14,
+    "end_seconds": 4176.54,
+    "text": "My version of it is like, um, maybe it's a split between basic science and applied science. Basic sign you're researching for researching sick."
+  },
+  {
+    "segment_id": "tr-00440",
+    "start_seconds": 4176.7,
+    "end_seconds": 4185.04,
+    "text": "You just want to understand things better. Uh, I have no idea if like there'll be any application at all whatsoever, but that, I mean that, um, and then applied, you have a goal."
+  },
+  {
+    "segment_id": "tr-00441",
+    "start_seconds": 4185.18,
+    "end_seconds": 4195.88,
+    "text": "You're trying to minimize loss in some way, you know? Uh, and so, uh, uh, what I really, uh, think, you know, in terms of like the, the big bets that people have, uh, what if there was no prompt?"
+  },
+  {
+    "segment_id": "tr-00442",
+    "start_seconds": 4196.52,
+    "end_seconds": 4203.62,
+    "text": "Like, you know what I mean? You just picked a man. Like you just, like, you just spawned in this like swarm of things and you're like, Hey, what's up guys? Like, what are you working on?"
+  },
+  {
+    "segment_id": "tr-00443",
+    "start_seconds": 4203.84,
+    "end_seconds": 4216.28,
+    "text": "And like, you just decide this is an interesting problem. The biggest issue that like, and maybe there's a clear path to this, but when I was there, at least the biggest issue that people had with open -endedness was like, how do you ultimately"
+  },
+  {
+    "segment_id": "tr-00444",
+    "start_seconds": 4216.28,
+    "end_seconds": 4228.34,
+    "text": "choose at the end? How do you pick out the interesting stuff? Because when there is no, like maybe the agent comes up with a goal, but in a lot of cases, like what they, and they have something called Fugu, I think, which is like a, it's"
+  },
+  {
+    "segment_id": "tr-00445",
+    "start_seconds": 4228.34,
+    "end_seconds": 4237.88,
+    "text": "like a model router type thing that was like inspired at least by this idea of like, let's pick a problem where maybe we can pick out the best solutions to something."
+  },
+  {
+    "segment_id": "tr-00446",
+    "start_seconds": 4238.12,
+    "end_seconds": 4244.12,
+    "text": "In this case, it's like pick the best model for this problem. You're the first person to connect model routing to open -endedness. No, no. Yeah."
+  },
+  {
+    "segment_id": "tr-00447",
+    "start_seconds": 4244.7,
+    "end_seconds": 4257.18,
+    "text": "So I bring this up because I think like with open -endedness, like just generally the issue is like when we have this giant corpus of like slop, like how do we sift through and"
+  },
+  {
+    "segment_id": "tr-00448",
+    "start_seconds": 4257.18,
+    "end_seconds": 4269.36,
+    "text": "find like the hidden gems and like the solution to open -endedness really just letting models run forever and like finding, like just doing data gen, just"
+  },
+  {
+    "segment_id": "tr-00449",
+    "start_seconds": 4269.36,
+    "end_seconds": 4276.82,
+    "text": "doing super, super, super high throughput data generation. And then like asking agents to go through and like find meaningful things."
+  },
+  {
+    "segment_id": "tr-00450",
+    "start_seconds": 4276.88,
+    "end_seconds": 4287.7,
+    "text": "Like, I'm not sure. Maybe, maybe that's sufficient. You know, like that would be, that'd be cool. To me, it's like very interesting as a counter to basically all the machine learning where you have a goal to have no goal."
+  },
+  {
+    "segment_id": "tr-00451",
+    "start_seconds": 4287.96,
+    "end_seconds": 4294.42,
+    "text": "Yeah. Yeah. Or like an ill -defined goal that you're like, well, what about, what about this goal? And you're like, well, okay, maybe."
+  },
+  {
+    "segment_id": "tr-00452",
+    "start_seconds": 4294.64,
+    "end_seconds": 4303.56,
+    "text": "And then you like sort of research more and you find that that is an interesting goal. Because I think like finding your objective function, like, like you said, like Jeff found an objective function that was interesting that no one was exploring."
+  },
+  {
+    "segment_id": "tr-00453",
+    "start_seconds": 4303.7,
+    "end_seconds": 4311.86,
+    "text": "Yeah. Yeah. I think that is like, you know, similar to your message about grad students as well. Like, you know, you stay in school because you are, you want to pursue open -endedness."
+  },
+  {
+    "segment_id": "tr-00454",
+    "start_seconds": 4312.0,
+    "end_seconds": 4318.04,
+    "text": "If you want to, you know, profit max and like, you know, join the, escape the permanent underclass, then you join a lab."
+  },
+  {
+    "segment_id": "tr-00455",
+    "start_seconds": 4318.8,
+    "end_seconds": 4325.94,
+    "text": "Right? Yeah. Yeah. It's funny. I feel like I don't, I don't hear this discourse a lot."
+  },
+  {
+    "segment_id": "tr-00456",
+    "start_seconds": 4326.02,
+    "end_seconds": 4332.16,
+    "text": "I mean, I'm, I'm in the East Coast, so it's like a very different type of, but then when I, whenever I come here, it's like, that's always like the topic of discussion."
+  },
+  {
+    "segment_id": "tr-00457",
+    "start_seconds": 4332.22,
+    "end_seconds": 4339.34,
+    "text": "You cannot pay rent without doing this. We're getting priced out guys. Okay. So, so yeah, there's, there's all that."
+  },
+  {
+    "segment_id": "tr-00458",
+    "start_seconds": 4339.5,
+    "end_seconds": 4348.7,
+    "text": "Um, I don't know if you want to, if it's relevant enough to talk about the mismanaged geniuses, which you were, you were pulling up. No, no, it's just on your blogs, but I will poke on, uh, Oh, so kind of, yeah."
+  },
+  {
+    "segment_id": "tr-00459",
+    "start_seconds": 4348.98,
+    "end_seconds": 4361.08,
+    "text": "So they, they did in their, um, blog posts, I talked to them about this as well. So one of the cool results of ultra is they basically just let it loose on automated data science research, uh, with little to"
+  },
+  {
+    "segment_id": "tr-00460",
+    "start_seconds": 4361.08,
+    "end_seconds": 4369.3,
+    "text": "no human intervention. It's just kind of making. Yeah. So this is auto research, which is a little bit more open -ended and there's degrees of open -endedness."
+  },
+  {
+    "segment_id": "tr-00461",
+    "start_seconds": 4369.44,
+    "end_seconds": 4376.14,
+    "text": "And I agree with that. Yeah. Separate than auto research with objective, this is just do stuff, but you know, it's cool."
+  },
+  {
+    "segment_id": "tr-00462",
+    "start_seconds": 4376.14,
+    "end_seconds": 4384.18,
+    "text": "They're, they're working on it for those that are interested. While you're bringing it up, actually, uh, what is your take on Sakana? Like what are they doing apart from being, you know, the Japan one?"
+  },
+  {
+    "segment_id": "tr-00463",
+    "start_seconds": 4384.32,
+    "end_seconds": 4391.94,
+    "text": "Yeah. Yeah. Yeah. Um, I mean, I actually love the people there. Like I, I think they have a really, really smart team."
+  },
+  {
+    "segment_id": "tr-00464",
+    "start_seconds": 4392.18,
+    "end_seconds": 4402.64,
+    "text": "Uh, and it makes sense. I mean, it branched off from, from like an earlier team at GDM, which was also kind of, I guess, doing this kind of like open -ended evolutionary research style stuff."
+  },
+  {
+    "segment_id": "tr-00465",
+    "start_seconds": 4403.04,
+    "end_seconds": 4412.2,
+    "text": "What I liked about my experience there, at least was that they did have that like mishap back, I forget at this point when, but I think like - You're talking about AI scientists?"
+  },
+  {
+    "segment_id": "tr-00466",
+    "start_seconds": 4412.68,
+    "end_seconds": 4422.78,
+    "text": "Uh, no, the GPU kernel. Yeah. Okay. That one. Yeah. People cannot forgive them for that. Yeah. Yeah. And I guess like the AI scientists, like, I mean, there's, there's some criticism of it that I, I mean, I don't, I don't work on that."
+  },
+  {
+    "segment_id": "tr-00467",
+    "start_seconds": 4422.86,
+    "end_seconds": 4431.46,
+    "text": "So I have no, no kind of take on it, but I think in general, like what I like about them at least is that they're a little bit more of a researchy type lab."
+  },
+  {
+    "segment_id": "tr-00468",
+    "start_seconds": 4431.62,
+    "end_seconds": 4443.8,
+    "text": "So like they don't operate in the same space as like open AI or entropic, like for sure. Like definitely no, they do not. I mean, it's pretty obvious probably that at least when I was there, they do not have a big competitor model or something that like, you"
+  },
+  {
+    "segment_id": "tr-00469",
+    "start_seconds": 4443.8,
+    "end_seconds": 4451.2,
+    "text": "know, that, that everyone is, is, is using, but I think they kind of operate in some ways as like a PhD lab, which is cool."
+  },
+  {
+    "segment_id": "tr-00470",
+    "start_seconds": 4451.36,
+    "end_seconds": 4463.58,
+    "text": "Like, and I, I, I think like David Ha is like, he's, he's really, really smart. Like I think he has a good sense of like, also, I think the market in Japan is also a little bit different for AI and like who they're"
+  },
+  {
+    "segment_id": "tr-00471",
+    "start_seconds": 4463.58,
+    "end_seconds": 4471.5,
+    "text": "targeting is slightly different than maybe what we're used to here. But yeah, I like that they take kind of a lot of the research is kind of weird."
+  },
+  {
+    "segment_id": "tr-00472",
+    "start_seconds": 4471.7,
+    "end_seconds": 4479.06,
+    "text": "I think when, when people view it, you know, and I like that, like, I think it's, you should have more weirdness. Exactly. Exactly. And if you say different market, just, is it like enterprise?"
+  },
+  {
+    "segment_id": "tr-00473",
+    "start_seconds": 4479.4,
+    "end_seconds": 4490.78,
+    "text": "Like the way it works there is, is a bit different, like how, how deals happen and stuff like that. They do have a, I mean, I guess this page is originally in Japanese, but they do have a model specialized for the Japanese."
+  },
+  {
+    "segment_id": "tr-00474",
+    "start_seconds": 4490.92,
+    "end_seconds": 4503.62,
+    "text": "You didn't know that. I didn't know that. It's new. I also have personal friends and know the team. So there is a, even from the sense of a way that you speak culturally, you"
+  },
+  {
+    "segment_id": "tr-00475",
+    "start_seconds": 4503.62,
+    "end_seconds": 4510.6,
+    "text": "know, responses are tuned towards that. This is not like it's frontier on benchmarks. It is a cultural appropriate model for them."
+  },
+  {
+    "segment_id": "tr-00476",
+    "start_seconds": 4510.7,
+    "end_seconds": 4516.88,
+    "text": "And then they have like chat and all that. Yeah. But to, to mirror your point, you know, there's also like a, how should education look like?"
+  },
+  {
+    "segment_id": "tr-00477",
+    "start_seconds": 4517.04,
+    "end_seconds": 4523.82,
+    "text": "And someone wants to work on it and they're very PhD lab of do your thing. Why not? We have money. Go, go research. They say it's a Kimi fine tune."
+  },
+  {
+    "segment_id": "tr-00478",
+    "start_seconds": 4523.9,
+    "end_seconds": 4535.9,
+    "text": "That's nice. Good for them. Yeah. I mean, and, you know, speaking of Kimi, right? Like another, you know, just a grad student that spit out and like, yeah, I just have this like Kimi Delta attention that wants, that I want to work"
+  },
+  {
+    "segment_id": "tr-00479",
+    "start_seconds": 4535.9,
+    "end_seconds": 4541.94,
+    "text": "on. Yeah. And like somehow managed to make moonshot. I don't understand it still. Yeah. Yeah."
+  },
+  {
+    "segment_id": "tr-00480",
+    "start_seconds": 4542.04,
+    "end_seconds": 4551.26,
+    "text": "Well, he's, he's super cracked. At least my, my understanding. I mean, I think in general, like a lot of, a lot of the Chinese labs have done really, really cool work."
+  },
+  {
+    "segment_id": "tr-00481",
+    "start_seconds": 4551.5,
+    "end_seconds": 4564.5,
+    "text": "Yeah. Like any thoughts on Kimi agent swarms? Yes. Um, one thing I will say is whatever open AI is doing with their agents swarm is like clearly the"
+  },
+  {
+    "segment_id": "tr-00482",
+    "start_seconds": 4564.5,
+    "end_seconds": 4574.1,
+    "text": "right thing to do. You have to kind of think about it this way. Like nothing, especially without like a very, very smart harness design, which I don't, I don't think anyone really has so far."
+  },
+  {
+    "segment_id": "tr-00483",
+    "start_seconds": 4575.12,
+    "end_seconds": 4585.88,
+    "text": "Nothing comes so easily for free. For example, like the agent swarm design is not something you can just take for granted."
+  },
+  {
+    "segment_id": "tr-00484",
+    "start_seconds": 4585.88,
+    "end_seconds": 4591.94,
+    "text": "Like it's not like GPT -6 Astra. It's just super smart. And then it just got agent swarms running. Well, they clearly trained."
+  },
+  {
+    "segment_id": "tr-00485",
+    "start_seconds": 4592.04,
+    "end_seconds": 4604.16,
+    "text": "I mean, the, the hugging face incident was them training a system to be like a swarm. Uh, and I think like clearly they've done something really well to the point where you can throw $40 million"
+  },
+  {
+    "segment_id": "tr-00486",
+    "start_seconds": 4604.16,
+    "end_seconds": 4616.5,
+    "text": "and solve an unsolved problem. And I think with the Kimi agent swarm thing, like at least from when I read it, it just came off as like, this is interesting, but I don't actually"
+  },
+  {
+    "segment_id": "tr-00487",
+    "start_seconds": 4616.5,
+    "end_seconds": 4627.56,
+    "text": "know whether or not this can solve anything novel. Yeah. They just, they were like, it makes spreadsheets. They kind of were just like, yeah, like, you know, here is a, here is a swarm that like kind of does stuff and it's cool."
+  },
+  {
+    "segment_id": "tr-00488",
+    "start_seconds": 4627.82,
+    "end_seconds": 4634.78,
+    "text": "Um, but, and I, I will say it's same thing with dynamic workflows. I actually kind of think the dynamic workflows release was sort of a flop."
+  },
+  {
+    "segment_id": "tr-00489",
+    "start_seconds": 4634.96,
+    "end_seconds": 4642.18,
+    "text": "I don't know how you guys feel about it, but I think it's like, uh, my understanding is like, it's not used that often or like, it's just very expensive."
+  },
+  {
+    "segment_id": "tr-00490",
+    "start_seconds": 4642.34,
+    "end_seconds": 4654.42,
+    "text": "It's too expensive. It's ultra code. It's basically like, you know, take over my bag. It doesn't, I've tried it and like, it doesn't act in the way that like, again, I, I, I'm not, I'm not the biggest open AI, like,"
+  },
+  {
+    "segment_id": "tr-00491",
+    "start_seconds": 4654.86,
+    "end_seconds": 4663.2,
+    "text": "you know, Stan or something, but I think whatever they did was very impressive. Like they somehow managed to get away for this, this swarm to actually act towards, towards a goal."
+  },
+  {
+    "segment_id": "tr-00492",
+    "start_seconds": 4663.5,
+    "end_seconds": 4671.18,
+    "text": "And yeah, it's very difficult. I see. So, so like efficiency of, of the multi -agent swarm is the objective function here."
+  },
+  {
+    "segment_id": "tr-00493",
+    "start_seconds": 4671.3,
+    "end_seconds": 4679.96,
+    "text": "Yeah. Right. Like how much of this is slop? Like, this is a lot of slop. I think so. I think we take for granted what it means for a swarm to converge to an answer."
+  },
+  {
+    "segment_id": "tr-00494",
+    "start_seconds": 4680.4,
+    "end_seconds": 4691.24,
+    "text": "It's just like, it's not, not something we can take for granted. Yeah. Yeah. We've, we've done one part with Noam Brown and like his, his, that thing, his whole thing was like, okay, like we've worked on a lot of like competitive agents."
+  },
+  {
+    "segment_id": "tr-00495",
+    "start_seconds": 4691.42,
+    "end_seconds": 4698.24,
+    "text": "Uh, we're working on collaborative agents and like, that's now called a swarm. Yeah. I would do a quick poke. Would you have any thoughts on Gemini?"
+  },
+  {
+    "segment_id": "tr-00496",
+    "start_seconds": 4698.44,
+    "end_seconds": 4705.22,
+    "text": "They were also IMO gold. Like, you know, there, there was a time where they were getting agents to reason for a long time."
+  },
+  {
+    "segment_id": "tr-00497",
+    "start_seconds": 4705.44,
+    "end_seconds": 4712.06,
+    "text": "And, um, yeah, I mean, is it too old to think about? No, no, no. I, I, I think it's a little bit blown out of proportion."
+  },
+  {
+    "segment_id": "tr-00498",
+    "start_seconds": 4712.3,
+    "end_seconds": 4719.72,
+    "text": "Like Gemini for again, I, so I should preface by saying I haven't worked at any of these places. So, so take this with a grain of salt."
+  },
+  {
+    "segment_id": "tr-00499",
+    "start_seconds": 4720.0,
+    "end_seconds": 4726.28,
+    "text": "I mean, you have strong opinions on agent harnesses and you know, this was, um, let me just say this first. This work was really impressive."
+  },
+  {
+    "segment_id": "tr-00500",
+    "start_seconds": 4726.58,
+    "end_seconds": 4737.94,
+    "text": "I think what, what they showed here was like, they took a, a time when the models weren't that good and they managed to be very, very smart about like what the harness does."
+  },
+  {
+    "segment_id": "tr-00501",
+    "start_seconds": 4738.2,
+    "end_seconds": 4747.32,
+    "text": "I remember for this, at least like, yeah, like alpha geometry, I guess that was a year before this, but it was very cool. They took, um, they took it to the max and they like designed, uh, I don't know."
+  },
+  {
+    "segment_id": "tr-00502",
+    "start_seconds": 4747.4,
+    "end_seconds": 4754.08,
+    "text": "I'd say I, I, I'm not too big on competitive math, but I think like GDM, it's sort of a shame."
+  },
+  {
+    "segment_id": "tr-00503",
+    "start_seconds": 4754.32,
+    "end_seconds": 4760.76,
+    "text": "Like everyone I've talked to about GDM kind of has the same opinion, which is that it's way too like bureaucratic, whatever is good."
+  },
+  {
+    "segment_id": "tr-00504",
+    "start_seconds": 4760.96,
+    "end_seconds": 4772.12,
+    "text": "They have the talent and the resources to do almost anything, but like, I don't know until they figure that part out, like nothing against anti -gravity, for example, but like, I don't know anybody that uses anti -gravity."
+  },
+  {
+    "segment_id": "tr-00505",
+    "start_seconds": 4772.22,
+    "end_seconds": 4779.56,
+    "text": "And so I've tried it once and it's, I don't see a reason to switch to it. Um, and I think for whatever reason, like they've been struggling with this."
+  },
+  {
+    "segment_id": "tr-00506",
+    "start_seconds": 4779.76,
+    "end_seconds": 4787.7,
+    "text": "So. Yeah. Well, uh, you know, a lot of people docked in meta for a long time until they started coming out and like, I think, uh, Google is going through that phase right now."
+  },
+  {
+    "segment_id": "tr-00507",
+    "start_seconds": 4788.08,
+    "end_seconds": 4800.34,
+    "text": "Um, and, uh, you know, it's, it's, you gotta stay alive and focus back on just like your, uh, your thoughts, just general, uh, we can talk about speculative PTC, uh, mismanaged geniuses, or just"
+  },
+  {
+    "segment_id": "tr-00508",
+    "start_seconds": 4800.34,
+    "end_seconds": 4811.3,
+    "text": "like throw away all this and just talk about whatever else. Okay. Let's, let's talk about mismanaged genius for a little bit. I, the only comment I'll say on speculative PTC is that it's a really simple idea."
+  },
+  {
+    "segment_id": "tr-00509",
+    "start_seconds": 4811.68,
+    "end_seconds": 4823.6,
+    "text": "It's almost like obvious that this should be done. And like, there's not much more to talk about it. Like, I think it's just like, you should just use it for, for like coding, like anything with programmatic agent calling, like RLMs or code act."
+  },
+  {
+    "segment_id": "tr-00510",
+    "start_seconds": 4823.7,
+    "end_seconds": 4835.9,
+    "text": "Like, yeah, it's like, it's like a no brainer. What's the, you know, for, for people that haven't read it, what's the one liner? The simple thing is when the model is, uh, writing its code or like, even"
+  },
+  {
+    "segment_id": "tr-00511",
+    "start_seconds": 4835.9,
+    "end_seconds": 4842.84,
+    "text": "as like, after it finishes writing the code, a lot of tools tend to be like sequential or like, you have to wait on them."
+  },
+  {
+    "segment_id": "tr-00512",
+    "start_seconds": 4842.98,
+    "end_seconds": 4852.3,
+    "text": "So you should just launch them in advance. Like if, if you're able to compile this code, you can probably figure out like, even though it's like kind of variables and stuff like you can figure out."
+  },
+  {
+    "segment_id": "tr-00513",
+    "start_seconds": 4852.62,
+    "end_seconds": 4864.62,
+    "text": "Yeah. Statically analyze. Yeah. Yeah. So speculation. Yeah. There's, there is this, uh, someone pointed to me, some actually like academics have, especially PL, like programming languages, people have some like very kind of"
+  },
+  {
+    "segment_id": "tr-00514",
+    "start_seconds": 4864.62,
+    "end_seconds": 4872.72,
+    "text": "cool ways of doing this. And so like, you know, at some point maybe I'll, I'll, I'll like work on this. Mostly you have to change language because if you are in JavaScript Python, you can't do this."
+  },
+  {
+    "segment_id": "tr-00515",
+    "start_seconds": 4873.14,
+    "end_seconds": 4881.52,
+    "text": "Yes. Yeah. Yeah. So like, uh, Haskell. Yes. Um, um, um, what's, what's the, uh, what's the normal one that's, that's not Haskell?"
+  },
+  {
+    "segment_id": "tr-00516",
+    "start_seconds": 4881.78,
+    "end_seconds": 4889.5,
+    "text": "Lisp. Uh, Lisp, uh, OCaml. OCaml. Yeah. Any functional language you can actually like pipeline this. Um, so effect TS if you want to do typescript."
+  },
+  {
+    "segment_id": "tr-00517",
+    "start_seconds": 4889.7,
+    "end_seconds": 4896.44,
+    "text": "Yeah. Okay. We can switch over to, uh, which, which is like your, you guys' whole thesis, right?"
+  },
+  {
+    "segment_id": "tr-00518",
+    "start_seconds": 4896.62,
+    "end_seconds": 4907.36,
+    "text": "Like that, uh, I mean, to me, this is like kind of like a restatement, but maybe I'm missing something of like, well, uh, work on better harnesses or like, you know, your, your models actually are capable a lot more if you try harder."
+  },
+  {
+    "segment_id": "tr-00519",
+    "start_seconds": 4907.5,
+    "end_seconds": 4914.98,
+    "text": "So this is a skilled issue. Yeah. Yeah. Basically. I, I, I mean, I, I, I think there's one thing I want to see."
+  },
+  {
+    "segment_id": "tr-00520",
+    "start_seconds": 4915.28,
+    "end_seconds": 4927.68,
+    "text": "I appreciate that there's a big focus on like jagged intelligence because it paints a big picture of like, we can do this if we really set our minds on it, but I kind of wish, and maybe someone in academia"
+  },
+  {
+    "segment_id": "tr-00521",
+    "start_seconds": 4927.68,
+    "end_seconds": 4939.74,
+    "text": "should do this, like really just sit down and think about like, if I took Astra, even the current frontier models are not good enough at like doing a particular job over,"
+  },
+  {
+    "segment_id": "tr-00522",
+    "start_seconds": 4939.92,
+    "end_seconds": 4946.58,
+    "text": "let's say the span of a month consistently and well. And I think this is like a stupid problem. Like I, I genuinely think we can solve this."
+  },
+  {
+    "segment_id": "tr-00523",
+    "start_seconds": 4946.74,
+    "end_seconds": 4958.8,
+    "text": "You don't need to be a frontier lab and like do all this, like, you know, fancy stuff for your IPO. Like, I think like these models are so smart that even if it's like a silly way, I think that it"
+  },
+  {
+    "segment_id": "tr-00524",
+    "start_seconds": 4958.8,
+    "end_seconds": 4970.84,
+    "text": "genuinely is a skill issue of you can get a model to be as good as let's say like just some 18 year old high school kid doing some job."
+  },
+  {
+    "segment_id": "tr-00525",
+    "start_seconds": 4971.0,
+    "end_seconds": 4981.96,
+    "text": "I think it's like ridiculous that we can't do that. And it's part of the reason is like the, the, the format of a language model is, is not really amenable to that, but I think you can shape a harness around it and do it."
+  },
+  {
+    "segment_id": "tr-00526",
+    "start_seconds": 4982.12,
+    "end_seconds": 4989.34,
+    "text": "And I think like this in itself is like ignoring the RLM stuff, ignoring all the, like, you know, what abstractions should we use?"
+  },
+  {
+    "segment_id": "tr-00527",
+    "start_seconds": 4989.46,
+    "end_seconds": 5000.28,
+    "text": "Like, I just think someone can design a harness that can do this. Like I, I, I mean, that's maybe you say do this, do what do long running, but simple tasks, uh, and, and do them reliably."
+  },
+  {
+    "segment_id": "tr-00528",
+    "start_seconds": 5000.6,
+    "end_seconds": 5012.72,
+    "text": "What's an example. So is this different than like, you know, pick your favorite company, Harvey, for example, using LLMs to do legal work or what's the, I mean, I, I, I guess it's kind of like that,"
+  },
+  {
+    "segment_id": "tr-00529",
+    "start_seconds": 5012.84,
+    "end_seconds": 5025.28,
+    "text": "except if the bottleneck was not like certain legal knowledge or something like, I don't know, let's say, I mean, I guess like the examples, you know, people can take models and build pipelines or whatever and have an agent repeatedly do"
+  },
+  {
+    "segment_id": "tr-00530",
+    "start_seconds": 5025.28,
+    "end_seconds": 5035.14,
+    "text": "whatever it has they want. Yeah. Yeah. So, so for example, like if I wanted a general system that I could kind of talk, I can talk to it."
+  },
+  {
+    "segment_id": "tr-00531",
+    "start_seconds": 5035.28,
+    "end_seconds": 5041.42,
+    "text": "Like I would talk to an intern and basically just ask it to do, to explore some small thing."
+  },
+  {
+    "segment_id": "tr-00532",
+    "start_seconds": 5041.54,
+    "end_seconds": 5053.6,
+    "text": "So maybe an example of this is like very silly auto research is, is maybe an example of this of like, not necessarily finding super, super novel solutions, but at least optimizing all"
+  },
+  {
+    "segment_id": "tr-00533",
+    "start_seconds": 5053.6,
+    "end_seconds": 5060.72,
+    "text": "of the easy parts of any problem. They often end up being over -indexed for like ML training and, and, and things like that."
+  },
+  {
+    "segment_id": "tr-00534",
+    "start_seconds": 5060.86,
+    "end_seconds": 5073.52,
+    "text": "But yeah, I don't know. Maybe, maybe, maybe that's, that's, that's not like super, super clear, but there is a lot of people's general workflows where you"
+  },
+  {
+    "segment_id": "tr-00535",
+    "start_seconds": 5073.52,
+    "end_seconds": 5080.4,
+    "text": "probably could just vide code up some specific harness to help you do like automate this thing."
+  },
+  {
+    "segment_id": "tr-00536",
+    "start_seconds": 5080.64,
+    "end_seconds": 5090.48,
+    "text": "Some examples are like automating, finding like research papers and stuff like that. But usually people will design like a specialized agent to help them do this kind of thing."
+  },
+  {
+    "segment_id": "tr-00537",
+    "start_seconds": 5090.6,
+    "end_seconds": 5099.96,
+    "text": "Or like, like they'll vibe code a harness, like, and just run it or like their Slack bot or something. But I almost think there's just like a standard form, like just a harness that you just plug in."
+  },
+  {
+    "segment_id": "tr-00538",
+    "start_seconds": 5100.18,
+    "end_seconds": 5107.26,
+    "text": "Like you don't, it doesn't need to be designed for finding papers or like you just kind of tell it, find this for me. And you like plug it into that setting."
+  },
+  {
+    "segment_id": "tr-00539",
+    "start_seconds": 5107.26,
+    "end_seconds": 5116.6,
+    "text": "What I'm getting at is that I think there's a lot of easy things that can be automated. And is this like a hypothesis or a point around like capability overhang?"
+  },
+  {
+    "segment_id": "tr-00540",
+    "start_seconds": 5116.72,
+    "end_seconds": 5123.92,
+    "text": "Like even if we paused, there's still a lot of impact to be had with current state of models? In some sense, yes."
+  },
+  {
+    "segment_id": "tr-00541",
+    "start_seconds": 5124.08,
+    "end_seconds": 5136.34,
+    "text": "Like, I guess what I'm presenting is the easiest form of this. But what this is kind of saying is that like, we have jagged intelligence on a lot of things."
+  },
+  {
+    "segment_id": "tr-00542",
+    "start_seconds": 5136.48,
+    "end_seconds": 5143.9,
+    "text": "Like, for example, models are like disproportionately good at coding and math. This is saying like, we can translate those abilities to many other things."
+  },
+  {
+    "segment_id": "tr-00543",
+    "start_seconds": 5144.12,
+    "end_seconds": 5155.68,
+    "text": "So like, for example, if you took, usually, if you take someone who was an IMO gold or something, and you kind of apply them to a lot of different problem solving domains, they can figure it out."
+  },
+  {
+    "segment_id": "tr-00544",
+    "start_seconds": 5155.84,
+    "end_seconds": 5168.24,
+    "text": "I don't actually know this applies to models. For example, like in GPU code optimization, one very interesting question is whether, if you were to take out all of the GPU programming data,"
+  },
+  {
+    "segment_id": "tr-00545",
+    "start_seconds": 5168.48,
+    "end_seconds": 5177.46,
+    "text": "like from a model, but it was really, it was like as good as Astra is now just without like with that taken out, would it be able to still optimize GPU kernels?"
+  },
+  {
+    "segment_id": "tr-00546",
+    "start_seconds": 5177.66,
+    "end_seconds": 5188.2,
+    "text": "Like, would it be able to learn in context roughly what it needs to learn, and then like, have some pipeline or like, or come up with some solution to solving like optimization tasks."
+  },
+  {
+    "segment_id": "tr-00547",
+    "start_seconds": 5188.34,
+    "end_seconds": 5197.8,
+    "text": "And I think like, there's like a mismatch between like, if you took a human that was as smart, or like knew as much as Astra, there is a mismatch between what that human can do and what Astra can do, maybe around a harness."
+  },
+  {
+    "segment_id": "tr-00548",
+    "start_seconds": 5198.38,
+    "end_seconds": 5205.18,
+    "text": "And I think we can actually approximate the human a lot more. To me, it sounds very approximate to the continual learning problem."
+  },
+  {
+    "segment_id": "tr-00549",
+    "start_seconds": 5205.68,
+    "end_seconds": 5213.46,
+    "text": "I think you're making... That's the best example. Yes. Yes. Why didn't you just say that? Yeah, yeah, I guess... I was like thinking, should I just blurt out some words?"
+  },
+  {
+    "segment_id": "tr-00550",
+    "start_seconds": 5213.46,
+    "end_seconds": 5222.26,
+    "text": "It's like... I'm careful with that. But yes, I... You have a very... Maybe... Maybe like a bit of a..."
+  },
+  {
+    "segment_id": "tr-00551",
+    "start_seconds": 5222.26,
+    "end_seconds": 5228.46,
+    "text": "I don't know. So I think you're a very... I don't know. I don't know your undergrad, actually. Are you like a math person?"
+  },
+  {
+    "segment_id": "tr-00552",
+    "start_seconds": 5228.74,
+    "end_seconds": 5240.7,
+    "text": "A little bit, yeah. I think you're like sort of like a... Study math. Yeah, that's what I wanted to do, at least. Like a category theory type of abstraction where you're thinking categories and then you have to like then translate down to the specific."
+  },
+  {
+    "segment_id": "tr-00553",
+    "start_seconds": 5241.12,
+    "end_seconds": 5251.42,
+    "text": "But then you like actually really care more about the category. And like that's the communication error because like everyone's listening for the specific, but actually trying to also, you know, convey the general."
+  },
+  {
+    "segment_id": "tr-00554",
+    "start_seconds": 5251.66,
+    "end_seconds": 5261.44,
+    "text": "Yeah. Which is hard. I don't really know. You can maybe use like a shorthand of like, okay, I'm at level two and then I'm going to go up to level three and go back to level two."
+  },
+  {
+    "segment_id": "tr-00555",
+    "start_seconds": 5261.44,
+    "end_seconds": 5270.88,
+    "text": "We should have say some like epistemic like shorthand for like this kind of thing because it's hard. Like you're compressing a lot into word after like sequential word decoding."
+  },
+  {
+    "segment_id": "tr-00556",
+    "start_seconds": 5271.76,
+    "end_seconds": 5283.24,
+    "text": "Should we convert to neuralese? You know, is there like a better form of output than English or Python or JavaScript?"
+  },
+  {
+    "segment_id": "tr-00557",
+    "start_seconds": 5286.26,
+    "end_seconds": 5293.5,
+    "text": "I don't know. This is kind of like a shitpost, but like people have speculated about like what is the native language that people want out that models want to output."
+  },
+  {
+    "segment_id": "tr-00558",
+    "start_seconds": 5294.18,
+    "end_seconds": 5302.56,
+    "text": "Some people say binary. That's a, that's Mark Andreessen's thing. I don't know. Yeah. PTX. Let's say a mix of English and Python."
+  },
+  {
+    "segment_id": "tr-00559",
+    "start_seconds": 5303.06,
+    "end_seconds": 5310.68,
+    "text": "And I only say this because the capability of a model is somewhat a reflection of what we train them on."
+  },
+  {
+    "segment_id": "tr-00560",
+    "start_seconds": 5310.82,
+    "end_seconds": 5319.86,
+    "text": "So we still want like, like, yeah, I don't really buy the binary argument. I guess I like, I understand, but it's like, ah, like."
+  },
+  {
+    "segment_id": "tr-00561",
+    "start_seconds": 5320.0,
+    "end_seconds": 5332.02,
+    "text": "Yeah. You want to, you want to model the world in some way. I think the, you know, one thing I'll bring up is always, which I always do in this kind of conversation is Sapir Wharf, which is you, if you choose English, you will have locked into however long English has been around, which"
+  },
+  {
+    "segment_id": "tr-00562",
+    "start_seconds": 5332.02,
+    "end_seconds": 5339.2,
+    "text": "is, let's say 500 years, which is not that long. Like actually, you know, like what you, well, the language that you speak constrains how you think."
+  },
+  {
+    "segment_id": "tr-00563",
+    "start_seconds": 5339.4,
+    "end_seconds": 5347.94,
+    "text": "And if you learn a different language, for example, someone in Chinese, we don't have tenses. I don't know if you, I actually didn't know that."
+  },
+  {
+    "segment_id": "tr-00564",
+    "start_seconds": 5348.26,
+    "end_seconds": 5358.84,
+    "text": "And I speak Chinese. Oh, I did know that, but my Chinese is not great. Okay. Yeah. Or like, uh, in, let's say in Japanese or I know, I forget what language it is."
+  },
+  {
+    "segment_id": "tr-00565",
+    "start_seconds": 5358.94,
+    "end_seconds": 5366.38,
+    "text": "Like in, in Korean, everyone you speak to, you have to like acknowledge social status. Yeah. Yeah. Yeah. Yeah. It's a different dimension than gender, right?"
+  },
+  {
+    "segment_id": "tr-00566",
+    "start_seconds": 5366.44,
+    "end_seconds": 5376.72,
+    "text": "Like it's just like, it just influences everything you do. Um, when I take Ling 101, um, apparently there's a, there's a, there's a language in Africa where like there's a vegetable gender, uh, right?"
+  },
+  {
+    "segment_id": "tr-00567",
+    "start_seconds": 5376.86,
+    "end_seconds": 5383.42,
+    "text": "Like it's just like you have, or like Eskimo is no nowhere for snow or whatever. Like anyway, so like the, the language that you adopt affects your thinking."
+  },
+  {
+    "segment_id": "tr-00568",
+    "start_seconds": 5383.6,
+    "end_seconds": 5391.4,
+    "text": "And if you choose to output your chain of thought in English, you are biasing towards whatever English solves. I don't know what the sort of prior of English is."
+  },
+  {
+    "segment_id": "tr-00569",
+    "start_seconds": 5391.58,
+    "end_seconds": 5398.02,
+    "text": "That's interesting. I did not think of it that way. I mean, at some level it's interesting, right? So you're right on language."
+  },
+  {
+    "segment_id": "tr-00570",
+    "start_seconds": 5398.34,
+    "end_seconds": 5407.68,
+    "text": "Uh, a lot of model chain of thought also fluctuates language. Uh, the obvious example is Chinese models speaking in English might still reason in Chinese."
+  },
+  {
+    "segment_id": "tr-00571",
+    "start_seconds": 5408.16,
+    "end_seconds": 5416.28,
+    "text": "Uh, but at the same level, most models are very capable multilingually and that adaptation we can see, you know, you can add in languages."
+  },
+  {
+    "segment_id": "tr-00572",
+    "start_seconds": 5416.44,
+    "end_seconds": 5428.5,
+    "text": "You don't get that much from adding a whole language, but they'll reason interchange. Yeah. So we're all all the regressive. I mean, but also like, uh, let's say German, like, you know, uh, subject object, uh, agreements, uh, you have to put the verb"
+  },
+  {
+    "segment_id": "tr-00573",
+    "start_seconds": 5428.5,
+    "end_seconds": 5436.26,
+    "text": "at the end, which is very super annoying, like very famously. Uh, yeah. Right. You don't know what you're doing until the end where you're like, Oh, that mess of nouns."
+  },
+  {
+    "segment_id": "tr-00574",
+    "start_seconds": 5436.58,
+    "end_seconds": 5446.8,
+    "text": "And then the verb. Well, the, the, the most classic one that most people be have heard of is arrival where, um, they have to have the parts where they, they think, uh, that time is like flat to them."
+  },
+  {
+    "segment_id": "tr-00575",
+    "start_seconds": 5447.26,
+    "end_seconds": 5455.3,
+    "text": "So they think in, they, they, they, they output entire sentences at one shot. Um, so it's, it's as closest to the difference between autoregression and diffusion."
+  },
+  {
+    "segment_id": "tr-00576",
+    "start_seconds": 5455.56,
+    "end_seconds": 5461.84,
+    "text": "We talk in autoregression. What if you could talk in diffusion, uh, where things just resolve over time. I see. I see."
+  },
+  {
+    "segment_id": "tr-00577",
+    "start_seconds": 5461.84,
+    "end_seconds": 5470.38,
+    "text": "But like the whole idea shows up at once. I see. So that is a drastically different language, but it is a language."
+  },
+  {
+    "segment_id": "tr-00578",
+    "start_seconds": 5470.38,
+    "end_seconds": 5478.52,
+    "text": "I see. Oh, that's really interesting. That's really, really interesting. Uh, which like machines could speak that we, you know, probably will never speak, but like, yeah, machines don't care."
+  },
+  {
+    "segment_id": "tr-00579",
+    "start_seconds": 5479.0,
+    "end_seconds": 5489.78,
+    "text": "Maybe this is a huge tangent, but are there, are there not like things inherently that are reasoning chains that are inherently autoregressive?"
+  },
+  {
+    "segment_id": "tr-00580",
+    "start_seconds": 5490.24,
+    "end_seconds": 5499.78,
+    "text": "Yeah. Sometimes like, yeah. Or like, yeah, yeah, yeah. Something happens first. Then something else happens. Even like, yeah, anything in code, for example, like has to be causal in, in, in some, usually at least has to be causal."
+  },
+  {
+    "segment_id": "tr-00581",
+    "start_seconds": 5500.24,
+    "end_seconds": 5509.9,
+    "text": "Um, well, no. Uh, so, so then you have to, then you're not exploring enough, uh, function, uh, program and language theory, uh, where, uh, everything is like pure functional and like completely relational."
+  },
+  {
+    "segment_id": "tr-00582",
+    "start_seconds": 5509.9,
+    "end_seconds": 5517.0,
+    "text": "And, and, uh, you sort of abstract away the solver that translates the relationships that are always true into code."
+  },
+  {
+    "segment_id": "tr-00583",
+    "start_seconds": 5517.18,
+    "end_seconds": 5525.5,
+    "text": "So, uh, I, yeah, I, I feel like this is maybe a little bit too out of my depth, but I love languages, uh, whether it's coding or human."
+  },
+  {
+    "segment_id": "tr-00584",
+    "start_seconds": 5525.72,
+    "end_seconds": 5534.26,
+    "text": "And I do think a lot about how that affects reasoning and, and the boundaries of what we can do. I don't need to go too much beyond that."
+  },
+  {
+    "segment_id": "tr-00585",
+    "start_seconds": 5534.34,
+    "end_seconds": 5546.46,
+    "text": "I don't know if you have any other thoughts. Uh, my closing question was going to be, uh, you have all these research, uh, directions that you want to do your, you know, you had a GPU mode phase, you had a, uh, RLMs phase, presumably you"
+  },
+  {
+    "segment_id": "tr-00586",
+    "start_seconds": 5546.46,
+    "end_seconds": 5558.7,
+    "text": "have other stuff planned, which is why you're not, um, doubling down on that. By the way, I noticed that it is interesting how you guys do start with the GPU side and then you migrate towards the zero gradient"
+  },
+  {
+    "segment_id": "tr-00587",
+    "start_seconds": 5558.7,
+    "end_seconds": 5570.78,
+    "text": "side, which is what, uh, shouldn't you have called it? Doesn't that feel less legit than messing with GPUs? Yeah, I guess in, in the sense that like, so you did bring up that like, I, I like to think about things in like"
+  },
+  {
+    "segment_id": "tr-00588",
+    "start_seconds": 5570.78,
+    "end_seconds": 5578.88,
+    "text": "a math oriented way and it's like very uncomfortable sometimes to be working on like harnesses and agents because it's so. Because you think all harnesses are the same."
+  },
+  {
+    "segment_id": "tr-00589",
+    "start_seconds": 5579.22,
+    "end_seconds": 5591.4,
+    "text": "So it's like super fuzzy. It's like two new ideas in harnesses. Got it. Yeah. It's, it's, it's also just like, like empirically, it's hard to like verify a lot of findings, at least with, with the compute that we have available to"
+  },
+  {
+    "segment_id": "tr-00590",
+    "start_seconds": 5591.4,
+    "end_seconds": 5601.0,
+    "text": "us. But the reason why I think I've moved on to a lot of these problems is I think actually this is where most of like the innovation is yet to happen."
+  },
+  {
+    "segment_id": "tr-00591",
+    "start_seconds": 5601.18,
+    "end_seconds": 5613.22,
+    "text": "To me, like the GPU level is a means to exploring other ideas. Like you, you, you, you want to, for example, like get good at writing kernels or like even automate writing kernels for the sake"
+  },
+  {
+    "segment_id": "tr-00592",
+    "start_seconds": 5613.22,
+    "end_seconds": 5625.4,
+    "text": "of a broader goal of like, I want to explore ideas where I'm not bottlenecked by systems challenges. In that sense, like, you know, I guess a lot of what's written there is all harness stuff, but I am also interested in things at the model level"
+  },
+  {
+    "segment_id": "tr-00593",
+    "start_seconds": 5625.4,
+    "end_seconds": 5634.24,
+    "text": "as well. But I'll just leave it at that. Okay. That's a good hint. Anything, any, if people want to reach out to you, what are you looking for help on?"
+  },
+  {
+    "segment_id": "tr-00594",
+    "start_seconds": 5634.38,
+    "end_seconds": 5646.6,
+    "text": "What do you want collaborators on? Any sort of calls to action? Yeah. So, um, I guess there's nothing I have in particular where I feel like I need to work with someone on unless"
+  },
+  {
+    "segment_id": "tr-00595",
+    "start_seconds": 5646.6,
+    "end_seconds": 5657.8,
+    "text": "it's like, unless it's with a company before like compute or like with, to talk with other people about it. But I will say I'm not, I'm never opposed to working on ideas with other people."
+  },
+  {
+    "segment_id": "tr-00596",
+    "start_seconds": 5658.0,
+    "end_seconds": 5664.74,
+    "text": "I get reached out to a lot by often undergrads or, or even like other students, podcasters, podcasters."
+  },
+  {
+    "segment_id": "tr-00597",
+    "start_seconds": 5665.62,
+    "end_seconds": 5671.96,
+    "text": "Um, and usually I feel like I get an email that's something along the lines of like, I really like RLMs. Like I want to work together."
+  },
+  {
+    "segment_id": "tr-00598",
+    "start_seconds": 5672.12,
+    "end_seconds": 5679.06,
+    "text": "Uh, and I, I feel like I, that's a bad reach out, right? Yes. The worst is like, can I pick your brain? Yeah. I'm like, on the one, like read my paper, dude."
+  },
+  {
+    "segment_id": "tr-00599",
+    "start_seconds": 5679.32,
+    "end_seconds": 5686.02,
+    "text": "Like they'll be like, I read your paper in quotes, like recursive language models or like prime agent, like a self -improving RLM harness or something."
+  },
+  {
+    "segment_id": "tr-00600",
+    "start_seconds": 5686.4,
+    "end_seconds": 5698.58,
+    "text": "Uh, and it's kind of like, I, I, I like, I really like people that are opinionated, even if we disagree. I think if you have strong opinions and are able to like think through why you think those opinions are right or wrong, cause usually"
+  },
+  {
+    "segment_id": "tr-00601",
+    "start_seconds": 5698.58,
+    "end_seconds": 5707.06,
+    "text": "it's, it's hard to, to, to, to actually tell, but like you have strong convictions about certain problems. Like I'm, I'm always happy to like chat and even like potentially work on something together."
+  },
+  {
+    "segment_id": "tr-00602",
+    "start_seconds": 5707.32,
+    "end_seconds": 5713.96,
+    "text": "I have like no limit to who or like what I would like to work on. So, um, yeah. No limit. Yeah."
+  },
+  {
+    "segment_id": "tr-00603",
+    "start_seconds": 5714.08,
+    "end_seconds": 5722.62,
+    "text": "Yeah. Yeah. I, I, you know, in, in the era of agents, I think there's a lot more work you can do, you know, like, like bandwidth wise."
+  },
+  {
+    "segment_id": "tr-00604",
+    "start_seconds": 5722.8,
+    "end_seconds": 5732.84,
+    "text": "So I, yeah, I, I think in general, like I am not hard to impress, but I think it just takes a little bit of effort to kind of, yeah, know, know what you want."
+  },
+  {
+    "segment_id": "tr-00605",
+    "start_seconds": 5732.9,
+    "end_seconds": 5741.24,
+    "text": "It's very clear. I mean, and like when you see a new thing come out, well executed, good, simple idea, uh, then, then I get that immediately gets your attention."
+  },
+  {
+    "segment_id": "tr-00606",
+    "start_seconds": 5742.02,
+    "end_seconds": 5748.78,
+    "text": "It's actually like not that hard to get the same attention at all the Frontier Lab guys, because they are looking for you. Uh, you just have to put yourself out there, right?"
+  },
+  {
+    "segment_id": "tr-00607",
+    "start_seconds": 5748.8,
+    "end_seconds": 5758.9,
+    "text": "Exactly. Yeah. But yeah, I will say, I think, I think human attention very scarce right now. And I do struggle with like the number of projects that I have going on and I don't know how to manage it."
+  },
+  {
+    "segment_id": "tr-00608",
+    "start_seconds": 5758.98,
+    "end_seconds": 5765.16,
+    "text": "I don't think agents are helping at all. Like I would just prompt it and I'll prompt the thing and then never look at it. Right. Like, which is very common. Yeah."
+  },
+  {
+    "segment_id": "tr-00609",
+    "start_seconds": 5765.4,
+    "end_seconds": 5776.94,
+    "text": "Yeah. And that sucks. I guess maybe that one of the smaller differences in like, I mean, actually maybe you're doing research, I'm not sure, but for, for me at least, like I'll have maybe like 10 or 15 different ideas that I want to do."
+  },
+  {
+    "segment_id": "tr-00610",
+    "start_seconds": 5777.12,
+    "end_seconds": 5785.52,
+    "text": "But the thing is like, most of them are bad. Yeah. And, and, and this also maybe is true even for someone that reaches out to me. Like maybe the idea is actually bad, but it looks interesting to me."
+  },
+  {
+    "segment_id": "tr-00611",
+    "start_seconds": 5785.64,
+    "end_seconds": 5795.78,
+    "text": "And so like, we can spend like some time looking into it. And if like, we feel like there's actually something there, like then we should, we should take the next few weeks and just really pursue it."
+  },
+  {
+    "segment_id": "tr-00612",
+    "start_seconds": 5796.04,
+    "end_seconds": 5805.1,
+    "text": "And like, this is my, my style with, this is why I love the PhD by the way, because there are times when I'm just thinking about problems, like maybe on a run or just like playing tennis or something."
+  },
+  {
+    "segment_id": "tr-00613",
+    "start_seconds": 5805.22,
+    "end_seconds": 5812.6,
+    "text": "Like I'm not, I'm not working, I guess, but it's like, those are the most fun times. And then when I like really am convicted about something, I'll just like drop everything and just do it."
+  },
+  {
+    "segment_id": "tr-00614",
+    "start_seconds": 5812.82,
+    "end_seconds": 5822.76,
+    "text": "Like just spend like all my time thinking and working on that problem. And then I, you know, once you get to the point where like, you can just run experiments, then it's, it's, it's kind of easy coasting again."
+  },
+  {
+    "segment_id": "tr-00615",
+    "start_seconds": 5823.0,
+    "end_seconds": 5835.18,
+    "text": "So. Yeah. Sorry. This is like the fourth last question, which is like, I think a lot of people are also thinking about science as the next frontier, like, like physical sciences, bio, math, even."
+  },
+  {
+    "segment_id": "tr-00616",
+    "start_seconds": 5835.84,
+    "end_seconds": 5846.92,
+    "text": "Um, how do you separate, like, I guess, let's say your choice of projects that is applicable for industry and then maybe it's part, precious project that's just like science."
+  },
+  {
+    "segment_id": "tr-00617",
+    "start_seconds": 5847.28,
+    "end_seconds": 5853.74,
+    "text": "I actually worked on like AI for bio stuff before I started my PhD. The field has changed a lot since then."
+  },
+  {
+    "segment_id": "tr-00618",
+    "start_seconds": 5853.92,
+    "end_seconds": 5861.5,
+    "text": "I, I should say. Cause it's, it's like, it used to be a theoretical, like, of course, what do you mean? Like, you know, I have one path and then I chose that, but now a lot of people crossing over."
+  },
+  {
+    "segment_id": "tr-00619",
+    "start_seconds": 5861.7,
+    "end_seconds": 5869.38,
+    "text": "Yeah. And they're like, so we have started a science pod to just cover those things because a lot of engineers are like, well, actually there's tractable problems there."
+  },
+  {
+    "segment_id": "tr-00620",
+    "start_seconds": 5869.72,
+    "end_seconds": 5881.84,
+    "text": "Yeah. You know, I will preface by saying my, my understanding of a lot of these topics is probably pretty limited, but I think like if I find out either because someone reaches out or like, I look at a problem and I'm like, Hey,"
+  },
+  {
+    "segment_id": "tr-00621",
+    "start_seconds": 5881.9,
+    "end_seconds": 5891.06,
+    "text": "like some design principles that we use or that we're thinking about right now actually make a lot of sense for this problem. I get excited about those as well, but I think, I think it's harder."
+  },
+  {
+    "segment_id": "tr-00622",
+    "start_seconds": 5891.28,
+    "end_seconds": 5901.56,
+    "text": "I don't know. I think with, I think science, especially like empirical or like applied science has very, very long, like, what is it called?"
+  },
+  {
+    "segment_id": "tr-00623",
+    "start_seconds": 5901.66,
+    "end_seconds": 5913.44,
+    "text": "Like feedback loops or whatever. Um, yeah. It converges to a robotics question. Yeah. Yeah. I mean, to me, like also this aspect of like, what is worth spending and betting my time on now?"
+  },
+  {
+    "segment_id": "tr-00624",
+    "start_seconds": 5913.56,
+    "end_seconds": 5921.32,
+    "text": "Because like, maybe I spent a lot of time on this problem and then like in six months, like a different solution, kind of like maybe a new model comes out and it's like, Oh, it's way better for this."
+  },
+  {
+    "segment_id": "tr-00625",
+    "start_seconds": 5921.42,
+    "end_seconds": 5929.22,
+    "text": "And so I do have to be careful. I like, you know, you have to be conscious about like where you think things might be going. Um, so publish, publish cycle."
+  },
+  {
+    "segment_id": "tr-00626",
+    "start_seconds": 5929.72,
+    "end_seconds": 5937.32,
+    "text": "Yeah. Yeah. Yeah. So I can just, Oh, RKGI 3, it's saturated. We did it. Yeah. I mean, RKGI 3 got saturated in less than a year."
+  },
+  {
+    "segment_id": "tr-00627",
+    "start_seconds": 5937.5,
+    "end_seconds": 5943.62,
+    "text": "So it's kind of, you know, like it's, I don't know, like if, if, if you were a lab picking that problem, like you're probably kind of sad now because."
+  },
+  {
+    "segment_id": "tr-00628",
+    "start_seconds": 5944.48,
+    "end_seconds": 5951.4,
+    "text": "Exactly. That's why knowledge work, gaming, all these things are saturated. Now that actually the frontier is science. Yeah. Knowledge work is saturated."
+  },
+  {
+    "segment_id": "tr-00629",
+    "start_seconds": 5952.32,
+    "end_seconds": 5959.12,
+    "text": "Yeah. GDP value is like 80 something, 90 something. Um, I mean like, you know, there's, there's 90 to a hundred percent."
+  },
+  {
+    "segment_id": "tr-00630",
+    "start_seconds": 5959.24,
+    "end_seconds": 5966.34,
+    "text": "I was obviously going to get, it's going to take the next 10 years, but like, uh, well, the next low hanging fruit is going to be, you know, the other stuff."
+  },
+  {
+    "segment_id": "tr-00631",
+    "start_seconds": 5966.66,
+    "end_seconds": 5978.96,
+    "text": "Yeah. Maybe I'll think about that more. I actually, I, I haven't given too much. I'm just trying to guess your next direction. No, no, I will say because I think, I think especially at MIT, like it's, it's, it's, there's a lot of really talented scientists there, like in, in the natural sciences."
+  },
+  {
+    "segment_id": "tr-00632",
+    "start_seconds": 5978.96,
+    "end_seconds": 5986.2,
+    "text": "And I think it's, it's a little bit like sacrilegious almost to be like, I'm going to figure out like your problem. Like. No, that's how it's done."
+  },
+  {
+    "segment_id": "tr-00633",
+    "start_seconds": 5986.44,
+    "end_seconds": 5993.18,
+    "text": "Oh no, I know. Yeah. So I interviewed Ite who did the IMO thing. He's like, I've never, I've never been to IMO. I don't even know what it is."
+  },
+  {
+    "segment_id": "tr-00634",
+    "start_seconds": 5993.34,
+    "end_seconds": 6004.44,
+    "text": "Just a scale model, dude. Yeah. Yeah. Yeah. Uh, which is like very disrespectful about like, oh, whatever. But that's like, uh, at some point, like you have to respect like, okay, you know, the, the progress is being made."
+  },
+  {
+    "segment_id": "tr-00635",
+    "start_seconds": 6004.58,
+    "end_seconds": 6013.42,
+    "text": "Like number is getting output. Right. True. Yeah. I mean, that is very bit of a lesson. I, it's very interesting. Like, cause the mathematicians are responding this way to Neri's stuff right now."
+  },
+  {
+    "segment_id": "tr-00636",
+    "start_seconds": 6013.56,
+    "end_seconds": 6023.96,
+    "text": "Right. Yeah. Like Terry, Terry Terrence Tao is like, no, like let's not, let's not use AI. Yeah. I'm like, well, yeah, I mean, I think that, that, uh, that whole thing is kind of weird."
+  },
+  {
+    "segment_id": "tr-00637",
+    "start_seconds": 6024.12,
+    "end_seconds": 6031.08,
+    "text": "Cause I feel like, I feel like they would have had a stronger case if a lot of them didn't work with open AI before, like all of this happened. No, that's ad hominem."
+  },
+  {
+    "segment_id": "tr-00638",
+    "start_seconds": 6031.2,
+    "end_seconds": 6038.24,
+    "text": "Uh, and they, they're really trying to stay away from that. So what? Right. So what? Like, I don't know. Like, like, so what? They got, you know, they, they've, they've collaborated."
+  },
+  {
+    "segment_id": "tr-00639",
+    "start_seconds": 6038.38,
+    "end_seconds": 6044.6,
+    "text": "I collaborate with people that don't agree with or whatever. Yeah. Yeah. Yeah. That's true. Or like I did a thing and then now I, now I regret that. I changed my mind."
+  },
+  {
+    "segment_id": "tr-00640",
+    "start_seconds": 6044.78,
+    "end_seconds": 6050.78,
+    "text": "No, whatever. Yeah. Yeah. So I'll defend the right to say that. But like, uh, yeah, a lot of people are reasonably disagreeing with, uh, with them. Yeah."
+  },
+  {
+    "segment_id": "tr-00641",
+    "start_seconds": 6051.08,
+    "end_seconds": 6058.4,
+    "text": "Um, okay, cool. Uh, thanks for your joining us. Congrats on, uh, your success so far. I can't believe you're still not done with your PhD."
+  },
+  {
+    "segment_id": "tr-00642",
+    "start_seconds": 6058.64,
+    "end_seconds": 6066.58,
+    "text": "Well, it's year, year two, you know? Yeah. I can't believe we did this podcast without going through the URL and paper. He had a definition."
+  },
+  {
+    "segment_id": "tr-00643",
+    "start_seconds": 6066.94,
+    "end_seconds": 6073.26,
+    "text": "I think the paper is more about like empirical results. Like the actual idea is quite simple. Yeah. And you've talked about it many times. Yeah."
+  },
+  {
+    "segment_id": "tr-00644",
+    "start_seconds": 6073.38,
+    "end_seconds": 6079.58,
+    "text": "Yeah. Yeah. At this point. I think there's, there's more interesting things to, to, to look over now. So cool. Yeah. Well, we're excited to see what you do next."
+  },
+  {
+    "segment_id": "tr-00645",
+    "start_seconds": 6079.84,
+    "end_seconds": 6080.44,
+    "text": "Thank you so much."
+  }
+]

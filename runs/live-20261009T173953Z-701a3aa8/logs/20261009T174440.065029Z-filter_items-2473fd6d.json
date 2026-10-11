@@ -1,0 +1,23 @@
+{
+  "stage": "filter_items",
+  "status": "completed",
+  "input_count": 48,
+  "output_count": 42,
+  "started_at": "2026-10-09T17:44:40Z",
+  "finished_at": "2026-10-09T17:44:40Z",
+  "elapsed_seconds": 0.0,
+  "tools": [
+    "python-dateutil"
+  ],
+  "models": [],
+  "usage": null,
+  "cost_usd": null,
+  "cost_estimated": false,
+  "errors": [],
+  "details": {
+    "as_of_date": "2026-10-09",
+    "window_start": "2026-09-10",
+    "window_end": "2026-10-09",
+    "excluded": 6
+  }
+}

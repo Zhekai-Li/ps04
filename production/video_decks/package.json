@@ -1,0 +1,11 @@
+{
+  "name": "scholar-in-the-loop-video-decks",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Professional visual decks for the three audience-facing course videos.",
+  "dependencies": {
+    "playwright": "1.55.1",
+    "pptxgenjs": "4.0.1",
+    "sharp": "0.34.4"
+  }
+}

@@ -1,0 +1,908 @@
+[
+  {
+    "segment_id": "yt-00001",
+    "start_seconds": 0.0,
+    "end_seconds": 4.52,
+    "text": "AI assistants can help with your"
+  },
+  {
+    "segment_id": "yt-00002",
+    "start_seconds": 2.24,
+    "end_seconds": 7.6,
+    "text": "research. You can use them to summarize"
+  },
+  {
+    "segment_id": "yt-00003",
+    "start_seconds": 4.52,
+    "end_seconds": 9.76,
+    "text": "papers, compare studies, extract data,"
+  },
+  {
+    "segment_id": "yt-00004",
+    "start_seconds": 7.6,
+    "end_seconds": 12.24,
+    "text": "explain terminology, or generate"
+  },
+  {
+    "segment_id": "yt-00005",
+    "start_seconds": 9.76,
+    "end_seconds": 13.92,
+    "text": "critical questions before a meeting or"
+  },
+  {
+    "segment_id": "yt-00006",
+    "start_seconds": 12.24,
+    "end_seconds": 16.44,
+    "text": "presentation."
+  },
+  {
+    "segment_id": "yt-00007",
+    "start_seconds": 13.92,
+    "end_seconds": 19.64,
+    "text": "Let me show you how Paperpile sends PDFs"
+  },
+  {
+    "segment_id": "yt-00008",
+    "start_seconds": 16.44,
+    "end_seconds": 22.72,
+    "text": "to AI tools like ChatGPT, Claude,"
+  },
+  {
+    "segment_id": "yt-00009",
+    "start_seconds": 19.64,
+    "end_seconds": 24.88,
+    "text": "Copilot, Gemini, or Notebook LM in one"
+  },
+  {
+    "segment_id": "yt-00010",
+    "start_seconds": 22.72,
+    "end_seconds": 27.28,
+    "text": "click, and how to use Paperpile's"
+  },
+  {
+    "segment_id": "yt-00011",
+    "start_seconds": 24.88,
+    "end_seconds": 30.08,
+    "text": "built-in prompts to get more useful"
+  },
+  {
+    "segment_id": "yt-00012",
+    "start_seconds": 27.28,
+    "end_seconds": 30.08,
+    "text": "outputs."
+  },
+  {
+    "segment_id": "yt-00013",
+    "start_seconds": 33.96,
+    "end_seconds": 39.44,
+    "text": "In your Paperpile library, select one or"
+  },
+  {
+    "segment_id": "yt-00014",
+    "start_seconds": 36.12,
+    "end_seconds": 40.76,
+    "text": "more references that already have PDFs."
+  },
+  {
+    "segment_id": "yt-00015",
+    "start_seconds": 39.44,
+    "end_seconds": 42.68,
+    "text": "If you're preparing for a literature"
+  },
+  {
+    "segment_id": "yt-00016",
+    "start_seconds": 40.76,
+    "end_seconds": 45.84,
+    "text": "review, you can select multiple"
+  },
+  {
+    "segment_id": "yt-00017",
+    "start_seconds": 42.68,
+    "end_seconds": 48.36,
+    "text": "references at once. Then click the Ask"
+  },
+  {
+    "segment_id": "yt-00018",
+    "start_seconds": 45.84,
+    "end_seconds": 50.8,
+    "text": "AI button in the toolbar."
+  },
+  {
+    "segment_id": "yt-00019",
+    "start_seconds": 48.36,
+    "end_seconds": 53.4,
+    "text": "Under Send to, you can choose the AI"
+  },
+  {
+    "segment_id": "yt-00020",
+    "start_seconds": 50.8,
+    "end_seconds": 55.44,
+    "text": "assistant that you would like to use."
+  },
+  {
+    "segment_id": "yt-00021",
+    "start_seconds": 53.4,
+    "end_seconds": 58.8,
+    "text": "So, that could be ChatGPT, Claude,"
+  },
+  {
+    "segment_id": "yt-00022",
+    "start_seconds": 55.44,
+    "end_seconds": 60.52,
+    "text": "Gemini, Copilot, or Notebook LM."
+  },
+  {
+    "segment_id": "yt-00023",
+    "start_seconds": 58.8,
+    "end_seconds": 62.84,
+    "text": "Then choose a prompt from Paperpile's"
+  },
+  {
+    "segment_id": "yt-00024",
+    "start_seconds": 60.52,
+    "end_seconds": 64.64,
+    "text": "prompt library, or click Create blank"
+  },
+  {
+    "segment_id": "yt-00025",
+    "start_seconds": 62.84,
+    "end_seconds": 67.16,
+    "text": "chat if you would like to write your"
+  },
+  {
+    "segment_id": "yt-00026",
+    "start_seconds": 64.64,
+    "end_seconds": 69.6,
+    "text": "own. Once you do that, Paperpile opens a"
+  },
+  {
+    "segment_id": "yt-00027",
+    "start_seconds": 67.16,
+    "end_seconds": 72.48,
+    "text": "new tab with your chosen assistant and"
+  },
+  {
+    "segment_id": "yt-00028",
+    "start_seconds": 69.6,
+    "end_seconds": 75.32,
+    "text": "uploads the PDFs automatically. Click"
+  },
+  {
+    "segment_id": "yt-00029",
+    "start_seconds": 72.48,
+    "end_seconds": 77.76,
+    "text": "Submit, and your papers and your prompt"
+  },
+  {
+    "segment_id": "yt-00030",
+    "start_seconds": 75.32,
+    "end_seconds": 80.68,
+    "text": "are now in the AI assistant ready to"
+  },
+  {
+    "segment_id": "yt-00031",
+    "start_seconds": 77.76,
+    "end_seconds": 82.84,
+    "text": "work with. So, instead of managing files"
+  },
+  {
+    "segment_id": "yt-00032",
+    "start_seconds": 80.68,
+    "end_seconds": 85.12,
+    "text": "across different apps, you're starting"
+  },
+  {
+    "segment_id": "yt-00033",
+    "start_seconds": 82.84,
+    "end_seconds": 87.44,
+    "text": "with the papers already in your library"
+  },
+  {
+    "segment_id": "yt-00034",
+    "start_seconds": 85.12,
+    "end_seconds": 89.76,
+    "text": "and moving straight into the analysis."
+  },
+  {
+    "segment_id": "yt-00035",
+    "start_seconds": 87.44,
+    "end_seconds": 91.48,
+    "text": "You can also work the other way around."
+  },
+  {
+    "segment_id": "yt-00036",
+    "start_seconds": 89.76,
+    "end_seconds": 93.32,
+    "text": "So, if you're already working within"
+  },
+  {
+    "segment_id": "yt-00037",
+    "start_seconds": 91.48,
+    "end_seconds": 96.0,
+    "text": "your AI assistant, you'll see the"
+  },
+  {
+    "segment_id": "yt-00038",
+    "start_seconds": 93.32,
+    "end_seconds": 98.08,
+    "text": "Paperpile button there, as well."
+  },
+  {
+    "segment_id": "yt-00039",
+    "start_seconds": 96.0,
+    "end_seconds": 100.44,
+    "text": "So, if you're mid-conversation, you can"
+  },
+  {
+    "segment_id": "yt-00040",
+    "start_seconds": 98.08,
+    "end_seconds": 103.0,
+    "text": "click the Paperpile button, search your"
+  },
+  {
+    "segment_id": "yt-00041",
+    "start_seconds": 100.44,
+    "end_seconds": 104.76,
+    "text": "library, and add papers directly from"
+  },
+  {
+    "segment_id": "yt-00042",
+    "start_seconds": 103.0,
+    "end_seconds": 106.52,
+    "text": "there. That's awesome when you're"
+  },
+  {
+    "segment_id": "yt-00043",
+    "start_seconds": 104.76,
+    "end_seconds": 108.12,
+    "text": "already in a thread and you don't want"
+  },
+  {
+    "segment_id": "yt-00044",
+    "start_seconds": 106.52,
+    "end_seconds": 110.88,
+    "text": "to go back and restart the whole"
+  },
+  {
+    "segment_id": "yt-00045",
+    "start_seconds": 108.12,
+    "end_seconds": 110.88,
+    "text": "process."
+  },
+  {
+    "segment_id": "yt-00046",
+    "start_seconds": 115.32,
+    "end_seconds": 119.88,
+    "text": "We've also built a dedicated prompt"
+  },
+  {
+    "segment_id": "yt-00047",
+    "start_seconds": 117.4,
+    "end_seconds": 122.12,
+    "text": "library specifically for real-world"
+  },
+  {
+    "segment_id": "yt-00048",
+    "start_seconds": 119.88,
+    "end_seconds": 124.56,
+    "text": "research tasks. So, these aren't generic"
+  },
+  {
+    "segment_id": "yt-00049",
+    "start_seconds": 122.12,
+    "end_seconds": 126.16,
+    "text": "prompts like summarize this paper."
+  },
+  {
+    "segment_id": "yt-00050",
+    "start_seconds": 124.56,
+    "end_seconds": 128.36,
+    "text": "They're built around the kind of things"
+  },
+  {
+    "segment_id": "yt-00051",
+    "start_seconds": 126.16,
+    "end_seconds": 130.8,
+    "text": "researchers actually want to do."
+  },
+  {
+    "segment_id": "yt-00052",
+    "start_seconds": 128.36,
+    "end_seconds": 133.959,
+    "text": "Summarization, comparison, data"
+  },
+  {
+    "segment_id": "yt-00053",
+    "start_seconds": 130.8,
+    "end_seconds": 136.56,
+    "text": "extraction, critique, and language. For"
+  },
+  {
+    "segment_id": "yt-00054",
+    "start_seconds": 133.959,
+    "end_seconds": 138.48,
+    "text": "example, the structured summary. This"
+  },
+  {
+    "segment_id": "yt-00055",
+    "start_seconds": 136.56,
+    "end_seconds": 141.32,
+    "text": "gives you a one-page summary with"
+  },
+  {
+    "segment_id": "yt-00056",
+    "start_seconds": 138.48,
+    "end_seconds": 142.84,
+    "text": "sections like methods, findings, and"
+  },
+  {
+    "segment_id": "yt-00057",
+    "start_seconds": 141.32,
+    "end_seconds": 144.8,
+    "text": "significance."
+  },
+  {
+    "segment_id": "yt-00058",
+    "start_seconds": 142.84,
+    "end_seconds": 147.4,
+    "text": "So, rather than getting back a summary"
+  },
+  {
+    "segment_id": "yt-00059",
+    "start_seconds": 144.8,
+    "end_seconds": 150.56,
+    "text": "paragraph, you get something with a very"
+  },
+  {
+    "segment_id": "yt-00060",
+    "start_seconds": 147.4,
+    "end_seconds": 150.56,
+    "text": "clear structure."
+  },
+  {
+    "segment_id": "yt-00061",
+    "start_seconds": 153.16,
+    "end_seconds": 157.48,
+    "text": "If you're comparing several papers, you"
+  },
+  {
+    "segment_id": "yt-00062",
+    "start_seconds": 155.12,
+    "end_seconds": 159.6,
+    "text": "can choose from multiple prompts. For"
+  },
+  {
+    "segment_id": "yt-00063",
+    "start_seconds": 157.48,
+    "end_seconds": 162.16,
+    "text": "example, you can use the meta-analysis"
+  },
+  {
+    "segment_id": "yt-00064",
+    "start_seconds": 159.6,
+    "end_seconds": 164.72,
+    "text": "table prompt to create a table comparing"
+  },
+  {
+    "segment_id": "yt-00065",
+    "start_seconds": 162.16,
+    "end_seconds": 167.32,
+    "text": "methods, sample sizes, findings, and"
+  },
+  {
+    "segment_id": "yt-00066",
+    "start_seconds": 164.72,
+    "end_seconds": 168.76,
+    "text": "themes across multiple studies."
+  },
+  {
+    "segment_id": "yt-00067",
+    "start_seconds": 167.32,
+    "end_seconds": 170.88,
+    "text": "Uh this works really well when you're"
+  },
+  {
+    "segment_id": "yt-00068",
+    "start_seconds": 168.76,
+    "end_seconds": 173.04,
+    "text": "trying to make sense of a set of related"
+  },
+  {
+    "segment_id": "yt-00069",
+    "start_seconds": 170.88,
+    "end_seconds": 175.8,
+    "text": "papers and want a really structured"
+  },
+  {
+    "segment_id": "yt-00070",
+    "start_seconds": 173.04,
+    "end_seconds": 175.8,
+    "text": "overview."
+  },
+  {
+    "segment_id": "yt-00071",
+    "start_seconds": 176.4,
+    "end_seconds": 180.68,
+    "text": "We've included prompts to help you think"
+  },
+  {
+    "segment_id": "yt-00072",
+    "start_seconds": 178.24,
+    "end_seconds": 182.92,
+    "text": "critically about papers, too. For"
+  },
+  {
+    "segment_id": "yt-00073",
+    "start_seconds": 180.68,
+    "end_seconds": 184.76,
+    "text": "example, the critical questions prompt"
+  },
+  {
+    "segment_id": "yt-00074",
+    "start_seconds": 182.92,
+    "end_seconds": 187.12,
+    "text": "generates a set of questions you might"
+  },
+  {
+    "segment_id": "yt-00075",
+    "start_seconds": 184.76,
+    "end_seconds": 189.76,
+    "text": "get about a paper in a research talk,"
+  },
+  {
+    "segment_id": "yt-00076",
+    "start_seconds": 187.12,
+    "end_seconds": 191.68,
+    "text": "journal club, or supervision meeting."
+  },
+  {
+    "segment_id": "yt-00077",
+    "start_seconds": 189.76,
+    "end_seconds": 193.72,
+    "text": "So, you can use these to go beyond"
+  },
+  {
+    "segment_id": "yt-00078",
+    "start_seconds": 191.68,
+    "end_seconds": 197.36,
+    "text": "understanding a paper and actually"
+  },
+  {
+    "segment_id": "yt-00079",
+    "start_seconds": 193.72,
+    "end_seconds": 199.32,
+    "text": "prepare to discuss it."
+  },
+  {
+    "segment_id": "yt-00080",
+    "start_seconds": 197.36,
+    "end_seconds": 201.32,
+    "text": "We've also added prompts that are just"
+  },
+  {
+    "segment_id": "yt-00081",
+    "start_seconds": 199.32,
+    "end_seconds": 205.2,
+    "text": "for fun, like making a social media"
+  },
+  {
+    "segment_id": "yt-00082",
+    "start_seconds": 201.32,
+    "end_seconds": 205.2,
+    "text": "thread based on a paper."
+  },
+  {
+    "segment_id": "yt-00083",
+    "start_seconds": 207.16,
+    "end_seconds": 211.04,
+    "text": "We've designed these so that you can use"
+  },
+  {
+    "segment_id": "yt-00084",
+    "start_seconds": 208.84,
+    "end_seconds": 212.72,
+    "text": "them as they are or treat them as"
+  },
+  {
+    "segment_id": "yt-00085",
+    "start_seconds": 211.04,
+    "end_seconds": 215.36,
+    "text": "starting points and adjust them to your"
+  },
+  {
+    "segment_id": "yt-00086",
+    "start_seconds": 212.72,
+    "end_seconds": 215.36,
+    "text": "needs."
+  },
+  {
+    "segment_id": "yt-00087",
+    "start_seconds": 221.48,
+    "end_seconds": 226.36,
+    "text": "What about AI hallucinations such as"
+  },
+  {
+    "segment_id": "yt-00088",
+    "start_seconds": 224.32,
+    "end_seconds": 228.76,
+    "text": "inaccurate quotes, wrong page numbers,"
+  },
+  {
+    "segment_id": "yt-00089",
+    "start_seconds": 226.36,
+    "end_seconds": 230.4,
+    "text": "made-up links, or claims stated too"
+  },
+  {
+    "segment_id": "yt-00090",
+    "start_seconds": 228.76,
+    "end_seconds": 232.96,
+    "text": "confidently?"
+  },
+  {
+    "segment_id": "yt-00091",
+    "start_seconds": 230.4,
+    "end_seconds": 236.28,
+    "text": "For example, the AI says Smith et al."
+  },
+  {
+    "segment_id": "yt-00092",
+    "start_seconds": 232.96,
+    "end_seconds": 237.64,
+    "text": "2023 proved X, but you're not sure if"
+  },
+  {
+    "segment_id": "yt-00093",
+    "start_seconds": 236.28,
+    "end_seconds": 240.28,
+    "text": "it's true."
+  },
+  {
+    "segment_id": "yt-00094",
+    "start_seconds": 237.64,
+    "end_seconds": 242.48,
+    "text": "In Paperpile, these citations are live"
+  },
+  {
+    "segment_id": "yt-00095",
+    "start_seconds": 240.28,
+    "end_seconds": 245.12,
+    "text": "links. So, when you see a page number"
+  },
+  {
+    "segment_id": "yt-00096",
+    "start_seconds": 242.48,
+    "end_seconds": 247.959,
+    "text": "link in the output, you can click it and"
+  },
+  {
+    "segment_id": "yt-00097",
+    "start_seconds": 245.12,
+    "end_seconds": 250.4,
+    "text": "Paperpile will open the PDF at the"
+  },
+  {
+    "segment_id": "yt-00098",
+    "start_seconds": 247.959,
+    "end_seconds": 252.28,
+    "text": "relevant page or quotation."
+  },
+  {
+    "segment_id": "yt-00099",
+    "start_seconds": 250.4,
+    "end_seconds": 254.8,
+    "text": "This means you don't have to search"
+  },
+  {
+    "segment_id": "yt-00100",
+    "start_seconds": 252.28,
+    "end_seconds": 257.239,
+    "text": "through a paper trying to work out where"
+  },
+  {
+    "segment_id": "yt-00101",
+    "start_seconds": 254.8,
+    "end_seconds": 259.48,
+    "text": "the AI got something from."
+  },
+  {
+    "segment_id": "yt-00102",
+    "start_seconds": 257.239,
+    "end_seconds": 261.359,
+    "text": "The PDF viewer snaps exactly to the"
+  },
+  {
+    "segment_id": "yt-00103",
+    "start_seconds": 259.48,
+    "end_seconds": 263.88,
+    "text": "highlight, so you can check it for"
+  },
+  {
+    "segment_id": "yt-00104",
+    "start_seconds": 261.359,
+    "end_seconds": 266.48,
+    "text": "yourself. So, your AI chat becomes an"
+  },
+  {
+    "segment_id": "yt-00105",
+    "start_seconds": 263.88,
+    "end_seconds": 269.32,
+    "text": "interactive index that is grounded in"
+  },
+  {
+    "segment_id": "yt-00106",
+    "start_seconds": 266.48,
+    "end_seconds": 269.32,
+    "text": "your papers."
+  },
+  {
+    "segment_id": "yt-00107",
+    "start_seconds": 272.48,
+    "end_seconds": 276.68,
+    "text": "Now, let's talk about Notebook LM"
+  },
+  {
+    "segment_id": "yt-00108",
+    "start_seconds": 274.32,
+    "end_seconds": 278.68,
+    "text": "because it works a bit differently."
+  },
+  {
+    "segment_id": "yt-00109",
+    "start_seconds": 276.68,
+    "end_seconds": 281.12,
+    "text": "Most AI assistants are built around"
+  },
+  {
+    "segment_id": "yt-00110",
+    "start_seconds": 278.68,
+    "end_seconds": 282.6,
+    "text": "short-lived chat threads, meaning that"
+  },
+  {
+    "segment_id": "yt-00111",
+    "start_seconds": 281.12,
+    "end_seconds": 284.88,
+    "text": "you'll import your papers from"
+  },
+  {
+    "segment_id": "yt-00112",
+    "start_seconds": 282.6,
+    "end_seconds": 287.4,
+    "text": "Paperpile, ask a prompt, and then move"
+  },
+  {
+    "segment_id": "yt-00113",
+    "start_seconds": 284.88,
+    "end_seconds": 290.04,
+    "text": "on. Notebook LM is useful when you're"
+  },
+  {
+    "segment_id": "yt-00114",
+    "start_seconds": 287.4,
+    "end_seconds": 292.48,
+    "text": "working on something bigger. Instead of"
+  },
+  {
+    "segment_id": "yt-00115",
+    "start_seconds": 290.04,
+    "end_seconds": 295.0,
+    "text": "a chat thread, it creates a notebook."
+  },
+  {
+    "segment_id": "yt-00116",
+    "start_seconds": 292.48,
+    "end_seconds": 297.0,
+    "text": "And that notebook can hold a much larger"
+  },
+  {
+    "segment_id": "yt-00117",
+    "start_seconds": 295.0,
+    "end_seconds": 299.64,
+    "text": "collection of papers. When you send"
+  },
+  {
+    "segment_id": "yt-00118",
+    "start_seconds": 297.0,
+    "end_seconds": 301.919,
+    "text": "papers to Notebook LM from Paperpile,"
+  },
+  {
+    "segment_id": "yt-00119",
+    "start_seconds": 299.64,
+    "end_seconds": 304.32,
+    "text": "Ask AI creates a new notebook and"
+  },
+  {
+    "segment_id": "yt-00120",
+    "start_seconds": 301.919,
+    "end_seconds": 306.56,
+    "text": "uploads the PDFs there."
+  },
+  {
+    "segment_id": "yt-00121",
+    "start_seconds": 304.32,
+    "end_seconds": 308.52,
+    "text": "And when Notebook LM cites something,"
+  },
+  {
+    "segment_id": "yt-00122",
+    "start_seconds": 306.56,
+    "end_seconds": 310.919,
+    "text": "you can hover over the citation chip and"
+  },
+  {
+    "segment_id": "yt-00123",
+    "start_seconds": 308.52,
+    "end_seconds": 314.04,
+    "text": "click through to the quoted text in the"
+  },
+  {
+    "segment_id": "yt-00124",
+    "start_seconds": 310.919,
+    "end_seconds": 314.04,
+    "text": "source PDF."
+  },
+  {
+    "segment_id": "yt-00125",
+    "start_seconds": 314.88,
+    "end_seconds": 320.32,
+    "text": "There are a few practical things to know"
+  },
+  {
+    "segment_id": "yt-00126",
+    "start_seconds": 316.8,
+    "end_seconds": 322.08,
+    "text": "before you use Ask AI. First, make sure"
+  },
+  {
+    "segment_id": "yt-00127",
+    "start_seconds": 320.32,
+    "end_seconds": 324.44,
+    "text": "you're signed in to the AI assistant"
+  },
+  {
+    "segment_id": "yt-00128",
+    "start_seconds": 322.08,
+    "end_seconds": 326.72,
+    "text": "that you want to use before you start"
+  },
+  {
+    "segment_id": "yt-00129",
+    "start_seconds": 324.44,
+    "end_seconds": 328.919,
+    "text": "because Paperpile uses whichever account"
+  },
+  {
+    "segment_id": "yt-00130",
+    "start_seconds": 326.72,
+    "end_seconds": 331.0,
+    "text": "is currently signed in."
+  },
+  {
+    "segment_id": "yt-00131",
+    "start_seconds": 328.919,
+    "end_seconds": 333.44,
+    "text": "Secondly, some free accounts can be"
+  },
+  {
+    "segment_id": "yt-00132",
+    "start_seconds": 331.0,
+    "end_seconds": 336.48,
+    "text": "restrictive, particularly ChatGPT and"
+  },
+  {
+    "segment_id": "yt-00133",
+    "start_seconds": 333.44,
+    "end_seconds": 338.52,
+    "text": "Claude can have tight PDF limits on free"
+  },
+  {
+    "segment_id": "yt-00134",
+    "start_seconds": 336.48,
+    "end_seconds": 341.04,
+    "text": "plans."
+  },
+  {
+    "segment_id": "yt-00135",
+    "start_seconds": 338.52,
+    "end_seconds": 343.8,
+    "text": "Third, Ask AI responds in the language"
+  },
+  {
+    "segment_id": "yt-00136",
+    "start_seconds": 341.04,
+    "end_seconds": 346.28,
+    "text": "you've set in the AI assistant."
+  },
+  {
+    "segment_id": "yt-00137",
+    "start_seconds": 343.8,
+    "end_seconds": 347.88,
+    "text": "And finally, always verify it avoid"
+  },
+  {
+    "segment_id": "yt-00138",
+    "start_seconds": 346.28,
+    "end_seconds": 349.92,
+    "text": "hallucinations."
+  },
+  {
+    "segment_id": "yt-00139",
+    "start_seconds": 347.88,
+    "end_seconds": 352.36,
+    "text": "Even with source links and even with"
+  },
+  {
+    "segment_id": "yt-00140",
+    "start_seconds": 349.92,
+    "end_seconds": 354.56,
+    "text": "good prompts, AI tools still make"
+  },
+  {
+    "segment_id": "yt-00141",
+    "start_seconds": 352.36,
+    "end_seconds": 357.36,
+    "text": "mistakes. Rather than replace your"
+  },
+  {
+    "segment_id": "yt-00142",
+    "start_seconds": 354.56,
+    "end_seconds": 360.12,
+    "text": "reading, Ask AI handles the logistics so"
+  },
+  {
+    "segment_id": "yt-00143",
+    "start_seconds": 357.36,
+    "end_seconds": 362.16,
+    "text": "you can focus on the analysis. We've"
+  },
+  {
+    "segment_id": "yt-00144",
+    "start_seconds": 360.12,
+    "end_seconds": 365.12,
+    "text": "built Ask AI to bring together your"
+  },
+  {
+    "segment_id": "yt-00145",
+    "start_seconds": 362.16,
+    "end_seconds": 367.24,
+    "text": "Paperpile library and AI tools so that"
+  },
+  {
+    "segment_id": "yt-00146",
+    "start_seconds": 365.12,
+    "end_seconds": 369.2,
+    "text": "you can spend less time managing files"
+  },
+  {
+    "segment_id": "yt-00147",
+    "start_seconds": 367.24,
+    "end_seconds": 371.4,
+    "text": "and more time connecting your papers"
+  },
+  {
+    "segment_id": "yt-00148",
+    "start_seconds": 369.2,
+    "end_seconds": 374.04,
+    "text": "directly to the world's most powerful AI"
+  },
+  {
+    "segment_id": "yt-00149",
+    "start_seconds": 371.4,
+    "end_seconds": 376.52,
+    "text": "models. It's simply a faster, more"
+  },
+  {
+    "segment_id": "yt-00150",
+    "start_seconds": 374.04,
+    "end_seconds": 379.72,
+    "text": "reliable way to work with the research"
+  },
+  {
+    "segment_id": "yt-00151",
+    "start_seconds": 376.52,
+    "end_seconds": 379.72,
+    "text": "you've already built."
+  }
+]

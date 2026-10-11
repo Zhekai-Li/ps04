@@ -1,0 +1,1813 @@
+Today I am really delighted to introduce
+our two speakers uh Alexander Len and
+Arvin Karnakaran. Um and it's really
+cool that today's talk is pairing both a
+case study of AI diffusion um with an
+organizational approach to technological
+changes in the workplace.
+So Alexander uh of Instacart Economics
+will share findings on how AI adoption
+diffuses through peer networks inside
+firms and drives real productivity gains
+with evidence from Instacart's
+engineering and data science teams. And
+then Arand who's a faculty member in the
+management science and engineering at at
+here at Stanford will offer an
+organizational lens on what follows how
+the arrival of AI tools reshapes roles
+workflows expert authority evaluative
+metrics and over oversight relationships
+at work which will draw on his field
+research on human AI augmentation. So
+we're really excited to welcome both our
+speakers and so with that I'll hand it
+over to the two of them to kick things
+off.
+So, first of all, I'm glad to be back.
+Uh, I graduated from Stanford um two
+years ago almost exactly. I'm Alex Lang.
+I received my PhD in economics here at
+Stanford and I've been um at the
+Instacard economics team uh ever since
+and uh with Tom uh who's um currently
+leading our team. We're incredibly happy
+to be here and thank you for uh the
+invitation. So in this paper uh we're
+really trying to understand um AI
+adoption uh through a social diffusion
+perspective and how that peer-driven
+diffusion uh affects business um
+outcomes.
+Before starting a talk, I do need to
+make that the disclaimer that any views
+or opinions uh expressed in this
+presentations do not represent the
+official policy or endorsement of uh the
+Instacart um company.
+So as we know um AI adoption and access
+uh has been advancing at an incredible
+speed that has outpaced prior general
+purpose technologies. uh yet we know
+that there's still uh uneven access and
+transmission um across countries across
+firms. You know, part of it has been
+attributed due to differences um in
+institutional uh capacity constraints um
+infrastructure uh availability. However,
+what we look at in this paper uh is
+really what happens to uh adoption once
+we can relax those uh deep institutional
+constraints. Uh in fact, we look at the
+social diffusion channel as uh a key
+adoption channel uh and how those
+peer-driven uh forces uh can impact uh
+productivity.
+And we do it do this um in the context.
+So I wonder why um maybe I have to do
+like this. Yeah, sorry. Um and we um
+actually do this in the context of a
+major e-commerce tech company that we
+cannot disclose for legal purposes what
+the company is. uh but we're actually
+focusing on engineering and data science
+teams and those are teams that over the
+period of question 2025 have had free
+access uh and availability to these um
+AI tools um in a period where um agentic
+AI was still uh nent. uh yet what we
+actually see on on the left plot is that
+you know despite that accessibility uh
+there is huge uh variation in usage both
+um cross-sectionally and over time and
+so the question is even though you know
+access is no longer a constraint you
+know what really drives that gap and
+variation uh in usage so very briefly um
+looking at the literature you know the
+literature in AI I has been exploding
+potentially at the same pace as you know
+AI itself is exploding. Um and so it's
+it's very exciting to contribute to
+these uh working streams. Uh here you
+know our contribution is really um
+understanding AI adoption as a socially
+transmitted outcomes and the forces
+behind that. uh a lot of the existing
+work has really been focusing on what
+are some of the structural coralates
+with um uh AI adoption such as personal
+traits or institutional traits but here
+here we're focusing on on the human
+transmission channel and the social
+dynamics uh in terms of the work on
+productivity uh a lot of papers both uh
+uh labor uh papers and laboratory
+experiments field experiments have shown
+positive effects of AI on various
+measures and proxies for productivity.
+But really we're here we're trying to
+move beyond task level proxies and focus
+on really idea generation and proxies
+for direct ship value. And so as I'm
+going to show you later on, we're really
+focusing on experiment uh generation
+which is uh a key way key driver for
+generating and innovating products
+within tech.
+So, we're going to talk a little bit
+about our setting and how we define um
+our pioneers, which are going to be the
+social transmitters of AI in our
+setting. And then we're going to look
+how um those pioneers and whether they
+ad they affect the adoption and use of
+their teammates. And then we're going to
+look at various productivity outcomes
+and do how those differ by um pioneer
+and employee uh attributes. So let's
+start with the setting. In this paper uh
+we're focusing on agentic AI. Aentic AI
+has really been a major uh power driver
+uh behind um automating entire
+workflows. Uh really um synthesizing
+access to databases and documents and
+context files and really automating uh
+workflows uh and also like
+self-correcting itself uh which makes uh
+workflows both more uh quicker but also
+more um efficient. And so we're going to
+be focusing on 2025 which is where
+agentic AI has been nent. I know that
+agentic AI right now is all around us
+but you know perhaps surprisingly it's
+quite recent and the first um
+first tool agentic codic tool was
+developed by cursor in late November
+2024 and so we're sort of focusing uh on
+that uh agentic AI um in this paper um
+and what we're seeing for some
+descriptives um is that um on the left
+panel. While you know quite a high
+proportion of employees has sort of used
+that agentic AI functionality at least
+once once we look at monthly usage that
+is to say have they been using AI on a
+regular basis we see that that usage
+over 2025 has been quite low although
+it's been expanding from about 3.5 days
+a month to about 10 days by January 2026
+and we're seeing that persist existing
+cross-sectional uh variation. And so
+what we're going to do is we're going to
+propose and study the role of pioneers.
+We actually have some anecdotal evidence
+that in the early ages of agentic AI, a
+lot of the people would learn about
+those agentic tools almost randomly from
+people in their networks. And so here
+we're looking at AI pioneers. Think of
+them as uh the first heavy agentic AI
+user within a team. Those that start
+using Agentic AI uh almost on a daily
+basis. And what we see here is that
+those pioneers really stand apart uh
+relative to their teammates. In fact, at
+the time a pioneer merges on a team, the
+median teammate is not using agentic AI
+at all. we see that um at the median
+zero even if we focus on the second
+closest follower you can think about it
+at the you know second most excited
+person it's still just three days a week
+so those pioneers very very different in
+terms of their use of agentic AI at such
+an early stage um looking at their
+characteristics in fact they don't defer
+that much in terms of their seniority or
+tenure level but really their
+distinctiveness
+comes from AI enthusiasm. And here the
+way we proxy for AI enthusiasm is that
+we're looking at an existing
+conversational chatbot style AI tool
+that was available to the company
+pre-agentic AI and we're in fact seeing
+that those pioneers would use that
+conversational tool more often than the
+rest. again uh corroborating the idea is
+that those pioneers are really likely to
+be the early AI enthusiasts. And what we
+also find and this will help our uh
+empirical identification is that those
+pioneers emerged in a staggered manner
+over time and we also have certain teams
+with no uh pioneers over the period in
+question. And so we will leverage this
+uh staggered timing of uh uh pioneer
+adoption for um uh our identification.
+Um so briefly on the data so we're here
+combining uh multiple data sets uh
+across the company including hiring
+records to be able to match employees uh
+and pioneers uh AI usage logs um
+experimental creation databases and
+engineering tickets uh because we're
+going to use those data sources to
+define our productivity um and usage uh
+uh measures. And so overall we have over
+thousand employees across 2005 teams
+that we look at and then we create this
+employee month panel from June 2024 to
+have some free period and then until
+December 2025
+and very briefly for the identification
+we're going to use a staggered
+difference indifference methodology
+where we're going to use um an estimator
+that has been shown to be both unbiased
+in this setting and one of the more
+efficient ones to maximize the precision
+of our estimates. So now let's go into
+some of the results. So looking at the
+AI adoption, let's first understand how
+do these pioneers become pioneers. So in
+fact star is the time where you know
+pioneers uh cross that 8day threshold.
+This is when they start integrating AI
+into their workflow. And what we're
+noticing is that ramp up is actually
+pretty stubborn. Just about two weeks
+before, you know, ramping up, there were
+sporadic users. They're only using it
+about two days uh in a 14-day window.
+And then they kind of really suddenly
+ramp up over the next two weeks, become
+heavy users, and they become stable
+heavy users. We see that after T star
+they're really um integrating this
+deeply. But now the question is does
+this pioneer does this sudden pioneer
+mergence actually drive teamwide AI
+adoptions? Are pioneers able to push
+their teammates to use it more? And this
+is what we find. So we do find that in
+fact um after the pioneer merges that is
+to say to the right of the of the line
+uh you know teamwide adoption you know
+these are the people who are not
+pioneers who are not using above they
+just they're their usage jumps and we
+see that pre three pre three pre three
+pre three pre three pre three pre three
+pre three pre three pre three pre period
+the these teams were very very similar
+and so um that you know it's about 4.6
+six usage days. And if we put it in
+perspective, we can attribute about 23
+of the entire um rise in AI usage over
+2025 to the force of these uh pioneers.
+So that is pretty exciting. So we see a
+strong first stage that pioneers are
+able to push up the adoption and usage
+of their teammates. But does this usage
+translate into any sort of meaningful um
+business value at least proxying
+signaling for uh business for upcoming
+business value and here is where we look
+at two types of outcomes. The first one
+is experimental outcomes. you know, if
+you want to uh join uh introduce a new
+feature, a new ranking model uh in tech,
+you you usually almost always test it
+through an experiment and if it works,
+you're going to launch it 100% uh
+improving u you know user experience. Um
+and so AI can be really good at uh
+facilitating that experiment creation
+which involves a lot of engineering,
+linking databases, design. Um so
+experimental outcome really process for
+idea generation and launching successful
+ideas into production. On the other
+hand, engineering ticket resolution, you
+know, when we have a system error, uh
+code error, uh engineers receive those
+tickets, are they able to solve a larger
+share of their tickets thanks to AI that
+can learn from past mistakes, can help
+them solve that issue quicker. So let me
+start with the experimental outcomes.
+What I'm plotting here is the cumulative
+number of total experiments over the
+period in question normalizing month one
+to one. So this is the total and now
+what I'm going to plot is the
+incremental experiments due to AI and
+the question is are there going to be
+any incremental experiments at all?
+Maybe it's all going to be around zero.
+So what we find exciting is that we
+really get strong um treatment effects
+using that staggered design that teams
+with those earlier pioneers are actually
+producing significantly more experiments
+than the teams without the pioneers yet.
+And we can almost say from this graph
+that about 30% of the experimental
+output was attributed to agentic AI. And
+furthermore, we actually see that the
+successful launch rate closely follows
+the experimental creation rate. So it's
+not that we're just creating more
+experiments that are wasteful. This as
+as the same proportion uh we are making
+actually more successful launches which
+is uh pretty exciting. And again we
+don't see any significant pre-trends.
+You know the jump really
+occurs after t star. So it's not that
+those you know teams who are already
+producing more experiments um before uh
+you know are seeing more experiments. Uh
+and finally we do see a decrease in in
+this unresolved ticket share. So more
+efficiency in terms of uh resolving more
+um tickets. And so finally in the final
+few minutes I I'd like to go through
+some of the heterogeneity results where
+we're sort of trying to understand which
+employees and which pioneers are most
+effective in affecting those um
+outcomes. So let's first look at
+employees. We're going to see whether
+more senior or more tenured employees um
+respond more to the pioneers. That is
+going to be our first question. And then
+we're going to look at pioneer type. And
+so what we're seeing is that in fact um
+the more tenured employees, the ones on
+the right uh are actually the ones
+responding most. The least experienced,
+more tenured employees uh are responding
+most to Pioneer influence. And on the
+right side, what we're seeing is that
+the individual contributors
+um are actually responding much more
+than the managers. And this of course
+can be due to the fact that managers
+perhaps don't uh need to integrate um AI
+that much at least in that initial phase
+into their workflows. And when we look
+at outcomes actually that kind of nicely
+mirrors the experimental uh counts right
+like those more senior more senior um or
+like the individual contributors and the
+and the less tenur people they tend to
+increase their experimental production
+just because you know they're using more
+AI. When we look at the unsolved ticket
+share, however, we don't see much at
+origin. It sounds like just having that
+pioneer access uh some access helps you
+with engineering tickets. Maybe
+engineering tickets is kind of a less
+complex task where you know you don't
+need to be increasing the AI usage at
+such a higher rate. And if we look now
+at the pioneer heterogeneity, so these
+are uh essentially thinking of at the
+more versus less senior pioneers and how
+they affect the team level output as a
+whole. Uh we're seeing um something
+interesting. So we're seeing that tenure
+of the pioneer doesn't matter that much.
+Uh but what matters is the authority of
+the pioneers. So the senior individual
+contributors or the managers have a
+higher authority compared to the juniors
+and they sound they seem to be affecting
+their teammates more um and we sort of
+see that um in the experiment counter
+some extent and then um in the pioneer
+um uh sort of the the ticket the ticket
+resolution share not much heterogeneity
+there and finally I'd like to share a
+really interesting result where We look
+at how that pioneer influence interacts
+with uh the pioneer prior skill. So
+we're going to look at pioneers with
+prior experimentation experience versus
+those without. And then let's see if
+there is an interaction between AI
+transmission and the pioneer skill. And
+what we see here is that essentially
+that pioneer effect on experimental
+count is driven by pioneers already
+skilled in experiments. So this suggests
+that for complex tasks such as um
+experiments, it is not just enough to
+have AI enthusiasts talking to AI,
+teaching AI to others. you know if you
+really want to move outcomes on these
+highly specialized tasks the pioneer
+himself has to be skilled. So it is
+really transmitting both the human
+expertise and the AI knowledge that
+drives those productivity outcomes um on
+experimentation. On the other hand, we
+don't see that heterogeneity in ticket
+resolution suggesting that ticket
+resolution and we know this anecdotally
+is a more routine task uh and you don't
+necessarily need to uh kind of learn the
+skill of ticket resolution. it's just
+enough to have that generalized AI
+understanding um that helps you uh with
+that outcome.
+So it's really about that the
+transmission of the AI is complemented
+with the human skill for these more um
+complex tasks. And uh to conclude um
+we'd like to really emphasize in this
+study that peer effects do seem to
+matter enormously when thinking about AI
+adoption. And now that you know a lot of
+the AI infrastructure is already in
+place, people are getting access you
+know perhaps the next stage when we
+think about spread and adoption is
+really about the social architecture or
+what is the optimal social architecture
+of AI transmission and we're actually
+seeing that uh you know this peer effect
+uh transmission is consequential. It
+does actually move outcome. you're not
+just uh starting to use AI for fun, but
+you're actually starting to use it for
+productive purposes. And uh you know,
+our hair change analysis really reveals
+this key insight that you know who's
+going to be your pioneer really depends
+on the task you're trying to automate.
+And if it's a more complex task, uh you
+don't necessarily select the most
+enthusiastic pioneer, AI pioneer, but a
+person who's both enthusiastic, but also
+has some human skill to transfer along
+with the um AI knowledge. So this is um
+this is the presentation. I hope you
+enjoyed it. I'm very much looking
+forward to the ensuing discussion. Thank
+you.
+>> Thank you so much. excited to be here
+and I think Alex's presentation is a
+pretty good segue to what I'm going to
+talk about. Uh but briefly about my
+background, I'm a recovering engineer. I
+used to work as a software engineer
+product manager for a number of years
+before transitioning to become a
+researcher professor here. uh during my
+time in the industry one question that
+repeatedly like I was confronted with
+were uh was uh all these like innovative
+technologies but very few of them
+actually end up creating value or at
+least the promise that it initially
+pose. So a lot of my research that me
+and my my students at Stanford are doing
+are focused on these questions. How does
+technology change work organizations
+like in a manner that creates value of
+the day for for the organization but for
+people at large right so let's uh let's
+dive in so Alex's talk focused on
+adoption right on what drives adoption
+of AI especially agentic AI inside
+companies and the role of like pioneers
+which was great what I'm going to talk
+about is like what happens after it gets
+diffused and adopted inside companies
+like uh how do roles change how does
+expertise change what happens to the
+organizational structure as such right
+so that's going to be my uh larger focus
+so let's get started uh to set things
+off like uh we can think of like the
+impact of AI and productivity and growth
+in two ways one is what I call as the
+one frame is as like acceleration right
+AI enables uh accelerating what people
+do currently their existing tasks and
+activities faster and certainly like
+value gets created through that right
+like you're a lot more efficient and
+productive to the individual level and
+it could aggregate to the organizational
+level. But what I'm going to argue is
+that only like a small part of value
+comes through acceleration alone.
+substantive part of value comes through
+what what I call as expansion right does
+AI allow people to do more more complex
+higher order task and by extension at
+the business unit level are they able to
+create new types of products services
+right that's where substantive value
+comes from if you look at the history of
+major technological uh breakthroughs
+right think of steel for example it's
+not that we were building like same like
+horse carriages and hearts but just
+using steel right like we created brand
+new architectural forms like the
+skyscraper or the bridges or automobiles
+for instance. So that's the idea of like
+expansion and what I'm going to talk
+about is on under what conditions does
+AI enable people to expand their role do
+more complex higher order task and uh
+creates value. Uh and what conditions
+does not happen what are some of the
+organizational barriers that stop people
+from doing so. Uh so that's going to be
+the broader focus uh uh the research
+context and uh design it's a it's a
+multi-method study focused on four
+different industries law manufacturing
+uh creative industry like ad agencies
+and technology tech industry uh using
+different types of methods interviews
+ethnographic observations lab and field
+experiments looking at a variety of job
+roles across the skill distribution low
+skill highkl high wage low wage work but
+we have like 20 minutes Patrick I was
+told so we can't talk about all of that.
+I'm going to zoom in on one specific
+site and do a bit more like a deep dive
+into it and then happy to take any
+questions you have. So today we're going
+to talk about the uh the initial data we
+collected a longitudinal field based
+data we collected inside a law firm that
+were one of the early adopters of AI
+especially generative AI this tool
+called lawbot uh that was used this
+particular firm called legal code it's a
+pseudonym it's in the Bay Area uh they
+adopted this tool like way back in 2022
+even before Chad GPD 3.5 was released to
+the public they were an early adopter so
+when we uh studied this so we got access
+to this particular ular field side and
+we tried examining uh the option and
+usage and how are different roles
+changing. We were struck by a couple of
+things. Uh first of all there are many
+different divisions within this law firm
+and we saw that this particular tool law
+was targeted towards the parallegals
+working in this law firm. Uh the main
+use case was to create long contracts
+and non-disclosure agreements. Any of
+you lawyers in the room or work for law
+firms? Okay. Yes, we have one. Right.
+So, as you know, they they produce like
+law firms are like document generation
+machines, right? They generate
+thousandpage documents and contracts,
+complex like legal clauses. So, this
+particular tool law allows to accelerate
+the creation of these contracts,
+non-disclosure uh agreements faster
+primarily targeted towards the
+parallegals uh in the company. So what
+we observed was like two different
+divisions in the same company. Uh this
+legal code uh these two divisions engage
+in similar types of law like patent IP
+law and similar case load. Both
+divisions were known to have like a
+really good culture and high performing
+divisions within the same organization.
+But we saw substantive variation in how
+much this two law was used by the
+parallegals. One division just raw usage
+was a lot more. They were using it for
+all kinds of uh purposes but not just
+usage alone but like what we call as
+experimentation what like I think Alex
+mentioned too on using this tool to do
+more higher order task beyond what the
+tool was originally designed for in this
+case using law not to create contracts
+and NDAs and documents but to do legal
+research but to do like case analysis
+right it was happening a lot more in one
+of the divisions let's call it division
+B not so in the other division division
+A so we were like intued by Why is this
+happening? Right? Same company, two
+different divisions, similar
+parallegals, same type of incentives and
+pay structure but substantive variation
+in usage and experimentation especially
+towards doing higher order tasks and
+activities. That was sort of the puzzle
+we started off with. Uh so when we
+looked at the data we had like access to
+the lo the logs but also like we
+interviewed observed people talked to
+the parallegals talked to their managers
+like s like fly on the wall on all the
+meetings that uh the company had the
+divisions had. So we boiled down our
+explanation to a couple of things and
+I'm not claiming causality here but like
+these are like best explanations to the
+variation we observed right one was how
+the so this is sort of the variation I
+talked about right more usage in one
+versus other more experimentation in
+using the tool for higher order task in
+one division among the parallegals than
+in the other uh so one uh one reason
+oops I don't know what I did let me try
+okay all All right, it disappeared.
+I mean, we'll fix like uh AGI before
+like AV, I think. Yeah.
+All right. Oh, there you go. Back.
+This. Yeah. So, one of the one of the
+reasons that we found that really made
+an impact on how much the parallegals
+were using and experimenting this tool
+to do higher order tasks came down
+boiled down to two things. One was how
+the technology itself was positioned or
+framed by the division managers and
+these two divisions in the firm. The
+division managers had a lot of
+discussion on how to position this genai
+tool uh to their employees, what kind of
+incentives to put in place, what kind of
+training to put in place. For division
+A, the manager framed it as a
+productivity tool, right? It is a
+productivity improvement tool. And this
+is the exact language the division
+manager use. Make your day-to-day work
+faster and more efficient, especially
+creating contracts and NDAs. you you
+could pace up and get more done in less
+time, meet tight deadlines, right?
+Pretty much the rhetoric that the vendor
+of this tool, the law tool, also used.
+So when I looked at it and I was
+following along in real time, right? I
+thought this was not a bad messaging. I
+want to be productive at work. I want my
+RAS to be productive. I want my
+employees to be productive. So I thought
+this should work. People should feel
+like motivated by using this law to be
+more productive. But the way the
+parallegals in this division interpreted
+this message was you say productivity I
+hear substitution right. Uh so
+essentially the exact quote was if I'm
+more productive today and tomorrow
+what's going to happen to us a team of
+parallegals the day after. And I was
+quite intrigued by this sort of
+interpretation on you say productivity I
+hear replacement or substitution. And I
+spoke to these parallegals individually
+and collectively and I asked them are
+you sort of like saying this particular
+tool could replace or automate most of
+what you do as a parallegal and they
+were like no way no only 20% of what I
+do this particular law tool could do and
+that with a lot of issues but I'm
+worried like in the future how how would
+management deploy this tool in a manner
+that my own role would become weaker
+right my it would be consolidated into a
+shared service of sort So it was this
+like they were not threatened by the
+technology per se but more by the
+perception of the management might end
+up deploying a tool in a manner that
+they would be substituted right so
+that's sort of a nuance here not the
+technologies features that they're
+threatened by but the lack of clarity
+from the management on how it is going
+to be deployed and more broadly on what
+is in it for them for parallegals
+individually right you say productivity
+it's good for the division it's good for
+the organization but what is in it for
+me as an individual UAL parallegal that
+was not quite clearly answered and that
+created the sort of a vicious cycle of
+sort where there's a lack of trust in
+how the tool is going to be eventually
+deployed by the division managers. Uh
+okay you know again it went okay I hope
+like I could see it in my screen but uh
+okay it's back again. Uh so there's lack
+of trust which led to like less them
+using the tool experimenting and as a
+consequence they even the times they
+used this law they were anchoring around
+the negative experiences hallucinations
+like wrong clauses through and they were
+like almost three strikes are out
+hallucinated they throw this long clause
+I can't really trust this anymore to
+rework it to understand the tools
+limitations and integrated into my
+workflow that did not happen so much
+right in this in this context uh let's
+get to the uh and they they said things
+like such as I find this tool a pain. It
+makes a lot of issues. It takes me a lot
+more time to catch the mistakes that the
+law makes as opposed to me doing it
+myself. Right? So that was a sentiment
+expressed by the parallegals in this
+division within this within this
+company. Let's move to the second
+division. Let's call it division B. Uh
+they the division manager frame this
+technology is slightly different. Not
+for any strategic reasons. This person
+thought perhaps this is the best way to
+position this technology when
+introducing it. And we call it as
+researchers, we call it like a job
+enrichment positioning or framing. They
+did not use the language of job
+enrichment. It's our researchers
+language. But the exact language the
+manager used. I'm just like pasting it
+here, right? Uh ask yourself what are
+the things you hate to do like you
+absolutely hate task that you find
+routine and boring and meaningless.
+Could you find a way to use law to do
+some or all of it? That's the first part
+of the messaging or framing. Uh but the
+even more important part was the second
+second uh second phase, right? What else
+do you want to be involved in within
+this division? What are the task you
+always wanted to do but never had the
+time or bandwidth to do so? Right? The
+second part of the messaging turned out
+to be a lot more important for the
+parallegals. So let me tell you what
+happened once the technology was
+introduced within this division in this
+manner. Here again the parallegals were
+not like initially enthusiastic. They
+were not like, "Gh, no, but we're going
+to go use this tool for all kinds of
+things." They were skeptical. They were
+initially skeptical like the parallegals
+in the other division A2. They one of
+the parallegals said, "I'll be honest.
+Initially, I was super skeptical like,
+oh my god, another fancy new IT tool
+that some tech bro successfully managed
+to sell to my managers. We are the
+guinea pigs on and on, right? But it
+sucked initially through all these like
+hallucinations, wrong legal clauses. But
+somehow I continue to use it and use it
+even for other stuff such as doing legal
+research. Right? That is the second part
+which in my mind is critical. Right?
+They were using this tool and
+repurposing it not just to do the
+routine tasks such as creating contracts
+and NDAs but for task that they found
+intrinsically interesting and meaningful
+which is legal research. And you might
+ask why? It is just like more work for
+them, right? doing all this task but
+from their perspective when we interview
+them further and prop them they have
+some skill gains in the process right if
+I do legal research I am gaining some
+skills some of them wanted to apply for
+the law schools after or get into uh
+different lateral role so they saw there
+is something in it for them not just
+like something just for the company or
+the division which created a different
+type of a dynamic different uh more of a
+vicious virtuous cycle where they first
+took this leap of faith to overcome the
+skepticism of using this tool, another
+fancy new IT tool. And here again, they
+had negative experiences and positive
+experiences. They were hallucinations,
+they were issues. Uh but because they
+were using it not just for a routine
+task, but for a more higher order
+meaningful task that they felt the
+parallegals felt they could gain some
+skills, some learning in the process,
+they continued, they continued
+experimenting using this tool towards
+that goal, towards the goal of doing
+better legal research. Right? So we saw
+two different dynamics in the same
+company, same sort of incentives so to
+speak in terms of monetary incentives.
+But again the learning here is not just
+that you know uh framing alone matters
+like if you frame it in this way uh as a
+productivity tool versus like a job
+enrichment tool you're going to see
+different impact that is not the main
+message but rather the main message was
+the management in division B after they
+saw the parallegals do using this tool
+for more complex stuff like legal
+research they follow through on their
+commitment right that I said like job
+enrichment and you could use this tool
+to to do more complex work. I'm going to
+follow through as the manager on the
+support systems to enable you to do that
+right in terms of you know training
+programs and slack time for the
+parallegals to experiment and learn this
+tool. And the most important uh uh
+intervention they did was they changed
+their learning and development internal
+training programs. Initially they
+thought of this as an AI fluency program
+where they'll teach all their employees
+on how to use AI and take them have them
+take a test on AI fluency but they quite
+quickly realized that is only providing
+less dividends right that people because
+people especially in nontechnical roles
+you teach them how to use AI it's
+unclear on where they would apply it as
+a part of their own work so they changed
+it to what we call as a task first
+reskilling as opposed to a technology
+first reskilling where the managers
+identify what are the more complex tasks
+that people would be able to do using AI
+in this case it's legal research and
+essentially like structure your whole L
+&D and reskilling program around that
+task around the task of legal research
+in this case they brought like legal
+research experts into the company taught
+the parallegals on how to do better
+legal research and case analysis and
+open the tool how to use AI as a part of
+it as opposed to starting with AI
+training right so that we saw made a lot
+of difference in this organization but
+also a number of other organizations we
+studied right so so far so good now you
+might ask what are the consequences of
+this parallegals in this division doing
+more complex work uh one consequence or
+positive consequence was it created
+spillovers to other adjacent roles your
+admins and summer interns they were able
+to take on some of the slack and do more
+complex work than they did before so
+that's a possible spillover over. But
+there were also some negative push back,
+right, from other adjacent roles inside
+the same division. And now we enter the
+junior associates. These are your junior
+attorneys with a law degree, three few
+to three years of experience in the
+company. They were unhappy. They were
+like, why are you as a parallegal
+without a law degree doing legal
+research, case analysis, which is my
+work. I'm supposed to do all of that. So
+you stay in your lane. You stick to what
+you know the best. don't in invade into
+my turf. Right? So that happened quite a
+bit inside the same division. This is
+what we call as a lump of task fallacy.
+If you think of a job as a bundle of
+task, if Alex does some of my work, I
+feel threatened that I'm going to be
+less powerful. My status and expertise
+is going to decline. So they push back.
+It's classic sort of zero sum mindset.
+So this kept happening for a while and
+they're here. the division managers have
+to step in again saying okay we're going
+to formally redesign the role of the
+parallegals but also the junior
+attorneys you don't need to do the first
+cut legal research parallegals could do
+that you could verify you could actually
+you know make sure that it is right and
+you can engage in a lot more complex
+work like interact with the clients
+earlier engage in legal strategy and so
+forth right so the the punch line here
+is like you don't redesign one role or
+workflow at a time you have to think of
+it as a system redesign multiple roles
+so that you avoid all kinds of these
+push backs and jurisdictional battles,
+right? Okay. So far so good. Then once
+the success of division B became
+prominent like different roles were like
+redesigned, workflows reconfigured and
+uh they were able to take on a lot more
+clients after this like two and a half
+year threeear period which became an
+example for the rest of the company
+right the other divisions wanted to
+follow and mimic them. uh they were also
+tried to change the roles of the
+parallegals and attorneys but once a
+diffused it's a good thing that they try
+to do that and replicate the success of
+division B but the one thing they missed
+out was changing the evaluative criteria
+at the end of the day all these folks
+are parallegals attorneys are getting
+evaluated for their performance that did
+not change right these divisions just
+increase their workload uh but did not
+like really match how they're getting
+evaluated accordingly at the end of the
+For example, in one of the divisions,
+the parallegals said they were evaluated
+using a criteria called case load. How
+many cases, legal cases, they were able
+to support, which actually came down
+after the parallegals started doing
+legal research and more complex work.
+And that is natural, right? That is
+obvious. If you're doing more complex
+work, your how many cases you could
+support potentially even with AI is
+going to decline for a while. And that
+was not really recognized. The managers
+thought, oh, why is your case load
+coming down? I was expecting you to keep
+the same level of case load which in
+turn created all kinds of negative
+motivations for them. So as a
+consequence they had to again think
+about how should we uh have the
+performance evaluation criteria that
+aligns with the new type of task and
+activities that these people do. Right?
+So this particular case what it
+illustrates essentially is that for like
+we we keep talking about you know
+workflows need to be redesigned but what
+does it actually entail in practice? It
+entails all of these things, right?
+Redesigning multiple job roles at a
+time. Even rewriting a job description
+formally so that people have some level
+of clarity and accountability, but also
+thinking about what are the right type
+of incentives and performance evaluation
+criteria to use so that like people feel
+like motivated. They are not taking on
+all this invisible work and feeling that
+their work is getting intensified with
+very less payoff for them either
+monetarily or in terms of skills. And
+finally, what is the governance
+structure you need to use as an
+organization to manage this process,
+right? These are some of the lessons.
+Um,
+uh, I'm happy to share the full research
+paper. If any of you are interested,
+please like email me. But we also wrote
+a more like practical, uh, version of it
+in HBR which uh, which I put the link
+here. Uh, and also there's like more
+work coming out on we expect AI to
+reduce the workload. But what we are
+seeing in practice across multiple
+industries is it's intensifying work and
+people are feeling like you know
+intensified. Oh well so what could we do
+as like managers as like organizational
+leaders this is a pretty big like
+research area on that and how do we
+change our own evaluation systems. Now
+this is all about like the the field
+research. uh we're doing a very quickly
+in the interest of time I'm going to go
+quickly doing a bunch of field
+experiments lab experiments trying to
+understand the link between AI use and
+how does it impact people's sense of
+meaning and their motivation to reskill
+and learn new skills do more higher
+order task and the relationship is not
+like straightforward under certain
+conditions AI use especially if it is
+framed purely as a productivity tool
+actually impacts people's sense of
+meaning and by extension their
+motivation to reskill learn of skills in
+the process, right? Likewise, there is a
+trade-off between productivity and
+meaning which we see consistently in a
+number of studies we have run. So the
+bigger question is like how do we use AI
+to be uh make people more productive but
+productive in a way that is also make
+them more meaningful? They're doing not
+just the same task faster but more like
+higher order complex task that they find
+inherently meaningful and have the
+motivation to reskill. That's where we
+see a lot more benefits both
+individually but also for the
+organizations. How do we go there? This
+is like an open quest, right? I'll end
+with a few caveats, right? The now I'm
+going to draw on others research.
+A couple of caveats. First is uh we talk
+about redesigning roles with workflows
+and the intuition that current the
+current intuition is that you have to
+identify these routine boring tasks
+peripheral tasks that the person does or
+job role does uh make sure if AI is able
+to do that so that they can focus on
+more higher order or complex tasks right
+that's the intuition which is a pretty
+good intuition to have when you think
+about redesigning roles but there's a
+recent study looking at the use of AI by
+radiation oncologist where a similar
+logic was used where we use AIS to
+basically automate the peripheral task
+that these like radiation oncologists do
+so that they can only focus on the more
+core tasks such as like contouring the
+parts that needs to be exposed to
+radiation the core activities they do.
+Uh this is like research by a PhD
+student at Berkeley who's also a
+physician called Farna Mohabi. She found
+out that actually it has some
+performance uh performance sort of
+implications. If uh people are using AI
+to do peripheral tasks so that they can
+only focus on the core task actually the
+performance both in terms of speed and
+quality of the core task to decline
+right decline because there are like
+interdependencies between task A and
+task B between the peripheral what we
+think of as peripheral and core lab. So
+that has a huge implication, right? And
+how do you go about redesigning job
+roles and workflows? You can't do it in
+a like a mindless manner. You have to
+think about the interdependencies
+between task. What you might think of as
+a peripheral task might be very
+important to the performance of your
+core task. If you do it unbundle these
+jobs, you know, like not in a
+mechanistic manner, it is going to have
+performance consequences. So that's the
+first caveat. The second caveat is a new
+paper by David Otter and colleagues
+looking at what is the impact of AI use
+on expertise and who loses out the most
+seniors or the juniors. Excellent
+experiment. Uh the punch line again here
+is that in the short term the use of AI
+helps the junior attorneys to be more
+productive. Their productivity gains are
+significant as compared to the seniors.
+But uh when you take the AI away from
+them in any of the task they are doing
+in this case it is like a patent
+redlinining task uh the judiors were
+making a lot more mistakes they were
+actually uh you know fund the
+foundational knowledge that they should
+apply they were unable to do so as
+opposed to the senior attorneys when you
+take when you introduce a tool and take
+it away after a while after say 90 days
+that's a pretty big implication too on
+how should we think about you know the
+skill pipeline and the junior employees
+right entering how much training we
+should put in place like what is the
+role of like foundational training and
+the broader message here is that if AI
+makes execution cheaper
+uh the sort of the importance is just
+about judgment and verification and
+taste right that's again is the is the
+conventional wisdom but if you ask
+yourself all of you in the room with
+many years of experience where does like
+judgment come from where does taste come
+from comes from execution right uh so
+which is why we saw this difference
+between the junior and senior employee
+performance. The seniors when you take
+AI away their performance did not
+decline as much as opposed to the
+juniors. So how do we still inculcate
+this foundational expertise uh while
+still making use the advantage of AI?
+That's another open question that all of
+us have. how should we think about our
+own training programs all the way from
+universities to inside companies right
+so two caveats I will stop with this
+like a more practical framework and then
+like I will take like open it up for
+questions right on so far we shared like
+insights from research but when we think
+about jobs and workflow redesign uh how
+should we go about thinking about it one
+is again the conventional wisdom is to
+think of jobs as a bundle of tasks but
+what I'm going to argue is that no it's
+not just a bundle of task the job is
+more than a bundle. There is this
+invisible glue that ties these different
+tasks together. And some jobs have like
+strong bundles. In other words, the b
+the glue is very strong. Some jobs the
+bundle is weak. Right? The example of
+the radiation oncologist, the bundle is
+very strong, the glue is strong. So that
+if you just try to mindlessly like
+unbundle it like give some task to AI,
+ask the individual to do other tasks,
+the performance really suffers. Whereas
+a different job say the job of a medical
+transcriptionist which is a weak bundle
+there you can actually redesign them
+unbundle some task to AI you know
+reconfigure the job right so that's uh
+something to keep in mind jobs are more
+than bundles of task and the current
+frameworks of AI exposure at the task
+level does not get into these questions
+of bundles and bundle strength and how
+do you thoughtfully go about unbundling
+them uh the interest of time I mean I
+when I teach executives I I go through
+this whole framework can redesign a job.
+Four things to keep in mind is the
+bundle strength. How do you sequence the
+handoff between AI and human, right? If
+you give the handoff to AI and then like
+wait till the it finishes the whole job,
+that is not great. But if you sort of
+verify every three steps, that is not
+great either. Like it's almost like
+having a speed breaker every 30 minutes
+in the highway. So how do you sort of
+chain it or sequence it? The second
+third is about what are the bottlenecks?
+What is the weak link in that job? And
+can you actually like make AI to do it
+or is it better to retain accountability
+in a human? And the fourth which we
+talked a little bit about on vacancy
+chains. What kind of like you know
+openings like AI creates for each job
+role. If parallegals are able to do
+legal research, what implication does it
+have for the junior attorney who used to
+do that particular task? So essentially
+the the overall take-home message is
+that value comes not just through
+adoption and usage of AI. more AI usage
+does not translate to creating more
+value but value comes through carefully
+redesigning reconfiguring workflows and
+roles and do that in a thoughtful manner
+based on you know some of the research
+findings that we have shared and with
+that I would stop and uh happy to take
+both Alex and I happy to take questions
+thank you
+>> I'm going to kick off with a couple of
+questions um I received online um and
+also I'll present one for each of you
+first um Arvin I'm curious with with
+your closing right there um on sort of
+jobs being bundles of tasks but markets
+not pricing them as such.
+>> Yeah.
+>> What takeaway should we have as it
+relates to future vacancies within
+different industries and also frankly
+even sort of business models because you
+focused on on the legal profession which
+has a business model predicated on
+billable hours. Yeah.
+>> And so if we're changing tasks and we're
+changing job functions how like what is
+hiring how do hiring change and how does
+the business model change? Yeah, great
+question. In fact, one of the reason why
+this company uh they they invested a lot
+in measuring what people are doing in
+terms of their activities. In part, the
+clients with AI coming in, they were
+pushing back to the nail on why should I
+why should this particular case needs
+like four associates and two parallegals
+and like why should I pay the
+parallegals and associates this many per
+hour. So documenting that on like uh
+it's not that the parallegal are doing
+the same work they're doing more complex
+work likewise the junior attorneys are
+not doing the same work but more complex
+higher order work helps them so that is
+the business model hiring kind of
+implication what we are seeing and there
+is variation across industries is uh
+right now the junior like hiring entry-
+levelvel jobs is a decline but I'm not
+sure if that would be the equilibrium
+going forward right uh import it is
+actually cheaper to hire and train them
+and uh the lot of the cost is at the
+middle level so they might have some
+implications for how hiring might unfold
+in the future.
+>> Um Alex, question for you. Um you noted
+that pioneers are more likely to be
+senior people. So a question that we
+received online is is this really a pure
+effect or is this organizational dictat?
+um as in is is this like sort of the the
+the pioneers being senior team members
+are is that sort of just trickling down
+through as a result um and so like sort
+of a a pressure from like leadership in
+the organization to senior IC's that
+then sort of has this cascading effect
+versus um you know something else
+>> the beginning is that in terms of
+seniority the the the population of
+pioneers is pretty representative of the
+non-pioneer population. But what I've
+shown in terms of results is that those
+you know senior contributors and
+managers are more effective at
+influencing the outcomes of the
+teammates. Um I think this has many
+interpretations. Uh it could just be
+that you know once you see your manager
+or your senior peer trying to teach you
+something set an example for you you
+just feel uh just more empowered or more
+motivated because it is you know the u a
+figure of authority that you trust. So I
+think it's really about u trusting that
+figure of authority from like a personal
+perspective rather than the leadership
+sort of forcing you to oh you should
+only listen to your like senior peer
+versus the junior peer. After all we're
+actually seeing effects hold you know
+across bioneer types. It's just that you
+know managers and senior pioneers are a
+bit more effective and I think it's
+really due to that personal trust uh
+within the team that that's driving
+this.
+>> Yeah, thank you very much um Arvin and
+Alex. Um maybe this question is more for
+Alex but Arvin please feel free to jump
+in. Um I wanted to ask um the analysis
+that you did about the AI and the
+pioneers and then the peer adoption. um
+this isn't the first wave of technology
+being adopted uh in the workforce. You
+know, you've recently had ERP and then
+software development tools and
+electricity and all these things, right?
+So is this adoption curve by the
+pioneers and and then their subsequent
+peers, is it following something
+fundamentally different for AI adoption
+that you don't see in those prior waves
+of technology adoption or is it
+essentially following the same kinds of
+curves? Maybe it's a bit accelerated
+because the interfaces for AI, you don't
+have to learn a new programming
+language. You can basically speak
+English to it. So maybe there's a little
+bit faster deltat t there or also does
+it require less capital and so it's sped
+up because less capital has to be
+deployed. You don't have to again like
+electricity redo your whole factory
+floor and all these things. So, I'm
+trying to figure out is there something
+really different here or it's just more
+of the same and it's really governed by
+the uptake of humans being able to
+absorb and be able to put to use the new
+technology and it's really governed by
+the speed of our brains as opposed to
+the technology. So I I do agree of
+course that you know we have um
+year-long literature on social diffusion
+and that in fact technology diffusion is
+very much determined by pure networks. I
+think one distinguishing feature is you
+know you already mentioned that it's
+that speed and acceleration but I think
+in the context of AI while we may
+accidentally expect this is going to
+happen it is actually more surprising
+because you know after all AI is there
+to automate right to self-correct itself
+and so it's almost like surprising that
+for me to benefit from that automation
+it's not enough for me to adopt on my
+own I actually need still another person
+to teach me uh use that you know
+automating technology. So I just think
+that given like the nature of the the
+technology which is AI, it's it's about
+automation. Um you wouldn't necessarily
+actually expect that the the social
+aspect would be that strong. But we
+actually see it still holds. You know,
+maybe it just has to do with humans.
+They're just like learning from their
+peers whatever that technology is,
+whatever the the aim of the technology
+is, which may be a good message because
+that's, you know, we're still sharing
+knowledge. is just that AI is a
+different path u that kind of
+redefineses how we share knowledge.
+Yeah, I'd quickly add uh I think there a
+lot we could learn from prior waves of
+technology adoption and all the
+organizational changes that need to
+happen to you know leverage the benefits
+but I would say like maybe one
+difference and I've like in the past
+before studying AI I've studied the
+transition to cloud and pretty similar
+issues but the one difference I see is
+you know if it is an ERP adoption there
+are features and functionalities that
+you could teach your employees you could
+bring the vendor have these training
+programs
+with generative or agentic AI. It's
+quite open-ended, right? While when
+people experiment in a bottomup manner
+that they even figure out what task they
+could use AI for integrate their
+workflows, but why would they experiment
+if they feel they're like training their
+replacement or they're feeling like
+threatened. I think maybe that is one
+perhaps like uh perhaps difference
+open-ended. You're trying to like
+discover the high value uses of AI. uh
+but to do so there needs to be many
+other things to fall in place
+organizationally. So yeah I think that
+would entail a different type of like
+governance model.
+Uh this was quite interesting. I come
+from a contract R&D organization where
+we don't we charge by the hour but the
+idea isn't to charge as many hours as
+possible. It's to go to the market with
+as low rates as possible because that's
+how you win. And my experience in
+my organization, it's that it's the
+young ones who go for uh who learn these
+tools first, who experiment with them
+and finally manage to convince the old
+fogies like me that they should be uh
+that they should be doing it. and that
+the whole point is to be more efficient
+in the work that you do which will let
+you bid at lower rates for the next job.
+>> Here it's it's sort of a little bit of
+limitation our data. you know, after
+all, you know, we're looking at an
+e-commerce tech company where, you know,
+some of these tasks are um quite
+specialized and maybe you do need to uh
+have that more senior experience to sort
+of really influence others outcomes. Um
+it will be super interesting to see
+different types uh of companies and
+sectors to see kind of how this
+heterogeneity plays out and can we sort
+of um correlated with you know what is
+the social dynamics within these um
+companies. So I think absolutely maybe
+you know in in your in your company for
+some reason it's the juniors uh that you
+know that are the ones that discover the
+tool first and then uh the seniors
+actually more excited kind of uh to to
+to learn about it. Um so yeah that's
+another reason to sort of extend this uh
+research and understand how how it
+translates uh into the cross sector.
+I will quickly add I mean from my the
+the four field sides I've studied uh
+there's quite a bit of variation. Yeah,
+by and large the junior employee is more
+like the a few years experience or like
+a lot more excited but uh their ability
+to convince others that there is
+something in it especially the early
+stages of adoption varied right uh so
+the but if uh the mid mid-level to
+senior employees were the pioneers in
+Alex's language it created a lot more
+credibility and also some kind of like
+an accountability buffer right so I'm
+using this tool because like a senior
+your employee is also using. So if
+anything goes wrong, I my my sort of
+like job is not on the line, right? So
+some sort of dynamics are at play, but I
+haven't really studied it systematically
+on who's adopting it more at what
+levels.
+I had a question for that combines both
+your lectures a little bit and uh my
+background is I'm a senior attorney
+working with AI startups and I've also
+trained an AI model and so what's
+interesting as a juxiposition is uh
+there's a proliferation of legal AI
+companies and you talked about the the
+use in junior levels which a lot of us
+who are senior um have shown some
+skeptic criticism and concern about
+which you raised. Well, I'm just curious
+that it's a two-point question of
+whether with with this view that um
+legal is a top five use of AI and this
+proliferation. I'm curious if you've
+done any follow- on research on how your
+early analysis has come to play with uh
+these many many um offerings that are
+out there. And then I'm also just
+curious like combining the two lectures
+whether
+it you might recommend or it makes sense
+to have the senior attorneys use agentic
+AI. Um and I'm just kind of curious if
+anyone has examined that because this is
+just a really um just a very overloaded
+burgeoning field and I was just very
+interesting
+>> to hear the two together the junior
+versus senior and combine it with the
+law. So it's kind of an amorphous
+question but I'm just curious if you
+could speak to that.
+>> I'm happy to take it first. Uh so yeah I
+have seen this even the same
+organization the law firm I studied but
+also other law firms adopting like tools
+like Harvey right. uh uh the fundamental
+issues still remain right Harvey what it
+does it it creates more like integrated
+platform all the way from eiscocovery to
+many other aspects of like uh legal
+research but still like you need to like
+reconfigure job roles and workflows
+create the right type of incentives and
+messaging so that part the
+organizational part like uh even when
+they adopted a more like integrated
+platform hasn't really changed right
+like a lot more sort of trial and error
+and learning oh shoot we did this it's
+backfiring now people are not happy so
+that's certainly happening uh to your
+second question on like senior I mean
+senior attorneys and even like partners
+right uh in the legal industry
+specifically uh I've seen a lot of like
+resistance to adoption and even like
+resistance to reconfiguring their own
+job role right if a junior associates is
+not doing legal research at least the
+first cut legal research anymore they're
+doing more like verification and
+judgment and uh bit more uh they
+actually are like intruding into the
+work of the senior associates right
+they're like invol getting involved a
+bit more in legal strategy meetings
+which means like their role the senior
+associates role also have to change but
+there's like quite a bit of resistance
+that oh no no no I've been doing it for
+a while you don't know you're just like
+three four years experience so that's a
+pretty big push back uh and uh for now I
+haven't seen many companies
+fundamentally reshape the role of like
+senior associates and the partner level,
+right? But perhaps that might happen
+down the road.
+>> Yeah. So I I can't talk to the legal
+industry but you know based on the tech
+and and the data we have we actually see
+that both juniors and seniors do benefit
+from AI because after all in the tech
+industry both juniors and seniors you
+know perform quite complex tasks and
+then there is certainly a way of
+leveraging AI um in efficient way. Um,
+so yeah, in the context of tech, I just
+think that there like all air, you know,
+workflows can can benefit from from that
+agentic AI usage.
+>> Hello, I'm Adora. I'm a Stanford MSN
+graduate and my question is on the
+dependent be of the parallegals. Did
+they start the ideas of the
+experimentation together and was shared
+throughout them or did they
+independently come up with the same
+ideas to use the AI4 and whether you
+observed any approaches or mechanisms
+that worked better when it came to the
+diffusion or when it came to creating
+those new experiments.
+>> Awesome. Great. Thank you. That's a
+great question. uh they initially like
+independently came up with uh you know
+beyond just creating contracts and NDAs
+we could repurpose this tool to do legal
+research uh like research more broadly
+research about the clients too uh but
+very quickly they sort of converge right
+because they mean they're the same
+division and they face issues like
+earlier on they have a lot of like
+hallucinations so they would discuss and
+they realize oh we are also using
+repurposing this tool for similar
+reasons right so therefore They created
+their own slack channel, a prompt
+library and all the approaches they have
+used which all like was like uh pretty
+much has accelerated their learning on
+how to use this tool and integrate their
+workflows. But the issue happened when
+this particular approach was like you
+know replicated across the other
+divisions in the division B when the
+managers saw parallegals doing more
+complex work their own like evaluation
+criteria changed right it is not just
+about how many cases you could handle or
+case load it was like uh it was changed
+to reflect the complexity of the work
+the parallegals were doing in the other
+divisions it did not happen which meant
+that they felt all this work is
+invisible and underrecognized. So
+therefore we saw a pretty big like
+decline in how much they're
+experimenting and using this tool for
+more higher order work right so that's
+another I didn't have time to go in
+depth in today's presentation but uh
+essentially if you don't recognize
+additional work like organizationally
+and set the right sort of reward systems
+you would see like increased like
+excitement and adoption uh decline and
+we have seen this even in quantitative
+data consistent pattern rate adoption
+decline and we are still like trying
+figure out is that because just about
+like recognition or like is there
+something about the capabilities of the
+tool itself?
+>> Fascinating presentations.
+Uh I spent a lot of time thinking about
+peer effects is there not in economics
+or social influence as we call it in
+sociology and psychology
+and we know that peer effects are
+particularly strong when there's
+uncertainty. So if I want to institute a
+casual Fridays in my firm, what does
+casual mean? Can I show up in shorts?
+Jeans? What does it mean? I look around
+at what my peers do and adopt that.
+That's because there's no subjectively
+correct answer to what casual Fridays.
+Now, AI, many people would think, is a
+tool like a hammer, right? You pick it
+up, you use it, you immediately see the
+value, right? It's much easier to hit a
+nail with a hammer than with your hand.
+Let me make the counterfactual case. AI
+should not be subject to pure effect. It
+has independent value. You use it. It
+makes you more efficient. You adopt
+right. Clearly both of you show that I'm
+wrong that my naive hypothesis is wrong.
+What do you think from your field
+setting Arvin from your work at
+Instacart?
+Why is it not the case that people can
+just pick up the tool, experiment with
+it, adopt it or not adopt it? Why peer
+effects are so important? I think that's
+a great question and I can also just
+speak from my experience talking to
+colleagues from other companies uh as
+well in the tech industry. There is
+still and there is still a lot of
+uncertainty around how to use agentic AI
+um in an efficient way. Uh that's why
+there's a lot of investment going on in
+validating and monitoring um AI output
+and a lot of companies are building that
+infrastructure. So I think you make a
+great point while you know exante who
+may say it's just a given thing you just
+ask it you receive an answer how the II
+gets to that answer is still a black box
+and even major AI labs such as entropic
+and open AI they have teams that are
+sort of working on unpacking it and so
+actually I think that's that's a great
+way to rationalize the peer effects in
+my study that for sure and even more
+when that agentic AI I was nason there
+was sort of even much more uncertainty
+you know how do I use it how do I
+integrate it and we do have anecdotal
+evidence that you know people say oh I
+discovered cursor the agentic tool just
+because I had a random chat with my peer
+so absolutely
+>> I would quickly add uh again it boils
+down to the open-ended nature right uh
+of AI and if it is open-ended uh you
+need some kind of like social support or
+like some cues on what how do you use it
+but also what to use it for what type of
+tasks or activities or problems. My
+colleague here Michael Bernstein he uses
+this like interesting analogy of like AI
+is like good at like certain types of
+tasks he calls as like rough edge
+problems and sharp edged problems like
+uh sharp edge problems have one right
+answer right and there's like very less
+degree of freedom there's very less
+tolerance for error from the human
+organizational perspective rough edge
+problems have like many right answers
+many ways of approaching that problem as
+of now at least the capabilities of
+genai a jks good at these rough edge
+problems which means that if there are
+multiple ways to address that or tackle
+that you would need some kind of like
+peer influence peer sort of learning and
+that is one of the reasons at least like
+in my case I saw uh the groups that had
+some social learning peer learning
+mechanism did like lot better in terms
+of how they use this tool but also what
+they used it for a more higher order
+high value use case
+>> as things like agentic AI increased
+steep throughput into sort of the
+thousandx.
+Where do you see the bottleneck for each
+human now like especially in things like
+physical and engineering industries?
+>> Take it.
+>> So I think again what we see in our data
+is that it does accelerate throughput
+but you know you still have to think
+about those ideas. So in the context of
+experiment creation, you're not just
+asking the oh what's the next experiment
+I should create? you're actually you
+have more time to discuss with your
+teams what is that next idea we should
+invest in and what is that second and
+third and then you can leverage AI to
+sort of create those which is kind of
+the engineering manual work but you're
+you have instead more time to actually
+generate your idea through
+collaborations and human interactions so
+>> I would add uh I mean if we remember the
+Jeff Hinton prediction on radiologists
+right and we should we should stop
+screening radiologists like uh that
+prediction didn't come out to be true.
+In fact, there were there's more demand
+for radiologists. They're like uh uh you
+know their like wages are also like you
+know there's some evidence that is going
+up and in part is the jaw paradox but in
+part is also because the job of a
+radiologist is not just about like
+interpreting or reading scans. It
+involves a lot more right? It involves
+interacting with the physicians,
+training the residents, like interacting
+with the patients, making a tough call
+and signing off on it, taking
+accountability. Again, if you think of
+jobs as more than bundles of task where
+all those like elements of
+accountability and complimentarities
+between tasks are involved. In other
+words, doing task A is important for
+doing task B. Even though you could use
+AI to accelerate the performance of task
+A. So all of this makes this predictions
+on AI and this labor market effects lot
+more complicated than what we expected
+right because job is like a uh you know
+I like step back like throw my like you
+know theorist hat uh many years ago this
+economist called Ronald Post asked the
+question why do firms exist why not just
+markets you know if you can find
+information and exchange information
+contract efficiently you don't
+technically you don't need firms you can
+just like individuals you know
+transacting with each other and his
+answer was uh it's about like
+transaction cost right there's a lot of
+like cost involved in like finding each
+other information sharing and writing
+and enforcing contracts like lot of
+coordination cost if you apply that
+theory to the context from firms to jobs
+why do jobs exist or like why not just
+one job which does everything similar
+sort of uh mechanisms right there are
+coordination cost involved in putting a
+job together putting certain tasks
+together inside one job versus other if
+you try to complicate that and unbundle
+expand the scope of job uh there is a
+trade-off between that expanding and the
+coordination and accordability cost
+invol that's what like we are finding in
+our own research it is not a simple uh
+task of just like let's unbundle let's
+see which task AI is good at which task
+humans are good at let's just like you
+know redesign the job it is really not
+working well because of these
+complimentarities dependencies that
+would be the best answer I could give at
+this stage

@@ -1,0 +1,16 @@
+{
+  "stage": "store_get",
+  "status": "completed",
+  "input_count": 1,
+  "output_count": 1,
+  "started_at": "2026-10-10T15:14:01Z",
+  "finished_at": "2026-10-10T15:14:01Z",
+  "tools": [
+    "sqlite3"
+  ],
+  "models": [],
+  "usage": null,
+  "cost_usd": null,
+  "cost_estimated": false,
+  "errors": []
+}

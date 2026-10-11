@@ -1,0 +1,635 @@
+{
+  "stage": "write_video_scripts",
+  "instructions": "# Write the video scripts\n\nTurn each brief into a 3–5 minute English narration for Google Vids. Use the same claims and evidence as its article. Include concise visual directions, spoken attribution, and claim markers such as `[claim:01-c1]`. Preserve qualifications and do not simplify a source claim into a fact. End with production notes and a source slate containing direct URLs plus media timestamps.\n\nDo not invent visuals that imply unavailable data, and do not invent citations or conclusions.\n",
+  "payload": {
+    "project": {
+      "publication_name": "Scholar in the Loop",
+      "topic": "Responsible uses of AI in research topic selection and academic writing",
+      "audience": "PhD students in artificial intelligence and operations research who already use LLM tools",
+      "central_question": "Which uses of AI in research topic selection and academic writing improve efficiency without weakening originality, evidentiary rigor, author responsibility, or scholarly value?",
+      "scope": "Topic discovery, research-gap evaluation, outlining, drafting, revision, citation verification, and disclosure.",
+      "exclusions": "Undergraduate cheating, generic workplace productivity, automated paper generation, fabricated citations, and unsupervised acceptance of AI conclusions.",
+      "voice": "Analytical, evidence-led, practical, and skeptical of both AI hype and blanket prohibition."
+    },
+    "as_of_date": "2026-10-09",
+    "briefs": [
+      {
+        "piece_id": "01",
+        "title": "Use AI to widen the search, not choose the research bet",
+        "question": "How can PhD students use AI for topic discovery without outsourcing originality or research judgment?",
+        "argument": "AI is most useful in topic selection as a structured search partner: it can generate and test candidate directions, map evidence, and expose neglected possibilities. The scholar must still define worthwhile objectives, judge novelty, and verify feasibility. Those functions are not incidental safeguards; they are where much of the original intellectual contribution remains.",
+        "synthesis": "The LACE results show that constrained decomposition and verification can make model-assisted search substantially more effective than direct prompting. MIT’s graduate-training perspective explains why problem formulation and auditing must remain formative human work, while the Nature commentary argues for staged exploration with explicit provenance rather than answer-first retrieval. The Retraction Watch case demonstrates what can happen when scalable generation outruns verification, and the Latent Space interview supplies a practitioner’s account of expert steering displacing enormous brute-force search. Together, these sources support using AI to expand and organize the possibility space while reserving problem choice, novelty assessment, and evidentiary judgment for the researcher. The podcast offers experience rather than controlled evidence, and its technology-focused publisher benefits from interest in agent systems; LACE’s authors also evaluated their own framework.",
+        "limitations": "The strongest quantitative result concerns combinatorial-optimization benchmarks, not open-ended dissertation topic selection. LACE used one shared model backbone, and its four new problems were designed by the authors. Evidence-centric search frameworks may improve traceability without establishing correctness or scholarly importance. Human judgment can also be conservative or biased, so retaining human control does not guarantee originality.",
+        "claims": [
+          {
+            "claim_id": "01-c1",
+            "statement": "On 36 combinatorial-optimization benchmark problems, LACE reported an average score of 0.945, compared with 0.870 for the strongest LLM-based baseline and 0.571 for direct prompting.",
+            "type": "reported_fact",
+            "evidence": [
+              {
+                "item_id": "feed:https://www.nature.com/articles/s42256-026-01307-8",
+                "version_id": "a8edb41bab842c42762b9465e81385cc5cef816c335cda09a5c0763467c732e2",
+                "locator": {
+                  "type": "text",
+                  "quote": "Across 36 classical CO-Bench problems, LACE attains an average score of 0.945, against 0.870 for the strongest existing LLM-based method and 0.571 for direct LLM prompting without any framework, locating the gain in the framework rather than the model."
+                }
+              }
+            ]
+          },
+          {
+            "claim_id": "01-c2",
+            "statement": "An MIT expert argues that delegating routine research work can remove experiences through which graduate students develop intuition and judgment.",
+            "type": "source_claim",
+            "evidence": [
+              {
+                "item_id": "feed:https://news.mit.edu/2026/3-questions-what-best-path-forward-ai-academia-0925",
+                "version_id": "10b8fcf0d90ad50055eda601d251cadc95ee09dfde1a272876d12c1ebf987a36",
+                "locator": {
+                  "type": "text",
+                  "quote": "Delegating this work can remove formative experiences, even as AI allows students to attempt more ambitious projects."
+                }
+              }
+            ]
+          },
+          {
+            "claim_id": "01-c3",
+            "statement": "A Nature commentary argues that scientific investigation benefits from staged search, an evolving evidence graph, and a revisable checklist rather than commitment after a single retrieval pass.",
+            "type": "source_claim",
+            "evidence": [
+              {
+                "item_id": "feed:https://www.nature.com/articles/s42256-026-01313-w",
+                "version_id": "6548965a8545c4158595a279a8eabc15cef849654a576502fae69c31600daa18",
+                "locator": {
+                  "type": "text",
+                  "quote": "DeepEvidence’s plan–act–observe–replan loop is a direct attempt to mirror the scientific reasoning process. It maintains an explicit, revisable checklist that gets updated as each subagent reports its findings, rather than committing to an answer after a single retrieval pass (Fig. 1)."
+                }
+              }
+            ]
+          },
+          {
+            "claim_id": "01-c4",
+            "statement": "A practitioner interview attributes distinctive academic research partly to choosing problems that are not optimized for the current interests of industry labs.",
+            "type": "source_claim",
+            "evidence": [
+              {
+                "item_id": "podcast:substack:post:218414422",
+                "version_id": "d004b24a9d7a37163bac6a8870c701f9a604053168678fe944543c6789aee856",
+                "locator": {
+                  "type": "segment",
+                  "segment_id": "tr-00101"
+                }
+              }
+            ]
+          },
+          {
+            "claim_id": "01-c5",
+            "statement": "Taken together, the evidence suggests that AI improves topic discovery when it expands and tests candidates inside explicit constraints, but originality still depends on human problem choice and verification because high-throughput generation can scale errors as well as ideas.",
+            "type": "inference",
+            "evidence": [
+              {
+                "item_id": "feed:https://www.nature.com/articles/s42256-026-01307-8",
+                "version_id": "a8edb41bab842c42762b9465e81385cc5cef816c335cda09a5c0763467c732e2",
+                "locator": {
+                  "type": "text",
+                  "quote": "Directly prompting large language models (LLMs) can generate executable code, but single-pass synthesis of complete heuristics routinely fails on new CO problems."
+                }
+              },
+              {
+                "item_id": "feed:https://news.mit.edu/2026/3-questions-what-best-path-forward-ai-academia-0925",
+                "version_id": "10b8fcf0d90ad50055eda601d251cadc95ee09dfde1a272876d12c1ebf987a36",
+                "locator": {
+                  "type": "text",
+                  "quote": "Students should learn to formulate problems, audit model outputs, reproduce results, and defend their choices."
+                }
+              },
+              {
+                "item_id": "podcast:substack:post:218414422",
+                "version_id": "d004b24a9d7a37163bac6a8870c701f9a604053168678fe944543c6789aee856",
+                "locator": {
+                  "type": "segment",
+                  "segment_id": "tr-00046"
+                }
+              },
+              {
+                "item_id": "feed:https://retractionwatch.com/?p=136176",
+                "version_id": "622e65f6c3a203ad8def113ed3d3b639da320b3b49f6ec92f96210e67e5a6e71",
+                "locator": {
+                  "type": "text",
+                  "quote": "The error invalidated an argument in one manuscript and the construction used by two dependent papers, according to the announcement."
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "piece_id": "02",
+        "title": "Replace one-shot drafting with a verified research pipeline",
+        "question": "Which workflow makes AI assistance efficient without weakening evidentiary rigor?",
+        "argument": "The defensible unit of AI assistance is not a generated passage or answer but a workflow with explicit inputs, tools, tests, provenance, and revision. Structured iteration can yield large efficiency gains, but every externally checkable claim, citation, computation, and dependency still needs verification against its underlying source or executable test.",
+        "synthesis": "LACE supplies quantitative evidence that a verified problem contract, tools, repair operators, and iterative selection outperform direct prompting. Retraction Watch supplies the counterexample: one sign error propagated across dependent manuscripts in a release where roughly half the results were unconfirmed. SciSpace’s reviewer recommends checking every DOI against the actual destination, while Periodic Labs describes preserving experimental lineage so models learn from the process rather than only final outputs. The cross-source lesson is that efficiency comes from making verification part of generation, not from postponing scrutiny until polished prose exists. SciSpace sells research software, and Periodic Labs is promoting a commercial scientific platform; their procedural advice is useful, but their product and capability claims are not independent validation.",
+        "limitations": "LACE evaluates algorithm construction rather than prose drafting, and the OpenAI manuscript episode is one unusually large release rather than an estimated base rate of AI-assisted error. The SciSpace webinar and Periodic interview provide practitioner guidance without controlled comparisons. Full verification can also be costly, and some scholarly judgments—such as whether evidence is relevant or a contribution is meaningful—cannot be reduced to mechanical checks.",
+        "claims": [
+          {
+            "claim_id": "02-c1",
+            "statement": "LACE’s modular, tool-supported framework produced feasible solutions much more reliably than the compared LLM methods on its benchmark.",
+            "type": "reported_fact",
+            "evidence": [
+              {
+                "item_id": "feed:https://www.nature.com/articles/s42256-026-01307-8",
+                "version_id": "a8edb41bab842c42762b9465e81385cc5cef816c335cda09a5c0763467c732e2",
+                "locator": {
+                  "type": "text",
+                  "quote": "Valid Rate score for LACE reaches 0.944, whereas no other LLM-based baselines exceed 0.611."
+                }
+              }
+            ]
+          },
+          {
+            "claim_id": "02-c2",
+            "statement": "OpenAI withdrew three AI-produced mathematics manuscripts after a sign error invalidated one argument and constructions used by two dependent papers; it also reported revisions to 14 other manuscripts.",
+            "type": "reported_fact",
+            "evidence": [
+              {
+                "item_id": "feed:https://retractionwatch.com/?p=136176",
+                "version_id": "622e65f6c3a203ad8def113ed3d3b639da320b3b49f6ec92f96210e67e5a6e71",
+                "locator": {
+                  "type": "text",
+                  "quote": "But on Oct. 7, OpenAI announced the withdrawal of three manuscripts because of a sign error. The error invalidated an argument in one manuscript and the construction used by two dependent papers, according to the announcement. Each of the withdrawn papers carry notices explaining “the gap,” and that OpenAI has “revised 14 other manuscripts with proof repairs, corrected statements, clearer hypotheses and dependencies, and one correction to an obsolete citation.”"
+                }
+              }
+            ]
+          },
+          {
+            "claim_id": "02-c3",
+            "statement": "A journal and grant reviewer advises researchers to check every AI-supplied DOI against the source it actually resolves to.",
+            "type": "source_claim",
+            "evidence": [
+              {
+                "item_id": "youtube:3sDQyUPl6yA",
+                "version_id": "ce3d5dcf23d4ce001c8947e7bb05a1950c0c0f3c6fc716abee50181f56cb776c",
+                "locator": {
+                  "type": "segment",
+                  "segment_id": "yt-00280"
+                }
+              },
+              {
+                "item_id": "youtube:3sDQyUPl6yA",
+                "version_id": "ce3d5dcf23d4ce001c8947e7bb05a1950c0c0f3c6fc716abee50181f56cb776c",
+                "locator": {
+                  "type": "segment",
+                  "segment_id": "yt-00281"
+                }
+              }
+            ]
+          },
+          {
+            "claim_id": "02-c4",
+            "statement": "Periodic Labs says it records conversations, intuitions, laboratory actions, computations, and code so models can be trained on the process of science rather than only its final output.",
+            "type": "source_claim",
+            "evidence": [
+              {
+                "item_id": "podcast:substack:post:219146438",
+                "version_id": "db4a66b056cf4b0e89a35259fafec0153ae8b1c13937dd02ce114e90fc168b2a",
+                "locator": {
+                  "type": "segment",
+                  "segment_id": "tr-00360"
+                }
+              },
+              {
+                "item_id": "podcast:substack:post:219146438",
+                "version_id": "db4a66b056cf4b0e89a35259fafec0153ae8b1c13937dd02ce114e90fc168b2a",
+                "locator": {
+                  "type": "segment",
+                  "segment_id": "tr-00361"
+                }
+              }
+            ]
+          },
+          {
+            "claim_id": "02-c5",
+            "statement": "Across algorithm design, mathematics publishing, citation checking, and experimental science, the evidence supports embedding tests and provenance into each iteration; polished output alone is an inadequate quality-control signal.",
+            "type": "inference",
+            "evidence": [
+              {
+                "item_id": "feed:https://www.nature.com/articles/s42256-026-01307-8",
+                "version_id": "a8edb41bab842c42762b9465e81385cc5cef816c335cda09a5c0763467c732e2",
+                "locator": {
+                  "type": "text",
+                  "quote": "Complementary evolution then iteratively generates and selects specialist heuristics capable of solving heterogeneous instances within strict runtime budgets."
+                }
+              },
+              {
+                "item_id": "feed:https://retractionwatch.com/?p=136176",
+                "version_id": "622e65f6c3a203ad8def113ed3d3b639da320b3b49f6ec92f96210e67e5a6e71",
+                "locator": {
+                  "type": "text",
+                  "quote": "The OpenAI spokesperson told us the company’s collaborators at the Advisory Group on Mathematics and Artificial Intelligence recommended releasing the results without waiting for “full formalization,” and that roughly 50% of the results were released unconfirmed."
+                }
+              },
+              {
+                "item_id": "youtube:3sDQyUPl6yA",
+                "version_id": "ce3d5dcf23d4ce001c8947e7bb05a1950c0c0f3c6fc716abee50181f56cb776c",
+                "locator": {
+                  "type": "segment",
+                  "segment_id": "yt-00280"
+                }
+              },
+              {
+                "item_id": "podcast:substack:post:219146438",
+                "version_id": "db4a66b056cf4b0e89a35259fafec0153ae8b1c13937dd02ce114e90fc168b2a",
+                "locator": {
+                  "type": "segment",
+                  "segment_id": "tr-00352"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "piece_id": "03",
+        "title": "Authorship after AI: responsibility cannot be delegated",
+        "question": "What must researchers personally own when AI contributes to reasoning, writing, or review?",
+        "argument": "Researchers may delegate search, drafting, coding, and candidate generation, but they cannot delegate epistemic responsibility. Responsible authorship requires being able to reproduce and defend the work, trace claims to evidence, distinguish a plausible derivation from an account of how a model actually operated, disclose material assistance under applicable policies, and correct or withdraw unsupported results.",
+        "synthesis": "Nature’s State over Tokens perspective shows why fluent reasoning text cannot serve as a faithful audit trail of a model’s process. MIT therefore frames evaluation around identifiable contribution and intellectual responsibility, while Retraction Watch documents the consequences of releasing unconfirmed work at scale. SciSpace adds the reviewer’s practical emphasis on source checking, and Periodic Labs illustrates a stronger alternative: preserve the lineage of decisions, computations, failures, and experiments. The inference is that authorship should be judged by demonstrable control over evidence and decisions, not by how much prose a person typed. OpenAI had a commercial and reputational interest in rapid frontier claims; SciSpace and Periodic Labs have commercial interests in AI-mediated research workflows. Those incentives warrant separating their useful procedural lessons from self-promotional performance claims.",
+        "limitations": "Reasoning-text unfaithfulness does not mean every displayed derivation is useless; it can still help a reader check individual steps. Nor does human authorship guarantee correctness. Disclosure requirements vary by journal and institution, and the supplied evidence does not establish a universal threshold for what degree of AI assistance must be reported. Detailed process logging can also conflict with privacy, confidential review, security, or proprietary-data obligations.",
+        "claims": [
+          {
+            "claim_id": "03-c1",
+            "statement": "The State over Tokens perspective concludes that model reasoning text may form a plausible derivation while failing to faithfully explain the process that produced the answer.",
+            "type": "source_claim",
+            "evidence": [
+              {
+                "item_id": "feed:https://www.nature.com/articles/s42256-026-01303-y",
+                "version_id": "5e622da022fbd1533b88b57c7dc8678a81e8c349688c357a814a58288211a235",
+                "locator": {
+                  "type": "text",
+                  "quote": "However, while this may count as an explanation of the answer, it is not an explanation of the model, and in particular it does not explain the process by which the model reached the answer."
+                }
+              }
+            ]
+          },
+          {
+            "claim_id": "03-c2",
+            "statement": "MIT’s Rakhlin argues that academic evaluation should identify what a researcher contributed and accepts intellectual responsibility for, including work substantially performed by AI.",
+            "type": "source_claim",
+            "evidence": [
+              {
+                "item_id": "feed:https://news.mit.edu/2026/3-questions-what-best-path-forward-ai-academia-0925",
+                "version_id": "10b8fcf0d90ad50055eda601d251cadc95ee09dfde1a272876d12c1ebf987a36",
+                "locator": {
+                  "type": "text",
+                  "quote": "More broadly, evaluation should establish what a researcher contributed and takes intellectual responsibility for, including when substantial parts of the work were performed by AI."
+                }
+              }
+            ]
+          },
+          {
+            "claim_id": "03-c3",
+            "statement": "OpenAI reported that roughly half of the mathematics results in its mass release were unconfirmed, after errors prompted withdrawals and corrections.",
+            "type": "reported_fact",
+            "evidence": [
+              {
+                "item_id": "feed:https://retractionwatch.com/?p=136176",
+                "version_id": "622e65f6c3a203ad8def113ed3d3b639da320b3b49f6ec92f96210e67e5a6e71",
+                "locator": {
+                  "type": "text",
+                  "quote": "The OpenAI spokesperson told us the company’s collaborators at the Advisory Group on Mathematics and Artificial Intelligence recommended releasing the results without waiting for “full formalization,” and that roughly 50% of the results were released unconfirmed."
+                }
+              }
+            ]
+          },
+          {
+            "claim_id": "03-c4",
+            "statement": "A reviewer’s practitioner guidance says AI should help produce good research rather than merely increase research volume.",
+            "type": "source_claim",
+            "evidence": [
+              {
+                "item_id": "youtube:3sDQyUPl6yA",
+                "version_id": "ce3d5dcf23d4ce001c8947e7bb05a1950c0c0f3c6fc716abee50181f56cb776c",
+                "locator": {
+                  "type": "segment",
+                  "segment_id": "yt-00097"
+                }
+              },
+              {
+                "item_id": "youtube:3sDQyUPl6yA",
+                "version_id": "ce3d5dcf23d4ce001c8947e7bb05a1950c0c0f3c6fc716abee50181f56cb776c",
+                "locator": {
+                  "type": "segment",
+                  "segment_id": "yt-00098"
+                }
+              }
+            ]
+          },
+          {
+            "claim_id": "03-c5",
+            "statement": "The combined evidence implies that responsible AI-assisted authorship requires auditable evidence and decision lineage, because neither fluent rationales nor polished manuscripts demonstrate faithful reasoning, verification, or an identifiable human contribution.",
+            "type": "inference",
+            "evidence": [
+              {
+                "item_id": "feed:https://www.nature.com/articles/s42256-026-01303-y",
+                "version_id": "5e622da022fbd1533b88b57c7dc8678a81e8c349688c357a814a58288211a235",
+                "locator": {
+                  "type": "text",
+                  "quote": "The peril lies in what we call the trust-calibration problem: the risk that plausibility can increase trust without justifying it, fostering over-reliance on model outputs."
+                }
+              },
+              {
+                "item_id": "feed:https://news.mit.edu/2026/3-questions-what-best-path-forward-ai-academia-0925",
+                "version_id": "10b8fcf0d90ad50055eda601d251cadc95ee09dfde1a272876d12c1ebf987a36",
+                "locator": {
+                  "type": "text",
+                  "quote": "In a growing number of fields, a polished paper is becoming a weaker signal of individual expertise."
+                }
+              },
+              {
+                "item_id": "feed:https://retractionwatch.com/?p=136176",
+                "version_id": "622e65f6c3a203ad8def113ed3d3b639da320b3b49f6ec92f96210e67e5a6e71",
+                "locator": {
+                  "type": "text",
+                  "quote": "Less than 24 hours after OpenAI posted over 700 preprints describing major math results by an internal AI model, the company has withdrawn three of the manuscripts for errors."
+                }
+              },
+              {
+                "item_id": "podcast:substack:post:219146438",
+                "version_id": "db4a66b056cf4b0e89a35259fafec0153ae8b1c13937dd02ce114e90fc168b2a",
+                "locator": {
+                  "type": "segment",
+                  "segment_id": "tr-00360"
+                }
+              },
+              {
+                "item_id": "youtube:3sDQyUPl6yA",
+                "version_id": "ce3d5dcf23d4ce001c8947e7bb05a1950c0c0f3c6fc716abee50181f56cb776c",
+                "locator": {
+                  "type": "segment",
+                  "segment_id": "yt-00338"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "evidence_metadata": [
+      {
+        "item_id": "feed:https://news.mit.edu/2026/3-questions-what-best-path-forward-ai-academia-0925",
+        "version_id": "10b8fcf0d90ad50055eda601d251cadc95ee09dfde1a272876d12c1ebf987a36",
+        "kind": "feed",
+        "title": "3 Questions: What is the best path forward for AI in academia?",
+        "url": "https://news.mit.edu/2026/3-questions-what-best-path-forward-ai-academia-0925",
+        "publisher_id": "mit",
+        "published_at": "2026-10-08T21:25:00Z",
+        "segments": null,
+        "text_excerpts": [
+          "aluation should establish what a researcher contributed and takes intellectual responsibility for, including when substantial parts of the work were performed by AI. These expectations should guide hiring, promotion, and funding — and be made explicit for current and incoming PhD students.\nTraining poses a harder problem. Intellectual muscles develop through exercise. Routine calculations, coding, failed approaches, and small discoveries have long helped students acquire intuition and judgment. Delegating this work can remove formative experiences, even as AI allows students to attempt more ambitious projects. We need to distinguish unnecessary friction from work through which expertise develops. Students should learn to formulate problems, audit model outputs, reproduce results, and defend their choices. Fundamentals may become more valuable as the basis for using these tools well.\nQ: What should MIT and other universities build now?\nA: This is where I see a real opportunity for universities. Let's first be clear about the goal: Universities should be able to pursue questions over long horizons, sha",
+          "promotion, and funding — and be made explicit for current and incoming PhD students.\nTraining poses a harder problem. Intellectual muscles develop through exercise. Routine calculations, coding, failed approaches, and small discoveries have long helped students acquire intuition and judgment. Delegating this work can remove formative experiences, even as AI allows students to attempt more ambitious projects. We need to distinguish unnecessary friction from work through which expertise develops. Students should learn to formulate problems, audit model outputs, reproduce results, and defend their choices. Fundamentals may become more valuable as the basis for using these tools well.\nQ: What should MIT and other universities build now?\nA: This is where I see a real opportunity for universities. Let's first be clear about the goal: Universities should be able to pursue questions over long horizons, share results openly, and evaluate claims independently. Partnerships with industry will be essential, but we should not assume that commercial priorities will cover the breadth of science or remain ali",
+          "in many, perhaps most, aspects of our intellectual work.\nQ: How should departments rethink academic credit and graduate training?\nA: In a growing number of fields, a polished paper is becoming a weaker signal of individual expertise. Departments must begin now to reconsider what they reward, without simply defining valuable work as whatever AI cannot yet do. Asking good questions, replication, synthesis of ideas, informative negative results, and shared datasets may deserve greater recognition. More broadly, evaluation should establish what a researcher contributed and takes intellectual responsibility for, including when substantial parts of the work were performed by AI. These expectations should guide hiring, promotion, and funding — and be made explicit for current and incoming PhD students.\nTraining poses a harder problem. Intellectual muscles develop through exercise. Routine calculations, coding, failed approaches, and small discoveries have long helped students acquire intuition and judgment. Delegating this work can remove formative experiences, even as AI allows students to attempt more ambitious projects. We need to distinguish unnecessary friction fro",
+          "al demands previously put them out of reach. It also sharpens the distinction between obtaining a solution and understanding why it works, what generalizes, and what to ask next. However, we should not assume that abstraction, judgment, or problem formulation will remain beyond AI. Universities should prepare for a near future in which AI is smarter than all of us in many, perhaps most, aspects of our intellectual work.\nQ: How should departments rethink academic credit and graduate training?\nA: In a growing number of fields, a polished paper is becoming a weaker signal of individual expertise. Departments must begin now to reconsider what they reward, without simply defining valuable work as whatever AI cannot yet do. Asking good questions, replication, synthesis of ideas, informative negative results, and shared datasets may deserve greater recognition. More broadly, evaluation should establish what a researcher contributed and takes intellectual responsibility for, including when substantial parts of the work were performed by AI. These expectations should guide hiring, promotion, "
+        ]
+      },
+      {
+        "item_id": "feed:https://retractionwatch.com/?p=136176",
+        "version_id": "622e65f6c3a203ad8def113ed3d3b639da320b3b49f6ec92f96210e67e5a6e71",
+        "kind": "feed",
+        "title": "OpenAI withdraws three preprints a day after releasing 722 manuscripts on unsolved math problems",
+        "url": "https://retractionwatch.com/2026/10/08/openai-withdraws-preprints-722-manuscripts-unsolved-math-problems",
+        "publisher_id": "retraction-watch",
+        "published_at": "2026-10-08T22:20:59Z",
+        "segments": null,
+        "text_excerpts": [
+          " math results by an internal AI model, the company has withdrawn three of the manuscripts for errors.\nOn Oct. 6, OpenAI published 722 preprints in a GitHub repository about purported progress in solving 372 math problems in geometry, computer science, algebra and other subjects. The company called the release an effort “to push the frontier of human knowledge and enable further progress in mathematics.”\nBut on Oct. 7, OpenAI announced the withdrawal of three manuscripts because of a sign error. The error invalidated an argument in one manuscript and the construction used by two dependent papers, according to the announcement. Each of the withdrawn papers carry notices explaining “the gap,” and that OpenAI has “revised 14 other manuscripts with proof repairs, corrected statements, clearer hypotheses and dependencies, and one correction to an obsolete citation.”\nThat an error cascaded into three of the OpenAI manuscripts is not surprising, said Alex Townsend, an associate professor of mathematics at Cornell University in Ithaca. He suspects there will be more errors found, he said.\n“Given the skepticism of AI in the m",
+          "Less than 24 hours after OpenAI posted over 700 preprints describing major math results by an internal AI model, the company has withdrawn three of the manuscripts for errors.\nOn Oct. 6, OpenAI published 722 preprints in a GitHub repository about purported progress in solving 372 math problems in geometry, computer science, algebra and other subjects. The company called the release an effort “to push the frontier of human knowledge and enable further progress in mathematics.”\nBut on Oct. 7, OpenAI announced the withdrawal of three manuscripts because of a sign error. The error invalidated an argument in one manuscript and the construction used by two dependent papers, according to the announcement. Each of the withdrawn papers carry notices explaining “the gap,” and that OpenAI has “revised 14 other manuscripts with proof repairs, corrected statements, clearer hypotheses and dependencies, and one correction to an obsolete citation.”\nThat an error cascaded into three of the OpenAI manuscripts is not surprising, said Alex Townsend, an associate professor of mathematics at Cornell University in Ithaca. He suspects there will be more errors found, he said.\n“Given the skepticism of AI in the mathematics community, I think that OpenAI should have announced the manuscripts that were lean verified first,” Townsend told us, referring to Lean, the open-source programming language that checks math proofs. “They could have made a sepa",
+          "ematical community,” the spokesperson told us “Where errors are identified, we will work to correct them promptly and withdraw papers if no fixes can be found. We want to give the community time and space to assess the work, and we’re continuing to improve the clarity and presentation of future papers.”\nIn a post on X, Dan Roberts, a research lead for the company, announced the withdrawals and wrote OpenAI will “continue to update the repo with new formalizations and with any errata we notice.”\nThe OpenAI spokesperson told us the company’s collaborators at the Advisory Group on Mathematics and Artificial Intelligence recommended releasing the results without waiting for “full formalization,” and that roughly 50% of the results were released unconfirmed. \n“We hope to learn from feedback on this release and work with the AGMAI to understand if they have updated recommendations for release protocol moving forward,” the spokesperson said in an email. “Our intent is to follow their protocol as best we can.”\nAndrew Sutherland, a senior research scientist in the department of mathematics at the Massachusetts Institute of Technology, said he appreciated OpenAI acting quickly after finding the errors, calling it “the responsible thing to do.”\nHowever, ",
+          "ematical community,” the spokesperson told us “Where errors are identified, we will work to correct them promptly and withdraw papers if no fixes can be found. We want to give the community time and space to assess the work, and we’re continuing to improve the clarity and presentation of future papers.”\nIn a post on X, Dan Roberts, a research lead for the company, announced the withdrawals and wrote OpenAI will “continue to update the repo with new formalizations and with any errata we notice.”\nThe OpenAI spokesperson told us the company’s collaborators at the Advisory Group on Mathematics and Artificial Intelligence recommended releasing the results without waiting for “full formalization,” and that roughly 50% of the results were released unconfirmed. \n“We hope to learn from feedback on this release and work with the AGMAI to understand if they have updated recommendations for release protocol moving forward,” the spokesperson said in an email. “Our intent is to follow their protocol as best we can.”\nAndrew Sutherland, a senior research scientist in the department of mathematics at the Massachusetts Institute of Technology, said he appreciated OpenAI acting quickly after finding the errors, calling it “the responsible thing to do.”\nHowever, ",
+          "Less than 24 hours after OpenAI posted over 700 preprints describing major math results by an internal AI model, the company has withdrawn three of the manuscripts for errors.\nOn Oct. 6, OpenAI published 722 preprints in a GitHub repository about purported progress in solving 372 math problems in geometry, computer science, algebra and other subjects. The company called the release an effort “to push the frontier of human knowledge and enable further progress in mathematics.”\nBut on Oct. 7, OpenAI announced the withdrawal of three manuscripts because of a sign error. The error invalidated an argument in one manuscript and the construction used by two dependent papers"
+        ]
+      },
+      {
+        "item_id": "feed:https://www.nature.com/articles/s42256-026-01303-y",
+        "version_id": "5e622da022fbd1533b88b57c7dc8678a81e8c349688c357a814a58288211a235",
+        "kind": "feed",
+        "title": "Characterizing the role of reasoning tokens in large language models as state over tokens",
+        "url": "https://www.nature.com/articles/s42256-026-01303-y",
+        "publisher_id": "nature",
+        "published_at": "2026-10-07T00:00:00Z",
+        "segments": null,
+        "text_excerpts": [
+          "es the accuracy of the final answer3,15,19. This distinction is especially pronounced in models trained with methods that do not subject the reasoning tokens to specific constraints as long as they serve the final prediction4,22.\nPlausibility without faithfulness\nThe reasoning text often reads like a logical derivation of the final answer. As Perrier7 notes, it can correspond to an explanation according to some deductive proof system, representing a sequence of steps that leads to a conclusion. However, while this may count as an explanation of the answer, it is not an explanation of the model, and in particular it does not explain the process by which the model reached the answer.\nExplanations are central to building trust in artificial intelligence models20,21. By explanation, we mean a description, at some useful level of abstraction, of a process by which the input can be transformed into the given output, identifying which factors were responsible for this output rather than another and allowing the user to anticipate how the output would change under counterfactual inputs23,24. We take this causal, counterfactual-supporting notion of explanation as our working defin",
+          "ning text30.\nSemantic mismatch between LLM and reader\nThe semantic content of the reasoning text can be meaningless or misleading from a human perspective. Some studies have found that LLMs can disregard specific details in the text they generate31,32,33. Other work has shown that LLMs can be trained to produce irrelevant reasoning text and still provide accurate final answers34,35,36. This also leads to the failure to identify causal relations in the generation process of the reasoning text37.\nThe peril lies in what we call the trust-calibration problem: the risk that plausibility can increase trust without justifying it, fostering over-reliance on model outputs. When reasoning text mimics systematic deliberation that includes certain factors that the users consider critical, this may lead them to place unwarranted trust in the model38,39.\nWhat can be said on reasoning tokens\nFollowing this growing body of evidence and the practical risks it highlights, some have already argued that we should not treat reasoning text as a faithful explanation of the model’s reasoning process40,41,42,43,44. However, we believe that we need to characterize the role of rea"
+        ]
+      },
+      {
+        "item_id": "feed:https://www.nature.com/articles/s42256-026-01307-8",
+        "version_id": "a8edb41bab842c42762b9465e81385cc5cef816c335cda09a5c0763467c732e2",
+        "kind": "feed",
+        "title": "Large language models discover complementary heuristics for combinatorial optimization",
+        "url": "https://www.nature.com/articles/s42256-026-01307-8",
+        "publisher_id": "nature",
+        "published_at": "2026-10-01T00:00:00Z",
+        "segments": null,
+        "text_excerpts": [
+          "mathcal{I}}\\)–\\({\\mathcal{O}}\\)\\({\\mathcal{T}}\\)\\({\\mathcal{H}}\\) interface) and refines the portfolio through time-constrained complementary evolution. The interface specifies a verified problem contract under which the LLM operates, directing model capacity to high-level algorithmic reasoning rather than problem-specific implementation. Complementary evolution then iteratively generates and selects specialist heuristics capable of solving heterogeneous instances within strict runtime budgets. Across 36 classical CO-Bench problems, LACE attains an average score of 0.945, against 0.870 for the strongest existing LLM-based method and 0.571 for direct LLM prompting without any framework, locating the gain in the framework rather than the model. On four structurally new problems, LACE reaches 0.97–0.99, while five existing LLM-based baselines fail to produce any feasible algorithm. These results demonstrate that effective algorithm discovery for such problems can be automated to a substantial degree.\nSimilar content being viewed by others\nMain\nArtificial intelligence (AI) has rapidly expanded its scientific and technological reach, transforming domains from molecular biology1,2 and mathematical reasoning3,4 to reinforcement learning al",
+          "Abstract\nCombinatorial optimization (CO) underpins decision-making across science, engineering and industry, especially manufacturing, logistics, healthcare operations and energy management. However, designing effective heuristics for each new problem variant requires deep domain knowledge and months of expert iteration. Directly prompting large language models (LLMs) can generate executable code, but single-pass synthesis of complete heuristics routinely fails on new CO problems. Here we introduce LLM-driven Algorithm Construction via Complementary Evolution (LACE), a framework that decomposes algorithm design into an input schema, output schema, tool library and heuristic portfolio (the \\({\\mathcal{I}}\\)–\\({\\mathcal{O}}\\)\\({\\mathcal{T}}\\)\\({\\mathcal{H}}\\) interface) and refines the portfolio through time-constrained complementary evolution. The interface specifies a verified problem contract under which the LLM operates, directing model capacity to high-level algorithm",
+          "ction and knapsack. Methods are scored under CO-Bench’s protocol on three metrics—Avg Score (a primal-gap-style normalized quality score), Valid Rate (the fraction of problems on which the generated heuristic algorithm yields feasible solutions on every test instance) and Survival Rate (the fraction of test instances reaching at least 99% of the best-known objective)—with all LLM-based methods sharing OpenAI o3 Mini as the backbone for fair comparison.\nLACE leads on all three metrics (Fig. 2a). Valid Rate score for LACE reaches 0.944, whereas no other LLM-based baselines exceed 0.611. This means that these methods produce infeasible solutions on at least one test instance for nearly 40% of CO-Bench problems, whereas LACE delivers heuristic algorithms with full feasibility on essentially every problem. Avg Score for LACE reaches 0.945, exceeding the strongest LLM-based baseline (0.870) and the classical solver suite (0.797); the bare-LLM baseline, in which OpenAI o3 Mini is prompted to produce a heuristic algorithm directly without any framework, achieves only 0.571, demonstr",
+          "omplementary Evolution (LACE), a framework that decomposes algorithm design into an input schema, output schema, tool library and heuristic portfolio (the \\({\\mathcal{I}}\\)–\\({\\mathcal{O}}\\)\\({\\mathcal{T}}\\)\\({\\mathcal{H}}\\) interface) and refines the portfolio through time-constrained complementary evolution. The interface specifies a verified problem contract under which the LLM operates, directing model capacity to high-level algorithmic reasoning rather than problem-specific implementation. Complementary evolution then iteratively generates and selects specialist heuristics capable of solving heterogeneous instances within strict runtime budgets. Across 36 classical CO-Bench problems, LACE attains an average score of 0.945, against 0.870 for the strongest existing LLM-based method and 0.571 for direct LLM prompting without any framework, locating the gain in the framework rather than the model. On four structurally new problems, LACE reaches 0.97–0.99, while five existing LLM-based baselines fail to produce any feasible algorithm. These results demonstrate that effective algorithm discovery for such problems can be automated to a substa"
+        ]
+      },
+      {
+        "item_id": "feed:https://www.nature.com/articles/s42256-026-01313-w",
+        "version_id": "6548965a8545c4158595a279a8eabc15cef849654a576502fae69c31600daa18",
+        "kind": "feed",
+        "title": "Shifting from knowledge retrieval to evidence exploration and synthesis",
+        "url": "https://www.nature.com/articles/s42256-026-01313-w",
+        "publisher_id": "nature",
+        "published_at": "2026-10-01T00:00:00Z",
+        "segments": null,
+        "text_excerpts": [
+          " exploration recursively follows mechanistic and citation links to investigate promising directions in greater detail. Throughout this process, the system continuously constructs an evidence graph that records entities, relationships, observations and provenance, providing a structured memory of the investigation rather than relying entirely on the language model’s internal context window. It shows that informed, staged search beats undirected exploration in large heterogeneous knowledge bases. DeepEvidence’s plan–act–observe–replan loop is a direct attempt to mirror the scientific reasoning process. It maintains an explicit, revisable checklist that gets updated as each subagent reports its findings, rather than committing to an answer after a single retrieval pass (Fig. 1).\nAlthough evidence graphs and knowledge graphs are well established within biomedical informatics, their role in the work by Wang et al.1 is different. Namely, the evidence graph functions as an evolving external representation of the research process itself. This distinction is subtle but important. Existing graph-based systems generally assume that knowledge has already been organized into a unified graph before reasoning begins. However, biomedical knowledge is fragmented across publications,"
+        ]
+      },
+      {
+        "item_id": "podcast:substack:post:218414422",
+        "version_id": "d004b24a9d7a37163bac6a8870c701f9a604053168678fe944543c6789aee856",
+        "kind": "podcast",
+        "title": "Academia is for Ambition — Alex Zhang, MIT",
+        "url": "https://www.latent.space/p/rlm",
+        "publisher_id": "latent-space",
+        "published_at": "2026-10-02T00:28:04Z",
+        "segments": [
+          {
+            "segment_id": "tr-00045",
+            "start_seconds": 417.64,
+            "end_seconds": 425.38,
+            "text": "I mean, these companies still hire mathematicians like to do, whether it be like data labeling work or, or even just like steering the models to solve problems."
+          },
+          {
+            "segment_id": "tr-00046",
+            "start_seconds": 425.54,
+            "end_seconds": 431.74,
+            "text": "Like there is still a lot of alpha and being like knowledgeable in these things. So."
+          },
+          {
+            "segment_id": "tr-00047",
+            "start_seconds": 431.84,
+            "end_seconds": 440.96,
+            "text": "Is it just knowledge or is it also, there's just more planning and is there an emergent style of planning that works better?"
+          },
+          {
+            "segment_id": "tr-00100",
+            "start_seconds": 926.58,
+            "end_seconds": 934.94,
+            "text": "or like in academia comes when people care about problems that maybe like most people in industry are not looking at."
+          },
+          {
+            "segment_id": "tr-00101",
+            "start_seconds": 935.08,
+            "end_seconds": 942.36,
+            "text": "I think this is the issue that like a lot of grad students work on things that benefit, like that look good to an industry lab."
+          },
+          {
+            "segment_id": "tr-00102",
+            "start_seconds": 942.48,
+            "end_seconds": 951.06,
+            "text": "Like for example, they'll work on some, like some benchmark. It's really popular now. I mean, I think benchmarks in 2023 were a very different story than benchmarks."
+          }
+        ],
+        "text_excerpts": null
+      },
+      {
+        "item_id": "podcast:substack:post:219146438",
+        "version_id": "db4a66b056cf4b0e89a35259fafec0153ae8b1c13937dd02ce114e90fc168b2a",
+        "kind": "podcast",
+        "title": "Synthesis Superintelligence: from Semiconductors to Superconductors — Periodic Labs’ Liam Fedus and Ekin Dogus Cubuk",
+        "url": "https://www.latent.space/p/periodic",
+        "publisher_id": "latent-space",
+        "published_at": "2026-10-08T16:27:54Z",
+        "segments": [
+          {
+            "segment_id": "tr-00351",
+            "start_seconds": 3397.58,
+            "end_seconds": 3409.72,
+            "text": "think it really helps us when we do our own experiments and get negative results in the context of what we tried so then we can even train a classification algorithm I think there's also like another valid thing too of when"
+          },
+          {
+            "segment_id": "tr-00352",
+            "start_seconds": 3409.72,
+            "end_seconds": 3422.04,
+            "text": "you have this sort of string of negative results results and then finally through process iteration you're able to get to that positive result it's a really interesting set of I'll call it like process engineering type"
+          },
+          {
+            "segment_id": "tr-00353",
+            "start_seconds": 3422.04,
+            "end_seconds": 3434.1,
+            "text": "data so it's like through iteration how did you actually get to that correct result because so much of material science has this ambiguity and actually how something was"
+          },
+          {
+            "segment_id": "tr-00359",
+            "start_seconds": 3494.46,
+            "end_seconds": 3506.52,
+            "text": "this type of data basically doesn't exist anywhere else and we spend so much of our time getting the full lineage of the scientific process into the model and so like tracking all this data like"
+          },
+          {
+            "segment_id": "tr-00360",
+            "start_seconds": 3506.52,
+            "end_seconds": 3519.0,
+            "text": "the conversations the intuitions what was executed in the lab or the computations run where was the code written stitching all this together is so valuable and I think the overall goal is rather"
+          },
+          {
+            "segment_id": "tr-00361",
+            "start_seconds": 3519.0,
+            "end_seconds": 3531.38,
+            "text": "than training on the final output of science you're training on the process of doing science this feels very much like what you would try to do with RSI where you are having a model trained to train better models"
+          },
+          {
+            "segment_id": "tr-00362",
+            "start_seconds": 3531.38,
+            "end_seconds": 3543.5,
+            "text": "you're now having a model trained to make better experiments but the difference is it's not going back into the core model for so it's unless the physics models you're developing are improving"
+          }
+        ],
+        "text_excerpts": null
+      },
+      {
+        "item_id": "youtube:3sDQyUPl6yA",
+        "version_id": "ce3d5dcf23d4ce001c8947e7bb05a1950c0c0f3c6fc716abee50181f56cb776c",
+        "kind": "youtube",
+        "title": "AI in Academic Writing: Red Flags Journal Reviewers Notice | SciSpace",
+        "url": "https://www.youtube.com/watch?v=3sDQyUPl6yA",
+        "publisher_id": "scispace",
+        "published_at": "2026-10-04T00:00:00Z",
+        "segments": [
+          {
+            "segment_id": "yt-00096",
+            "start_seconds": 229.84,
+            "end_seconds": 234.959,
+            "text": "really something to be thinking about is"
+          },
+          {
+            "segment_id": "yt-00097",
+            "start_seconds": 231.92,
+            "end_seconds": 239.92,
+            "text": "AI should be a tool to help me make good"
+          },
+          {
+            "segment_id": "yt-00098",
+            "start_seconds": 234.959,
+            "end_seconds": 242.56,
+            "text": "research not lots of research."
+          },
+          {
+            "segment_id": "yt-00099",
+            "start_seconds": 239.92,
+            "end_seconds": 244.72,
+            "text": "Okay."
+          },
+          {
+            "segment_id": "yt-00279",
+            "start_seconds": 709.92,
+            "end_seconds": 713.519,
+            "text": "you have produced something that has"
+          },
+          {
+            "segment_id": "yt-00280",
+            "start_seconds": 710.959,
+            "end_seconds": 717.04,
+            "text": "DOIs, check every single one to make"
+          },
+          {
+            "segment_id": "yt-00281",
+            "start_seconds": 713.519,
+            "end_seconds": 719.68,
+            "text": "sure that they link off to the actual"
+          },
+          {
+            "segment_id": "yt-00282",
+            "start_seconds": 717.04,
+            "end_seconds": 723.519,
+            "text": "thing they should. So DOI digital object"
+          },
+          {
+            "segment_id": "yt-00337",
+            "start_seconds": 872.399,
+            "end_seconds": 878.24,
+            "text": "who are doing a PhD, is that you are"
+          },
+          {
+            "segment_id": "yt-00338",
+            "start_seconds": 875.199,
+            "end_seconds": 880.959,
+            "text": "becoming the subject expert. You should"
+          },
+          {
+            "segment_id": "yt-00339",
+            "start_seconds": 878.24,
+            "end_seconds": 883.6,
+            "text": "be able to write and know more and be"
+          }
+        ],
+        "text_excerpts": null
+      }
+    ]
+  }
+}

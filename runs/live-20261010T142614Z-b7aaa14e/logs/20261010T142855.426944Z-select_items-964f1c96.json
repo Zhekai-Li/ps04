@@ -1,0 +1,30 @@
+{
+  "stage": "select_items",
+  "status": "completed",
+  "input_count": 46,
+  "output_count": 46,
+  "started_at": "2026-10-10T14:27:03Z",
+  "finished_at": "2026-10-10T14:28:55Z",
+  "elapsed_seconds": 112.0,
+  "tools": [
+    "codex-cli"
+  ],
+  "models": [
+    "gpt-5.6-sol"
+  ],
+  "usage": {
+    "input_tokens": 256582,
+    "cached_input_tokens": 0,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 7416,
+    "reasoning_output_tokens": 2493
+  },
+  "cost_usd": null,
+  "cost_estimated": false,
+  "errors": [],
+  "details": {
+    "billing_mode": "chatgpt_plan",
+    "response_id": "01a12635-d116-76d1-896b-39db272a5020",
+    "audit_path": "model_calls/20261010T142703Z-select_items-37ad7178"
+  }
+}

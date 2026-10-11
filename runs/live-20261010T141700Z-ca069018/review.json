@@ -1,0 +1,55 @@
+{
+  "review_id": "f84050730bf7f3629498019accca8b42089c92e5720fa15fb42156a4f78207d2",
+  "passed": true,
+  "issues": [
+    {
+      "artifact": "runs/live-20261010T141700Z-ca069018/articles/02.md",
+      "severity": "warning",
+      "message": "approximately 928 words; target is 600–900 excluding references"
+    },
+    {
+      "artifact": "runs/live-20261010T141700Z-ca069018/articles/03.md",
+      "severity": "warning",
+      "message": "approximately 929 words; target is 600–900 excluding references"
+    },
+    {
+      "artifact": "runs/live-20261010T141700Z-ca069018/video_scripts/02.md",
+      "severity": "warning",
+      "message": "approximately 804 words; expected 3–5 minutes at 130–150 wpm"
+    },
+    {
+      "artifact": "runs/live-20261010T141700Z-ca069018/video_scripts/03.md",
+      "severity": "warning",
+      "message": "approximately 826 words; expected 3–5 minutes at 130–150 wpm"
+    },
+    {
+      "artifact": "human_review",
+      "severity": "warning",
+      "message": "A machine check cannot establish sound interpretation; Zhekai Li must review the evidence, corrections, and final prose before approval."
+    }
+  ],
+  "metrics": {
+    "distinct_eligible_items": 46,
+    "independent_publishers": 10,
+    "eligible_by_kind": {
+      "feed": 24,
+      "podcast": 7,
+      "youtube": 15
+    },
+    "cited_kinds": [
+      "feed",
+      "podcast",
+      "youtube"
+    ],
+    "article_word_counts": {
+      "01": 872,
+      "02": 928,
+      "03": 929
+    },
+    "video_script_word_counts": {
+      "01": 734,
+      "02": 804,
+      "03": 826
+    }
+  }
+}

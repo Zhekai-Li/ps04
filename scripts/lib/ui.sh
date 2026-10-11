@@ -15,37 +15,60 @@ ps04_ui_init() {
   fi
 }
 
+ps04_log() {
+  [[ -z ${PS04_PROGRESS_LOG:-} ]] && return
+  printf '%s\n' "$1" >> "$PS04_PROGRESS_LOG"
+}
+
+ps04_truncate() {
+  local value=$1
+  local width=${COLUMNS:-100}
+  local limit=$((width - 16))
+  (( limit < 30 )) && limit=30
+  if (( ${#value} > limit )); then printf '%s…' "${value:0:limit-1}"; else printf '%s' "$value"; fi
+}
+
 ps04_banner() {
   [[ ${PS04_PROGRESS:-1} == 0 ]] && return
   printf '\n%s%s┏━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┓%s\n' "$PS04_BOLD" "$PS04_BLUE" "$PS04_RESET" >&2
   printf '%s%s┃  %-50s┃%s\n' "$PS04_BOLD" "$PS04_BLUE" "$1" "$PS04_RESET" >&2
   printf '%s%s┗━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━┛%s\n' "$PS04_BOLD" "$PS04_BLUE" "$PS04_RESET" >&2
+  ps04_log "$1"
 }
 
 ps04_step() {
   [[ ${PS04_PROGRESS:-1} == 0 ]] && return
-  printf '\n%s%s[%s/%s]%s %s%s%s\n' "$PS04_BOLD" "$PS04_BLUE" "$1" "$2" "$PS04_RESET" "$PS04_BOLD" "$3" "$PS04_RESET" >&2
-  [[ -n ${4:-} ]] && printf '      %s%s%s\n' "$PS04_DIM" "$4" "$PS04_RESET" >&2
+  local short_title short_detail
+  short_title=$(ps04_truncate "$3")
+  short_detail=$(ps04_truncate "${4:-}")
+  printf '\n%s%s[%s/%s]%s %s%s%s\n' "$PS04_BOLD" "$PS04_BLUE" "$1" "$2" "$PS04_RESET" "$PS04_BOLD" "$short_title" "$PS04_RESET" >&2
+  [[ -n ${4:-} ]] && printf '      %s%s%s\n' "$PS04_DIM" "$short_detail" "$PS04_RESET" >&2
+  ps04_log "[$1/$2] $3"
+  [[ -n ${4:-} ]] && ps04_log "      $4"
 }
 
 ps04_info() {
   [[ ${PS04_PROGRESS:-1} == 0 ]] && return
   printf '      %s→%s %s\n' "$PS04_BLUE" "$PS04_RESET" "$1" >&2
+  ps04_log "      → $1"
 }
 
 ps04_ok() {
   [[ ${PS04_PROGRESS:-1} == 0 ]] && return
   printf '      %s✓%s %s\n' "$PS04_GREEN" "$PS04_RESET" "$1" >&2
+  ps04_log "      ✓ $1"
 }
 
 ps04_warn() {
   [[ ${PS04_PROGRESS:-1} == 0 ]] && return
   printf '      %s!%s %s\n' "$PS04_YELLOW" "$PS04_RESET" "$1" >&2
+  ps04_log "      ! $1"
 }
 
 ps04_fail() {
   [[ ${PS04_PROGRESS:-1} == 0 ]] && return
   printf '      %s✗%s %s\n' "$PS04_RED" "$PS04_RESET" "$1" >&2
+  ps04_log "      ✗ $1"
 }
 
 ps04_file_count() {

@@ -1,0 +1,123 @@
+Therapy's biggest impact doesn't show up in some dramatic breakthrough It shows up in the smallest moments You bite your tongue instead of escalating You put your phone down instead of firing off that text You
+say what you actually mean instead of what would hurt someone else the most Nobody applauds those moments but they quietly change your life That's what growing feels like and that's exactly what Grow Therapy is
+here for Grow is therapy that works covered by insurance Sessions average 21 with insurance and some pay as little as 0 depending on their plan There are no subscriptions no long
+term commitments You just pay per session Grow connects you with thousands of high quality licensed therapists across the U S offering both virtual and in person sessions nights and weekends You can
+search by what matters like insurance specialty identity or availability And you can book a therapy session in minutes and begin in as little as two days not the national 48 day average See if you could
+pay as little as 0 for therapy in seconds at growtherapy com slash ACAST That's growtherapy com slash ACAST growtherapy com
+slash ACAST Availability and coverage vary by state and insurance plan This Monday com ad was created by a team of people and AI agents The agents wrote the copy and managed the
+timelines while our human creative director made sure it all made sense Easy Create your own AI agent today on Monday com Welcome
+back to the Nature Podcast This week rounding up the 2026 Nobel Science winners and hints of the ancient human gut microbiome I'm Nick Petruchow And I'm
+Benjamin Thompson The start of October is always a big moment in the science
+calendar as it's the announcement of the Nobel Prizes I caught up with one of my colleagues each day this week to learn more about the winners It is Monday and
+Monday is of course the Nobel Prize in Physiology or Medicine And here to talk to me about it today is Miriam Nadaf Miriam thank you so much for being here Thank you Ben So everyone is talking about optogenetics today because the folk who won it the three
+researchers who won it won for working on optogenetics Now let's have a quick 101 on what optogenetics is Yeah so optogenetics is this very cool technique that uses light to
+control the activity of neurons So imagine that this room is a brain cell And on that wall there is a light switch And using that light switch I can control what happens in the room So if I switch on the
+light we all start working and recording the podcast But if I switch off the light then we all go to sleep And this is basically how optogenetics work And in the lab researchers use this technique to dial
+the activity of neurons up or down and study what happens in real time And it's been in use for about what 20 years or so now And it has made a big impact on the field of neuroscience Yes
+it has definitely revolutionised neuroscience especially basic science And there's been an explosion of papers using optogenetics over the past 20 years to study brain function
+and brain circuits in conditions like schizophrenia autism Parkinson's disease and depression So we have to talk about the winners of the prize right And I think the story starts with two of them Peter
+Hegemann at Humboldt University of Berlin and Georg Nagel at the University of Würzburg also in Germany What was the starting point for this field So the starting point was a type of green algae
+in Hegemann's lab Hegemann was very curious to know how this single cell algae swims towards light And he and his colleagues identified two DNA sequences that encode
+a particular type of protein And this protein which is called channelrhodopsin is an ion channel And when blue light is shone upon it it creates an electrical signal Right And that's where the third winner
+comes on the scene then Karl Deisseroth from Stanford University in the US He took this protein and this light sensing protein and put it into neurons essentially Exactly So Deisseroth and his colleagues used
+this technique in rodents and they managed to control the activity of neurons in the brains of these animals And this is basically how optogenetics moved from algae into
+neuroscience labs all over the world And you've been reporting on this story all day The announcement was this morning You've spoken to scientists around the world What have they told you about this win Many people thought that this was a long
+time coming including myself So yesterday I was talking to a friend over WhatsApp and I envisioned this happening And I thought to myself what if optogenetics wins this year We
+say this every year and it doesn't happen But it happened Well Miriam could I have the lottery numbers for this week as well That'd be very very helpful Miriam Nadaf thank you so much for being here Thank you Ben It's
+Tuesday and that's the day that the physics prize is awarded And joining me to talk about it is Lizzie Gibney Lizzie hi Hello Ben So right now then we are surrounded by ghosts They're coming through the walls They're coming through
+us billions upon billions of them But we can't see them And these specters which are subatomic particles called neutrinos are central to this year's Nobel win That's right Neutrinos are millions of
+times lighter than an electron They interact almost never But when they do they can tell us something really incredible because the fact that they don't interact means they're a direct source They go straight back to where they came from And in this case we're looking at
+cosmic neutrinos neutrinos created outside our solar system That means that we can figure out what's going on in supermassive black holes or blazars or other kinds of supernovae incredible things that
+are happening out there in the universe So they don't really do a huge amount then And yet they can be used as an arrow to point towards these apocalyptically huge cosmic events That's right So as you said
+there are billions passing through us every second But very very rarely these are the high energy neutrinos that come from deep space And even more rarely do we actually detect them So to detect them you need to have this very
+very rare chance that they hit into an atom and you get the flashes of light that are created And detecting these neutrinos then is very central to this year's prize And the winner is physicist Francis Halzen And
+his win is related to this IceCube Neutrino Observatory Now this is a telescope of sorts I suppose but not in the way that you might imagine one with a sort of a tube with a glass lens on it It
+doesn't look like your average telescope And that's because it's not trying to bring in light It's not detecting photons What you need to find something very very rare is a very very large volume He had the amazing idea
+to use a huge hunk of ice in Antarctica It's a cubic kilometre of ice one and a half kilometres down And within that space when you have these very very rare events when a neutrino actually
+does interact with something you can then actually detect it So he had this idea back in the 80s and then kind of pitched it in the 90s And nobody really knew if it actually was possible If you would
+get enough interactions if you'd be able to capture this very very rare event when a neutrino actually did hit an atom he sounds like he really was a kind of a force of nature in bringing this about and pushing it forward And he's been called the father of
+this field which is now neutrino astronomy or even multi messenger astronomy So a worthy winner then according to the community would you say Absolutely We've been talking to people today and everybody seems to be absolutely thrilled that he's won And he really
+is beyond doubt like the driving force of this whole field And when this announcement was made I have to say that you and our colleague Davide Castelvecchi both sort of punched the air and went neutrinos right let's go I love neutrinos Neutrinos
+they were discovered later than some of the other particles people might be more familiar with you know the proton and the neutron electron And because of these very strange properties that they have that they're just so light and they interact so rarely we often call them ghostly because
+of these properties But it also just makes them really interesting And because they are so relatively undiscovered they probably are going to be key to some really important discoveries in the future There's a lot more that physicists have
+to learn about neutrinos And so it's just a whole new area that's opening up and one that excites me every time I get to write about neutrinos And so Davide and I have been kind of like fighting to write the story today because we both love a good neutrino story
+It's Wednesday lunchtime just a few hours before the podcast goes live We're going to talk about today's Chemistry Nobel And joining me to do so for what is what the seventh eighth year in a row I'm not even sure It's Flora Graham Flora hi Hi
+thanks for having me So much like your well your hands molecules can be left or right handed And that's the subject of today's Chemistry Prize We're talking about things that are mirror images of
+each other molecules that are mirror images of each other Almost every molecule of life is actually only one version of the possible two mirror image molecules out there Right because amino
+acids the building blocks of proteins can be left or right handed But yet life has gone for the left handed version Right And it's been a big mystery I would say Not only why this has happened this way but how
+When all the chemistry that we do in the lab ends up with pretty much fairly equal amounts of one and the other how did natural processes somehow create this massive asymmetry in one direction
+Right And that brings us to today's winners then Henri Cagan from the University of Paris Sud in France and Kenzo Soei from Tokyo University in Japan That's right They came up with processes that
+were kind of the missing piece in this explanation of how a spontaneous chemical system could end up with this one handed nature So there's actually been a couple Chemistry Nobels
+linked to this topic in the past So you might be thinking why is this new Well these are kind of the last piece of the puzzle Right And so their discoveries essentially changed the game then in terms of making these handed molecules What did they actually do So what Cagan did
+is he figured out how by using a catalyst you could end up with more of a certain handed molecule more than we thought was possible And then Soei came up with a reaction that has his name on it now
+And what he did is he figured out how to make that reaction self sustaining So you add some catalysts and a big bucket of stuff and that continuously creates more and more and more of
+one version until you end up with basically a big bucket that's almost purely this one kind And of course this is super useful for things like the pharmaceutical industry because a molecule can have say two different hands But
+when it comes to drugs one can be very useful and have one effect but the other has a different effect for example I think the example that the Nobel Committee gave which is if you're a locksmith and you're making keys for a lock and every time you make a key you get
+a mirror image version and you don't know which one works but one breaks the lock it's pretty important that you figure out how to determine that you get only the correct key when you need it And during the announcement then they actually got
+hold of Kenzo Soei and he was out shopping when he heard the news and he was obviously delighted I mean it's funny to hear who thinks that they might you know take a break to the shops and not really worry about getting the call from Sweden And I
+have heard actually that a few people do keep a bottle of champagne on ice So you know good luck to those people for next year But of course you've been on the podcast for many many years with me Flora and it seems like we have this conversation again and again All today's winners and in fact all the
+winners for the past three days have all been men It's a trend that a lot of people had hoped would not continue In this case there have been many mentions of a scientist called Donna Blackmon who did some very very pivotal work in this field who
+is very well respected and might have been according to observers equally worthy of one of the spots But that's not said with any disrespect for the people who did win And let me just add that the very first thing that most
+if not all of the winners emphasise I think especially with the physics prizes here is that this is a huge huge group enterprise And really you know we always talk about how picking out individuals is a bit of an impossible
+mission And I would say in all my years covering the Nobels there's been never to my recollection a case where the winner did not immediately start talking about the you know essential input of
+other people in the field So it's never far from winners minds from everyone's minds Well Flora looking forward to speaking to you next year Flora Graham thank you for being here Thank you very much Flora Graham there Also talking with
+me was Lizzie Gibney and Miriam Nadaf To read all of Nature's Nobel coverage look for links in the show notes Coming up how humans may have once shared a similar gut microbiome Right
+now though it's time for Research Highlights with Dan Fox Watching sports on YouTube doesn't necessarily inspire people to engage in physical activity
+in real life according to new research Scientists surveyed more than 300 university students in their 20s who consume sports content on YouTube including live game coverage
+videos on exercise and sports variety programs But while the students watch these videos for a variety of reasons the research has found no significant difference between the two between motivation to watch sports content and how much the
+respondents actually participated in exercise The researchers also studied attitudes towards YouTube sports videos and found that the more motivated the students were to consume the content the more positively they perceived the technology
+rating it as useful and easy to use This positive attitude however did not translate into more physical activity but merely into a stronger intention to continue watching the programs Run over to Performance
+Enhancement and Health to read more Researchers have found evidence that the supermassive black holes at the centre of most galaxies help to regulate the pace of
+star formation in their host systems A team studied 324 galaxies each with a central black hole that is going through a growth spurt heating the gas in its immediate vicinity This
+process can also cause black holes to spew jets of plasma out of the galaxy in opposite directions Such jets are thought to heat up gas in the halo that surround galaxies a mixture
+that might otherwise have cooled and fallen towards the galaxy helping to form new stars It is also proposed that the jets partially ionise hydrogen in the halo To confirm this the team analysed
+the spectrum of light from different regions of the galactic halos In the regions crossed by a black hole's jet the researchers observed the signature of ionised hydrogen By contrast other regions did
+not have that signature confirming that the jets had the expected effect on the gas in the galaxy's halo Read that research in full in Astrophysical Journal Letters Now
+if you're familiar at all with the gut microbiome the collection of microorganisms that inhabit our guts you'll know that it's associated with various health conditions There's evidence that the presence or
+absence of certain bacteria can contribute to inflammatory bowel diseases diabetes and even some cancers So there's an idea that changing or improving our microbiomes could treat
+or prevent some of these conditions and improve our health But what does a healthier microbiome actually look like A major part of the gut microbiome field has been interested in
+kind of this holy grail question of what is a healthy gut microbiome This is Justin Sonnenberg a microbiologist and one of the authors of a new paper in Nature that's been looking back in time to
+try and answer that question Because there's been quite a bit of evidence that historically human gut microbiomes were more diverse than they are now and that the less diverse microbiomes
+now present in most of us in the industrialized world could be having negative effects on our health For instance some research suggests that humans living in less industrialized
+societies today have lower instances of inflammatory bowel diseases And that really led to this question of is there something more fundamental going on here Are these microbes that are associated
+with populations living non industrialized lifestyles are those microbes really part of our ancient history microbes that perhaps we transmitted across generations over a long period of time Many
+researchers have been interested in studying the microbiomes of non industrialized populations hunter gatherer groups or others who don't live with easy access to healthcare antibiotics and other
+comforts that most of the world now enjoys But Justin is specifically interested in whether their microbiomes are closer to what could have been thought of as our ancestral state and
+whether he could trace the specific microorganisms they carry backwards in time to figure out what species might have been present in ancient humans This was a big challenge Testing that was a little bit
+tricky because of the unique ways that microbes evolve They unlike human genomes they can get transmitted between us This is Ben Good another one of the authors of the new paper The thing is microorganisms
+love swapping genes between each other While in humans you can look at our genomes over time and get a sense of how things were changing in microorganisms they do a lot of horizontal
+gene transfer meaning that it's hard to trace their history If the genes keep moving then it's tricky to keep track of what mutations have been accumulated and where Undeterred Ben
+and Justin teamed up for a new Nature paper where they think they've managed to overcome this issue Their idea was to find two non industrialized populations that are very isolated from one another That way there's less chance
+of their microorganisms having exchanged genes And the idea was maybe in these two populations which are sort of the furthest apart this is the Chimani in Bolivia and the Hadza in Tanzania that their ancestors actually were
+separated geographically 10 000 20 000 years ago And so this was maybe an idea that okay that geographic separation would maybe prevent a little bit of the transmission at least in ancient historical times And therefore we
+should be able to distinguish these hypotheses by going in and looking at the not just which species were there but the statistics of the mutations in their genomes Throughout most of time these two groups were continents apart But despite
+this geographical separation the Chimani and the Hadza had a lot of similarities Here's Justin again I think the stunning finding initially was how similar their gut microbiomes actually
+are based on the species that are present So we identified about 1400 different bacterial species in the Chimani microbiomes collectively and out
+of those 1400 species 1200 of those are shared with the Hadza in Tanzania So just a huge amount of overlap in species composition between these
+two populations A share of common species despite the separation could imply that those microorganisms have a long history with humans Despite the tens of thousands of years without any
+historical contact those organisms persisted and more than two thirds of these shared species are rare or absent in industrialized populations which may also suggest that
+we've lost some of the microorganisms we evolved with But Justin and Ben were curious about the history of these microbiomes They wanted to see how the genetic changes in these microorganisms lined
+up with when humans dispersed around the globe This would be more telling evidence that these microbes have persisted over time They found that there was little transfer of species between the Chimani and
+the Hadza in the last few thousand years and they appear to have become genetically isolated around 44 000 years ago That roughly lines up with when humans are thought to have dispersed out of
+Africa suggesting that these species of microbes are similar to those that ancient humans would have had I was generally impressed by the analysis I did This is Karina Schliebusch a population
+geneticist who's been writing a News Views article about this new work She too was struck by the finding that the Chimani and the Hadza had so much in common and she wonders if looking deeper at our connections to microbiomes
+of the past could tell us more about human migrations themselves I think of these other microbes now identified in the Hadza and the Chimani populations all of those
+then could be studied separately to see if their inheritance history or their history and their relatedness to each other reflects also the different relatedness between human
+populations So I think it could be very nice to study past migrations and also contact between different people because contact in humans we measure this by admixture by two populations mixing with
+each other but then we can probably also use microorganisms as some evidence for contact between different populations Justin and Ben were a bit cautious about using microorganisms
+to infer information about human migrations as the problems of horizontal gene transfer do so complicate things But they think there were some things that could be learnt such as how different communities
+may have interacted Changes in their diet for instance may leave a telltale trace on their microbiomes Corina would like to see more work with non industrialised groups to see how persistent
+these microbes really are So I think it's important for the few indigenous hunter gatherer groups that remain to try to contact them try to set up a collaboration between
+the people themselves and the researchers and try to sequence microbiomes so that we can see if this pattern that is between the Tsimane and the Hatsa is repeated If we also see it in other hunter gatherer
+communities then of course people are getting more and more industrialised and more westernised by the day so a lot of this will also disappear in the next few decades But what does this all mean for that holy
+grail question What is a healthy gut microbiome The answer is complicated it kind of depends on how you define healthy But the study suggests that there was a more
+diverse gut microbiome in the past one that persists in non industrialised populations And for Justin that's something to pay attention to I think it does raise some
+alarm bells now in terms of what industrialisation and loss of these species may mean to our biology now And it's important to note that out of the approximately
+1 200 species that were shared between the Hatsa and Tsimane the vast majority of these 60 of these are either rare or completely missing in industrialised populations So
+there's been this sort of mass extinction of microbes that were part of our evolutionary history as humans and the question now is what does that mean for our biology That was Justin
+Sonnenberg from Stanford University in the US You also heard from Ben Goode also from Stanford University and Corina Schlebusch from Uppsala University in Sweden For more on that story check out
+the show notes for some links And that's all for this time If you'd like to stay in touch with us you can We're on email podcastatnature com or you can find us on social media at Nature Podcast I'm
+Benjamin Thompson And I'm Nick Patritchell Thanks for
+listening Because when
+you move your money to Citizens you can earn a significant cash bonus Just how much Check out citizensbank com slash make more or head to your nearest branch to find out But move quickly This offer is only available
+for a limited time Offer available on select new accounts Qualifying balance deposit activity requirements and additional terms and conditions apply Member FDIC

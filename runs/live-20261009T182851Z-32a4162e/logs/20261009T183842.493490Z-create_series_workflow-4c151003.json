@@ -1,0 +1,19 @@
+{
+  "stage": "create_series_workflow",
+  "status": "incomplete",
+  "input_count": null,
+  "output_count": null,
+  "started_at": "2026-10-09T18:38:42Z",
+  "finished_at": "2026-10-09T18:38:42Z",
+  "elapsed_seconds": 0.0,
+  "tools": [
+    "bash"
+  ],
+  "models": [],
+  "usage": null,
+  "cost_usd": null,
+  "cost_estimated": false,
+  "errors": [
+    "orchestrator exit code 1"
+  ]
+}

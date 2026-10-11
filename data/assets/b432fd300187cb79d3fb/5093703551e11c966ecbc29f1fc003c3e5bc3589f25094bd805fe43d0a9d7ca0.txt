@@ -1,0 +1,531 @@
+Our
+speaker is Tanvi Wamorar and she will be
+talking about generative criticality in
+large language model temperature
+scaling.
+>> Oh, this is actually incorrect.
+Yeah, I'm trying to
+>> Okay,
+sorry.
+>> Okay, can I start? Okay. Uh, hi
+everyone. I am very happy to be here.
+I'm Tanvi. I'm a postto at Stanford. Um
+and I am going to talk about something
+which I think is very relevant to
+everybody in this room here. Um I'm
+going to talk about how do we
+incorporate uh uh physics information in
+a machine learning models.
+So I really like this image that Winnie
+showed in his talk yesterday which shows
+the full pipeline of how we do uh
+analyses in particle physics. So you can
+see that there are many steps going from
+collisions in nature to making
+measurements. The orange blocks here
+show um where we apply traditional
+classical methods and the blue boxes
+here show where we are already
+incorporating machine learning or AI. So
+this makes it very obvious that machine
+learning is pervasive in all the steps
+of an analysis. So as a field now we are
+thinking more deeply about how uh what
+is the best way to actually build these
+uh machine learning models.
+So one question we have is how do we
+teach physics to a neural network and
+broadly speaking there are two ways to
+do this. Uh one is the explicit category
+where we build the physics into the
+model. We bake it in by hard coding
+known symmetries. um and structure
+directly into the architecture of the
+model. Uh which means that you've
+already constructed guard rails. You set
+rules and the network cannot violate
+these rules. Uh it's guaranteed by
+construction.
+Um the other way is known as implicit
+prior. Uh so the idea is that you just
+let the network learn. You pre-train the
+model uh which can be a generic
+architecture on large amounts of data.
+Um and the expectation is that the
+physics knowledge will be absorbed into
+the model through uh just training on a
+huge corpus of data. Uh so this I think
+is the physics version of a central
+question in AI which we've discussed a
+lot at this conference uh which is how
+much should we engineer um and how much
+should we let data and scale do the
+work.
+Okay. So in order to look at explicit
+versus implicit we tried two
+state-of-the-art models for explicit the
+model we looked at is called alligator
+which you may have heard of in inb talk
+uh on the first day. Um so basically the
+idea is of equivariance is that you
+transform the input and the output
+transforms according to the symmetry. Um
+so for example if we look at this there
+are two ways the input X can flow
+through the network here um it can
+either right um you have the input X and
+then you apply some network network
+network function to it and then you get
+output NX or you can first boost the
+input apply your uh favorite
+transformation to it and then you apply
+the network to it and you get a boosted
+output. So the idea here is that the
+boost and the network function commute
+uh with each other.
+So the way alligator ensures that um
+this symmetry is respected is by constru
+by the way it constructs each layers of
+the network such that they respect
+Laurens symmetry. Um so because of this
+fact the alligator doesn't need to be
+pre-trained on a large amount of data
+which means that it's highly data
+efficient and it has been shown to have
+excellent performance across a wide
+variety of tasks that particle
+physicists are interested in like
+tagging of particles regression and
+generative tasks as well.
+So moving on to the model that we look
+at as the example for an implicit prior
+is omnilearn which we've of course also
+heard about. Uh so I won't go into too
+many details but omnilarn is a model
+which is built on a particle transformer
+backbone called pet. Um so contrasting
+this with alligator there are no
+hardcode symmetries built into the
+model. Um it has a shared body which is
+pre-trained on a large uh uh data set in
+this case 100 million simulated uh jets
+and then following the body we have task
+specific heads um we have the classifi
+classifier head and the generator head.
+So the idea is that you pre-train once
+on a large amount of data and then you
+fine-tune according to the task of
+interest.
+Okay. Um so I also want to uh disc uh
+discuss what is the answer for explicit
+versus implicit on standard benchmarks
+in high energy physics. So the example
+I'm taking here is of top tagging. Uh
+it's a very traditional benchmark in the
+field of high energy physics where you
+want to distinguish uh jets coming from
+a top quark which you can see on the
+left here has this threeprong structure
+uh versus jets coming from a quark or
+gluon. Um so you can see that the two
+classes are visibly different and if we
+exploit information about jet
+substructure
+um
+both implicit and explicit approaches
+are very competitive as we can see from
+the AU of omni and alligator. Uh so the
+takeaway here is that for standard
+benchmarks where the classes are
+different both of uh these approaches
+are very competitive
+but the problems that we are interested
+in are where the classes are nearly
+identical. This is what I call the
+precision frontier. Uh so the two
+classes here or however many classes
+differ only uh with very subtle
+differences and that's exactly where the
+interesting physics lies. So we study
+three prototypical tasks which I'll now
+go through. Um the first is reweing
+based unfolding. The second is
+likelihood ratio estimation and the
+third is weekly supervised anomaly
+detection.
+Right? So the first task is uh unfolding
+which is based on reweing for proton
+proton collisions. So because uh there
+are uh uh people from uh not just from
+particle physics here I really like this
+image from Mariel's slides where um I
+think we get an intuition of what
+unfolding means. So
+um the point here is that on the left
+here is a smeared image of a lunar
+crater. Um and what we're interested in
+is the right image. So given that we
+know uh all the information about the
+lunar crater and about the instrument
+that we are using to take the image, we
+can unblur or dn noiseise this image to
+go from left to right. Uh so this is
+known as unfolding or removing unwanted
+detector effects from our experimental
+data.
+Right? So for particle physics this is
+what the picture looks like. So on the
+left is what we measure. we have
+reconstruction level um hits from the
+detector but the physics we are
+interested in is uh what's on the right
+we want the truth level information
+um so what we do is that we use neural
+network classifiers to calculate a set
+of weights that allow us to go from the
+uh left to the right uh by applying
+these weights to particle level
+simulation events
+so that we can reweigh them and adjust
+them to get to truth level data
+and that effectively removes detector
+distortions.
+Right? So what are the results that we
+have for this task? Um let me describe
+the plot on the left here. This plot uh
+is a histogram of um a jet substructure
+variable. So our task essentially is to
+match the ree the simulation in yellow
+to match this gray distribution which is
+data. Um and you can see the results of
+alligator and omnilarn uh doing this
+unfolding or reweing of simulation to
+data. So to begin with simulation of
+course doesn't match data very well. Um
+and the metric that we use to quantify
+how well unfolding works is the
+triangular discriminator which is in
+this red box here. But what you need to
+know is that smaller is better. Uh so a
+few things that I'll point out here is
+both omnilearn and alligator perform
+better than the pet model which is
+omnilearn minus the pre-training. Um and
+then second even if you increase the
+size of the alligator model we see that
+upscaling the network doesn't uh match
+the performance of omnilarn.
+So the main takeaway here is that
+implicit and explicit prior are very
+comparable uh across multiple unfolded
+observables. What I showed on the
+previous slide was just one observable
+but we uh did the same exercise for
+multiple variables.
+Uh the second task is likelihood ratio
+estimation for electron proton
+collisions. So unlike proton proton
+collisions in the previous task here we
+want to reate high Q square deep in
+elastic scattering events at the H1
+detector uh where you have an incoming
+electron a pro colliding into a proton
+and then you have a scattered electron
+um and you also have a an outgoing jet
+um and it's these jets that we want to
+classify between two simulations. uh one
+thing I'll note is that compared to the
+previous task the differences between
+the constituent level and jet level
+features are even more subtle. So this
+is in some sense an even harder task.
+And another thing is that omnilearn was
+not pre-trained on these kind of jets.
+So this problem is out of domain for pre
+of omnilarn pre-training.
+So let's look at the results here. So
+this is a histogram of the invariant
+mass of the jet which I showed in the
+previous uh slide. Um here uh simulation
+is again in yellow and we are trying to
+rewe it to match to data. Uh now as you
+can see uh the differences are already
+very subtle in the bulk of the
+distribution but it's in the tails where
+we see the effect of unfolding. Um you
+can really see how much uh improvement
+between simulation and data uh sorry
+agreement between simulation and data
+improves on doing unfolding. Uh and one
+thing that's notable is that all three
+alligator omni and pet uh do very well
+in closing this gap
+and omni and alligator performance is
+neck and neck. But one thing to note
+here is that Omniarn converges to the
+right answer much faster than alligator
+does.
+So the main takeaway for this task that
+we have is that once again both implicit
+and explicit prize are very comparable
+even when the task is uh out of the
+pre-training domain for Omniarn.
+Okay, this brings me to my last task. Uh
+the third task that we looked at is
+weekly supervised anomaly detection
+because we are of course very interested
+in finding out where the new physics is
+hiding. Um so we uh employ a technique
+where we compare a signal enriched
+region um uh where uh uh with the
+observed data uh where the signal is
+very small and if we see a difference
+between this uh um this estimation in
+the signal enrich region with the
+observed data we can say that we we see
+something anomalous. Um
+so the specific problem in this anomaly
+detection uh corresponds to uh the
+landscape where the signal is a uh
+resonant boson production. Uh so you
+have two resonances B and C and the
+background is uh a diget final state
+from QCD production.
+So the result here um uh is in terms of
+a metric which is very common to anomaly
+detection and particle physics. It's
+called the significance improvement
+characteristic.
+Basically it means how much can you
+improve your significance from an
+initial value. Um so on this curve here
+on the x-axis are the signal events.
+That basically means how many signal
+events are you injecting. So going from
+left to right means you are injecting
+more signal and on the y-axis you have
+the sic. So basically higher is better.
+So if we look at the full range of the
+signal events, we can see that um a uh
+alligator and omnilarn significantly
+outperform uh the PET model which is
+where we don't have any pre-training or
+uh explicit prior and also that within
+the whole range within the uncertainty
+bands both Omnarn and alligator perform
+similarly well with the Omniarn having a
+slight edge in this region where you
+have uh less number of signal events.
+So the main takeaway here is that
+implicit and explicit prior are
+comparable. Um however the implicit
+prior have a small edge in a regime
+where you don't have as much signal.
+So this is the final score scorecard for
+the three tasks. Um the first task is
+where we had reweing based unfolding.
+The outcome was that implicit and
+explicit prize are comparable across all
+the unfolded observables. The second
+task where we have likelihood ratio
+estimation for EP collisions is that
+even if the task is out of domain for
+the pre-training data uh both implicit
+and explicit um options do equally
+comparably well. And uh lastly for
+anomaly detection once again it's a
+similar story they are comparable with
+the implicit having a small edge in the
+low signal regime. Um
+right so the main message is that within
+the statistical precision of our data
+both uh explicit and implicit prior
+perform comparably. So I guess if you
+were to ask me for one prescription I
+would say that if you have access to the
+training checkpoints and you have access
+to compute implicit is the way to go. If
+not explicit prior give us equally good
+performance.
+So I I just want to flash these thoughts
+that I have which I think are relevant
+for um physicist beyond particle
+physics. uh which I think is first that
+networks are learning symmetries or
+something like symmetries from data
+because we've seen that even though omni
+did not have any explicit knowledge of
+the Lauren symmetry it matched or even
+beat uh a network with hardcoded
+symmetry. Um the second I think is a
+nuanced bitter lesson which means that
+maybe the answer is that at scale the
+best prior may just be more data. Um
+however in areas where we do not have
+access to a lot of simulation or data
+for pre-training explicit prior are very
+efficient and effective um when the data
+is not available or you don't have
+access to a lot of compute and I think
+third is an open question is what
+happens if we combine both of them um if
+we try to compress uh these large
+foundation models does the symmetry
+still survive and what happens if the
+backbone is equivariant. Uh does it lead
+to better foundation models?
+Um and then I'll just
+end with this summary slide. Um and I'll
+open for questions. Thank you.
+Thank you. Uh we have time for
+questions.
+Hello. Yes, thanks for the very nice
+talk. So my question is here the model
+we use is OmniLearn, right? And if I
+remember from Vinnie's talk, I think
+yesterday, omni actually have like three
+scales like small, medium, large. Which
+one do you think this one is more like
+comparable to? And if we just keep
+making the model bigger and bigger, is
+this a more clear path towards a better
+performance compared to the physics
+informed one where no matter like we
+don't know if tomorrow somebody will
+just scratch their head and think about
+a better model, right? That is not so
+sure. But seems like Omniarn give us a
+better path forward.
+>> Yeah. So Omniarn I think is uh I should
+have the parameters somewhere in this
+table. Anyway, I think the alligator
+with 2 million parameters is comparable
+to the number of parameters in Omniarn,
+which is why this is a more fair
+comparison because yes, even though Omni
+learned is bigger, we haven't made
+alligator bigger. Um,
+and
+yeah, so I guess that's my answer. uh
+with when we have the same number of
+parameters the conclusive answer we have
+is that both implicit and explicit are
+comparable but um I think if I remember
+the uh the the results in uh omniarn
+paper by increasing the number of
+parameters and also because they
+increase the number of pre-training size
+it outperforms alligator by a a bigger
+margin.
+>> I see thank you. Oh sorry maybe one more
+question. Uh so if you take alligator
+and then just give it like 10 billion
+sample to train as we train Omniarn uh
+will that be a foundation model or like
+what makes Omnarn like unique I I guess
+yeah is it possible to make alligator a
+foundation model? Yeah, I think that's
+alluding to the third open question I
+have. If we can make somehow the
+backbone of this foundation model
+equivarian, does it help us improve the
+performance even more? Uh, I think
+that's an open question that I'm also
+curious about.
+>> I think thank you.
+>> Other questions? Go ahead. Um I'm I'm
+curious about whether you have some
+instinct for where the sort of like
+crossing point is here because clearly
+you've hit the like the point where
+these two kind of effects of the lack of
+real equavar or a lack of real lorren
+equarians in the data is true but you
+have enough training data to sort of
+balance this. Do you have some instinct
+for like how much worse this gets if
+omni is pre-trained on half the data you
+know a tenth of the data? I'm sort of
+thinking about how this would would you
+know manifest in other problems where I
+have some amount of data I want to know
+whether I should do equariance or not if
+there's some like general rule you could
+come up with I don't know how easy that
+is to
+>> so basically you are saying how small
+can the training the can the
+pre-training data be and
+>> yeah basically right right
+>> yeah that that's a good question that we
+I don't have an answer to Um
+but I will say that this these
+benchmarks are I think already quite
+saturated anyway. So we are like teasing
+at differences that are very small. Um
+so yeah I I I don't think I have an
+answer to that.
+>> Okay. Thank you.
+>> Yeah.
+>> Go ahead.
+>> Hey. Uh I think we talked about this uh
+briefly in the past, but um
+could you sketch a way how to find out
+what are the exact symmetries that
+implicit approach is learning and how I
+can then try to leverage them for my own
+understanding?
+Yeah, I I I think that goes
+to my knowledge more in the like the
+mech uh mechanistic interpretability
+uh domain and I I'm sure there are ways
+where you can explicitly check like what
+is the input and if you uh rotate it
+what is the output that this layer of
+the network gives you. I I think there
+are definitely ways to systematically
+check that but in this study we didn't
+check those.
+>> Thanks.
+>> Yeah.
+>> Other questions?
+>> Yep. Please go ahead.
+>> A great talk by the way but um sorry if
+I'm misunderstanding something but why
+did the um implicit prior have better
+perform like slightly better performance
+in the lower event regime but then loses
+um like gap later on when you reach a
+higher level of signal event.
+Right. So, so in this low region um omni
+is actually outperforming the ex the
+explicit sorry the implicit is actually
+outperforming right um
+I think it's because the low signal
+region event is also the harder
+region to tease more signal signal out
+of because you have less number of
+signals to start with. So, I think
+that's where the large amount of
+pre-training really helps. And when you
+have
+a lot of signals like going from 6,000
+to 10,000 events, that gap sort of
+closes more. That that's my intuition.
+>> Okay. Thank you.
+>> Other questions?
+I had one. Um, so when you say the task
+is out of domain in the pre-training,
+does that mean the events were not in
+the training set? Is that what that
+means?
+>> Yes.
+>> I see.
+>> I I know that that's not the case for
+Omniarn. I think Omniarn also uh trained
+on the H1 jets, but Omniarn did not.
+Yeah,
+>> I see.
+>> Yeah.
+>> Okay. Um, there are no other questions.
+Let's thank Tonv again.

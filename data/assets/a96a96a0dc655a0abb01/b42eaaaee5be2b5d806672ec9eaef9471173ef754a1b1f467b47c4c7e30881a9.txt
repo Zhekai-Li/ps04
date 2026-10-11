@@ -1,0 +1,1551 @@
+Hello everyone. Thank you all for being
+here today. I'm Russell Wald, the
+executive director of the Stanford
+Institute for Human-Centered Artificial
+Intelligence, also known as HAI. HAI has
+long worked to bring evidence-based
+research to a wider audience, including
+decision makers such as industry
+leaders, policy makers, and civil
+society.
+We convened today's webinar uh we're
+convening today's webinar uh to bring
+together some of our multiddisciplinary
+faculty to discuss the rapidly growing
+AI dialogue over the past few weeks.
+Today's webinar we hope will find uh
+will be the first in a series aimed at
+demystifying major events in the AI
+space.
+We will take audience questions near the
+end of the session. So please put your
+questions in the Q&A uh box.
+Let me introduce our panelist and also
+note that we had previously uh were
+would have Amy Ziggurt uh one of our
+senior fellows participate but had a
+lastm minute scheduling conflict. Uh but
+we are excited to have a terrific group
+of experts assembled today. First we
+have Rob Ree, the McGregor Giran
+Professor of Social Ethics and Science
+and Technology in the Stanford
+Department of Political Science and a
+senior fellow and associate director at
+HAI. In 2024 and 2025, he was on public
+he was on public service leave as a
+senior adviser to the United States AI
+safety institute in the US Department of
+Commerce.
+He is co-author of the book system air
+where big tech went wrong and how we can
+reboot.
+Sura Ganguli is an associate professor
+of applied physics and a senior fellow
+at HAI. He leads the neurodynamics and
+computation lab at uh Stanford and
+explores how our in uh understanding of
+neuroscience and the human brain can
+influence our development and
+understanding of AI models.
+And de Ying is an assistant professor in
+computer science and a faculty affiliate
+at HAI. Her work focuses on socially
+aware language models and human AI
+interaction.
+Recently her lab was one of the first uh
+research uh groups given access to indep
+independently analyze claud usage data
+to understand how people work with AI.
+All right, let's get into it and talk
+about a few questions that we have. And
+I guess this one goes to everybody.
+Let's go back a few weeks ago when we
+all heard that uh open AI agents had
+hacked into hugging face which is kind
+of led to this moment we're at I think
+and we're at a near inflection point uh
+and uh so uh there's the hugging face
+hack and in that uh we want to fully
+understand we couldn't fully understand
+what has happened.
+What was your first reaction to the
+news? Um there has been independent
+evaluations coming out since then. Uh
+how has your perception of this uh your
+first reaction changed at all over the
+past few weeks? And I want to start with
+de on this uh first and then we'll just
+go uh along to everybody.
+>> Yeah, great. Um yeah, so when I first
+heard this news to me I think uh this is
+not new uh but still very very
+surprising. Uh the reason is that there
+has been um um different studies of
+collusion in the field even before this
+incident. Uh for example, researchers
+were looking into reward hacking or even
+mechanism hacking uh where models find
+shortcut or spurious correlations to uh
+do something that's not aligned with
+human expectation. And I think that the
+surprising part to me is about this kind
+of emergent coordination where agents
+actually coordinate with each other in
+this task and it's more like seven uh
+several hundred of agents working
+together for days. Um I think this is
+something that I have not seen before.
+Um part of the reason here is that
+before this year model capabilities were
+not that strong. I remember back in 2024
+we were trying to understand the
+emergence of collaboration cooperation
+with agents and we were not able to
+observe anything. The the other reason
+here is that I feel like this kind of
+research is actually super expensive to
+do because you need to simulate like
+many many agents uh coordinating for
+this. Um I think in terms of what has
+changed I'm getting more concerned that
+uh we know very little about this kind
+of incentives or reward in this process.
+Uh it seems that companies also could
+not fully understand what's going on. So
+this is a a real concern and this kind
+of lab losing their legibility is
+actually something very concerning to
+think about. Um, yeah.
+>> Great. Le let's pass it over to you,
+Syria, and get more of that kind of
+technical side before we punt over to
+Rob to get the wider ethical picture and
+concerns related to that. Uh, has what
+did you think when you first heard about
+this uh uh hacking and what has changed
+in your from your mind over the past few
+weeks?
+Yeah, it it was pretty wild to see all
+the the logs and traces of the you know
+the chain of thought and and the
+messages on the message board when the
+agents were trying to um hack out of
+OpenAI into Hugging Face and things like
+that. It was it was pretty interesting.
+I've always said that like you know
+single LM are one thing but systems of
+LLM interacting with each other sets up
+a opportunity for whole new emerging
+properties. Um and it's hard to to
+reason about them to understand about
+them. Um, over time, you know, various
+cyber security experts have said that
+the the sandbox that OpenAI created
+wasn't that secure. Hugging faces
+defenses weren't that secure. A cyber
+security expert I was just having dinner
+with um the other night was saying like,
+yeah, this hack wasn't that hard to do
+uh uh for a hacker, but that's where
+capabilities are right now. And as
+individual LM get better and as their
+interactions get more complicated,
+uh you know, we have to be very vigilant
+about what can happen. And it was
+actually quite amusing that when
+HuggingFace got attacked, OpenAI didn't
+know that it was them who attacked them.
+Uh they in fact called HuggingFace to
+find out if OpenAI was impacted in the
+Hugging Face attack. So So they only
+found out about it later. So I think
+this highlights the crit uh critical
+need for monitoring and actually we
+started looking into inter agent
+interactions and things like that around
+the same time. And we just put out a
+paper uh titled the physics of agents,
+the statistical mechanics predicts the
+collective behavior of agents where we
+tried to understand how different agents
+with different opinions interact with
+each other and how the opinion dynamics
+of the entire population changes uh to
+go to from you know to converge to
+either consensus to get polarization or
+whatnot. And we actually use ideas from
+cisco physics like simple icing systems
+to model the dynamics and then predict
+the dynamics of the opinions of the
+entire agent society. Um this is joint
+work with James Zoo and it came out of a
+collaboration uh uh from my uh class
+actually on physics of learning. So I
+think there's lots of room for
+developing a deeper science of uh LLM
+societies actually which would be very
+interesting.
+>> Great Rob why don't you kind of
+encapsulate it all for us from that
+larger perspective. Yeah, in my view as
+the non-technical person amongst the
+panelists, my background is as a
+philosopher and a political scientist,
+uh, you know, I my initial reaction upon
+seeing the news was that what had
+previously been um a hypothetical
+concern that technical folks in AI had
+long um, sort of indicated could take
+place, these so-called loss of control
+scenarios, now had become manifest and
+and and and real and the the slightly
+later reaction once some of these
+forensic um reports came out both from
+open AI in their black black hat um um
+presentation and then more recently in
+the meter and redwood research um
+analysis of what took place the level of
+multi-agent coordination and and really
+not just coordination D called it
+collusion but but deliberate efforts at
+deception um I think that to me is what
+uh was most worrisome
+that there's the lack of a good science
+that Syria already indicated about how
+to understand the behavior of frontier
+AI systems, especially in the form of
+multi- aent um um communication um
+systemic coordination. And if now we
+have really concrete evidence that we
+can and should expect delusion and
+deception to take place, I think we have
+genuine cause for concern.
+>> Great. Okay. So uh D I think Rob set
+this up uh pretty well and I do want to
+ask note that uh about independent
+evaluators in this space have done
+investigations into what happened into
+the hugging face incident and Enthropic
+has actually authorized your lab at
+Stanford, one of the few labs that has
+been invited in by the company to do an
+independent evaluation on consumer usage
+of claude. Given your experience as an
+independent eval evaluator, what should
+people know about the realities of doing
+evaluations on these models and how uh
+how we should interpret the and finding
+findings from Meter and Redwood and also
+kind of building on what Rob just noted
+the collusion side but also the lack of
+good science in this space. How do we
+get that good science so that we are
+worried about what we should be worried
+about and not overindexing on something
+that might be a an emotional
+hypothetical side? How do we get to a
+good science point here on evaluations?
+>> Yeah. So, uh first regarding the
+independent evaluation that we have done
+with anthropic, I think the study is
+more about understanding how people use
+AI uh using their privacy preserving
+tool called Cleo. So it's more on the
+how people use AI rather than like on
+the model capability side. So it's
+slightly different um compared to the
+scope we are talking about here. Um I
+think uh uh right after the incident
+meter actually uh chime in to do this uh
+independent evaluation and if you read
+the report I think it's definitely a
+very clear um presentation of what
+happened. Um one thing is that I I don't
+think it tells us like why like how the
+model was trended and uh where the
+behavior come from and why um like we we
+trend models to do coordination like a
+lot of the details are actually not
+provided. Um also going back to the
+collusion and also Rob and Sarah's
+discussion I think like collusion
+research is actually happening in in the
+research field before um so one of my
+recent study which will be released
+today or tomorrow is actually looking at
+if you have two agents one agent is
+doing uh execution and another agent is
+doing judgment and then um they can look
+at how each other do the work and then
+get a feedback on their behaviors. Over
+time, we found that whenever there are
+some like circumstance change, models
+actually start to collude with each
+other. The the judge decided that not to
+read the full log from the execution
+agent. The execution agent decided to
+even not uh finish the entire work and
+then they still greet each other's work
+as as high reward. So I think like this
+kind of thing can be abstracted into
+settings that we we can study in
+academia or in research field. Um but
+going back to my earlier comments, I
+think uh studying like hundreds of
+agents in a simulation environment, it's
+a very resource inensive task. So I
+definitely wish there could be more uh
+solutions around that.
+>> Um
+>> can I hop in here Russell and and add
+something to what D said? So, you know,
+when I was on public service leave
+working at the USI Safety Institute,
+part of the mission, in fact, the I'd
+say the center of the mission of the US
+AI Safety Institute was to accelerate
+the scientific practice of testing and
+evaluation of frontier AI models. And I
+I just think as a political scientist
+that we should we should basically take
+a pretty common sense principle here,
+which is we shouldn't trust the
+developers of these models on their own
+to judge and evaluate the safety or risk
+of the models. It's like asking students
+to grade their own homework. Um we
+should have some independent evaluation.
+Those independent evaluations can take
+place, you know, for national security
+sensitive risks, sometimes within
+government, but also in third-party
+independent, whether they're for-profit
+or nonprofit organizations. And some of
+the work that I've been doing over the
+course of the past years is to try to
+imagine what a healthy and mature
+ecosystem of independent evaluators
+would look like. I'm going to put in the
+chat for everybody um there's a group
+called an AI evaluator forum that
+recently put out a statement about what
+the minimal conditions of doing an
+embedded evaluation should be. That's at
+the first order kind of response to what
+we saw took place with open AAI and
+hugging face. I want to give a kind of
+broader um comment as well which is that
+the human capital and financial capital
+in the world of AI that is thrown at
+pushing the capability frontier forward
+is just many many times greater than
+that human capital and financial capital
+given to establishing a scientific
+understanding or um a mechanistic
+interpretability and scientific practice
+of of of AI. So I think in the broader
+picture what we need to do is is to you
+know change the incentive structure that
+currently attaches extraordinarily high
+status extraordinarily high financial
+rewards to being able to push the
+capability frontier forward without us
+corresponding scientific basis for
+understanding how to control interpret
+understand explain model behavior. Only
+once we get that will we really have a a
+a really solid practice of thinking
+about how to use and control AI models.
+Most of the regulatory things we now um
+you know consider are something akin to
+band-aids put upon an engineering marvel
+without a scientific practice sitting
+underneath it.
+>> Yeah.
+>> Sorry go. Yeah. Go for it. Oh uh I guess
+like uh yeah Robert provide a very clear
+kind of picture of the of the science
+part. One thing I do want to point out
+in the meter study is that most of their
+analysis were actually done by AI and
+then the AI they used was actually one
+of the model like involved in the
+incident. So it's a little bit unclear
+like a circular to some extent and also
+if they read the report it also says
+that um we don't know whether the agent
+had had lied to to the investigators in
+this process and if so then it's really
+hard even to catch that. So I feel like
+uh uh there are just like a lot of
+independence independent evaluations we
+need to think about on how to even set
+up those independent evaluation. Right.
+So, so just to back this up, you're
+saying D essentially that the same agent
+that uh did this in the first place was
+also utilized by meter for the
+evaluation and we don't know if that
+agent may have even
+>> gone further and lied within its own
+investigation.
+>> Those those are possibilities. Yes. And
+I think like a lot of analysis show that
+models tend to prefer themsel like take
+on their own side. So that's definitely
+an artifact that we need to think about.
+So I think this gets to a larger point
+here and I do want to get to another
+question I have but I would I think
+having three academics who are deeply uh
+understand this technology uh we should
+talk about the level of transparency
+that we see here and one of the biggest
+issues I think for this is evidence that
+we need to understand what's happening
+in this in the first place and this lack
+of transparency unlike academia where we
+have where this technology has
+historically come from in the first
+place there was peer reviewed. You had
+to submit yourself to a publication and
+therefore prove that this was actually
+accurate or or what's happened this
+paradigm shift that has happened in the
+last few years since roughly about 2020
+2021 is this shift of industry just
+running away with this so much and their
+lack of transparency creates a serious
+situation here. We don't know what's
+happening and it's very difficult for us
+to share that. What are one your
+thoughts related to that and two what
+are remedies that we can have? I suppose
+that's a question for everybody right
+now. Let's punt that over to Syria
+first.
+>> Yeah, I can I can chime in. This is
+where I think open source is actually
+incredibly important and by open source
+I mean open weights, open uh uh training
+code, open data that it was trained on.
+It might seem non-intuitive from a
+safety perspective that we might want to
+if we're scared of AI, we might want to
+let AI open source AI perforate across
+the world. But but actually open source
+models are getting much more powerful.
+It's incredibly difficult to ban them
+outright, especially if they're coming
+from foreign countries. But two, they're
+actually a good thing from a safety
+perspective in the following sense. It
+breaks open the transparency barrier. it
+um open source models are only about a
+year to a few months behind the closed
+source models and it allows the entire
+world to kick the tires on them to do
+scientific analysis on them to reveal
+vulnerabilities to reveal striking
+capabilities. At the end of the day, we
+don't want to we we can't trust a small
+number of companies to have these models
+hide behind them even with um open uh
+even with uh monitors and evaluators
+coming in embedded in them. It it takes
+the entire world to keep us safe. So,
+wouldn't you rather have all the
+scientists of the world attacking the
+safety problem together on these open
+source models? And so I I think that's
+the antidote to the lack of transparency
+of of these closed uh models inside
+companies. And by the way, we shouldn't
+expect companies to reveal their trade
+secrets. They're not in it for the
+science. They're in it for economic
+returns and and so that's their
+prerogative. Uh subject to government
+regulation mandated transparency and and
+evaluation. But so so that's where I
+think open source is incredibly
+important and where universities and
+academia can play a very important role.
+Syria, but we often hear and it's the
+push back is is I think you're what you
+say on open source is kick the tires and
+everyone can kick the tires. But then
+the quick response to that is and now
+everyone also can do bad things the bad
+things. So
+>> how do we that is a conundrum that we
+need to mitigate for how do
+>> Yeah, it's a conundrum and and um but
+you know from a cyber security
+perspective the history of cyber
+security has always been a cat-and-
+mouse game between the good guys and the
+bad guys, right? And there's more good
+people in this world than there are bad
+people. So there's going to be defenses
+that come up, alignment that that that
+starts to try to be solved in an open
+way. So you know, this same thing played
+out in operating systems like Linux
+versus DOSs, right? DOSs is closed,
+Linux is open. And back then, people
+thought it was insane to have an opening
+operating system. It could never be made
+secure. But because of the cat-and-
+mouse game between defenders and
+attackers, the defenders did win. And
+Linux is pretty secure, right? So it's
+going to be something like that I think
+as things play out.
+>> Okay, just jump over to you Rob. What do
+you what are your thoughts on this
+transparency open source?
+>> Yeah. Let me let me take the one of the
+last points that Syria made because he
+he he became suddenly and I think
+importantly a kind of political
+economist uh there in observing that the
+governance structures the corporate form
+of a of a company that's trying to
+profit we shouldn't expect of an entity
+like that that it will gladly open up
+and be transparent about its trade
+secrets. Um that would be surprising in
+the history of capitalism. Now, it is
+true a little asterisk that these are
+not strictly speaking all for-profit
+companies. You know, OpenAI famously
+incorporated as a nonprofit, Anthropic
+as a public benefit corporation. And
+they make lots of outward-f facing
+gestures at certain kinds of
+transparency. But the core of the issue
+is to try to think of the broader
+ecosystem in the sense of thinking as a
+political economist. What are the
+governance forms? what are the corporate
+forms from which we could expect greater
+scientific progress in understanding and
+controlling the models. I agree
+provisionally in a certain way with
+Syria that the um open-source movement
+historically has tended on balance to
+serve um corporate interests well. I
+mean it's not in the interest of
+anthropic or open AI or Google deep mind
+to have a model that could cause
+extraordinary harm in the world that
+would under undermine their potential
+profit margins. The the open-source
+movement has been historically quite
+effective at generating um improved
+scientific practice within the the
+relevant field. I think the open
+question is whether or not something
+akin to general intelligence that you
+know we're on the frontier you know as
+Demis has put it the foothills of the
+singularity um if we are giving you know
+almost all people in the world access to
+an an amplification of intelligent
+capabilities for good and for ill what
+kinds of concerns arise there that are
+distinctive this particular moment and
+it's not just like you know Linux versus
+DOSS or something like that. It's
+something potentially more worrisome. I
+mean, so I put back to something like
+Syria.
+The conventional thing to say here is
+this, you know, is this like saying
+about, you know, nuclear materials that
+we should open source uranium and
+plutonium to people to see what they can
+do with it and kick the tires with
+nuclear materials. That would tend to
+be, you know, something that people
+would raise a lot of concerns of over.
+or you know should we allow everyone to
+have access to the small pox genome
+because now with bio you know
+biochemistry we can maybe unlock some
+incredible things. It's not obviously
+the case that open- sourcing everything
+always leads to an important set of
+scientific benefits. And I think it just
+remains a big open question at the
+moment how to how to navigate the
+tradeoff between the scientific progress
+we can expect by laying our emphasis on
+open source and the genuine risks we
+have to confront from even a few you
+know rogue agents taking advantage of
+super powerful intelligence in the form
+of a frontier model. Yeah. Can I just
+run really quickly? Like I agree that
+every analogy Linux versus DOSS or
+nuclear materials is an imperfect
+analogy for this time, right? Uh you
+know nuclear materials all have all
+these attendant risks with them. You
+need an expert to handle them and things
+like that. It's easy to control the
+supply chain of nuclear materials. It
+you know it's very very different right.
+>> Um I think any discussion of risks
+should also be balanced with
+opportunities. Uh because it's always a
+trade-off, right? uh in geopolitics it's
+the trade-off between freedom and
+security right like here it's the same
+thing it's hard to understand I I I also
+interact with the startup scene so these
+small startups there's an incredible
+level of innovation going on because
+different startups are building on
+different open- source models uh you
+know fine-tuning them and so forth and
+getting remarkable results in a way that
+don't rely on the closed source systems
+it brings prices down and so forth so
+there's an incredible opportunities
+there and I guarantee that all of us
+have benefited already from an open
+source system if you use any AI at all.
+Right? So, so there's always this
+trade-off and and different people will
+want to sit at different operating
+points in that trade-off and as a
+democratic society, we have to figure
+out how we as a democratic society will
+choose where society sits in that
+trade-off. But I just wanted to
+emphasize that it is a trade-off and you
+lose some things by by restricting
+access to open source. You lose very
+valuable things.
+Okay, D, why don't you pick up on that
+and uh the general point on open source
+and transparency,
+the information we need to lead the
+science that we're all talking about
+here.
+>> Yeah, I I agree with the the discussion
+here about open source, but I do want to
+point out that uh the world we live in
+uh most users use uh API based models uh
+use uh commercial models etc. So I think
+another dimension to think about
+transparency here is to see whether we
+could really achieve this like
+independent evaluation mechanism like
+how can we have like a standing access
+to evaluators um and then even like how
+to define like who is going to define
+like who are qualified as independent
+evaluators etc. So for me this is
+actually very very important. And the
+other thing that I think like in terms
+of transparency is about this kind of
+incident reporting. Um I do want to like
+emphasize this may be a little bit too
+detailed is that it's really hard to
+find those type of risk this kind of
+collusion. Um but if they happen it's
+going to be very consequential. So
+because it's really hard to detect
+those, you need a lot a lot of ways to
+either do simulation or
+um to kind of set it up. So the entire
+process is actually very very expensive
+to run in terms of the resources needed
+no matter whether you use open source
+models or API based models. And I think
+it's true that researchers like us can
+build a lot of tools to see um how can
+we do better isolation of those
+confounding factors? how can we analyze
+transcripts that do not depend on the
+model we are studying things like that
+but the the the process is actually
+quite re resource intensive I I do want
+to emphasize that
+>> okay let's just like pivot here and kind
+of come into this issue that has
+engendered this uh intense discussion
+nationally in particular um about uh
+it's not just being the hugging face
+open AI incident but more so over the
+last few weeks a lot of folks outside
+the AI research community have started
+to get familiar with the term of
+recursive self-improvement RSI and the
+idea that is that the frontier of AI can
+begin to train itself in this area.
+Anthropic has said that RSI now drives
+uh 26% of its R&D. Do you think it is
+likely that RSI will continue to drive
+more of the frontier research process
+and if it does will it become uh
+significantly harder for Frontier Labs
+to scale sandboxing measures and other
+internal safeguards? Essentially first
+what is your views on RSI but at the
+same time is this it kind of comingles a
+bit with the anxieties that we have
+here. Syria let's turn to you and pivot
+with that uh whole new subject. Yeah, I
+I mean I think RSI is a very interesting
+promising direction. I think we will get
+improved capabilities that way. I it is
+a little bit of sort of hill climbing in
+the local optimum that we are you know
+LLM the framework around LLMs harnesses
+and things like that but but I think
+there's still more juice to squeeze in
+terms of performance in that direction
+but I'm not sure it will get us sort of
+a a completely different paradigm shift
+in how we do artificial intelligence. uh
+you know there's still major gaps
+between for example biological
+intelligence artificial intelligence in
+terms of sample complexity in terms of
+energy efficiency and so forth but
+things will get better and and it may
+even outpace the ability of humans to
+understand uh uh things as they as they
+improve right so I think what I hope is
+happening at least what what what seems
+to be happening from the pronouncements
+of these various companies is that
+they're going to start investing more uh
+tokens and people uh into monitoring
+safety and that has to happen
+commenurate with the growth of
+capabilities. So if they recursively
+self-improve their base model and they
+recursively self-improve the monitoring
+models and the safety uh or align
+alignment uh misalignment detection
+models, then you sort of bootstrap these
+models against each other and create an
+arms race within the company. and that
+arms race if the the monitoring and
+misalignment detection models win, we
+will we will be safe. But if they go
+head first into recursive uh
+self-improvement of just capabilities
+alone, we might be in trouble. I mean,
+people are complaining about how nobody
+reads code as that much anymore uh in
+these uh AI systems. And so we're using
+AI to build AI. We're using AI to see
+the outcome of AI. It's almost like AI
+is serving as a perceptual barrier
+between human understanding and what's
+actually going on in the outside world.
+So then we do do we trust the AI that's
+becoming our perceptual barrier? These
+are all major questions. But I'm
+optimistic that if done right, if the
+recursive self-improvement is align is
+applied to all aspects of model
+development and safety development, then
+then we can do things better. Um, and
+it's also important to note that like I
+mean I know a lot of the researchers at
+these companies, they're good people.
+They have their heart in the right
+place. They really want to do good for
+society. Um it's it's a question of
+whether or not the the the um race
+dynamics that these companies are in
+will allow the sentiments of the
+researchers to prevail. That's that's
+the critical issue. I think
+>> the why don't you take it out from here
+and give us more of a continued
+contextual side on the technical side
+and I want I have some big societal
+questions for Rob that I want to pivot
+over to related to RSI.
+>> Yes. So uh personally I think like our
+side is a very exciting direction. Uh in
+my own research at Stanford we actually
+started working on like AI scientist a
+few years ago where we show that AI uh
+were able to generate a more novel
+research ideas compared to our PhD
+students. Um but then if you let like
+humans to execute those ideas there is a
+very clear execution ideation gap that
+is those ideas look promising they
+actually do not work as effective as
+human ideas and then uh earlier this
+year we were like since now coding agent
+are so powerful you can literally like
+execute the process. So we literally
+build a module to generate ideas and
+another module to execute the ideas and
+then we use the outcome to reinforce
+learning the process and search for
+better ideas. We do end up with some
+like really good ideas that are better
+than human ones. Um when I look into the
+process a lot of those ideas are
+actually uh hyperparame hyperparameter
+optimization. So um most of them are
+actually not at the algorithm or idea
+level. is actually more about like local
+optimization of different parameters.
+There there are some kind of good ideas.
+So if you think about this like further
+I don't know like how how long um we
+could achieve something that's really
+like substantial in terms of algorithm
+breakthrough but then on the other side
+I think all of those RSI today actually
+build on the assumption that we have
+signals that we can heal clamp that is
+the space is going to be very easy to
+specify there are clear reward signals
+that we can optimize towards and I do
+want to kind of like uh uh go back to
+the discussion here that is a lot of the
+open-ended questions a lot of the um
+kind of fuzzy subjective uh human
+related signals are actually really hard
+to be signals like that. So it may be
+true that I think RSI is going to make a
+lot of breakthrough in math and coding
+but then for a lot of the other fields
+it's a little bit unclear. Um so I do
+believe there is a strong kind of like
+human uh advantage and human touch in
+this process and also going back to
+Syria's point of this kind of legibility
+and human understanding. Um I think it's
+definitely going to be true that we will
+have more and more RSIish components on
+the human oversight side. But then how
+to get it right is another kind of
+deeper science question. I feel like in
+this panel we keep raising more and more
+scientific questions which we don't have
+solution yet.
+Yes, I think it's the era we're in. Rob,
+before I fully turn it over to you, I
+you know what I hear from DE in Syria is
+something really interesting. You were
+at HAI at the earliest days of its
+founding and one key part of our um uh
+pillars was the idea that we uh thought
+the technology should augment human
+capability, not replace humans. Right?
+And you see this tension of where you're
+you're uh you know Syria is saying AI on
+AI and DE is also making this point of
+the relationship between humans and AI
+and how we can actually have a much
+better outcomes when we augment human
+capability not replace it in this sense.
+Does that still ring true in an RSI
+world? I mean where are we with that?
+Yeah, I mean to to put it now less in
+technical or scientific terms but in
+philosophical language for me the kinds
+of concerns or questions that Syria and
+and D raise with respect to RSI is if we
+get extraordinary advances in
+capabilities but without a commensurate
+human understanding of how the
+capabilities are put to use. So for
+example in math if we get verified
+proofs but without human understanding
+or comprehension or if in science more
+generally we get extraordinary machine
+competence but without human
+comprehension
+that calls into question exactly what it
+is that you know these machine um tools
+are enabling for human beings. It will
+be something extraordinary to have
+knowledge without understanding. But
+what does it signal to human beings and
+the actual practice of science or math?
+And and the debate within the
+mathematical community now seems to put
+that front and center. What will come of
+the human practice of mathematics and
+the uses to which we can put
+breakthroughs in math if we don't
+fundamentally understand what it is that
+has been done by the models themselves.
+And you know to bring this then down
+from the philosophical level to a more
+tactical level about RSI itself. What
+this seems to suggest to me at least is
+that part of our transparency efforts
+should involve understanding more about
+what kind of progress is being made
+using RSI techniques within the within
+the companies. You know, for example,
+one transparency mechanism that I would
+be in favor of is transparency about the
+compute budget used in any company
+directed towards um training a frontier
+model using an using recursive
+self-improvement. I'm all with Syria
+that we should have some relative
+optimism if we have a kind of arms race
+within a company RSI used for pushing
+the capability frontier forward and for
+pushing the safety frontier forward. We
+we don't have any reason to guarantee
+that from the outside and so we would
+want to have some transparency about how
+it is that compute resources super
+scarce and costly are being used for
+various different purposes within a
+company. And you know to say the
+concrete implication of this if we
+suddenly saw that in a particular you
+know lab the compute budget was being
+directed almost exclusively toward an
+RSI training run for a frontier model
+without any you know commensurate
+efforts at safety that would raise a big
+red flag and that's the kind of thing
+that the broader public would deserve to
+know.
+>> Yeah. Could I jump in just because you
+mentioned math? It it just so happened
+that I I was speaking at the Harvard
+math department a few days after the
+Millennium Prize was solved, right? And
+this the the atmosphere there was
+electric with many many diverse opinions
+about you know speaking about augmenting
+human capabilities. Um the
+mathematicians were very worried about
+whether or not this would replace human
+capabilities essentially and there were
+many many opinions like the older
+professors themeritus professors were
+were like I'm so glad I don't have to
+live through this you know whereas the
+tenure younger tenure professors said
+this is fantastic like we can now use
+this to do all sorts of things and then
+the younger postocs and grad students
+were thinking what the heck do I do now
+any problem I can solve AI can probably
+solve it and moreover a company with
+like millions of dollars could scoop me
+right and and even younger people are
+thinking why should I go into math am
+[clears throat] I just going to be the
+interpreter of tea leaves of proofs
+generated by AI so there's a lot of
+existential angst uh in the math
+community um also some optimism but it
+it's it was really interesting to see
+that and it's going to come for other
+fields as well it's it's already come
+for coding but because coding is such a
+engineering um uh discipline with with
+the completion of objectives as a
+fundamental goal coders have dived into
+using coding agents because it's not
+about the art of coding, it's about
+getting stuff done. Whereas math is more
+of a fundamental scientific uh pursuit.
+So, so they're having much more
+existential angst about this.
+>> I I do want to add a quick comment here.
+Uh I think this is actually a really
+good point in a way that uh coding and
+math in a way that humans actually
+needed the skill to do the verification
+to understand the AI output. But because
+this technology is so convenient, anyone
+can actually click the button to get a
+very hard problem solved, we actually
+lose the process to practice this kind
+of thinking and verification. So I'm
+actually very worried in terms of like
+how to bring back this kind of
+productive struggle into the learning
+process so that we can be in a position
+where we can digest the AI output. And
+to me, this is actually something RSI
+can help. I think right now we are
+building AI to kind of optimize for task
+completion things like that. What if we
+could actually change the objective here
+of building AI that actually can help
+people learn, help people digest AI
+output easier, help us with some kind of
+long-term benefits. I don't know how to
+achieve that, but that's actually a
+optimistic goal we should have.
+>> So, it's a great conversation. And I'm
+not getting to all the questions that I
+have preloaded, but that's fine because
+I do want to ask about this because
+there's a lot of an uh you know uh Syria
+just noted the anxiety related to um
+that a lot of people are feeling that
+was more on the jobs front per se, but
+there is a lot of anxiety about RSI and
+more to the technical two that are here.
+We're hearing about uh from policy
+makers about a kill switch. What is the
+technical feasibility of such a kill
+switch? And are we create and one I'd
+like to know is that truly feasible? We
+refer to these kill switches and it is a
+policy measure that's being put into
+place. And then I'd love to hear Rob's
+opinion on this about a kill switch. Or
+do if it's not technically feasible, are
+we are we worried about creating false
+comfort through policy means that are
+not actually married up to the technical
+side? And this will get to a larger
+question I have on the slowdown, but de
+sorry if you want to comment on the kill
+switch side.
+>> D, do you want to go ahead and
+>> Yeah, de a first shot at that and then
+I'll jump over to Syria.
+Yeah. So I think like uh um
+I think in terms of like a kill switch
+it's it's probably like uh necessary but
+like I think we need to think carefully
+about like what to kind of uh uh switch
+off. Uh there has been a lot of
+discussions in terms of the capability
+and even if we go back to the the
+earlier incidents. Um on the capability
+side it was true that uh uh the agents
+actually cooperated with each other and
+then trying to find a very smart way
+towards their shared goal and in that
+process there are there are not any kind
+of like u uh newly created a goal. is
+actually doing the doing the task they
+actually figure out a different H
+solution. Um so I think it's slightly
+different. Um when we think about this
+kind of like kill switch or like even
+like think about like uh slow down.
+Um I wonder whether we should think
+about either it's about the capability
+or it's about this kind of auditing. To
+me those two divisions are actually very
+very different. And also like going back
+to the broader term like everyone's
+talking about AI. So how are we going to
+even define this term? Is AI here refers
+to those like very very powerful
+frontier models or is AI actually
+referring to a lot of the AI tools that
+all of us used? So it feels like the
+terminology we have for this big topic
+are just not very well defined. And when
+we think about this kind of switch slow
+down I wonder what is the granularity we
+are thinking about. Um it's probably a
+little bit uh not I mean this is this is
+going to get a little bit uh strategical
+but I think like capability wise it's
+probably okay but right now I personally
+care more about like how we can actually
+have more calibrated and careful
+understanding of those kind of risk that
+we have discussed so far.
+>> Yeah. I can add a little bit to that. I
+think the kill switch is a powerful
+metaphor but it's too impoverished of a
+metaphor for what we need. What we
+really need is a safety first
+architecture at all levels of the LLM
+stack and agent stack. You know, going
+from the LLM itself to the harness that
+it sits in with deterministic guardrails
+within the harness with multiple LLMs
+interacting with each other with limited
+objectives trying to control each other.
+I I'll give you an example from a
+company um that I'm familiar with,
+Hypocratic, which does uh LLMs to do
+nurse conversations at scale with
+patients after they leave the hospital.
+And so that's an incredibly sensitive
+area. It's um safety. They adopted a
+safety first architecture. I actually
+read their patent. Uh and it's not just
+one LLM. It's 20 different LLMs. A
+baseline LLM that suggests the
+conversation. Multiple LLMs that detect
+dangerous conversations like overdoses,
+misdiagnoses, and things like that. And
+they're all competing against each other
+to vet what's going to go out to the the
+patient. Then they monitor the entire
+thing. and they flag potentially
+problematic uh conversations
+automatically. Then they escalate them
+to nurses. Then the nurses look at them
+and they rewrite the conversations to
+make them better. And then the the
+paired conversation, the bad
+conversation and the the the good
+conversation go back to training the
+base LLM. So it's an incredibly
+sophisticated safety first architecture
+and that was part of the DNA of the
+company at its founding. Right? We need
+that kind of DNA in the frontier
+companies. that DNA was not necessarily
+there at the founding because
+capabilities didn't exist and the first
+priority was was enhanced capabilities.
+But I think these companies have got the
+message from the public that if they
+don't earn the trust of the public, they
+won't be able to make the money they
+want to make. And the hope is that that
+economic s incentive will force them to
+put safety first going forward. Right.
+>> Okay, Rob.
+>> Yeah. Well, I I would just note that the
+example that Syria just gave about
+hypocratic uh and more generally AI um
+solutions or or applications within the
+health care space. And the conventional
+thing to say here as a political
+scientist is that health care is a
+relatively highly regulated sector of
+the economy. And so any new AI entrant
+has to be aware of the fact that they're
+going to be subject to stricter than
+usual kinds of regulatory compliance.
+And I'm all for what Syria just
+described as a safety first architecture
+to building and deploying models. I'll
+just note that what I um would also
+commensurately hope for is that when AI
+applications or solutions are introduced
+into far less regulated spaces, there
+should be an effort to try to understand
+what types of liability and regulation
+would be good to have there rather than
+a kind of conventional
+anti-regulatory anti-governance stance
+which is sometimes what is celebrated
+and all I have in mind there is thing if
+you begin just with ordinary liability
+regimes and you know when when
+autonomous vehicles come online as you
+know my law colleagues our law
+colleagues will say autonomous vehicles
+are here and they're extraordinary and
+also um if they run over someone's foot
+someone has to be held liable and
+ordinary liability law will point the
+way forward on that open question is
+whether or not there are distinctive
+regulatory approach approaches that are
+necessary to the frontier model
+development companies as such or is it
+all on the application layer here I
+think there's something instructive to
+look at with respect to the European
+Union and its AI act which distinguishes
+between the foundation model layer and
+the application layer safety critical
+domains and non-safety critical domains
+and the essential thing to go back to
+the fundamental point that you know I
+think unites all of the conversation you
+know the American public is awakening to
+the significance of this technology and
+they've been primed to have a lot of
+anxiety. I mean, as as a a friend of
+mine put it um recently, you know, um I
+I I learned that um you know, people are
+going to make an um an extraordinary
+amount of money and from the technology
+I'm worried that um like my kids aren't
+going to be able to get a job because AI
+is going to displace people in the
+workforce. And then, you know, they're
+going to build data centers and the
+energy that's relatively scarce is going
+to go towards training machines rather
+than to human beings. And my energy
+bills are going up. And now I learned
+that it could also kill us all. Like
+what was the good part about the AI
+revolution? And I think that kind of
+reasonable point of view from the
+standpoint of an ordinary citizen is in
+some part a communication failure on
+behalf of Silicon Valley at large. like
+D and like Syria, I have extraordinary
+um hopes for the socially beneficial
+uses of AI and in order to strike the
+kind of balance that's required in order
+to you know to get the right balance
+between pushing capabilities forward and
+having legibility of the models and
+safety or the trade-offs that Serio was
+pointing um pointing to before within
+society about you know open source
+versus closed source and you know
+innovation um safety kind of trade-offs.
+Those aren't questions that are
+appropriately decided by the experts
+themselves. Those are in a democratic
+society importantly ultimately a
+deliberation amongst the public as
+refereed through our elections and our
+elected leaders. And that's the space we
+exist in now. My bone prediction is
+that, you know, already AI is rocketing
+it up the kind of political agenda in
+terms of its salience for ordinary
+citizens. By the time we get into 2027,
+the opening moments of the 2028 um
+presidential election, I think it'd only
+be more salient. And having a way to
+inform the public about the kinds of
+trade-offs that we all face collectively
+in addition to the geopolitical
+dimensions is one of the essential tasks
+that HAI faces and that anybody in the
+industry faces and you know the
+conversation really now is just
+beginning.
+Great. So I do want to turn to some
+audience Q&A. Uh I will say this is our
+first popup that we have done for a
+webinar. were normally much more
+planned. And for a popup that was
+advertised on a Friday afternoon and is
+now pushed out uh on a Monday uh
+morning, it uh we've had a ton of
+attendees and a lot of questions. So,
+I'm going to stick with uh this one
+because it does stick a little bit with
+the theme of where we talked about kill
+switches and concerns and that is
+there's a concern about uh quote
+emergent behavior from AI agents. Is
+this issue of emergent behavior or is
+this uh is the issue of emergent
+behavior or is it underspecified uh
+behavior agents exploiting the gaps at
+rules kind of reward hacking I think is
+DE would refer to it as what are we
+talking about are we seeing sparks or
+are we seeing uh of uh thinking here or
+is this just um built into the training
+>> yeah I'm happy to uh start here Um so
+the honest answer is that we don't know.
+Uh I think even if you look at the meter
+report of why those agents decided to
+hack hugging face it was actually a
+instrument for them to do their task and
+then going back to those terms here. So
+uh emerging capabilities or uh this is
+something that they they emerge like
+emerge from the process. Al although I
+do want to kind of point out that even
+in human societies there are a lot of
+times that uh we team up to do
+coordinated efforts since like that. So
+part of me is thinking about like maybe
+the the data we have kind of signal such
+uh behaviors. Uh one thing very
+interesting in the in the incident is
+that some agents were willing to
+sacrifice themsel because of limited
+budget and capabilities in order for the
+team to do their task. So this entire
+process is just like very interesting
+and then uh whether this is under
+specification or whether the entire
+incentive or reward design has some kind
+of shortcut. I think this part we do not
+know. Um to me I I still feel like that
+process is like huge. I don't think one
+can specify every single possibility and
+enumerating all the conditions. This is
+where things are a little bit hard like
+we right now don't have approach to see
+is this under specification that the
+system has some mechanism issues that
+get agents to find this shortcut or
+sparious correlations. Um we we do not
+know
+>> okay Sera you're a neuroscientist are we
+seeing sparks or not? Um, I would
+actually answer as a physicist. I think
+the notion of emergence has had a long
+history in physics where we see
+non-intuitive properties come out of
+atomic interactions. Like where does the
+wetness of water come from? Where does
+the metallic sheen of a metal come from?
+And we've made a lot of progress in
+physics. We have really powerful complex
+systems analysis tools to understand
+emergence in these other settings. Um,
+my take is that this presents another um
+setting in which we can use the the the
+tools of complex systems analysis to
+study it. But it's so new, right? That
+uh you know the physics of agents paper
+was our first stab at it. But there's so
+much more to do here. I agree with D.
+Right now we don't know the answer. But
+we have you know 500 years of
+mathematical development and and so
+forth to to try to take a stab at it.
+It'll be an all hands-on deck approach.
+We'll need computer scientists,
+physicists, neuroscientists to really
+attack it. Um and uh yeah, I'm actually
+excited about trying to really really
+get to the root of all of this stuff.
+you know, this notion of sacrificing
+yourself for the common good is a notion
+that permeates the training data, I'm
+sure, right? Um, so it's not surprising
+that they could latch on to that. It
+might be surprising as to why they latch
+on to that at that specific time, right?
+So there's sort of an amalgam of all the
+ideas that have existed out there, but
+but the other thing is the RL training
+that's done as well. And um we have less
+visibility into that. OpenAI said that
+their model was trained to be an
+especially persistent model, right?
+Whatever that means. So sort of solve
+things at all cost probably given a long
+chain of thought um time horizon and so
+forth. So that persistence is key. Would
+do we really want to release such
+persistent models into the world and if
+we could just make them less persistent
+would they be safer? You know so I think
+there's lots more to do here.
+>> Can I can I hop in there? I want to ask
+this as a as a question either for D or
+Syria, but like you know since since I
+think we've collectively emphasized the
+nent science of a IML um whether or not
+it's uh it's predictable or maybe
+desirable to, you know, have AI agents
+that are sacrificing themselves for the
+collective, leave that aside. I think we
+likely agree that it would not be a good
+thing for humans to develop AI agents
+that systematically deceive humans or
+attempt to deceive humans. And then for
+me the scientific question is well is
+that behavior that the agents displayed
+in the open AI hugging face incident
+learned in training or learned in
+post-training in RL and to the best of
+my understanding we don't know the
+answer to that question. And that to me
+>> open does open AAI know the answer to
+that question I think is is an important
+part is shaking her head no but okay
+sorry
+>> I mean in the report I mean they didn't
+know that this incident happened until
+open like until hugging face noticed
+that right like if they knew they should
+uh
+>> they should have know this earlier I
+think like I I I mean I I don't have
+answers for your question but I do have
+a related concept that we know a little
+bit about this is called a synopsy uh
+this is a phenomena where like AI try to
+please you. If you ask like is my idea
+good? They were like you are the
+smartest person on earth and this is
+actually a phenomena the researchers
+actually has been tracking in terms of
+like pre-training model instruction
+fine-tune the model and then the
+alignment process and you do see like um
+some kind of increase uh after like the
+alignment process like this is
+definitely something like a model pickup
+in the RL optimization process. I think
+part of them going back to what I shared
+earlier that is right now we are
+optimizing them to to decide which one
+is more preferred by human which one can
+lead to task completion but none of them
+are actually around like long-term
+benefits well-being for users and I
+think like one thing I do want to kind
+of like really want to share about the
+kill switch is that a lot of things we
+discussed today is about the capability
+but echo what Rob mentioned about the
+labor market. I think there are a lot of
+like slow erosion of human agency
+happening at the same time and it's
+really hard to think about kill switch
+there for example like synacy over
+reliance we lose skills of how to even
+understand AI output uh the mental
+health harm that those systems create a
+lot of them a lot of those are also
+equally as important as the capability
+side but like right now we just don't
+have attention or even like more clarity
+into the space which is also very
+concerning and uh yeah.
+>> Okay, Rob, back to you. Sorry
+mean to cut you off, but it was an
+interesting question as to whether even
+open I open AI knew where it was on
+that. Yeah, I mean the the big kind of
+macro picture for me is um you know as
+an outsider to the technical practice
+although you know I've been hanging
+around computer scientists now for a
+decade so I have some some
+conversational fluency and and
+understanding but I'm not um you know
+deeply technical person but to to hear
+um that the developers of the model
+themselves um aren't sure what the
+source of the behavior is between
+training and post-training
+um don't have a good way of predicting
+or controlling the behavior of the
+models. I mean I I you know with
+apologies to to D and Surya in a certain
+respect but you know metaphorically for
+me I've used this before is to say you
+know like the practice of a IML is kind
+of like a 19-year-old. um it's you know
+a teenager that's newly aware of their
+powers and capabilities but in certain
+respects they're just not fully mature
+humans yet and so they tend on balance
+not to do the trade-offs that Syria has
+been pointing us to especially well
+there you know they're a bit of a danger
+and social menace um in in the world and
+yes when we talk about AI policy and
+regulation there are certain things that
+governments can and should do but
+equally important in my view is to
+accelerate the professional maturity or
+scientific practice of building and
+understanding AI models themselves. And
+unless and until we get a much better
+scientific understanding, we'll be left
+with metaphors like kill switches as
+regulatory responses, which are nice in
+terms of slogans, but don't address the
+fundamental underlying questions about
+using the models for good and
+diminishing from a scientific point of
+view the potential bad use cases.
+Okay. So, let's uh we're we're pretty
+much at time, so I'm going to ask
+everyone just a quick uh final thought
+question. Probably 30 seconds each is
+what we really have. If we circle back
+to the title of the webinar, is a
+slowdown even possible at this point.
+That's 30 seconds or less. Sura, why
+don't you take that one first?
+>> I I think it's going to be hard to
+achieve a slowdown. What I hope is we'll
+have an acceleration of investment into
+safety, security, monitoring
+conccommittent with capability
+enhancement.
+>> KDE,
+>> I think a slowdown in terms of
+capability is really harder to achieve.
+I do wish that we can have more slowdown
+in terms of the deployment, risk,
+auditing etc. not only in terms of
+capabilities but also in terms of a lot
+of the social technical topics such as
+synopacy harms to mental health
+companion use labor market skill erosion
+Rob why don't you close it out for us
+>> yeah um the broader incentive structure
+um it really cuts against a slowdown so
+the you know the incentives are within a
+race dynamic to keep forging ahead even
+so though I would point to you the 1300
+plus people who signed this pacing the
+frontier um um statement. You know,
+they're hoping for some geopolitical or
+domestic um you know, regulatory regime
+that will will provide an opportunity
+for a slowdown. But I want to point out
+that they have within their own power to
+decide as Jacob Coxin did not contribute
+to the capability um um in increases and
+deployment. So, you know, like if the
+1300 people who signed that letter don't
+have in mind the possibility that they
+could do a one-day withdrawal of their
+labor as a signal to the world about how
+serious this is, then I'm not sure I
+take the whole letter seriously in the
+first place. Or to put it in different
+language, Sam Alman has his job now
+because during the blip, everyone posted
+a OpenAI is nothing without its
+employees. It was labor organizing that
+saved Sam Alman's job. Labor organizing
+in this ordinary sense can also be very
+consequential across labs to try to pace
+the frontier.
+>> Great. Well, thank you everybody. Thank
+you for your time. This was, as I noted,
+one of our first popups. We hope to do
+more of these to be bring the rigor and
+uh nuance and thoughtful conversations
+that we have here every day on
+Stanford's campus much more available to
+a broader audience. Um for those of you
+that are watching uh if you want to
+learn more about HAI, please go to
+hai.stanford.edu
+and also check out our events page. I
+think it was just noted in the chat that
+you can be able to access a lot of the
+seminars that we host on a regular
+basis. Uh in fact we have an upcoming
+seminar uh uh this coming this Wednesday
+uh at noon and if you're present in
+person please join us or uh check out
+the posting online. Thank you so much.

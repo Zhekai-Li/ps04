@@ -1,0 +1,182 @@
+{
+  "$defs": {
+    "Brief": {
+      "additionalProperties": false,
+      "properties": {
+        "piece_id": {
+          "enum": [
+            "01",
+            "02",
+            "03"
+          ],
+          "title": "Piece Id",
+          "type": "string"
+        },
+        "title": {
+          "title": "Title",
+          "type": "string"
+        },
+        "question": {
+          "title": "Question",
+          "type": "string"
+        },
+        "argument": {
+          "title": "Argument",
+          "type": "string"
+        },
+        "synthesis": {
+          "title": "Synthesis",
+          "type": "string"
+        },
+        "limitations": {
+          "title": "Limitations",
+          "type": "string"
+        },
+        "claims": {
+          "items": {
+            "$ref": "#/$defs/Claim"
+          },
+          "minItems": 1,
+          "title": "Claims",
+          "type": "array"
+        }
+      },
+      "required": [
+        "piece_id",
+        "title",
+        "question",
+        "argument",
+        "synthesis",
+        "limitations",
+        "claims"
+      ],
+      "title": "Brief",
+      "type": "object"
+    },
+    "Claim": {
+      "additionalProperties": false,
+      "properties": {
+        "claim_id": {
+          "pattern": "^(01|02|03)-c[1-9][0-9]*$",
+          "title": "Claim Id",
+          "type": "string"
+        },
+        "statement": {
+          "title": "Statement",
+          "type": "string"
+        },
+        "type": {
+          "enum": [
+            "reported_fact",
+            "source_claim",
+            "inference"
+          ],
+          "title": "Type",
+          "type": "string"
+        },
+        "evidence": {
+          "items": {
+            "$ref": "#/$defs/EvidenceReference"
+          },
+          "minItems": 1,
+          "title": "Evidence",
+          "type": "array"
+        }
+      },
+      "required": [
+        "claim_id",
+        "statement",
+        "type",
+        "evidence"
+      ],
+      "title": "Claim",
+      "type": "object"
+    },
+    "EvidenceReference": {
+      "additionalProperties": false,
+      "properties": {
+        "item_id": {
+          "title": "Item Id",
+          "type": "string"
+        },
+        "version_id": {
+          "title": "Version Id",
+          "type": "string"
+        },
+        "locator": {
+          "anyOf": [
+            {
+              "$ref": "#/$defs/TextLocator"
+            },
+            {
+              "$ref": "#/$defs/SegmentLocator"
+            }
+          ],
+          "title": "Locator"
+        }
+      },
+      "required": [
+        "item_id",
+        "version_id",
+        "locator"
+      ],
+      "title": "EvidenceReference",
+      "type": "object"
+    },
+    "SegmentLocator": {
+      "additionalProperties": false,
+      "properties": {
+        "type": {
+          "const": "segment",
+          "title": "Type",
+          "type": "string"
+        },
+        "segment_id": {
+          "title": "Segment Id",
+          "type": "string"
+        }
+      },
+      "required": [
+        "type",
+        "segment_id"
+      ],
+      "title": "SegmentLocator",
+      "type": "object"
+    },
+    "TextLocator": {
+      "additionalProperties": false,
+      "properties": {
+        "type": {
+          "const": "text",
+          "title": "Type",
+          "type": "string"
+        },
+        "quote": {
+          "title": "Quote",
+          "type": "string"
+        }
+      },
+      "required": [
+        "type",
+        "quote"
+      ],
+      "title": "TextLocator",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "briefs": {
+      "items": {
+        "$ref": "#/$defs/Brief"
+      },
+      "title": "Briefs",
+      "type": "array"
+    }
+  },
+  "required": [
+    "briefs"
+  ],
+  "title": "BriefBatch",
+  "type": "object"
+}

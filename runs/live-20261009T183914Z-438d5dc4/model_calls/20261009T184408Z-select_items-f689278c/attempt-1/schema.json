@@ -1,0 +1,66 @@
+{
+  "$defs": {
+    "Decision": {
+      "additionalProperties": false,
+      "properties": {
+        "item_id": {
+          "title": "Item Id",
+          "type": "string"
+        },
+        "version_id": {
+          "title": "Version Id",
+          "type": "string"
+        },
+        "decision": {
+          "enum": [
+            "accept",
+            "reject",
+            "defer"
+          ],
+          "title": "Decision",
+          "type": "string"
+        },
+        "reason": {
+          "title": "Reason",
+          "type": "string"
+        },
+        "piece_ids": {
+          "items": {
+            "enum": [
+              "01",
+              "02",
+              "03"
+            ],
+            "type": "string"
+          },
+          "title": "Piece Ids",
+          "type": "array"
+        }
+      },
+      "required": [
+        "item_id",
+        "version_id",
+        "decision",
+        "reason",
+        "piece_ids"
+      ],
+      "title": "Decision",
+      "type": "object"
+    }
+  },
+  "additionalProperties": false,
+  "properties": {
+    "decisions": {
+      "items": {
+        "$ref": "#/$defs/Decision"
+      },
+      "title": "Decisions",
+      "type": "array"
+    }
+  },
+  "required": [
+    "decisions"
+  ],
+  "title": "DecisionBatch",
+  "type": "object"
+}

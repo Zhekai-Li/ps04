@@ -1,0 +1,127 @@
+You have 400 PDFs scattered across your
+hard drive with names like final paper
+version 3 and downloaded file 2847
+plus an entire Zotero library that
+you're not sure how to move. And you're
+wondering, can I actually get these into
+Paperpile without starting over? Well,
+the good news is yes, it's actually
+pretty easy to get everything organized
+and in one place. So, let me show you
+three ways to bring everything you
+already have into Paperpile.
+In this video, I'll walk you through how
+to import your existing research into
+Paperpile without rebuilding it from
+scratch. Now, method one is uploading
+unorganized PDFs. So, this is where
+you've got folder, several folders full
+of PDFs including those with unclear or
+inconsistent file names. Method two is
+importing from another reference
+manager. So, if you're already using
+Zotero, Mendeley, or EndNote, or
+anything else that can export to RIS or
+BibTeX, you can bring across your
+library with all its metadata.
+Method three is combining both. So, you
+can export your library as RIS or BibTeX
+file and upload your PDFs at the same
+time so Paperpile can match everything
+automatically.
+So, let's start with the messiest,
+perhaps the most realistic scenario for
+researchers, which is that you've got
+hundreds of PDFs on your computer with
+very little organization. Now, it's easy
+to do when you're conducting a
+literature search online. To import
+these into your Paperpile library, go to
+the top left and click add, then upload
+files. Now, you can click choose files
+or choose folder or just drag and drop
+the folder directly into the Paperpile
+window. The upload dialog will appear
+automatically.
+Before you upload, there are a few
+settings that are worth checking.
+Firstly, check where you want to upload
+your papers. Instead of just sending
+everything into my library, choose a
+specific folder or create a new one so
+that you can review what came in. Then
+skip duplicates, which is on by default,
+and Paperpile won't import references
+that you already have.
+Next, keep folder organization. If your
+PDFs are already organized into
+subfolders on your computer, turn this
+on and Paperpile will recreate that
+structure in your library.
+Once everything is set, click upload.
+You'll see a progress window showing how
+many files are uploading and how many
+are complete. This may take a couple of
+minutes depending on how many files
+you're adding to your library.
+Paperpile analyzes each PDF, extracts
+the text, and searches online databases
+to find the correct metadata.
+So, something like downloaded 2847
+becomes a proper reference with a title,
+authors, journal, year, and DOI.
+Now, let's look at importing from
+another reference manager.
+Click add, then import from other
+programs.
+Choose your reference manager from the
+options listed, and Paperpile guides you
+through the export and import process
+step by step.
+Once you connect to your library or
+upload the exported file, Paperpile
+imports all of your references with full
+metadata, so everything comes across
+into your library.
+Paperpile cleans up the metadata and
+skips duplicates automatically.
+Now, the third option, which is
+combining both.
+So, you'll have a bunch of different
+file types and a folder of PDFs.
+Upload your bibliographic file and your
+PDFs together by dragging them into
+Paperpile.
+Paperpile will automatically match the
+PDF to the correct references.
+Once your import finishes, there are a
+few quick things to do. First, review
+what you've imported. If you've created
+a folder or label, click it in the
+sidebar to see everything.
+Next, check for incomplete references.
+Open the filter menu and select
+incomplete. Now, these are your missing
+metadata. You can edit them manually or
+let Paperpile try to update them
+automatically.
+Next, check for duplicates. Open the
+filter menu and select duplicates. And
+if you see the same paper twice, select
+them and merge them.
+Paperpile keeps the correct metadata and
+removes the duplicate.
+If a PDF didn't attach correctly, you
+can fix that by clicking the paper clip
+and attaching the file manually.
+Don't worry about getting everything
+perfectly organized right away. The goal
+is just to get your library into
+Paperpile.
+Once everything is in one place, it
+becomes much easier to organize, search,
+and actually use your papers.
+So, whether you're bringing in 50 PDFs
+or 5,000 references, Paperpile handles
+the import so that you don't have to
+start over.

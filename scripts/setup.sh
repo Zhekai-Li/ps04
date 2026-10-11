@@ -8,4 +8,4 @@ python3.12 -m venv .venv || exit 1
 .venv/bin/python -m pip install --upgrade pip
 .venv/bin/python -m pip install -r requirements.txt
 mkdir -p data/assets data/cache data/evidence data/media runs
-echo "Environment ready. Set OPENAI_API_KEY locally, then run: bash scripts/check_openai.sh" >&2
+echo "Environment ready. Log in with 'codex login', then run: bash scripts/check_backends.sh --download" >&2

@@ -1,0 +1,728 @@
+[
+  {
+    "segment_id": "yt-00001",
+    "start_seconds": 0.72,
+    "end_seconds": 4.72,
+    "text": "In the debate over workplace automation,"
+  },
+  {
+    "segment_id": "yt-00002",
+    "start_seconds": 3.04,
+    "end_seconds": 6.6,
+    "text": "tech developers and accessibility"
+  },
+  {
+    "segment_id": "yt-00003",
+    "start_seconds": 4.72,
+    "end_seconds": 7.84,
+    "text": "advocates are confronting a critical"
+  },
+  {
+    "segment_id": "yt-00004",
+    "start_seconds": 6.6,
+    "end_seconds": 9.52,
+    "text": "divide."
+  },
+  {
+    "segment_id": "yt-00005",
+    "start_seconds": 7.84,
+    "end_seconds": 11.2,
+    "text": "Researchers warn that replacing"
+  },
+  {
+    "segment_id": "yt-00006",
+    "start_seconds": 9.52,
+    "end_seconds": 14.12,
+    "text": "human-centered accommodations with"
+  },
+  {
+    "segment_id": "yt-00007",
+    "start_seconds": 11.2,
+    "end_seconds": 16.0,
+    "text": "unvetted AI tools creates a false sense"
+  },
+  {
+    "segment_id": "yt-00008",
+    "start_seconds": 14.12,
+    "end_seconds": 18.32,
+    "text": "of inclusion and are calling for a"
+  },
+  {
+    "segment_id": "yt-00009",
+    "start_seconds": 16.0,
+    "end_seconds": 20.44,
+    "text": "fundamental shift that puts disabled"
+  },
+  {
+    "segment_id": "yt-00010",
+    "start_seconds": 18.32,
+    "end_seconds": 23.12,
+    "text": "workers in control of the technology"
+  },
+  {
+    "segment_id": "yt-00011",
+    "start_seconds": 20.44,
+    "end_seconds": 25.28,
+    "text": "shaping their careers. Join us [music]"
+  },
+  {
+    "segment_id": "yt-00012",
+    "start_seconds": 23.12,
+    "end_seconds": 28.72,
+    "text": "as we speak with Chancey Fleet to"
+  },
+  {
+    "segment_id": "yt-00013",
+    "start_seconds": 25.28,
+    "end_seconds": 31.08,
+    "text": "discuss AI and the future of accessible"
+  },
+  {
+    "segment_id": "yt-00014",
+    "start_seconds": 28.72,
+    "end_seconds": 33.72,
+    "text": "work."
+  },
+  {
+    "segment_id": "yt-00015",
+    "start_seconds": 31.08,
+    "end_seconds": 35.88,
+    "text": ">> In this paper, we wanted to identify"
+  },
+  {
+    "segment_id": "yt-00016",
+    "start_seconds": 33.72,
+    "end_seconds": 36.68,
+    "text": "structural, organizational, and social"
+  },
+  {
+    "segment_id": "yt-00017",
+    "start_seconds": 35.88,
+    "end_seconds": 36.88,
+    "text": "issues"
+  },
+  {
+    "segment_id": "yt-00018",
+    "start_seconds": 36.68,
+    "end_seconds": 40.48,
+    "text": ">> [music]"
+  },
+  {
+    "segment_id": "yt-00019",
+    "start_seconds": 36.88,
+    "end_seconds": 42.28,
+    "text": ">> that occur at the nexus of AI access and"
+  },
+  {
+    "segment_id": "yt-00020",
+    "start_seconds": 40.48,
+    "end_seconds": 44.36,
+    "text": "employment [music] when it comes to"
+  },
+  {
+    "segment_id": "yt-00021",
+    "start_seconds": 42.28,
+    "end_seconds": 47.36,
+    "text": "workers with disabilities. There's been"
+  },
+  {
+    "segment_id": "yt-00022",
+    "start_seconds": 44.36,
+    "end_seconds": 50.16,
+    "text": "a lot of excitement, exploration, dare I"
+  },
+  {
+    "segment_id": "yt-00023",
+    "start_seconds": 47.36,
+    "end_seconds": 52.16,
+    "text": "say hype when it comes to AI, and a lot"
+  },
+  {
+    "segment_id": "yt-00024",
+    "start_seconds": 50.16,
+    "end_seconds": 54.16,
+    "text": "of really hurried, frenetic"
+  },
+  {
+    "segment_id": "yt-00025",
+    "start_seconds": 52.16,
+    "end_seconds": 57.28,
+    "text": "implementation, particularly in the"
+  },
+  {
+    "segment_id": "yt-00026",
+    "start_seconds": 54.16,
+    "end_seconds": 61.8,
+    "text": "enterprise sector. And there's a lot of"
+  },
+  {
+    "segment_id": "yt-00027",
+    "start_seconds": 57.28,
+    "end_seconds": 64.19,
+    "text": "interest in using AI to flatten"
+  },
+  {
+    "segment_id": "yt-00028",
+    "start_seconds": 61.8,
+    "end_seconds": 65.56,
+    "text": "inaccessibility and flatten inequities."
+  },
+  {
+    "segment_id": "yt-00029",
+    "start_seconds": 64.19,
+    "end_seconds": 67.16,
+    "text": "[music] And in some situations, maybe"
+  },
+  {
+    "segment_id": "yt-00030",
+    "start_seconds": 65.56,
+    "end_seconds": 72.08,
+    "text": "that can happen."
+  },
+  {
+    "segment_id": "yt-00031",
+    "start_seconds": 67.16,
+    "end_seconds": 75.08,
+    "text": "But all of that hype may mask the rise"
+  },
+  {
+    "segment_id": "yt-00032",
+    "start_seconds": 72.08,
+    "end_seconds": 77.56,
+    "text": "of new barriers and new inequities that"
+  },
+  {
+    "segment_id": "yt-00033",
+    "start_seconds": 75.08,
+    "end_seconds": 79.64,
+    "text": "can be created by [music] AI. In"
+  },
+  {
+    "segment_id": "yt-00034",
+    "start_seconds": 77.56,
+    "end_seconds": 80.92,
+    "text": "particular, I want to highlight that AI"
+  },
+  {
+    "segment_id": "yt-00035",
+    "start_seconds": 79.64,
+    "end_seconds": 82.24,
+    "text": "tools"
+  },
+  {
+    "segment_id": "yt-00036",
+    "start_seconds": 80.92,
+    "end_seconds": 84.44,
+    "text": "are not"
+  },
+  {
+    "segment_id": "yt-00037",
+    "start_seconds": 82.24,
+    "end_seconds": 86.68,
+    "text": "solely in the users', the workers', or"
+  },
+  {
+    "segment_id": "yt-00038",
+    "start_seconds": 84.44,
+    "end_seconds": 89.08,
+    "text": "even the companies' control, right? They"
+  },
+  {
+    "segment_id": "yt-00039",
+    "start_seconds": 86.68,
+    "end_seconds": 89.24,
+    "text": "can be adjusted without warning,"
+  },
+  {
+    "segment_id": "yt-00040",
+    "start_seconds": 89.08,
+    "end_seconds": 90.96,
+    "text": ">> [music]"
+  },
+  {
+    "segment_id": "yt-00041",
+    "start_seconds": 89.24,
+    "end_seconds": 92.4,
+    "text": ">> which means that they can be unreliable"
+  },
+  {
+    "segment_id": "yt-00042",
+    "start_seconds": 90.96,
+    "end_seconds": 94.64,
+    "text": "in practice."
+  },
+  {
+    "segment_id": "yt-00043",
+    "start_seconds": 92.4,
+    "end_seconds": 96.52,
+    "text": "Outputs can vary even for the same user,"
+  },
+  {
+    "segment_id": "yt-00044",
+    "start_seconds": 94.64,
+    "end_seconds": 100.28,
+    "text": "the same exact model."
+  },
+  {
+    "segment_id": "yt-00045",
+    "start_seconds": 96.52,
+    "end_seconds": 102.68,
+    "text": "And when AI does fail, that failure can"
+  },
+  {
+    "segment_id": "yt-00046",
+    "start_seconds": 100.28,
+    "end_seconds": 104.72,
+    "text": "block a worker from doing their work,"
+  },
+  {
+    "segment_id": "yt-00047",
+    "start_seconds": 102.68,
+    "end_seconds": 106.88,
+    "text": "or it can create an error"
+  },
+  {
+    "segment_id": "yt-00048",
+    "start_seconds": 104.72,
+    "end_seconds": 109.2,
+    "text": "that the worker is going to bear the"
+  },
+  {
+    "segment_id": "yt-00049",
+    "start_seconds": 106.88,
+    "end_seconds": 110.696,
+    "text": "responsibility for because an AI can't"
+  },
+  {
+    "segment_id": "yt-00050",
+    "start_seconds": 109.2,
+    "end_seconds": 111.0,
+    "text": "receive accountability."
+  },
+  {
+    "segment_id": "yt-00051",
+    "start_seconds": 110.696,
+    "end_seconds": 112.96,
+    "text": ">> [music]"
+  },
+  {
+    "segment_id": "yt-00052",
+    "start_seconds": 111.0,
+    "end_seconds": 115.28,
+    "text": ">> Access washing is real."
+  },
+  {
+    "segment_id": "yt-00053",
+    "start_seconds": 112.96,
+    "end_seconds": 117.96,
+    "text": "AI companies have"
+  },
+  {
+    "segment_id": "yt-00054",
+    "start_seconds": 115.28,
+    "end_seconds": 120.52,
+    "text": "legitimate benefits to offer disabled"
+  },
+  {
+    "segment_id": "yt-00055",
+    "start_seconds": 117.96,
+    "end_seconds": 123.04,
+    "text": "workers and disabled people,"
+  },
+  {
+    "segment_id": "yt-00056",
+    "start_seconds": 120.52,
+    "end_seconds": 124.84,
+    "text": "but those benefits are packaged into a"
+  },
+  {
+    "segment_id": "yt-00057",
+    "start_seconds": 123.04,
+    "end_seconds": 127.84,
+    "text": "highlight reel to sell us on the"
+  },
+  {
+    "segment_id": "yt-00058",
+    "start_seconds": 124.84,
+    "end_seconds": 130.44,
+    "text": "proposition that AI is so good that we"
+  },
+  {
+    "segment_id": "yt-00059",
+    "start_seconds": 127.84,
+    "end_seconds": 134.04,
+    "text": "can give up our privacy, that we can"
+  },
+  {
+    "segment_id": "yt-00060",
+    "start_seconds": 130.44,
+    "end_seconds": 136.24,
+    "text": "give up built-in access, that we can"
+  },
+  {
+    "segment_id": "yt-00061",
+    "start_seconds": 134.04,
+    "end_seconds": 138.959,
+    "text": "skirt things like data retention"
+  },
+  {
+    "segment_id": "yt-00062",
+    "start_seconds": 136.24,
+    "end_seconds": 142.52,
+    "text": "requirements that limit what AI can do."
+  },
+  {
+    "segment_id": "yt-00063",
+    "start_seconds": 138.959,
+    "end_seconds": 144.756,
+    "text": "We are used as a powerful use case. It's"
+  },
+  {
+    "segment_id": "yt-00064",
+    "start_seconds": 142.52,
+    "end_seconds": 146.76,
+    "text": "so appealing that we have to question it"
+  },
+  {
+    "segment_id": "yt-00065",
+    "start_seconds": 144.756,
+    "end_seconds": 148.959,
+    "text": "[music] because we can't exchange that"
+  },
+  {
+    "segment_id": "yt-00066",
+    "start_seconds": 146.76,
+    "end_seconds": 150.84,
+    "text": "{quote} freedom for the loss of our"
+  },
+  {
+    "segment_id": "yt-00067",
+    "start_seconds": 148.959,
+    "end_seconds": 152.88,
+    "text": "privacy and security."
+  },
+  {
+    "segment_id": "yt-00068",
+    "start_seconds": 150.84,
+    "end_seconds": 155.12,
+    "text": "We have to engage people with lived"
+  },
+  {
+    "segment_id": "yt-00069",
+    "start_seconds": 152.88,
+    "end_seconds": 155.891,
+    "text": "experience of disability all across the"
+  },
+  {
+    "segment_id": "yt-00070",
+    "start_seconds": 155.12,
+    "end_seconds": 156.24,
+    "text": "spectrum."
+  },
+  {
+    "segment_id": "yt-00071",
+    "start_seconds": 155.891,
+    "end_seconds": 159.6,
+    "text": ">> [music]"
+  },
+  {
+    "segment_id": "yt-00072",
+    "start_seconds": 156.24,
+    "end_seconds": 163.28,
+    "text": ">> We have to study situated real-world"
+  },
+  {
+    "segment_id": "yt-00073",
+    "start_seconds": 159.6,
+    "end_seconds": 165.061,
+    "text": "uses of AI by disabled workers, listen"
+  },
+  {
+    "segment_id": "yt-00074",
+    "start_seconds": 163.28,
+    "end_seconds": 165.48,
+    "text": "to workers, listen to teams,"
+  },
+  {
+    "segment_id": "yt-00075",
+    "start_seconds": 165.061,
+    "end_seconds": 168.56,
+    "text": ">> [music]"
+  },
+  {
+    "segment_id": "yt-00076",
+    "start_seconds": 165.48,
+    "end_seconds": 170.84,
+    "text": ">> and understand that AI can play a role,"
+  },
+  {
+    "segment_id": "yt-00077",
+    "start_seconds": 168.56,
+    "end_seconds": 173.72,
+    "text": "but that individual workers need to be"
+  },
+  {
+    "segment_id": "yt-00078",
+    "start_seconds": 170.84,
+    "end_seconds": 176.04,
+    "text": "centered in any decisions, and that AI"
+  },
+  {
+    "segment_id": "yt-00079",
+    "start_seconds": 173.72,
+    "end_seconds": 177.08,
+    "text": "needs to be an opt-in tool, not"
+  },
+  {
+    "segment_id": "yt-00080",
+    "start_seconds": 176.04,
+    "end_seconds": 179.44,
+    "text": "something that we're pressured to"
+  },
+  {
+    "segment_id": "yt-00081",
+    "start_seconds": 177.08,
+    "end_seconds": 182.092,
+    "text": "accept. We need to empower disabled"
+  },
+  {
+    "segment_id": "yt-00082",
+    "start_seconds": 179.44,
+    "end_seconds": 182.48,
+    "text": "people to lead community-based"
+  },
+  {
+    "segment_id": "yt-00083",
+    "start_seconds": 182.092,
+    "end_seconds": 185.4,
+    "text": ">> [music]"
+  },
+  {
+    "segment_id": "yt-00084",
+    "start_seconds": 182.48,
+    "end_seconds": 189.36,
+    "text": ">> AI auditing. We need to be involved in"
+  },
+  {
+    "segment_id": "yt-00085",
+    "start_seconds": 185.4,
+    "end_seconds": 190.88,
+    "text": "every stage of AIs [music] development,"
+  },
+  {
+    "segment_id": "yt-00086",
+    "start_seconds": 189.36,
+    "end_seconds": 194.2,
+    "text": "remediation,"
+  },
+  {
+    "segment_id": "yt-00087",
+    "start_seconds": 190.88,
+    "end_seconds": 196.16,
+    "text": "moderation, and evaluation for AI to"
+  },
+  {
+    "segment_id": "yt-00088",
+    "start_seconds": 194.2,
+    "end_seconds": 197.157,
+    "text": "ever effectively support disabled"
+  },
+  {
+    "segment_id": "yt-00089",
+    "start_seconds": 196.16,
+    "end_seconds": 197.239,
+    "text": "workers."
+  },
+  {
+    "segment_id": "yt-00090",
+    "start_seconds": 197.157,
+    "end_seconds": 199.12,
+    "text": ">> [music]"
+  },
+  {
+    "segment_id": "yt-00091",
+    "start_seconds": 197.239,
+    "end_seconds": 201.88,
+    "text": ">> So, you might think from the tone of"
+  },
+  {
+    "segment_id": "yt-00092",
+    "start_seconds": 199.12,
+    "end_seconds": 203.76,
+    "text": "this interview that I'm not a big fan of"
+  },
+  {
+    "segment_id": "yt-00093",
+    "start_seconds": 201.88,
+    "end_seconds": 207.0,
+    "text": "AI for accessibility, but as a blind"
+  },
+  {
+    "segment_id": "yt-00094",
+    "start_seconds": 203.76,
+    "end_seconds": 210.32,
+    "text": "person, I use it every single day. It is"
+  },
+  {
+    "segment_id": "yt-00095",
+    "start_seconds": 207.0,
+    "end_seconds": 212.72,
+    "text": "enmeshed in our lives to a degree that"
+  },
+  {
+    "segment_id": "yt-00096",
+    "start_seconds": 210.32,
+    "end_seconds": 215.959,
+    "text": "might surprise you, and there's a"
+  },
+  {
+    "segment_id": "yt-00097",
+    "start_seconds": 212.72,
+    "end_seconds": 218.8,
+    "text": "complex tension there. We are the"
+  },
+  {
+    "segment_id": "yt-00098",
+    "start_seconds": 215.959,
+    "end_seconds": 221.4,
+    "text": "bellwethers. We are in this pretty deep"
+  },
+  {
+    "segment_id": "yt-00099",
+    "start_seconds": 218.8,
+    "end_seconds": 222.88,
+    "text": "as disabled workers. We have a lot to"
+  },
+  {
+    "segment_id": "yt-00100",
+    "start_seconds": 221.4,
+    "end_seconds": 227.2,
+    "text": "teach"
+  },
+  {
+    "segment_id": "yt-00101",
+    "start_seconds": 222.88,
+    "end_seconds": 229.64,
+    "text": "the digital commons at large about"
+  },
+  {
+    "segment_id": "yt-00102",
+    "start_seconds": 227.2,
+    "end_seconds": 232.519,
+    "text": "using AI mindfully [music] and"
+  },
+  {
+    "segment_id": "yt-00103",
+    "start_seconds": 229.64,
+    "end_seconds": 235.64,
+    "text": "protecting ourselves and our business"
+  },
+  {
+    "segment_id": "yt-00104",
+    "start_seconds": 232.519,
+    "end_seconds": 238.2,
+    "text": "interests when it comes to AI."
+  },
+  {
+    "segment_id": "yt-00105",
+    "start_seconds": 235.64,
+    "end_seconds": 240.84,
+    "text": "We don't always have"
+  },
+  {
+    "segment_id": "yt-00106",
+    "start_seconds": 238.2,
+    "end_seconds": 243.007,
+    "text": "as [music] much power in the development"
+  },
+  {
+    "segment_id": "yt-00107",
+    "start_seconds": 240.84,
+    "end_seconds": 243.68,
+    "text": "and design and remediation of AI tools"
+  },
+  {
+    "segment_id": "yt-00108",
+    "start_seconds": 243.007,
+    "end_seconds": 245.8,
+    "text": "[music]"
+  },
+  {
+    "segment_id": "yt-00109",
+    "start_seconds": 243.68,
+    "end_seconds": 248.902,
+    "text": "or in when to use them"
+  },
+  {
+    "segment_id": "yt-00110",
+    "start_seconds": 245.8,
+    "end_seconds": 249.08,
+    "text": "as we have insight and wisdom and"
+  },
+  {
+    "segment_id": "yt-00111",
+    "start_seconds": 248.902,
+    "end_seconds": 250.12,
+    "text": ">> [music]"
+  },
+  {
+    "segment_id": "yt-00112",
+    "start_seconds": 249.08,
+    "end_seconds": 252.64,
+    "text": ">> that"
+  },
+  {
+    "segment_id": "yt-00113",
+    "start_seconds": 250.12,
+    "end_seconds": 254.76,
+    "text": "power differential needs to go away in"
+  },
+  {
+    "segment_id": "yt-00114",
+    "start_seconds": 252.64,
+    "end_seconds": 258.12,
+    "text": "order for us to"
+  },
+  {
+    "segment_id": "yt-00115",
+    "start_seconds": 254.76,
+    "end_seconds": 260.84,
+    "text": "help craft a future for AI tools that is"
+  },
+  {
+    "segment_id": "yt-00116",
+    "start_seconds": 258.12,
+    "end_seconds": 263.48,
+    "text": "accessible and respectful of all human"
+  },
+  {
+    "segment_id": "yt-00117",
+    "start_seconds": 260.84,
+    "end_seconds": 263.48,
+    "text": "beings."
+  },
+  {
+    "segment_id": "yt-00118",
+    "start_seconds": 264.0,
+    "end_seconds": 269.6,
+    "text": ">> Find out more in AI and the future of"
+  },
+  {
+    "segment_id": "yt-00119",
+    "start_seconds": 267.84,
+    "end_seconds": 274.04,
+    "text": "accessible work."
+  },
+  {
+    "segment_id": "yt-00120",
+    "start_seconds": 269.6,
+    "end_seconds": 278.88,
+    "text": "A research article in the October 2026"
+  },
+  {
+    "segment_id": "yt-00121",
+    "start_seconds": 274.04,
+    "end_seconds": 278.88,
+    "text": "Communications of the ACM."
+  }
+]

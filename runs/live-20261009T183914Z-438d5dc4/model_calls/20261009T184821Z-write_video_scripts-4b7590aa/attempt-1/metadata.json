@@ -1,0 +1,20 @@
+{
+  "provider": "codex-cli",
+  "billing_mode": "chatgpt_plan",
+  "model": "gpt-5.6-sol",
+  "reasoning_effort": "high",
+  "response_id": "01a121fe-add5-7a03-9b30-9dbcfb5ec216",
+  "usage": {
+    "input_tokens": 27221,
+    "cached_input_tokens": 11392,
+    "cache_write_input_tokens": 0,
+    "output_tokens": 4033,
+    "reasoning_output_tokens": 257
+  },
+  "cost_usd": null,
+  "cost_estimated": false,
+  "elapsed_seconds": 58.573,
+  "cli_version": "codex-cli 0.162.0",
+  "attempt": 1,
+  "returncode": 0
+}

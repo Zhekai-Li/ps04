@@ -1,0 +1,1031 @@
+So, a little bit about me. Uh, I've been
+in higher education and research for
+quite a long time now. So, I think it's
+actually more than 25 years. Um, been
+across a whole lot of different domains.
+Started out with statistics and then
+kind of statistics, data science, and
+now a lot of AI and a lot of education
+as well. Um, but I've drifted into
+finance at the moment. I work much more
+on the medical field. Uh, I and of the
+various things you can see, I do a whole
+lot of different things all at once. Um
+but the one that I will be really kind
+of using the lens of today is I review
+for a number of different journals uh
+across mainly medical. Uh for medical
+it's more I look at the stat stuff
+medical education and business but over
+the years I've kind of had quite a wide
+range.
+uh I've been a grant reviewer for a
+number of different grants and through
+my current uh RACGP role I also manage
+some grant programs as well. So in that
+I'm thinking [cough] not about as a
+researcher but I'm thinking about kind
+of policy and managing grant programs
+and how we handle AI. Um and as we go I
+might mention a few things about our our
+policy and how we handle that as well.
+Uh, I think that's all the important
+stuff. Uh, and I guess obligatory
+picture of one of the pets who looks
+pretty happy about the tennis balls.
+Okay, so let's start looking at some red
+flags. And we're going to start with
+kind of the lazy and sloppy ones and
+then we'll move into a couple of the
+more nuanced ones and then kind of round
+out with a couple of the the slightly
+more unethical ones.
+Okay, so I don't know if you saw this
+article last week, uh, but this guy from
+University of Chicago has written 257
+papers. And you might go, "Wow, that's a
+lot of papers to write over your
+career." But actually, all of those
+written this year, 2026, so in the past
+9 months,
+that is absurd.
+uh and there is no way you can produce
+that much and have it at any amount of
+reasonable quality. And this is
+something that I've seen quite a lot. Um
+I've got another slide later on uh where
+I'll kind of reiterate this, but
+reviewers and editors are just getting
+really frustrated with increased volumes
+and decreased quality. more and more
+papers are coming in and they're getting
+worse and worse and some of them really
+just it's very obvious where someone has
+AIed it um sometimes a little bit more
+subtle
+but it's it's becoming a real problem in
+academic publishing and for those of you
+uh from the poll I saw we've got a bit
+of a mix we've got research students
+we've got people who are faculty and
+researchers um for those of you who are
+more junior I mean this this is
+potentially going to impact your whole
+career those of you like me who are much
+more experienced
+This is still a headache and something
+we really need to be thinking about. It
+also is an issue I think for when you're
+applying for jobs. I've received CVs
+where
+very much like this person there is just
+this obscene list of publications
+and
+they just they're going to really
+lowquality places and you look at them
+and they just they've been done with AI
+but they've just been done in a really
+lazy sloppy way. So I think and it's
+again something I'll reiterate through
+this talk is
+quality is always going to trump
+quantity. If you've got someone that's
+just churning out lots and lots of spam
+and slop um that is not going to be
+helpful for their career. Um and so it's
+really something to be thinking about is
+AI should be a tool to help me make good
+research not lots of research.
+Okay.
+So,
+that one
+as a journal reviewer, I don't
+necessarily notice, but as a grant
+reviewer, when I look at someone's CV, I
+notice. And as a hiring manager, I've
+definitely noticed when I've seen it in
+um in people's
+in uh in CVS and publication records and
+Google Scholar as well.
+Um,
+so
+next one.
+And so I jumped onto Google Scholar and
+I searched for this phrase here, source
+equals chatgpt.com.
+And those of you who've used chat GPT,
+you might if you've ever had it produce
+a URL,
+you will have noticed that in it'll show
+the URL, but on the actual hyperlink
+itself, in order for um web tracking,
+we'll have this little source equals.
+And this is very common with lots of
+websites will put source equals and
+where the link has come from. And I did
+a search on Google Scholar, 5,420
+results. A couple are legitimate, but a
+whole lot aren't. Where those are papers
+where someone has used chat GPT and they
+haven't even fixed their hyperlinks.
+Reviewers haven't spotted it. Editor has
+editors haven't spotted it. It's been
+published, but it's there. And it's
+there on the internet as a record. And
+we are now in an age where if you if you
+do misconduct, if you do problematic
+stuff, it's going to be on the internet
+forever. So your reputation, your
+academic reputation is more important
+and more valuable than ever because the
+internet just gives you a permanent
+record. If you think back to kind of
+childhood, particularly I think American
+TV, uh the permanent record, you know,
+this will go on your permanent record
+and there was no such thing. But but the
+internet is now actually a permanent
+record.
+I have multiple times received articles
+with source equals chat GPT through the
+references and that shows me a real lack
+of the person even bothering to have
+read their own work. They just asked
+Chad GPT to write a thing, whacked it
+into a document, submitted it, didn't
+even particularly uh check particularly
+carefully. So big red flag to me is
+seeing that. that shows a real a lack of
+care and it also shows me who probably
+wrote most of the article.
+Okay.
+And then we have ones like these. And
+these
+I was going to say they make me angry,
+but I think they just make me sad. Uh
+hopefully that is big enough on your
+screen for you to see. But those are two
+different cases where people submitted
+stuff. They just copied and pasted. And
+we can see there um the little bit where
+chat GPT or whatever large language
+model saying I'm a large language model
+I can't fully answer this and somehow
+the person and the authors didn't notice
+the reviewers didn't notice the editors
+didn't notice and they got published and
+that's just embarrassing for everyone
+concerned there eventually they got
+fixed and or retracted um but again
+really lazy. All of us are looking here
+at those people's names. We can go and
+then also look at who who else was
+involved with that journal. Um just
+really bad sloppy stuff. So again, just
+lazy lazy use of AI. This is not how we
+make good research. This is how we make
+lazy slop. Uh and it's very easy to get
+caught as well.
+Okay, so lots of lots of crying and
+laughing emojis coming in the chat.
+Thank you. Uh it it is for for those of
+us where I mean research is our
+profession. This is this is worrying and
+depressing. Uh and it's becoming more
+and more common. So those were super
+sloppy.
+Now we move into sloppy but you need to
+look a little bit harder for it. And so
+there's large language models
+hallucinates just nature of how they are
+built. And if you ask Chad GBT or Claude
+or whoever, they've gotten a lot better,
+but they still hallucinate. They still
+hallucinate references in particular. So
+they will add authors who don't exist.
+They will get DOIs wrong quite often. Uh
+here is something that I reviewed.
+Four of the references had wrong details
+and really not wrong in a typo way. And
+it's it's always for me as a reviewer
+very obvious where someone made a
+mistake or a typo versus a large
+language model produced this. And I mean
+we can see there in that top one um some
+of you possibly a chunk of you are too
+young to know who Kate Moss is. Uh
+supermodel Kate Moss uh has not authored
+anything in nature geoscience uh to the
+best of my knowledge. Uh and so we can
+see here the list of the proper authors
+and then the uh there is no Kate Moss.
+Um so gets a little bit more subtle
+because the models are now very good at
+producing something that does look
+fairly realistic. Um there was a case
+here in Australia fairly recently
+where a one advocacy organization put
+out some very detailed research
+And then a second advocacy organization
+who had different goals from the first
+one put out a rebuttal, but they put out
+a rebuttal 3 hours later. And it was
+really obvious that to get the rebuttal,
+they got the original document, threw it
+into Chad GPT,
+got it to write a rebuttal, and it was
+very similar to what we have here where
+there was just a whole lot of
+hallucinated stuff.
+Uh, Yuka's question there is Google
+Scholar immune to hallucinations
+almost. Actually, no. I was going to say
+almost, but no, I'm going to revise that
+to no. The reason Google Scholar is not
+immune to hallucinations is the way that
+it hoovers up the data
+in Google Scholar. Um, and I I wish I'd
+taken a screenshot of it because I think
+it's now gone. Someone
+uh and I saw this on LinkedIn. I
+connected with the person. They were
+looking in their Google Scholar
+and they're like, "That's weird. There's
+a paper in my spook Google Scholar that
+I didn't write." And not only is there a
+paper in Google Scholar that I didn't
+write, it's got 120 references
+citations.
+So, what had started happening is that
+Google Scholar um had picked up all the
+times that this paper that doesn't exist
+had been cited. So it didn't have a link
+to the original paper because the
+original paper didn't exist. But goo in
+Google Scholar's mind it thought it must
+exist because lots of people were citing
+it. So therefore there was 120 odd other
+papers out there with a fake citation.
+Um so again really really problematic
+stuff. So excellent question uh whoever
+asked that about Google Scholar. Um,
+the nice thing with Google Scholar and
+the nice thing with SciPace is that they
+do link back to
+act the actual source. And so if you
+can't see the original source, you
+should always be really really
+suspicious. If you are a reviewer or if
+you have produced something that has
+DOIs, check every single one to make
+sure that they link off to the actual
+thing they should. So DOI digital object
+identifier uh is just a like it's like a
+hyperlink um but normally it'll be
+something like 10 something slash it's
+just mainly numbers uh and the idea is
+that it's a slightly more persistent
+link that hyperlinks to your um to
+wherever you're trying to get to.
+Okay, that was hallucination. So that is
+where it starts to get subtle. It used
+to be really obvious because they were
+just so wrong. Um, but they've gotten a
+little bit better now where they'll kind
+of almost look like the real thing. Um,
+but not quite.
+Next red flag. This is the one that is
+harder to spot. It's happening a whole
+lot. uh and I can tell you it is the
+reason that there is some articles that
+I've been a reviewer of and in fact some
+grants where
+the genericness of the text that a large
+language model writes made it something
+that I just could not approve.
+So large language models will write very
+generic text. It's not necessarily bad,
+but it's just it's just very generic.
+There's vague languages. Uh if you've
+been online at any stage and you've been
+people have talked about some of the
+patterns of not not blah, but blah.
+There's there's some patterns that just
+you'll see time and time again out of
+all of the large language mods. Each has
+kind of their own quirks.
+There'll be statements that don't
+necessarily match the data. uh and there
+will just everything will just look like
+this kind of very bland generic version
+of what it was trying to be. Um, and in
+isolation, this doesn't always stand
+out, but certainly for me, when I'm
+reading, say I read 20 grant
+applications,
+there is a real market difference
+between the ones where I suspect, and I
+can't always prove, but I suspect they
+were written by a large language model
+versus the one that don't, just because
+of how generic the text and what is
+written. It's it's words, but it just
+doesn't have that same level of meaning.
+And for you as a researcher,
+to some degree, the whole point of your
+existence, and particularly those of you
+who are doing a PhD, is that you are
+becoming the subject expert. You should
+be able to write and know more and be
+able to be more specific than a large
+language model. AI can do other really
+neat stuff. AI can read 3,000 articles
+this afternoon and summarize them. you
+can't do that. So, it can do some really
+cool stuff, but if you let it do the
+wrong things, you'll just end up with
+this kind of quite quite bland and and
+very hard to fund work.
+Okay. Uh Yuk has asked, "How to tell
+between pure bad human writing and bad
+writing by by AI?
+Uh and what about when AI generated text
+uh is very high quality? So I think
+that's also a good question. Uh there
+has been research on in fact I've got a
+slide coming up about AI detection that
+showed that discipline experts could not
+distinguish
+well-written AI
+content from human content. So if it's
+been done well,
+it is very hard to distinguish. The
+problem is that a lot of people are the
+same people making all those other lazy
+mistakes I showed you and it's not done
+well. And for me as a reviewer,
+if it's bad, it shouldn't be published.
+And if it was a bad bad human writing or
+if it was bad AI writing, I think that's
+where my thought my thought process has
+really moved to is
+we want good quality. And if an AI
+helped with that good quality, awesome.
+We have good grants. we have good
+research, but if it is making things
+worse, then it almost doesn't matter if
+it was the AI or not. Um, and and you
+normally it's the person driving the AI
+who's generating good or bad. Uh, so
+thank you. Good question. Um, next red
+flag, last red flag, prompt injection.
+So this is unethical and mainly
+not very useful. So, something that came
+uh came up a while ago was people
+noticed that some some journals, some
+places, some uh some hirers were using
+AI
+to review CVs or job applications or
+articles or or whatever piece of piece
+of work. And they started doing what's
+called prompt injection. They putting
+little hidden text like what we've got
+here um trying to influence the AI in a
+different way. Most systems now detect
+this very easily.
+Even the ones that don't always detect
+it
+aren't particularly influenced by it.
+So, it's not very effective. But in
+terms of you and your reputation and how
+your behavior is viewed if you do this
+is incredibly negative. So you've you
+you've got a low risk uh sorry you've
+got a low probability of something
+good happening and you've got
+some probability but a very very
+negative consequence if you do get
+caught. And so if you like you can make
+it a prisoners dilemma but it really it
+just is not something that you should
+contemplate
+if you are an educator. Uh the other
+thing I have seen is I have seen so this
+is more for the faculty who are here.
+I've seen educators who will do this.
+They will put in little embedded things
+to try and catch students cheating with
+AI. And I think this is also wrong. I
+think it's wrong in a number of
+different fashions. Uh one is that in
+some places you will actually be
+breaking um equity and disability laws
+by putting hidden text into stuff. So
+that's that's a big one in some places.
+But beyond that, if you are an educator,
+you should really be thinking carefully
+about is the purpose of my assessment to
+trick my students and it should
+absolutely never be. Um, if you do want
+to read more about prompt injection,
+uh, the University of Arizona has a good
+thing for faculty specifically about not
+putting it into education content. Um
+there is an article which I probably
+should have stuck in the slides here
+which is quite good as well. Um
+anyone that is interested if you contact
+me I can I can send you the link for
+that one as [laughter] well. Um I love
+that there's a and a fellow Gen XA and a
+Gen X brain kind of thinking not even
+wondering how people would think of
+stuff like this.
+Okay, so as I was saying before,
+editors and reviewers are really getting
+sick of this stuff. Uh, it's harder and
+harder to get reviewers
+getting sent stuff. I got one and it was
+just so blatantly AI. I didn't even fill
+out the review form. I just sent an
+angry message back to the journal saying
+that here is here is five really clear
+um flags. There was hallucinated
+references. There was source equals
+chatgpt. there was generic like just it
+was just garbage and it was very
+obviously AI written and not even proof
+read and I didn't even do the review
+form. I just sent them back an angry
+message and something that I've
+definitely been trying to advocate to um
+to editors is starting to blacklist. If
+someone is a slot machine, if they are
+just producing nonsense, blacklist them.
+Don't let them don't let them submit.
+Um, again your reputation in academia is
+everything and if you are not protecting
+your rec reputation then that's really
+problematic.
+Jonathan in the chat asks do reviewers
+use AI to view paper? And that's an
+excellent question because I think it
+varies by journal and it varies by
+reviewer. Some journals, one of the
+journals I review for explicitly says do
+not use AI to review. They they can't
+control what someone does when they're
+not looking, but they are very explicit
+with saying do not do this. And there is
+definitely an ethical issue of taking
+someone's piece of work and putting it
+into an AI system without their
+permission.
+There's other journals that do use AI as
+part of the review process. So, it does
+vary by journal. Um, [laughter] I would
+imagine there are some amount of
+reviewers who are using AI. are possibly
+sometimes in cases that they shouldn't.
+And I think that's very much up to
+journals to be very strict and give very
+clear guidelines
+um about what is what is appropriate and
+what is not appropriate. Um
+and really treating someone's um
+someone's work, you you are you are
+given that not to share it anywhere. not
+if you receive something for peer
+review, you shouldn't be sharing it with
+your colleagues or your students or
+anyone and that goes for sharing it with
+AI as well. Uh Uke makes a comment in
+the Q&A goes back to the incentives of
+publisher perish. And unfortunately,
+yes, it does. Um and until as a whole
+system we really start to work on that,
+I think I think it's going to be a a big
+it's what's called a wicked problem. Um,
+if if you haven't heard that phrase, go
+and go and Google it up after this talk.
+Read about what a wicked problem is.
+There's there's no easy solutions here.
+It's systemic. It's it's problematic.
+Um, and
+it's hard. There aren't easy solutions.
+Uh, so I've I've given you a whole lot
+of red flags and uh anonymous attendee
+in the Q&A has said, "What about some
+good examples?" And that's where we're
+going to move to right now.
+So
+you should know your institution's AI
+policies. You should know the policies
+of your target publications or target
+grants wherever you are um submitting
+to. What do they say about AI? Are you
+in line with those? Beyond that, think
+about what's appropriate. Is it
+appropriate for me to use AI to help
+with some of the phrasing? And
+particularly, I noticed Edgar has just
+put a Q&A about uh native speakers. To
+me, I think that's fine. I got really
+upset where Grammarly started triggering
+AI detectors
+cuz I think that is perfectly reasonable
+to have a little bit of help with
+phrasing.
+If I am just getting chat GP to write
+the whole thing for me, definitely not
+appropriate for that task. So think
+really carefully about that. Think
+really carefully about what data you are
+sharing into an AI system, any AI
+system. Think about privacy. Think about
+uh ethics and your IRB. Think about any
+IP.
+Um be really careful with algorithmic
+bias. If I ask an AI about stuff, it is
+going to have depending on what data
+it's been trained on, it's going to have
+particular biases and it's not even
+necessarily easy for me to know what
+those biases are. So, I've got to be
+really careful about bias that may come
+out of my use of AI.
+Should always acknowledge where and how
+you've used AI and you should always be
+honest with any AI declarations.
+Um, and if you feel tempted to lie, then
+you should come back to uh those first
+two points there about what are the
+policies and is it appropriate. Um, the
+question in the chat, do I think the
+Grammarly polishing is an issue?
+Personally, no. I I don't. Um, I think
+all of us could probably do a little bit
+better with the clarity of our writing
+if we have a tool that helps make things
+a little bit clearer.
+It's still my research. It was still my
+idea. It was still the data that I
+collected,
+but this tool has helped me communicate
+more clearly what I found from my
+research. I think that's okay. That is
+my personal perspective and that is
+something where there will be a
+continuum. Some people will feel very
+strongly that it's not. Some people feel
+very strongly that it is. I'm more at
+that. I think it's okay. Um, but again,
+there is a continuous people who are
+very very anti AI for a broad range of
+reasons. Some legitimate, some not so
+much. Okay. Uh, probably need to get a
+little bit of a a hurry on. I've been a
+we bit verbose here. AI detectors. AI
+detectors are highly unreliable. You
+should not use them. Um, there's been
+blinded studies that have shown that
+that all of the detectors are bad. Some
+are very bad, some are a little bit bad.
+In general, not good. Uh, blinded
+studies of human detection. you as a
+human being, you can detect bad AI use.
+You cannot detect good AI use. Um, if
+you are a researcher, I don't think
+there's any reason that you should need
+a detector unless you are breaking
+rules. And again, and it's it's
+something that I will get asked from
+students that come to some of these
+presentations is how do I avoid the
+detectors?
+And the simple answer is don't do things
+that you shouldn't be doing.
+There's also on top of that an element
+of the detectors are unreliable. There
+are false positives. Your institution
+should not be using them. Uh and so then
+into my second point there, if you're an
+educator, don't use them. Think about
+how you assess instead.
+And for journals and for reviewers, I
+mean, it would be nice to have a
+detector, but they're just not reliable.
+And so, I think that we should be coming
+back to looking at quality. is this is
+this quality uh or not and having
+consequences for people that are
+producing that AI slot.
+Okay, a few more recommendations.
+Um always check for what for for the
+work you are doing with AI. Even if it
+is just Grammarly doing the polishing of
+the phrasing, check everything that it's
+done. If you are using AI to search for
+information, verify that information,
+verify the references, find the original
+source references. Tools like scissace
+do make that much easier. Um, AI can
+miss nuance. So really important you're
+always engaging your brain. Um, and then
+on top of that, think about what is your
+contribution to the discipline. If you
+are just a copy and paste machine, I can
+I can write a bot that does that. I
+don't need you anymore. So you need to
+think about how
+you make yourself invaluable to the
+research pro uh process.
+And part of that and part of
+particularly that point I made earlier
+about the generic writing is um you
+should protect your voice. What is it
+that makes this piece of work unique to
+you? When someone reads this, they don't
+go this is generic writing. they go,
+"This is this person and I like how this
+person writes." So, using your own
+notes, using your own outline, making
+sure AI doesn't do the main part of your
+[snorts] uh writing and something and I
+think it's always been good advice even
+preI is proofread aloud. Get your piece
+of work, read it aloud. Anytime you read
+something aloud, you will catch errors
+and you'll catch clumsy phrasing. So, I
+would really recommend that and I think
+that will really help with
+whatever you're producing kind of
+however much AI or not AI is involved in
+it um and making it really sound good.
+Okay. So,
+depending on our task um the other thing
+we do need to think about is that
+different different tasks will require
+different levels of rigor.
+if and something in in my um in my work
+that I've had is I've had to do some
+rapid reviews where I have had to turn
+around really really quickly and
+Scispace has been amazing for that. Um
+the
+and I would caveat everything that I
+produced saying this was produced by AI
+here's the tool that I used here's how I
+did it. I will still verify, I'll still
+edit, I'll acknowledge the use, but AI
+did a whole lot of work. For a journal
+article, I would be expecting a much
+deeper rewrite, uh, conceptual
+precision, uh, more of the person
+assisted by AIA. And then if I was
+assessing a PhD,
+I would be looking for even more of that
+human component, the person who wrote
+this and their work. Um, and that
+intellectual ownership is really, really
+important. So those of you that are
+using uh doing PhD,
+using AI to find articles and for some
+of your analysis, amazing, saves a whole
+lot of time. But this still needs to be
+your dissertation, your intellectual
+ownership. Ultimately, if if there are
+mistakes, you are the one that will be
+accountable as well.
+Okay. So, let's get into the science
+base demonstration. Probably talked a
+little bit longer than I intended and I
+do see there's a few more questions uh
+coming through.
+So, let us go to Scipace. Uh, so for the
+twothirds of you that aren't Cyspace
+users, hopefully some of you had a play.
+I think there is still a free version
+where you can get a bit of a play uh
+with it. On our main page, we have a box
+here where we can put in a prompt. We
+can ask it to do stuff. Um, it can do
+all sorts of amazing stuff. all of this
+list here.
+All sorts of things starting from
+reviewing literature, but it can do
+writing. It can do reviewing, it can do
+analysis, it can do coding, lots and
+lots of stuff.
+And you can even link some of these
+together. So you might get it to do a
+search,
+find some information, use that
+information to inform it, then doing an
+analysis or an activity, use that to
+then inform it going into something
+else. Super super handy. Lots and lots
+of stuff that it can do. Um down the
+left hand side, uh we'll come back to
+the agent gallery. It it has agents
+where it can do a whole lot of very
+specific things. Uh, we can chat with
+PDFs.
+We've got a few other things in there,
+writer, topic finder. Um, but the really
+big ones are the agents and then the
+literature review. If we jump into the
+literature review for a second
+here,
+we can
+it's got some examples there. when we
+start typing in it will even so if I
+start typing in something about water
+quality uh
+it will start to even suggest research
+questions if I haven't fully formulated
+everything um into into there uh which
+is really really helpful. It's got a
+couple of different levels and so the
+higher the level the more articles it
+will look at and the um the more it'll
+write about it. And if we come and have
+a look I'm involved with a not for
+profofit. Uh I was doing some work about
+microplastics. Um we do beach and reef
+cleanups. We have this database. We
+track all of this. Uh microplastics is a
+big component of what we're trying to
+reduce.
+So with the deep review which is the the
+most in-depth version, I can ask a
+question. It will give me a whole lot of
+clarifying questions. So it will work
+out this is
+um let's really specify what it is you
+actually want. Uh it'll then do a whole
+lot of searching and not only will it
+search based on what uh what I asked,
+but it will also do forward and backward
+citations. So, you know, when you read
+an article and you look at the
+citations, you go, "Oh, that sounds
+interesting. I'll go and find find that
+one." It does that, but it goes the
+other way as well. So, it will go and
+find things that cited your current
+article. So, as well as going, let's
+look at the citations, you can it will
+also search kind of upwards the other
+way, which is really amazing because you
+you can't do that other ways. Uh, and
+then it will go and it will do its
+search. Uh, it details all of what it
+does. We can see here it found 412
+papers. Uh, I was not going to be able
+to read 412 papers in an afternoon. I
+did read some of the key ones. And then
+it gives me the giant
+giant summary.
+Now, if I took this
+and I just copy and pasted it into a
+grant application,
+I would be taking a couple of risks. I
+would be taking a risk that it didn't
+quite
+answer
+the thing that the grant is about. And
+even for its best intentions, and I
+would be taking a risk that it's not in
+my voice. Uh if this were a generic LLM
+like JGPT, I would also be taking a risk
+on um references. So someone was asking
+about size space in terms of
+hallucinations.
+Everything that's in here is hyperl
+and it I can go back to the source.
+So it won't hallucinate because it will
+always take me back to the original
+source. Uh and that's a big difference
+from the the generic LLMs where they are
+just predictive writing tools and they
+will just go ah there was a Walker 2024
+surely there must be a Walker 2025.
+Yeah, sounds good. Invent a reference.
+So big difference here is it will take
+you take you back to the original. So if
+we come down, we have this table
+with all of the papers that it found and
+then a table of summary and I can
+actually adjust what's in the table
+summarizes
+and then from here some of these are
+behind pay walls and they have this
+option where if you are at a university
+or a research institution uh you can use
+lib key you can connect it to your
+university library you can access all
+the articles via that which is super
+handy. handy uh anything that is open
+source though.
+So for instance this one it's directly
+there. So I can click on this
+uh it will open up. We got the DOI
+there. I can click on the DOI
+and it can't can't elucinate because it
+takes me to the real thing. There's the
+real thing. So no way that it can loin.
+What's very cool is that it can also
+be my assistant for reading the article.
+So, here's my PDF
+and I can read through the PDF and
+there's a thing I'm not sure about.
+I can go and highlight it. I can just
+ask it to explain or over here in the
+chat on the right, I can ask questions
+about what's there. I can even using
+this button here explain math and uh
+math and table any stats that's shown
+there I can just draw a box around it
+and I got an example that I did earlier
+further up
+I got it to select this graph
+and it interpreted and explained and so
+particularly for those of you that don't
+come from a stats background if you're
+working in a
+in a fairly quantitative field and Very
+often you'll get a paper where someone's
+gone really berserk on like theorems and
+proofs and here's all the Greek letters
+and it's just a little bit outside of
+your expertise. This is so handy for
+being able to just just get enough of an
+understanding of that that you can read
+the bit that is your domain and your
+expertise without getting overwhelmed by
+something that's a little bit kind of
+different or complex in the analysis.
+So very very cool. uh so
+the search give me all the papers they
+all link to the source solves that
+hallucination problem any individual
+paper I can go through and read it does
+the summary that summary I would always
+treat as a starting point particularly
+if you're writing your own article or
+doing a PhD if you're doing a rapid
+review then you still check stuff but
+that amount of rigor is going to vary
+um
+and it just keeps going and And then at
+the if we kept going all the way to the
+bottom there, um there's a prompt where
+you can carry on with more questions. Uh
+if we go over to the agent gallery,
+there's a whole lot of pre- templated
+things that it can do for you.
+Uh and so
+we've got literature review create.
+We've got a couple of filters here.
+We've also got some domains. And if we
+scroll down,
+uh,
+we can see all sorts of thing.
+Everything from like sample size
+calculation through to like kind of
+cell screening and and very very niche
+and specific things. Uh, and if we
+Okay, so I've just put in citation
+check. And so one that I would
+definitely
+definitely say is really handy is
+reference checker. Um, there's a few
+other checkers. there's kind of
+reviewers and and each of these like if
+we click on the reference checker
+basically it just it gives me a fairly
+fairly simple prompting that will go off
+and it will do that particular activity
+for me. Um but all of this is just built
+on top of that same kind of large
+language model structure. So I can ask
+it to actually do whatever. There's all
+the templated stuff but I can ask it to
+do my own things as well. And so here's
+an example where I gave it
+a manuscript. And for this,
+I actually got Claude to write me the
+prompt. And over time, I would adjust
+that. I don't like everything that's in
+this prompt. And as as such, I'm not
+sharing it. I'm kind of giving it as a
+as an example, not as a do it exactly
+like this. Um, so anyway, I went into
+Claude and I said, I'm going to use a
+sci-face agent to review my article. I
+want it to check the citations. I want
+it to check that it matches the
+formatting for the journal I'm
+interested. And then I gave it about
+five or six other things in terms of
+checking the statements, checking the
+references, all of the things that a
+peer reviewer might do. Uh, the article
+that I put in here is one that is
+actually already published. uh um just
+cuz that was something that I mean it's
+it's an open source paper so I was
+comfortable to to share it. So just here
+in in the kind of central left just want
+to show you. So manuscript details
+ground rules
+Claude wrote
+this and you can see that's a big
+prompt. So I'm giving all of this to
+scace to then do my checking.
+Um,
+and then Scissace went through. It's
+given me a reference verification table.
+It's checked everything. It's checking
+the DOIs. It's cross referencing things.
+Um, summary of that. Every claim that I
+made in the paper, it's checking whether
+I referenced it. So, I've used this as
+my own little kind of personal peer
+reviewer. And I did it in here because
+[laughter] it has better access to the
+papers to do that verification as
+opposed to me just getting Claude to do
+the checking all by itself. So, this is
+the kind of thing that you may have as
+part of when you're doing your research
+and doing your writing is getting the
+agents to do various different things
+for you. And you see it goes on and on
+and on. Super super detailed. Um,
+so that was an example of of me
+inventing my own prompt and my own
+agent. Um, but there's a whole lot of
+templated ones as well. Um, so the last
+thing I wanted to show you, uh, and I'm
+sure we could fill like another hour
+with all the different features,
+but this is a relatively recent one, but
+a really really handy one is uh, and I
+guess this is probably more for those of
+you who are already sciace users, but
+may have may not have come across this
+yet, uh, is Scypace now has uh, word
+doc, so doc x editing in within the
+system. Uh so instead of dumping
+something in and exporting something
+out, uh if we click on my article here,
+we can see that that is basically just a
+word
+all of the things that we would be doing
+in Word. And then here's my document.
+And where this was super super useful
+for me was
+got rejected from a journal.
+And then the next journal that instead
+of APA referencing uh they used
+Vancouver.
+And any of you who have even kind of
+written a little bit, if you've ever had
+to resubmit to a different journal with
+a different set of requirements, what a
+headache. Um but the combination of
+using the scissace agent gave it my word
+document gave it the instructions of we
+need to change from APA to Vancouver
+there was a couple of other little bits
+it did it it track changed everything so
+I can go through I can check what it's
+done and again really really important
+any stuffups
+I I mean I can blame size base but
+ultimately the world will blame me So
+really really important any any work
+that we're doing in AI um the we are the
+ones that are accountable so we are the
+ones that do all the checking uh did it
+all with track changes I can go through
+I can accept those and I now have my
+edited document so wanted to show you
+that that's probably more for the 30 of
+you that are sciace users already um
+because it's a relatively new feature um
+but hopefully the other stuff that I
+showed you is uh interesting to those of
+you that haven't seen and it gives you a
+bit of a picture of some of what the AI
+research tools are that are out there.
+Okay, so
+we we
+went a fraction over uh not fully over
+time. We still got another five minutes
+left. Um but yeah, thank you very much
+for listening. Uh we will now jump into
+Q&A. I see there's a few few that I
+haven't quite got to

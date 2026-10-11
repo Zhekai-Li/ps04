@@ -1,0 +1,96 @@
+{
+  "run_id": "live-20261009T183914Z-438d5dc4",
+  "mode": "live",
+  "as_of_date": "2026-10-09",
+  "status": "awaiting_review",
+  "counts": {
+    "discovered": 50,
+    "extracted": 50,
+    "new": 3,
+    "changed": 0,
+    "unchanged": 47,
+    "eligible": 45,
+    "excluded": 6,
+    "accepted": 8,
+    "rejected": 35,
+    "deferred": 2,
+    "articles": 3,
+    "video_scripts": 3
+  },
+  "coverage": {
+    "raw_by_kind": {
+      "feed": 24,
+      "youtube": 20,
+      "podcast": 6
+    },
+    "eligible_by_kind": {
+      "feed": 24,
+      "podcast": 6,
+      "youtube": 15
+    },
+    "brief_citations_by_kind": {
+      "youtube": 1,
+      "podcast": 2,
+      "feed": 5
+    },
+    "independent_publishers": 10,
+    "publisher_ids": [
+      "acm",
+      "arxiv",
+      "latent-space",
+      "mit",
+      "mlst",
+      "nature",
+      "paperpile",
+      "retraction-watch",
+      "scispace",
+      "stanford-hai"
+    ],
+    "distinct_underlying_items": 50,
+    "duplicate_observations": 0
+  },
+  "failed_or_incomplete_stages": [],
+  "elapsed_seconds": 608.0,
+  "tools": [
+    "bash",
+    "codex-cli",
+    "feedparser",
+    "ffmpeg",
+    "pydantic",
+    "python",
+    "python-dateutil",
+    "requests",
+    "sqlite3",
+    "sqlite3-store-interface",
+    "trafilatura",
+    "yt-dlp"
+  ],
+  "models": [
+    "gpt-5.6-sol",
+    "mlx-community/whisper-turbo"
+  ],
+  "cost": {
+    "incremental_api_cost_usd": 0.0,
+    "known_or_estimated_usd": 0.0,
+    "chatgpt_plan_stages": [
+      "create_briefs",
+      "select_items",
+      "write_articles",
+      "write_video_scripts"
+    ],
+    "unknown_cost_stages": [
+      "create_briefs",
+      "select_items",
+      "write_articles",
+      "write_video_scripts"
+    ]
+  },
+  "review": {
+    "review_id": "c687c194be49a2c17dab6fdcfa455196f441446a141556bba609302aefd6a25f",
+    "passed": true
+  },
+  "publication_links": null,
+  "remaining_manual_actions": [
+    "Zhekai Li must inspect the drafts and evidence, record corrections, and create approval.json personally."
+  ]
+}
