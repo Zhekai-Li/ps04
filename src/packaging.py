@@ -75,6 +75,8 @@ def package(run_dir_arg: str) -> int:
             raise InputError("approval reviewed_at must be ISO 8601") from exc
 
         package_dir = run_dir / "package"
+        existing_manifest_path = package_dir / "manifest.json"
+        existing_manifest = load_json(existing_manifest_path) if existing_manifest_path.is_file() else {}
         article_dir = package_dir / "articles"
         script_dir = package_dir / "video_scripts"
         notes_dir = package_dir / "source_notes"
@@ -121,7 +123,10 @@ def package(run_dir_arg: str) -> int:
             "approval": {"reviewer": approval["reviewer"], "reviewed_at": approval["reviewed_at"]},
             "assets": assets,
             "publication_links_path": links_path.relative_to(repo_path(".")).as_posix(),
-            "manual_steps_complete": False,
+            # Publication is a human-controlled state. Repackaging refreshed
+            # assets must not erase a completion decision already recorded by
+            # the reviewer after publication and link verification.
+            "manual_steps_complete": bool(existing_manifest.get("manual_steps_complete")),
         }
         write_json(package_dir / "manifest.json", manifest)
         print(json.dumps(manifest, ensure_ascii=False, indent=2))

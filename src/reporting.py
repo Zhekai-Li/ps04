@@ -50,7 +50,9 @@ def summarize(run_dir_arg: str) -> int:
         package_ready = manifest_path.is_file()
         package_manifest = load_json(manifest_path) if package_ready else None
         manual_steps_complete = bool((package_manifest or {}).get("manual_steps_complete"))
-        if package_ready:
+        if package_ready and manual_steps_complete:
+            status = "published"
+        elif package_ready:
             status = "ready_for_production"
         elif review and review.get("passed") and articles and scripts:
             status = "awaiting_review"
@@ -98,7 +100,7 @@ def summarize(run_dir_arg: str) -> int:
             remaining.append("Repair blocking collection, evidence, model, or review errors and rerun the affected stage.")
         if status == "awaiting_review":
             remaining.append("Zhekai Li must inspect the drafts and evidence, record corrections, and create approval.json personally.")
-        if status == "ready_for_production" and not manual_steps_complete:
+        if status == "ready_for_production":
             remaining.extend([
                 "Create three 3–5 minute videos in Google Vids.",
                 "Publish three free Substack articles and upload the videos plus technical demo to YouTube as Unlisted.",

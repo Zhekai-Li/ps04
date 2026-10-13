@@ -1,8 +1,8 @@
 # Production handoff
 
-## Current final drafts
+## Published final set
 
-The three 3–5 minute audience videos exist as private Google Vids drafts and local MP4 exports. Current links, durations, media properties, and QA results are recorded in `video_drafts.json`. Earlier drafts remain private and are recorded in `video_drafts_history.json`; none were deleted.
+The three 3–5 minute audience videos were produced in Google Vids, exported as MP4, and published to YouTube as Unlisted videos. Their paired articles were published for free access on Scholar in the Loop. Final public links are recorded in `publication_links.json`; durations, media properties, and QA results are recorded in `video_drafts.json`. Earlier drafts remain private and are recorded in `video_drafts_history.json`; none were deleted.
 
 The current final set is video 01 v4.1, video 02 v4, and video 03 v4.1. The visual system is a restrained academic-business presentation style: Arial throughout; a strict 28/18/11 pt hierarchy; compact line spacing; warm paper, ink, teal, and sand as the four visual color roles; flat cards with consistent internal padding; 42 pt safe margins; and one visual argument per scene. Audience-facing labels such as `VIDEO 02`, page counters, and internal claim IDs are absent. Ambiguous coordinate charts were replaced with explicit comparison cards and decision frameworks.
 
@@ -20,12 +20,12 @@ This revision specifically corrects the first video's Claim/Source/Dependency co
 8. The final MP4s contain 101, 86, and 107 English caption blocks respectively. Audio analysis found no silence interval longer than two seconds.
 9. Each video follows the structure and claims of its matching reviewed article; only visual presentation changed in this revision.
 
-## Remaining publication steps
+## Publication verification completed
 
-1. Preview each full video once for pronunciation and subjective pacing.
-2. Publish each article on Scholar in the Loop with free, shareable access and link its corresponding video.
-3. Upload the final MP4s to YouTube as Unlisted; descriptions must link the article and source notes.
-4. Verify every public link in a signed-out browser, then fill `publication_links.json`.
-5. Record and upload the separate 4–6 minute technical demonstration as Unlisted.
+1. All three articles are published with free, shareable access.
+2. All three audience videos are uploaded to YouTube as Unlisted and fall within the required duration.
+3. Every article links to its matching video; every video description links to its article and source references.
+4. The three article/video pairs were checked through their public links, and `publication_links.json` contains no null URL.
+5. The separate 5:57 technical demonstration is uploaded to YouTube as Unlisted: https://youtu.be/-XfGao1GRJs.
 
-The audience videos are still private. They have not been published to YouTube or linked from live Substack posts.
+No publication step remains. Google Vids project links and local export names are retained only as production provenance; the submitted viewer-facing links are the Substack and YouTube URLs.

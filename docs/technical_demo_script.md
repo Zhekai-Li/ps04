@@ -1,12 +1,14 @@
 # Technical demonstration script
 
-**Target duration:** approximately 5 minutes 10 seconds
+**Published duration:** 5 minutes 57 seconds
 
 **Visual source:** `runs/live-20261010T142614Z-b7aaa14e/package/technical_demo/technical-demo-final.pptx`
 
 **Voice:** Nyla
 
-**Status:** final narration approved for private Google Vids production
+**Status:** published to YouTube as an Unlisted technical demonstration
+
+**Published video:** https://youtu.be/-XfGao1GRJs
 
 ## Scene 1 — From fresh evidence to accountable publication
 

@@ -28,6 +28,22 @@ All publication links below were verified after publication.
 
 The three articles and their accompanying videos were published after the evidence-grounded live runs, personal review, Google Vids production, and design QA. Final signed-out access and reciprocal-link verification are recorded as part of the publication handoff.
 
+## Final Submission Status
+
+| Course requirement | Final evidence | Status |
+| --- | --- | --- |
+| RSS, YouTube, and podcast inputs; at least 12 eligible items, six publishers, and two items per input type | Final summary records 46 eligible items from 10 publishers: 24 feed, 15 YouTube, and 7 podcast items | Complete |
+| Sixteen independently runnable Bash component boundaries | Required files in `run.sh`, `workflows/`, `collectors/`, `processing/`, `data/`, `editorial/`, `content/`, `review/`, `publishing/`, and `reporting/` | Complete |
+| Three connected evidence-grounded arguments | [`briefs.jsonl`](runs/live-20261010T142614Z-b7aaa14e/briefs.jsonl), with feed, YouTube, and podcast evidence represented | Complete |
+| Human review of at least three accepted and three rejected/deferred decisions, followed by a policy revision | [`docs/editorial_review.md`](docs/editorial_review.md) and policy versions 2 and 3 in the retained runs | Complete |
+| Two complete live runs on different days, duplicate handling, and explicit failure/recovery evidence | October 9 and October 10 runs listed below; failed run retained separately | Complete |
+| Three 600–900 word Substack articles and three matching 3–5 minute Google Vids videos | Published links above; final measured article and video lengths are retained in `review.json` and `video_drafts.json` | Complete |
+| Reciprocal article/video links, source references, shareable free articles, and Unlisted videos | `publication_links.json`, published posts, and YouTube descriptions | Complete |
+| Separate 4–6 minute technical demonstration | Unlisted 5:57 video linked above | Complete |
+| Submission documentation, architecture, setup, evidence locations, and reflection | This document and linked guides | Complete |
+
+There is no remaining required production or publication action. The repository-level command `python3 scripts/audit_submission.py` checks the final requirement evidence, publication state, course-file hashes, English-only tracked text, claim IDs, local documentation links, and required component permissions.
+
 ## Setup and Execution
 
 Required local tools are Python 3.12, Bash, SQLite, `jq`, Git, `ffmpeg`, and `shellcheck`. The pinned Python dependencies are in `requirements.txt`.
@@ -41,14 +57,14 @@ The default pipeline uses an authenticated local Codex CLI with JSON Schema outp
 
 Before each live run, audit `config/sources.json` for current access, relevance, publisher identity, and enough redundancy to yield at least 12 eligible items from six publishers. Topic settings live in `config/project.json`; selection rules in `config/editorial_policy.md`; and stage instructions in `prompts/`. Every run snapshots these files.
 
-After implementation, the required entry commands are:
+The required entry commands are:
 
 ```bash
 bash run.sh
-bash run.sh --package runs/RUN_ID
+bash run.sh --package runs/live-20261010T142614Z-b7aaa14e
 ```
 
-Replace `RUN_ID` with an actual run directory. Add any setup or stage-replay commands a reviewer needs.
+The second command reproduces the approved package without recollecting sources or regenerating content. For a future run, replace the final run path with the new run directory only after completing its matching human approval.
 
 ```bash
 # independent stages
@@ -71,6 +87,7 @@ bash scripts/demonstrate_failure.sh youtube
 shellcheck -x run.sh workflows/*.sh collectors/*.sh processing/*.sh data/store.sh \
   editorial/*.sh content/*.sh review/*.sh publishing/*.sh reporting/*.sh \
   scripts/*.sh scripts/lib/*.sh
+python3 scripts/audit_submission.py
 ```
 
 ## Architecture and Manual Handoffs
@@ -94,6 +111,8 @@ flowchart TD
 ```
 
 The 16 required Bash files are public component boundaries. Focused modules under `src/` implement schemas, collectors, extraction, SQLite persistence, model calls, content generation, checking, packaging, and reporting. Only `data/store.sh` accesses `data/evidence/evidence.db`; all historical lookups go through its interface. Exact source text and transcript segments live in `data/assets/`. Full design and schema explanations are in [`docs/LEARNING_GUIDE.md`](docs/LEARNING_GUIDE.md).
+
+For inspection, start with human-readable filenames rather than searching opaque IDs manually: (1) read this document; (2) open [`docs/editorial_review.md`](docs/editorial_review.md); (3) open the final run’s [`summary.json`](runs/live-20261010T142614Z-b7aaa14e/summary.json); (4) inspect `briefs.jsonl`, `decisions.jsonl`, and `review.json` in that same run; (5) read `package/articles/`, `package/video_scripts/`, and `package/source_notes/`; and (6) follow a source-note item/version ID into `data/assets/` only when checking the exact evidence. The hexadecimal names are stable content identities used for auditability, not files that a reviewer is expected to discover by guessing.
 
 The automated run ends at `awaiting_review`. Zhekai reviews `decisions.jsonl`, `briefs.jsonl`, the three articles, three scripts, exact evidence, and `review.json`; records corrections; and personally creates `approval.json` matching the current `review_id`. The system refuses missing, stale, or non-approving decisions. Packaging copies the reviewed work and generates per-piece source notes plus `package/PRODUCTION.md`.
 

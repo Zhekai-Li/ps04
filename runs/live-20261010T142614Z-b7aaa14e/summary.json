@@ -2,7 +2,7 @@
   "run_id": "live-20261010T142614Z-b7aaa14e",
   "mode": "live",
   "as_of_date": "2026-10-10",
-  "status": "ready_for_production",
+  "status": "published",
   "counts": {
     "discovered": 44,
     "extracted": 44,

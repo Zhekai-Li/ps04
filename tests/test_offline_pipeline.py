@@ -115,9 +115,13 @@ def test_offline_editorial_review_and_approval_gate(tmp_path: Path) -> None:
         manifest = json.loads(manifest_path.read_text())
         manifest["manual_steps_complete"] = True
         manifest_path.write_text(json.dumps(manifest), encoding="utf-8")
+        repackaged = run(["bash", "publishing/prepare_package.sh", str(run_dir)], env=env)
+        assert repackaged.returncode == 0, repackaged.stderr
+        assert json.loads(manifest_path.read_text())["manual_steps_complete"] is True
         summary_result = run(["bash", "reporting/summarize_run.sh", str(run_dir)], env=env)
         assert summary_result.returncode == 0, summary_result.stderr
         summary = json.loads(summary_result.stdout)
+        assert summary["status"] == "published"
         assert summary["manual_steps_complete"] is True
         assert summary["remaining_manual_actions"] == []
 

@@ -17,7 +17,8 @@
     "caption_blocks": 101,
     "visual_system": "Arial only; 28/18/11 pt hierarchy; compact and consistent line spacing; warm paper, ink, teal, and sand color roles; flat cards with conversion-safe padding; fixed safe margins; no audience-facing video numbers, claim IDs, or coordinate charts",
     "qa": "passed_24_slide_geometry_audit_title_clearance_audit_container_overflow_audit_mp4_contact_sheet_review_full_resolution_scene_3_spot_check_no_silence_over_2_seconds",
-    "status": "private_final_draft"
+    "youtube_url": "https://youtu.be/mcfW1UkP8_M",
+    "status": "published_unlisted"
   },
   {
     "piece_id": "02",
@@ -37,7 +38,8 @@
     "caption_blocks": 86,
     "visual_system": "Arial only; 28/18/11 pt hierarchy; compact and consistent line spacing; warm paper, ink, teal, and sand color roles; flat cards with conversion-safe padding; fixed safe margins; no audience-facing video numbers, claim IDs, or coordinate charts",
     "qa": "passed_24_slide_geometry_audit_title_clearance_audit_container_overflow_audit_mp4_contact_sheet_review_full_resolution_scene_2_and_6_spot_checks_no_silence_over_2_seconds",
-    "status": "private_final_draft"
+    "youtube_url": "https://youtu.be/8ZhAS-fPmHw",
+    "status": "published_unlisted"
   },
   {
     "piece_id": "03",
@@ -57,6 +59,7 @@
     "caption_blocks": 107,
     "visual_system": "Arial only; 28/18/11 pt hierarchy; compact and consistent line spacing; warm paper, ink, teal, and sand color roles; flat cards with conversion-safe padding; fixed safe margins; no audience-facing video numbers, claim IDs, or coordinate charts",
     "qa": "passed_24_slide_geometry_audit_title_clearance_audit_container_overflow_audit_mp4_contact_sheet_review_full_resolution_scene_5_and_7_spot_checks_no_silence_over_2_seconds",
-    "status": "private_final_draft"
+    "youtube_url": "https://youtu.be/xrAhfqGbpZM",
+    "status": "published_unlisted"
   }
 ]
