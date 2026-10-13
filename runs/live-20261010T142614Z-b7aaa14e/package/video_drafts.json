@@ -18,6 +18,9 @@
     "visual_system": "Arial only; 28/18/11 pt hierarchy; compact and consistent line spacing; warm paper, ink, teal, and sand color roles; flat cards with conversion-safe padding; fixed safe margins; no audience-facing video numbers, claim IDs, or coordinate charts",
     "qa": "passed_24_slide_geometry_audit_title_clearance_audit_container_overflow_audit_mp4_contact_sheet_review_full_resolution_scene_3_spot_check_no_silence_over_2_seconds",
     "youtube_url": "https://youtu.be/mcfW1UkP8_M",
+    "youtube_processed_resolution": "1920x1080",
+    "youtube_qa_date": "2026-10-12",
+    "youtube_qa": "1080p stream downloaded and compared with the local final source at 00:01:30; SSIM 0.9983 and PSNR 45.44 dB",
     "status": "published_unlisted"
   },
   {
@@ -39,6 +42,9 @@
     "visual_system": "Arial only; 28/18/11 pt hierarchy; compact and consistent line spacing; warm paper, ink, teal, and sand color roles; flat cards with conversion-safe padding; fixed safe margins; no audience-facing video numbers, claim IDs, or coordinate charts",
     "qa": "passed_24_slide_geometry_audit_title_clearance_audit_container_overflow_audit_mp4_contact_sheet_review_full_resolution_scene_2_and_6_spot_checks_no_silence_over_2_seconds",
     "youtube_url": "https://youtu.be/8ZhAS-fPmHw",
+    "youtube_processed_resolution": "1920x1080",
+    "youtube_qa_date": "2026-10-12",
+    "youtube_qa": "1080p processed stream availability verified",
     "status": "published_unlisted"
   },
   {
@@ -60,6 +66,9 @@
     "visual_system": "Arial only; 28/18/11 pt hierarchy; compact and consistent line spacing; warm paper, ink, teal, and sand color roles; flat cards with conversion-safe padding; fixed safe margins; no audience-facing video numbers, claim IDs, or coordinate charts",
     "qa": "passed_24_slide_geometry_audit_title_clearance_audit_container_overflow_audit_mp4_contact_sheet_review_full_resolution_scene_5_and_7_spot_checks_no_silence_over_2_seconds",
     "youtube_url": "https://youtu.be/xrAhfqGbpZM",
+    "youtube_processed_resolution": "1920x1080",
+    "youtube_qa_date": "2026-10-12",
+    "youtube_qa": "1080p processed stream availability verified",
     "status": "published_unlisted"
   }
 ]

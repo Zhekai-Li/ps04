@@ -8,7 +8,7 @@ This record must be completed by Zhekai Li after live run one. It is intentional
 - Pre-revision policy: `runs/live-20261009T183914Z-438d5dc4/config/editorial_policy.md`
 - Revised policy: `config/editorial_policy.md` (version 3; version 2 was tested and then clarified after it failed to change the reviewed testimonial decision).
 - Day-two version-2 validation run: `runs/live-20261010T141700Z-ca069018` (technically successful, but it still rejected the reviewed testimonial; preserved as an intermediate audit artifact).
-- Corrected day-two rerun: `runs/live-20261010T142614Z-b7aaa14e` (version 3 policy; automated review passed and the run is awaiting human review).
+- Corrected day-two rerun: `runs/live-20261010T142614Z-b7aaa14e` (version 3 policy; automated review, human approval, packaging, and publication completed).
 - Corrected rerun decisions and briefs: `runs/live-20261010T142614Z-b7aaa14e/decisions.jsonl` and `runs/live-20261010T142614Z-b7aaa14e/briefs.jsonl`.
 
 ## Decision sample
@@ -46,5 +46,5 @@ Corrected rerun effect: run `live-20261010T142614Z-b7aaa14e` used version 3 and 
 
 ## Approval record
 
-Run one’s automated review is `runs/live-20261009T183914Z-438d5dc4/review.json`. The corrected day-two run’s final automated review is `runs/live-20261010T142614Z-b7aaa14e/review.json` with review ID `1361c8b77a6b8cfd5bf5ecb2b071e46f25b467acb55f2a0273039a612da4194a`; it passed after the reviewed length edits. Zhekai Li personally created `runs/live-20261010T142614Z-b7aaa14e/approval.json`, approving all three final articles and video scripts at `2026-10-10T15:13:43Z`. Packaging verified the matching approval and produced `runs/live-20261010T142614Z-b7aaa14e/package/` with status `ready_for_production`. Remaining uncertainty is stated in the source limitations inside each piece. Publication, reciprocal-link checks, and signed-out access verification were completed on October 11, 2026; the final URLs are in `SUBMISSION.md` and `package/publication_links.json`.
+Run one’s automated review is `runs/live-20261009T183914Z-438d5dc4/review.json`. The corrected day-two run’s final automated review is `runs/live-20261010T142614Z-b7aaa14e/review.json` with review ID `1361c8b77a6b8cfd5bf5ecb2b071e46f25b467acb55f2a0273039a612da4194a`; it passed after the reviewed length edits. Zhekai Li personally created `runs/live-20261010T142614Z-b7aaa14e/approval.json`, approving all three final articles and video scripts at `2026-10-10T15:13:43Z`. Packaging verified the matching approval, and the final run now has status `published`. Remaining uncertainty is stated in the source limitations inside each piece. Publication, reciprocal-link checks, and signed-out access verification were completed on October 11, 2026; 1080p YouTube processing was rechecked on October 12. The final URLs are in `SUBMISSION.md` and `package/publication_links.json`.
 

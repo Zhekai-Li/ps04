@@ -19,6 +19,7 @@ This revision specifically corrects the first video's Claim/Source/Dependency co
 7. No audience slide contains a video number, page counter, internal claim ID, circular arrow container, or unclear coordinate chart.
 8. The final MP4s contain 101, 86, and 107 English caption blocks respectively. Audio analysis found no silence interval longer than two seconds.
 9. Each video follows the structure and claims of its matching reviewed article; only visual presentation changed in this revision.
+10. YouTube processing was rechecked on October 12, 2026. All three audience videos and the technical demonstration expose a 1920×1080 stream. The first video's downloaded YouTube 1080p frame matched the local final source at SSIM 0.9983 (PSNR 45.44 dB), so the uploaded media is not degraded; a blurry Auto session should be changed to 1080p in the player quality menu.
 
 ## Publication verification completed
 

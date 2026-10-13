@@ -6,6 +6,8 @@
 
 **Voice:** Nyla
 
+**Course requirement interpretation:** `README.md` requires a separate 4–6 minute narrated demonstration and specifies its content, but it does not require the student's face, personal voice, or a manually captured screen recording. The AI voiceover is disclosed here and in the publication metadata.
+
 **Status:** published to YouTube as an Unlisted technical demonstration
 
 **Published video:** https://youtu.be/-XfGao1GRJs

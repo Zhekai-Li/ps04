@@ -140,6 +140,11 @@ def main() -> int:
     for record in video_records:
         check(180 <= record["duration_seconds"] <= 300, f"video {record['piece_id']} is outside 3–5 minutes")
         check(record["status"] == "published_unlisted", f"video {record['piece_id']} is not marked published Unlisted")
+        check(record.get("youtube_processed_resolution") == "1920x1080", f"video {record['piece_id']} lacks verified YouTube 1080p processing")
+
+    demo_record = load_json(FINAL_RUN / "package/technical_demo/manifest.json")
+    check(demo_record.get("status") == "published_unlisted", "technical demonstration is not marked published Unlisted")
+    check(demo_record.get("youtube_processed_resolution") == "1920x1080", "technical demonstration lacks verified YouTube 1080p processing")
 
     links = load_json(FINAL_RUN / "package/publication_links.json")
     check(len(links) == 3, "publication link file does not contain three pairs")
