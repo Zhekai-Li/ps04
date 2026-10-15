@@ -19,5 +19,6 @@ runs/*/package/rendered/
 *.wav
 *.webm
 .DS_Store
+~$*.pptx
 node_modules/
 

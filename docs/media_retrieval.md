@@ -2,6 +2,8 @@
 
 Large source audio/video and rendered production files are intentionally excluded from Git.
 
+One small exception is retained for direct grading access: the 8.7 MB supplementary human-narrated technical demonstration at `runs/live-20261010T142614Z-b7aaa14e/package/technical_demo/technical-demo-human-narrated.mp4`. The three audience-video renders and source media remain excluded.
+
 - Candidates preserve the canonical page and direct enclosure URL when available.
 - `items.jsonl` preserves the native ID, canonical URL, content hash, and transcript paths.
 - Extraction caches media locally in `data/media/` using a hash of `item_id`.

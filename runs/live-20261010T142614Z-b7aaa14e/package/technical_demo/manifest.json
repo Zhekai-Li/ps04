@@ -12,5 +12,30 @@
   "youtube_url": "https://youtu.be/-XfGao1GRJs",
   "youtube_processed_resolution": "1920x1080",
   "youtube_qa_date": "2026-10-12",
-  "status": "published_unlisted"
+  "status": "published_unlisted",
+  "versions": [
+    {
+      "id": "ai_narrated_formal",
+      "narrator": "Nyla AI voice",
+      "duration_seconds": 356.821043,
+      "resolution": "1920x1080",
+      "deck_path": "runs/live-20261010T142614Z-b7aaa14e/package/technical_demo/technical-demo-final.pptx",
+      "youtube_url": "https://youtu.be/-XfGao1GRJs",
+      "role": "formal_course_submission",
+      "meets_duration_requirement": true
+    },
+    {
+      "id": "human_narrated_supplementary",
+      "narrator": "Zhekai Li",
+      "duration_seconds": 444.32,
+      "resolution": "1920x1080",
+      "video_path": "runs/live-20261010T142614Z-b7aaa14e/package/technical_demo/technical-demo-human-narrated.mp4",
+      "deck_path": "runs/live-20261010T142614Z-b7aaa14e/package/technical_demo/technical-demo-final.pptx",
+      "alternate_five_slide_deck_path": "runs/live-20261010T142614Z-b7aaa14e/package/technical_demo/technical-demo-human-recording.pptx",
+      "alternate_five_slide_preview_path": "runs/live-20261010T142614Z-b7aaa14e/package/technical_demo/technical-demo-human-recording-thumbnails.jpg",
+      "sha256": "c3a710ea14f45a83a8e0ca3b8f43d504e52b42e9f3b5ebeab3eeb74e4967d47d",
+      "role": "supplementary_reviewer_version",
+      "meets_duration_requirement": false
+    }
+  ]
 }

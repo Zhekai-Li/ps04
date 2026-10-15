@@ -27,6 +27,6 @@ This revision specifically corrects the first video's Claim/Source/Dependency co
 2. All three audience videos are uploaded to YouTube as Unlisted and fall within the required duration.
 3. Every article links to its matching video; every video description links to its article and source references.
 4. The three article/video pairs were checked through their public links, and `publication_links.json` contains no null URL.
-5. The separate 5:57 technical demonstration is uploaded to YouTube as Unlisted: https://youtu.be/-XfGao1GRJs.
+5. The formal 5:57 AI-narrated technical demonstration is uploaded to YouTube as Unlisted: https://youtu.be/-XfGao1GRJs. A separate 7:24 human-narrated version is retained in the repository as `technical_demo/technical-demo-human-narrated.mp4` for supplementary reviewer access; it is not used to satisfy the formal 4–6 minute limit.
 
 No publication step remains. Google Vids project links and local export names are retained only as production provenance; the submitted viewer-facing links are the Substack and YouTube URLs.

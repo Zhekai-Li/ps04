@@ -1,6 +1,6 @@
 # Technical demonstration script
 
-**Published duration:** 5 minutes 57 seconds
+**Formal published duration:** 5 minutes 57 seconds
 
 **Visual source:** `runs/live-20261010T142614Z-b7aaa14e/package/technical_demo/technical-demo-final.pptx`
 
@@ -8,9 +8,16 @@
 
 **Course requirement interpretation:** `README.md` requires a separate 4–6 minute narrated demonstration and specifies its content, but it does not require the student's face, personal voice, or a manually captured screen recording. The AI voiceover is disclosed here and in the publication metadata.
 
-**Status:** published to YouTube as an Unlisted technical demonstration
+**Status:** formal AI-narrated version published to YouTube as an Unlisted technical demonstration
 
 **Published video:** https://youtu.be/-XfGao1GRJs
+
+## Available versions
+
+- **Formal AI-narrated version:** the 5:57 Unlisted YouTube video above, using the full eight-slide `technical-demo-final.pptx`. It satisfies the course's 4–6 minute limit.
+- **Supplementary human-narrated version:** [`technical-demo-human-narrated.mp4`](../runs/live-20261010T142614Z-b7aaa14e/package/technical_demo/technical-demo-human-narrated.mp4), visibly using the same full eight-slide `technical-demo-final.pptx`. Zhekai Li narrates this 7:24 version personally. It is retained for reviewer access but is not designated as the formal duration-compliant submission.
+
+The separate five-slide [`technical-demo-human-recording.pptx`](../runs/live-20261010T142614Z-b7aaa14e/package/technical_demo/technical-demo-human-recording.pptx) is an alternate recording deck, not the deck shown in the retained 7:24 human MP4.
 
 ## Scene 1 — From fresh evidence to accountable publication
 

@@ -24,7 +24,16 @@ All publication links below were verified after publication.
 | 2 | Fluent Reasoning Is Not Provenance: Build a Verification Layer | [Article](https://zhekaili.substack.com/p/fluent-reasoning-is-not-provenance) | [Unlisted video](https://youtu.be/8ZhAS-fPmHw) |
 | 3 | Preserve Responsibility by Recording the Research Process | [Article](https://zhekaili.substack.com/p/preserve-responsibility-by-recording) | [Unlisted video](https://youtu.be/xrAhfqGbpZM) |
 
-**Separate technical demonstration video:** [Scholar in the Loop: Technical Demonstration of an Auditable AI Editorial Pipeline](https://youtu.be/-XfGao1GRJs) (Unlisted, 5:57). Final recording script: [`docs/technical_demo_script.md`](docs/technical_demo_script.md). Final visual deck: [`runs/live-20261010T142614Z-b7aaa14e/package/technical_demo/technical-demo-final.pptx`](runs/live-20261010T142614Z-b7aaa14e/package/technical_demo/technical-demo-final.pptx). The course contract requires a narrated demonstration but does not require the student's face, personal voice, or a manually captured screen recording; this submission transparently uses the Nyla AI voiceover.
+## Technical Demonstrations
+
+Both technical-demo versions are retained and linked for reviewers:
+
+| Version | Access | Duration | Role |
+| --- | --- | --- | --- |
+| AI-narrated full demonstration | [Unlisted YouTube video](https://youtu.be/-XfGao1GRJs) · [eight-slide deck](runs/live-20261010T142614Z-b7aaa14e/package/technical_demo/technical-demo-final.pptx) | 5:57 | **Formal course submission.** It satisfies the required 4–6 minute duration and covers every required demonstration element. The Nyla AI voiceover is disclosed. |
+| Human-narrated full demonstration | [Repository MP4](runs/live-20261010T142614Z-b7aaa14e/package/technical_demo/technical-demo-human-narrated.mp4) · [eight-slide source deck](runs/live-20261010T142614Z-b7aaa14e/package/technical_demo/technical-demo-final.pptx) | 7:24 | **Supplementary reviewer version.** Zhekai Li personally narrates the full demonstration. It is intentionally presented as additional evidence because it exceeds the formal 4–6 minute limit. |
+
+The shared narration/content reference is [`docs/technical_demo_script.md`](docs/technical_demo_script.md). An unused [five-slide alternate recording deck](runs/live-20261010T142614Z-b7aaa14e/package/technical_demo/technical-demo-human-recording.pptx) and its [preview](runs/live-20261010T142614Z-b7aaa14e/package/technical_demo/technical-demo-human-recording-thumbnails.jpg) are also retained, but the uploaded human MP4 visibly uses the full eight-slide deck. The course contract requires a narrated demonstration but does not require the student's face, personal voice, or a manually captured screen recording. Reviewers can therefore use the compliant AI-narrated version as the formal submission and the human-narrated version as supplementary confirmation of the student's understanding.
 
 The three articles and their accompanying videos were published after the evidence-grounded live runs, personal review, Google Vids production, and design QA. Final signed-out access and reciprocal-link verification are recorded as part of the publication handoff. On October 12, 2026, all four YouTube uploads were also confirmed to have completed 1920×1080 processing. A downloaded 1080p frame from the first audience video matched its local final source at SSIM 0.9983; a blurry Auto playback session should be switched to 1080p rather than treated as a damaged upload.
 
@@ -39,7 +48,7 @@ The three articles and their accompanying videos were published after the eviden
 | Two complete live runs on different days, duplicate handling, and explicit failure/recovery evidence | October 9 and October 10 runs listed below; failed run retained separately | Complete |
 | Three 600–900 word Substack articles and three matching 3–5 minute Google Vids videos | Published links above; final measured article and video lengths are retained in `review.json` and `video_drafts.json` | Complete |
 | Reciprocal article/video links, source references, shareable free articles, and Unlisted videos | `publication_links.json`, published posts, and YouTube descriptions | Complete |
-| Separate 4–6 minute technical demonstration | Unlisted 5:57 video linked above | Complete |
+| Separate 4–6 minute technical demonstration | Formal Unlisted 5:57 AI-narrated video linked above; supplementary 7:24 human-narrated version retained alongside it | Complete |
 | Submission documentation, architecture, setup, evidence locations, and reflection | This document and linked guides | Complete |
 
 There is no remaining required production or publication action. The repository-level command `python3 scripts/audit_submission.py` checks the final requirement evidence, publication state, course-file hashes, English-only tracked text, claim IDs, local documentation links, and required component permissions.

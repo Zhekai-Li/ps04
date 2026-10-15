@@ -145,6 +145,20 @@ def main() -> int:
     demo_record = load_json(FINAL_RUN / "package/technical_demo/manifest.json")
     check(demo_record.get("status") == "published_unlisted", "technical demonstration is not marked published Unlisted")
     check(demo_record.get("youtube_processed_resolution") == "1920x1080", "technical demonstration lacks verified YouTube 1080p processing")
+    demo_versions = {record["id"]: record for record in demo_record.get("versions", [])}
+    ai_demo = demo_versions.get("ai_narrated_formal", {})
+    human_demo = demo_versions.get("human_narrated_supplementary", {})
+    check(ai_demo.get("role") == "formal_course_submission", "AI-narrated demo is not designated as the formal submission")
+    check(240 <= ai_demo.get("duration_seconds", 0) <= 360, "formal AI-narrated demo is outside 4–6 minutes")
+    check(ai_demo.get("meets_duration_requirement") is True, "formal AI demo duration status is incorrect")
+    check(human_demo.get("role") == "supplementary_reviewer_version", "human-narrated demo is not designated as supplementary")
+    check(human_demo.get("meets_duration_requirement") is False, "human demo duration status is incorrect")
+    check(human_demo.get("duration_seconds", 0) > 360, "supplementary human demo duration metadata is inconsistent")
+    human_video_path = ROOT / human_demo.get("video_path", "missing")
+    check(human_video_path.is_file(), "supplementary human-narrated demo file is missing")
+    if human_video_path.is_file():
+        human_digest = hashlib.sha256(human_video_path.read_bytes()).hexdigest()
+        check(human_digest == human_demo.get("sha256"), "supplementary human demo SHA-256 does not match its manifest")
 
     links = load_json(FINAL_RUN / "package/publication_links.json")
     check(len(links) == 3, "publication link file does not contain three pairs")
